@@ -24,7 +24,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--model",
-        default="base",
+        default="small",
         help="faster-whisper model size (tiny, base, small, medium, large-v3, ...). Default: base",
     )
     parser.add_argument(
