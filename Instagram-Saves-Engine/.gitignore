@@ -1,0 +1,7 @@
+config.json
+state.json
+sync.log
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
