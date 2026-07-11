@@ -7,6 +7,7 @@ import json
 import logging
 import os
 import re
+from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
@@ -136,9 +137,17 @@ def extract_shares(html: str, include_posts: bool) -> list:
     return shares
 
 
+def shared_date_prefix(shared_at: str) -> str:
+    """Parse an export timestamp like 'Jul 09, 2026 10:56 pm' into '2026-07-09'."""
+    try:
+        return datetime.strptime(shared_at, "%b %d, %Y %I:%M %p").strftime("%Y-%m-%d")
+    except ValueError:
+        return "0000-00-00"
+
+
 def build_note_path(notes_dir: Path, post_info: dict) -> Path:
-    """Build a unique note path for a post."""
-    filename = sanitize_filename(post_info["note_title"])
+    """Build a unique, date-prefixed note path for a post."""
+    filename = f"{shared_date_prefix(post_info['shared_at'])}_{sanitize_filename(post_info['note_title'])}"
     path = notes_dir / f"{filename}.md"
     if path.exists():
         path = notes_dir / f"{filename}-{post_info['media_id']}.md"
