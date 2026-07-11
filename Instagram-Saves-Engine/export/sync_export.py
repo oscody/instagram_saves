@@ -10,6 +10,8 @@ import re
 from pathlib import Path
 from typing import Optional
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+
 # Configure logging
 log_formatter = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s",
@@ -19,7 +21,7 @@ log_formatter = logging.Formatter(
 console_handler = logging.StreamHandler()
 console_handler.setFormatter(log_formatter)
 
-file_handler = logging.FileHandler("sync_export.log")
+file_handler = logging.FileHandler(SCRIPT_DIR / "sync_export.log")
 file_handler.setFormatter(log_formatter)
 
 logger = logging.getLogger("ig_export_sync")
@@ -34,7 +36,7 @@ DEFAULT_MESSAGE_HTML = Path(
 )
 DEFAULT_OUTPUT_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG_export")
 
-STATE_FILE = "state_export.json"
+STATE_FILE = SCRIPT_DIR / "state_export.json"
 
 # One message block: sender <h2>, body, trailing timestamp div
 MESSAGE_PATTERN = re.compile(
