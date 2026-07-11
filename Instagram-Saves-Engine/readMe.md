@@ -39,3 +39,15 @@ A few practical notes:
 - Python 3.10 or 3.11 is the safest choice here.
 
 instagram-djboglemusic-2026-07-10-Rk6cAOgC/your_instagram_activity/messages/inbox/shemeirbogle_448720033191192/message_1.html
+
+
+instagram-djboglemusic-2026-07-10-Rk6cAOgC/your_instagram_activity/saved/saved_collections.html
+
+
+
+https://chatgpt.com/share/6a51204f-3d14-83ea-964b-d68fc6e99c7f
+
+https://share.gemini.google/LmjC0JuaENig
+
+
+https://chatgpt.com/share/6a512094-f4d8-83ea-9f81-e6d5f8d3de67
