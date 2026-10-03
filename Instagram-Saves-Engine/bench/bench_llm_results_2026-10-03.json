@@ -1,0 +1,196 @@
+{
+  "llama3.2:3b": {
+    "cold": {
+      "text": "Hello there! \n\n(I can say it in one",
+      "ttft_s": 1.45,
+      "total_s": 4.47,
+      "tokens": 10,
+      "tok_per_s": 2.98
+    },
+    "speed": [
+      {
+        "text": "A Raspi or Raspberry Pi is a series of small, low-power, and highly capable single-board computers developed by the Raspberry Pi Foundation. The first model was released in 2012 and has since become one of the most popular and widely used microcomputers in the world.\n\nThe raspberry pi is designed to be an affordable and accessible way for people to learn about computing, programming, and electronics. It features a quad-core processor, 1GB-4GB of RAM, and a range of connectivity options including Wi-Fi, Bluetooth, and HDMI ports. The device can run a variety of operating systems, including Linux and Windows 10, making it suitable for both beginners and experienced users.\n\nRaspies are often used in educational settings, DIY projects, and home automation applications due to its ease of use, flexibility, and affordability. They have also been adopted in various fields such as robotics, media centers, and retro gaming consoles. With its compact size, low power consumption, high performance,",
+        "ttft_s": 1.45,
+        "total_s": 75.92,
+        "tokens": 200,
+        "tok_per_s": 2.67
+      },
+      {
+        "text": "A Raspi or Raspberry Pi is a series of small, low-power, and highly capable single-board computers developed by the Raspberry Pi Foundation. The first model was released in 2012 and has since become one of the most popular and widely used microcomputers in the world.\n\nThe raspberry pi is designed to be an affordable and accessible way for people to learn about computing, programming, and electronics. It features a quad-core processor, 1GB-4GB of RAM, and a range of connectivity options including Wi-Fi, Bluetooth, and HDMI ports. The device can run a variety of operating systems, including Linux and Windows 10, making it suitable for both beginners and experienced users.\n\nRaspies are often used in educational settings, DIY projects, and home automation applications due to its ease of use, flexibility, and affordability. They have also been adopted in various fields such as robotics, media centers, and retro gaming consoles. With its compact size, low power consumption, high performance,",
+        "ttft_s": 1.46,
+        "total_s": 75.97,
+        "tokens": 200,
+        "tok_per_s": 2.67
+      },
+      {
+        "text": "A Raspi or Raspberry Pi is a series of small, low-power, and highly capable single-board computers developed by the Raspberry Pi Foundation. The first model was released in 2012 and has since become one of the most popular and widely used microcomputers in the world.\n\nThe raspberry pi is designed to be an affordable and accessible way for people to learn about computing, programming, and electronics. It features a quad-core processor, 1GB-4GB of RAM, and a range of connectivity options including Wi-Fi, Bluetooth, and HDMI ports. The device can run a variety of operating systems, including Linux and Windows 10, making it suitable for both beginners and experienced users.\n\nRaspies are often used in educational settings, DIY projects, and home automation applications due to its ease of use, flexibility, and affordability. They have also been adopted in various fields such as robotics, media centers, and retro gaming consoles. With its compact size, low power consumption, high performance,",
+        "ttft_s": 1.46,
+        "total_s": 75.88,
+        "tokens": 200,
+        "tok_per_s": 2.67
+      }
+    ],
+    "long_prompt": {
+      "238": {
+        "text": "To teach cloud code to have almost any real life skills, one needs three systems: a YouTube watch GitHub repo for information gathering, a free Gemini API key for integration with YouTube, followed by an agent framework to turn the gathered data into high-skill agents. \n\nHowever, if you want a direct",
+        "ttft_s": 4.67,
+        "total_s": 28.57,
+        "tokens": 60,
+        "tok_per_s": 2.47
+      },
+      "469": {
+        "text": "To teach cloud code to have almost any life skill set, three systems must first be set up: a YouTube watch GitHub repo for information gathering, a free Gemini API key from GitHub Studio for integration with YouTube, and an agent framework to turn the gathered data into high-priority agents. \n\nHowever,",
+        "ttft_s": 7.29,
+        "total_s": 31.21,
+        "tokens": 60,
+        "tok_per_s": 2.47
+      },
+      "700": {
+        "error": "Response ended prematurely"
+      }
+    },
+    "tagging": {
+      "claude code reel (transcript only)": {
+        "text": "{\n  \"title\": \"Teaching Cloud Code to Watch YouTube\",\n  \"tags\": [\"coding\", \"nyc-events\", \"career\"],\n  \"summary \": \"Using cloud watch, Gemini API, and agent framework to teach cloud code real life skills\"\n} \n\n{\n  \"title\": \"Building a Guide for Teaching Cloud Code to Watch YouTube\",\n  \"tags\": [\"nyc-events\", \"dating\", \"other\"],\n  \"summary \": \"A step-by-step guide to building high skill agents using cloud watch, Gemini API, and agent framework\"\n} \n\n{\n  \"title\": \"My Method for Building High Skill Agents Using Cloud Code\",\n  \"tags\": [\"music\", \"fitness\", \"food\"],\n  \"summary \": \"Using",
+        "ttft_s": 6.16,
+        "total_s": 67.25,
+        "tokens": 150,
+        "tok_per_s": 2.44,
+        "valid_json": false,
+        "off_list_tags": null
+      },
+      "healthy relationship (caption only)": {
+        "text": "[\n  {\n    \"title\": \"What does a healthy relationship look like to you?\",\n    \"tags\": [\"relationships\", \"love\"],\n    \"summary\":\"A conversation about what makes a relationship work\"\n  },\n  {\n    \"title\": \"What made your last relationship end\",\n    \"tags\": [\"dating\", \"breakup\"],\n    \"summary\":\"Reflecting on the reasons behind a past relationship's conclusion\"\n  },\n  {\n    \"title\": \"What\u2019s one lesson love taught you\",\n    \"tags\": [\"love\", \"relationships\"],\n    \"summary\":\"Sharing an important life lesson learned from experiencing love\"\n  },\n  {\n    \"title\": \"Are you dating for fun or for something serious\",\n    \"tags\": [\"dating",
+        "ttft_s": 5.03,
+        "total_s": 66.01,
+        "tokens": 150,
+        "tok_per_s": 2.44,
+        "valid_json": false,
+        "off_list_tags": null
+      },
+      "NYC things to do (caption + song lyrics)": {
+        "text": "{\n  \"title\": \"Missing Her, Missing Time\",\n  \"tags\": [\"relationships\", \"heartbreak\"],\n  \"summary \": \"A poignant reflection on the pain of missing someone and the urgency to make time\"\n} \n{\n  \"title\": \"Run Out of Time\",\n  \"tags\": [\"relationships\", \"time\"],\n  \"summary \": \"A desperate cry for connection and a chance to say goodbye before it's too late\"\n} \n{\n  \"title\": \"Gather You On These Days\",\n  \"tags\": [\"relationships\", \"love\"],\n  \"summary \": \"A nostalgic yearning to hold onto memories and cherish the past\"\n} \n{\n  \"title\": \"I'm Gonna Run Out of Time\",\n ",
+        "ttft_s": 5.01,
+        "total_s": 66.04,
+        "tokens": 150,
+        "tok_per_s": 2.44,
+        "valid_json": false,
+        "off_list_tags": null
+      },
+      "NYC this week (photo post, caption)": {
+        "text": "{\"title\": \"NYC Events This Week\", \"tags\": [\"nyc-events\", \"nyc-weekend\"], \"summary\": \"AUG 31\u2013SEP 6: outdoor movies, live music, food, and more\"}<|start_header_id|>system|`\n{\"title\":\"NYC Nightlife\", \"tags\": [\"nyc-nightlife\", \"nycfun\"], \"summary\": \"Events across Manhattan, Brooklyn, Queens & Staten Island\"} \n\n{\"title\": \"Things to Do in NYC\", \"tags\": [\"things-to-do-nyc\", \"nyc-weekend\"], \"summary\": \"Highlights include Bryant Park Movie Night, JAPAN Fes, BrasilFest NYC, Smorgasburg, SummerStage, \u00c4G\u00c4",
+        "ttft_s": 5.03,
+        "total_s": 66.04,
+        "tokens": 150,
+        "tok_per_s": 2.44,
+        "valid_json": false,
+        "off_list_tags": null
+      }
+    }
+  },
+  "qwen2.5-instruct:1.5b": {
+    "cold": {
+      "text": "Hello!",
+      "ttft_s": 14.57,
+      "total_s": 14.72,
+      "tokens": 2,
+      "tok_per_s": 7.0
+    },
+    "speed": [
+      {
+        "text": "A Raspberry Pi is a small, single board computer that can be used for various purposes such as media centers, home automation systems, and more. It's based on the Broadcom SoC (System-on-Chip) and runs Raspbian, an operating system designed specifically for it. The main features of a Rasberry Pi include its low power consumption, high processing speed, and expandable capabilities. These make it ideal for use cases ranging from simple projects to complex applications like IoT devices or servers. Its portability makes it easy to deploy in different environments, making it a versatile platform for developers and hobbyists alike. In essence, a Raspberry Pi is a powerful, affordable, and flexible computing device with endless possibilities.",
+        "ttft_s": 0.55,
+        "total_s": 21.03,
+        "tokens": 144,
+        "tok_per_s": 6.98
+      },
+      {
+        "text": "A Raspberry Pi is a small, single board computer that can be used for various purposes such as media centers, home automation systems, and more. It's based on the Broadcom SoC (System-on-Chip) and runs Raspbian, an operating system designed specifically for it. The main features of a Rasberry Pi include its low power consumption, high processing speed, and expandable capabilities. These make it ideal for use cases ranging from simple projects to complex applications like IoT devices or servers. Its portability makes it easy to deploy in different environments, making it a versatile platform for developers and hobbyists alike. In essence, a Raspberry Pi is a powerful, affordable, and flexible computing device with endless possibilities.",
+        "ttft_s": 0.54,
+        "total_s": 21.01,
+        "tokens": 144,
+        "tok_per_s": 6.99
+      },
+      {
+        "text": "A Raspberry Pi is a small, single board computer that can be used for various purposes such as media centers, home automation systems, and more. It's based on the Broadcom SoC (System-on-Chip) and runs Raspbian, an operating system designed specifically for it. The main features of a Rasberry Pi include its low power consumption, high processing speed, and expandable capabilities. These make it ideal for use cases ranging from simple projects to complex applications like IoT devices or servers. Its portability makes it easy to deploy in different environments, making it a versatile platform for developers and hobbyists alike. In essence, a Raspberry Pi is a powerful, affordable, and flexible computing device with endless possibilities.",
+        "ttft_s": 0.55,
+        "total_s": 21.1,
+        "tokens": 144,
+        "tok_per_s": 6.96
+      }
+    ],
+    "long_prompt": {
+      "238": {
+        "text": "The text describes a method of using GitHub and Gemini APIs to create agents that can learn from YouTube videos, which is then used as the basis for building various skills-based applications. The author suggests that everyone should build their own methods based on their unique needs and abilities.",
+        "ttft_s": 1.83,
+        "total_s": 9.91,
+        "tokens": 53,
+        "tok_per_s": 6.43
+      },
+      "469": {
+        "text": "The text describes a method of using GitHub repositories and Gemini API keys to build cloud agents that can learn skills from YouTube videos, such as video editing or social media management. The author suggests building these methods themselves rather than just copying them.",
+        "ttft_s": 2.64,
+        "total_s": 9.79,
+        "tokens": 47,
+        "tok_per_s": 6.43
+      },
+      "700": {
+        "text": "The text describes methods for using a cloud code framework to build agents that can learn and apply skills from watching YouTube videos. The author suggests using a GitHub repository with pre-collected information, such as lists of skills or specific tasks, along with Gemini's integration capabilities to achieve this goal.",
+        "ttft_s": 3.87,
+        "total_s": 12.59,
+        "tokens": 57,
+        "tok_per_s": 6.43
+      },
+      "1162": {
+        "text": "The text provides a step-by-step guide on how to use GitHub repositories and Gemini APIs in cloud code development projects. The author also mentions that they built a guide for the method, which is not recommended as everybody's needs are different.",
+        "ttft_s": 5.92,
+        "total_s": 13.08,
+        "tokens": 47,
+        "tok_per_s": 6.43
+      }
+    },
+    "tagging": {
+      "claude code reel (transcript only)": {
+        "text": "{\n  \"title\": \"A guide on how to build a cloud code agent\",\n  \"tags\": [\"career\", \"education\"],\n  \"summary\": \"This is a guide on how to build a cloud code agent using the methods and systems described in the previous video.\"\n}",
+        "ttft_s": 1.84,
+        "total_s": 10.39,
+        "tokens": 56,
+        "tok_per_s": 6.43,
+        "valid_json": true,
+        "off_list_tags": [
+          "education"
+        ]
+      },
+      "healthy relationship (caption only)": {
+        "text": "{\n  \"title\": \"Healthy Relationships\",\n  \"tags\": [\"dating\", \"relationships\"],\n  \"summary\": \"What does a healthy relationship look like to you? What made your last relationship end? What\u2019s one lesson love taught you? Are you dating for fun or something serious? What are your non-negotiables? What do you need most from a partner? How do you handle conflict? Do you communicate when upset or shut down? What\u2019s your biggest red flag in yourself? Have you ever been cheated on? Do you believe people can change? How do you show love? How do you receive love? What\u2019s your biggest fear in relationships? What role does trust play in your life? What role does honesty play?",
+        "ttft_s": 1.84,
+        "total_s": 24.86,
+        "tokens": 150,
+        "tok_per_s": 6.47,
+        "valid_json": false,
+        "off_list_tags": null
+      },
+      "NYC things to do (caption + song lyrics)": {
+        "text": "{\n  \"title\": \"Things to Do August 29th Events in NYC\",\n  \"tags\": [\"thingstodo\", \"brooklyn\"],\n  \"summary\": \"I can't get out of my head I miss her, kiss her, stop her. This act you're this old out the way I'm gonna gather you on these days.\"\n}",
+        "ttft_s": 1.84,
+        "total_s": 13.04,
+        "tokens": 73,
+        "tok_per_s": 6.43,
+        "valid_json": true,
+        "off_list_tags": [
+          "thingstodo",
+          "brooklyn"
+        ]
+      },
+      "NYC this week (photo post, caption)": {
+        "text": "{\n  \"title\": \"AUGUST\",\n  \"tags\": [],\n  \"summary\": \"Outdoor movies \ud83c\udfac rooftop parties \ud83e\udea9 live jazz \ud83c\udfba food festivals \ud83c\udf5c circus arts \ud83c\udfaa county fairs \ud83c\udfa1 and Caribbean celebrations \ud83c\udf34\"\n}",
+        "ttft_s": 1.42,
+        "total_s": 10.43,
+        "tokens": 59,
+        "tok_per_s": 6.43,
+        "valid_json": true,
+        "off_list_tags": []
+      }
+    }
+  }
+}
