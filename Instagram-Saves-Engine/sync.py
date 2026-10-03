@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """Sync Instagram saved posts to markdown notes."""
 
+import argparse
 import json
 import logging
 import os
 import re
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
 import requests
+from yt_dlp.cookies import extract_cookies_from_browser
 
 # Configure logging
 log_formatter = logging.Formatter(
@@ -38,21 +41,42 @@ IG_USER_AGENT = (
 )
 
 STATE_FILE = "state.json"
-CONFIG_FILE = "config.json"
 NOTES_DIR = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG/Notes")
 
 
-def load_config() -> dict:
-    """Load configuration from config.json."""
-    try:
-        with open(CONFIG_FILE, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        logger.error(f"{CONFIG_FILE} not found. Copy from config.example.json and fill in values.")
-        raise
-    except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON in {CONFIG_FILE}: {e}")
-        raise
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Sync Instagram saved posts to markdown notes.")
+    parser.add_argument(
+        "--notes-dir",
+        type=Path,
+        default=NOTES_DIR,
+        help=f"Directory for markdown notes. Default: {NOTES_DIR}",
+    )
+    parser.add_argument(
+        "--firefox-profile",
+        default=None,
+        help="Firefox profile name/path to read the Instagram login cookies from.",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Optional maximum number of new notes to create.",
+    )
+    return parser.parse_args()
+
+
+def load_firefox_cookies(profile: Optional[str]) -> dict:
+    """Read Instagram cookies from the logged in Firefox profile."""
+    jar = extract_cookies_from_browser("firefox", profile)
+    cookies = {
+        cookie.name: cookie.value
+        for cookie in jar
+        if cookie.domain.endswith("instagram.com")
+    }
+    if "sessionid" not in cookies:
+        raise RuntimeError("No Instagram sessionid cookie in Firefox. Log into Instagram in Firefox first.")
+    return cookies
 
 
 def load_state() -> dict:
@@ -291,28 +315,25 @@ def create_markdown_note(post_info: dict) -> bool:
         return False
 
 
-def main():
+def main() -> int:
     """Main sync function."""
+    global NOTES_DIR
+    args = parse_args()
+    NOTES_DIR = args.notes_dir
+
     logger.info("=" * 60)
     logger.info("Instagram → Markdown Sync Started")
     logger.info("=" * 60)
 
     try:
-        # Load config
-        config = load_config()
-        logger.info("✓ Config loaded")
-
-        # Setup Instagram cookies
-        cookies = {
-            "sessionid": config["ig_session_id"],
-            "csrftoken": config["ig_csrftoken"],
-            "ds_user_id": config["ig_user_id"],
-        }
+        # Load Instagram cookies from Firefox
+        cookies = load_firefox_cookies(args.firefox_profile)
+        logger.info("✓ Firefox cookies loaded")
 
         # Validate Instagram session
         if not validate_instagram_session(cookies):
-            logger.error("Failed to validate Instagram session. Check credentials.")
-            return
+            logger.error("Failed to validate Instagram session. Log into Instagram in Firefox again.")
+            return 1
 
         # Load state
         state = load_state()
@@ -329,6 +350,9 @@ def main():
         error_count = 0
 
         for post in saved_posts:
+            if args.limit is not None and new_count >= args.limit:
+                break
+
             post_data = post.get("media", post)
             media_id = post_data.get("pk")
             if not media_id:
@@ -361,11 +385,13 @@ def main():
             f"{len(saved_posts)} total | {error_count} errors"
         )
         logger.info("=" * 60)
+        return 0 if error_count == 0 else 1
 
     except Exception as e:
         logger.error(f"Sync failed: {e}", exc_info=True)
         logger.error("=" * 60)
+        return 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
