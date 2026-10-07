@@ -1,6 +1,6 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media. Transcribe and describe come next.
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text. Describe comes next.
 
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before.
 
@@ -104,7 +104,7 @@ The first complete pass through a long chat can take 30 to 60 minutes. You can s
 
 ## Download the media: `download.py`
 
-`download.py` reads `output/iambogle.json` and downloads each post's media into its own folder in `/home/homepi/Work/ig/instagram_saves/IG/`. Run the exporter first, and never run the two at the same time: both write `iambogle.json`.
+`download.py` reads `output/iambogle.json` and downloads each post's media into its own folder in `/home/homepi/Work/ig/instagram_saves/IG/`. Run the exporter first. Run one script at a time: they all write `iambogle.json`.
 
 ```
 cd /home/homepi/Work/ig/instagram_saves/ig_automation
@@ -140,13 +140,45 @@ IG/
 
 | Option | What it does |
 | --- | --- |
-| `--limit N` | Download at most N posts, the newest that still need it |
+| `--limit N` | Download at most N posts, the newest that still need it. Without it, every post that needs it is downloaded, which takes hours |
 | `--retry-failed` | Also try posts whose `error` is set |
 | `--shortcode CODE` | Only this post. Can be given more than once |
 | `--dry-run` | List the posts that would be downloaded, with their file names, then stop |
 | `--json PATH` | Export file to read and update. Default: `output/iambogle.json` |
 | `--ig-dir DIR` | Folder for the post folders. Default: `../IG` |
 | `--min-sleep`, `--max-sleep` | Pause between posts, in seconds. Default: 5 and 12 |
+
+## Transcribe the reels: `transcribe.py`
+
+`transcribe.py` turns the `.mp3` of each downloaded reel into text with faster-whisper on the CPU (`base` model, int8, the same settings as the first test on this Pi). Run it after `download.py`, never at the same time as another script.
+
+```
+cd /home/homepi/Work/ig/instagram_saves/ig_automation
+../Instagram-Saves-Engine/.venv/bin/python transcribe.py --limit 3
+```
+
+The transcript goes next to the audio, as `<shortcode> - <title>_transcript.txt` in the post's folder.
+
+### How it works
+
+* **Which posts:** newest first, every post with `downloaded: true`, `transcribed: false`, `error: false` and an `.mp3` in `files`. Photo and carousel posts have no audio, so they are skipped and keep `transcribed: false`.
+* **No speech:** a reel with only music or silence gets an empty transcript and still `transcribed: true`, so it is not tried again every run. Music with lyrics comes out as the lyrics.
+* **Trust the folder:** a post marked `transcribed` whose transcript file is gone is transcribed again. A post whose `.mp3` is gone gets `downloaded: false`, so the next `download.py` run fetches it again.
+* **After each post:** `transcribed` becomes `true`, and `iambogle.json` is saved. The transcript is not added to `files`, which lists only downloaded media.
+* **On failure:** `error` gets the reason, and later runs skip the post unless you pass `--retry-failed`.
+* **Speed:** about 3 times faster than real time on the Pi 5 (54 seconds of audio in 20 seconds). The model loads once per run.
+
+### Options
+
+| Option | What it does |
+| --- | --- |
+| `--limit N` | Transcribe at most N posts, newest first |
+| `--retry-failed` | Also try posts whose `error` is set |
+| `--shortcode CODE` | Only this post. Can be given more than once |
+| `--dry-run` | List the posts that would be transcribed, then stop |
+| `--model NAME` | faster-whisper model. Default: `base`. `small` is more accurate and slower |
+| `--language CODE` | Force a language, for example `en`. Default: detect it |
+| `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
 
 ## Troubleshooting
 
