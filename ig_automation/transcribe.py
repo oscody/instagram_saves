@@ -19,6 +19,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger("ig_transcribe")
 
+CPU_TEMP = Path("/sys/class/thermal/thermal_zone0/temp")  # thousandths of a degree C
+COOL_CHECK_SECONDS = 15
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -44,7 +47,52 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--dry-run", action="store_true", help="List the posts that would be transcribed, then stop.")
     parser.add_argument("--model", default="base", help="faster-whisper model size. Default: base")
     parser.add_argument("--language", default=None, help="Force a language code (e.g. en). Default: auto-detect.")
-    return parser.parse_args()
+    # The Pi 5 throttles at about 85 C. Without a fan, transcribing gets there in about 4 minutes.
+    parser.add_argument(
+        "--max-temp",
+        type=float,
+        default=80.0,
+        help="Pause before the next reel when the CPU is at or above this, in C. Default: 80",
+    )
+    parser.add_argument(
+        "--resume-temp",
+        type=float,
+        default=70.0,
+        help="After a pause, continue once the CPU is down to this, in C. Default: 70",
+    )
+    parser.add_argument(
+        "--max-wait",
+        type=int,
+        default=600,
+        help="Longest single pause, in seconds; carries on after it even if still warm. Default: 600",
+    )
+    args = parser.parse_args()
+    if args.resume_temp >= args.max_temp:
+        parser.error("--resume-temp must be lower than --max-temp")
+    return args
+
+
+def cpu_temp() -> float:
+    return int(CPU_TEMP.read_text()) / 1000
+
+
+def cool_down(max_temp: float, resume_temp: float, max_wait: int) -> float:
+    """Wait while the CPU is too hot. Returns the seconds spent waiting."""
+    temp = cpu_temp()
+    if temp < max_temp:
+        return 0.0
+    logger.info(f"  CPU at {temp:.1f}C, pausing until it is down to {resume_temp:.0f}C")
+    started = time.monotonic()
+    while temp > resume_temp:
+        waited = time.monotonic() - started
+        if waited >= max_wait:
+            logger.warning(f"  still {temp:.1f}C after {waited:.0f}s, carrying on")
+            return waited
+        time.sleep(COOL_CHECK_SECONDS)
+        temp = cpu_temp()
+    waited = time.monotonic() - started
+    logger.info(f"  cooled to {temp:.1f}C in {waited:.0f}s")
+    return waited
 
 
 def audio_name(record: dict) -> str | None:
@@ -94,10 +142,16 @@ def main() -> int:
     logger.info(f"Loading faster-whisper '{args.model}' (cpu, int8)")
     model = WhisperModel(args.model, device="cpu", compute_type="int8")
 
-    done = failed = 0
+    done = failed = pauses = 0
+    paused = 0.0
+    run_started = time.monotonic()
     for index, record in enumerate(todo, start=1):
+        waited = cool_down(args.max_temp, args.resume_temp, args.max_wait)
+        if waited:
+            pauses += 1
+            paused += waited
         audio = post_dir(args.ig_dir, record) / audio_name(record)
-        logger.info(f"[{index}/{len(todo)}] {record['shortcode']}")
+        logger.info(f"[{index}/{len(todo)}] {record['shortcode']} (CPU {cpu_temp():.1f}C)")
         if not audio.exists():
             # The download stage fetches the post again on its next run.
             record["downloaded"] = False
@@ -121,7 +175,11 @@ def main() -> int:
             logger.warning(f"  ✗ {record['error']}")
         save(data, args.json)
 
-    logger.info(f"Done. Transcribed: {done} | Failed: {failed}")
+    total = time.monotonic() - run_started
+    logger.info(
+        f"Done. Transcribed: {done} | Failed: {failed} | "
+        f"Time: {total / 60:.1f} min, of which cooling {paused / 60:.1f} min in {pauses} pauses"
+    )
     return 0 if failed == 0 else 1
 
 

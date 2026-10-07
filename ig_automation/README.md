@@ -1,6 +1,6 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text and writes a title and summary on the Hailo-10H.
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text and writes a title and summary on the Hailo-10H. `run_pipeline.py` runs the last three in batches until everything is done.
 
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before.
 
@@ -168,7 +168,20 @@ The transcript goes next to the audio, as `<shortcode> - <title>_transcript.txt`
 * **Trust the folder:** a post marked `transcribed` whose transcript file is gone is transcribed again. A post whose `.mp3` is gone gets `downloaded: false`, so the next `download.py` run fetches it again.
 * **After each post:** `transcribed` becomes `true`, and `iambogle.json` is saved. The transcript is not added to `files`, which lists only downloaded media.
 * **On failure:** `error` gets the reason, and later runs skip the post unless you pass `--retry-failed`.
-* **Speed:** about 3 times faster than real time on the Pi 5 (54 seconds of audio in 20 seconds). The model loads once per run.
+* **Speed:** about 2 to 3 times faster than real time on the Pi 5 (54 seconds of audio in 20 seconds). The model loads once per run.
+* **Cool down:** transcribing keeps all 4 CPU cores busy, and without a fan the Pi reaches 85 °C and throttles after about 4 minutes. So before each reel the script reads the CPU temperature (`/sys/class/thermal/thermal_zone0/temp`). At `--max-temp` (80 °C) or above it pauses, checking every 15 seconds, until the CPU is down to `--resume-temp` (70 °C). If a single pause reaches `--max-wait` (10 minutes) it carries on anyway, with a warning. Each reel's log line shows the CPU temperature, and the final line shows the total time and how much of it was cooling.
+
+Example from a 16 reel run (2026-10-07, no fan): 9.0 minutes in total, 3.5 of them cooling in 6 pauses of 15 to 75 seconds. The CPU peaked at 83.7 °C (it can pass 80 °C during a long reel, because the check happens between reels) and was not throttling at the end.
+
+```
+[7/16] Dc4wqcKgQNk (CPU 79.3C)
+  ✓ 225 words, en, 68s of audio in 28s
+  CPU at 80.4C, pausing until it is down to 70C
+  cooled to 69.4C in 15s
+[8/16] DeDMJ5_B2QR (CPU 69.4C)
+...
+Done. Transcribed: 16 | Failed: 0 | Time: 9.0 min, of which cooling 3.5 min in 6 pauses
+```
 
 ### Options
 
@@ -180,6 +193,9 @@ The transcript goes next to the audio, as `<shortcode> - <title>_transcript.txt`
 | `--dry-run` | List the posts that would be transcribed, then stop |
 | `--model NAME` | faster-whisper model. Default: `base`. `small` is more accurate and slower |
 | `--language CODE` | Force a language, for example `en`. Default: detect it |
+| `--max-temp C` | Pause before the next reel at or above this CPU temperature. Default: 80 |
+| `--resume-temp C` | Continue once the CPU is down to this. Must be lower than `--max-temp`. Default: 70 |
+| `--max-wait SECONDS` | Longest single pause; carries on after it even if still warm. Default: 600 |
 | `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
 
 ## Describe the posts on the Hailo: `describe.py`
@@ -242,6 +258,23 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 * **The model sometimes invents details:** in one test run it made up song titles and cast names for an anime announcement. Treat summaries as a rough guide, not facts.
 * **Transcription mistakes carry through:** "CLAUDE.md" heard as "Clod.MD" ends up in the title.
 * **Summaries are only as good as the input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption.
+
+## Run everything: `run_pipeline.py`
+
+`run_pipeline.py` runs `download.py`, `transcribe.py` and `describe.py` in batches until every post is done. Each batch takes the newest 100 posts that still need a stage through all three stages, one script after another (never at the same time). Finished posts appear early, and hailo-ollama is back between batches instead of being off for hours.
+
+Start it detached, so it keeps running if the terminal closes:
+
+```
+cd /home/homepi/Work/ig/instagram_saves/ig_automation
+setsid nohup ../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py --batch 100 > output/pipeline.log 2>&1 < /dev/null &
+```
+
+* **Follow it:** `tail -f output/pipeline.log`. Each batch starts with a `Pending:` line counting what is left.
+* **Stop cleanly** after the current batch: `touch output/STOP`. Stopping at once (`pkill -INT -f run_pipeline.py`) is also safe: every script saves after each post, and describe always starts hailo-ollama again.
+* **It stops by itself** when nothing is left, or when a whole batch makes no progress (for example every download failing because the Instagram login expired).
+* **Options:** `--batch N` (posts per stage per batch, default 100), `--max-batches N`.
+* Run the exporter first if you want newer posts included; the runner does not export.
 
 ## Troubleshooting
 
