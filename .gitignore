@@ -5,3 +5,4 @@ IG_export/
 ig_automation/__pycache__/
 ig_automation/output/
 IG/
+hailort.log

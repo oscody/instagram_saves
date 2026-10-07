@@ -1,6 +1,6 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text. Describe comes next.
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text and writes a title and summary on the Hailo-10H.
 
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before.
 
@@ -180,10 +180,72 @@ The transcript goes next to the audio, as `<shortcode> - <title>_transcript.txt`
 | `--language CODE` | Force a language, for example `en`. Default: detect it |
 | `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
 
+## Describe the posts on the Hailo: `describe.py`
+
+`describe.py` reads the text in each post's images on the Hailo-10H (PaddleOCR), then writes a short title and summary with the Qwen2.5 1.5B model on the Hailo, from the caption, the transcript and that on screen text. Run it after `download.py` and `transcribe.py`, one script at a time.
+
+```
+cd /home/homepi/Work/ig/instagram_saves/ig_automation
+../Instagram-Saves-Engine/.venv/bin/python describe.py --limit 3
+```
+
+### What it writes
+
+* `IG/<shortcode>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
+* `IG/<shortcode>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
+* In `iambogle.json`: `ai_title`, `summary`, and `described: true`.
+
+Example (photo post `Db-54v5IBSj`):
+
+* `ai_title`: "MacKenzie Scott's Fellowship Launches AI Solutions for Black Community Issues"
+* `summary`: "The Marshall Heights Community Development Organization launched a dedicated AI fellowships for Black men focused on solving pressing community issues. ..."
+
+### How it works
+
+1. **Picks posts:** newest first, `downloaded: true`, `described: false`, `error: false`. Reels wait until they are transcribed. Posts whose files are missing get `downloaded: false` so `download.py` fetches them again.
+2. **Frames first, on the CPU,** with ffmpeg, before touching the Hailo.
+3. **Takes the Hailo:** checks the chip with `hailortcli fw-control identify`, takes the hailo-mcp lock (`$XDG_RUNTIME_DIR/hailo-mcp.lock`, so hailo-mcp requests wait), and stops hailo-ollama (`sudo -n systemctl stop hailo-ollama`, allowed without a password by `/etc/sudoers.d/hailo-ollama`).
+4. **OCR stage:** every image of every post. The raw text goes to `_ocr.txt`. A spell corrected copy (Hailo's SymSpell corrector, which splits run together words like `SCOTTLAUNCHED`) goes to the LLM.
+5. **Title and summary stage:** two short questions per post to Qwen2.5, one for the title and one for the summary. Markdown, "Title:" labels and "Sure, here's a summary:" openings are removed, and the summary is cut to 3 sentences.
+6. **Gives the Hailo back:** hailo-ollama is always started again and the lock released, even after an error or Ctrl+C. Results are written to `iambogle.json` only at the end, so an interrupted run changes nothing.
+
+Each model is loaded once per run, not once per post. Each stage opens the Hailo device fresh: on HailoRT 5.1.1, loading the LLM on a device handle that had already held another GenAI model failed with `HAILO_INTERNAL_FAILURE(8)`. The Pi temperature and throttle flag are logged at each stage.
+
+**Speed:** about 20 seconds per post (OCR takes about 1 second, the two LLM questions the rest), plus about 5 seconds to stop and start hailo-ollama.
+
+### Options
+
+| Option | What it does |
+| --- | --- |
+| `--limit N` | Describe at most N posts, newest first |
+| `--retry-failed` | Also try posts whose `error` is set |
+| `--redo` | Describe posts again even if `described` is already `true` (after a prompt change) |
+| `--shortcode CODE` | Only this post. Can be given more than once |
+| `--dry-run` | List the posts that would be described, then stop |
+| `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
+
+### Setup it needs (done 2026-10-06)
+
+* The engine venv sees system packages (`include-system-site-packages = true` in `../Instagram-Saves-Engine/.venv/pyvenv.cfg`), for HailoRT (`hailo_platform`) and OpenCV.
+* `shapely`, `pyclipper` and `symspellpy` installed in that venv, for the OCR post processing.
+* hailo-apps cloned at `~/Work/hailo-apps`: the OCR code and the spell dictionary are imported from `hailo_apps/python/standalone_apps/paddle_ocr`.
+* Models in `/usr/local/hailo/resources/models/hailo10h/`: `ocr_det.hef`, `ocr.hef`, `Qwen2.5-1.5B-Instruct.hef`.
+* The sudoers rule `/etc/sudoers.d/hailo-ollama`.
+
+### Known limits
+
+* **No image description.** Qwen2-VL-2B on the Hailo was tried and dropped: on Instagram images it described things that were not there (for example "one person in a red shirt" for a slide showing four men and large text). It answers correctly on ordinary photos, but not on text heavy posts at its 336 x 336 input.
+* **Images are skipped for now.** A CPU vision model (`qwen2.5vl:3b` in ollama) was also tested: excellent descriptions that read on screen text far better than the OCR, but about 3 minutes per image, and the Pi overheated and throttled. The tests and the recommended shape for a later optional image step are in the vault note `plan - ig_automation pipeline by claude`.
+* **OCR is rough:** it often drops spaces and misreads small text. The spell corrector fixes most joined words but sometimes guesses wrong ("woan" becomes "loan").
+* **Summaries are only as good as the input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption.
+
 ## Troubleshooting
 
 * **`No Instagram sessionid cookie in Firefox`:** log into instagram.com in Firefox ESR.
 * **`HTTP 401` or `HTTP 403`:** the session expired. Log in again in Firefox.
 * **`No DM thread found`:** check the username, or use the chat title exactly as Instagram shows it.
+* **`describe.py`: `Another program is using the Hailo`:** hailo-mcp is in the middle of a request. Wait and run again.
+* **`describe.py`: `sudo: a password is required`:** the sudoers rule `/etc/sudoers.d/hailo-ollama` is missing or wrong. Check it with `sudo -n -l`.
+* **hailo-ollama not running after describe:** start it with `sudo systemctl start hailo-ollama`. describe always tries to, so check its log for the error.
 * **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped.
 * **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them.
