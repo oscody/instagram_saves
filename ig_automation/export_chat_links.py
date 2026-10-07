@@ -36,6 +36,16 @@ OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 DEFAULT_CHAT = "iambogle"  # Shemeir Bogle
 
 IG_URL_PATTERN = re.compile(r"https?://(?:www\.)?instagram\.com/(?:p|reel|reels|tv)/[\w-]+/?\S*")
+IG_PATH_PATTERN = re.compile(r"instagram\.com/(p|reel|reels|tv)/([\w-]+)")
+
+# Pipeline status kept on every record. Stages set these; the exporter only adds them.
+STATUS_DEFAULTS = {
+    "downloaded": False,
+    "transcribed": False,
+    "described": False,
+    "error": False,
+    "files": [],
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -60,7 +70,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--full",
         action="store_true",
-        help="Start over: ignore the saved file and re-scan the whole chat.",
+        help="Re-scan the whole chat from the newest message. Saved links and their status are kept.",
     )
     parser.add_argument(
         "--max-pages",
@@ -147,6 +157,18 @@ def media_to_link(media: dict) -> dict:
     }
 
 
+def link_from_url(url: str) -> Optional[dict]:
+    """Reduce a pasted or shared Instagram URL to the standard form, keyed by shortcode."""
+    match = IG_PATH_PATTERN.search(url)
+    if not match:
+        return None
+    kind, code = match.groups()
+    if kind in ("reel", "reels"):
+        return {"url": f"https://instagram.com/reel/{code}/", "shortcode": code, "type": "Reel"}
+    # /p/ links can be a photo or a carousel; the download stage reads the real type.
+    return {"url": f"https://instagram.com/p/{code}/", "shortcode": code, "type": "Post"}
+
+
 def extract_links(item: dict) -> list:
     """Return the shared post/reel links in one message, if any."""
     item_type = item.get("item_type")
@@ -167,13 +189,16 @@ def extract_links(item: dict) -> list:
     elif item_type.startswith("xma"):
         for xma in item.get(item_type) or []:
             target = xma.get("target_url") or ""
-            if IG_URL_PATTERN.match(target):
-                links.append({"url": target, "author": xma.get("header_title_text"), "caption": xma.get("title_text", "")})
+            link = link_from_url(target) if IG_URL_PATTERN.match(target) else None
+            if link:
+                links.append({**link, "author": xma.get("header_title_text"), "caption": xma.get("title_text", "")})
 
     # Plain text and link messages can also carry pasted Instagram URLs.
     text = item.get("text") or (item.get("link") or {}).get("text") or ""
     for url in IG_URL_PATTERN.findall(text):
-        links.append({"url": url, "message_text": text})
+        link = link_from_url(url)
+        if link:
+            links.append({**link, "message_text": text})
 
     return links
 
@@ -183,17 +208,28 @@ SENT_AT_FORMAT = "%b %d, %Y, %I:%M %p"  # local time, e.g. "Oct 05, 2026, 11:32 
 
 def build_record(item: dict, link: dict) -> dict:
     sent_at = datetime.fromtimestamp(int(item["timestamp"]) / 1_000_000).astimezone()
-    return {
+    record = {
         "sent_at": sent_at.strftime(SENT_AT_FORMAT),
         "item_type": item.get("item_type"),
         **link,
     }
+    add_missing_status(record)
+    return record
 
 
 def load_existing(path: Path) -> dict:
     if path.exists():
         return json.loads(path.read_text())
     return {"links": [], "scan": {}}
+
+
+def add_missing_status(record: dict) -> bool:
+    """Give an older record the status fields it lacks. Existing values are never changed."""
+    missing = [key for key in STATUS_DEFAULTS if key not in record]
+    for key in missing:
+        value = STATUS_DEFAULTS[key]
+        record[key] = list(value) if isinstance(value, list) else value
+    return bool(missing)
 
 
 class PageLimitReached(Exception):
@@ -219,8 +255,13 @@ class ChatExporter:
         self.thread_id = thread["thread_id"]
         self.usernames = {str(u["pk"]): u["username"] for u in thread.get("users", [])}
         self.out_path = out_path
-        # Keyed by URL, so a post shared more than once is listed once (its newest share).
-        self.records = {r["url"]: r for r in existing.get("links", [])}
+        # Keyed by shortcode, so a post shared more than once, or linked as both /p/ and
+        # /reel/, is listed once (its newest share).
+        self.records = {}
+        for record in existing.get("links", []):
+            key = record.get("shortcode") or (link_from_url(record["url"]) or {}).get("shortcode") or record["url"]
+            self.records.setdefault(key, record)
+        self.upgraded = sum(add_missing_status(r) for r in self.records.values())
         self.scan = existing.get("scan", {})
         self.added = 0
         self.pages = 0
@@ -240,8 +281,8 @@ class ChatExporter:
         if not links and item.get("item_type") not in SKIP_TYPES:
             self.unhandled[item["item_type"]] = self.unhandled.get(item["item_type"], 0) + 1
         for link in links:
-            if link["url"] not in self.records:
-                self.records[link["url"]] = build_record(item, link)
+            if link["shortcode"] not in self.records:
+                self.records[link["shortcode"]] = build_record(item, link)
                 self.added += 1
 
     def save(self) -> None:
@@ -324,8 +365,13 @@ def main() -> int:
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     out_path = args.output_dir / f"{args.chat.lstrip('@')}.json"
-    existing = {"links": [], "scan": {}} if args.full else load_existing(out_path)
+    existing = load_existing(out_path)
+    if args.full:
+        # Forget how far the chat was read, but keep the links: they hold pipeline status.
+        existing["scan"] = {}
     exporter = ChatExporter(cookies, thread, out_path, existing)
+    if exporter.upgraded:
+        logger.info(f"Added status fields to {exporter.upgraded} saved links")
 
     try:
         if "newest_us" in exporter.scan:

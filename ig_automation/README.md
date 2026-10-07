@@ -52,7 +52,12 @@ The file looks like this. Links are listed newest first:
       "shortcode": "DeArCx4K4x6",
       "type": "Reel",
       "author": "theolduniverseofficial",
-      "caption": "follow along as we turn our book series into..."
+      "caption": "follow along as we turn our book series into...",
+      "downloaded": false,
+      "transcribed": false,
+      "described": false,
+      "error": false,
+      "files": []
     }
   ]
 }
@@ -62,6 +67,8 @@ The file looks like this. Links are listed newest first:
 * `item_type` is the kind of DM message the link came from (`clip`, `media_share` and so on).
 * `type` is `Reel`, `Carousel`, `Post` or `Other`.
 * URLs use the same format as `sync.py`, so they can feed the `download_media.py` pipeline.
+* `shortcode` identifies the post. Every link is saved in the standard form, `https://instagram.com/reel/<shortcode>/` or `https://instagram.com/p/<shortcode>/`, even when it was pasted with `www.` or a `?igsh=` query string.
+* `downloaded`, `transcribed`, `described`, `error` and `files` track the rest of the pipeline (download, transcribe, describe). New links start with `false`, `false`, `false`, `false` and `[]`. The later stages set them; this script only adds them and never changes them, so re-running it never loses pipeline progress. `error` is `false`, or the reason text when a stage failed.
 * `scan` records how far the script has read the chat. Do not edit it.
 
 ## How it works
@@ -79,7 +86,7 @@ Each run has two phases:
 * **Catch-up:** reads from the newest message down and stops at the first message it has already scanned. Once the history is complete, this is the only phase, and a run takes a few seconds.
 * **Backfill:** until the whole chat has been read once, the script continues backward from `resume_cursor`, the point where the last run stopped.
 
-Links already in the file are never changed or removed. A run only adds new ones. Each URL is listed once: if a post was shared more than once, the file keeps its newest share.
+Links already in the file are never changed or removed. A run only adds new ones, plus any missing status fields on older links. Each post is listed once, matched by shortcode: if a post was shared more than once, pasted as a link, or linked as both `/p/` and `/reel/`, the file keeps its newest share.
 
 The first complete pass through a long chat can take 30 to 60 minutes. You can stop it with Ctrl-C at any time, and the next run picks up where it left off.
 
@@ -91,7 +98,7 @@ The first complete pass through a long chat can take 30 to 60 minutes. You can s
 | `--firefox-profile PATH` | Firefox profile to read the cookies from |
 | `--output-dir DIR` | Where to write the JSON. Default: `output/` in this folder |
 | `--max-pages N` | Stop after N pages (for testing). The next run continues from there |
-| `--full` | Ignore the saved file and re-scan the whole chat from scratch |
+| `--full` | Re-read the whole chat from the newest message. Saved links and their status are kept, so this only finds links a normal run missed |
 
 ## Troubleshooting
 
@@ -99,7 +106,3 @@ The first complete pass through a long chat can take 30 to 60 minutes. You can s
 * **`HTTP 401` or `HTTP 403`:** the session expired. Log in again in Firefox.
 * **`No DM thread found`:** check the username, or use the chat title exactly as Instagram shows it.
 * **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them.
-
-## TODO
-
-* **Normalize pasted links before checking for duplicates.** Shared posts and reels always get a URL like `https://instagram.com/reel/<shortcode>/`, but an Instagram link pasted into a text message is saved exactly as typed, for example `https://www.instagram.com/reel/<shortcode>/?igsh=...`. The two forms do not match, so the same post can be listed twice. Fix: before the duplicate check, reduce pasted links to the standard form (drop `www.` and the query string). Or check duplicates by shortcode instead of URL, which also catches the same post linked as both `/p/` and `/reel/`.
