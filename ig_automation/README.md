@@ -1,5 +1,7 @@
 # ig_automation
 
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media. Transcribe and describe come next.
+
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before.
 
 ## Run it
@@ -100,9 +102,56 @@ The first complete pass through a long chat can take 30 to 60 minutes. You can s
 | `--max-pages N` | Stop after N pages (for testing). The next run continues from there |
 | `--full` | Re-read the whole chat from the newest message. Saved links and their status are kept, so this only finds links a normal run missed |
 
+## Download the media: `download.py`
+
+`download.py` reads `output/iambogle.json` and downloads each post's media into its own folder in `/home/homepi/Work/ig/instagram_saves/IG/`. Run the exporter first, and never run the two at the same time: both write `iambogle.json`.
+
+```
+cd /home/homepi/Work/ig/instagram_saves/ig_automation
+../Instagram-Saves-Engine/.venv/bin/python download.py --limit 3
+```
+
+### Where files go
+
+One folder per post, named by its shortcode. Files are named `<shortcode> - <title>`, where the title is the first line of the caption without hashtags, mentions, emoji or symbols, cut to about 50 characters. A post with no usable caption uses just the shortcode.
+
+```
+IG/
+├── DeArCx4K4x6/                                       reel
+│   ├── DeArCx4K4x6 - follow along as we turn our book series into an.mp4
+│   └── DeArCx4K4x6 - follow along as we turn our book series into an.mp3
+├── DeF0y--HLPy/                                       carousel
+│   ├── DeF0y--HLPy - Comment prompting and Ill send you the full guide_1.jpg
+│   └── ... _2.jpg to _10.jpg, in slide order (video slides are .mp4)
+└── Db-54v5IBSj/                                       single photo
+    └── Db-54v5IBSj - Philanthropy in action looks like creating direct.jpg
+```
+
+### How it works
+
+* **Which posts:** newest first, every post with `downloaded: false` and `error: false`. A post marked `downloaded` whose files are missing from its folder is downloaded again.
+* **Reels:** yt-dlp with the Firefox cookies (`--remux-video mp4`), then ffmpeg makes a 16 kHz mono `.mp3` for transcribing. yt-dlp is never self updated.
+* **Photos and carousels:** no yt-dlp. The script asks Instagram's API for the post's media and saves the largest version of each image, or video slide, in slide order. A `/p/` link that turns out to be a video is handled like a reel. The record's `type` is corrected from the API.
+* **After each post:** `files` lists the files written, `downloaded` becomes `true` and `error` becomes `false`, and `iambogle.json` is saved, so an interrupted run keeps its progress.
+* **On failure:** `downloaded` stays `false` and `error` gets the reason, for example `HTTP 400 on /media/.../info/` for a deleted or private post. Later runs skip it unless you pass `--retry-failed`.
+* **Pauses:** 5 to 12 seconds between posts, to avoid Instagram rate limits.
+
+### Options
+
+| Option | What it does |
+| --- | --- |
+| `--limit N` | Download at most N posts, the newest that still need it |
+| `--retry-failed` | Also try posts whose `error` is set |
+| `--shortcode CODE` | Only this post. Can be given more than once |
+| `--dry-run` | List the posts that would be downloaded, with their file names, then stop |
+| `--json PATH` | Export file to read and update. Default: `output/iambogle.json` |
+| `--ig-dir DIR` | Folder for the post folders. Default: `../IG` |
+| `--min-sleep`, `--max-sleep` | Pause between posts, in seconds. Default: 5 and 12 |
+
 ## Troubleshooting
 
 * **`No Instagram sessionid cookie in Firefox`:** log into instagram.com in Firefox ESR.
 * **`HTTP 401` or `HTTP 403`:** the session expired. Log in again in Firefox.
 * **`No DM thread found`:** check the username, or use the chat title exactly as Instagram shows it.
+* **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped.
 * **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them.
