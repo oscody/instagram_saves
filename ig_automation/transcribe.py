@@ -9,7 +9,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-from download import DEFAULT_JSON, IG_DIR, save, short_error
+from download import DEFAULT_JSON, IG_DIR, post_dir, save, short_error
 from export_chat_links import SENT_AT_FORMAT
 
 logging.basicConfig(
@@ -53,7 +53,7 @@ def audio_name(record: dict) -> str | None:
 
 
 def transcript_path(record: dict, ig_dir: Path) -> Path:
-    return ig_dir / record["shortcode"] / (Path(audio_name(record)).stem + "_transcript.txt")
+    return post_dir(ig_dir, record) / (Path(audio_name(record)).stem + "_transcript.txt")
 
 
 def needs_transcript(record: dict, ig_dir: Path, retry_failed: bool) -> bool:
@@ -96,8 +96,7 @@ def main() -> int:
 
     done = failed = 0
     for index, record in enumerate(todo, start=1):
-        post_dir = args.ig_dir / record["shortcode"]
-        audio = post_dir / audio_name(record)
+        audio = post_dir(args.ig_dir, record) / audio_name(record)
         logger.info(f"[{index}/{len(todo)}] {record['shortcode']}")
         if not audio.exists():
             # The download stage fetches the post again on its next run.

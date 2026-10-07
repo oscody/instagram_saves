@@ -22,7 +22,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from download import DEFAULT_JSON, IG_DIR, save, short_error
+from download import DEFAULT_JSON, IG_DIR, post_dir, save, short_error
 from export_chat_links import SENT_AT_FORMAT
 
 # Hailo's standalone PaddleOCR example holds the OCR pre and post processing.
@@ -96,11 +96,11 @@ def base_of(record: dict) -> str:
     return re.sub(r"_\d+$", "", first)
 
 
-def transcript_text(record: dict, post_dir: Path) -> str:
+def transcript_text(record: dict, folder: Path) -> str:
     audio = next((name for name in record["files"] if name.endswith(".mp3")), None)
     if not audio:
         return ""
-    path = post_dir / (Path(audio).stem + "_transcript.txt")
+    path = folder / (Path(audio).stem + "_transcript.txt")
     return path.read_text(encoding="utf-8").strip() if path.exists() else ""
 
 
@@ -132,19 +132,19 @@ def grab_frame(video: Path, seconds: float, out: Path) -> None:
         raise RuntimeError(f"ffmpeg wrote no frame at {seconds:.1f}s")
 
 
-def post_images(record: dict, post_dir: Path) -> list:
+def post_images(record: dict, folder: Path) -> list:
     """Images to read: 3 frames spread over a reel, or a photo's or carousel's own images.
 
     A video slide in a carousel gives one frame from its middle.
     """
     base = base_of(record)
-    media = [post_dir / name for name in record["files"] if not name.endswith(".mp3")]
+    media = [folder / name for name in record["files"] if not name.endswith(".mp3")]
     if record.get("type") == "Reel":
         video = media[0]
         duration = video_duration(video)
         frames = []
         for n in range(1, FRAMES_PER_REEL + 1):
-            out = post_dir / f"{base}_frame_{n}.jpg"
+            out = folder / f"{base}_frame_{n}.jpg"
             grab_frame(video, duration * (2 * n - 1) / (2 * FRAMES_PER_REEL), out)
             frames.append(out)
         return frames
@@ -298,6 +298,7 @@ def clean(text: str) -> str:
 
 
 TITLE_ASK = "Write one short title (at most 8 words) for this Instagram post. Reply with only the title."
+# Telling it not to mention the user or the request made it worse: it echoed the instruction.
 SUMMARY_ASK = "Summarize this Instagram post in 2 or 3 sentences. Reply with only the summary."
 
 
@@ -341,13 +342,33 @@ def make_title(llm, job: dict) -> str:
     return strip_markup(title, "title")
 
 
+def tidy_summary(text: str) -> str:
+    """Clean the small model's summary: markup, talk about the task, repeats, run on text."""
+    summary = " ".join(strip_markup(text, "summary").split())
+    # It wraps its answer in talk about the task: "Sure, here's ...:",
+    # "The summary of the Instagram post is:", "The user is asking for a summary ...".
+    summary = re.sub(r"^(sure|here)[^:]{0,80}:\s*", "", summary, flags=re.IGNORECASE)
+    summary = re.sub(r"[^.!?:]*\bsummar[^.!?:]*:\s*", "", summary, flags=re.IGNORECASE)
+    sentences = [sentence.strip(' "\'') for sentence in re.findall(r"[^.!?]+[.!?]*", summary)]
+    kept, seen = [], []
+    for sentence in sentences:
+        words = set(re.findall(r"\w+", sentence.lower()))
+        if not words or re.search(r"summar", sentence, re.IGNORECASE):
+            continue
+        # It often ends by saying its first sentence again in other words.
+        if any(len(words & other) / len(words | other) > 0.5 for other in seen):
+            continue
+        seen.append(words)
+        kept.append(sentence)
+    # It also runs on and copies its input; keep 3 sentences, without a cut off fragment at the end.
+    kept = kept[:3]
+    if len(kept) > 1 and not kept[-1].endswith((".", "!", "?")):
+        kept.pop()
+    return " ".join(kept)
+
+
 def make_summary(llm, job: dict) -> str:
-    summary = " ".join(strip_markup(ask(llm, job, SUMMARY_ASK), "summary").split())
-    # Drop a "Sure, here's a summary ...:" opening.
-    summary = re.sub(r"^(sure|here)[^:]{0,80}:\s*", "", summary, flags=re.IGNORECASE).strip('"\' ')
-    # The small model sometimes runs on and copies its input; keep the first 3 sentences.
-    sentences = re.findall(r"[^.!?]+[.!?]+", summary) or [summary]
-    summary = " ".join(sentence.strip() for sentence in sentences[:3])
+    summary = tidy_summary(ask(llm, job, SUMMARY_ASK))
     if not summary:
         raise RuntimeError("LLM gave an empty summary")
     return summary
@@ -418,16 +439,16 @@ def main() -> int:
     # Frames and inputs first, on the CPU, before the Hailo is taken from hailo-ollama.
     jobs = []
     for record in todo:
-        post_dir = args.ig_dir / record["shortcode"]
-        if not all((post_dir / name).exists() for name in record["files"]):
+        folder = post_dir(args.ig_dir, record)
+        if not all((folder / name).exists() for name in record["files"]):
             record["downloaded"] = False  # download.py fetches it again
             logger.warning(f"  ✗ {record['shortcode']} downloaded files missing, marked for download again")
             continue
-        job = {"record": record, "dir": post_dir, "ocr": ""}
+        job = {"record": record, "dir": folder, "ocr": ""}
         try:
             job["base"] = base_of(record)
-            job["images"] = post_images(record, post_dir)
-            job["transcript"] = transcript_text(record, post_dir)
+            job["images"] = post_images(record, folder)
+            job["transcript"] = transcript_text(record, folder)
         except Exception as exc:  # noqa: BLE001
             job["error"] = short_error(exc)
             logger.warning(f"  ✗ {record['shortcode']} {job['error']}")

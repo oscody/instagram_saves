@@ -100,6 +100,15 @@ def make_title(caption: str) -> str:
     return title
 
 
+def post_dir(ig_dir: Path, record: dict) -> Path:
+    """The post's folder, named by when it was shared so folders sort in date order.
+
+    For example IG/2026-10-05_2332_DeArCx4K4x6 (24 hour time, local).
+    """
+    sent_at = datetime.strptime(record["sent_at"], SENT_AT_FORMAT)
+    return ig_dir / f"{sent_at:%Y-%m-%d_%H%M}_{record['shortcode']}"
+
+
 def base_name(record: dict) -> str:
     title = make_title(record.get("caption", ""))
     return f"{record['shortcode']} - {title}" if title else record["shortcode"]
@@ -112,9 +121,9 @@ def media_id(shortcode: str) -> int:
     return number
 
 
-def files_present(record: dict, post_dir: Path) -> bool:
+def files_present(record: dict, folder: Path) -> bool:
     files = record.get("files") or []
-    return bool(files) and all((post_dir / name).exists() for name in files)
+    return bool(files) and all((folder / name).exists() for name in files)
 
 
 def needs_download(record: dict, ig_dir: Path, retry_failed: bool) -> bool:
@@ -123,7 +132,7 @@ def needs_download(record: dict, ig_dir: Path, retry_failed: bool) -> bool:
     if not record.get("downloaded"):
         return True
     # Trust the folder: a post marked downloaded whose files are gone is downloaded again.
-    return not files_present(record, ig_dir / record["shortcode"])
+    return not files_present(record, post_dir(ig_dir, record))
 
 
 def run(cmd: list) -> None:
@@ -134,10 +143,10 @@ def run(cmd: list) -> None:
         raise RuntimeError(errors[-1].strip() if errors else f"{cmd[0]} exited with code {result.returncode}")
 
 
-def download_video(record: dict, post_dir: Path, base: str, firefox_profile: str) -> list:
+def download_video(record: dict, folder: Path, base: str, firefox_profile: str) -> list:
     """Reel or single video: yt-dlp for the mp4, ffmpeg for the mp3 that transcribe uses."""
-    video = post_dir / f"{base}.mp4"
-    audio = post_dir / f"{base}.mp3"
+    video = folder / f"{base}.mp4"
+    audio = folder / f"{base}.mp3"
     run([
         sys.executable, "-m", "yt_dlp",
         "--cookies-from-browser", f"firefox:{firefox_profile}",
@@ -146,7 +155,7 @@ def download_video(record: dict, post_dir: Path, base: str, firefox_profile: str
         "--quiet", "--no-warnings",
         "--force-overwrites",
         # Titles hold only letters, digits and spaces, so there is no "%" to escape.
-        "--output", str(post_dir / f"{base}.%(ext)s"),
+        "--output", str(folder / f"{base}.%(ext)s"),
         record["url"],
     ])
     if not video.exists():
@@ -170,7 +179,7 @@ def save_url(url: str, path: Path) -> None:
     tmp.replace(path)
 
 
-def download_images(media: dict, post_dir: Path, base: str) -> list:
+def download_images(media: dict, folder: Path, base: str) -> list:
     """Photo or carousel, straight from the media info. Links expire, so they are fetched now."""
     if media.get("media_type") == 8:
         slides = media.get("carousel_media") or []
@@ -180,22 +189,22 @@ def download_images(media: dict, post_dir: Path, base: str) -> list:
     files = []
     for slide, name in zip(slides, names):
         if slide.get("video_versions"):
-            path = post_dir / f"{name}.mp4"
+            path = folder / f"{name}.mp4"
             save_url(best(slide["video_versions"]), path)
         else:
-            path = post_dir / f"{name}.jpg"
+            path = folder / f"{name}.jpg"
             save_url(best(slide["image_versions2"]["candidates"]), path)
         files.append(path.name)
     return files
 
 
 def download_post(record: dict, ig_dir: Path, cookies: dict, firefox_profile: str) -> None:
-    post_dir = ig_dir / record["shortcode"]
-    post_dir.mkdir(parents=True, exist_ok=True)
+    folder = post_dir(ig_dir, record)
+    folder.mkdir(parents=True, exist_ok=True)
     base = base_name(record)
 
     if record.get("type") == "Reel":
-        files = download_video(record, post_dir, base, firefox_profile)
+        files = download_video(record, folder, base, firefox_profile)
     else:
         # /p/ links can be a photo, a carousel or a video; the media info says which.
         info = api_get(cookies, f"/media/{media_id(record['shortcode'])}/info/")
@@ -204,9 +213,9 @@ def download_post(record: dict, ig_dir: Path, cookies: dict, firefox_profile: st
             raise RuntimeError("Post not found (deleted or private)")
         record["type"] = media_to_link(items[0])["type"]
         if items[0].get("media_type") == 2:
-            files = download_video(record, post_dir, base, firefox_profile)
+            files = download_video(record, folder, base, firefox_profile)
         else:
-            files = download_images(items[0], post_dir, base)
+            files = download_images(items[0], folder, base)
 
     record["files"] = files
     record["downloaded"] = True
@@ -262,7 +271,7 @@ def main() -> int:
         try:
             download_post(record, args.ig_dir, cookies, args.firefox_profile)
             done += 1
-            logger.info(f"  ✓ {len(record['files'])} files in {args.ig_dir / record['shortcode']}")
+            logger.info(f"  ✓ {len(record['files'])} files in {post_dir(args.ig_dir, record)}")
         except Exception as exc:  # noqa: BLE001
             failed += 1
             record["downloaded"] = False

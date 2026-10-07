@@ -113,19 +113,21 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 
 ### Where files go
 
-One folder per post, named by its shortcode. Files are named `<shortcode> - <title>`, where the title is the first line of the caption without hashtags, mentions, emoji or symbols, cut to about 50 characters. A post with no usable caption uses just the shortcode.
+One folder per post, named by when it was shared in the DM chat and its shortcode: `YYYY-MM-DD_HHMM_<shortcode>`, in 24 hour local time. The date comes first, so the folders sort in date order in any file browser. Files inside are named `<shortcode> - <title>`, where the title is the first line of the caption without hashtags, mentions, emoji or symbols, cut to about 50 characters. A post with no usable caption uses just the shortcode.
 
 ```
 IG/
-├── DeArCx4K4x6/                                       reel
-│   ├── DeArCx4K4x6 - follow along as we turn our book series into an.mp4
-│   └── DeArCx4K4x6 - follow along as we turn our book series into an.mp3
-├── DeF0y--HLPy/                                       carousel
+├── 2026-08-14_0748_Db-54v5IBSj/                        single photo
+│   └── Db-54v5IBSj - Philanthropy in action looks like creating direct.jpg
+├── 2026-10-04_2149_DeF0y--HLPy/                        carousel
 │   ├── DeF0y--HLPy - Comment prompting and Ill send you the full guide_1.jpg
 │   └── ... _2.jpg to _10.jpg, in slide order (video slides are .mp4)
-└── Db-54v5IBSj/                                       single photo
-    └── Db-54v5IBSj - Philanthropy in action looks like creating direct.jpg
+└── 2026-10-05_2332_DeArCx4K4x6/                        reel
+    ├── DeArCx4K4x6 - follow along as we turn our book series into an.mp4
+    └── DeArCx4K4x6 - follow along as we turn our book series into an.mp3
 ```
+
+All three scripts get the folder from one helper, `post_dir()` in `download.py`. The date never changes, because the exporter never changes a saved post.
 
 ### How it works
 
@@ -191,8 +193,8 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 
 ### What it writes
 
-* `IG/<shortcode>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
-* `IG/<shortcode>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
+* `IG/<folder>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
+* `IG/<folder>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
 * In `iambogle.json`: `ai_title`, `summary`, and `described: true`.
 
 Example (photo post `Db-54v5IBSj`):
@@ -206,12 +208,12 @@ Example (photo post `Db-54v5IBSj`):
 2. **Frames first, on the CPU,** with ffmpeg, before touching the Hailo.
 3. **Takes the Hailo:** checks the chip with `hailortcli fw-control identify`, takes the hailo-mcp lock (`$XDG_RUNTIME_DIR/hailo-mcp.lock`, so hailo-mcp requests wait), and stops hailo-ollama (`sudo -n systemctl stop hailo-ollama`, allowed without a password by `/etc/sudoers.d/hailo-ollama`).
 4. **OCR stage:** every image of every post. The raw text goes to `_ocr.txt`. A spell corrected copy (Hailo's SymSpell corrector, which splits run together words like `SCOTTLAUNCHED`) goes to the LLM.
-5. **Title and summary stage:** two short questions per post to Qwen2.5, one for the title and one for the summary. Markdown, "Title:" labels and "Sure, here's a summary:" openings are removed, and the summary is cut to 3 sentences.
+5. **Title and summary stage:** two short questions per post to Qwen2.5, one for the title and one for the summary. The small model does not follow format instructions well, so its answers are cleaned in code (`tidy_summary`): markdown and "Title:" labels removed, talk about the task removed ("Sure, here's a summary:", "The summary of the Instagram post is:", any sentence mentioning "summary"), sentences that repeat an earlier one dropped, at most 3 sentences, and no cut off fragment at the end. Telling it in the prompt not to mention the request made it worse (it repeated the instruction), so the prompt stays plain.
 6. **Gives the Hailo back:** hailo-ollama is always started again and the lock released, even after an error or Ctrl+C. Results are written to `iambogle.json` only at the end, so an interrupted run changes nothing.
 
 Each model is loaded once per run, not once per post. Each stage opens the Hailo device fresh: on HailoRT 5.1.1, loading the LLM on a device handle that had already held another GenAI model failed with `HAILO_INTERNAL_FAILURE(8)`. The Pi temperature and throttle flag are logged at each stage.
 
-**Speed:** about 20 seconds per post (OCR takes about 1 second, the two LLM questions the rest), plus about 5 seconds to stop and start hailo-ollama.
+**Speed:** about 20 seconds per post (OCR takes about 1 second, the two LLM questions the rest), plus about 5 seconds to stop and start hailo-ollama. 20 posts took 6 to 7 minutes.
 
 ### Options
 
@@ -237,6 +239,8 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 * **No image description.** Qwen2-VL-2B on the Hailo was tried and dropped: on Instagram images it described things that were not there (for example "one person in a red shirt" for a slide showing four men and large text). It answers correctly on ordinary photos, but not on text heavy posts at its 336 x 336 input.
 * **Images are skipped for now.** A CPU vision model (`qwen2.5vl:3b` in ollama) was also tested: excellent descriptions that read on screen text far better than the OCR, but about 3 minutes per image, and the Pi overheated and throttled. The tests and the recommended shape for a later optional image step are in the vault note `plan - ig_automation pipeline by claude`.
 * **OCR is rough:** it often drops spaces and misreads small text. The spell corrector fixes most joined words but sometimes guesses wrong ("woan" becomes "loan").
+* **The model sometimes invents details:** in one test run it made up song titles and cast names for an anime announcement. Treat summaries as a rough guide, not facts.
+* **Transcription mistakes carry through:** "CLAUDE.md" heard as "Clod.MD" ends up in the title.
 * **Summaries are only as good as the input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption.
 
 ## Troubleshooting
