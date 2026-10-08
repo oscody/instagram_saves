@@ -214,10 +214,41 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 * `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption, the transcript and the on screen text. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `described_by`, `described_at`.
 * In `iambogle.json`: `ai_title`, `summary`, `described_by` (the model, for example `claude-haiku-5-5` or `qwen2.5-1.5b-instruct (hailo)`), `described_at` (date), and `described: true`. `author` was already taken by the Instagram account, so the model goes in `described_by`.
 
-Example (photo post `Db-54v5IBSj`):
+Example note (reel `Dd2F41WFQgF`, Claude). Its title and summary are also in `iambogle.json`; the steps and source are only here:
 
-* `ai_title`: "MacKenzie Scott's Fellowship Launches AI Solutions for Black Community Issues"
-* `summary`: "The Marshall Heights Community Development Organization launched a dedicated AI fellowships for Black men focused on solving pressing community issues. ..."
+```markdown
+---
+shortcode: "Dd2F41WFQgF"
+url: "https://instagram.com/reel/Dd2F41WFQgF/"
+type: "Reel"
+author: "bashi_fuirkashi"
+shared: "..."
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-07"
+---
+
+# Side projects that impress employers
+
+A tech creator argues that side projects nobody uses mostly help you learn but don't impress employers. ...
+
+Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Build projects that have real users, not ones only you use.
+2. Aim for production-level problems, since those show real engineering experience.
+...
+
+## Source
+
+* How to get it: Comment IMPRESSIVE; the creator says he will send the link
+
+## Caption
+## Transcript
+## On screen text
+```
+
+A post Qwen described (or one that teaches nothing) has no "What it teaches" section. Posts described before 2026-10-07 got their note from `--notes-only` and have an empty `described_at`.
 
 ### How it works
 
@@ -290,11 +321,12 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 * **OCR is rough:** it often drops spaces and misreads small text. The spell corrector fixes most joined words but sometimes guesses wrong ("woan" becomes "loan").
 * **Qwen2.5 sometimes invents details:** in one test run it made up song titles and cast names for an anime announcement. Treat summaries as a rough guide, not facts.
 * **Transcription mistakes carry through:** "CLAUDE.md" heard as "Clod.MD" ends up in the title.
-* **Summaries are only as good as the input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption.
+* **Qwen summaries are only as good as the text input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption. Claude reads the slides itself, so this mostly affects Qwen posts until they are upgraded.
+* **Links are often not in the post:** about 384 captions say "comment X and I'll send you..." or "link in bio", while only about 92 captions and 49 on screen texts contain a URL. The note then records how to get the material (the keyword), not a link. Claude is told never to invent one.
 
 ## Run everything: `run_pipeline.py`
 
-`run_pipeline.py` runs `download.py`, `transcribe.py` and `describe.py` in batches until every post is done. Each batch takes the newest 100 posts that still need a stage through all three stages, one script after another (never at the same time). Finished posts appear early, and hailo-ollama is back between batches instead of being off for hours.
+`run_pipeline.py` runs `download.py`, `transcribe.py` and `describe.py` in batches until every post is done. describe runs with its defaults, so Claude writes the titles, summaries and notes, and the Hailo takes over when Claude is at its usage limit. Each batch takes the newest 100 posts that still need a stage through all three stages, one script after another (never at the same time). Finished posts appear early, and hailo-ollama is back between batches instead of being off for hours.
 
 Start it detached, so it keeps running if the terminal closes:
 
@@ -316,6 +348,7 @@ setsid nohup ../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py --batch 
 
 ## Troubleshooting
 
+* **A video plays with no sound:** the sound is in the `.mp4` (an AAC audio track, check with `ffprobe -v error -show_entries stream=codec_type,codec_name -of csv=p=0 FILE.mp4`). Instagram reels come down as VP9 video with AAC audio, an unusual mix: VS Code and Obsidian play VP9 but have no AAC support, so they show the picture with no sound. VLC plays them fine. The separate `.mp3` is a copy of the audio made on purpose for transcribe. Not fixed yet; options are to ask yt-dlp for H.264 (`-S vcodec:h264`, new downloads only) or convert the audio of existing videos to Opus in a `.webm`.
 * **`No Instagram sessionid cookie in Firefox`:** log into instagram.com in Firefox ESR.
 * **`HTTP 401` or `HTTP 403`:** the session expired. Log in again in Firefox.
 * **`No DM thread found`:** check the username, or use the chat title exactly as Instagram shows it.
