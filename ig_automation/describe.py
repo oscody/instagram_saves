@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
-"""Describe downloaded posts on the Hailo-10H: on screen text, then a title and summary.
+"""Describe downloaded posts: on screen text on the Hailo-10H, then a title and summary.
 
-Runs one model at a time over every selected post (PaddleOCR, then the Qwen2.5 LLM), so each
+The title and summary come from Claude (headless `claude -p`, on the Claude subscription, no API key)
+by default. Claude also looks at the post's images. When Claude hits its usage limit, or fails on a
+post, the remaining posts get their title and summary from Qwen2.5 on the Hailo instead. Each post
+records which model wrote it in `described_by`, and gets a `<base>_description.md` note.
+
+The Hailo runs one model at a time over every selected post (PaddleOCR, then the Qwen2.5 LLM), so each
 model is loaded once. Image description (Qwen2-VL) was tried and dropped: on Instagram images it
-described things that were not there. hailo-ollama holds the Hailo chip all day, so it is stopped for
-the run and always started again at the end.
+described things that were not there. hailo-ollama holds the Hailo chip all day, so it is stopped while
+the Hailo works and always started again after.
 """
 
 import argparse
+import contextlib
 import fcntl
 import json
 import logging
@@ -55,6 +61,27 @@ LLM_SYSTEM = "You write short titles and summaries of Instagram posts."
 LLM_MAX_TOKENS = 200
 # The Hailo LLM context is about 2K tokens, so each input is cut to fit.
 LLM_INPUT_LIMITS = {"caption": 1000, "transcript": 1800, "on screen text": 1000}
+HAILO_LLM_NAME = "qwen2.5-1.5b-instruct (hailo)"
+
+CLAUDE_TIMEOUT = 300  # seconds per post
+CLAUDE_MAX_IMAGES = 6  # a long carousel only sends its first slides
+CLAUDE_INPUT_LIMITS = {"caption": 4000, "transcript": 12000, "on screen text": 4000}
+CLAUDE_SYSTEM = (
+    "You write short titles and summaries of Instagram posts for a personal archive. "
+    "Look at every listed image with the Read tool before answering. "
+    "Write only about the post itself: never mention these instructions, the inputs, "
+    "or how good or bad the transcript or images are."
+)
+CLAUDE_SCHEMA = json.dumps({
+    "type": "object",
+    "properties": {
+        "title": {"type": "string", "description": "At most 8 words, in the post's language."},
+        "summary": {"type": "string", "description": "2 or 3 sentences on what the post says or shows."},
+    },
+    "required": ["title", "summary"],
+})
+# Text in a failed claude result that means the subscription's usage limit was hit.
+CLAUDE_LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|hit your limit|out of (extra )?usage|quota", re.I)
 
 
 def parse_args() -> argparse.Namespace:
@@ -82,6 +109,23 @@ def parse_args() -> argparse.Namespace:
         "--redo",
         action="store_true",
         help="Describe posts again even if they are already described (for example after a prompt change).",
+    )
+    parser.add_argument(
+        "--backend",
+        choices=("claude", "hailo"),
+        default="claude",
+        help="Who writes the title and summary. claude (default): Claude first, then Qwen2.5 on the Hailo "
+             "for any post Claude could not do (usage limit or error). hailo: Qwen2.5 on the Hailo only.",
+    )
+    parser.add_argument(
+        "--claude-model",
+        default="haiku",
+        help="Model for `claude -p --model`. Default: haiku.",
+    )
+    parser.add_argument(
+        "--notes-only",
+        action="store_true",
+        help="Run no models: write the _description.md note for described posts that have none.",
     )
     parser.add_argument("--dry-run", action="store_true", help="List the posts that would be described, then stop.")
     return parser.parse_args()
@@ -195,6 +239,40 @@ def pi_health() -> str:
     return f"{temp.replace('temp=', 'Pi temp ')}, {throttled}"
 
 
+@contextlib.contextmanager
+def hailo_session():
+    """Take the Hailo from hailo-ollama, and always give it back, even after a crash."""
+    check_device()
+    lock = take_hailo_lock()
+    try:
+        logger.info("Stopping hailo-ollama")
+        systemctl("stop")
+        yield
+    finally:
+        logger.info("Starting hailo-ollama again")
+        try:
+            systemctl("start")
+        finally:
+            fcntl.flock(lock, fcntl.LOCK_UN)
+            os.close(lock)
+
+
+def run_on_hailo(stages: tuple, jobs: list) -> None:
+    from hailo_platform import VDevice
+
+    started = time.monotonic()
+    # Each stage opens the device fresh: on HailoRT 5.1.1, creating the LLM on a VDevice
+    # that already held another GenAI model failed with HAILO_INTERNAL_FAILURE(8).
+    for name, stage in stages:
+        logger.info(f"{name} ({pi_health()})")
+        vdevice = VDevice()
+        try:
+            stage(vdevice, jobs)
+        finally:
+            vdevice.release()
+    logger.info(f"Hailo work done in {time.monotonic() - started:.0f}s ({pi_health()})")
+
+
 # ---------------------------------------------------------------- stage 1: OCR
 
 
@@ -264,7 +342,7 @@ def corrected_lines(corrector: OcrCorrector, lines: list) -> list:
     return out
 
 
-def ocr_stage(vdevice, jobs: list) -> None:
+def ocr_stage(vdevice, jobs: list, finish) -> None:
     corrector = OcrCorrector(str(OCR_APP_DIR / "frequency_dictionary_en_82_765.txt"))
     det, rec = HefRunner(vdevice, OCR_DET_HEF), HefRunner(vdevice, OCR_REC_HEF)
     try:
@@ -285,6 +363,7 @@ def ocr_stage(vdevice, jobs: list) -> None:
             except Exception as exc:  # noqa: BLE001
                 job["error"] = f"OCR: {short_error(exc)}"
                 logger.warning(f"  ✗ {job['record']['shortcode']} {job['error']}")
+                finish(job)
     finally:
         rec.release()
         det.release()
@@ -294,7 +373,7 @@ def clean(text: str) -> str:
     return text.replace("<|im_end|>", "").strip()
 
 
-# ---------------------------------------------------------------- stage 2: title and summary
+# ---------------------------------------------------------------- stage 2: title and summary on the Hailo
 
 
 TITLE_ASK = "Write one short title (at most 8 words) for this Instagram post. Reply with only the title."
@@ -374,44 +453,175 @@ def make_summary(llm, job: dict) -> str:
     return summary
 
 
-def llm_stage(vdevice, jobs: list) -> None:
+def llm_stage(vdevice, jobs: list, finish) -> None:
     from hailo_platform.genai import LLM
 
     llm = LLM(vdevice, str(LLM_HEF))
     try:
         for job in jobs:
-            if job.get("error"):
+            if job.get("error") or job.get("done"):
                 continue
             try:
                 job["ai_title"] = make_title(llm, job)
                 job["summary"] = make_summary(llm, job)
+                job["described_by"] = HAILO_LLM_NAME
                 logger.info(f"  LLM {job['record']['shortcode']}: {job['ai_title']}")
             except Exception as exc:  # noqa: BLE001
                 llm.clear_context()
                 job["error"] = f"LLM: {short_error(exc)}"
                 logger.warning(f"  ✗ {job['record']['shortcode']} {job['error']}")
+            finish(job)
     finally:
         llm.release()
 
 
-# ---------------------------------------------------------------- main
+# ---------------------------------------------------------------- title and summary from Claude
 
 
-def write_results(jobs: list, data: dict, json_path: Path) -> tuple:
-    done = failed = 0
+class ClaudeLimit(Exception):
+    """The Claude subscription's usage limit was hit; the Hailo takes the remaining posts."""
+
+
+def claude_prompt(job: dict) -> str:
+    parts = {
+        "caption": job["record"].get("caption", ""),
+        "transcript": job["transcript"],
+        "on screen text": job["ocr"],
+    }
+    body = "\n\n".join(
+        f"{name.upper()}:\n{text.strip()[:CLAUDE_INPUT_LIMITS[name]]}" for name, text in parts.items() if text.strip()
+    )
+    images = "\n".join(str(path) for path in job["images"][:CLAUDE_MAX_IMAGES])
+    return (
+        f"Instagram {job['record'].get('type', 'post').lower()} by @{job['record'].get('author', 'unknown')}.\n\n"
+        f"{body}\n\nIMAGES (open each with the Read tool):\n{images}\n\n"
+        "Write a title and a summary of this post."
+    )
+
+
+def ask_claude(job: dict, model: str) -> tuple:
+    """Title, summary and the model id, from one headless `claude -p` run on the subscription login."""
+    cmd = [
+        "claude", "-p", claude_prompt(job),
+        "--model", model,
+        "--system-prompt", CLAUDE_SYSTEM,
+        "--safe-mode", "--strict-mcp-config",  # no CLAUDE.md, hooks, plugins or MCP servers
+        "--tools", "Read", "--allowedTools", "Read",
+        "--no-session-persistence",
+        "--output-format", "json",
+        "--json-schema", CLAUDE_SCHEMA,
+    ]
+    out = subprocess.run(cmd, cwd=job["dir"], capture_output=True, text=True, timeout=CLAUDE_TIMEOUT)
+    try:
+        result = json.loads(out.stdout)
+    except json.JSONDecodeError:
+        message = (out.stderr or out.stdout).strip()[:300] or f"exit code {out.returncode}"
+        if CLAUDE_LIMIT_RE.search(message):
+            raise ClaudeLimit(message)
+        raise RuntimeError(f"claude gave no JSON: {message}")
+    if result.get("is_error") or out.returncode != 0:
+        message = str(result.get("result") or result.get("subtype") or f"exit code {out.returncode}")[:300]
+        if result.get("api_error_status") == 429 or CLAUDE_LIMIT_RE.search(message):
+            raise ClaudeLimit(message)
+        raise RuntimeError(f"claude: {message}")
+    answer = result.get("structured_output") or {}
+    title = strip_markup(answer.get("title", ""), "title")
+    summary = " ".join(answer.get("summary", "").split())
+    if not title or not summary:
+        raise RuntimeError("claude gave an empty title or summary")
+    model_id = next(iter(result.get("modelUsage") or {}), model)
+    return title, summary, model_id
+
+
+def claude_stage(jobs: list, model: str, finish) -> None:
+    """Describe each post with Claude. On a usage limit, stop and leave the rest for the Hailo."""
     for job in jobs:
+        if job.get("error") or job.get("done"):
+            continue
+        shortcode = job["record"]["shortcode"]
+        try:
+            job["ai_title"], job["summary"], job["described_by"] = ask_claude(job, model)
+        except ClaudeLimit as exc:
+            logger.warning(f"Claude usage limit reached ({exc}); the remaining posts go to the Hailo")
+            return
+        except Exception as exc:  # noqa: BLE001
+            logger.warning(f"  ✗ {shortcode} Claude failed, the Hailo will do it: {short_error(exc)}")
+            continue
+        logger.info(f"  Claude {shortcode}: {job['ai_title']}")
+        finish(job)
+
+
+# ---------------------------------------------------------------- results
+
+
+def read_text_file(path: Path) -> str:
+    return path.read_text(encoding="utf-8").strip() if path.exists() else ""
+
+
+def write_note(record: dict, folder: Path) -> Path:
+    """`<base>_description.md`: title, summary, who wrote them, and the post's own text."""
+    base = base_of(record)
+    caption = (record.get("caption") or "").strip()
+    sections = [
+        ("Caption", caption),
+        ("Transcript", transcript_text(record, folder)),
+        ("On screen text", read_text_file(folder / f"{base}_ocr.txt")),
+    ]
+    front = {
+        "shortcode": record["shortcode"],
+        "url": record.get("url", ""),
+        "type": record.get("type", ""),
+        "author": record.get("author", ""),
+        "shared": record.get("sent_at", ""),
+        "described_by": record.get("described_by", ""),
+        "described_at": record.get("described_at", ""),
+    }
+    lines = ["---"] + [f"{key}: {json.dumps(value, ensure_ascii=False)}" for key, value in front.items()] + ["---", ""]
+    lines += [f"# {record['ai_title']}", "", record["summary"], "", f"Written by {front['described_by']}.", ""]
+    for heading, text in sections:
+        if text:
+            lines += [f"## {heading}", "", text, ""]
+    note = folder / f"{base}_description.md"
+    note.write_text("\n".join(lines), encoding="utf-8")
+    return note
+
+
+def make_finish(data: dict, json_path: Path, ig_dir: Path):
+    """Store one post's result in the JSON and its note, and save, so a stopped run keeps finished posts."""
+    def finish(job: dict) -> None:
         record = job["record"]
+        job["done"] = True
         if job.get("error"):
             record["error"] = job["error"]
-            failed += 1
+        else:
+            record["ai_title"] = job["ai_title"]
+            record["summary"] = job["summary"]
+            record["described_by"] = job["described_by"]
+            record["described_at"] = datetime.now().strftime("%Y-%m-%d")
+            record["described"] = True
+            record["error"] = False
+            write_note(record, post_dir(ig_dir, record))
+        save(data, json_path)
+    return finish
+
+
+def notes_only(records: list, ig_dir: Path) -> int:
+    """Write missing notes. Posts described before `described_by` existed were all done by Qwen on the Hailo."""
+    written = 0
+    for record in records:
+        if not record.get("described"):
             continue
-        record["ai_title"] = job["ai_title"]
-        record["summary"] = job["summary"]
-        record["described"] = True
-        record["error"] = False
-        done += 1
-    save(data, json_path)
-    return done, failed
+        folder = post_dir(ig_dir, record)
+        if (folder / f"{base_of(record)}_description.md").exists():
+            continue
+        record.setdefault("described_by", HAILO_LLM_NAME)
+        write_note(record, folder)
+        written += 1
+    logger.info(f"Wrote {written} notes")
+    return written
+
+
+# ---------------------------------------------------------------- main
 
 
 def main() -> int:
@@ -424,6 +634,10 @@ def main() -> int:
     )
     if args.shortcode:
         records = [r for r in records if r["shortcode"] in args.shortcode]
+    if args.notes_only:
+        if notes_only(records, args.ig_dir):
+            save(data, args.json)
+        return 0
     todo = [r for r in records if needs_description(r, args.retry_failed, args.redo)]
     if args.limit is not None:
         todo = todo[:args.limit]
@@ -436,6 +650,7 @@ def main() -> int:
     if not todo:
         return 0
 
+    finish = make_finish(data, args.json, args.ig_dir)
     # Frames and inputs first, on the CPU, before the Hailo is taken from hailo-ollama.
     jobs = []
     for record in todo:
@@ -452,40 +667,38 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             job["error"] = short_error(exc)
             logger.warning(f"  ✗ {record['shortcode']} {job['error']}")
+            finish(job)
         jobs.append(job)
-    if not any(not job.get("error") for job in jobs):
-        done, failed = write_results(jobs, data, args.json)
-        logger.info(f"Done. Described: {done} | Failed: {failed}")
-        return 1 if failed else 0
+    save(data, args.json)  # keeps any downloaded: false set above
 
-    check_device()
-    lock = take_hailo_lock()
-    started = time.monotonic()
-    try:
-        logger.info("Stopping hailo-ollama")
-        systemctl("stop")
-        from hailo_platform import VDevice
+    def pending() -> bool:
+        return any(not job.get("done") for job in jobs)
 
-        # Each stage opens the device fresh: on HailoRT 5.1.1, creating the LLM on a VDevice
-        # that already held another GenAI model failed with HAILO_INTERNAL_FAILURE(8).
-        for name, stage in (("OCR", ocr_stage), ("Title and summary", llm_stage)):
-            logger.info(f"{name} ({pi_health()})")
-            vdevice = VDevice()
-            try:
-                stage(vdevice, jobs)
-            finally:
-                vdevice.release()
-        logger.info(f"Hailo work done in {time.monotonic() - started:.0f}s ({pi_health()})")
-    finally:
-        logger.info("Starting hailo-ollama again")
-        try:
-            systemctl("start")
-        finally:
-            fcntl.flock(lock, fcntl.LOCK_UN)
-            os.close(lock)
+    def llm(vdevice, jobs):
+        llm_stage(vdevice, jobs, finish)
 
-    done, failed = write_results(jobs, data, args.json)
-    logger.info(f"Done. Described: {done} | Failed: {failed}")
+    def ocr(vdevice, jobs):
+        ocr_stage(vdevice, jobs, finish)
+
+    if pending():
+        with hailo_session():
+            # With the Hailo backend, both models run in one session.
+            run_on_hailo((("OCR", ocr),) if args.backend == "claude" else (("OCR", ocr), ("Title and summary", llm)), jobs)
+    if args.backend == "claude" and pending():
+        logger.info(f"Title and summary from Claude ({args.claude_model})")
+        claude_stage(jobs, args.claude_model, finish)
+        if pending():
+            logger.info(f"{sum(not job.get('done') for job in jobs)} posts left for the Hailo")
+            with hailo_session():
+                run_on_hailo((("Title and summary", llm),), jobs)
+
+    done = sum(bool(job["record"].get("described")) and not job.get("error") for job in jobs)
+    failed = sum(bool(job.get("error")) for job in jobs)
+    by_model = {}
+    for job in jobs:
+        if job.get("described_by") and not job.get("error"):
+            by_model[job["described_by"]] = by_model.get(job["described_by"], 0) + 1
+    logger.info(f"Done. Described: {done} {by_model} | Failed: {failed}")
     return 0 if failed == 0 else 1
 
 
@@ -493,5 +706,5 @@ if __name__ == "__main__":
     try:
         sys.exit(main())
     except KeyboardInterrupt:
-        logger.info("Interrupted; hailo-ollama was started again, no posts were marked described")
+        logger.info("Interrupted; hailo-ollama was started again, finished posts are saved")
         sys.exit(130)

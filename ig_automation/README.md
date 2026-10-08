@@ -1,6 +1,6 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text and writes a title and summary on the Hailo-10H. `run_pipeline.py` runs the last three in batches until everything is done.
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the last three in batches until everything is done.
 
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before.
 
@@ -198,9 +198,9 @@ Done. Transcribed: 16 | Failed: 0 | Time: 9.0 min, of which cooling 3.5 min in 6
 | `--max-wait SECONDS` | Longest single pause; carries on after it even if still warm. Default: 600 |
 | `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
 
-## Describe the posts on the Hailo: `describe.py`
+## Describe the posts: `describe.py`
 
-`describe.py` reads the text in each post's images on the Hailo-10H (PaddleOCR), then writes a short title and summary with the Qwen2.5 1.5B model on the Hailo, from the caption, the transcript and that on screen text. Run it after `download.py` and `transcribe.py`, one script at a time.
+`describe.py` reads the text in each post's images on the Hailo-10H (PaddleOCR), then writes a short title and summary from the caption, the transcript, that on screen text and the images. By default Claude writes them (headless `claude -p` on the Claude subscription login, no API key, model `haiku`). When Claude hits its usage limit, or fails on a post, the Qwen2.5 1.5B model on the Hailo writes the rest. Each post records which model wrote it. Run it after `download.py` and `transcribe.py`, one script at a time.
 
 ```
 cd /home/homepi/Work/ig/instagram_saves/ig_automation
@@ -211,7 +211,8 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 
 * `IG/<folder>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
 * `IG/<folder>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
-* In `iambogle.json`: `ai_title`, `summary`, and `described: true`.
+* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, the caption, the transcript and the on screen text. Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `described_by`, `described_at`.
+* In `iambogle.json`: `ai_title`, `summary`, `described_by` (the model, for example `claude-haiku-5-5` or `qwen2.5-1.5b-instruct (hailo)`), `described_at` (date), and `described: true`. `author` was already taken by the Instagram account, so the model goes in `described_by`.
 
 Example (photo post `Db-54v5IBSj`):
 
@@ -223,13 +224,18 @@ Example (photo post `Db-54v5IBSj`):
 1. **Picks posts:** newest first, `downloaded: true`, `described: false`, `error: false`. Reels wait until they are transcribed. Posts whose files are missing get `downloaded: false` so `download.py` fetches them again.
 2. **Frames first, on the CPU,** with ffmpeg, before touching the Hailo.
 3. **Takes the Hailo:** checks the chip with `hailortcli fw-control identify`, takes the hailo-mcp lock (`$XDG_RUNTIME_DIR/hailo-mcp.lock`, so hailo-mcp requests wait), and stops hailo-ollama (`sudo -n systemctl stop hailo-ollama`, allowed without a password by `/etc/sudoers.d/hailo-ollama`).
-4. **OCR stage:** every image of every post. The raw text goes to `_ocr.txt`. A spell corrected copy (Hailo's SymSpell corrector, which splits run together words like `SCOTTLAUNCHED`) goes to the LLM.
-5. **Title and summary stage:** two short questions per post to Qwen2.5, one for the title and one for the summary. The small model does not follow format instructions well, so its answers are cleaned in code (`tidy_summary`): markdown and "Title:" labels removed, talk about the task removed ("Sure, here's a summary:", "The summary of the Instagram post is:", any sentence mentioning "summary"), sentences that repeat an earlier one dropped, at most 3 sentences, and no cut off fragment at the end. Telling it in the prompt not to mention the request made it worse (it repeated the instruction), so the prompt stays plain.
-6. **Gives the Hailo back:** hailo-ollama is always started again and the lock released, even after an error or Ctrl+C. Results are written to `iambogle.json` only at the end, so an interrupted run changes nothing.
+4. **OCR stage:** every image of every post. The raw text goes to `_ocr.txt`. A spell corrected copy (Hailo's SymSpell corrector, which splits run together words like `SCOTTLAUNCHED`) goes to the LLM. hailo-ollama is started again right after.
+5. **Claude stage** (default `--backend claude`): one `claude -p` run per post with `--safe-mode --strict-mcp-config` (no CLAUDE.md, hooks, plugins or MCP servers), only the `Read` tool (to open up to 6 of the post's images), and `--json-schema`, so the answer is always `{"title", "summary"}` and needs no cleaning. About 6 seconds per post. If a post fails, it is left for the Hailo. If the usage limit is hit (exit with a "hit your limit" style message or HTTP 429), Claude stops and every remaining post goes to the Hailo.
+6. **Hailo title and summary stage** (only for posts Claude did not do, or every post with `--backend hailo`): takes the Hailo again, then two short questions per post to Qwen2.5, one for the title and one for the summary. The small model does not follow format instructions well, so its answers are cleaned in code (`tidy_summary`): markdown and "Title:" labels removed, talk about the task removed ("Sure, here's a summary:", "The summary of the Instagram post is:", any sentence mentioning "summary"), sentences that repeat an earlier one dropped, at most 3 sentences, and no cut off fragment at the end. Telling it in the prompt not to mention the request made it worse (it repeated the instruction), so the prompt stays plain.
+7. **Gives the Hailo back:** hailo-ollama is always started again and the lock released, even after an error or Ctrl+C.
+
+Each post is saved to `iambogle.json`, and its note written, as soon as it is done, so an interrupted run keeps every finished post.
 
 Each model is loaded once per run, not once per post. Each stage opens the Hailo device fresh: on HailoRT 5.1.1, loading the LLM on a device handle that had already held another GenAI model failed with `HAILO_INTERNAL_FAILURE(8)`. The Pi temperature and throttle flag are logged at each stage.
 
-**Speed:** about 20 seconds per post (OCR takes about 1 second, the two LLM questions the rest), plus about 5 seconds to stop and start hailo-ollama. 20 posts took 6 to 7 minutes.
+**Speed with Claude:** about 6 seconds per post, plus about 1 second of OCR. It barely loads the Pi.
+
+**Speed on the Hailo:** about 20 seconds per post (OCR takes about 1 second, the two LLM questions the rest), plus about 5 seconds to stop and start hailo-ollama. 20 posts took 6 to 7 minutes.
 
 ### Options
 
@@ -239,6 +245,9 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 | `--retry-failed` | Also try posts whose `error` is set |
 | `--redo` | Describe posts again even if `described` is already `true` (after a prompt change) |
 | `--shortcode CODE` | Only this post. Can be given more than once |
+| `--backend claude\|hailo` | `claude` (default): Claude first, the Hailo for the rest. `hailo`: Qwen2.5 on the Hailo only |
+| `--claude-model NAME` | Model for `claude -p --model`. Default `haiku` |
+| `--notes-only` | Run no models. Write the `_description.md` note for described posts that have none (posts described before `described_by` existed get `qwen2.5-1.5b-instruct (hailo)`) |
 | `--dry-run` | List the posts that would be described, then stop |
 | `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
 
@@ -249,13 +258,15 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 * hailo-apps cloned at `~/Work/hailo-apps`: the OCR code and the spell dictionary are imported from `hailo_apps/python/standalone_apps/paddle_ocr`.
 * Models in `/usr/local/hailo/resources/models/hailo10h/`: `ocr_det.hef`, `ocr.hef`, `Qwen2.5-1.5B-Instruct.hef`.
 * The sudoers rule `/etc/sudoers.d/hailo-ollama`.
+* For the Claude backend: Claude Code (`claude` on the `PATH`) logged in to the Claude subscription. Captions, transcripts and images are sent to Anthropic.
 
 ### Known limits
 
-* **No image description.** Qwen2-VL-2B on the Hailo was tried and dropped: on Instagram images it described things that were not there (for example "one person in a red shirt" for a slide showing four men and large text). It answers correctly on ordinary photos, but not on text heavy posts at its 336 x 336 input.
+* **Only Claude sees the images.** The Hailo fallback works from text only.
+* **No image description on the Hailo.** Qwen2-VL-2B on the Hailo was tried and dropped: on Instagram images it described things that were not there (for example "one person in a red shirt" for a slide showing four men and large text). It answers correctly on ordinary photos, but not on text heavy posts at its 336 x 336 input.
 * **Images are skipped for now.** A CPU vision model (`qwen2.5vl:3b` in ollama) was also tested: excellent descriptions that read on screen text far better than the OCR, but about 3 minutes per image, and the Pi overheated and throttled. The tests and the recommended shape for a later optional image step are in the vault note `plan - ig_automation pipeline by claude`.
 * **OCR is rough:** it often drops spaces and misreads small text. The spell corrector fixes most joined words but sometimes guesses wrong ("woan" becomes "loan").
-* **The model sometimes invents details:** in one test run it made up song titles and cast names for an anime announcement. Treat summaries as a rough guide, not facts.
+* **Qwen2.5 sometimes invents details:** in one test run it made up song titles and cast names for an anime announcement. Treat summaries as a rough guide, not facts.
 * **Transcription mistakes carry through:** "CLAUDE.md" heard as "Clod.MD" ends up in the title.
 * **Summaries are only as good as the input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption.
 
