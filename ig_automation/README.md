@@ -1,8 +1,8 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the last three in batches until everything is done.
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the exporter and the last three in batches until everything is done.
 
-`export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before.
+`export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before. It reads the chat through Instagram's Android app API. If that fails, it reads new messages through headless Firefox instead (`export_chat_browser.py`).
 
 ## Run it
 
@@ -19,7 +19,8 @@ With no argument it exports the chat with `iambogle` (Shemeir Bogle). To export 
 
 ## Setup
 
-* **Python environment:** the script uses the virtual environment of the sibling project, `../Instagram-Saves-Engine/.venv`, which already has the two packages it needs, `requests` and `yt-dlp`. There is no separate environment for this folder.
+* **Python environment:** the script uses the virtual environment of the sibling project, `../Instagram-Saves-Engine/.venv`, which already has the packages it needs: `requests`, `yt-dlp`, and `selenium` (4.50.0, installed 2026-10-08) for the browser fallback. There is no separate environment for this folder.
+* **Browser fallback:** needs Firefox ESR at `/usr/bin/firefox-esr`. Selenium fetches the matching geckodriver by itself on first use.
 * **No `.env` or `config.json`:** neither project uses a `.env` file, and this script needs no credentials file.
 * **Login:** the script reads your Instagram login cookies straight from Firefox ESR, in the profile `~/.config/mozilla/firefox/413ffz8o.default-esr`. Stay logged into instagram.com in Firefox. If the session expires, log in again in Firefox and re-run.
 
@@ -36,6 +37,7 @@ The file looks like this. Links are listed newest first:
 ```json
 {
   "thread_id": "340282366841710301244258623737610278168",
+  "thread_v2_id": "448720033191192",
   "thread_title": "Shemeir Bogle",
   "participants": ["iambogle"],
   "exported_at": "2026-10-06T13:17:23+00:00",
@@ -77,9 +79,32 @@ The file looks like this. Links are listed newest first:
 
 1. **Log in:** loads the Instagram cookies from Firefox.
 2. **Find the chat:** pages through your DM inbox until a thread's username or title matches.
-3. **Read messages:** calls Instagram's private web API (the same kind of call `sync.py` makes) and reads 50 messages per page, newest to oldest. It pauses 1.5 to 3.5 seconds between pages and backs off when Instagram rate-limits.
+3. **Read messages:** calls Instagram's private Android app API (`i.instagram.com/api/v1/direct_v2/...`) and reads 50 messages per page, newest to oldest. It pauses 1.5 to 3.5 seconds between pages and backs off when Instagram rate-limits.
 4. **Pick out links:** keeps shared reels (`clip`), shared posts (`media_share`), IGTV shares (`felix_share`), newer share formats (`xma_*`), and Instagram URLs pasted into text messages. Other messages are skipped.
 5. **Save:** writes the file after every page, so an interrupted run keeps its progress.
+
+### Why the app API (changed 2026-10-08)
+
+Until 2026-10-07 the script used the website's API (`www.instagram.com/api/v1`). Since then the website answers every `/direct_v2/` call with a 404 page that says "not logged in", even with a valid login: the website now loads DMs through a new GraphQL system. The Android app API still serves the same calls, so DM calls go there:
+
+* `dm_api_get()` sends them to `i.instagram.com` with an app `User-Agent`, app ID `567067343352427`, and `Authorization: Bearer IGT:2:<base64 of ds_user_id and sessionid>`, built from the same Firefox cookies.
+* `api_get()` and `HEADERS` still point at the website, because `download.py` uses them for `/media/<id>/info/`, which still works there.
+* The app API returns shared posts as `xma_clip` and `xma_media_share`. They are read from `target_url`, so no parser change was needed.
+* Instagram watches the app API more closely for scripts than the website, so keep runs small: a normal catch-up is one or two pages.
+
+The tests (all three options tried, and the long gap test) are written up in the vault note `2. Areas/Botstack/Pi/pi todo/ig export fix - DM api tests by claude`.
+
+### Browser fallback: `export_chat_browser.py`
+
+If the app API fails (any HTTP error, network error or unexpected answer), the exporter logs `App API export failed (...); falling back to reading the chat in Firefox` and reads the new messages through headless Firefox instead. `--browser` forces this route.
+
+* It copies the Firefox profile to a temporary folder and runs Firefox ESR headless on the copy, so the real Firefox and its login are never touched. The copy is deleted at the end.
+* It opens the inbox, clicks the chat by its `thread_title`, and reads Instagram's own in page data store (Relay): each `SlideMessage` record links to `content`, then `xma`, which holds `target_url` (the post URL) and `header_title_text` (the author). The posts on screen are cards without links, so the page HTML alone has no URLs.
+* A page load holds the newest 20 messages. It then scrolls up with real mouse wheel steps (scrolling from JavaScript loads nothing), 20 older messages per step, until it reaches the newest message already scanned. If 4 steps in a row load nothing, it stops, keeps the links it found, and leaves `newest_us` alone so the next run reads the gap again.
+* Each message is reshaped like an app API item, so the same `extract_links()` and `build_record()` handle it. Reels come in as `xma_clip`, posts as `xma_media_share`, with no caption (`download.py` fills in the post itself).
+* It needs `thread_v2_id` in the export file (the chat's id in the new DM system), which the first app API run saves.
+* It only reads new messages. Older history (backfill) is only read through the app API.
+* Speed: about 50 seconds to open the chat and scroll back 5 steps (100 messages).
 
 ### Runs after the first one
 
@@ -101,6 +126,8 @@ The first complete pass through a long chat can take 30 to 60 minutes. You can s
 | `--output-dir DIR` | Where to write the JSON. Default: `output/` in this folder |
 | `--max-pages N` | Stop after N pages (for testing). The next run continues from there |
 | `--full` | Re-read the whole chat from the newest message. Saved links and their status are kept, so this only finds links a normal run missed |
+| `--backfill-pages N` | Read all new messages, then at most N pages of older history. `0` reads no history (before 2026-10-08, `0` meant no limit). Without it, the backfill runs to the start of the chat. `run_pipeline.py` passes 50 |
+| `--browser` | Read new messages through headless Firefox (`export_chat_browser.py`) instead of the app API. Happens on its own when the app API fails |
 
 ## Download the media: `download.py`
 
@@ -328,12 +355,22 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 
 `run_pipeline.py` runs `download.py`, `transcribe.py` and `describe.py` in batches until every post is done. describe runs with its defaults, so Claude writes the titles, summaries and notes, and the Hailo takes over when Claude is at its usage limit. Each batch takes the newest 100 posts that still need a stage through all three stages, one script after another (never at the same time). Finished posts appear early, and hailo-ollama is back between batches instead of being off for hours.
 
-Start it detached, so it keeps running if the terminal closes:
+Start it with one command. It starts itself in the background, so it keeps running if the terminal closes, and prints its PID:
 
 ```
 cd /home/homepi/Work/ig/instagram_saves/ig_automation
-setsid nohup ../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py --batch 100 > output/pipeline.log 2>&1 < /dev/null &
+../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py
 ```
+
+Before it starts, it:
+
+* refuses to start if another `run_pipeline.py` is already running, so two runs never write the export file at once
+* checks that `output/iambogle.json` is valid JSON, and does not start if it is not
+* moves the last run's `output/pipeline.log` to `output/pipeline-<date>-part<N>.log`, so a new run never overwrites an old log
+* writes a warning at the top of the new log when the last run ended without its `Pipeline ran ...` finish line, which means it was cut off by a power cut or a kill (see the Pi shutdown on 2026-10-08)
+* logs the Pi temperature and throttle flags at the start and at each `=== Batch N ===` line
+
+`--foreground` runs it in the terminal instead, with no log file and none of the log steps.
 
 * **Follow it:** `tail -f output/pipeline.log`. Each batch starts with a `Pending:` line counting what is left.
 * **Stop cleanly** after the current batch: `touch output/STOP`. Stopping at once (`pkill -INT -f run_pipeline.py`) is also safe: every script saves after each post, and describe always starts hailo-ollama again.
@@ -343,8 +380,8 @@ setsid nohup ../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py --batch 
   * If only upgrades are left and Claude is at its limit, the batch makes no progress and the runner stops. Start it again later.
   * `describe.py` exits with code 75 when Claude hit its limit; that is how the runner knows.
   * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in `output/describe.log`.
-* **Options:** `--batch N` (posts per stage per batch, default 100), `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off).
-* Run the exporter first if you want newer posts included; the runner does not export.
+* **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off).
+* **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. `--no-export` turns this off. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
 
 ## Troubleshooting
 
@@ -352,8 +389,13 @@ setsid nohup ../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py --batch 
 * **`No Instagram sessionid cookie in Firefox`:** log into instagram.com in Firefox ESR.
 * **`HTTP 401` or `HTTP 403`:** the session expired. Log in again in Firefox.
 * **`No DM thread found`:** check the username, or use the chat title exactly as Instagram shows it.
+* **`HTTP 404 on /direct_v2/...` with a "not logged in" page:** this is not a login problem. It is what the website API answers for DMs since 2026-10-07 (see "Why the app API"). If the app API starts answering this way too, the exporter falls back to the browser.
+* **`App API export failed (...); falling back to reading the chat in Firefox`:** the app API stopped working. New posts still come in through the browser, but older history does not. Check the error; if Instagram blocked the app API, consider making `--browser` the default.
+* **Browser fallback: `No thread_v2_id in the export file yet`:** run the exporter once while the app API works, or add `"thread_v2_id"` to the file by hand (`448720033191192` for the iambogle chat).
+* **Browser fallback: `Unable to locate element` on the chat title:** the chat is not in the first screen of the inbox, or its title changed. Open it once in Firefox so it moves up, or check `thread_title` in the export file.
+* **Browser fallback: `Browser did not scroll back to the last scanned message`:** scrolling stopped loading older messages. The links it found are kept and the next run reads the gap again.
 * **`describe.py`: `Another program is using the Hailo`:** hailo-mcp is in the middle of a request. Wait and run again.
 * **`describe.py`: `sudo: a password is required`:** the sudoers rule `/etc/sudoers.d/hailo-ollama` is missing or wrong. Check it with `sudo -n -l`.
 * **hailo-ollama not running after describe:** start it with `sudo systemctl start hailo-ollama`. describe always tries to, so check its log for the error.
 * **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped.
-* **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them.
+* **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them. Exception: `xma_clip` messages here are reels that were deleted ("Message unavailable", no URL), about 157 in the iambogle chat, so there is nothing to recover.
