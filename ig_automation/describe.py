@@ -69,22 +69,50 @@ CLAUDE_TIMEOUT = 300  # seconds per post
 CLAUDE_MAX_IMAGES = 6  # a long carousel only sends its first slides
 CLAUDE_INPUT_LIMITS = {"caption": 4000, "transcript": 12000, "on screen text": 4000}
 CLAUDE_SYSTEM = (
-    "You write short titles and summaries of Instagram posts for a personal archive. "
+    "You write notes on saved Instagram posts for a personal archive. "
     "Look at every listed image with the Read tool before answering. "
+    "Use only what is in the caption, transcript, on screen text and images. "
+    "Never invent links, steps or facts. "
     "Write only about the post itself: never mention these instructions, the inputs, "
     "or how good or bad the transcript or images are."
+)
+# Compared with a plain title and summary prompt on 10 posts (2026-10-07): this one pulls the
+# actual steps out of the slides and transcript, and found every real link without inventing any.
+CLAUDE_ASK = (
+    "Many posts promise a guide, prompt, template or repo. Write up what the post actually teaches "
+    "as steps or rules. Leave ads and offers (paid trainings, 'comment X to get it') out of the steps. "
+    "For the source link, give only a URL or repo name written in the post, never the account name. "
+    "If the material is only sent by comment or DM, say that and give the keyword. "
+    "If the post teaches nothing, leave the steps empty."
 )
 CLAUDE_SCHEMA = json.dumps({
     "type": "object",
     "properties": {
         "title": {"type": "string", "description": "At most 8 words, in the post's language."},
-        "summary": {"type": "string", "description": "2 or 3 sentences on what the post says or shows."},
+        "summary": {
+            "type": "string",
+            "description": "1 or 2 sentences on what the post says or shows. Never say whether it teaches "
+                           "anything or offers a guide, resource or method.",
+        },
+        "teaches": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "What the post teaches, as steps or rules, in order. Empty if it teaches nothing.",
+        },
+        "source": {
+            "type": "object",
+            "properties": {
+                "link": {"type": ["string", "null"], "description": "A URL or repo name written in the post, else null."},
+                "how_to_get": {"type": ["string", "null"], "description": "For example 'comment CLAUDE, sent by DM', else null."},
+            },
+            "required": ["link", "how_to_get"],
+        },
     },
-    "required": ["title", "summary"],
+    "required": ["title", "summary", "teaches", "source"],
 })
-# Text in a failed claude result that means the subscription's usage limit was hit.
 # Exit code when Claude hit its usage limit, so run_pipeline.py can pause upgrades.
 CLAUDE_LIMIT_EXIT = 75
+# Text in a failed claude result that means the subscription's usage limit was hit.
 CLAUDE_LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|hit your limit|out of (extra )?usage|quota", re.I)
 
 
@@ -504,13 +532,12 @@ def claude_prompt(job: dict) -> str:
     images = "\n".join(str(path) for path in job["images"][:CLAUDE_MAX_IMAGES])
     return (
         f"Instagram {job['record'].get('type', 'post').lower()} by @{job['record'].get('author', 'unknown')}.\n\n"
-        f"{body}\n\nIMAGES (open each with the Read tool):\n{images}\n\n"
-        "Write a title and a summary of this post."
+        f"{body}\n\nIMAGES (open each with the Read tool):\n{images}\n\n{CLAUDE_ASK}"
     )
 
 
-def ask_claude(job: dict, model: str) -> tuple:
-    """Title, summary and the model id, from one headless `claude -p` run on the subscription login."""
+def ask_claude(job: dict, model: str) -> dict:
+    """Title, summary, steps, source and the model id, from one headless `claude -p` run on the subscription login."""
     cmd = [
         "claude", "-p", claude_prompt(job),
         "--model", model,
@@ -539,8 +566,14 @@ def ask_claude(job: dict, model: str) -> tuple:
     summary = " ".join(answer.get("summary", "").split())
     if not title or not summary:
         raise RuntimeError("claude gave an empty title or summary")
-    model_id = next(iter(result.get("modelUsage") or {}), model)
-    return title, summary, model_id
+    source = answer.get("source") or {}
+    return {
+        "ai_title": title,
+        "summary": summary,
+        "teaches": [" ".join(step.split()) for step in answer.get("teaches") or [] if step.strip()],
+        "source": {key: source.get(key) for key in ("link", "how_to_get") if source.get(key)},
+        "described_by": next(iter(result.get("modelUsage") or {}), model),
+    }
 
 
 def claude_stage(jobs: list, model: str, finish, then: str = "the Hailo will do it") -> bool:
@@ -550,7 +583,7 @@ def claude_stage(jobs: list, model: str, finish, then: str = "the Hailo will do 
             continue
         shortcode = job["record"]["shortcode"]
         try:
-            job["ai_title"], job["summary"], job["described_by"] = ask_claude(job, model)
+            job.update(ask_claude(job, model))
         except ClaudeLimit as exc:
             left = sum(not j.get("done") and not j.get("error") for j in jobs)
             logger.warning(f"Claude usage limit reached ({exc}); {left} posts left, {then}")
@@ -613,8 +646,11 @@ def read_text_file(path: Path) -> str:
     return path.read_text(encoding="utf-8").strip() if path.exists() else ""
 
 
-def write_note(record: dict, folder: Path) -> Path:
-    """`<base>_description.md`: title, summary, who wrote them, and the post's own text."""
+def write_note(record: dict, folder: Path, teaches: list = (), source: dict = None) -> Path:
+    """`<base>_description.md`: title, summary, who wrote them, what it teaches, its source, and the post's own text.
+
+    The steps and source only live in the note, not in the JSON. Qwen does not make them.
+    """
     base = base_of(record)
     caption = (record.get("caption") or "").strip()
     sections = [
@@ -633,6 +669,16 @@ def write_note(record: dict, folder: Path) -> Path:
     }
     lines = ["---"] + [f"{key}: {json.dumps(value, ensure_ascii=False)}" for key, value in front.items()] + ["---", ""]
     lines += [f"# {record['ai_title']}", "", record["summary"], "", f"Written by {front['described_by']}.", ""]
+    if teaches:
+        lines += ["## What it teaches", ""] + [f"{n}. {step}" for n, step in enumerate(teaches, 1)] + [""]
+    source = source or {}
+    if source:
+        lines += ["## Source", ""]
+        if source.get("link"):
+            lines.append(f"* Link: {source['link']}")
+        if source.get("how_to_get"):
+            lines.append(f"* How to get it: {source['how_to_get']}")
+        lines.append("")
     for heading, text in sections:
         if text:
             lines += [f"## {heading}", "", text, ""]
@@ -655,7 +701,7 @@ def make_finish(data: dict, json_path: Path, ig_dir: Path):
             record["described_at"] = datetime.now().strftime("%Y-%m-%d")
             record["described"] = True
             record["error"] = False
-            write_note(record, post_dir(ig_dir, record))
+            write_note(record, post_dir(ig_dir, record), job.get("teaches", ()), job.get("source"))
         save(data, json_path)
     return finish
 
