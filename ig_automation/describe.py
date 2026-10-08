@@ -28,7 +28,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from download import DEFAULT_JSON, IG_DIR, post_dir, save, short_error
+from download import DEFAULT_JSON, IG_DIR, OUTPUT_DIR, post_dir, save, short_error
 from export_chat_links import SENT_AT_FORMAT
 
 # Hailo's standalone PaddleOCR example holds the OCR pre and post processing.
@@ -47,6 +47,8 @@ logging.basicConfig(
     level=logging.INFO,
 )
 logger = logging.getLogger("ig_describe")
+# Every run is also appended here, so describe and upgrade runs can be followed over time.
+LOG_FILE = OUTPUT_DIR / "describe.log"
 
 MODELS_DIR = Path("/usr/local/hailo/resources/models/hailo10h")
 OCR_DET_HEF = MODELS_DIR / "ocr_det.hef"
@@ -121,6 +123,12 @@ def parse_args() -> argparse.Namespace:
         "--claude-model",
         default="haiku",
         help="Model for `claude -p --model`. Default: haiku.",
+    )
+    parser.add_argument(
+        "--upgrade",
+        action="store_true",
+        help="Describe again with Claude the posts that Qwen on the Hailo described. No Hailo fallback: "
+             "on a usage limit it stops, and the rest wait for the next --upgrade run.",
     )
     parser.add_argument(
         "--notes-only",
@@ -525,7 +533,7 @@ def ask_claude(job: dict, model: str) -> tuple:
             raise ClaudeLimit(message)
         raise RuntimeError(f"claude: {message}")
     answer = result.get("structured_output") or {}
-    title = strip_markup(answer.get("title", ""), "title")
+    title = " ".join(answer.get("title", "").split())  # the schema already keeps it clean
     summary = " ".join(answer.get("summary", "").split())
     if not title or not summary:
         raise RuntimeError("claude gave an empty title or summary")
@@ -533,8 +541,8 @@ def ask_claude(job: dict, model: str) -> tuple:
     return title, summary, model_id
 
 
-def claude_stage(jobs: list, model: str, finish) -> None:
-    """Describe each post with Claude. On a usage limit, stop and leave the rest for the Hailo."""
+def claude_stage(jobs: list, model: str, finish, then: str = "the Hailo will do it") -> bool:
+    """Describe each post with Claude. On a usage limit, stop and return True; the rest are left undone."""
     for job in jobs:
         if job.get("error") or job.get("done"):
             continue
@@ -542,13 +550,58 @@ def claude_stage(jobs: list, model: str, finish) -> None:
         try:
             job["ai_title"], job["summary"], job["described_by"] = ask_claude(job, model)
         except ClaudeLimit as exc:
-            logger.warning(f"Claude usage limit reached ({exc}); the remaining posts go to the Hailo")
-            return
+            left = sum(not j.get("done") and not j.get("error") for j in jobs)
+            logger.warning(f"Claude usage limit reached ({exc}); {left} posts left, {then}")
+            return True
         except Exception as exc:  # noqa: BLE001
-            logger.warning(f"  ✗ {shortcode} Claude failed, the Hailo will do it: {short_error(exc)}")
+            logger.warning(f"  ✗ {shortcode} Claude failed, {then}: {short_error(exc)}")
             continue
         logger.info(f"  Claude {shortcode}: {job['ai_title']}")
         finish(job)
+    return False
+
+
+def written_by_hailo(record: dict) -> bool:
+    """Described by Qwen on the Hailo (posts from before described_by existed were all Qwen)."""
+    return bool(record.get("described")) and not record.get("error") \
+        and record.get("described_by", HAILO_LLM_NAME) == HAILO_LLM_NAME
+
+
+def upgrade(todo: list, args, data: dict) -> int:
+    """Replace Qwen titles and summaries with Claude's. Uses the OCR text and frames already on disk, no Hailo."""
+    finish = make_finish(data, args.json, args.ig_dir)
+    corrector = OcrCorrector(str(OCR_APP_DIR / "frequency_dictionary_en_82_765.txt"))
+    jobs = []
+    for record in todo:
+        folder = post_dir(args.ig_dir, record)
+        job = {"record": record, "dir": folder, "old_title": record.get("ai_title", "")}
+        try:
+            if not all((folder / name).exists() for name in record["files"]):
+                raise RuntimeError("downloaded files missing")
+            job["base"] = base_of(record)
+            job["images"] = post_images(record, folder)
+            job["transcript"] = transcript_text(record, folder)
+            raw = read_text_file(folder / f"{job['base']}_ocr.txt").splitlines()
+            job["ocr"] = "\n".join(corrected_lines(corrector, raw))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning(f"  ✗ {record['shortcode']} skipped, stays Qwen: {short_error(exc)}")
+            continue
+        jobs.append(job)
+
+    def log_and_finish(job: dict) -> None:
+        finish(job)
+        logger.info(f"    was (Qwen): {job['old_title']}")
+
+    limit_hit = claude_stage(jobs, args.claude_model, log_and_finish, then="they stay Qwen until the next --upgrade")
+    upgraded = sum(bool(job.get("done")) for job in jobs)
+    not_done = len(todo) - upgraded
+    still_qwen = sum(written_by_hailo(r) for r in data["links"])
+    logger.info(
+        f"Upgrade done. Upgraded to Claude: {upgraded} of {len(todo)} | Not upgraded: {not_done}"
+        + (" (stopped by the usage limit)" if limit_hit else "")
+        + f" | Posts still by Qwen: {still_qwen}"
+    )
+    return 0
 
 
 # ---------------------------------------------------------------- results
@@ -626,6 +679,11 @@ def notes_only(records: list, ig_dir: Path) -> int:
 
 def main() -> int:
     args = parse_args()
+    file_log = logging.FileHandler(LOG_FILE, encoding="utf-8")
+    file_log.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s", "%Y-%m-%d %H:%M:%S"))
+    logger.addHandler(file_log)
+    mode = "upgrade" if args.upgrade else "notes only" if args.notes_only else f"backend {args.backend}"
+    logger.info(f"=== describe.py ({mode}, Claude model {args.claude_model}{', limit ' + str(args.limit) if args.limit else ''})")
     data = json.loads(args.json.read_text())
     records = sorted(
         data["links"],
@@ -638,10 +696,14 @@ def main() -> int:
         if notes_only(records, args.ig_dir):
             save(data, args.json)
         return 0
-    todo = [r for r in records if needs_description(r, args.retry_failed, args.redo)]
+    if args.upgrade:
+        todo = [r for r in records if written_by_hailo(r)]
+        logger.info(f"{len(todo)} posts described by Qwen")
+    else:
+        todo = [r for r in records if needs_description(r, args.retry_failed, args.redo)]
     if args.limit is not None:
         todo = todo[:args.limit]
-    logger.info(f"{len(todo)} posts to describe")
+    logger.info(f"{len(todo)} posts to {'upgrade' if args.upgrade else 'describe'}")
 
     if args.dry_run:
         for record in todo:
@@ -649,6 +711,8 @@ def main() -> int:
         return 0
     if not todo:
         return 0
+    if args.upgrade:
+        return upgrade(todo, args, data)
 
     finish = make_finish(data, args.json, args.ig_dir)
     # Frames and inputs first, on the CPU, before the Hailo is taken from hailo-ollama.

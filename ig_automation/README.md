@@ -231,6 +231,26 @@ Example (photo post `Db-54v5IBSj`):
 
 Each post is saved to `iambogle.json`, and its note written, as soon as it is done, so an interrupted run keeps every finished post.
 
+### Upgrading Qwen posts to Claude
+
+```
+../Instagram-Saves-Engine/.venv/bin/python describe.py --upgrade --limit 50
+```
+
+Run it whenever there is spare Claude usage. Each upgraded post gets Claude's title and summary, `described_by` and `described_at` change, and its note is rewritten. The Qwen text is replaced, but the log keeps the old title.
+
+### Log
+
+Every run is printed and also appended to `output/describe.log`, so you can follow runs over time:
+
+* `=== describe.py (backend claude, ...)` or `(upgrade, ...)` starts each run
+* `Claude <shortcode>: <title>` for each post Claude did, and `LLM <shortcode>: <title>` for each post the Hailo did
+* `was (Qwen): <old title>` under each upgraded post
+* `Claude usage limit reached (...); N posts left, ...` when the limit is hit
+* The last line counts the results: posts per model for a normal run, or upgraded, not upgraded and posts still by Qwen for an upgrade
+
+Check where things stand with `grep -E "===|Done|limit" output/describe.log`.
+
 Each model is loaded once per run, not once per post. Each stage opens the Hailo device fresh: on HailoRT 5.1.1, loading the LLM on a device handle that had already held another GenAI model failed with `HAILO_INTERNAL_FAILURE(8)`. The Pi temperature and throttle flag are logged at each stage.
 
 **Speed with Claude:** about 6 seconds per post, plus about 1 second of OCR. It barely loads the Pi.
@@ -247,6 +267,7 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 | `--shortcode CODE` | Only this post. Can be given more than once |
 | `--backend claude\|hailo` | `claude` (default): Claude first, the Hailo for the rest. `hailo`: Qwen2.5 on the Hailo only |
 | `--claude-model NAME` | Model for `claude -p --model`. Default `haiku` |
+| `--upgrade` | Describe again with Claude the posts Qwen wrote (`described_by` is Qwen, or missing on older posts). Newest first, works with `--limit`. Uses the frames, transcript and `_ocr.txt` already on disk, so the Hailo and hailo-ollama are not touched. On a usage limit it stops; the rest stay Qwen until the next `--upgrade` run. A post Claude fails on keeps its Qwen text |
 | `--notes-only` | Run no models. Write the `_description.md` note for described posts that have none (posts described before `described_by` existed get `qwen2.5-1.5b-instruct (hailo)`) |
 | `--dry-run` | List the posts that would be described, then stop |
 | `--json PATH`, `--ig-dir DIR` | Same as `download.py` |
