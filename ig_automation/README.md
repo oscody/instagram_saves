@@ -237,7 +237,7 @@ Each post is saved to `iambogle.json`, and its note written, as soon as it is do
 ../Instagram-Saves-Engine/.venv/bin/python describe.py --upgrade --limit 50
 ```
 
-Run it whenever there is spare Claude usage. Each upgraded post gets Claude's title and summary, `described_by` and `described_at` change, and its note is rewritten. The Qwen text is replaced, but the log keeps the old title.
+`run_pipeline.py` also runs it after each batch (see below), so you only need it by hand when the pipeline is not running. Each upgraded post gets Claude's title and summary, `described_by` and `described_at` change, and its note is rewritten. The Qwen text is replaced, but the log keeps the old title.
 
 ### Log
 
@@ -305,7 +305,12 @@ setsid nohup ../Instagram-Saves-Engine/.venv/bin/python run_pipeline.py --batch 
 * **Follow it:** `tail -f output/pipeline.log`. Each batch starts with a `Pending:` line counting what is left.
 * **Stop cleanly** after the current batch: `touch output/STOP`. Stopping at once (`pkill -INT -f run_pipeline.py`) is also safe: every script saves after each post, and describe always starts hailo-ollama again.
 * **It stops by itself** when nothing is left, or when a whole batch makes no progress (for example every download failing because the Instagram login expired).
-* **Options:** `--batch N` (posts per stage per batch, default 100), `--max-batches N`.
+* **Upgrades:** after describe, each batch also runs `describe.py --upgrade --limit 20`, so posts Qwen described slowly move to Claude. The posts Qwen still holds count as work left, so the runner keeps going until they are done too.
+  * If Claude hit its usage limit during that batch's describe, the upgrade is skipped for that batch. Every batch tries again, so upgrades start again by themselves once the limit resets.
+  * If only upgrades are left and Claude is at its limit, the batch makes no progress and the runner stops. Start it again later.
+  * `describe.py` exits with code 75 when Claude hit its limit; that is how the runner knows.
+  * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in `output/describe.log`.
+* **Options:** `--batch N` (posts per stage per batch, default 100), `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off).
 * Run the exporter first if you want newer posts included; the runner does not export.
 
 ## Troubleshooting

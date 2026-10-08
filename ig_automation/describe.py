@@ -83,6 +83,8 @@ CLAUDE_SCHEMA = json.dumps({
     "required": ["title", "summary"],
 })
 # Text in a failed claude result that means the subscription's usage limit was hit.
+# Exit code when Claude hit its usage limit, so run_pipeline.py can pause upgrades.
+CLAUDE_LIMIT_EXIT = 75
 CLAUDE_LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|hit your limit|out of (extra )?usage|quota", re.I)
 
 
@@ -601,7 +603,7 @@ def upgrade(todo: list, args, data: dict) -> int:
         + (" (stopped by the usage limit)" if limit_hit else "")
         + f" | Posts still by Qwen: {still_qwen}"
     )
-    return 0
+    return CLAUDE_LIMIT_EXIT if limit_hit else 0
 
 
 # ---------------------------------------------------------------- results
@@ -748,9 +750,10 @@ def main() -> int:
         with hailo_session():
             # With the Hailo backend, both models run in one session.
             run_on_hailo((("OCR", ocr),) if args.backend == "claude" else (("OCR", ocr), ("Title and summary", llm)), jobs)
+    limit_hit = False
     if args.backend == "claude" and pending():
         logger.info(f"Title and summary from Claude ({args.claude_model})")
-        claude_stage(jobs, args.claude_model, finish)
+        limit_hit = claude_stage(jobs, args.claude_model, finish)
         if pending():
             logger.info(f"{sum(not job.get('done') for job in jobs)} posts left for the Hailo")
             with hailo_session():
@@ -763,6 +766,8 @@ def main() -> int:
         if job.get("described_by") and not job.get("error"):
             by_model[job["described_by"]] = by_model.get(job["described_by"], 0) + 1
     logger.info(f"Done. Described: {done} {by_model} | Failed: {failed}")
+    if limit_hit:
+        return CLAUDE_LIMIT_EXIT
     return 0 if failed == 0 else 1
 
 
