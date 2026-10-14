@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DeAWO3bBqID/"
 type: "Reel"
 author: "nyc_veganeats"
 shared: "Oct 04, 2026, 07:50 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

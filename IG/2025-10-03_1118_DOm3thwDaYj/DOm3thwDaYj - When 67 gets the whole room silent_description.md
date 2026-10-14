@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DOm3thwDaYj/"
 type: "Reel"
 author: "thechoirguy"
 shared: "Oct 03, 2025, 11:18 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

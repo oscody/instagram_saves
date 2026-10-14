@@ -5,26 +5,26 @@ type: "Carousel"
 author: "viral.coder"
 shared: "Oct 08, 2026, 09:36 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-14"
 ---
 
-# Five Claude prompts for learning any skill
+# Five Claude prompts for learning skills faster
 
-A six-slide carousel that introduces Claude's "infinite private tutor" mode, then gives five named prompts for using Claude to learn a skill, plan study, and test understanding. The full set is sent only by DM after commenting the keyword.
+A six-slide carousel presenting five Claude prompt templates, introduced as a "infinite private tutor" mode that can teach any skill. Each slide gives one numbered prompt with bracketed placeholders.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. 1. Learning Curve Destroyer: tell Claude it is a teacher with only 4 hours and will never see you again, state the skill and the goal, then ask for three things: what to learn first, what to ignore, and the one exercise that would put you ahead of most people. Claude should teach only the first step and wait for your reply before continuing.
-2. 2. Real Mistake Simulator: tell Claude not to explain the concept. Claude places you in a realistic situation where you would use it and waits for your response. When you make a mistake, Claude asks one question that makes you find where your reasoning broke. Claude gives the answer only after at least two tries, then repeats with a new situation until you get it right without hesitation.
-3. 3. Impossible Language Translator: paste the confusing content and say it confuses you. Claude first names the one core idea that makes the rest fall into place, then explains only that idea using an everyday analogy and no technical terms. Claude asks three questions one at a time, and you do not move on until you pass all three.
-4. 4. Personal Path Architect: state your real goal, the skill, the specific result, the deadline, and what you already know. Claude builds a 7-day learning path where each day has one task that fits within 45 minutes, a clear criterion for whether you did it correctly, and what not to do that day. If the path does not lead to the goal, ask Claude to rebuild it until it does.
-5. 5. Hidden Gap Detector: say you think you already master the skill and ask Claude to prove you wrong. Claude asks five questions that seem simple but expose gaps, one at a time, and after each answer says what it reveals about what is still missing. Tell Claude not to go easy on you and to be direct if you are being shallow.
+1. Learning Curve Destroyer: Tell Claude it is a teacher with only a fixed number of hours and will never see you again. Set the objective as being functional in the skill before time runs out. Ban theory without practical use and generic lists. Ask for three things: what to learn first, what to ignore, and the one exercise that matters most. Then have it teach only the first step and wait for your response.
+2. Real Mistake Simulator: Tell Claude not to explain the concept. Put you in a realistic situation where you would use it and would likely make a mistake, then wait for your response. When you err, have it ask one question that helps you find where your reasoning broke, not the answer. Give the answer only after at least two tries, then repeat with a new situation until you answer without hesitation.
+3. Impossible Language Translator: Paste confusing content and ask Claude to first name the one core idea that makes the rest fall into place. Have it explain only that idea using an everyday analogy and no technical terms. Then have it ask three questions that only someone who understood would answer, one at a time, and not move on until all three are passed.
+4. Personal Path Architect: Give Claude your real goal, the specific result you need, the deadline, and what you already know. Ask for a 7-day learning path where each day has one task under 45 minutes, a clear criterion for whether it was done correctly, and what to avoid that day. If the path does not lead to the goal, have Claude rebuild it.
+5. Hidden Gap Detector: State that you think you already master the skill and ask Claude to prove you wrong. Have it ask five questions that seem simple but expose gaps, one at a time, waiting for each answer. After each answer, have it explain what it reveals about what is still missing in your foundation, and to be direct if your answers are shallow.
 
 ## Source
 
-* How to get it: comment 'Claude', sent by DM
+* How to get it: Comment 'Claude' to get all prompts in DM
 
 ## Caption
 

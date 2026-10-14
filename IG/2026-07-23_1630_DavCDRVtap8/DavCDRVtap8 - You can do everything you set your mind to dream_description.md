@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DavCDRVtap8/"
 type: "Reel"
 author: "andreyalaa"
 shared: "Jul 23, 2026, 04:30 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

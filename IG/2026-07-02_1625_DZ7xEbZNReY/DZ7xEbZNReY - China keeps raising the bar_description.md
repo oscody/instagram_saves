@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZ7xEbZNReY/"
 type: "Reel"
 author: "otakuweek"
 shared: "Jul 02, 2026, 04:25 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DY4OgF_os1x/"
 type: "Reel"
 author: "coach.kenny24"
 shared: "Jun 14, 2026, 02:46 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

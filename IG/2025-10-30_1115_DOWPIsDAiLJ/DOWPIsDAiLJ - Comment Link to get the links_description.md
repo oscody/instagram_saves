@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DOWPIsDAiLJ/"
 type: "Reel"
 author: "volkan.js"
 shared: "Oct 30, 2025, 11:15 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DdUNm6sx_x1/"
 type: "Reel"
 author: "angus.sewell"
 shared: "Sep 16, 2026, 03:21 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

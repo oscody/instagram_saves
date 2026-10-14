@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DU_BMdDk3Ur/"
 type: "Reel"
 author: "kingsmindset.daily"
 shared: "Jul 30, 2026, 04:24 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

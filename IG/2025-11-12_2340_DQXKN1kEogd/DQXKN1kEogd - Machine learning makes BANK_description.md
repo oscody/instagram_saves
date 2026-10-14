@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DQXKN1kEogd/"
 type: "Reel"
 author: "sajjaad.khader"
 shared: "Nov 12, 2025, 11:40 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DP4gY7wDLlO/"
 type: "Reel"
 author: "tidalforcevr"
 shared: "Jan 09, 2026, 08:53 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

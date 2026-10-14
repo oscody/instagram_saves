@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Dbu2kBzBcf8/"
 type: "Reel"
 author: "dev.uniquegames"
 shared: "Sep 08, 2026, 01:56 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

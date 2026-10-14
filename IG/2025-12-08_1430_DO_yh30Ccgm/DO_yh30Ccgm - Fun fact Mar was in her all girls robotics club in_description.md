@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DO_yh30Ccgm/"
 type: "Reel"
 author: "mar_antaya"
 shared: "Dec 08, 2025, 02:30 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

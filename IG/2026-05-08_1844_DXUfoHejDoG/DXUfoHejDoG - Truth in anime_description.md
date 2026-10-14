@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DXUfoHejDoG/"
 type: "Reel"
 author: "toxicbuttruereality"
 shared: "May 08, 2026, 06:44 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

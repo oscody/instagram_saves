@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Dc_0CDsBolu/"
 type: "Reel"
 author: "ryahbracy"
 shared: "Sep 09, 2026, 06:05 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

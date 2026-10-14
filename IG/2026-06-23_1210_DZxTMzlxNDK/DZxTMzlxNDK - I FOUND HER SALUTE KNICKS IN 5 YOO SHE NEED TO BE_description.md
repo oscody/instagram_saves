@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZxTMzlxNDK/"
 type: "Reel"
 author: "hollywoodbutta_"
 shared: "Jun 23, 2026, 12:10 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DeNaD7lx15E/"
 type: "Reel"
 author: "deonnahodges"
 shared: "Oct 08, 2026, 09:27 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

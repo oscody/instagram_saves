@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DcVSyBvvthb/"
 type: "Reel"
 author: "cooper.simson"
 shared: "Sep 07, 2026, 11:07 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

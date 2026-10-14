@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbJoP5HxlGk/"
 type: "Reel"
 author: "signaturebysimone"
 shared: "Jul 30, 2026, 05:22 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

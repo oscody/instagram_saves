@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DOyyGXyDA-E/"
 type: "Reel"
 author: "recime.app"
 shared: "Oct 07, 2025, 08:55 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

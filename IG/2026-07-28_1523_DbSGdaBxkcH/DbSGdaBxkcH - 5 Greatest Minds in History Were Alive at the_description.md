@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbSGdaBxkcH/"
 type: "Reel"
 author: "_anomoly_files"
 shared: "Jul 28, 2026, 03:23 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

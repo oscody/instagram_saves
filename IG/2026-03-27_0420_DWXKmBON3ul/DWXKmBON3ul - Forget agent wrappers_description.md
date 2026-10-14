@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DWXKmBON3ul/"
 type: "Reel"
 author: "thevibefounder"
 shared: "Mar 27, 2026, 04:20 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

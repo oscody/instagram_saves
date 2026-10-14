@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DdR-VJdp8-Q/"
 type: "Reel"
 author: "movieevelina"
 shared: "Sep 17, 2026, 01:52 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

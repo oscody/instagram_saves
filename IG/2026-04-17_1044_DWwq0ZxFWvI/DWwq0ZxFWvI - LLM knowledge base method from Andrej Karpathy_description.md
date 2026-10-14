@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DWwq0ZxFWvI/"
 type: "Reel"
 author: "sabrina_ramonov"
 shared: "Apr 17, 2026, 10:44 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

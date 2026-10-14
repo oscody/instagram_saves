@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DXEqf1ckwfb/"
 type: "Reel"
 author: "softgirlnocode"
 shared: "Apr 13, 2026, 05:31 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

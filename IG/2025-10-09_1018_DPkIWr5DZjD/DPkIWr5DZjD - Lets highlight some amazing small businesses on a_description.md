@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DPkIWr5DZjD/"
 type: "Reel"
 author: "briancantstopeating"
 shared: "Oct 09, 2025, 10:18 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Db_p3j0p1kb/"
 type: "Reel"
 author: "storyverse.store"
 shared: "Aug 15, 2026, 08:52 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

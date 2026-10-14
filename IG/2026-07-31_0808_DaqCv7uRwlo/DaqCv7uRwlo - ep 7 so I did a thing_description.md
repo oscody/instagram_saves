@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaqCv7uRwlo/"
 type: "Reel"
 author: "alyssaachanel"
 shared: "Jul 31, 2026, 08:08 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

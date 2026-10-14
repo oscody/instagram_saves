@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DPJn0O5jFZ4/"
 type: "Reel"
 author: "_solvearn"
 shared: "Nov 28, 2025, 10:12 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

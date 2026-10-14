@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DPb9W1sD02j/"
 type: "Reel"
 author: "collide.io"
 shared: "Nov 04, 2025, 07:52 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

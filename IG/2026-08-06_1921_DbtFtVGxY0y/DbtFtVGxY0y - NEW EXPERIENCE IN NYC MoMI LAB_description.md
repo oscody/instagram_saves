@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbtFtVGxY0y/"
 type: "Reel"
 author: "littlekidbigcity_newyork"
 shared: "Aug 06, 2026, 07:21 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

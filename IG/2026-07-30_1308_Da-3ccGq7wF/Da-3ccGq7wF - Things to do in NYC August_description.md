@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Da-3ccGq7wF/"
 type: "Reel"
 author: "runwayrizos"
 shared: "Jul 30, 2026, 01:08 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

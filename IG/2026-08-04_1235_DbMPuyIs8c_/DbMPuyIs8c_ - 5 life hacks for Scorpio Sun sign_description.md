@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbMPuyIs8c_/"
 type: "Reel"
 author: "theastrology_consultant"
 shared: "Aug 04, 2026, 12:35 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

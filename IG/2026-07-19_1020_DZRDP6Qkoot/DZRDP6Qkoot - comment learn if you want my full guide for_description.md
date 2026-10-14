@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZRDP6Qkoot/"
 type: "Reel"
 author: "psychologymatt"
 shared: "Jul 19, 2026, 10:20 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

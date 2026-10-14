@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DVei394kWjM/"
 type: "Reel"
 author: "taeyaliveslife"
 shared: "May 25, 2026, 10:04 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

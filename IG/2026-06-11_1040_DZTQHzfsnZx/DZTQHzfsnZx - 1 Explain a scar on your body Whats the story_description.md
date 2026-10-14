@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZTQHzfsnZx/"
 type: "Reel"
 author: "simp2pimpuniversity"
 shared: "Jun 11, 2026, 10:40 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

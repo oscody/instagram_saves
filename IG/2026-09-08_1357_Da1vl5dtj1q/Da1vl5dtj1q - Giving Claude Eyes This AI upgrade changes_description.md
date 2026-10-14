@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Da1vl5dtj1q/"
 type: "Reel"
 author: "benkimball.ai"
 shared: "Sep 08, 2026, 01:57 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

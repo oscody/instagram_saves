@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaZh5h7pshK/"
 type: "Reel"
 author: "louisbuildsbrands"
 shared: "Aug 26, 2026, 09:00 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

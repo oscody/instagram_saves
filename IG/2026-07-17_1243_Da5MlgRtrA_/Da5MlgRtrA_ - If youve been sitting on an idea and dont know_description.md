@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Da5MlgRtrA_/"
 type: "Reel"
 author: "buildwealthwiththomas"
 shared: "Jul 17, 2026, 12:43 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

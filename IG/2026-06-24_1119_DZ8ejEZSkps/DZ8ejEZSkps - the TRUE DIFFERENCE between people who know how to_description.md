@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZ8ejEZSkps/"
 type: "Reel"
 author: "sina.growthtech"
 shared: "Jun 24, 2026, 11:19 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbiVyvesoPV/"
 type: "Reel"
 author: "mitsuzen"
 shared: "Aug 06, 2026, 07:26 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

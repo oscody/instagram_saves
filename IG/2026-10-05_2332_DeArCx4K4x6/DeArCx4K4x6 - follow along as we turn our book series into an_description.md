@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DeArCx4K4x6/"
 type: "Reel"
 author: "theolduniverseofficial"
 shared: "Oct 05, 2026, 11:32 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-07"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DQuTYGaj3e4/"
 type: "Reel"
 author: "josh.otusanya"
 shared: "Nov 06, 2025, 06:05 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Dcw2I9jkohy/"
 type: "Reel"
 author: "globalaiforce"
 shared: "Sep 04, 2026, 01:24 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

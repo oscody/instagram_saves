@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaOHUa9gO3L/"
 type: "Reel"
 author: "newyorkcitynewsletter"
 shared: "Jul 02, 2026, 09:45 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

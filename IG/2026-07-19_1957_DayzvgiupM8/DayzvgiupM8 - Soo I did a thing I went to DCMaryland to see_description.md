@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DayzvgiupM8/"
 type: "Reel"
 author: "monai_ellis"
 shared: "Jul 19, 2026, 07:57 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DattP4LA3CB/"
 type: "Reel"
 author: "cartier_q_"
 shared: "Jul 12, 2026, 11:13 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

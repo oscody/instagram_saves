@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbUAvohBWa_/"
 type: "Reel"
 author: "spintheblockparty"
 shared: "Jul 30, 2026, 10:54 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DSSL_b2E3i4/"
 type: "Reel"
 author: "v.i.s.h.ai"
 shared: "Dec 28, 2025, 09:06 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

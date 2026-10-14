@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DQhJC9qDYe-/"
 type: "Reel"
 author: "theblackfemaleengineer"
 shared: "Nov 05, 2025, 10:50 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

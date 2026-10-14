@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DTEtct8jam1/"
 type: "Reel"
 author: "scolo_leveling"
 shared: "Jun 16, 2026, 12:28 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DdWwZhgTnY_/"
 type: "Reel"
 author: "buildwithneej"
 shared: "Sep 21, 2026, 08:57 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

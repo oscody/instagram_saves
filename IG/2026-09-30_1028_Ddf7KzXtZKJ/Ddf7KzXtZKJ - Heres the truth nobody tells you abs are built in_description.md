@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Ddf7KzXtZKJ/"
 type: "Reel"
 author: "lane.twins"
 shared: "Sep 30, 2026, 10:28 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

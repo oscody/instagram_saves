@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DUReU5NAB11/"
 type: "Reel"
 author: "langstaff.greg"
 shared: "Feb 04, 2026, 08:30 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

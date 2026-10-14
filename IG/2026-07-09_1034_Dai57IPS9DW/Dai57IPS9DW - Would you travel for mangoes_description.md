@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Dai57IPS9DW/"
 type: "Reel"
 author: "onegirloneworld"
 shared: "Jul 09, 2026, 10:34 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

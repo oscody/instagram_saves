@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DcJfwdVMwwn/"
 type: "Reel"
 author: "monni.shahnaz"
 shared: "Aug 18, 2026, 06:56 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

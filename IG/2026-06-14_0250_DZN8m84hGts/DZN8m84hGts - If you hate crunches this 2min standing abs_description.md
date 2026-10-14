@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZN8m84hGts/"
 type: "Reel"
 author: "fritz_fitness2"
 shared: "Jun 14, 2026, 02:50 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

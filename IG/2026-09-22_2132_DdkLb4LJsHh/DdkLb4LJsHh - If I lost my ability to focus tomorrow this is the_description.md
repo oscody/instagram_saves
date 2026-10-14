@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DdkLb4LJsHh/"
 type: "Reel"
 author: "nolan_killeen"
 shared: "Sep 22, 2026, 09:32 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

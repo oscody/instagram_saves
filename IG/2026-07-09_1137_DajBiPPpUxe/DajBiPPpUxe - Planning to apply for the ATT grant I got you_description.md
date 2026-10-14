@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DajBiPPpUxe/"
 type: "Reel"
 author: "nadirahs_world"
 shared: "Jul 09, 2026, 11:37 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

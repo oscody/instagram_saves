@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DPAmdL6DpY-/"
 type: "Reel"
 author: "not_a_sheriff"
 shared: "Oct 02, 2025, 11:03 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

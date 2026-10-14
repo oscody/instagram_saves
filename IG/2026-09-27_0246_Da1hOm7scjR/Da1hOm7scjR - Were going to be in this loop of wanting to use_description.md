@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Da1hOm7scjR/"
 type: "Reel"
 author: "thomas.lentine"
 shared: "Sep 27, 2026, 02:46 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

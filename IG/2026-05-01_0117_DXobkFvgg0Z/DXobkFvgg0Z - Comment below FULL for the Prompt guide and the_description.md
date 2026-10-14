@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DXobkFvgg0Z/"
 type: "Reel"
 author: "simplydigital.gr"
 shared: "May 01, 2026, 01:17 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

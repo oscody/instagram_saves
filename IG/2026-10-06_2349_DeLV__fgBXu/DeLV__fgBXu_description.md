@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DeLV__fgBXu/"
 type: "Reel"
 author: "aiproductlabs"
 shared: "Oct 06, 2026, 11:49 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

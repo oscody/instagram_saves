@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaBwuBKPdzA/"
 type: "Reel"
 author: "xsoulfit"
 shared: "Jul 09, 2026, 12:02 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

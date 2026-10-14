@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaDxo7ZoofO/"
 type: "Reel"
 author: "chroma.stx"
 shared: "Jul 03, 2026, 11:24 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

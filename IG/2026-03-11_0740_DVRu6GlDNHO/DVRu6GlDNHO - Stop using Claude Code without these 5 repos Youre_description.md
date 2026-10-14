@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DVRu6GlDNHO/"
 type: "Reel"
 author: "mikemeansbusiness_ai"
 shared: "Mar 11, 2026, 07:40 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

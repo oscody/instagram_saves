@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZFqbHXgTS2/"
 type: "Reel"
 author: "krystallotuslang"
 shared: "Jun 05, 2026, 05:43 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

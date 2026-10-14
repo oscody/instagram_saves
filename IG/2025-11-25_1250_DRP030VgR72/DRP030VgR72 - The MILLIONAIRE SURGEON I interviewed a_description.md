@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DRP030VgR72/"
 type: "Reel"
 author: "theschoolofhardknockz"
 shared: "Nov 25, 2025, 12:50 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

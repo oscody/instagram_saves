@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DeA_Y0eP2D8/"
 type: "Reel"
 author: "devilco.nitin"
 shared: "Oct 08, 2026, 01:43 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DR--1uRkaib/"
 type: "Reel"
 author: "thedigitalkinggg"
 shared: "Dec 09, 2025, 11:37 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

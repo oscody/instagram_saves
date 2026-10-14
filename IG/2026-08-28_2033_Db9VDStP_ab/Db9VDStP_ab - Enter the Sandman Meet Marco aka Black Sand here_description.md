@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Db9VDStP_ab/"
 type: "Reel"
 author: "arcadecalifornia"
 shared: "Aug 28, 2026, 08:33 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

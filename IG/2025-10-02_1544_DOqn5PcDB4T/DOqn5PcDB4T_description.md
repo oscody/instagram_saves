@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DOqn5PcDB4T/"
 type: "Reel"
 author: "scylla_db"
 shared: "Oct 02, 2025, 03:44 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

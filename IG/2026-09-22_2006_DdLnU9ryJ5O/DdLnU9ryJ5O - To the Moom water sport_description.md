@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DdLnU9ryJ5O/"
 type: "Reel"
 author: "pangandaranwaterfun"
 shared: "Sep 22, 2026, 08:06 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

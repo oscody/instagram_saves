@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbJ5RCxK-gY/"
 type: "Reel"
 author: "abhijayarora_"
 shared: "Jul 27, 2026, 07:32 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

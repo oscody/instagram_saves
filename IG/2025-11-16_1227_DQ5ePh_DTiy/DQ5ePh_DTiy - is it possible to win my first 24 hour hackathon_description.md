@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DQ5ePh_DTiy/"
 type: "Reel"
 author: "engineeringwithpalden"
 shared: "Nov 16, 2025, 12:27 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

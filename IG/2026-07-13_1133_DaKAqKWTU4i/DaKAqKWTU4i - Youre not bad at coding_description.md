@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaKAqKWTU4i/"
 type: "Reel"
 author: "itsgarimamalhotra"
 shared: "Jul 13, 2026, 11:33 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

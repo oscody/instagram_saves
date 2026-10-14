@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DdsODaiMTft/"
 type: "Reel"
 author: "lauraegocheaga"
 shared: "Sep 25, 2026, 06:00 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

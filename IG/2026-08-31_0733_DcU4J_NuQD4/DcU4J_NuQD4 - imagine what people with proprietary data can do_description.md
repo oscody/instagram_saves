@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DcU4J_NuQD4/"
 type: "Reel"
 author: "yoiqino"
 shared: "Aug 31, 2026, 07:33 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

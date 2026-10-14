@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DQewiDiEUZc/"
 type: "Reel"
 author: "careless_descent"
 shared: "Nov 04, 2025, 04:04 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

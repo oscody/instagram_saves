@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DRvQpD8jP_V/"
 type: "Reel"
 author: "diane.maximum.wage"
 shared: "Dec 23, 2025, 07:48 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

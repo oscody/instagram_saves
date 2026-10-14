@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DUUlM73DHAi/"
 type: "Reel"
 author: "jaeriddleanime"
 shared: "May 01, 2026, 01:20 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

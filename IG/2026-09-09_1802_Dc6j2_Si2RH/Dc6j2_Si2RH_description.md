@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Dc6j2_Si2RH/"
 type: "Reel"
 author: "liddellfitness"
 shared: "Sep 09, 2026, 06:02 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

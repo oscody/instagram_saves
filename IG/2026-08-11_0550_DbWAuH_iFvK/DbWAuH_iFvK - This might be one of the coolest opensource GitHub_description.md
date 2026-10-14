@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DbWAuH_iFvK/"
 type: "Reel"
 author: "algorithmswithpeter"
 shared: "Aug 11, 2026, 05:50 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-14"
 ---

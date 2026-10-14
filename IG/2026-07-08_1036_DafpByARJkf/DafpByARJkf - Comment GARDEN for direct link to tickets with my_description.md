@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DafpByARJkf/"
 type: "Reel"
 author: "theexcursiondoctor"
 shared: "Jul 08, 2026, 10:36 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

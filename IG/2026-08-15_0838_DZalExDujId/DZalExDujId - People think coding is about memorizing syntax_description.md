@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DZalExDujId/"
 type: "Reel"
 author: "techpantiwithdev"
 shared: "Aug 15, 2026, 08:38 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

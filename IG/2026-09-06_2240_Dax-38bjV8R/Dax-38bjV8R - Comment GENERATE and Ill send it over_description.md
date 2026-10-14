@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/Dax-38bjV8R/"
 type: "Reel"
 author: "nateherkai"
 shared: "Sep 06, 2026, 10:40 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

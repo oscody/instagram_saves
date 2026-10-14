@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DX31YpWgBAZ/"
 type: "Reel"
 author: "spines_for_writers"
 shared: "May 05, 2026, 02:45 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

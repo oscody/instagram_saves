@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DcEKrtztQFd/"
 type: "Reel"
 author: "lineup_battle"
 shared: "Aug 18, 2026, 05:19 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

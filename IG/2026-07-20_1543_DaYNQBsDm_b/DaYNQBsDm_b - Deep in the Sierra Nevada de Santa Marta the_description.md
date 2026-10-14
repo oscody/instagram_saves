@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DaYNQBsDm_b/"
 type: "Reel"
 author: "esotericcelestial"
 shared: "Jul 20, 2026, 03:43 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

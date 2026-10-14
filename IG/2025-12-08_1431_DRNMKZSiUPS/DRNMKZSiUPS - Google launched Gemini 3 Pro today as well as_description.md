@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DRNMKZSiUPS/"
 type: "Reel"
 author: "rpn"
 shared: "Dec 08, 2025, 02:31 PM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

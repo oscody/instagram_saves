@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DSxsfJTj3Pk/"
 type: "Reel"
 author: "viraj.ala"
 shared: "Dec 28, 2025, 09:09 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---

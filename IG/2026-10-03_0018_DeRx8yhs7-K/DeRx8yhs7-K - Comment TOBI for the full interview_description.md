@@ -4,6 +4,7 @@ url: "https://instagram.com/reel/DeRx8yhs7-K/"
 type: "Reel"
 author: "jonathanwordsofwisdom"
 shared: "Oct 03, 2026, 12:18 AM"
+transcribed_by: "faster-whisper base"
 described_by: "claude-haiku-5-5"
 described_at: "2026-10-08"
 ---
