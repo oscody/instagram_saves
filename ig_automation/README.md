@@ -101,7 +101,7 @@ If the app API fails (any HTTP error, network error or unexpected answer), the e
 * It copies the Firefox profile to a temporary folder and runs Firefox ESR headless on the copy, so the real Firefox and its login are never touched. The copy is deleted at the end.
 * It opens the inbox, clicks the chat by its `thread_title`, and reads Instagram's own in page data store (Relay): each `SlideMessage` record links to `content`, then `xma`, which holds `target_url` (the post URL) and `header_title_text` (the author). The posts on screen are cards without links, so the page HTML alone has no URLs.
 * A page load holds the newest 20 messages. It then scrolls up with real mouse wheel steps (scrolling from JavaScript loads nothing), 20 older messages per step, until it reaches the newest message already scanned. If 4 steps in a row load nothing, it stops, keeps the links it found, and leaves `newest_us` alone so the next run reads the gap again.
-* Each message is reshaped like an app API item, so the same `extract_links()` and `build_record()` handle it. Reels come in as `xma_clip`, posts as `xma_media_share`, with no caption (`download.py` fills in the post itself).
+* Each message is reshaped like an app API item, so the same `extract_links()` and `build_record()` handle it. Reels come in as `xma_clip`, posts as `xma_media_share`, often with no caption (see "Empty captions" in Troubleshooting).
 * It needs `thread_v2_id` in the export file (the chat's id in the new DM system), which the first app API run saves.
 * It only reads new messages. Older history (backfill) is only read through the app API.
 * Speed: about 50 seconds to open the chat and scroll back 5 steps (100 messages).
@@ -299,7 +299,7 @@ Each post is saved to `iambogle.json`, and its note written, as soon as it is do
 
 ### Log
 
-Every run is printed and also appended to `output/describe.log`, so you can follow runs over time:
+Describe logs to `output/pipeline.log`, the same file as the rest of the pipeline. Under `run_pipeline.py` its output already goes there. A run by hand is printed and also appended to `output/pipeline.log`, starting with `Run by hand, not by run_pipeline.py`, so every describe run is in one place:
 
 * `=== describe.py (backend claude, ...)` or `(upgrade, ...)` starts each run
 * `Claude <shortcode>: <title>` for each post Claude did, and `LLM <shortcode>: <title>` for each post the Hailo did
@@ -307,7 +307,7 @@ Every run is printed and also appended to `output/describe.log`, so you can foll
 * `Claude usage limit reached (...); N posts left, ...` when the limit is hit
 * The last line counts the results: posts per model for a normal run, or upgraded, not upgraded and posts still by Qwen for an upgrade
 
-Check where things stand with `grep -E "===|Done|limit" output/describe.log`.
+Check where things stand with `grep -E "=== describe|Done|limit|Run by hand" output/pipeline*.log`. Until 2026-10-08 describe also wrote its own `output/describe.log`; its hand runs from 2026-10-07 are now in `pipeline-2026-10-07-part2.log`.
 
 Each model is loaded once per run, not once per post. Each stage opens the Hailo device fresh: on HailoRT 5.1.1, loading the LLM on a device handle that had already held another GenAI model failed with `HAILO_INTERNAL_FAILURE(8)`. The Pi temperature and throttle flag are logged at each stage.
 
@@ -367,10 +367,12 @@ Before it starts, it:
 * refuses to start if another `run_pipeline.py` is already running, so two runs never write the export file at once
 * checks that `output/iambogle.json` is valid JSON, and does not start if it is not
 * moves the last run's `output/pipeline.log` to `output/pipeline-<date>-part<N>.log`, so a new run never overwrites an old log
-* writes a warning at the top of the new log when the last run ended without its `Pipeline ran ...` finish line, which means it was cut off by a power cut or a kill (see the Pi shutdown on 2026-10-08)
+* writes a warning at the top of the new log when the last run ended without its `Pipeline ran ...` finish line, which means it was cut off by a power cut or a kill (see the Pi shutdown on 2026-10-08). A log with no `=== Batch` line holds only `describe.py` runs by hand, so it gets no warning.
 * logs the Pi temperature and throttle flags at the start and at each `=== Batch N ===` line
 
 `--foreground` runs it in the terminal instead, with no log file and none of the log steps.
+
+Each stage runs with `IG_PIPELINE=1` set, which tells `describe.py` its output already goes to the pipeline log, so it does not add a second copy.
 
 * **Follow it:** `tail -f output/pipeline.log`. Each batch starts with a `Pending:` line counting what is left.
 * **Stop cleanly** after the current batch: `touch output/STOP`. Stopping at once (`pkill -INT -f run_pipeline.py`) is also safe: every script saves after each post, and describe always starts hailo-ollama again.
@@ -379,7 +381,7 @@ Before it starts, it:
   * If Claude hit its usage limit during that batch's describe, the upgrade is skipped for that batch. Every batch tries again, so upgrades start again by themselves once the limit resets.
   * If only upgrades are left and Claude is at its limit, the batch makes no progress and the runner stops. Start it again later.
   * `describe.py` exits with code 75 when Claude hit its limit; that is how the runner knows.
-  * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in `output/describe.log`.
+  * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in the same log, under each `=== describe.py` line.
 * **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off).
 * **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. `--no-export` turns this off. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
 
@@ -397,5 +399,7 @@ Before it starts, it:
 * **`describe.py`: `Another program is using the Hailo`:** hailo-mcp is in the middle of a request. Wait and run again.
 * **`describe.py`: `sudo: a password is required`:** the sudoers rule `/etc/sudoers.d/hailo-ollama` is missing or wrong. Check it with `sudo -n -l`.
 * **hailo-ollama not running after describe:** start it with `sudo systemctl start hailo-ollama`. describe always tries to, so check its log for the error.
+* **Empty captions (found 2026-10-08):** shares in the new DM format (`xma_clip`, `xma_media_share`) often carry no caption, and 538 posts were saved with `null`. That crashed describe on 13 posts (`'NoneType' object has no attribute 'strip'`). Fixed: the exporter saves a missing caption as `""` and turns old `null` captions into `""` when it loads the file, and describe treats `null` as empty. The caption itself is still missing: for reels Instagram has it (yt-dlp returned it for all 3 checked), while the 2 photo posts checked really had none. Fetching it in `download.py` is a todo, as is describing the 13 failed posts again while the pipeline is stopped.
+* **Many downloads fail with `Failed to resolve 'www.instagram.com'`:** the Pi lost its network (Wi-Fi dropped from about 16:45 to 16:50 on 2026-10-08 and 19 posts failed). The posts are fine. `download.py` skips posts with an error and the pipeline does not retry them, so run `download.py --retry-failed --shortcode ...` for them while the pipeline is stopped (two processes must never write `iambogle.json` at once).
 * **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped.
 * **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them. Exception: `xma_clip` messages here are reels that were deleted ("Message unavailable", no URL), about 157 in the iambogle chat, so there is nothing to recover.

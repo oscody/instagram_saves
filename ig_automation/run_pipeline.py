@@ -47,6 +47,7 @@ HERE = Path(__file__).resolve().parent
 STOP_FILE = HERE / "output" / "STOP"
 LOG_FILE = HERE / "output" / "pipeline.log"
 FINISH_LINE = "Pipeline ran"
+BATCH_LINE = "=== Batch"
 
 
 def parse_args() -> argparse.Namespace:
@@ -116,7 +117,9 @@ def archive_log() -> tuple[Path, bool] | None:
     if not LOG_FILE.exists() or LOG_FILE.stat().st_size == 0:
         return None
     # A Ctrl+C or a traceback can follow the finish line, so look for it anywhere in the log.
-    finished = FINISH_LINE in LOG_FILE.read_text(errors="replace")
+    # A log holding only describe.py runs by hand never had a pipeline run to finish.
+    text = LOG_FILE.read_text(errors="replace")
+    finished = FINISH_LINE in text or BATCH_LINE not in text
     day = time.strftime("%Y-%m-%d", time.localtime(LOG_FILE.stat().st_mtime))
     part = 1
     while (dest := LOG_FILE.with_name(f"pipeline-{day}-part{part}.log")).exists():
@@ -165,7 +168,12 @@ def start_background(argv: list[str]) -> int:
 def run_stage(script: str, batch: int, *extra: str) -> int:
     """Run one stage; a failed post is recorded in the export file, so a non zero exit is only logged."""
     started = time.monotonic()
-    result = subprocess.run([sys.executable, str(HERE / script), "--limit", str(batch), *extra], cwd=HERE)
+    # IG_PIPELINE tells describe.py its output is already in the pipeline log, also with --foreground.
+    result = subprocess.run(
+        [sys.executable, str(HERE / script), "--limit", str(batch), *extra],
+        cwd=HERE,
+        env={**os.environ, "IG_PIPELINE": "1"},
+    )
     name = " ".join((script,) + extra)
     logger.info(f"  {name} finished in {(time.monotonic() - started) / 60:.1f} min (exit code {result.returncode})")
     return result.returncode
@@ -211,7 +219,7 @@ def main() -> int:
                 logger.info("Nothing left to do")
                 break
             batch_no += 1
-            logger.info(f"=== Batch {batch_no} === ({pi_status()})")
+            logger.info(f"{BATCH_LINE} {batch_no} === ({pi_status()})")
             describe_hit_limit = False
             for script, key in (("download.py", "download"), ("transcribe.py", "transcribe"), ("describe.py", "describe")):
                 if pending()[key]:

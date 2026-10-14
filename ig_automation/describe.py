@@ -47,8 +47,9 @@ logging.basicConfig(
     level=logging.INFO,
 )
 logger = logging.getLogger("ig_describe")
-# Every run is also appended here, so describe and upgrade runs can be followed over time.
-LOG_FILE = OUTPUT_DIR / "describe.log"
+# A run by hand is appended to the pipeline log, marked as such. Under run_pipeline.py the output
+# already goes there, so nothing is added.
+LOG_FILE = OUTPUT_DIR / "pipeline.log"
 
 MODELS_DIR = Path("/usr/local/hailo/resources/models/hailo10h")
 OCR_DET_HEF = MODELS_DIR / "ocr_det.hef"
@@ -421,7 +422,7 @@ SUMMARY_ASK = "Summarize this Instagram post in 2 or 3 sentences. Reply with onl
 
 def llm_prompt(job: dict, ask: str) -> list:
     parts = {
-        "caption": job["record"].get("caption", ""),
+        "caption": job["record"].get("caption") or "",
         "transcript": job["transcript"],
         "on screen text": job["ocr"],
     }
@@ -522,7 +523,7 @@ class ClaudeLimit(Exception):
 
 def claude_prompt(job: dict) -> str:
     parts = {
-        "caption": job["record"].get("caption", ""),
+        "caption": job["record"].get("caption") or "",
         "transcript": job["transcript"],
         "on screen text": job["ocr"],
     }
@@ -725,11 +726,23 @@ def notes_only(records: list, ig_dir: Path) -> int:
 # ---------------------------------------------------------------- main
 
 
+def started_by_pipeline() -> bool:
+    """True under run_pipeline.py, or when this run's log output already goes to the pipeline log."""
+    if os.environ.get("IG_PIPELINE"):
+        return True
+    try:
+        return os.path.samestat(os.fstat(sys.stderr.fileno()), os.stat(LOG_FILE))
+    except OSError:
+        return False
+
+
 def main() -> int:
     args = parse_args()
-    file_log = logging.FileHandler(LOG_FILE, encoding="utf-8")
-    file_log.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s", "%Y-%m-%d %H:%M:%S"))
-    logger.addHandler(file_log)
+    if not started_by_pipeline():
+        file_log = logging.FileHandler(LOG_FILE, encoding="utf-8")
+        file_log.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s", "%Y-%m-%d %H:%M:%S"))
+        logger.addHandler(file_log)
+        logger.info("Run by hand, not by run_pipeline.py")
     mode = "upgrade" if args.upgrade else "notes only" if args.notes_only else f"backend {args.backend}"
     logger.info(f"=== describe.py ({mode}, Claude model {args.claude_model}{', limit ' + str(args.limit) if args.limit else ''})")
     data = json.loads(args.json.read_text())

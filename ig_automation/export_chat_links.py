@@ -201,7 +201,7 @@ def media_to_link(media: dict) -> dict:
         "shortcode": code,
         "type": post_type,
         "author": (media.get("user") or {}).get("username"),
-        "caption": caption.get("text", ""),
+        "caption": caption.get("text") or "",
     }
 
 
@@ -239,7 +239,7 @@ def extract_links(item: dict) -> list:
             target = xma.get("target_url") or ""
             link = link_from_url(target) if IG_URL_PATTERN.match(target) else None
             if link:
-                links.append({**link, "author": xma.get("header_title_text"), "caption": xma.get("title_text", "")})
+                links.append({**link, "author": xma.get("header_title_text"), "caption": xma.get("title_text") or ""})
 
     # Plain text and link messages can also carry pasted Instagram URLs.
     text = item.get("text") or (item.get("link") or {}).get("text") or ""
@@ -312,6 +312,12 @@ class ChatExporter:
             key = record.get("shortcode") or (link_from_url(record["url"]) or {}).get("shortcode") or record["url"]
             self.records.setdefault(key, record)
         self.upgraded = sum(add_missing_status(r) for r in self.records.values())
+        # Older exports saved a missing caption as null, which crashed the describe stage.
+        self.fixed_captions = 0
+        for record in self.records.values():
+            if "caption" in record and record["caption"] is None:
+                record["caption"] = ""
+                self.fixed_captions += 1
         self.scan = existing.get("scan", {})
         self.added = 0
         self.pages = 0
@@ -486,6 +492,8 @@ def main() -> int:
     if exporter is None:
         exporter = export_with_browser(args, cookies, out_path)
 
+    if exporter.fixed_captions:
+        logger.info(f"Changed {exporter.fixed_captions} null captions to empty text")
     if exporter.unhandled:
         logger.info(f"Message types with no links extracted: {exporter.unhandled}")
     logger.info(f"✓ {exporter.added} new links, {len(exporter.records)} total in {out_path}")

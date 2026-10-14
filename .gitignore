@@ -6,3 +6,4 @@ ig_automation/__pycache__/
 ig_automation/output/
 IG/
 hailort.log
+ig_automation/.env
