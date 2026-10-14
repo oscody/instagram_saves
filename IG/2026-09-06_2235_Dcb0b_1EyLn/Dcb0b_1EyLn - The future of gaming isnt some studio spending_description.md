@@ -1,0 +1,46 @@
+---
+shortcode: "Dcb0b_1EyLn"
+url: "https://instagram.com/reel/Dcb0b_1EyLn/"
+type: "Reel"
+author: "nate_pacyga"
+shared: "Sep 06, 2026, 10:35 PM"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-08"
+---
+
+# Multiplayer AI game builder with friends
+
+A creator promotes multiplayeragent.com, an AI game builder where friends chat with an agent to make games together. The screen shows a builder session for "Mow Party 3D," a lawnmower game made with his brother, with its version history and in-game controls.
+
+Written by claude-haiku-5-5.
+
+## Source
+
+* Link: multiplayeragent.com
+
+## Caption
+
+The future of gaming isn't some studio spending millions on the next AAA title. It's you and your friends in a chat, talking to an AI agent, building whatever ridiculous game only you'd care about. I made one with my brother about sneaking beer from our dad's fridge (nobody else will ever play it, and that's kind of the point). That's the actual future: games built by people who want to laugh together, not chase trends. Jump in at multiplayeragent.com and try it free. Genuinely curious what you build.
+
+## On screen text
+
+Shai
+ONsv2vv
+but the reque
+v1v11
+V
+send
+THIS GAME BUILDER
+Sha
+ut the request is t
+vvv1v1
+edrawinglop
+obste
+owing trail
+GAME AND PROBABLY
+but the request
+Uploa
+Ps vvvavs
+v8
+ing trai
+GUYS TO CHECK

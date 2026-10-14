@@ -1,0 +1,52 @@
+---
+shortcode: "DaF-isHo2yX"
+url: "https://instagram.com/reel/DaF-isHo2yX/"
+type: "Reel"
+author: "jinseoulmusic"
+shared: "Jul 07, 2026, 07:04 PM"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-08"
+---
+
+# DJ ranks 2026 songs on a percentage scale
+
+A DJ at a Pioneer controller asks which song has been the best of 2026 so far, with a Nigeria flag emoji. On screen, a 20% to 500% scale fills in with song titles, from Back Outside up to FRE$H at 400%.
+
+Written by claude-haiku-5-5.
+
+## Caption
+
+Which song has been the best of 2026 so far? 🇳🇬
+#dj #jinseoul #nigeria
+
+## On screen text
+
+WHICH SONG HAS BEEN
+THEBEST OF 2026 S0FAR
+20% BackOutside
+40%WORSHIP
+60%
+80%
+100%
+150%
+200%
+300%
+350%
+400%
+450%
+500%
+THEBEST OF 2026SFAR? II
+40% WORSHIP
+60%BigBumBum
+0%Tornado
+100%Jogodo
+150% Forgiveness
+ssno
+THEBEST OF 2026 S0FAR?
+0% BigBumBum
+80%Tornado
+200%Gratitude
+300%Chanel
+350% MOTIONSICKNESS
+400%FRE$H
+ssnoi

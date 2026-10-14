@@ -1,0 +1,98 @@
+---
+shortcode: "DYijb3ighQ5"
+url: "https://instagram.com/reel/DYijb3ighQ5/"
+type: "Reel"
+author: "wassimyounes_"
+shared: "Jun 05, 2026, 05:35 AM"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-08"
+---
+
+# Spec Kit spec-driven workflow for AI coding
+
+The creator presents GitHub's open-source Spec Kit, a toolkit for spec-driven development with AI coding agents, and lays out the stages it uses to turn an idea into code. The on-screen slides show the command sequence and the tool's compatibility with Claude Code, Cursor, Copilot, Codex and Gemini CLI.
+
+Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Write the rules and standards first (/constitution).
+2. Define what you want to build as a spec before any code is written (/specify).
+3. Clarify doubts before starting (/clarify).
+4. Plan the architecture from the spec (/plan).
+5. Break the plan into ordered, atomic tasks (/tasks).
+6. Implement the tasks one at a time and verify each output against the original spec (/implement).
+7. Keep the agent from guessing or creatively reinterpreting requirements by working from the spec.
+
+## Source
+
+* Link: Spec Kit
+* How to get it: Comment "FREE" to receive the GitHub link and starter guide by DM
+
+## Caption
+
+Comment “FREE” and I’ll send it over.
+Why your AI builds keep breaking:
+You’re vibe coding.
+You opened Claude. You said “build me an app that does X.” You hit enter. The AI guessed. It built something. It half-worked. You patched it. You patched the patches. Now your app is a Jenga tower of glue code held together by hope.
+Sound familiar? You’re not broken. You’re just doing it wrong.
+GitHub just open-sourced the fix: Spec Kit. 103,000 stars and climbing.
+It’s the toolkit for spec-driven development — meaning before Claude writes a single line of code, you define the spec. The AI generates a plan. The plan breaks into tasks. Tasks get executed. Every step is verified against the original spec.
+You stop guessing. You stop patching. You start shipping.
+What it actually does:
+	•	Generates a full spec from a one-paragraph product idea
+	•	Breaks the spec into a structured plan
+	•	Creates atomic tasks Claude (or Cursor, Copilot, Codex) can execute one at a time
+	•	Verifies every output against the original contract
+	•	Stops AI from “creatively interpreting” your requirements
+Works with: Claude Code, Cursor, Copilot, Codex — every major coding agent.
+The difference between hobby vibe coders and founders who actually ship: a spec.
+100% open source. MIT license. Free forever.
+Comment “FREE” — GitHub link and the official starter guide in your DMs.
+#ClaudeCode #VibeCoding #aiagents
+
+## On screen text
+
+X.com
+Nico
+@nicos_ai
+ranslatedrom Spanish byrok
+vibe coding.
+Comment "free Illsend
+They'
+already has +95Ks
+it over
+The idea?
+rowingvague
+d praying the
+Inst
+esn't break you
+t forces the A
+ation BEFOF
+build,
+i first unders
+s what's missi
+t,and
+en starts prograr
+That means lese
+ors,less
+incon
+Comment free ll send
+then starts programming.
+resulswhenworkingwih agents.
+Xlol
+The flow is simple:
+onutionl andstanar
+/specify
+what you want to build
+elarfydoubts beforestaring
+plan architecture an
+tasks orderedta
+implementexe
+Copilot,
+Compatible with
+Codex,Gemini Cl
+95K stars.
+SK forks.
+Open source.
+Published byGi

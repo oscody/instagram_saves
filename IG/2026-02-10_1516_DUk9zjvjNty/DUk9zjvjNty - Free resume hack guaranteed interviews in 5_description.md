@@ -1,0 +1,62 @@
+---
+shortcode: "DUk9zjvjNty"
+url: "https://instagram.com/reel/DUk9zjvjNty/"
+type: "Reel"
+author: "byaditimishra"
+shared: "Feb 10, 2026, 03:16 PM"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-08"
+---
+
+# Three-step ChatGPT resume method to beat ATS
+
+A reel presenting a three-prompt ChatGPT workflow for tailoring a resume to a job posting so it gets past applicant tracking systems. On-screen text shows the step 2 rewrite prompt with its formatting rules, and the full prompts are offered by comment.
+
+Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Paste your resume and the job posting into ChatGPT (the post says Claude or Gemini also works).
+2. Prompt 1: ask for a rating of your fit for the role from 1 to 10 and a list of the keywords you're missing (the reel says 5).
+3. Prompt 2: ask for the experience section to be rewritten using those keywords, with each bullet following the formula "Achieved [specific measurable result] by [action taken] resulting in [business impact]".
+4. In the same rewrite, naturally work in the top 10 keywords and include 2-3 quantified achievements per role.
+5. Prompt 3: ask the model to scan the resume like an ATS bot and point out what would get it rejected.
+6. Build the final resume in Overleaf using a template of your choice; the creator's favourite is Jake's resume.
+7. Customise the resume for every single role you apply to.
+
+## Source
+
+* How to get it: comment AI to receive the prompts and templates
+
+## Caption
+
+Free resume hack = guaranteed interviews in 5 minutes ⚡
+
+I wanted to put the prompts here and they just kept on getting more detailed (and better) and they’re simply too long for me to add here. 
+
+Follow + comment “AI” and I’ll share these with you (yes they are free & yes you can use it for any role!) 
+
+Stop getting rejected by bots. Here’s the exact 3-step ChatGPT method that beats ATS systems every time 🎯
+
+✅ Rate your fit + find missing keywords
+✅ Rewrite using proven formulas 
+✅ Scan for rejection triggers
+
+Plus Jake’s Resume template for perfect formatting 📄
+
+Follow @ByAditiMishra to get ahead ahead in your career & finances
+
+Comment “AI” for all prompts + templates 👇
+
+#resume #chatgpt #jobsearch #career #ats
+
+## On screen text
+
+Manypeopletu tolifecoac
+seprogrammes
+toherndiapoinmentevenca
+withoutpaying
+STEP2
+using thesekeywords
+these requirements:
+FORMATTING RULES:

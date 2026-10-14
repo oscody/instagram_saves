@@ -1,0 +1,30 @@
+---
+shortcode: "DdA7WSEuhvn"
+url: "https://instagram.com/reel/DdA7WSEuhvn/"
+type: "Reel"
+author: "roots23official1"
+shared: "Sep 10, 2026, 02:29 PM"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-08"
+---
+
+# Joke video about wanting a casual partner
+
+A short video of a woman in a white wrap walking along outdoor paths, with on-screen text joking that "guys sometimes you just need a consistent sex partner not a relationship." The caption is "Real😅".
+
+Written by claude-haiku-5-5.
+
+## Caption
+
+Real😅
+
+## On screen text
+
+Guys sometimesyou
+Ustneedaconsistent
+sexpartnernota
+elationship
+Guyssometimesyou
+fustneedaconsistent
+relationship
+justneedaconsistent

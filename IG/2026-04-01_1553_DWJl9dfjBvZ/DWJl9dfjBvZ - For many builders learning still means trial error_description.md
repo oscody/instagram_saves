@@ -1,0 +1,63 @@
+---
+shortcode: "DWJl9dfjBvZ"
+url: "https://instagram.com/p/DWJl9dfjBvZ/"
+type: "Carousel"
+author: "mindwired.ai"
+shared: "Apr 01, 2026, 03:53 PM"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-08"
+---
+
+# Claude prompts for learning faster
+
+A carousel with a Flash-themed cover that presents Claude prompts for learning a new topic faster, each shown in an orange box with the prompt text.
+
+Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Learn anything in 20 hours: ask Claude for a 20-hour plan built on the 20% of material that drives 80% of results, split into ten two-hour sessions with the best resources and a 15-minute review at the end of each.
+2. Create a one-page cheat sheet: ask for the key concepts of a topic on a single page, using bullet points, diagrams and examples, so it can be reviewed in 5 minutes.
+3. Quiz me until I break: after studying a topic, ask for 10 progressively harder questions, grade each answer, and have Claude explain what you missed.
+4. Build a learning ladder: ask Claude to split a topic into 5 difficulty levels and show how to go from Level 1 (beginner) to Level 5 (advanced), with a clear milestone at each step.
+5. Find the best learning resources: ask for the top 5 resources (books, videos, courses or people) for learning a topic fast, with an explanation of why each is worth your time.
+
+## Caption
+
+For many builders, learning still means trial, error, and losing time solving the same problems the hard way. Tools like Claude are changing that by helping users get to clarity faster when the right prompts are used. These six prompts stand out for one reason: they can turn hours of confusion into practical understanding in minutes.
+
+## On screen text
+
+Your speed of learning
+with Claude
+HOW PEOPLE ARE USING
+CLAUDE TOLEARNFASTER
+AND WHY THE APPROACH
+IS CATCHING ON
+SWIPE FOR MORE
+TEARNANYTHING INZOHOURS
+Prompt:
+o hourplnoused on he o tht
+hour sessions with the best
+end ofeach.
+2CREATEAONE-PACE CHEATSHET
+ona singiepageUseulet points
+airas anaeples cnrevew
+it in 5 minutes."
+3.QUIZ MEUNTILIBREAK
+jussudea topi.iveme
+ogresivehanerueion os
+yundartaninger ach answer
+.BULDA LEARNING LADDER
+Show me how to go from Levei 1
+beginer oleve  avanced
+with
+learilestone at each sep.
+SINTHEETEARNINGESOURCES
+is the op 5 resources books
+opie rast an explain why each is
+worth my time."
+GUSE THEFEYAN TECHNIOUE
+Prompt
+Epiin opiome nhe sple
+on my own.
