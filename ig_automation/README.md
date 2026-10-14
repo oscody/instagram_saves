@@ -254,7 +254,7 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 
 * `IG/<folder>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
 * `IG/<folder>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
-* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption and the on screen text. The transcript is not in the note (left out since 2026-10-14); it stays in `<audio>_transcript.txt` in the same folder. `strip_transcripts.py` removes the `## Transcript` section from older notes (for example after restoring a backup): a dry run by default, `--apply` to change them, and it only removes a section whose text matches the post's transcript file exactly. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `described_by`, `described_at`.
+* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption. The transcript and the on screen text are not in the note (left out since 2026-10-14; the OCR text was mostly broken fragments); they stay in `<audio>_transcript.txt` and `<base>_ocr.txt` in the same folder, and Claude still reads both. `strip_note_sections.py` removes the `## Transcript` and `## On screen text` sections from older notes (for example after restoring a backup): a dry run by default, `--apply` to change them, and it only removes a section whose text matches the post's own file exactly. On 2026-10-14 it removed the on screen text from 827 notes. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `described_by`, `described_at`.
 * In `iambogle.json`: `ai_title`, `summary`, `described_by` (the model, for example `claude-haiku-5-5` or `qwen2.5-1.5b-instruct (hailo)`), `described_at` (date), and `described: true`. `author` was already taken by the Instagram account, so the model goes in `described_by`.
 
 Example note (reel `Dd2F41WFQgF`, Claude). Its title and summary are also in `iambogle.json`; the steps and source are only here:
@@ -287,7 +287,6 @@ Written by claude-haiku-5-5.
 * How to get it: Comment IMPRESSIVE; the creator says he will send the link
 
 ## Caption
-## On screen text
 ```
 
 A post Qwen described (or one that teaches nothing) has no "What it teaches" section. Posts described before 2026-10-07 got their note from `--notes-only` and have an empty `described_at`.

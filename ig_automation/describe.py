@@ -652,14 +652,12 @@ def write_note(record: dict, folder: Path, teaches: list = (), source: dict = No
     """`<base>_description.md`: title, summary, who wrote them, what it teaches, its source, and the post's own text.
 
     The steps and source only live in the note, not in the JSON. Qwen does not make them.
-    The transcript is left out; it stays in `<audio>_transcript.txt` next to the note.
+    The transcript and the on screen text are left out; they stay in `<audio>_transcript.txt` and
+    `<base>_ocr.txt` next to the note.
     """
     base = base_of(record)
     caption = (record.get("caption") or "").strip()
-    sections = [
-        ("Caption", caption),
-        ("On screen text", read_text_file(folder / f"{base}_ocr.txt")),
-    ]
+    sections = [("Caption", caption)]
     front = {
         "shortcode": record["shortcode"],
         "url": record.get("url", ""),
