@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
-"""Download the media of the posts in an export file into one folder per post."""
+"""Download the media of the posts in an export file into one folder per post.
+
+Paced so Instagram does not flag the account (it blocked it on 2026-10-08): at most --daily-cap posts in any
+24 hours, 20 to 60 seconds between posts, none during --quiet-hours. When Instagram logs the session out it
+writes output/LOGGED_OUT and stops; no download starts again until that file is deleted.
+"""
 
 import argparse
 import json
 import logging
 import random
 import re
+import socket
 import subprocess
 import sys
 import time
@@ -18,6 +24,7 @@ import requests
 from export_chat_links import (
     FIREFOX_PROFILE,
     HEADERS,
+    IG_API_BASE,
     OUTPUT_DIR,
     SENT_AT_FORMAT,
     api_get,
@@ -35,6 +42,22 @@ logger = logging.getLogger("ig_download")
 DEFAULT_JSON = OUTPUT_DIR / "iambogle.json"
 IG_DIR = Path(__file__).resolve().parent.parent / "IG"
 TITLE_MAX_CHARS = 50
+LOGGED_OUT_FILE = OUTPUT_DIR / "LOGGED_OUT"
+LOGGED_OUT_EXIT = 77  # tells run_pipeline.py to stop everything
+ATTEMPTS_FILE = OUTPUT_DIR / "download_attempts.json"  # when each post was tried, for the daily cap
+NETWORK_WAIT = 600  # longest wait for the network to come back, in seconds
+
+# Errors that can mean Instagram sent the request to its login page or a challenge. A single broken post can
+# also fail like this, so the session is checked before the run stops.
+LOGIN_SIGNS = (
+    "exceeded 30 redirects", "failed to parse json", "login required", "login_required", "checkpoint",
+    "challenge", "rate-limit", "rate limit", "please wait a few minutes", "http error 401", "http error 403",
+    "http error 429", "http 401", "http 403", "http 429",
+)
+NETWORK_SIGNS = (
+    "failed to resolve", "nameresolutionerror", "temporary failure in name resolution", "max retries exceeded",
+    "connection reset", "connection aborted", "network is unreachable", "timed out", "read timed out",
+)
 SHORTCODE_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
 
 
@@ -78,9 +101,96 @@ def parse_args() -> argparse.Namespace:
         default=str(FIREFOX_PROFILE),
         help=f"Firefox profile to read the Instagram login cookies from. Default: {FIREFOX_PROFILE}",
     )
-    parser.add_argument("--min-sleep", type=float, default=5.0, help="Minimum pause between posts, in seconds.")
-    parser.add_argument("--max-sleep", type=float, default=12.0, help="Maximum pause between posts, in seconds.")
+    parser.add_argument("--min-sleep", type=float, default=20.0, help="Minimum pause between posts, in seconds. Default: 20")
+    parser.add_argument("--max-sleep", type=float, default=60.0, help="Maximum pause between posts, in seconds. Default: 60")
+    parser.add_argument(
+        "--daily-cap",
+        type=int,
+        default=75,
+        help="Most posts tried in any 24 hours, counting every run. 0 turns the cap off. Default: 75",
+    )
+    parser.add_argument(
+        "--quiet-hours",
+        default="23-8",
+        help="Local hours with no downloads, START-END. Empty turns it off. Default: 23-8 (11 pm to 8 am)",
+    )
     return parser.parse_args()
+
+
+def classify(error: str) -> str:
+    """'login' (maybe logged out or blocked), 'network' (the Pi is offline) or 'post' (only this post failed)."""
+    text = error.lower()
+    if any(sign in text for sign in NETWORK_SIGNS):
+        return "network"
+    if any(sign in text for sign in LOGIN_SIGNS):
+        return "login"
+    return "post"
+
+
+def session_ok(cookies: dict, record: dict) -> tuple[bool, str]:
+    """One request without following redirects: is the Instagram session still logged in?"""
+    path = f"/media/{media_id(record['shortcode'])}/info/"
+    try:
+        resp = requests.get(
+            f"{IG_API_BASE}{path}", headers=HEADERS, cookies=cookies, timeout=20, allow_redirects=False
+        )
+    except requests.RequestException as exc:
+        return True, f"session check failed to connect ({short_error(exc)})"
+    if resp.is_redirect:
+        return False, f"the API redirects to {resp.headers.get('Location')}"
+    text = resp.text[:300].lower()
+    if resp.status_code in (401, 403, 429) or any(s in text for s in ("login_required", "checkpoint", "challenge")):
+        return False, f"HTTP {resp.status_code}: {resp.text[:200]}"
+    return True, f"HTTP {resp.status_code}"
+
+
+def mark_logged_out(reason: str) -> None:
+    LOGGED_OUT_FILE.write_text(
+        f"{datetime.now():%Y-%m-%d %H:%M} {reason}\n"
+        "Log in to instagram.com in Firefox, close Firefox, run tests/download_test.py, then delete this file.\n"
+    )
+
+
+def network_up() -> bool:
+    try:
+        socket.gethostbyname("www.instagram.com")
+        return True
+    except OSError:
+        return False
+
+
+def wait_for_network(max_wait: int) -> bool:
+    started = time.monotonic()
+    while time.monotonic() - started < max_wait:
+        if network_up():
+            return True
+        time.sleep(30)
+    return network_up()
+
+
+def in_quiet_hours(spec: str, now: datetime) -> bool:
+    if not spec:
+        return False
+    start, end = (int(part) for part in spec.split("-"))
+    hour = now.hour
+    return start <= hour < end if start < end else hour >= start or hour < end
+
+
+def recent_attempts() -> list:
+    """Times (epoch seconds) of the posts tried in the last 24 hours."""
+    try:
+        times = json.loads(ATTEMPTS_FILE.read_text())
+    except (OSError, ValueError):
+        times = []
+    cutoff = time.time() - 24 * 3600
+    return [t for t in times if t > cutoff]
+
+
+def note_attempt() -> None:
+    times = recent_attempts() + [time.time()]
+    tmp = ATTEMPTS_FILE.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(times))
+    tmp.replace(ATTEMPTS_FILE)
 
 
 def make_title(caption: str) -> str:
@@ -150,6 +260,10 @@ def download_video(record: dict, folder: Path, base: str, firefox_profile: str) 
     run([
         sys.executable, "-m", "yt_dlp",
         "--cookies-from-browser", f"firefox:{firefox_profile}",
+        # Look like Firefox, the browser the cookies come from, not like a Python script.
+        "--impersonate", "firefox",
+        # The share in the chat often has no caption; the info file has the real one.
+        "--write-info-json",
         "--remux-video", "mp4",
         "--no-playlist",
         "--quiet", "--no-warnings",
@@ -158,6 +272,15 @@ def download_video(record: dict, folder: Path, base: str, firefox_profile: str) 
         "--output", str(folder / f"{base}.%(ext)s"),
         record["url"],
     ])
+    info_file = folder / f"{base}.info.json"
+    if info_file.exists():
+        try:
+            caption = json.loads(info_file.read_text()).get("description") or ""
+        except ValueError:
+            caption = ""
+        info_file.unlink()
+        if caption and not record.get("caption"):
+            record["caption"] = caption
     if not video.exists():
         raise RuntimeError("yt-dlp finished but wrote no mp4")
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-vn", "-ar", "16000", "-ac", "1", str(audio)])
@@ -211,7 +334,10 @@ def download_post(record: dict, ig_dir: Path, cookies: dict, firefox_profile: st
         items = info.get("items") or []
         if not items:
             raise RuntimeError("Post not found (deleted or private)")
-        record["type"] = media_to_link(items[0])["type"]
+        link = media_to_link(items[0])
+        record["type"] = link["type"]
+        if link["caption"] and not record.get("caption"):
+            record["caption"] = link["caption"]
         if items[0].get("media_type") == 2:
             files = download_video(record, folder, base, firefox_profile)
         else:
@@ -238,6 +364,8 @@ def main() -> int:
     args = parse_args()
     if args.min_sleep > args.max_sleep:
         raise SystemExit("--min-sleep must be less than or equal to --max-sleep.")
+    if args.quiet_hours and not re.fullmatch(r"\d{1,2}-\d{1,2}", args.quiet_hours):
+        raise SystemExit("--quiet-hours must look like 23-8, or be empty.")
 
     data = json.loads(args.json.read_text())
     records = sorted(
@@ -258,29 +386,63 @@ def main() -> int:
         return 0
     if not todo:
         return 0
+    if LOGGED_OUT_FILE.exists():
+        logger.error(f"Not downloading: {LOGGED_OUT_FILE} exists. {LOGGED_OUT_FILE.read_text().strip()}")
+        return LOGGED_OUT_EXIT
 
     cookies = load_firefox_cookies(args.firefox_profile)
     logger.info("✓ Firefox cookies loaded")
     args.ig_dir.mkdir(parents=True, exist_ok=True)
 
     done = failed = 0
+    code = 0
     for index, record in enumerate(todo, start=1):
+        if in_quiet_hours(args.quiet_hours, datetime.now()):
+            logger.info(f"Quiet hours ({args.quiet_hours}), stopping; the rest waits for the next run")
+            break
+        if args.daily_cap and len(recent_attempts()) >= args.daily_cap:
+            next_slot = datetime.fromtimestamp(min(recent_attempts()) + 24 * 3600)
+            logger.info(f"Daily cap reached ({args.daily_cap} posts in 24 h), next slot at {next_slot:%a %H:%M}")
+            break
         if index > 1:
             time.sleep(random.uniform(args.min_sleep, args.max_sleep))
         logger.info(f"[{index}/{len(todo)}] {record['type']} {record['shortcode']}")
+        note_attempt()
         try:
             download_post(record, args.ig_dir, cookies, args.firefox_profile)
             done += 1
             logger.info(f"  ✓ {len(record['files'])} files in {post_dir(args.ig_dir, record)}")
         except Exception as exc:  # noqa: BLE001
+            error = short_error(exc)
+            kind = classify(error)
+            folder = post_dir(args.ig_dir, record)
+            if folder.is_dir() and not any(folder.iterdir()):
+                folder.rmdir()  # a failed download leaves no empty folder behind
+            if kind == "network":
+                # The post was never really tried, so it gets no error and the next run tries it again.
+                logger.warning(f"  ✗ network: {error}")
+                if not wait_for_network(NETWORK_WAIT):
+                    logger.error(f"No network for {NETWORK_WAIT // 60} min, stopping")
+                    code = 1
+                    break
+                continue
+            if kind == "login":
+                ok, detail = session_ok(cookies, record)
+                if not ok:
+                    logger.error(f"  ✗ {error}")
+                    logger.error(f"Instagram logged the session out ({detail}). Stopping, wrote {LOGGED_OUT_FILE}")
+                    mark_logged_out(detail)
+                    code = LOGGED_OUT_EXIT
+                    break
             failed += 1
             record["downloaded"] = False
-            record["error"] = short_error(exc)
-            logger.warning(f"  ✗ {record['error']}")
-        save(data, args.json)
+            record["error"] = error
+            logger.warning(f"  ✗ {error}")
+        finally:
+            save(data, args.json)
 
-    logger.info(f"Done. Downloaded: {done} | Failed: {failed}")
-    return 0 if failed == 0 else 1
+    logger.info(f"Done. Downloaded: {done} | Failed: {failed} | Tried in the last 24 h: {len(recent_attempts())}")
+    return code or (0 if failed == 0 else 1)
 
 
 if __name__ == "__main__":

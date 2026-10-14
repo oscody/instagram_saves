@@ -12,7 +12,6 @@ import argparse
 import difflib
 import json
 import logging
-import os
 import re
 import sys
 import time
@@ -23,7 +22,7 @@ import requests
 
 from download import DEFAULT_JSON, IG_DIR, post_dir
 from export_chat_links import SENT_AT_FORMAT
-from transcribe import audio_name, transcript_path
+from transcribe import GROQ_MAX_UPLOAD, audio_name, groq_key, groq_transcribe, transcript_path
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -33,11 +32,7 @@ logging.basicConfig(
 logger = logging.getLogger("ig_groq_test")
 
 HERE = Path(__file__).resolve().parent
-ENV_FILE = HERE / ".env"
 OUT_DIR = HERE / "output" / "groq_test"
-API_URL = "https://api.groq.com/openai/v1/audio/transcriptions"
-MAX_UPLOAD_BYTES = 25 * 1024 * 1024  # Groq's free tier file size limit
-MAX_RETRIES = 3
 
 
 def parse_args() -> argparse.Namespace:
@@ -55,49 +50,15 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def api_key() -> str:
-    if key := os.environ.get("GROQ_API_KEY"):
-        return key
-    if ENV_FILE.exists():
-        for line in ENV_FILE.read_text().splitlines():
-            name, _, value = line.partition("=")
-            if name.strip().lower() in ("groq", "groq_api_key") and value.strip():
-                return value.strip().strip("'\"")
-    raise RuntimeError(f"No Groq API key: set GROQ_API_KEY or add groq=<key> to {ENV_FILE}")
-
-
-def groq_transcribe(key: str, audio: Path, model: str, language: str | None) -> dict:
-    """One transcription request; waits and tries again on a rate limit."""
-    data = {"model": model, "response_format": "verbose_json", "temperature": "0"}
-    if language:
-        data["language"] = language
-    for attempt in range(1, MAX_RETRIES + 1):
-        with audio.open("rb") as fh:
-            resp = requests.post(
-                API_URL,
-                headers={"Authorization": f"Bearer {key}"},
-                data=data,
-                files={"file": (audio.name, fh, "audio/mpeg")},
-                timeout=120,
-            )
-        if resp.status_code == 429 and attempt < MAX_RETRIES:
-            wait = float(resp.headers.get("retry-after") or 20)
-            logger.info(f"  rate limited, waiting {wait:.0f}s")
-            time.sleep(wait)
-            continue
-        if resp.status_code != 200:
-            raise RuntimeError(f"HTTP {resp.status_code}: {resp.text[:300]}")
-        return resp.json()
-    raise RuntimeError("still rate limited after retries")
-
-
 def words(text: str) -> list[str]:
     return re.findall(r"[a-z0-9']+", text.lower())
 
 
 def main() -> int:
     args = parse_args()
-    key = api_key()
+    key = groq_key()
+    if not key:
+        raise RuntimeError("No Groq API key: set GROQ_API_KEY or add groq=<key> to ig_automation/.env")
     records = sorted(
         json.loads(args.json.read_text())["links"],
         key=lambda r: datetime.strptime(r["sent_at"], SENT_AT_FORMAT),
@@ -119,13 +80,13 @@ def main() -> int:
         audio = post_dir(args.ig_dir, record) / audio_name(record)
         local = transcript_path(record, args.ig_dir).read_text(encoding="utf-8").strip()
         logger.info(f"[{index}/{len(todo)}] {code} ({audio.stat().st_size / 1e6:.1f} MB)")
-        if audio.stat().st_size > MAX_UPLOAD_BYTES:
+        if audio.stat().st_size > GROQ_MAX_UPLOAD:
             logger.warning("  ✗ over Groq's 25 MB upload limit, skipped")
             failed += 1
             continue
         try:
             started = time.monotonic()
-            result = groq_transcribe(key, audio, args.model, args.language)
+            result, _ = groq_transcribe(key, audio, args.model, args.language)
             took = time.monotonic() - started
         except (RuntimeError, requests.RequestException) as exc:
             logger.warning(f"  ✗ {exc}")

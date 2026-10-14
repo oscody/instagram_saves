@@ -30,10 +30,11 @@ import os
 import subprocess
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 from describe import CLAUDE_LIMIT_EXIT, needs_description, written_by_hailo
-from download import DEFAULT_JSON, IG_DIR, needs_download
+from download import DEFAULT_JSON, IG_DIR, LOGGED_OUT_EXIT, LOGGED_OUT_FILE, needs_download
 from transcribe import needs_transcript
 
 logging.basicConfig(
@@ -67,6 +68,12 @@ def parse_args() -> argparse.Namespace:
         help="Pages of older chat history (50 messages each) to read per batch. Default: 50",
     )
     parser.add_argument("--no-export", action="store_true", help="Do not run the exporter at the start of each batch.")
+    parser.add_argument(
+        "--export-every",
+        type=float,
+        default=6.0,
+        help="Read the chat only when the last export is at least this many hours old. 0 reads it every batch. Default: 6",
+    )
     parser.add_argument(
         "--foreground", action="store_true", help="Run in this terminal instead of starting in the background."
     )
@@ -113,7 +120,10 @@ def other_runner() -> int | None:
 
 
 def archive_log() -> tuple[Path, bool] | None:
-    """Move the last run's log to pipeline-<date>-part<N>.log; also say whether it ended with its finish line."""
+    """Move the last run's log to pipeline-<date>-part<N>.log; also say whether it ended with its finish line.
+
+    A log from today whose run finished stays in place, and the next run appends to it.
+    """
     if not LOG_FILE.exists() or LOG_FILE.stat().st_size == 0:
         return None
     # A Ctrl+C or a traceback can follow the finish line, so look for it anywhere in the log.
@@ -121,6 +131,9 @@ def archive_log() -> tuple[Path, bool] | None:
     text = LOG_FILE.read_text(errors="replace")
     finished = FINISH_LINE in text or BATCH_LINE not in text
     day = time.strftime("%Y-%m-%d", time.localtime(LOG_FILE.stat().st_mtime))
+    # The timer starts a short run every 2 hours; finished runs from today share one log instead of a file each.
+    if finished and day == time.strftime("%Y-%m-%d"):
+        return None
     part = 1
     while (dest := LOG_FILE.with_name(f"pipeline-{day}-part{part}.log")).exists():
         part += 1
@@ -179,6 +192,15 @@ def run_stage(script: str, batch: int, *extra: str) -> int:
     return result.returncode
 
 
+def hours_since_export() -> float:
+    """Hours since the export file's `exported_at`; very large when it is missing or unreadable."""
+    try:
+        exported = datetime.fromisoformat(json.loads(DEFAULT_JSON.read_text())["exported_at"])
+        return (datetime.now(timezone.utc) - exported).total_seconds() / 3600
+    except (OSError, ValueError, KeyError, TypeError):
+        return float("inf")
+
+
 def export(backfill_pages: int) -> None:
     """Pick up new posts from the chat; a failure is only logged, the batch goes on without them."""
     started = time.monotonic()
@@ -210,9 +232,18 @@ def main() -> int:
             if STOP_FILE.exists():
                 logger.info("Stop file found, stopping")
                 break
-            # Export first, so a restart with an empty backlog still picks up new posts.
+            # Every request to Instagram waits while the session is logged out.
+            if LOGGED_OUT_FILE.exists():
+                logger.error(f"Logged out of Instagram, stopping: {LOGGED_OUT_FILE.read_text().strip()}")
+                break
+            # Export first, so a restart with an empty backlog still picks up new posts. Reading the chat every
+            # batch looked like a bot, so it waits --export-every hours between reads.
             if not args.no_export:
-                export(args.backfill_pages)
+                age = hours_since_export()
+                if age >= args.export_every:
+                    export(args.backfill_pages)
+                else:
+                    logger.info(f"  Chat read {age:.1f} h ago, next read after {args.export_every:g} h")
             before = pending()
             logger.info(f"Pending: {before}")
             if not any(before[k] for k in work):
@@ -224,6 +255,8 @@ def main() -> int:
             for script, key in (("download.py", "download"), ("transcribe.py", "transcribe"), ("describe.py", "describe")):
                 if pending()[key]:
                     code = run_stage(script, args.batch)
+                    if script == "download.py" and code == LOGGED_OUT_EXIT:
+                        logger.error(f"  LOGGED OUT: Instagram logged the session out, see {LOGGED_OUT_FILE}")
                     if script == "describe.py" and code == CLAUDE_LIMIT_EXIT:
                         describe_hit_limit = True
                         logger.info("  Claude hit its usage limit during describe, the Hailo did the rest")

@@ -31,10 +31,9 @@ logger = logging.getLogger("ig_chat_export")
 
 IG_API_BASE = "https://www.instagram.com/api/v1"
 IG_APP_ID = "936619743392459"
-IG_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-)
+# The cookies come from Firefox ESR on this Pi, so the requests say they are that browser too (was Chrome on
+# Windows until 2026-10-14, which made one login look like two browsers).
+IG_USER_AGENT = "Mozilla/5.0 (X11; Linux aarch64; rv:153.0) Gecko/20100101 Firefox/153.0"
 HEADERS = {"User-Agent": IG_USER_AGENT, "X-IG-App-ID": IG_APP_ID}
 
 # Since 2026-10-07 the website answers every /direct_v2/ call with a 404 "not logged in" page,

@@ -19,6 +19,7 @@ import json
 import logging
 import os
 import re
+import signal
 import subprocess
 import sys
 import time
@@ -651,12 +652,12 @@ def write_note(record: dict, folder: Path, teaches: list = (), source: dict = No
     """`<base>_description.md`: title, summary, who wrote them, what it teaches, its source, and the post's own text.
 
     The steps and source only live in the note, not in the JSON. Qwen does not make them.
+    The transcript is left out; it stays in `<audio>_transcript.txt` next to the note.
     """
     base = base_of(record)
     caption = (record.get("caption") or "").strip()
     sections = [
         ("Caption", caption),
-        ("Transcript", transcript_text(record, folder)),
         ("On screen text", read_text_file(folder / f"{base}_ocr.txt")),
     ]
     front = {
@@ -830,7 +831,13 @@ def main() -> int:
     return 0 if failed == 0 else 1
 
 
+def interrupt_on_sigterm(signum, frame) -> None:
+    """A kill or `systemctl stop` sends SIGTERM; treat it like Ctrl+C so the finally blocks start hailo-ollama again."""
+    raise KeyboardInterrupt
+
+
 if __name__ == "__main__":
+    signal.signal(signal.SIGTERM, interrupt_on_sigterm)
     try:
         sys.exit(main())
     except KeyboardInterrupt:

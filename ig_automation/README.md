@@ -73,6 +73,7 @@ The file looks like this. Links are listed newest first:
 * URLs use the same format as `sync.py`, so they can feed the `download_media.py` pipeline.
 * `shortcode` identifies the post. Every link is saved in the standard form, `https://instagram.com/reel/<shortcode>/` or `https://instagram.com/p/<shortcode>/`, even when it was pasted with `www.` or a `?igsh=` query string.
 * `downloaded`, `transcribed`, `described`, `error` and `files` track the rest of the pipeline (download, transcribe, describe). New links start with `false`, `false`, `false`, `false` and `[]`. The later stages set them; this script only adds them and never changes them, so re-running it never loses pipeline progress. `error` is `false`, or the reason text when a stage failed.
+* `transcribed_by` (added 2026-10-14) says which backend made the transcript: `groq whisper-large-v3-turbo` or `faster-whisper base`. Posts transcribed before that have none (all by faster-whisper).
 * `scan` records how far the script has read the chat. Do not edit it.
 
 ## How it works
@@ -154,16 +155,21 @@ IG/
     └── DeArCx4K4x6 - follow along as we turn our book series into an.mp3
 ```
 
+**In git (since 2026-10-14):** only the notes (`IG/*/*_description.md`) are tracked in this repo, so changes to them can be seen and undone; media, transcripts and on screen text stay ignored (`.gitignore`). New notes from the timer show up in `git status` until they are committed. This repo is public on GitHub, so a push makes the notes public.
+
 All three scripts get the folder from one helper, `post_dir()` in `download.py`. The date never changes, because the exporter never changes a saved post.
 
 ### How it works
 
 * **Which posts:** newest first, every post with `downloaded: false` and `error: false`. A post marked `downloaded` whose files are missing from its folder is downloaded again.
-* **Reels:** yt-dlp with the Firefox cookies (`--remux-video mp4`), then ffmpeg makes a 16 kHz mono `.mp3` for transcribing. yt-dlp is never self updated.
+* **Reels:** yt-dlp with the Firefox cookies and `--impersonate firefox` (needs `curl_cffi`, installed 2026-10-14, so the connection looks like Firefox and not a Python script), `--remux-video mp4`, then ffmpeg makes a 16 kHz mono `.mp3` for transcribing. yt-dlp is never self updated; update it with `pip install -U "yt-dlp[default,curl-cffi]"` in the venv.
+* **Captions:** the share in the chat often has no caption. For reels yt-dlp writes an info file whose `description` is the real caption; for photos and carousels the media info has it. Either fills an empty `caption` (added 2026-10-14). The file names are chosen before that, so posts with no caption in the chat are still named by shortcode only.
 * **Photos and carousels:** no yt-dlp. The script asks Instagram's API for the post's media and saves the largest version of each image, or video slide, in slide order. A `/p/` link that turns out to be a video is handled like a reel. The record's `type` is corrected from the API.
 * **After each post:** `files` lists the files written, `downloaded` becomes `true` and `error` becomes `false`, and `iambogle.json` is saved, so an interrupted run keeps its progress.
-* **On failure:** `downloaded` stays `false` and `error` gets the reason, for example `HTTP 400 on /media/.../info/` for a deleted or private post. Later runs skip it unless you pass `--retry-failed`.
-* **Pauses:** 5 to 12 seconds between posts, to avoid Instagram rate limits.
+* **On failure:** `downloaded` stays `false` and `error` gets the reason, for example `HTTP 400 on /media/.../info/` for a deleted or private post. Later runs skip it unless you pass `--retry-failed`. A failed post leaves no empty folder.
+* **Stop on logout (added 2026-10-14):** an error that can mean Instagram sent the request to its login page or a challenge (`Exceeded 30 redirects`, `Failed to parse JSON`, login required, checkpoint, HTTP 401, 403 or 429) triggers one check of the session (a media info request that does not follow redirects). If the session is logged out, the post gets no error, the run stops with exit code 77, and `output/LOGGED_OUT` is written with the reason. No download (and no chat read by `run_pipeline.py`) starts while that file exists. To start again: log in to instagram.com in Firefox, close Firefox, run `tests/download_test.py`, then delete `output/LOGGED_OUT`. If the session is fine, only that post gets the error. Before this, the 2026-10-08 block failed about 960 posts over 5 hours.
+* **Network drops:** an error like `Failed to resolve 'www.instagram.com'` leaves the post untouched (the next run tries it again) and waits up to 10 minutes for the network. If it does not come back, the run stops.
+* **Pacing (added 2026-10-14):** 20 to 60 seconds between posts (was 5 to 12), at most `--daily-cap` posts (75) tried in any 24 hours across all runs, and none during `--quiet-hours` (11 pm to 8 am). Every try is logged in `output/download_attempts.json`, which the cap counts. At the cap the run stops with `Daily cap reached ..., next slot at ...`. Instagram does not publish its limits, so these numbers are a cautious guess after the 2026-10-08 block.
 
 ### Options
 
@@ -175,11 +181,13 @@ All three scripts get the folder from one helper, `post_dir()` in `download.py`.
 | `--dry-run` | List the posts that would be downloaded, with their file names, then stop |
 | `--json PATH` | Export file to read and update. Default: `output/iambogle.json` |
 | `--ig-dir DIR` | Folder for the post folders. Default: `../IG` |
-| `--min-sleep`, `--max-sleep` | Pause between posts, in seconds. Default: 5 and 12 |
+| `--min-sleep`, `--max-sleep` | Pause between posts, in seconds. Default: 20 and 60 |
+| `--daily-cap N` | Most posts tried in any 24 hours, counting every run. `0` turns it off. Default: 75 |
+| `--quiet-hours START-END` | Local hours with no downloads. Empty (`""`) turns it off. Default: `23-8` |
 
 ## Transcribe the reels: `transcribe.py`
 
-`transcribe.py` turns the `.mp3` of each downloaded reel into text with faster-whisper on the CPU (`base` model, int8, the same settings as the first test on this Pi). Run it after `download.py`, never at the same time as another script.
+`transcribe.py` turns the `.mp3` of each downloaded reel into text. Groq's hosted Whisper (`whisper-large-v3-turbo`) does it while the free quota lasts, and faster-whisper on the CPU (`base` model, int8) does the rest (added 2026-10-14). Run it after `download.py`, never at the same time as another script.
 
 ```
 cd /home/homepi/Work/ig/instagram_saves/ig_automation
@@ -190,13 +198,19 @@ The transcript goes next to the audio, as `<shortcode> - <title>_transcript.txt`
 
 ### How it works
 
+* **Groq first (`--backend auto`, the default):** each reel goes to Groq, about 1 second per reel with no CPU heat. The key comes from `GROQ_API_KEY` or the `groq=` line in `ig_automation/.env`; with no key the CPU does everything.
+  * Free quota: 2,000 requests a day (the `x-ratelimit-remaining-requests` header; the last line of each run shows what is left), plus limits on audio seconds per hour and per day.
+  * A rate limit with a short `Retry-After` (60 seconds or less) is waited out. A longer one means the quota is used up, so the CPU does the rest of that run. The next run tries Groq again.
+  * A reel over Groq's 25 MB upload limit, or a Groq error, goes to the CPU instead.
+  * Each post records the backend in `transcribed_by` (`groq whisper-large-v3-turbo` or `faster-whisper base`).
+  * Quality: on 5 reels Groq matched the local transcripts by 92 to 100% of words (`groq_transcribe_test.py`, 2026-10-08).
 * **Which posts:** newest first, every post with `downloaded: true`, `transcribed: false`, `error: false` and an `.mp3` in `files`. Photo and carousel posts have no audio, so they are skipped and keep `transcribed: false`.
 * **No speech:** a reel with only music or silence gets an empty transcript and still `transcribed: true`, so it is not tried again every run. Music with lyrics comes out as the lyrics.
 * **Trust the folder:** a post marked `transcribed` whose transcript file is gone is transcribed again. A post whose `.mp3` is gone gets `downloaded: false`, so the next `download.py` run fetches it again.
 * **After each post:** `transcribed` becomes `true`, and `iambogle.json` is saved. The transcript is not added to `files`, which lists only downloaded media.
 * **On failure:** `error` gets the reason, and later runs skip the post unless you pass `--retry-failed`.
-* **Speed:** about 2 to 3 times faster than real time on the Pi 5 (54 seconds of audio in 20 seconds). The model loads once per run.
-* **Cool down:** transcribing keeps all 4 CPU cores busy, and without a fan the Pi reaches 85 °C and throttles after about 4 minutes. So before each reel the script reads the CPU temperature (`/sys/class/thermal/thermal_zone0/temp`). At `--max-temp` (80 °C) or above it pauses, checking every 15 seconds, until the CPU is down to `--resume-temp` (70 °C). If a single pause reaches `--max-wait` (10 minutes) it carries on anyway, with a warning. Each reel's log line shows the CPU temperature, and the final line shows the total time and how much of it was cooling.
+* **Speed on the CPU:** about 2 to 3 times faster than real time on the Pi 5 (54 seconds of audio in 20 seconds). The model loads once per run, and only when the CPU is needed.
+* **Cool down:** transcribing keeps all 4 CPU cores busy, and without a fan the Pi reaches 85 °C and throttles after about 4 minutes. So before each reel on the CPU the script reads the CPU temperature (`/sys/class/thermal/thermal_zone0/temp`). At `--max-temp` (80 °C) or above it pauses, checking every 15 seconds, until the CPU is down to `--resume-temp` (70 °C). If a single pause reaches `--max-wait` (10 minutes) it carries on anyway, with a warning. Each reel's log line shows the CPU temperature, and the final line shows the total time and how much of it was cooling.
 
 Example from a 16 reel run (2026-10-07, no fan): 9.0 minutes in total, 3.5 of them cooling in 6 pauses of 15 to 75 seconds. The CPU peaked at 83.7 °C (it can pass 80 °C during a long reel, because the check happens between reels) and was not throttling at the end.
 
@@ -218,6 +232,8 @@ Done. Transcribed: 16 | Failed: 0 | Time: 9.0 min, of which cooling 3.5 min in 6
 | `--retry-failed` | Also try posts whose `error` is set |
 | `--shortcode CODE` | Only this post. Can be given more than once |
 | `--dry-run` | List the posts that would be transcribed, then stop |
+| `--backend auto\|groq\|cpu` | `auto`: Groq, then the CPU once the quota is used up. `groq`: Groq only, stop when the quota is used up. `cpu`: faster-whisper only. Default: `auto` |
+| `--groq-model NAME` | `whisper-large-v3-turbo` (default) or `whisper-large-v3` |
 | `--model NAME` | faster-whisper model. Default: `base`. `small` is more accurate and slower |
 | `--language CODE` | Force a language, for example `en`. Default: detect it |
 | `--max-temp C` | Pause before the next reel at or above this CPU temperature. Default: 80 |
@@ -238,7 +254,7 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 
 * `IG/<folder>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
 * `IG/<folder>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
-* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption, the transcript and the on screen text. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `described_by`, `described_at`.
+* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption and the on screen text. The transcript is not in the note (left out since 2026-10-14); it stays in `<audio>_transcript.txt` in the same folder. `strip_transcripts.py` removes the `## Transcript` section from older notes (for example after restoring a backup): a dry run by default, `--apply` to change them, and it only removes a section whose text matches the post's transcript file exactly. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `described_by`, `described_at`.
 * In `iambogle.json`: `ai_title`, `summary`, `described_by` (the model, for example `claude-haiku-5-5` or `qwen2.5-1.5b-instruct (hailo)`), `described_at` (date), and `described: true`. `author` was already taken by the Instagram account, so the model goes in `described_by`.
 
 Example note (reel `Dd2F41WFQgF`, Claude). Its title and summary are also in `iambogle.json`; the steps and source are only here:
@@ -271,7 +287,6 @@ Written by claude-haiku-5-5.
 * How to get it: Comment IMPRESSIVE; the creator says he will send the link
 
 ## Caption
-## Transcript
 ## On screen text
 ```
 
@@ -375,15 +390,25 @@ Before it starts, it:
 Each stage runs with `IG_PIPELINE=1` set, which tells `describe.py` its output already goes to the pipeline log, so it does not add a second copy.
 
 * **Follow it:** `tail -f output/pipeline.log`. Each batch starts with a `Pending:` line counting what is left.
-* **Stop cleanly** after the current batch: `touch output/STOP`. Stopping at once (`pkill -INT -f run_pipeline.py`) is also safe: every script saves after each post, and describe always starts hailo-ollama again.
+* **Stop cleanly** after the current batch: `touch output/STOP`. Stopping at once (`pkill -INT -f run_pipeline.py`) is also safe: every script saves after each post, and describe always starts hailo-ollama again. Since 2026-10-14 describe treats SIGTERM (a plain `kill` or `systemctl stop`) like Ctrl+C, so that is safe too.
 * **It stops by itself** when nothing is left, or when a whole batch makes no progress (for example every download failing because the Instagram login expired).
 * **Upgrades:** after describe, each batch also runs `describe.py --upgrade --limit 20`, so posts Qwen described slowly move to Claude. The posts Qwen still holds count as work left, so the runner keeps going until they are done too.
   * If Claude hit its usage limit during that batch's describe, the upgrade is skipped for that batch. Every batch tries again, so upgrades start again by themselves once the limit resets.
   * If only upgrades are left and Claude is at its limit, the batch makes no progress and the runner stops. Start it again later.
   * `describe.py` exits with code 75 when Claude hit its limit; that is how the runner knows.
   * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in the same log, under each `=== describe.py` line.
-* **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off).
-* **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. `--no-export` turns this off. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
+* **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off), `--export-every HOURS` (default 6).
+* **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. Since 2026-10-14 it reads the chat only when the last export (`exported_at`) is at least `--export-every` hours old (6), because reading it every batch looked like a bot. `--no-export` turns it off. Nothing is read while `output/LOGGED_OUT` exists; the runner stops instead. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
+
+## Timer (added 2026-10-14)
+
+A systemd user timer runs one short batch every 2 hours from 8 am to 10 pm, each up to 20 minutes late at random: `run_pipeline.py --batch 10 --max-batches 1`. With the daily cap that is about 75 downloads a day, so the backlog of about 1,300 posts takes about 18 days. Lingering is on, so it runs without a login.
+
+* Units: `~/.config/systemd/user/ig-pipeline.timer` and `ig-pipeline.service` (`Type=forking`, because the runner starts itself in the background; `PATH` includes `~/.local/bin` for `claude`).
+* Check: `systemctl --user list-timers ig-pipeline.timer`, and `tail -f output/pipeline.log`
+* Pause: `systemctl --user stop ig-pipeline.timer` (and `disable` to keep it off after a reboot). Start again with `enable --now`.
+* Runs that finished today share `output/pipeline.log`; a log from an earlier day, or a run that was cut off, is still moved to `pipeline-<date>-part<N>.log`.
+* A batch that downloads nothing because of the cap or the quiet hours logs `made no progress, stopping`. That is expected.
 
 ## Troubleshooting
 
@@ -399,7 +424,7 @@ Each stage runs with `IG_PIPELINE=1` set, which tells `describe.py` its output a
 * **`describe.py`: `Another program is using the Hailo`:** hailo-mcp is in the middle of a request. Wait and run again.
 * **`describe.py`: `sudo: a password is required`:** the sudoers rule `/etc/sudoers.d/hailo-ollama` is missing or wrong. Check it with `sudo -n -l`.
 * **hailo-ollama not running after describe:** start it with `sudo systemctl start hailo-ollama`. describe always tries to, so check its log for the error.
-* **Empty captions (found 2026-10-08):** shares in the new DM format (`xma_clip`, `xma_media_share`) often carry no caption, and 538 posts were saved with `null`. That crashed describe on 13 posts (`'NoneType' object has no attribute 'strip'`). Fixed: the exporter saves a missing caption as `""` and turns old `null` captions into `""` when it loads the file, and describe treats `null` as empty. The caption itself is still missing: for reels Instagram has it (yt-dlp returned it for all 3 checked), while the 2 photo posts checked really had none. Fetching it in `download.py` is a todo, as is describing the 13 failed posts again while the pipeline is stopped.
+* **Empty captions (found 2026-10-08):** shares in the new DM format (`xma_clip`, `xma_media_share`) often carry no caption, and 538 posts were saved with `null`. That crashed describe on 13 posts (`'NoneType' object has no attribute 'strip'`). Fixed: the exporter saves a missing caption as `""` and turns old `null` captions into `""` when it loads the file, and describe treats `null` as empty. The caption itself is still missing: for reels Instagram has it (yt-dlp returned it for all 3 checked), while the 2 photo posts checked really had none. Fetching it in `download.py` is a todo. The 13 failed posts were described again on 2026-10-14.
 * **Many downloads fail with `Failed to resolve 'www.instagram.com'`:** the Pi lost its network (Wi-Fi dropped from about 16:45 to 16:50 on 2026-10-08 and 19 posts failed). The posts are fine. `download.py` skips posts with an error and the pipeline does not retry them, so run `download.py --retry-failed --shortcode ...` for them while the pipeline is stopped (two processes must never write `iambogle.json` at once).
 * **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped.
 * **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them. Exception: `xma_clip` messages here are reels that were deleted ("Message unavailable", no URL), about 157 in the iambogle chat, so there is nothing to recover.
