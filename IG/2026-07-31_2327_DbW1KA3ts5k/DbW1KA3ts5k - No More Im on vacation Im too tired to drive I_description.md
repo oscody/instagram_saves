@@ -35,23 +35,3 @@ Let’s dance together, wherever you are. ❤️
 👉 Registration is now open via afrodancenewyork@gmail.com
 
 #AfroDance #OnlineDanceClass #angelkaba #nyc
-
-## On screen text
-
-STARTING
-AFRO
-AUGUST
-15TH
-NCE
-DANCE.SWEAT.FEELAMAZING.
-Saturdays
-1AMESTNew York)
-Live Online
-All Levels Welcome
-@angelkaba
-MONTHLYMEMBERSHIP
-DROP-IN
-$99
-S35
-CONNECT
-WORLDWIDE

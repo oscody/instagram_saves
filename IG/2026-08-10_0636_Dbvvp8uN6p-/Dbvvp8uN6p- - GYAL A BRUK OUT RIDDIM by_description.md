@@ -18,39 +18,3 @@ Written by claude-haiku-5-5.
 
 GYAL A BRUK OUT RIDDIM by @zimifranc 
 🏆 Who took the Riddim?
-
-## On screen text
-
-Dancehall202
-GYALABRUKOUTRIDDIM
-POCFRANCWHITE
-awninPablYG
-7
-10.
-Follow meformore
-Dancehallmixes
-Dancehall2026
-GYALABRUKOUTRIBDIM
-PrOdFRANCWHITE
-Mawnin PabloYe
-alabrukoutGoVana
-StiekyTieloLanez
-S
-odloleSkeng
-1
-Followmeformore
-Daneehallmixes
-CYALAERUKOUTRIDDIM
-POCFRANOWHITE
-Valiant
-Mawnin
-PabloYG
-15
-Gyalabrukout-Govana
-Sticky TieloLanez
-C5
-Goodble-Skeng
-Seanpaul
-andwini
-.oYbroa
-10

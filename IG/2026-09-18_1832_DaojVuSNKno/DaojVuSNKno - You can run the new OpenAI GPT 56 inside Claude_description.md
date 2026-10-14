@@ -34,19 +34,3 @@ You can run the new OpenAI GPT 5.6 inside Claude code with Fable 5 to get 10 tim
 Comment ROUTE and I’ll send you the exact from-scratch setup.
 
 #fable5 #gpt5.6 #claude #chatgpt #teamwork
-
-## On screen text
-
-GPT 5.6 theworker
-UNS ONVHENVOU CALL IT
-the /route loop
-Pians
-route
-FABLES
-Reviews
-runs OpenAl's best.
-thropic's b
-type slash route
-ME OH OKAY THAT'S COOI
-tokens
-ess

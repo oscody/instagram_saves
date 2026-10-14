@@ -34,9 +34,3 @@ The series leans into comedic misunderstandings while keeping the cultivation wo
 Date: TBA 🔗 PV Link: http://t.cn/AXSyl0Y4
 
 #NianFanchen #念凡尘 #Donghua #ChineseAnime #OtakuWeek
-
-## On screen text
-
-OTANTEEKS
-OTAKIWEEK
-OINEK

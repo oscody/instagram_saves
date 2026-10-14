@@ -27,9 +27,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Smoking before a run? Here’s the timeline.
-
-## On screen text
-
-Sneakers laced up it's
-state
-baseline, athough the

@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Day 95 of game dev
-
-## On screen text
-
-Dracarys...
-00:21
-00048

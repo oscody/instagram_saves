@@ -25,35 +25,3 @@ Comment JULY and I’ll send you the list. 💸
 Don’t let fear of rejection stop you from giving yourself a chance. Every “yes” starts with someone who decided to apply so stop overthinking and start submitting.
 
 This is the perfect time to bet on yourself.🥂
-
-## On screen text
-
-grantsto
-applyfor
-pickene&apply
-Amount:$10,000
-Galaxy Grant
-Deadline: 07/31/2026
-Amount:$4,250
-ATe alBuines ontet
-Deadline:C
-07/31/2026
-Amoun50.000455.000)
-hanging Tho Game Grant
-Deadline:07/31/2026
-orFounderinodand beverege
-T obile HQGrants
-Amount:$50.000
-Truist Foundation Grant
-THE SECRET
-Peadline:07/31/2026
-mount: $5.000
-OF GETTING
-ForNonprofit in the US
-AHEAD
-ISGETING
-JULY226
-STARTE
-Wantth
-entire list??
-caption

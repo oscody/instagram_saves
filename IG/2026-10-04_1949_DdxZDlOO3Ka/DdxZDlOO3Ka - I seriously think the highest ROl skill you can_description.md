@@ -30,12 +30,3 @@ I seriously think the highest ROl skill you can learn in today’s modern age is
 Write about your thoughts draw something you found interesting. Make a video note to your future self.
 
 The specifics of what you make doesn’t matter, but as long as you put something into the world that didn’t exist before that is the key that is what will allow you to make significant leaps and bounds in your success
-
-## On screen text
-
-OsoRepy
-023-12-10
-A
-your insecurities, the
-interruptions
-follow

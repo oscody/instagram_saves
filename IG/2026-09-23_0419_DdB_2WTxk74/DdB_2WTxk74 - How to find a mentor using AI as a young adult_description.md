@@ -33,11 +33,3 @@ Build yourself up first 🚀
 @danmartell 
 
 #ai #mentor #youngadults
-
-## On screen text
-
-thenlookathotts on the
-board
-'mayoung entrepreneur
-feelfree to text that's the
-best

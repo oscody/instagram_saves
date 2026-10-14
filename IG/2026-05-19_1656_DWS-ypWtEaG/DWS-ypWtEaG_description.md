@@ -21,15 +21,3 @@ Written by claude-haiku-5-5.
 3. Let it analyze why the video went viral.
 4. Ask it to remix the video for your exact content or niche.
 5. Generate and use the remix script it produces.
-
-## On screen text
-
-Dont say I didn't put you on
-NTENT
-watch.anymovie,
-Episode
-NewDa
-NewDou
-any viral URL.
-Betterthan CHA@PT!
-remixscriptfor

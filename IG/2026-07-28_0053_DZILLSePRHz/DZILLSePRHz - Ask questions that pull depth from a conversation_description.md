@@ -29,8 +29,3 @@ Written by claude-haiku-5-5.
 Ask questions that pull depth from a conversation not auto responses 🎯💯😮‍💨 #TheWolfHasSpoken Episode 84 OUT NOW (Comment “Podcast” for the full episode) 
 •
 Comment “Order” to buy my books The Art of Accountability and Cheating is Not Cheating #TheAuthor #WolfNetwork
-
-## On screen text
-
-KNOWYESTERDAY?
-ANDREALRESPONSES

@@ -19,32 +19,3 @@ Written by claude-haiku-5-5.
 2026 is the year of Bashment 🇧🇧
 
 #cropover #socamusic #caribbean #barbados🇧🇧 #djmix
-
-## On screen text
-
-202S0CA MIX
-BAJAN BASHMENT
-GUTTER PERK RIDDIM
-Get Wild DJ Cheem
-Burst UpFatherPhillis
-202 S0CA MIX
-Burst Up Father Phillis
-Want Some More
-Fari
-Hand Pun Yuh Knee (Freestyle)
-Jaga De Ciap
-LeeeFVBlendEdiAli
-Buss A Lil Slow Wine
-Supa Nytro
-2026S0CA MIX
-Get Wild -DJ Cheem
-Burst Upather Pillis
-Farl
-Hand Pun Vuh Knee (Freestyle)
-JagaDeCiamp
-LeLeLe (FV BlendE)-Adom
-Buss SowWineSupaNyr
-Teasing Me
-Pepperz
-MekYaHearBrucle Amightee
-Daz It DeyMole De Chief

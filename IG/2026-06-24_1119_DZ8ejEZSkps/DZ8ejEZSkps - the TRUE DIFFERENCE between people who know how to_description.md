@@ -30,13 +30,3 @@ they say THIS IS the true %1 vs the normies
 but the truth is… I think EVERYONE can be part of the 1%… with a little bit of agency.
 
 #ai #aiagents #aiagent #vibecoding
-
-## On screen text
-
-In 2-5 years
-People who use
-Al Agents will be looked
-at as Demi-Gods'
-Raoul Pal
-Erik Voorhees
-and

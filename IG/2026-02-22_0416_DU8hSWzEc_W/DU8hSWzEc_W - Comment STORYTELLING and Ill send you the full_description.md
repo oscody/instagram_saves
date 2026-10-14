@@ -23,39 +23,3 @@ Written by claude-haiku-5-5.
 Comment STORYTELLING and I’ll send you the full article 👇
 
 Do you think communications majors will be replacing CS majors? 🤔
-
-## On screen text
-
-BUSINESS INSIDER
-GetyageRebecaie
-DISCOURSETECH
-The hottest job in
-tech:W
-gords
-The rise of slopa
-a surprising tech
-n the genera
-vibe coding and
-rtiehav
-HOME
-Subscribe
-communication.
-angepto.coonbe
-.
-oe
-sor.ch
-boastin
-istinsofmorehan4o00
-The ay
-toofunications in the
-O,according to Indeed.
-US ma
-instream adoption of
-Th
-en mixed: Within tech
-ng the need for entry
-s, while some workers
-Solutions Architect
-ProductMarketer
-[TechnologyEvangelist
-evangelists

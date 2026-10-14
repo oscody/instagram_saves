@@ -29,9 +29,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 pt 4: a newer concept many haven’t heard of (comment “graph” for guide)
-
-## On screen text
-
-left behind
-means thatLLMS
-top ofthe

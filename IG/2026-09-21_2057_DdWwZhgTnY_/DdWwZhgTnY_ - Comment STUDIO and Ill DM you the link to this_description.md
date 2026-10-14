@@ -32,12 +32,3 @@ OpenMontage makes your AI coding assistant the director. You type a plain-langua
 The catch, in full: the license is AGPL-3.0, so anyone modifying and redistributing it as a service has obligations. The showcase videos in the README were made with paid models like Veo and Kling, and the free tier is the simpler Remotion path, so the zero-key output looks nothing like the trailers. 325 open issues, expect rough edges. And only install from the real repo, because copycat installers using this name have shipped malware twice.
 
 #claude #claudecode #github #opensource #openclaw
-
-## On screen text
-
-HAS
-STOCK
-ONE SENT
-make a co-second animated ex
-sal
-TERMINAL

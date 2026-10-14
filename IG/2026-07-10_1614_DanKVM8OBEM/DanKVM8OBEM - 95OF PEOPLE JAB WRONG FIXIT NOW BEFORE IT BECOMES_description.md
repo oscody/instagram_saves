@@ -27,9 +27,3 @@ Written by claude-haiku-5-5.
 
 95%OF PEOPLE JAB WRONG FIXIT NOW BEFORE IT BECOMES A HABIT!!
 #boxinglife #foryoupage #boxingtraining #boxingdrills #explorepage✨
-
-## On screen text
-
-THECHICKENWING
-Throw Your Jab Straight
-fromyourface

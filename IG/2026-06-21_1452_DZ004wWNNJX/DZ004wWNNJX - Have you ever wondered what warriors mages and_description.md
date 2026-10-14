@@ -17,18 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Have you ever wondered what warriors, mages and rogues would like in a world with african mythology? We got the answers right here Creed art done by @corresbergue #fantasy #blerd #dnd #mythology #steampunk
-
-## On screen text
-
-Kx'oas
-a mages from the game
-the demigods,the K'oas
-Umxhentso
-Pall images from the game
-they think they can lead
-Sufi
-allimages trom the game
-theabyto tepay
-into reality
-apaaede dassode
-lado narealidade

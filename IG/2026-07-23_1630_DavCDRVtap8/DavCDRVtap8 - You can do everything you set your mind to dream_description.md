@@ -23,9 +23,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 You can do everything you set your mind to, dream big and do the work, that‘s what you were brought on this earth to do.
-
-## On screen text
-
-see your sefa
-DOSS
-ypathteee

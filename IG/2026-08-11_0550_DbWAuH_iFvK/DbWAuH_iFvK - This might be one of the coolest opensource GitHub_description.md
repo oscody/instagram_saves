@@ -41,15 +41,3 @@ If you’re building AI agents or automations, this is definitely one repository
 Hashtags:
 
 #GitHub #OpenSource #AIAgents #AITools #ArtificialIntelligence DeveloperTools Automation Programming Coding WebDevelopment SoftwareEngineering APIs GitHubRepo MachineLearning TechResources Developers TechTips CodingLife TechReels AIAutomation
-
-## On screen text
-
-SINGLE
-CONMAND
-BASICALLY
-ANYTHING
-THAT
-Cot coe
-BROWSE
-HOW
-TO

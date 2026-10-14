@@ -72,20 +72,3 @@ So if you want more options…and you want to learn how everyday people are buil
 ⚠️ Make sure you’re FOLLOWING @buildwealthwiththomas first so I can message you!
 
 📌 Save this for later. Your future self will thank you. ✨
-
-## On screen text
-
-gave ChatGPT my salaryand
-career history I showed me
-incomeopporunities didnt
-now wasittingon.Here
-are the7 prompts  used
-gave ChatGPTmysalaryand
-career history It showedme
-now was sttingon.Here
-are the7 prompts I used
-gave ChatGPT my salary and
-career history tshowed me
-incomeopporunitie didnt
-now  wasitting on.Here
-are the 7 prompts I used

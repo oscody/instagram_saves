@@ -34,17 +34,3 @@ Your Claude skills might have malicious code hidden inside them which can even h
 So Nvidia did research over 42,000 skills across AI agent marketplaces and found 1 in every 4 agent skills you install could compromise your entire system.
 
 And to tackle this, Nvidia built SkillSpector, which is an open-source scanner that checks any agent skill before you install it.
-
-## On screen text
-
-Research Background
-F
-be vulnerable
-42,000
-ZIP
-crabracadabra
-brand-guidelines.zip
-file,
-MCP
-N
-server,

@@ -40,16 +40,3 @@ Keywords
 PewDiePie AI, Ajax AI, Ajax model, Odysseus AI, Qwen3.5-9B, local AI, local LLM, self hosted AI, AI assistant, open source AI, AI agents, AI news, OpenAI, AI distillation, private AI, offline AI, AI on PC
 
 #PewDiePie #LocalAI #ArtificialIntelligence #AI #OpenSourceAI
-
-## On screen text
-
-OpenAI
-Ajax
-WILLIT SURVIVE?
-BUILDING ANOTHER
-MASSIVE
-PEWDIEPIEENT ROM
-GAMING YOUTUBER TO
-BUILDING HIS OWN
-AI DATA CENTER
-TO BUILDINGHIS

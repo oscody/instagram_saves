@@ -33,31 +33,3 @@ Once you start recognizing the patterns, a lot of questions stop feeling random 
 If coding interviews have ever felt overwhelming, this is one of those resources that’s absolutely worth bookmarking.
 
 #LeetCode #CodingInterview #Algorithms #DataStructures #SoftwareEngineering Programming GitHub DeveloperTips 🚀
-
-## On screen text
-
-(price,qty,t)
-E EDUCATIONAL
-THE
-EQUIVALENT
-Basic Machine Learning
-DataVisualizaton Cheot Sheet
-Classiication
-Regression
-Supervised learning
-Soatter plotKE plot
-Dimensionality
-Clustering
-Reduction
-Unsupervised learning
-eacterplotDeploe
-DYNAMIC
-PROGRAMMING
-BACKTRACKING,
-SLID INWIDO
-R5
-600
-oldsun
-new-suml
-ALGORITHMIC
-TRAUMARREDUCED

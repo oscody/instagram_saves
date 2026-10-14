@@ -28,39 +28,3 @@ Written by claude-haiku-5-5.
 Intelligence is not only built by memorising facts. Challenging your usual routines can encourage curiosity, flexible thinking and stronger problem solving. Try reading a conclusion first, learning an unfamiliar subject or writing briefly with your opposite hand to see ideas from a fresh angle. 🧠✨
 
 You can also practise defending a viewpoint you disagree with or spend quiet time reflecting without distractions. These habits will not instantly make someone a genius, but they may help break repetitive thinking, expose personal biases and develop a more adaptable mind. 💭📚
-
-## On screen text
-
-BIZARREHABITS
-reverse learning
-read thelast chapterofevery bok
-rt yourbraincreatesmvsterv gaps
-that force active proble-soiving
-Ihnstead of pasive absorption.
-2) sensory deprivation thinking
-spend 2ominutes daly ncomplete
-darknoss wthearplugs.vourbrain
-enters thetawaves where
-breakthrouhieateralv appear
-from nowhere.
-3)patterninterruption
-wtewih vournon dominanthand for
-ominutes daiy.forces new neural
-Ppathways thatmake vourcominant
-thinking sharper.thevent now app
-heipedmerelei wastuckinenta
-bops thathishabitcoploteivbroke
-4) strategic confusion
-leasoeng ompletei unrelatd
-toyourfieldaeveryweek.studv
-edvalpotrythenuantue.
-vourbrainstarscctnoiie
-dots intogeniusinsights.
-5) argument reversal
-defend the opposteof whatyou
-blevetorsminutesatrevou
-tounderstandclexiybeyondvour
-unshakeable.
-OULOVEPOSTS LIKETHIS AND
-GIS
-RENITFIIN

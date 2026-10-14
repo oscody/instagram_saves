@@ -17,18 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Many people requested a part two 💙
-
-## On screen text
-
-Documenteries that genuinely
-rewired my brain.
-Part2
-Documentaries that genuinely
-Documentaries thatgenuinely
-EIVELOOPS.IYHOURS.OHELEEN
-THE
-FINISHER
-46:45
-Marathons (Ful Documentary)
-Singletrack
-2m views  1 year ago

@@ -17,10 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: tidalforcevr.com
-
-## On screen text
-
-AREYOUREADY?
-TIRAL
-TIDALFORCEVR.COM
-@TIDALFORCEVR

@@ -21,9 +21,3 @@ Triturou o côco igual papel! 🌴🥥
 Hoje fui testar esse triturador de côco e fiquei surpreso com seu funcionamento, é muito satisfatório! Excelente pra quem quer fazer uma segunda renda ou usar o côco na agricultura…
 
 #agro #maquina #sitio #nordeste
-
-## On screen text
-
-daHc
-maxim
-Tallana

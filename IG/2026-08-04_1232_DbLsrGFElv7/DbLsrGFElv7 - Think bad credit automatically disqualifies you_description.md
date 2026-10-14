@@ -33,23 +33,3 @@ Some funding opportunities are based on different eligibility requirements than 
 That's why understanding your options is just as important as improving your credit.
 
 👇 Comment "FUND" below and I'll send you the exact Funding Blueprint I use to help people get business funding
-
-## On screen text
-
-4GrantsFor BlackMen
-Who NeerFunding But
-Have Bad Credit
-Now we live the life
-we want
-Boston
-Foundation Funds
-The Boston Fund
-4Grants For BlackMen
-Who NeedFunding But
-Community Beneits
-O
-TION
-Capital One Grant
-Comment"FUND
-andsend youthestenyste
-biueprint to get funded

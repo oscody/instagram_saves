@@ -59,10 +59,3 @@ Pro Tip: Chill the sweet potato purée overnight (or for at least 30 minutes) be
 Crunch-Maxing Tip: Roast the sweet potato, press the mixture firmly, and let the cereal cool completely before storing. Most of the crunch develops as it cools.
 
 Follow for more banging healthy recipes 🔥
-
-## On screen text
-
-CEREALTHATTASTES
-BETTERTHANJUNKFOOD
-FOLLOWFORMORE
-BANGINGHEALTHYRECIPES

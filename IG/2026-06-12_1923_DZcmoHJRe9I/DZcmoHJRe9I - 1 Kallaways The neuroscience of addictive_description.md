@@ -32,22 +32,3 @@ Follow @mattnzasi to grow your personal brand 💯
 3. Tim Runia’s “ the only 5 lines you need to tell any story!”
 
 4. Toni Morrison’s “Song of Solomon”
-
-## On screen text
-
-NORMAL
-ADDICTIVE
-pis
-And
-as
-TORYTELLING
-simple
-made
-20:24
-The Ol
-Need To Be A
-Betters
-moment
-non
-VU
-VITIA

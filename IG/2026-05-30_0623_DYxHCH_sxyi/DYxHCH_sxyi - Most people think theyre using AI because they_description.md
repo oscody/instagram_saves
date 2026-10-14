@@ -44,14 +44,3 @@ Save this. You’ll want to come back to it.
 — Follow for more on building in public. Big shoutout to @foggylabs for teaching me all this! 
 
 #startup #ai #yc #entrepreneurship #founderlife
-
-## On screen text
-
-I built an Al employee.
-Itworks while I sleep.
-Here's the stack
-Hermes
->Claude Code
->Obsidian
-Obsidian
-Itworkswhile I sleep.

@@ -19,10 +19,3 @@ Written by claude-haiku-5-5.
 Miss you forever stink 😩🤧🫶🏾
 
 #explore #fyp #explorepage✨ #relatable #exploremore
-
-## On screen text
-
-Sucks we didn't work out.
-glad we cracked and
-mentally traumatized
-each other tho

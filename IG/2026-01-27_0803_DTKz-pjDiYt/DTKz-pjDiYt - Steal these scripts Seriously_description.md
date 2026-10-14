@@ -29,11 +29,3 @@ This is what actually worked for me after sending hundreds of DMs with no replie
 Voice notes → coffee chats → referrals ✅
 
 Let me know if you want part 2!
-
-## On screen text
-
-usingLinkedinvoicenotes
-Sarah W
-SeniorManagerat Company
-Write a message.
-VL

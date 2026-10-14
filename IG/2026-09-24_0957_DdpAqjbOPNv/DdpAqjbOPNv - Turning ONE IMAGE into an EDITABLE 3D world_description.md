@@ -35,16 +35,3 @@ Testing out WorldGen by Hyper3D @deemostech
 I dropped in a single image and it generated a fully editable, explorable 3D environment in minutes. Every object in the scene is its own independent 3D asset I can move, edit, or replace.
 
 #3d #3dartist #blender3d #worldbuilding #hyper3d
-
-## On screen text
-
-New Object
-Add
-Remove
-or let Al segment & generate
-Auto Extract
-Refined
-Refine
-4Credits
-FastGen
-IT

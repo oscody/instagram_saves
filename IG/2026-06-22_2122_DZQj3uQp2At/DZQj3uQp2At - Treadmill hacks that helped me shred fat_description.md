@@ -37,14 +37,3 @@ If you’re already in a calorie deficit and you burn 300 - 600 more calories on
 Like & follow for more ✅
 —————————————————————
  #fitness #explore #explorepage #fitnessmotivation #workoutmotivation
-
-## On screen text
-
-BEFORE
-AFTER
-Press OK towatch TV
-(45min total
-minutes3peed8inclin
-inues-3.see1.inin
-0minute3sped15inline
-20inute-speed1.incne

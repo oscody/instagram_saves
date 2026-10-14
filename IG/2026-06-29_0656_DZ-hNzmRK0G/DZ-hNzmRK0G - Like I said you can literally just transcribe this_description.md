@@ -32,14 +32,3 @@ Written by claude-haiku-5-5.
 Like I said, you can literally just transcribe this video into Claude and have it explain to you what you need to do to set this system up for yourself in whatever way would be most useful for you and what you do. Or just comment the word “VISUAL” and I’ll send you the prompt to have your Clause code environment start setting itself up with these tools. There’s so many different unique use cases with this tool. You can have it watch your own YouTube or Instagram or TikTok content, and analyze it and help you create contact strategies. You can have it analyze other people’s content and pull information from it in the master class that I mentioned in this video.  You can consolidate any learning or teaching session. It opens up a whole new world of time efficiency. I’m genuinely just here to help. If you wanna see more constant like this, make sure you shoot me a follow to be a part of the journey as always be smart. Be safe be blessed.
 
 #fyp #ai #claude #reels #viral
-
-## On screen text
-
-commenttheword
-VISUALand send
-you the skillstoadd to
-yourClaudesoitcan
-analyzevideos
-audio, but
-you know,
-of the

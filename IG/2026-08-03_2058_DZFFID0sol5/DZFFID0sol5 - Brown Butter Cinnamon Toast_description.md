@@ -25,14 +25,3 @@ Golden, buttery, crisp around the edges, coated in cinnamon sugar, and finished 
 Follow me here because I’ll be sharing the full recipe tomorrow, and trust me, you’ll want to save this one.
 
 (brown butter cinnamon toast, easy dessert recipe, 15 minute dessert, cinnamon sugar toast, quick baking recipes, simple homemade desserts, comfort food recipes)
-
-## On screen text
-
-the best
-BROWN BUTTER
-INNAM
-TOAS
-thebest
-BROWNBUTTER
-CINNAMONTOAST
-INNAMON TOAST

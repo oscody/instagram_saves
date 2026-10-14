@@ -27,11 +27,3 @@ Between Mango Mania, the Passport Food Tour, chef-led dinners, beach bars, and m
 Mango lovers, are you adding this to your must-visit list? 
 
 #nevis #stkittsandnevis #nevismangofest #travelinfluencer #caribbeantravel
-
-## On screen text
-
-LANCE
-TILLA
-The island has over
-around the island on the
-passport

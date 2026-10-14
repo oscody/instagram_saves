@@ -37,26 +37,3 @@ Comment “AI” to get to get the link 🚀
 Follow @globalaiforce for daily AI updates
 
 #Nvidia #GenerativeAI #Robotics #OpenSourceAI #SpatialComputing
-
-## On screen text
-
-Global AiForce
-CY
-@globalaiforce
-FREETOOL
-NVIDIA RELEASESI
-TURNING ANY IMAGE INTOE
-3D
-WORLDS
-C Lyra-20.p4
-SOMMENT AIFOR THE LINK
-TURNING ANY IMAGE INTO SD
-C Lyra-2.0.mp4
-kthrou
-COMMENT AI FOR THE LINK
-Global Ai Force
-NVIDIA RELEASES I
-TURNING ANY IMAGE INTO 3D
-lyra-2.p4
-e
-COMMENT AIFOR THE LINK

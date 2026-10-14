@@ -38,19 +38,3 @@ Send this to whoever is starting a robotics project this term.
 Comment ROBOT and I'll send it.
 
 #engineering #robotics #matlab #simulink #robotarm #slam #drones
-
-## On screen text
-
-ROBOT
-DRONE
-ES
-arms.ground
-ROBOTBEFORE
-you build
-WILLIANS
-hallenge
-@bily.coder
-BROWSER
-YOURE
-20hours
-billy.coder

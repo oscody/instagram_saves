@@ -29,10 +29,3 @@ Written by claude-haiku-5-5.
 
 These videos print 💰
 #internetmoney #youtubeautomation #brokecollegestudent #viewmaxpartner
-
-## On screen text
-
-ChatGPT
-.Askforcinematicprompt
-video you'retrying
-togetyou

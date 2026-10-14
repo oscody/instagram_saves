@@ -13,9 +13,3 @@ described_at: "2026-10-08"
 A woman on camera announces a free online publishing session hosted by Spines, a publishing house, and says it will cover four publishing routes and distribution to up to 100 platforms. She also says only 100 seats are available.
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-growing publishing house
-and moder platforms
-We only have 100

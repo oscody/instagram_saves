@@ -17,16 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If Hood Dudes Had an Anime Power System
-
-## On screen text
-
-What you tryingto do?
-CRASHOUT
-MOTION
-Userswith this Slain
-ottobeemost powerfu,
-Wledge of the Streets
-and how peoplewo
-cneaafourTnets,but yo
-Allofthemhaveit
-Iisuggestyou back down.

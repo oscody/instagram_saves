@@ -29,18 +29,3 @@ Written by claude-haiku-5-5.
 Comment ‘4d’ to learn how to do this. I’m starting to understand what Vonnegut meant by humans being “great millipedes” - clearly it applies to our four legged friends too! Space and time reconstructed in 4D. Is this how higher dimensional beings see us - every moment at once? 
 
 Workflow: Geolocated 2d video → per frame 3d gaussians → each left precisely where & when it happened. Let me know what you’d like to see covered in the full deep dive video.
-
-## On screen text
-
-Bilawal Sidhu
-@bilawalsidhu
-+ time reconstructed in 4D
-Space
-dimensional beings
-Is this how higher c
-every moment at once?
-see us
-Space + time
-Is this how higher
-Bilaal Sidhu
-I thishowher menona beings

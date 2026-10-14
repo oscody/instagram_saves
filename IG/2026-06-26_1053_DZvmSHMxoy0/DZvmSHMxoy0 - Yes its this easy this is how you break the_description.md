@@ -29,11 +29,3 @@ Yes it’s this easy - this is how you break the stranger barrier - with friendl
 Join my masterclass this Sunday! Link in bio 
 
 #dating #relationship #datingadvice #datingtips #confidence
-
-## On screen text
-
-ANDASK
-HERWHAT
-AND SHELLBE
-LIKE,OH
-SQUARE. SUNDAY

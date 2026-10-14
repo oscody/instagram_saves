@@ -37,16 +37,3 @@ Say goodbye to boring textbooks. Google’s new AI tool, Learn Your Way, transf
 💬 Students said it made them more confident than ever
 
 @google
-
-## On screen text
-
-What personalization do
-you want to explore?
-Middeschooler who
-ikes
-High schoolerwho kes
-yourpreferences interests,
-But it doesn't
-LEARN YOUR WAY
-REGULAR PDF
-RESULTS??

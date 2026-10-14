@@ -25,7 +25,3 @@ Written by claude-haiku-5-5.
 One mistake cost me $10,000! Go check out P.I.N.O.C @viggle_ai 
 
 #Erased #GameDev #indiegames #MotionCapture #Animation
-
-## On screen text
-
-THIS IS GONNA

@@ -38,12 +38,3 @@ Built in ten days. 33,000 GitHub stars. $4M in funding within 24 hours. And it�
 Stop guessing. Start simulating.
 
 Comment “simulate” and I’ll send you the link.
-
-## On screen text
-
-but for any decision
-it already has over
-33,000
-Project Statistics
-very fferentresuts over
-the next three years

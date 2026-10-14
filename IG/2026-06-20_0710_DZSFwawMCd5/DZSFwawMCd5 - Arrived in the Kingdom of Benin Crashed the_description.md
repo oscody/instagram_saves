@@ -36,7 +36,3 @@ Nine hundred and twenty eight are in the British Museum. A British law from 1963
 
 You probably were not taught this. Now you are.
 #BeninKingdom #AfricanHistory #BlackHistory #WestAfrica #PrecolonialAfrica
-
-## On screen text
-
-what happened

@@ -29,9 +29,3 @@ What Makes You INTERESTING 📈
 [Join My Free Server To LEARN]
 
 Follow for more Global Knowledge 🌍
-
-## On screen text
-
-inorderto
-marcnassif
-now showit.

@@ -17,18 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 She got him spitting facts 😝😀 #Everyone does he have a point?
-
-## On screen text
-
-Reels
-She gothimspiting facisee
-???
-oldyou'rea
-motherfucking
-X
-She gothimspiting facts
-No I knowwhat
-city you
-@
-She gothimspiing facts
-that pussy

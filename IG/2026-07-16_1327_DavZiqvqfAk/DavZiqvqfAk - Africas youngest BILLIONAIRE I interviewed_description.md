@@ -25,9 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Africas youngest BILLIONAIRE 🤯 I interviewed business mogul Iyinoluwa Aboyeji in Nigeria and I asked him how he got RICH! I asked him the secret to scaling his billion dollar companies and the difference in doing business in America versus Nigeria. Lastly, I asked him the best advice he’d give the younger generation today. #wealth #entrepreneur #financialfreedom #motivation
-
-## On screen text
-
-CanIntervie
-youforone minute?
-You dontget

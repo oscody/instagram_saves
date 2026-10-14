@@ -17,11 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 My favorite project so far! Huge thank you to @drinkteddytears for this amazing opportunity! Check out the website in their bio!
-
-## On screen text
-
-vebsite
-Teddy Tears was born
-Now pouring in 20+ stores
-looking
-got

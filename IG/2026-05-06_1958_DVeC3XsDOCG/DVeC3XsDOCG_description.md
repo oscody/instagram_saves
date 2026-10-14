@@ -13,18 +13,3 @@ described_at: "2026-10-08"
 A short reel of the author at his desk with the caption "POV: You fell in love with LitRPG but couldn't find a complete series so you wrote your own." It closes on the cover of his book "The Trapped Mind Project" (Enerilia One) by Michael Chatfield.
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-POVYoufellinlovewith
-LiRGbu couldnt finda
-completeseries soyou wrote
-yourown
-PoVYoufellinlovewth
-LiRGbutcouldnit finda
-ompleteseries soyouwrote
-youron
-EMERILIADNE
-TRAPPEDMIND
-PROJECT
-MICHAELCHATFTELD

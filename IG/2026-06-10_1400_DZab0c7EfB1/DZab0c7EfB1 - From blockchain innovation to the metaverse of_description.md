@@ -25,14 +25,3 @@ He’s building an entire ecosystem for the next generation of African creators.
 Tap the 🔗 in bio for the full story. #AFROTECH
 
 📸: @clubzella via Instagram
-
-## On screen text
-
-BRYAN KING ZELLA
-UYANWUNE IS BUILDING
-AFRICA'S BIGGEST GLOBAI
-IP FRANCHISEACROSS
-COMICSANIMATION
-MUSIC.AND GAMING
-AFROTECH
-HNSTERV OP HCINEANS LEGACV

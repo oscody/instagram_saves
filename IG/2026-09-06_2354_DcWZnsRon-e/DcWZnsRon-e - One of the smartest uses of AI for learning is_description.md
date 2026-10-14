@@ -31,9 +31,3 @@ One of the smartest uses of AI for learning is turning concepts into simulations
 Ep 49: Prediction Markets Are the New Retirement Plans 401(k)
 
 #coding #programming #developer #techcareers #beyondthebuild
-
-## On screen text
-
-HOWTO
-YOU CANALSO
-HSIS

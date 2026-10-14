@@ -17,16 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Truth in anime
-
-## On screen text
-
-True History in Anime
-RIGIN
-CITTES OFGLASS AND
-GOLD FALL INTO ASH
-RIGNALBLACKGOD
-MAR.21
-BORICINALBLACKOD
-THE SUN THRONE OF
-THE WEST
-ORIGINALBLACKGOD

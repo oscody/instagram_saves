@@ -17,13 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 From anime binging to just read webnovels only these days😭😭 I fell off
-
-## On screen text
-
-LIGHT
-novel
-MAIHW
-MAnGA
-Anime
-MANHY
-MANHWA

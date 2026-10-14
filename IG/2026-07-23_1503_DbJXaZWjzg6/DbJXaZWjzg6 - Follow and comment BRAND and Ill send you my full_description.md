@@ -49,22 +49,3 @@ Should you copy other creators' hooks?
 How do you get views posting 1 day a week?
 
 #entrepreneur #business #sidehustle #ai #startup
-
-## On screen text
-
-Selling too eary kiils it.
-Youony need ominute day
-Most perso
-g too eary kills it.
-youty to seli
-Pick Your Topic (Days 1
-whove never met y
-ing you're good at.
-aiready pay
-2.Pick1Platform+
-ollect Winners Days 4-
-own.twist
-Post1ShortV
-D
-EXACTLY
-MONETIZE

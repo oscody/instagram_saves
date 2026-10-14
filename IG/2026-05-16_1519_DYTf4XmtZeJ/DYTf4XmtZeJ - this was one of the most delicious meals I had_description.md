@@ -18,8 +18,3 @@ Written by claude-haiku-5-5.
 
 #hosted: this was one of the most delicious meals I had recently and it was fully plant based! @healthyasamotha is definitely worth checking out 😍 drop a comment for a mystery deal when you visit 😋
 #nycfood #nycvegan #nycvegetarian #nycrestaurant
-
-## On screen text
-
-Reinaginec
-Tabie Sides

@@ -17,7 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The Fall of Europe’s Black Rulers: The Forgotten Chapter of History PT.1
-
-## On screen text
-
-OtAA

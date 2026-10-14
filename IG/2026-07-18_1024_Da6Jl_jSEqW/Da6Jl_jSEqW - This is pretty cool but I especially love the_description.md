@@ -28,18 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 This is pretty cool, but I especially love the design - super clean
-
-## On screen text
-
-VisualizeyourWhole
-codebase
-build
-D
-Post
-Visuralize your whole
-edudebase
-meps ofyour codebese
-estanss
-this user on X and as
-Visualize yourwhole
-I'm going to go offrun

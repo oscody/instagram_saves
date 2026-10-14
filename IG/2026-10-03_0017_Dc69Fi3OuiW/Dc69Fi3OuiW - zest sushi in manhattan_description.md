@@ -27,13 +27,3 @@ such a cozy little restaurant and they have outdoor seating (to enjoy while itâ€
 .
 .
 [vegan nyc, new york vegan, vegan, vegan dinner nyc, vegan happy hour, happy hour nyc, manhattan happy hour, manhattan sushi, vegan sushi nyc]
-
-## On screen text
-
-vegan sushi happy hour
-nnea
-or
-nouI
-egan sushi
-anpyhoui
-innea

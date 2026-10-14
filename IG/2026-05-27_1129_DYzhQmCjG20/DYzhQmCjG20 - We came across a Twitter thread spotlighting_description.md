@@ -23,37 +23,3 @@ Written by claude-haiku-5-5.
 Swipe for our top picks from @gbrossoft, @goondugames, @raven_illusion_studio, logicdevstudios and @dimension11studios.
 
 Cover by @logicdevstudios
-
-## On screen text
-
-FF
-NIGERIAN INDIE
-DEVELOPERS AREMAKING
-AMAZING VIDEOGAMES
-SWIPE FOR MORE
-Legendofoiodndwaer
-by Dimensionlls
-Sam Ivere
-@hsprafrique
-Dowe realy have Nigeran inde
-Developers who Create Games?
-Hanyieran ever Developed
-well known Game?
-250 Likes
-25 Retweets
-GERIAUNITE!
-prah Heal
-00
-04:22
-Advenurers by Ravenlusion
-DLES
-CHEFAMARA
-CHEFBOLANLE
-YORUBA
-GBO
-Tateowaobib avenuio
-28/170
-Tribulation by Gbrossoft
-EYINO
-Beyond sevice by coondugames
-Otiteby LogicDev Studios

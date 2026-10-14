@@ -30,12 +30,3 @@ Written by claude-haiku-5-5.
 Comment “canary” for the resource doc 
 
 #ai #canary #claude #viral #build
-
-## On screen text
-
-H
-degrade
-CLAUDE.md
-instruction
-Tinkleberry" consistently
-like

@@ -47,19 +47,3 @@ https://www.amazon.com/s?k=The+Great+Transformation+Karen+Armstrong
 🔎 References:
 https://iep.utm.edu/jaspers/
 https://en.wikipedia.org/wiki/Axial_Age
-
-## On screen text
-
-D
-B
-200
-240
-BGF
-20
-BCE
-2CE
-AXIAL
-Ax
-PTIONS
-Coincidence
-Trigger

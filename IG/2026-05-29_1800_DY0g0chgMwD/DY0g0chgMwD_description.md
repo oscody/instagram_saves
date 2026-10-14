@@ -13,7 +13,3 @@ described_at: "2026-10-08"
 A cover image for the novel "Infinite Mana Apocalypse" by Adui, with the Webnovel logo and the on-screen text "Now available on Amazon!" The post shows the book cover only.
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-EBNOVEL

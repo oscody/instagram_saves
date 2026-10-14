@@ -29,13 +29,3 @@ I needed to quickly get the attention of 50 energetic tenor-bass singers…and h
 🎶 Try this with your singers this week and let me know how it works for you.
 
 Because…if you can’t beat ‘em, join ‘em! 😎
-
-## On screen text
-
-POV:
-When6-7 gets
-the entire class
-QUIET!!!
-10 min later
-Works every
-timel

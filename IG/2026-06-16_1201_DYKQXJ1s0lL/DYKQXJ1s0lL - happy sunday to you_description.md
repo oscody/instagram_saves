@@ -21,13 +21,3 @@ happy sunday to you.
 a couple years ago, i read an excerpt that has stayed on my mind a long while “when a slave and a slave master pray to the same God, whose prayer does he answer?” ❤️
 
 wearing @maisonnwosu x @eki_kere
-
-## On screen text
-
-Aro
-Arochukwu
-Ubulu
-one oracle.
-Juju didn't fail us.
-Thor, Hades, Zeus.
-TOED

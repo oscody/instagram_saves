@@ -37,24 +37,3 @@ Comment SIGNAL and I'll send you the repo.
 live wifi sensing, wifi sensing csi, wifi sensing esp32, wifi sensing technology, wifi sensing github, wifi human detection github, wifi pose estimation, wifi person detection, wifi see through walls, using wifi to see through walls
 
 #engineering #computervision #opensourceproject #privacy #esp32
-
-## On screen text
-
-See Through Your Walis.
-No Camera Anywhere.
-WEBCAM
-@illy.codenoring
-Soe Through Your Walls.
-NO CAMERA
-NOTHING IS RECORDED
-CAMERA
-COCCUPANCY
-@billy.codeigMontoring
-Presence Dete
-See Through Your Walls.
-MIT LICENSE
-FREE. USEIT COMMERCIALLY.
-LICENSE,
-COMMENT
-NCY
-Human Pose Estimation

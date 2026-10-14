@@ -31,17 +31,3 @@ Featuring @sama Sam Altman, @kingbootoshi Alex @jinjingliang @ishita.lives @rayf
 📍OpenAI GPT 5.5 party in San Francisco
 
 @chatgpt @openai tech founder, Silicon Valley, San Francisco, sf tech, founder, founder mode, creator, tech creator, social media, ChatGPT tips, ChatGPT prompts, ChatGPT tricks
-
-## On screen text
-
-do the sh
-but
-something
-forme based on
-what youI
-now
-about
-OpenAl
-GPT-5.5
-about what I
-should do next

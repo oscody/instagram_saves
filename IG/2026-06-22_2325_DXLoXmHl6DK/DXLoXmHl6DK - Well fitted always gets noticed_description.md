@@ -33,13 +33,3 @@ Link in Bio🔗
 -
 -
 #parijan #outfit #oldmoney #oldmoneymen #fashionmen
-
-## On screen text
-
-How To Dress For
-Female Attention e
-XWedding X
-yca
-RHANOFFICIAL.COM
-Office
-WWW.PARIJANOFFICIAIC

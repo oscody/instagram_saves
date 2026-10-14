@@ -17,11 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Back with some spicy questions to ask on any encounter, especially first ones. You’ll learn my answers after the 50th comment. #icebreaker #question #friends #relatable
-
-## On screen text
-
-Unconventionallcebreakers
-understand?
-Wasoetinghuonown
-you're18yearold efwouldbe
-ou secretly hate

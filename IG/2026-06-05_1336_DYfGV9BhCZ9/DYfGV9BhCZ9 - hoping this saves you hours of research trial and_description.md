@@ -33,24 +33,3 @@ I can attest to the crash outs personally 😭 worth it but you don’t need to 
 Writing a book doesn’t have to be so complicated and intense. You deserve to see your book on the shelf, let’s get there together 
 
 Following @writingwithv for more writing tips & advice and a transparent look at my journey towards traditional publishing.
-
-## On screen text
-
-NEEDMY
-SPACE
-wantowriteabookuaont
-Part2
-knowwheretostart.
-get ready to screenshot
-want owritea boohuudont
-know where to star.
-. Writing routine
-everydyevenrisus inues
-onsstenc iske etwora
-time.
-knowwheretostart
-wamtoieatbooreudont
-get ready to screensh
-Tap here for part one
-Or comment "gui
-VYan

@@ -28,11 +28,3 @@ Another Arab writer, the geographer Muhammad ibn Hawqal, wrote in 988 that the r
 Around 1068 in the pre-colonial era, Ghana was clearly the largest, wealthiest and most powerful state in West Africa if not in Africa. There were two important reasons for this success. First, the discovery of large quantities of gold made it possible for the Ghana Empire to trade with North African merchants and other traders of ‘white’ origin who provided horses, salt and iron implements in exchange for gold.
 
 Tunka Manin or Tunkamenin, born around 1010 AD, was a ruler of the Ghana Empire who reigned from 1062 to 1076 AD. His predecessor was King Bassi. He had obtained the kingship because he was the son of the former ruler’s sister as the Soninke followed the matrilineal system of inheritance. Tunkamenin commanded great devotion from his subjects and respect from foreign visitors. He was a powerful ruler controlling some 200,000 warriors and surrounded himself with an air of divinity. Apart from this, he was extremely wealthy as he wore exquisite cloths made of silk and cotton, and he decked himself in gold and ivory.
-
-## On screen text
-
-KING TUNKAMANIN
-ANCIENT GHANA
-THE LAND OF GOLD
-Items made out of
-gold in Ghana

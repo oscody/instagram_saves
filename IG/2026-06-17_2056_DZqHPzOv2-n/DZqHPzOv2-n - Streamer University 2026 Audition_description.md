@@ -19,13 +19,3 @@ Written by claude-haiku-5-5.
 Streamer University 2026 Audition
 
 #Erased #streameruniversity2026 #indiegames #gamedev #jetsetradio @kaicenat
-
-## On screen text
-
-TOLD
-THE
-SHE
-ME
-ISTHISREALCAMEPLAY
-OR JUSTAN ANIMATION?
-SAVE

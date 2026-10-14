@@ -21,26 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The future of gaming isn't some studio spending millions on the next AAA title. It's you and your friends in a chat, talking to an AI agent, building whatever ridiculous game only you'd care about. I made one with my brother about sneaking beer from our dad's fridge (nobody else will ever play it, and that's kind of the point). That's the actual future: games built by people who want to laugh together, not chase trends. Jump in at multiplayeragent.com and try it free. Genuinely curious what you build.
-
-## On screen text
-
-Shai
-ONsv2vv
-but the reque
-v1v11
-V
-send
-THIS GAME BUILDER
-Sha
-ut the request is t
-vvv1v1
-edrawinglop
-obste
-owing trail
-GAME AND PROBABLY
-but the request
-Uploa
-Ps vvvavs
-v8
-ing trai
-GUYS TO CHECK

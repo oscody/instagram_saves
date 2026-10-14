@@ -25,20 +25,3 @@ An AI Engineer automated job search and landed an head of applied AI role! Follo
 .
 .
 #ai #aiengineer #job
-
-## On screen text
-
-ClaudeAI
-eajo.Just opensourcedt.
-An engineerused Claude
-lgo rank740obofer
-(estpart he open sourced
-the entireproject and i
-got0.000 stars onHuby
-2,686226
-is2700+upwardsThisAl
-gentevaluated 740jobs
-filled out the application
-detailed
-form,
-reated

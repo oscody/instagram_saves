@@ -75,20 +75,3 @@ The signal becomes clear again.
 That’s when inspired action appears naturally . ⚡
 
 #taich#taich#taichin#qigongh#lymphaticdrainageiareleaseoussystemreset
-
-## On screen text
-
-ymphat
-Jervous system re
-ascia Relea
-No eaits so you can folow
-along we me or save fe
-syster
-VOUS
-No edits so youcan follow
-along we me or save f
-later and come bacl
-showingyouwhy
-Nervous systemres
-Noaits soyou can folow
-long we me or save

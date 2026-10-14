@@ -49,9 +49,3 @@ Written by claude-haiku-5-5.
 .
 
 #techtok #techcommunity #2026 #tips #techprojects
-
-## On screen text
-
-Techprojectstoxplorein
-2026
-Techprojectstoexplorein

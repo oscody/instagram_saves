@@ -23,38 +23,3 @@ Written by claude-haiku-5-5.
 Science fiction has spent decades imagining a future with barely any Black or African people in it. These 7 films push back, blending mythology, technology and history into something that feels both ancient and brand new. 
 
 Read the full guide in the link in bio🔗
-
-## On screen text
-
-A MARMALADE GUIDE
-AFRICAN SCF
-FLMS
-YOU
-SHOULD KNOW
-Swipe
-marmalade
-ATLANTICS
-a
-festivalsmain competition
-BAMBAM
-asarea tisreatsitasamror
-NEPTUNEFROST
-Escaped coltanminersform
-hantcolbnalst hackercolectivein
-youre asking yourself WTF
-IWAJU
-buitbyAfrican foreveryone
-PUMZI
-Film Festival.
-THELASTANGELOFHISTORY
-Before mos
-word"Afrofuturism John
-along theway.
-AFRONAUTS
-In 1964 a Zambian schc
-Readfll guide
-MARMALADECOLLECTIVECOM
-Tap
-bio
-in
-LinK

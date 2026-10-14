@@ -37,38 +37,3 @@ Step 3: Send this Post to us
 Note: If you don't follow us, We can't message you
 
 chatgptai #chatgpt #prompt #prompts, techNews, #artificialIntelligence #techupdates, Innovation, AI, FutureTech, DeepLearning, DataScience
-
-## On screen text
-
-IN CLAUDE
-NSTALLEABRAN
-ANDIT STARTEDTEACHINGME
-THINGSIDIDNT KNOWEXISTED
-HEREARE PROMPTS THATMAKE
-LEARNING FEELILLEGAL
-SWIPEFORMORE
-T UNDERSTANDANYTHINGLIKEA
-GENIUS
-venen reaw
-aications.ounterexaples and
-uue pernecivehentety
-2.MASTER ANY SKILLFORFREE
-Asueyoureameteroers
-haleveastashuanypoie
-Us onye row oresoures
-3.FIX MENTAL BLOCKS
-to eliminate it.
-TURN CONFUSTONINTOCLARIY
-T ont undertanUnsert complex
-forever.
-S. GET APHDLEVELBREAKDOWN
-h.art romfrt prinipl
-xntherinlueit
-nveekey paero
-to go further."
-That's a wrap!
-Comment Claude toget 1000
-Premium Claude prompts
-Save this ost forfuturerrene
-Cheers,
-GPTPrompts

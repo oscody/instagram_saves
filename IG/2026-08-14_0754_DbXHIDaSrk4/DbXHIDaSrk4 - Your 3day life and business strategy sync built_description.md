@@ -34,10 +34,3 @@ I finally ran my 3-day strategy last week (the No Focus group) and I feel sooooo
 Please prepare for all of the life systems, operations and strategies to come. Even if you’re not self-employed (or not yet), I truly believe this series can help anyone interested in organizing their life or pursuing a side hustle!
 
 #quitmyjob #selfemployedgirl #freelancing #contentcreator #onepersonbusiness
-
-## On screen text
-
-ta
-ken
-purpose
-sense

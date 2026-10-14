@@ -42,12 +42,3 @@ I didn’t code my quant trading app. I engineered the context.
  5 Hashtags
 
   #ClaudeAI #FuturesTrading #PropFirmTrading #AITrading #QuantTrading
-
-## On screen text
-
-BENGHMARKS
-SAND
-SHARED?
-HES
-ITRANS
-ISCRIP

@@ -18,39 +18,3 @@ Written by claude-haiku-5-5.
 
 Northern Europeans are still stuck in their dark ages, they’ve been dragging us back ever since and they all have the exact same critique for the #odyssey so I’m sorry about us
 #blackpeople, I’m seeing the movie tonight and I’ll go see what all the Northern European white man viking based fuss is about  but other than Tenant every #christophernolan has been wild and I blame that one on nepotism in the lead role Imao get Denzel’s son outta here wtf. #greek #mythology for dummies smh🤦🏻‍♂️
-
-## On screen text
-
-ODYSSEY FOR RACISTS
-GREEK MYTHOLOGY 101
-d sex and it was the romans
-horeizedyou couid adwoenon
-ontemplatorcaeli eptsdboy
-SEXUAL
-LIFEIN
-LIFE IN
-ANCIENT
-REECE
-ROME
-lassical mythology.
-MUSK BLASTS NOLAN'S
-ODYSSEY:PEEING ON
-appearance.
-HOMER'S GRAVE"
-TheHyacinth" Curls
-AYBLACKAN
-pearance to reveal his true
-springy curls
-ODYSSEY FORRACISTS
-the.poulatin.u
-the disparity:
-OURINDIGENOUSCULTURES.
-Doubting
-Shakespeare's
-Identity Isn't a
-Conspiracy Theory
-ELIZABETH WINKLER ARGUES THE
-MYTERYBEHIND IHEGOD OFIAMBI
-THUNDER IS PART OF THE THRIL
-AFRAIDTORACIALIZE
-MSUAT

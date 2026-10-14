@@ -44,38 +44,3 @@ Comment “AUDIT” and I’ll DM you the command and the guide: how to clean up
 5. It pays off. One developer found about 70 fixes across his skills, CLAUDE.md and AGENTS.md. When Anthropic tested it, costs dropped around 9% and accuracy went up about 2 points on the same model.
 
 Comment “AUDIT” and I’ll send you the exact command and the full guide. #claudeai #claude #claudetips #claudecode
-
-## On screen text
-
-VERIVTWICEEFOREESPONDINO
-Always
-ANSWER
-double-check
-your work.
-checked?
-like
-T.DOUBLE-CHECK RITUALS
-GRADING
-DAY
-ways double-check
-yourwork.
-A
-check
-double
-o
-Aay doubhec ouror
-ANTHROPIC RANTHENUMBERS
-ALANTHROPIC
-Claude
-Blog
-Claude Plator
-Reducing cost and
-improving performance
-with Claude Platform
-Lance Martin
-tfor Opus 5.
-September 8,2026
-regot byen.
-RUN TEST
-tested
-behind

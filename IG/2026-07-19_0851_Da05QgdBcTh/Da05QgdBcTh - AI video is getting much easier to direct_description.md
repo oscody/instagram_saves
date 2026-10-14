@@ -45,15 +45,3 @@ And I think this is a preview of where AI filmmaking is going.
 
 Not a world where you type a few words and let the AI make every creative decision for you.
 A world where filmmakers can direct AI with the same kind of intention they would bring to a real camera.
-
-## On screen text
-
-exactly what
-Omni
-Sora
-Seedance
-King
-generator
-film space on iphone
-Cmaxprokopp
-is headed

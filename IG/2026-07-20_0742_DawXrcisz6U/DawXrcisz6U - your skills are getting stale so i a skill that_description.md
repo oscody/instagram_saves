@@ -41,17 +41,3 @@ My skills stay current. I stay the one who says yes.
 Save this if you’re building out your own Claude setup!
 
 #claude #aiworkflow #aitools #ai #skills
-
-## On screen text
-
-writemy hook
-Here are 5 hooks you
-could_
-nojust one.
-chie
-loser. lose the question
-ship i
-EWO
-on hous
-coption.sk
-this

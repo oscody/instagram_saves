@@ -86,8 +86,3 @@ Thank you to @mantak_chia and @juttahealingtao for the great Qigong work they sh
 If you want the training link or want to dive deeper into this stuff with me, comment “MJ.” ⚡️
 
 #MJ #michaeljackson #taichi #qigong #dance
-
-## On screen text
-
-into
-fingertips

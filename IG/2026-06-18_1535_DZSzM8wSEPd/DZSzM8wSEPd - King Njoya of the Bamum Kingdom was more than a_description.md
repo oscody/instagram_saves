@@ -27,10 +27,3 @@ When Germans arrived and took control of the region in 1916, some tried to claim
 This is the story they don’t teach enough.
 
 #Africanhistory #cameroon #blackhistory #truthmatters #blackexcellence
-
-## On screen text
-
-The Genius African King
-Who Created an Entire
-i riting System
-Writing System

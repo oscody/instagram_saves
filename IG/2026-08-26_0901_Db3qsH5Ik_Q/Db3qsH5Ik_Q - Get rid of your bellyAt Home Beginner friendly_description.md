@@ -26,11 +26,3 @@ Written by claude-haiku-5-5.
 Get rid of your belly.(At Home) Beginner friendly 
 
 #Abs #core #workouts #shred #explorepage
-
-## On screen text
-
-4x20
-BeginnerFriendly
-COA
-[BeginnerFriendly)
-[BeginnerFriendly

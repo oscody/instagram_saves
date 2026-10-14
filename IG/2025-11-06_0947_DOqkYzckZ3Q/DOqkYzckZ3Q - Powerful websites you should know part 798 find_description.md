@@ -28,37 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Powerful websites you should know (part 798) find almost any customizable animated component #development #animation #components
-
-## On screen text
-
-TabWindow
-BookmarksProfles
-Help
-istory
-reactbits.dev
-React Bits
-24.8K
-O
-Flowing Menu
-Preview
-Contnbute
-MOJAVE
-SONOMA
-MONTEREY
-SEQUOIA
-Props
-soperty
-Type
-Obec!
-temg
-Dependencles
-gsap
-reatedwith
-New Chr
-Code
-JavaSeript
-s{uniqueId}
-f(null);
-seRef(null)
-Ref(null);
-useRef(null)

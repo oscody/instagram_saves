@@ -17,10 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I WOULD NEVER LET MY BROTHERS DIE ‼️ #SinChotia #ElDjQueMasBaila #DjMegaJay
-
-## On screen text
-
-TART
-JSPINKINGX
-BAY
-STARTH

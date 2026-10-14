@@ -27,38 +27,3 @@ The academy will have no shortage of access. OpenAI, Anthropic, Google, Meta, Nv
 Famously a place where many have spurred traditional higher ed, Silicon Valley is once again shaking up the college landscape.⁣
 ⁣
 📸: Getty, Universal
-
-## On screen text
-
-COLLEGE
-VC fir Andressen Horowitz
-is funding afreeAl school
-as acollege aternative
-MORNING BRE
-Education for an
-age of infinite doing
-The Horowitz
-Andreessen
-Academy
-n yaoday canara
-opany,bidsoare.akea.
-Thedyexists orhismomen
-Team
-Mare Andreessen
-Erik Torenberg
-Board Director
-Zelda Poem
-Gagan Biyani
-CEO& Board Director
-Founding Team
-FOUNDING PARTNERS
-ANDURIL
-ANTHROPIC
-Google
-coinbase
-Meta
-nVIDIA
-OpenAl
-QPalantir
-stripe
-replit

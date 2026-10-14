@@ -25,25 +25,3 @@ Phillip Humm’s: “Give me 9 minutes and I’ll improve your storytime skills 
 Chinua Achebes “Things Fall Apart” 
 
 comment “content” if you need help with your personal brand
-
-## On screen text
-
-Add
-Stor
-11:09
-iHow To Becom
-Kallaay2.4M vi
-ot
-STORYTELLING
-Give me 9min, and
-storytelling skils b
-2.9M views  1 year ago
-#storyteling #techniques
-seventysix
-CHINUA
-ACEBE
-S
-APART
-The rier inwhoe company
-he prison walls fell down
-NELSON MANDELA

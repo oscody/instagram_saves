@@ -33,14 +33,3 @@ This is a good opportunity with what sounds like a gauranteed job!
 .
 .
 #fyp #job #apprenticeship #government #southcarolina
-
-## On screen text
-
-Cyber Apprenticeship
-Program with Dept of
-ar
-The w cyerrn rgr
-ch or advan
-om prepare
-C
-War

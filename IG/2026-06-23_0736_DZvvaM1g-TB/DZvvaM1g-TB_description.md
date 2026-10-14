@@ -13,9 +13,3 @@ described_at: "2026-10-08"
 A speaker describes how federal, state, Social Security and Medicare taxes shrink a $100,000 salary to roughly $65,000–$70,000. The post then promotes a live-only book launch on June 29th for "The Art of Legal Tax Avoidance Volume One," with free seats to register for.
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-SOCIAL SECURITYTAXES
-TO STARTABUSINESS
-WHOUSE THESESTRATECIES

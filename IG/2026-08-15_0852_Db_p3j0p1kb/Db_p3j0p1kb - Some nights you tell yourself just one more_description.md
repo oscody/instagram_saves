@@ -24,12 +24,3 @@ What if you could just sit back and read without holding anything?
 
 ✨📚 Project your book onto the wall, get comfortable, and enjoy every page on a much bigger screen. Read from your bed or couch while staying completely relaxed.
 It turns your favorite books into a cozy, immersive reading experience — perfect for those nights when you just can’t put the story down. 🤍
-
-## On screen text
-
-DONT show this to
-areader.
-areader..
-DONT show this
-to
-The YuleBal

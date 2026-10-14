@@ -31,39 +31,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 How to get over 890 AI agent skills into your next project. This is a no-brainer. You have to do this.
-
-## On screen text
-
-OTOHUantigaityaeoe
-skill
-Gem
-Releases51
-README.md
-SECURITYmd
-package.json
-1e hours ago
-chre fixnerdaotevaati
-skils index ison
-E
-e Security
-Contributors 6
-ntiravity Aweome ls
-Antiesistor caudecodeein
-CLI, Cursor Copilot&More
-a1 cntrbuters
-Or
-Languages
-oding Assi
-Shell 14.5
-Python 72.4
-avascript.2
-C#1.59
-Other 0.8
-e Code (Anthropic CLI)
-Codex CLI (OpenAl)
-contributors to this
-Installinyourproject folder
-So hit terminal, new
-All 90sllsforthe agents!
-Antigravity
-this file

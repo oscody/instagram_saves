@@ -46,12 +46,3 @@ The non-obvious part: this is how you escape vibe coding. Vibe coding fails beca
 I rebuilt three prompts in my own setup this morning. Replaced two custom Claude commands.
 
 Comment “notes” for the template plus the three places to plug it in 👇
-
-## On screen text
-
-Claude Code
-Smartest Al Workflow
-I've seen all year
-TRENTOUAN
-THEDECISION
-VIBECODING

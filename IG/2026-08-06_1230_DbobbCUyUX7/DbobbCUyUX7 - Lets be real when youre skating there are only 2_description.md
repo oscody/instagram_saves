@@ -37,9 +37,3 @@ Protect yourself, learn how to fall, and keep rolling. Your future self will tha
 
 Ohh and….don’t ever ask me have I fallen yet.  The answer is no. I don’t fall. 🗣️🤪🤣
 #BigAppleRoll #Skate #NewYorkCity #ManhattenBridge #fyp
-
-## On screen text
-
-POV2different skaters
-asked if I did the
-Ford

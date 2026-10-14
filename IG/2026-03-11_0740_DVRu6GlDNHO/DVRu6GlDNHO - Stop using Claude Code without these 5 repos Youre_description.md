@@ -56,17 +56,3 @@ Make sure to check your “general” tab in messages on the IG mobile app. Link
 .
 .
 #claudecode #aitools #aideveloper #claudeai #anthropic artificialintelligence codingtools devtools github programming softwaredeveloper techtools aiagents codeautomation 10xdeveloper aicoding techreels learntocode buildinpublic devlife codingskills aiproductivity claudeskills machinelearning futureofcoding
-
-## On screen text
-
-1 Claude Skills
-by Anthropic
-b.omntroic
-How to use / install
-THESE
-3) 140+ subagents
-(specialized in a specific
-industry or best practice
-DELEGATE
-5 Personal Prompt Writer
-SESSION

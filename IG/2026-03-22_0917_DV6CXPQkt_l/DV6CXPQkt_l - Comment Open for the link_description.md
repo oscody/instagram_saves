@@ -22,15 +22,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “Open” for the link
-
-## On screen text
-
-in under a day,
-ODEXCL
-Stopslopat
-runtime
-errors,
-model-route
-stabiliz
-tohcoordinate
-The whole thing is

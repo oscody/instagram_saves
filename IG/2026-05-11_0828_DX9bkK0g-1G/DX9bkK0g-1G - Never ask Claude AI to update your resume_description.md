@@ -52,14 +52,3 @@ And started building something I couldn’t be laid off from.
 If you don’t want to wait until a layoff forces your hand, follow @layup.digital. You are exactly who I help. 
 
 #careertransition #AItools #layoff #over40 #jobsearch
-
-## On screen text
-
-m47.Laidofftechrecruiter
-Neveraladetoupate
-yourresume.
-Aktheequetion nstead
-I'm47.Laidofftechrecruiter.
-NeveraskCladeAtoupdate
-Ask theseSgestonsinstead
-Follow@layup.digital

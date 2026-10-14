@@ -52,8 +52,3 @@ In AI, speed matters.
 And information spreads fast.
 
 Comment CLAUDE and I’ll send you the link.
-
-## On screen text
-
-tograb.
-it,run

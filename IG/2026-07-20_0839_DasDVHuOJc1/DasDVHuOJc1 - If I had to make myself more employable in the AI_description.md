@@ -63,14 +63,3 @@ Tools: Notion + ChatGPT Projects + Feedly AI + Make
 “Find examples from my career that prove I can do this role.” Instead of trying to remember stories under pressure, you already have your proof.
 
 Tools: Notion + Google Drive + ChatGPT Projects.
-
-## On screen text
-
-5 Disgustingy Smart
-things I'd build with Al
-ihad zero connections and
-wanted opportunities
-5 Disgustingly Smart
-if had zero connections and
-things I'dbuild with AI
-f had zero connections and

@@ -39,17 +39,3 @@ Knowing the original helped him spot where the AI went off track.
 What’s your favorite dystopian world you’d want to see brought to life in 3D?
 
 #technews #astra #videogame #scifibooks
-
-## On screen text
-
-Zorkfolder
-PO
-Znk
-in 1987
-This impr
-full3Daction-ad
-cters&envi
-nts directly in Three
-Play:
-SoProfessorMollick
-Now don't get me

@@ -36,11 +36,3 @@ If you want a no-gym plan that actually reveals your abs,
 📩DM “SHREDS” for 1:1 coaching 
 
 #fitness #homeworkout #core
-
-## On screen text
-
-PlankCrunches
-20
-Superman Plank
-PlankDips
-20X

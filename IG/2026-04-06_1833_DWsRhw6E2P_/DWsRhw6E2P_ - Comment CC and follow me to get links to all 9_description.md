@@ -35,27 +35,3 @@ What are the best free AI courses in 2026?
 How to use Claude Code as a beginner?
 
 #ai #claudeai #freecourses #learnai #aicourses
-
-## On screen text
-
-Claude 101
-Core features & prompting
-ANTHROPIC
-hrepie AcodeyCour
-Building with Claude AP
-5
-Anthropic Academy
-Requests to agentic systems
-hroplAcodeourei
-Building with the
-Claude API
-ourseo
-About this course
-his coureprovides
-Claude Code Essentials
-8
-reCodeCamp
-Chrs beginner to pro
-Claude Code
-sentials
-Essentials

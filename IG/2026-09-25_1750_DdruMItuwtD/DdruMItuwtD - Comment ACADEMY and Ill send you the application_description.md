@@ -31,19 +31,3 @@ Not anti-college — built for builders who’ve outgrown what a 4-year path off
 Horowitz Andreessen Academy, HAA, a16z, The Academy SF, Founding Class Fellowship, tuition-free, young builders, AI education, San Francisco school, Ben Horowitz, Marc Andreessen
 
 #venturecapital #a16z #education #ai #startups
-
-## On screen text
-
-FUTURE
-AIZ
-2 DAYS TO 4WEEKS
-Googl
-HROPIC
-coinbase
-Palantir
-Repli
-OpenAI
-2DAYSTOWEEKS
-RC
-BASE
-NOBODYREALLY

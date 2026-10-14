@@ -30,19 +30,3 @@ Ships with:
 The crazy part: it started with a full technical design document, not a vague prompt. Visual quality was the product.
 
 👉 https://github.com/Noniv/snowflow_demo
-
-## On screen text
-
-9 HOURS + 4MCLAUDE
-TOKENSAFULL
-WEBGPU SNOWENGINE
-CLAUDEOPUS5TOKENS
-https://github.com
-Nonivsnowflow_demo
-9HOURS + 4MCLAUDE
-MADEAN,UH
-https://github.com/
-Noniv/snowflow_demo
-TOKENSA FULL
-BUT.UM
-Noniv/snowflow_demg

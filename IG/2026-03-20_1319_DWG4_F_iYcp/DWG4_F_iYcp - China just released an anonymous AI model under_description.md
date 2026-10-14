@@ -25,18 +25,3 @@ But Xiaomi didn't stop there. They dropped two more models the same week.
 MiMo-V2-Omni understands images, video, and audio all at once. And MiMo-V2-TTS is an AI voice model that can whisper, laugh, sigh, and even sing, all from a single text description.
 
 And this is pretty surprising for a hardware company. A company that makes phones, cars, and robots is now building full stack AI models. While a company like Apple has literally failed at making Siri even usable.
-
-## On screen text
-
-DAY-1oF
-THIS
-MiMoV2Pro
-Step-by-Step Plan
-ially from
-penefit, and include
-willbesihtly longer focus
-industry applic
-exploration.
-Ask meanything! Hola Shi
-MiMo-V2-Omni
-company.

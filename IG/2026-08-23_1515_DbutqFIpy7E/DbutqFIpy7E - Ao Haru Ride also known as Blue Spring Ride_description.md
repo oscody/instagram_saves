@@ -58,7 +58,3 @@ Shuko Murao
 🏆 acclaim: loved for its realistic romance, emotional depth, and relatable characters.
 📺 where to watch
 Ao Haru Ride is available on Crunchyroll, Netflix, and other platforms depending on region.
-
-## On screen text
-
-MATS

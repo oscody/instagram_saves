@@ -17,17 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Hardest decision of our lives, and would do it all over again.
-
-## On screen text
-
-5000
-C
-e cotively qu asalary of
-5
-PERMISSION
-where
-without permission
-pee
-FREE
-PSYCHOLOGISTS
-free psychologist massage

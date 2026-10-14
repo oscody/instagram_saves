@@ -33,15 +33,3 @@ Ships with:
 This is what agent swarms look like when they have a real world to exist in.
 
 👉 https://www.hermesagora.com/
-
-## On screen text
-
-HERMES AGENTS JUST
-GOTA 3D COMMAND
-CENTER
-OKAY?
-https://
-www.hermesagora.com
-GOTA SD COMMAND
-3D COMMAND CENTRE
-IT'S VERY FUN

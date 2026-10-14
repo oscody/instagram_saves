@@ -39,26 +39,3 @@ you’re a bio-electric quantum computer navigating timelines.
 Comment SCROLL to access your root architecture. 
 
 917604.OX
-
-## On screen text
-
-DNA ISNT CODE
-IT'S AN ANTENNA
-AND YOU'RERUNNING
-DEFAULT SETTINGS
-OURCSAEELETEWERHOUSE
-EURONFIRING
-O
-CLAURAEGOCHEAGA
-AT
-trillioncells
-processing
-DNA ISN'T CODE
-IT'S ANANTENNA
-GLAURAE
-becauseyour
-biology
-ITSANANTENNA
-ANDYOU'RERUNNING
-Nutritionequals
-cellular

@@ -21,24 +21,3 @@ my team was one of the winners of the cursor ai hackathon in sg
 we built netflix for corporate learning
 
 gonna be turning this into a real company so follow for the journey 😛
-
-## On screen text
-
-The Netflixof
-Corporate Learning
-ofcorporatetraining
-200%
-5 min
-95%
-IAnox
-Sherry asks:
-24s
-Sharon didn't give themoney
-directy toSherry.What is this
-type of offer an example of?
-An indirect bribe
-andanswerquestions
-Afriendly gift
-A corporate sponsorchi
-IAnomox3
-so followalong

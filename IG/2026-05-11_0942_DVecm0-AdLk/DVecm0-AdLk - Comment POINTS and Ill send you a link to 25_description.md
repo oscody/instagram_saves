@@ -41,21 +41,3 @@ If you want help finding grants in your specific niche or getting clarity on you
 Use who you are to your advantage.
 
 And follow me for more advice on storytelling, funding, and turning your ideas into opportunities.
-
-## On screen text
-
-Dre
-VERSE
-RISING
-Hi Queena,
-Winnerwe're soexcied fryou
-AT&T
-DREAM
-Black
-Innovative Arts for
-US Filmmakers
-GrantFunding Available
-experimental, or hybrid fir
-Apply
-Drea
-HSO

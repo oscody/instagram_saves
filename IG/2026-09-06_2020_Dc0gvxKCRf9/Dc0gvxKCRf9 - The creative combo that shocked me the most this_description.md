@@ -46,18 +46,3 @@ MiniMax Design + H3 Max
 is absolutely one of the strongest creative combos of 2026!!
 Comment “MiniMax Design” for the link
 #minimax #minimaxdesign #minimaxh3max #aivideo #generativeai
-
-## On screen text
-
-around
-00:04.7
-DT
-MiniMaxHMax
-e tovideo19e15s
-speed
-+
-Cose
-Roset
-00:33.4
-Paused -click to resume
-har aerclwasteland hunterd

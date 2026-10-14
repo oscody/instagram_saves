@@ -18,17 +18,3 @@ Written by claude-haiku-5-5.
 
 best places to dance in nyc! 
 #dance #dancer #salsa #nyc #ny
-
-## On screen text
-
-best places in Manhattan
-to dance salsa/bachata
-this summer
-Washington Square Park
-Wednesdays
-6-9pm
-FREE
-Private Socials
-follow salsappl)
-everywhere
-Tesson folowed by dancing

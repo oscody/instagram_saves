@@ -40,26 +40,3 @@ And I’m giving it away for free.
 Comment PROMPT to get the prompt 🔥
 
 #jobsearch #jobsearch #jobhunt #jobseeker #jobapplication
-
-## On screen text
-
-Goodafernoon. Roxanne
-How can help you today?
-Sonnet 4.6
-From Drive
-Lifestuff
-/Code
-S Learn
-rite
-CLAUDE
-Good afternoon Roxanne
-JUSTCOMMENTBELOW
-rategy for London
-surfaces:
-caleups
-paniesexp
-s extraord
-raherhan iingaanaviy.
-Reply
-YOUHAVEOF
-DII

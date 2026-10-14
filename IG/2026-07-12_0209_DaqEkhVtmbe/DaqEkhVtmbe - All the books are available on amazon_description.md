@@ -21,20 +21,3 @@ All the books are available on amazon.
 .
 .
 #reelsinstagram #instagramreels #reading #readmore #explore
-
-## On screen text
-
-sexual intelligence
-WHATWE
-REALLY
-GETIT
-MARTY KLEIN PH.D.
-BESTSELLER
-t
-DOPAMINE
-DETOX
-APEIDETOENAEISTRACTONSA
-THIBAUT MEURISSE
-MEDITATIONS
-MARCUS
-AURELIUS

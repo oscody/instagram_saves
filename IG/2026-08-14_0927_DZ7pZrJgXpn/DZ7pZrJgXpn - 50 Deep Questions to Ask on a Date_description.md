@@ -67,12 +67,3 @@ The goal isn’t to impress each other—it’s to understand each other.
 40. What story best explains who you are today?
 
 Great conversations help people feel seen, heard, and understood. ✨❤️
-
-## On screen text
-
-SO Deep Questions to Askon
-aDateTalking Stage)
-S Deep Questions to Askon
-aDate (Talking Stage
-SoDeepQuestions to Ask on
-a Date (Talking Stage)

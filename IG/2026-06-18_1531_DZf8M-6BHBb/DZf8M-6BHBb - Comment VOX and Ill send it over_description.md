@@ -38,27 +38,3 @@ Premium AI voices used to mean a monthly bill. This one’s free, runs on your o
 Comment “VOX” — the repo + the live demo, in your DMs. 👇
 
 #VoiceAI #TextToSpeech #OpenSourceAI
-
-## On screen text
-
-Apache-2.0 license
-README
-VoxCPM2:TokenizerFreeTTS
-for Mutingual Speech
-Generation CreativeVoice
-Design and Trueto-Life Cloning
-ELEVANLABS
-REPLACEMENT
-#1 on GitHub- today
-VoxCPM2:TokenizerFreeTT
-for Multingual Speech
-Generation Creative Voice
-esianand True-to-Life Cloning
-Apache2.0=use t
-commercially
-Doc
-Models
-for Multilingual Speech
-Design and TruetoLife Cloning
-Comment Vox" for it
-Mou

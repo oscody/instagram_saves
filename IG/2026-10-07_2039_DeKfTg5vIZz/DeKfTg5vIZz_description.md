@@ -27,28 +27,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * How to get it: Comment "CLONE" below the post; the creator says they will send the files, folders, prompts and slash commands.
-
-## On screen text
-
-Because ifyou'restill
-Name
-ai-brain
-Al-Chats
-Emails
-Inspiration
-Other
-Transcripts
-Voice-Recordings
-CLAUDE.md
-Inspiration-Vault.md
-My-Audience.
-My-Business.md
-My-Voice.md
-house
-projects
-README.md
-workspace-CLAUDE.md
-LICENSE
-DropCLONE"below
-and Ill send it over
-below and 'll send it

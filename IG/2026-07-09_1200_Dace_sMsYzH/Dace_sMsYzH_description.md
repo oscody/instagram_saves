@@ -21,9 +21,3 @@ Written by claude-haiku-5-5.
 3. Have it go through all of your meeting transcripts and pick 2-3 unique ideas that suit a LinkedIn post.
 4. Give it frameworks to follow: a hook, a call to action at the end, and information about your ICP (ideal customer profile).
 5. Have it save the LinkedIn draft into your Notion database automatically.
-
-## On screen text
-
-EXACTLY
-THAT
-THE

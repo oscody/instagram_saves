@@ -21,16 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Coming October 3 🍤🍛 Get discounted tickets at our link in bio ➡️ @NYbucketlist to this festival showcasing the best Creole chefs, cuisines, and beverages from the Caribbean, Africa, Latin America, and the South of the US 🍲 The best part? The festival is returning to Emily Roebling Plaza, under the Brooklyn Bridge. Tag someone who should go with you 👇 #NYbucketlist #nyc
-
-## On screen text
-
-bucketlisters
-A Creole Food Festival
-Under The Brooklyn Bridge
-is Happening Next Month
-INK
-LINKIN BIO
-GET TICKETS AT
-BUCKETLISTERS.COM
-Download on the
-App Store

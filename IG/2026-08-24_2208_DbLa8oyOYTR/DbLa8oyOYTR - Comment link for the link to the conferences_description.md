@@ -23,11 +23,3 @@ Written by claude-haiku-5-5.
 Comment “link” for the link to the conferences happening this second half of the year. 
 
 Here are the conferences for the culture in 2026. Whether you’re networking across the tech, media, creator, finance, business or other industries, we have something for you.
-
-## On screen text
-
-CONFERENCESEOR
-THECULTURE2026
-r
-fortheres
-ture cons

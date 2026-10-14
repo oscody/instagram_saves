@@ -20,9 +20,3 @@ Written by claude-haiku-5-5.
 
 .
 #jamaica #caribbean #westindian
-
-## On screen text
-
-INEVER META
-BROKE JAMAICAN
-26

@@ -19,19 +19,3 @@ Written by claude-haiku-5-5.
 Save for later
 
 Growth , alone, loneliness, vulnerability, love, relationship, self-care, self-importance, difficult, hopeless, losing, fighting, mental, health, numb, soul, bonding, forever, searching, travel, improvement, tripod, dog, family, vital, trend.
-
-## On screen text
-
-Videostowatch instead
-of brainrot
-Why
-Good
-People
-Bad?
-TurnE
-4:10
-Theuierew godpole
-BECOMEWHOVOU'REAFRAILTOBE
-5:35
-e Who You'reAfraid To Be The
-Jung

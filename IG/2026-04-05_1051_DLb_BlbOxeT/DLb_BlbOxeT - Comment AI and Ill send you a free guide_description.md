@@ -33,13 +33,3 @@ Comment “AI” and I’ll send you a free guide 🤝
 .
 .
 #n8n
-
-## On screen text
-
-So what I'm gonna do is I
-m gonna copy this
-Welcome to Al Studio
-once it's in there with
-this specific prompt
-allyou gotta do is come
-uphere

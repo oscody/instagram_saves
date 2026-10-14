@@ -17,34 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Songs literally everyone forgot about 😮‍💨 How many do you remember? Let me know👇🏼
-
-## On screen text
-
-HOW MANY FORGOTTENHITS
-DO YOU REMEMBER?
-0
-CALVINHARRIS, MIGOS
-RUNUP
-10%
-20%
-SLIDE
-30%
-40%
-50%
-60%
-80%
-90%
-100%
-200%
-HOW MANY FORCOTTEN HITS
-JSNAKE
-SO%THE MIDDLE
-FEELS
-MIDDLE
-HOW MANY FORGOTTEN HITS
-ZEDDALESSIA GARA
-30%THE
-70%NOPROMISES
-YOU LIKEIT
-YOU KNOW
-STAY

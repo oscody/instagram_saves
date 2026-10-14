@@ -33,17 +33,3 @@ Written by claude-haiku-5-5.
 Psycho-Cybernetics | Identity Shifting explained in 13 principles in 60 seconds. 
 
 “You can never outperform your own self-image”
-
-## On screen text
-
-psycho-cybemetics
-#3
-3.give hacleartarget
-anditllfindaway
-#7
-youalready
-the person you
-anttobe
-#11
-notarendpoint
-youreach.

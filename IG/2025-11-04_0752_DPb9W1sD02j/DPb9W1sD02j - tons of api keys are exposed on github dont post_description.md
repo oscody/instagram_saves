@@ -25,16 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 tons of api keys are exposed on github, don’t post yours, catch the full video exclusively on collide.io/community #cybersecurity #opensecrets #developersafety
-
-## On screen text
-
-no way people post
-NERG
-api keys on github
-Dob
-ITIS
-TERRIFYING
-AREPUBLISHED
-ONGITHUB
-IAMNOT
-PROMOTING

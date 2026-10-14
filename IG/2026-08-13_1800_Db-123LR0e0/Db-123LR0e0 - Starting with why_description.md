@@ -21,10 +21,3 @@ Starting with ‘why’.
 SONGS OF THE SAHARA | Book I | THE SERPENT IN THE SAND | Part One 
 
 Shoutout to Simon Sinek @simonsinek for the quote. To advocate for kids to know who they are and where they are from while also learning other cultures shouldn’t be revolutionary, but here we are. Gotta start SOMEWHERE #explore #africanhistory #discover #africa #storytelling
-
-## On screen text
-
-PoV: African Dragon Aunti
-Po African Dragon Auntie
-HELLOOO
-PoVfrican Dragon Auntie

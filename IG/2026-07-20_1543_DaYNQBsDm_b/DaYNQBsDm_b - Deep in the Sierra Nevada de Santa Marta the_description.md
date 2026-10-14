@@ -23,9 +23,3 @@ At the heart of Kogi society are the *mamos* — the priests, seers, and spiritu
 The Kogi believe the Younger Brothers — the rest of humanity — have forgotten how to see Aluna, and that the destruction of the natural world is the visible consequence of a spiritual forgetting. In 1990 and 2012, Kogi elders broke their isolation to deliver urgent warnings to the wider world through documentary films. The message was the same. Remember the invisible. Care for the source. ✨ Some knowledge is being kept alive on our behalf by people we have never met. Have you ever felt a warning you could not name?
 
 #kogi #sierranevadadesantamarta #indigenouswisdom #eartsteward #ancientseers
-
-## On screen text
-
-COLOMBIA
-NED
-PERFORMING

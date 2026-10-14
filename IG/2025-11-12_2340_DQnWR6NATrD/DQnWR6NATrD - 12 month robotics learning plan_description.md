@@ -27,12 +27,3 @@ Written by claude-haiku-5-5.
 12 month robotics learning plan
 
 #robotics #arduino #clankers
-
-## On screen text
-
-And the goal
-Projects:
-. Bluetothcontroledrobot
-2.Srbalancingrbo (MU+ I
-2.Minroboti arm (4 ervo
-in modern robotics

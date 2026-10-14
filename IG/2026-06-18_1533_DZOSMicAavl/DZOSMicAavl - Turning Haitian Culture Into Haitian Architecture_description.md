@@ -36,13 +36,3 @@ Comment ‘RESEARCH’ if you want deeper insights into the Haitin Caribbean sym
 Comment ‘COMMUNITY’ to join the Architectural Enthusiasts group 
 
 #architecture #haiti  #culture
-
-## On screen text
-
-VING
-AKOU
-ING
-tile.
-ore
-6.
-che.

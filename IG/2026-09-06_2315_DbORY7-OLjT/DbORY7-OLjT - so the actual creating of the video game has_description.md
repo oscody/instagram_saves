@@ -27,30 +27,3 @@ Written by claude-haiku-5-5.
 so the actual creating of the video game has become easy. But what a lot of people don’t realize is the hard part of a video game is generating interest, interesting game mechanics and systems, a solid brand, a distribution method or network. That’s truly the hard part. Creating stuff like this is gonna be super easy for almost anybody, but it won’t be easy to make a successful games. in fact, I left the gaming industry because I knew what was coming, and if your company isn’t positioned well for it, it will go under or there will be massively off soon(among other reasons). So if you’re trying to do projects like this make sure you team up with people in marketing, branding, and a bunch of other fields to help you out eventually. Otherwise, your game is going to be distributed to all of about zero people.
 
 And if you need help like this, I'm launching a community soon that you’ll be able to join and ask me questions directly. I’ve worked for right games for almost a decade, Silicon Valley/beach for 20+ years and I’ll be happy to answer any questions.
-
-## On screen text
-
-Post
-X.com
-Meng To
-@MengTo
-systems, and more.
-Everything is free:
-github.com/MengTo/Skil
-Play the game:
-vesperfall.mengto.ch
-Game assets:
-vesperfall.mengto.
-catalog
-Post yo
-CLOSE
-Esc
-The Ash Ledger
-Oathward
-THEHELD LINE
-Shortbow
-NO DESTINATION
-chatgpt.site
-I'm open-sourcing m
-nward
-aien guardeeaured

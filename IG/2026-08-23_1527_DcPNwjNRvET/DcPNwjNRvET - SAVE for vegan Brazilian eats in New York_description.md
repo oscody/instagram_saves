@@ -37,8 +37,3 @@ Also their midtown location has a a cozy listening bar upstairs and we caught a 
 @berimbau_nyc @berimbau.secondfloor 
 
 #nycvegan #nycveganeats #veganbrazilianfood
-
-## On screen text
-
-ilian spot
-vegan frie

@@ -19,7 +19,3 @@ Written by claude-haiku-5-5.
 Tutorial 🛼🛼
 
 Idea from @erika_cordeiro
-
-## On screen text
-
-ONEWAY

@@ -48,16 +48,3 @@ Straight to a markdown file in your AI Brain.
 Pro-tip: use your judgement to decide what gets exported, and what can get deleted indefinitely. 
 
 comment 'CLAUDE' and I'll send you my free beginner's guide to Claude Code 🤝
-
-## On screen text
-
-These free plugins let you
-export all of your Al chats
-more
-MD and more
-Etenionoo.oousers
-Onlysave the chats threads
-that have valuable content
-random-rabbithole
-X
-TExpo

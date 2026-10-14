@@ -26,18 +26,3 @@ Linkedln + Indeed =too much noise.
 Use these instead...
 
 ( hiring,  jobs, linkdln,  indeed )
-
-## On screen text
-
-Try these hidden
-websites
-es
-Dice
-lsk.Bigehanco Btter
-Jobs.
-tartyourjobs
-Q
-Upwork
-Connectingclientsin
-need to freelancers
-who deliver

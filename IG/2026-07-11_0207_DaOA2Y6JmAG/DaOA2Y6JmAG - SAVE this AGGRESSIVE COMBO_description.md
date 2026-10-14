@@ -24,8 +24,3 @@ Written by claude-haiku-5-5.
 SAVE this AGGRESSIVE COMBO! 🥊
 
 #boxing #shadowboxing #fighting #fight #reels
-
-## On screen text
-
-TRY THISOUT!
-UPPERCUT

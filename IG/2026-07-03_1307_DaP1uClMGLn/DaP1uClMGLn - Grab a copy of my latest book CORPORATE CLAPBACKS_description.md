@@ -25,10 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Grab a copy of my latest book “CORPORATE CLAPBACKS” available on. Audiobook available, link in the bio #Awareness #Work #Corporate #Tips #advice
-
-## On screen text
-
-Bosicat
-HUMAN BEING UNDER
-LEVEL2THE
-TO TREAT YOU

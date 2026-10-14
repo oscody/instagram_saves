@@ -31,37 +31,3 @@ Industry experts predicted this moment was 5-10 years away. It arrived yesterday
 What are your thoughts on this?🤔💬
 
 #higgsfieldpartner
-
-## On screen text
-
-AP
-A REALACTOR
-GOTP
-PAD
-JUSTG
-SERIESHE
-1M
-A
-SWIPE
-n set Never one ingeshw.
-CHOICE CANNOT BE UE
-10
-YES
-1/10
-SWIPE E
-HIGGSFIELDAI
-arrio
-RIGINAL SERIES
-No ressuredestiny,I guess.
-IGGSFIELDA
-4/10
-ORIGINALSERIES
-Heyl'm coming foryou!
-5/10
-SWPE
-ORIGINAL SERIES
-3/10
-makingit the firt everful-I
-ength ATV Series episode.
-vaabe on higie.lorios
-10/10

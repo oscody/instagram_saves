@@ -47,12 +47,3 @@ What I’ve done is put together a huge list of grants and a blueprint that will
 Let’s get you started! Comment the word: Grants
 
 #BusinessFunding #SmallBusinessTips #LLC #Grants #Grant BusinessGrants FundingOpportunity FundingOpportunities StartupFunding BusinessStartup GrantMoney FinancialSupport EntreprenuerFunding NonprofitGrants NonProfits NonProfit SmallBizSupport GrantOpportunity GrantOpportunities SmallBusinessFunding
-
-## On screen text
-
-ApplyFor Every Month
-Apply For Every Month
-#3.Amber Grant
-$10,000
-#9.Wish Local Grant
-$2,000

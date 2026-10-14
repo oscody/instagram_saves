@@ -38,35 +38,3 @@ The best part? Every answer gets filed back into the wiki. Your research compoun
 How are you organizing your AI knowledge? What's your setup?
 
 #ai #chatgpt #learning #productivityhacks #technology
-
-## On screen text
-
-how it
-Raw Sources
-articles
-repos
-papers
-LLM Compiler
-summarize
-categorize
-link
-md Wiki
-backlinks
-summaries
-concepts
-random questions build a
-knowledge base instead
-then queryt
-400K
-100
-words
-no fancy RAG needed
-ind connectons betweenX andv
-what data is inconsistent?
-summarize everything on Z
-thenyourL Lm comples them
-into amarkdown wiki with
-your research should
-compound
-find the connections between
-topic Xand topic y

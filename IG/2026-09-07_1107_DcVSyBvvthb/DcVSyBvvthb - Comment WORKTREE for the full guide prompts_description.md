@@ -35,13 +35,3 @@ AI is lazy and even worse lies to you about the work that it does…
 But the fix is stupidly simple you just need to set up this one skill.
 
 #claude #chatgpt #productivity #lazy #work
-
-## On screen text
-
-Claude
-You give
-smallert
-up into
-after
-the other
-one

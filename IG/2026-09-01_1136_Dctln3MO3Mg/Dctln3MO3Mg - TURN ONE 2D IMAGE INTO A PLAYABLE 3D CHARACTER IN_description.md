@@ -35,24 +35,3 @@ Image in. Interactive WebGL out.
 👉 https://github.com/img2threejs/img2threejs
 
 Who’s turning photos into 3D scenes today? Drop a 🔥
-
-## On screen text
-
-TURN ONE 2DIMAGE
-INTOA PLAYABLE 3D
-CHARACTER IN THE
-BROWSER
-in.
-ral model out.
-3D CHARACTER
-https://github.com/
-img2threejs/img2threejs
-TURN ONE2D IMAGE
-INTOAPLAYABLE D
-LTTLE PICTUREBASIGANLY.
-https:/github.com/
-mg2threes/mg2threejs
-C
-WE CANBUILD
-https://github.com/.
-img2threes/mg2threes

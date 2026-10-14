@@ -38,14 +38,3 @@ Written by claude-haiku-5-5.
 💬Comment “roadmap” to get all the resources + my guide in your DMs!
 
 #upskill #ai #roadmap #usa #uk
-
-## On screen text
-
-2024: 90days tofind ajob or
-leave the country..
-ntrodu
-and conte
-A
-Anthropic.
-R
-the most,

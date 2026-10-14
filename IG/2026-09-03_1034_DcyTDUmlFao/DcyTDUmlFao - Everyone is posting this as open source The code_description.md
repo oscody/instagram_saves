@@ -42,32 +42,3 @@ Your model was never slow at looking. It was slow at typing.
 Comment BOXES and I will send you the repo and the licence.
 
 #opensourceproject #githubprojects #computervision #objectdetection #nvidia #machinelearning #aitools #devtools #eccv
-
-## On screen text
-
-Open Source.
-Until You Sell
-OM
-boxes in training data
-ITDRAWS
-ina
-DAY
-Until You Sell.
-5.3
-DOVS
-boxes per second
-EVER
-Parall
-GEORGE
-MODEL
-SPELLS
-VER
-T-U
-straight off their READE
-Model LicenseNVIDIA License
-Apache 2.0
-Code License
-wo badges,
-two different licences
-APACHE
-WEIGHTS

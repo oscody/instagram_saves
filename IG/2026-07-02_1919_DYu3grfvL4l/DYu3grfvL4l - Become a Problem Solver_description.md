@@ -29,12 +29,3 @@ Become a Problem Solver
 Join my 4 week challenge - Link in bio💪 
 
 #fyp #trending #foryou #fitness #motivation
-
-## On screen text
-
-Become a Problem Solver
-He does not give us
-Become aProblem Solver
-I'd like to ouble down
-on
-lie down in front of the

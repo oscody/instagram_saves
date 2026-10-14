@@ -26,11 +26,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 5 life hacks for Scorpio Sun sign #scorpio #lifehacks
-
-## On screen text
-
-The5 life hacks for
-Scorpio
-AVOIDINGYOUR TRUE
-The 5 life hacks for
-AFRAIDOF THE.

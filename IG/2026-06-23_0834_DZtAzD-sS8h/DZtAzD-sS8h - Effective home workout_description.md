@@ -25,10 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Effective home workout🔥
-
-## On screen text
-
-andgotvisitleABSnow
-samesidekneeraises
-teepsyouburingfaevenafer
-exercise

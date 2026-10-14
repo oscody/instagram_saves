@@ -40,20 +40,3 @@ Follow @editsz.ex for more
 
 Hashtags:
 #manhwa #manhwarecommendations #webtoon #manhua #manhwaedit
-
-## On screen text
-
-OLDAGE
-HIS PRIME
-1.SuperhumanEra
-HERPRIME
-.henationheVee
-Soldier
-HIS
-PRIME
-3.Villainto Kill
-HISPRIME
-the CheonClans Mad Dog
-5.Becoming
-. Manager Kim
-.Return of the Mad Demon

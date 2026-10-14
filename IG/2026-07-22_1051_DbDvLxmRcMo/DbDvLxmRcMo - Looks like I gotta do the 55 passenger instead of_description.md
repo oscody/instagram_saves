@@ -21,18 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Looks like I gotta do the 55 passenger instead of the 40 hmmm #biancaandthecity #waterparktrip #funplexafterdark
-
-## On screen text
-
-FUNPLEXAFTERDARK
-WHERES MYLITTADULTS
-@IN NYG3333
-POOLPARTYBOWLING
-GOKARTBUMPERCARS
-8/21/26
-COMMENTSOICAN
-SENDYOUSOMEMORE
-INFOIITAGAFRIEND
-ORCOMESOLOOOOOOS
-COMMENT SOICAN
-INFOTTAGAFRIEND

@@ -66,12 +66,3 @@ Written by claude-haiku-5-5.
 48. What’s one truth about you that surprises people?
 49. What would make you walk away from a relationship?
 50. Do our values actually align?
-
-## On screen text
-
-SoQuestionsThat Reveal
-Everingaing Stage
-SO Questions That Reveal
-Everting TkingStage
-Suestions That Reveal
-Everything (Taking Stage

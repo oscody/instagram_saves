@@ -28,9 +28,3 @@ Get Jupi Hydration 👇
 https://amzn.to/4sA422w
 
 #womenover40 #antiage #usahealth #healthtips #unitedstates
-
-## On screen text
-
-WAISTLINE
-MINUTES
-TIPSFOLLOWFOR

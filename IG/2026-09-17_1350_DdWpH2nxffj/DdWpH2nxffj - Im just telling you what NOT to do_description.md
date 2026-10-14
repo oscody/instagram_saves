@@ -36,11 +36,3 @@ But if you’re trying to understand how people are positioning businesses to ac
 If you’re watching from Facebook, the link is in the comment section.
 
 #AshleyTheAlchemist #Wealth #BusinessCredit #Bankruptcy #DonaldTrump
-
-## On screen text
-
-LOOKING FORADISSOLVED
-BUSINESS
-WITHOUT HAVING TO
-PERSONALLY
-MEAN BUT US NO

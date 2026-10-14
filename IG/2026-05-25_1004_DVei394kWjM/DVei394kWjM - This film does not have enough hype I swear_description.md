@@ -25,8 +25,3 @@ This film does not have enough hype I swear. Directed by @femi26 , Oba doesn’t
 .
 .
 #africa #nigeria #film #africanfilm #panafrican
-
-## On screen text
-
-rbirarinessofborders
-It'sfantasyit'sm

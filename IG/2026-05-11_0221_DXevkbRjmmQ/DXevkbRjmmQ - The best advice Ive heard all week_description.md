@@ -31,8 +31,3 @@ Imma try to work on this.
 Thank you @aiemannzahabi for these wise words
 
 #bjj #jiujitsu #relatable #fyp #martialarts
-
-## On screen text
-
-AR
-X

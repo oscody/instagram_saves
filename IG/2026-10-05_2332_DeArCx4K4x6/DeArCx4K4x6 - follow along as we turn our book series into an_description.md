@@ -17,18 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 follow along as we turn our book series into an animated series #theolduniverse #scifi #fantasy #animation
-
-## On screen text
-
-Whatwe consider our Big
-Bang,and start was actualy
-the catacysmicendto awarin
-The Old Universe
-Bang,and startas actually
-the catacysmicendtoawarin
-The Oid Universe
-seesroourscitantasybokseries
-weretingionnaedseres
-Bang,and start,was actualy
-he catacysmicendto awarin
-wetatesere

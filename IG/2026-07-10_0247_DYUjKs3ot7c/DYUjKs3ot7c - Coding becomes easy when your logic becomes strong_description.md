@@ -25,18 +25,3 @@ Coding becomes easy when your logic becomes strong.
 You’re not bad at coding your fundamentals were never built correctly.
 Comment “LOGIC” to get the videos.
 #coding #relatable #viral #trendingreels #programming
-
-## On screen text
-
-When you realise you were
-never bad at coding- you
-just never watched these 3
-videos on logic building
-just neverwatched these 3
-Comment logic for links
-AFTER
-BEFORE
-YouTube
-CodingThe
-Dopamine Hack
-youtube.com

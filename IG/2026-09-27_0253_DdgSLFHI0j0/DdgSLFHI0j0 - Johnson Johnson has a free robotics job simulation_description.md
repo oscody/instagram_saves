@@ -43,10 +43,3 @@ https://www.theforage.com/simulations/johnson-and-johnson/robotics-controls-aozc
 Saved this for later? Open the scenario before task one. It tells you in two minutes whether this is for you.
 
 #robotics #jobsimulation #upskilling #freecourses #medtech
-
-## On screen text
-
-armthat
-OV
-XXKA
-this walks you

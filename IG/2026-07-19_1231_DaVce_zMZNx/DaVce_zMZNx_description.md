@@ -17,10 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: momjustreby.com
-
-## On screen text
-
-TOOLS THAT DO 47
-CURSOR
-NOSTALGICIDEA
-AND THE MOST

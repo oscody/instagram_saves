@@ -24,29 +24,3 @@ Written by claude-haiku-5-5.
 ❤️ Comment ‘Howard’ to get the website now!
 
 #uxui #uidesign #ui #figma
-
-## On screen text
-
-Generate this ugly
-stiekman into a cute
-Waruto game in 30s!
-AI Chat
-Current History
-Asset
-effects:
-enerateasets: 14/15
-ill create the miss
-Generate assets: 1/1
-And boom! Full assets
-for a whole game!
-Working.
-Desoribe yourgae or changes.
-Professional
-A
-Comment Howard'
-to get thewebsite now!
-DII
-DD
-F8
-F9
-5

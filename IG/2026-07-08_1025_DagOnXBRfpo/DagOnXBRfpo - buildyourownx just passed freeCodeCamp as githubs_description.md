@@ -37,14 +37,3 @@ which one you build is the entire interview.
 your own game or AI model = “i followed a tutorial.”
 
 your own database or git = a hiring manager sits up.
-
-## On screen text
-
-263
-9450
-81871
-eCodeCamp
-t10
-5369
-repo
-here's

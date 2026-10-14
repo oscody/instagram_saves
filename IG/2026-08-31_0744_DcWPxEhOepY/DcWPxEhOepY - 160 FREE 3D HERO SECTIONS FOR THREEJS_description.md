@@ -35,17 +35,3 @@ Drop them into your site and ship polished 3D experiences without starting from 
 👉 https://github.com/MengTo/threeui
 
 Who’s adding 3D to their stack today? Drop a 🔥
-
-## On screen text
-
-160+ FREE 3DHERO
-SECTIONS FOR THREEJS
-Step into
-the living world
-FREE3DHERO
-https://github.com/
-MengTo/threeui
-edefining Attributio
-vit AlPoweredDataPrecision
-SECTIONS,
-SITE.ITS3U

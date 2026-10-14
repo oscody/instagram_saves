@@ -25,9 +25,3 @@ Written by claude-haiku-5-5.
 @alicialyttle Offers Her Robot🤖 $50,000…But WHY?
 
 Ground Breaking Technology At @investfestival
-
-## On screen text
-
-IVERABLE4
-HEPROO
-HANC

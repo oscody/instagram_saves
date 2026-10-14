@@ -21,15 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “SHEET” and I’ll DM u everything🫵🫪
-
-## On screen text
-
-So everybodywearing
-reps now
-64.4K
-Boy I was thinking,
-1,859
-5,706
-3,301
-TryTikTok template
-A.DTM7-14

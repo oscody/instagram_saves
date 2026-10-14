@@ -26,27 +26,3 @@ Everything
 Jaga Jaga
 My Darling 
 Soweto
-
-## On screen text
-
-chop
-dailu
-Vvictony has consistently heen
-dropping gems since his 2023
-hit "Soweto. His new release
-Slickis about to go crazy
-VICTONY
-FRESH
-doilu
-VICTONY,OLAMIDE
-SKIDO
-MRMONE
-VICTONY,ASAKE
-STUBBORN
-EVERYTHING
-VICTONY.BABYBOYAV
-JAGAJAGA
-MY DARLING
-articulier
-mais e
-SOWETO

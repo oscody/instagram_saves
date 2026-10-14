@@ -45,8 +45,3 @@ How it works:
 Go try it today, it’s brilliant!
 
 #claudeai #figma #vibecoding #ai #cursor
-
-## On screen text
-
-So basicallyevery time
-advisors'perspecti

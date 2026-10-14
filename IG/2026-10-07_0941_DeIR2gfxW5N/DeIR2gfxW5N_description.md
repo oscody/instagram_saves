@@ -17,24 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: dubshowcase.com
-
-## On screen text
-
-Thephrase ofthe dayis:
-DUBSHOWCASE
-ONEONECOCO
-FUIL
-BSKE
-un wun'oh koh fubas kit
-vere.Lebyit.paene
-nderitne nidometing
-significant.
-Save likle everyweek
-Example:
-one one coco full basket.
-Save a littleeveryweek
-littleby little itadds up.
-SIMPLEWORDS
-RICH CULTURE
-GDUBSHOWCASE- DUBSHOWCASECOM
-CARRY ONTHECULTURE

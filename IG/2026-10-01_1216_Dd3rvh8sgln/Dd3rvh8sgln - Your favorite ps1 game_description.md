@@ -31,10 +31,3 @@ Now I found out you can rip whole levels from the original games thanks to the s
 Tekken 3, Hercules and Crash were first.
 
 Let me know what PS1 game I should try next.👇
-
-## On screen text
-
-ystation.2
-there?
-ING
-Bandicoot

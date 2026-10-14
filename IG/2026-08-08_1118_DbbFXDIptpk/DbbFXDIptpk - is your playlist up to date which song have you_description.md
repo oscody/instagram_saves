@@ -19,14 +19,3 @@ Written by claude-haiku-5-5.
 is your playlist up to date? 👀 which song have you been listening to the most? Vancleef takes it for me🔥🔥🔥 
 
 #dancehall #mix #femaledj
-
-## On screen text
-
-DANCEHALL
-MUSTHAVES2026
-ISYOURPLAYLISTUPTODATE
-BAD&BBCRICH
-MUST HAVES2026
-ISYOURPLAYLISTUPTODATE?
-3.VANCLEEF
-4JUSTDOIT

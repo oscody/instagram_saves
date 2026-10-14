@@ -21,9 +21,3 @@ Written by claude-haiku-5-5.
 3. Download the zip file from the email.
 4. In cloud, create a project and upload the entire zip file into it so cloud gets your historical context.
 5. For more precision, you can instead download individual chats as markdown files and add those to a cloud project, but this is more time consuming and manual.
-
-## On screen text
-
-becausestarting over
-24 to48 hours
-and do one big massive

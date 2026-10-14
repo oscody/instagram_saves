@@ -26,11 +26,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 5 Simple Moves for All-Day Energy!  #exercise #sports #girls #womensfitness
-
-## On screen text
-
-our holebod cansilend
-up looking loose
-and when you sit doun
-but i can hetp your body keep
-burning fat

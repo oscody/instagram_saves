@@ -22,13 +22,3 @@ Written by claude-haiku-5-5.
 
 She owns this. Come join us. Rain or shine, we’ve got your moment. Spots still available this week!
 #bungeejumping #adrenaline #washingtondc #extreme #baltimore
-
-## On screen text
-
-INEE
-3U
-BUNGEE
-OWNYOUR MOMENT:
-HOURFROMWASHINTONDG
-RAINOR SHINE
-WW.GREATBUNGEE.COM

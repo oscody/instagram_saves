@@ -25,13 +25,3 @@ Written by claude-haiku-5-5.
 
 “One simple asana to relax your body ✅ 
 #yoga #forest #relaxing #healthy #life
-
-## On screen text
-
-Guru
-BKs.Iyengar
-Get 8 hours of Sleep
-in just 10 minutes
-in just 1O minutes
-BKsIyengar
-in just 0 minutes

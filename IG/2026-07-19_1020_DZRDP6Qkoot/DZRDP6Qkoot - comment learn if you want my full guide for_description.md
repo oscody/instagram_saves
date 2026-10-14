@@ -32,13 +32,3 @@ comment "learn" if you want my full guide for remembering everything you read li
 this is day 2 of learning how to learn in 30 days. i break down the two ways to actually remember what you read, the memory-palace way and the understanding way.
 
 #howtolearn #learninghowtolearn #memorypalace #memorytechniques #studytips
-
-## On screen text
-
-.Memory Palace Systems
-. ersonetionect ytem
-to setup
-.Memory Palce Systes
-2eroetionbt ye
-. One Month of Practice
-lot of ideas

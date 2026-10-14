@@ -23,22 +23,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: dubshowcase.com
-
-## On screen text
-
-Thephrase of the day is
-DUBSHOWCASE
-IGHT
-roverb ies nowwomtheyan
-tantarg thoe ey thnwn
-fight back.
-Him cyaa try mi
-Example:
-duppyknowwhofifrighten.
-(He cannot intimidate me
-bulle knowwhom to target.)
-SIMPLE WORDS
-RICH CULTURE
-DUBSHOWCASE.COM
-@DUBSHOWCASE~
-CARRY ON THE CULTURE

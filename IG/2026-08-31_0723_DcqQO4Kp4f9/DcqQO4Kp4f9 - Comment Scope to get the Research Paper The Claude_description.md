@@ -33,23 +33,3 @@ Written by claude-haiku-5-5.
 Comment "Scope" to get the Research Paper & The Claude Skill I made.
 
 A team from Maryland and Google DeepMind ran 61,000 stories through a detector and found the giveaway had nothing to do with em-dashes or the word "delve." It was the structure of the story itself. AI writing is too clean.
-
-## On screen text
-
-Goo
-and
-placeentgrant proposal
-bris remova
-ploaded aprevious
-how mo
-il create a grantproposal
-How can I help you today?
-onnet4.5
-tension
-Detect and corre
-humanscope
-be-humai
-huma
-chat cowork
-pus 5 Medlium
-before

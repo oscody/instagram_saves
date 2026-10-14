@@ -32,17 +32,3 @@ Comment MP3 to download these viral sounds!
 Completely free! Use them to make your videos more engaging. 
 
 Follow for more tips!
-
-## On screen text
-
-er.MF
-Riser
-Among Us
-To reveal
-Something
-unexpected
-Vine boom.MP3
-Vine Boom
-To make
-Statement
-more comedic

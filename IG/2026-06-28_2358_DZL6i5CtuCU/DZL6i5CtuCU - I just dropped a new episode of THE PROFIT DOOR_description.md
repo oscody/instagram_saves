@@ -55,15 +55,3 @@ The question is not whether AI works.
 The question is whether the economics justify the trillions being invested into it.
 
 Comment “YOUTUBE” and I’ll send you the episode.
-
-## On screen text
-
-The$2.3 Trillion ABet
-Nobody Is Talking About
-Andyoulookat this piture
-Itis absolutely insane and
-the average
-The$2.3 Trilion AlBet
-The$2.3 Trillion Al Bet
-artificialintelligence but
-they call it

@@ -17,15 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: acceleratorcon.com
-
-## On screen text
-
-AIISTHE
-NEWFIRE
-Where cutting-edge
-startups and bold tech
-investors find each other.
-Accelerator
-NOVEMBER 7TH2025
-NEWYORK,NY
-ACCELERATORCON.COM

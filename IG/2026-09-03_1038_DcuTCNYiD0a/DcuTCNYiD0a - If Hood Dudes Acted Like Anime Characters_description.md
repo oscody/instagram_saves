@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If Hood Dudes Acted Like Anime Characters
-
-## On screen text
-
-HoodDudes ActedLike
-Anime Characters
-Iigoeedand Idogo sheets

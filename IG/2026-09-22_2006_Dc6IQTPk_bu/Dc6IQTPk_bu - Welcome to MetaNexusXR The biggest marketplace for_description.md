@@ -24,8 +24,3 @@ Written by claude-haiku-5-5.
 
 🛒 Shop now via the link in our bio! metanexusxr.com
 #XR #VirtualReality #VRGear #TechMarketplace #MetaNexusXR
-
-## On screen text
-
-GAMING WITH 3D
-HOLOGRAMS IS HERE

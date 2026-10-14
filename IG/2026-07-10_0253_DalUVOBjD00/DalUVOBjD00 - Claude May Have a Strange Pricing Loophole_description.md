@@ -47,30 +47,3 @@ Would you trust this for real coding work?
 Source: GitHub, teamchong/pxpipe
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
-
-## On screen text
-
-SOMEONE DISCOVERED
-HOW TO CUT CLAUDEAI
-COSTS BY 70% AND ITS
-EMBARRASSINGLY SIMPLE
-SWIPE
-@digimaga
-in Fable5 lololol
-not the amountof textinthe mage
-N
-2
-For details
-U
-57 wer cndtend
-.
-O.
-Anthropic's servers.
-pxpipe
-fraction of the tokens.
-SHARE
-EEVERV
-W
-HAPPENING
-NTHE
-WORLDFAI

@@ -86,33 +86,3 @@ to structured understanding.
 Comment REPO and I’ll send you the direct GitHub link.
 
 Follow for more.
-
-## On screen text
-
-Conmssssssss
-ELIIO
-Contssssss
-Cosssss
-Conncancolle
-Cortinlssss
-Consssss
-Cotissssss
-Plans
-Consssiss
-Cofmssssss
-IA
-Corissssss
-Cethts
-TN
-one developer
-Conncancolle a
-Relevant chats
-2resuts
-accomplished:
-gone
-section forming one idea.
-papers+images:71.5x wer
-that's where the
-process changed files.
-Auto-sync (-
-es therorinstead of silently

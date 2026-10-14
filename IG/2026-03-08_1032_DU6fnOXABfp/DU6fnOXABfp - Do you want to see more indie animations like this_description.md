@@ -27,9 +27,3 @@ Do you want to see more indie animations like this? 🤔
 .
 .
 #scpgallionic #scp #anime #animelover #animerecomendation animereels animecommunity newanime isekai isekaianime manga mangastyle mangarecommendation mangareels mangaworld otaku animeweeb mangastyle mangaanime animeworld donghua manhwa
-
-## On screen text
-
-with the intention
-from the SCPwiki
-to see talented creators

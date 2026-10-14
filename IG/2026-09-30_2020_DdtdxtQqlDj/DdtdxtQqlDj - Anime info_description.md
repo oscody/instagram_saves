@@ -40,14 +40,3 @@ Hashtags :
 
 #falsememory #jiyiguanliju #guanchao #fangtang #baizhong
 animeedit animerecommendation chineseanime scifianime mysteryanime psychologicalanime animeclips animereels animecommunity animelover
-
-## On screen text
-
-MONRCHANIME CONTENTC
-@monarchneso
-This is what God tier animation
-looks like in anime:
-MONARCHIANIME CONTENTC
-MONARCH
-MONARCHIANIME CONTENTO
-This iswhat God tier animation

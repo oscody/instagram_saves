@@ -35,13 +35,3 @@ This is one of those spots where everyone finds something they love. Who would y
 Follow @nomadjeffy for more NYC and travel tips! 
 
 #nycvegan #veganfood #asianfusionfood #nycfoodie #thingstodoinnyc
-
-## On screen text
-
-NTOPA
-bckta
-utdoor
-SH
-IMAT BUNTOPIA
-TO LOVE VEGAN
-THAT FEELS LIKE

@@ -52,20 +52,3 @@ Comment “GRANTS” and I’ll send it your way. 👇
 
 ⚠️ DISCLAIMER:
 I will never reach out asking you to complete an SBA application, pay application fees, or send Cash App payments for Bitcoin. Be extremely cautious of anyone using my name to solicit money or “guarantee” grants. I do not partner with anyone, and I will never send someone your way to help with grant opportunities.
-
-## On screen text
-
-$200K in grants for
-Male entrepreneurs
-coent grantsto apply
-comment grantsto apply
-Fast break Grant #10,000
-Progressive Grant o.000
-WarriorRisingrant S200
-nut quikbooks rantooo
-ViaEverywherant so.oo
-Fast break rant To0
-Progressive Granto.ooo
-Warrior Rising Grant 2o0
-ntut quickbooks rantSo.oo
-VisaEverywhererant oo.oo

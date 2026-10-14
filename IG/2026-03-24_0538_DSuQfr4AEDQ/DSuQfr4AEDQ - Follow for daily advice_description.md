@@ -30,11 +30,3 @@ Follow @stayslickwithkit for daily advice.
 
 #dating 
 #datingadviceforwomen
-
-## On screen text
-
-boost
-conversation a
-IRL
-homeyou shou
-rabloodrelativeright

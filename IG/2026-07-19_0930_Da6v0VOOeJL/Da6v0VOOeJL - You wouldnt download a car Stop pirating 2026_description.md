@@ -19,17 +19,3 @@ Written by claude-haiku-5-5.
 You wouldn’t download a car. Stop pirating 2026.
 
 #ai #bigtech #engineer #csmajor #linux
-
-## On screen text
-
-dotpirate youshoudbe
-nzbget
-radarr
-Plaedont irateyououd be
-wownonotinrnd benohay
-piaprivate
-internet access
-what
-dont pirteyouhouldbe
-othing and being happy
-with.ownin

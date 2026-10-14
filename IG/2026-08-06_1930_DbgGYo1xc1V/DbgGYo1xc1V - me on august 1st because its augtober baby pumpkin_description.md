@@ -26,12 +26,3 @@ me on august 1st: 🎃🥞🍂 because it’s augtober baby! pumpkin cinnamon ro
 think soft, fluffy, tender pumpkin pancakes laced with caramelized cinnamon sugar swirls that melt into every bite 😭 served warm with whipped honey cinnamon and a drizzle of maple syrup—it’s one of the best stacks ever 🥞 a cup of coffee and a plate of these soon anyone?!!
 
 the full recipe is up on my blog at wellmadebykiley.com OR you can comment ‘PUMPKIN’ to get the recipe link sent straight to you 🤎 enjoy!!
-
-## On screen text
-
-PUMPKIN CINNAMON ROLE
-PANCAKES
-to make
-PANCAK
-this is yoursign tomake
-PUMPKIN CINNAMON ROLL

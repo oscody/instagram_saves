@@ -19,8 +19,3 @@ Written by claude-haiku-5-5.
 Here’s my personal roundup of the top ten summer sweet treats in nyc as of right now 🏃🏻
 
 #nycfood #nyc #nycrestaurants #foodreview #nycfoodie
-
-## On screen text
-
-whipped
-blacl pesame soft serve

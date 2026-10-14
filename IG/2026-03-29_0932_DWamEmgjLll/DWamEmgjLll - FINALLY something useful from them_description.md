@@ -27,18 +27,3 @@ Written by claude-haiku-5-5.
 FINALLY something useful from them 😭
 
 #website #college #studygram
-
-## On screen text
-
-3MST dangerous
-ebsites
-studying feclADICTING
-turbo.ai
-Question 52
-Salmonella non-typhoidal)
-Campylobacter species
-Norovirus
-Explanation
-5.000.cases.a
-ampy
-same mistake again

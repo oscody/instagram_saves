@@ -24,12 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 some tips!! #men #selfimprovement
-
-## On screen text
-
-1.MasterYourFrame
-noditoff.
-because
-BadHabits
-BeFred
-Imfinishing

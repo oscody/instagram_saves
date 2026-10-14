@@ -35,20 +35,3 @@ Comment FREE below, and I’ll send you:
 Don’t miss out on money that could be available to you. Comment FREE and let’s get you funded! 🚀💸
 
 #SmallBusiness #BusinessGrants #GrantFunding #Entrepreneur #StartupFunding WomenInBusiness
-
-## On screen text
-
-TENTINGAFEEUIST OFGRANS
-OENTREPRENEURS THATNEED
-S50.000 INGRANTS
-DGETYOURS
-GRAN
-TEXTINGAFREELISTOFGRANES
-TOENTREP
-RENEURS THATNEED
-NGRANT
-0.00
-TENTINGAFREELISTOFGRANS
-ENEURS THAT NEED
-NGRANTS
-50.00

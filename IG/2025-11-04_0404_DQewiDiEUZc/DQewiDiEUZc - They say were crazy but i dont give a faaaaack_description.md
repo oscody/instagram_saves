@@ -17,7 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 "They say we're crazy, but i dont give a faaaaack"
-
-## On screen text
-
-Old people music

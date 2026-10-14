@@ -28,37 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Your internet provider been watching you the whole time and legally selling it. Here's how to take that data back#PrivacyTips #TechTips #PCOptimization #InternetSpeed #raptechpcs_
-
-## On screen text
-
-NXIGO
-YOURISPISASIT
-DNS
-WWv
-REQUESTS FIRST
-S? Understanding Doain Nam
-Shere
-Network& internet
-Metered connection
-YOURISPISASHITCH
-Manual
-IPy4
-On
-Preferred DNS
-DNS over HTTPS
-Off
-Altermate DNS
-ONEDOT ONEDOT
-IPv6
-YOURISPISSITEH
-Comment "Tool"
-Windew Berh indaning
-elemetry (lagTrack)
-Dlagnetieeice
-Print Opooler
-Ape
-Windwifre Ropering
-Dable torage enne
-hedlercyelen.
-redu eye.
-l inw Prry

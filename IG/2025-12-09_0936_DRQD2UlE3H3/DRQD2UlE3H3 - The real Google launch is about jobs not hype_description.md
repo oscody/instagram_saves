@@ -19,31 +19,3 @@ Written by claude-haiku-5-5.
 The real Google launch is about jobs, not hype. 🔥
 
 #GoogleSkills #Gemini3 #TechCareers #AIFuture #GoogleUpdate
-
-## On screen text
-
-YES,BUTTHEVALSO
-INTERVIEWER
-i
-Problem
-Ability to
-Analytical
-Leadership
-Solving
-Thinking
-Abilityto
-Action
-Power to
-Curiosity
-Orientation
-Collaborate
-Influence
-E
-3
-PETER
-What's overfitting
-Igot CLUELY
-in ML?
-to answer this.
-CLUELY
-When amo

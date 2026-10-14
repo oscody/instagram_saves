@@ -64,9 +64,3 @@ This isn’t another tool.
 It’s infrastructure for the next wave of AI agents.
 
 Comment SCOPE and I’ll send you the link.
-
-## On screen text
-
-guys,
-toolsupport.
-APIcalls.

@@ -18,8 +18,3 @@ Written by claude-haiku-5-5.
 
 #hosted: number 6 on Beli’s top 10 NYC Thai list and the best Thai spot in Brooklyn! @sukh.nyc was delicious 😍
 #thaifood #nycfood #nycrestaurant #thairestaurant
-
-## On screen text
-
-It's even#6 on Beli's
-disappoint andwasa

@@ -35,9 +35,3 @@ By keeping your contributions active while living overseas, you qualify for high
 Secure an asset that connects you to your roots and yields long-term value. 
 
 #DiasporaInvestment #JamaicaRealEstate #NHTBenefits #FinancialFreedom #ExpatInvesting JamaicaFinance
-
-## On screen text
-
-JAMAICA,
-COMPLETE
-NOTHING

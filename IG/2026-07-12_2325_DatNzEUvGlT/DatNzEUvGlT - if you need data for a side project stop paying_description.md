@@ -40,29 +40,3 @@ sorted by category, free apis throughout:
 it flags dead links with a green check, which most lists don’t.
 
 pick one. build something this weekend like i did: weird-stuff-near-me.pages.dev
-
-## On screen text
-
-heeensloWindowHaip
-READMEMITcens
-OpenSreMap OS Mt
-veeerud
-oationforNew York[Meta
-Timezones shapetile Met
-UN Environr
-ental Data Meta
-ZIcty,ate[Mete]
-EvaluationAuratede
-phenomena worldwide
-Government
-Antwerp Belgium [Meta]
-en prompted.
-iM ense
-PyPland
-the entire steam catalog
-ao Grphte et
-mputerNetworks
-A
-aliens are free
-what are we paying for?
-EAING

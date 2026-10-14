@@ -21,20 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Coming Saturday, July 18 🌎 Get $23 tickets (23% OFF) at our link in bio ➡️ @NYbucketlist to this outdoor market just in time for the World Soccer Championship Weekend! The fair showcases 30+ food and arts vendors from a variety of different cultures and offers tons of free samples 🍔🍕 Paying homage in its title to the 1964 World's Fair, the event is organized by @eater and features food from cultures like Argentina, Japan, Senegal, and Mexico, to name a few 🧑‍🍳 Tag a foodie who'd love to go! #NYbucketlist #nyc
-
-## On screen text
-
-Eater Brings aHuge
-Food Festival at Pier 36
-With Over 30Vendors
-From Around the World
-bucketlisters
-OFF
-MENU
-NO
-PARKING
-LINKIN BIC
-GET DISCOUNTEDTICKETS
-AT BUCKETLISTERS.COM
-Download on the
-App Store

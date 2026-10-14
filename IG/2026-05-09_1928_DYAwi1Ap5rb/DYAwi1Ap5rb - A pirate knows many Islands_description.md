@@ -18,10 +18,3 @@ Written by claude-haiku-5-5.
 
 A pirate knows many Islands…🏴‍☠️😭
 Follow (@jussdoullaye) for more!
-
-## On screen text
-
-Pov: How It ls Being AnAnime
-Watcher Right Now
-PovHow It I Being AnAnime
-Pov How It Is Being AnAnime

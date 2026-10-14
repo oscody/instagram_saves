@@ -17,36 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Good luck sis🫣 #google #mockinterview #aiinterview
-
-## On screen text
-
-POVmyisterisprepping
-forher$347kjobat
-GOOGLE
-om's emai
-Quostion Bank
-Interview Assessment
-mproveFacebookbinhdayreatures
-OveralScore
-etails
-4%
-60%
-80%
-RODUCTHOTIVATION
-PROBLEMIDENTIFICATION
-SETAUDIENCE
-SOLUTIONDEVELOPMENT
-MMUNICATION
-Itgaveanassessment
-reana
-berthree,segmen
-ex
-bust priorit
-andfeaibility considerations.
-3items
-Areas to Improve
-user
-context
-tionand
-for target audience
-interruptions

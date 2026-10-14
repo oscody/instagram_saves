@@ -56,30 +56,3 @@ You can start with an Arduino kit or practice using an online circuit simulator.
 Next episode: learning how to solder. Follow along, and maybe we’ll build a real robot together.
 
 #LearningRobotics #RoboticsEngineering #Electronics #Circuits
-
-## On screen text
-
-otherobotics middleware
-tion environmen
-at
-ething from scratch
-at it means to bul
-buramost none of them
-caedcomplete Eectronic
-Circuits
-Scopes
-Options
-Tools
-1H
-100
-Max=128.572mV
-capacitor
-capacitor, 69 F
-sistor,10
-12.859mA
-Vd=157.366mV
-C69F
-P=2.023 mW
-Q10.858C
-1916H
-ow dots indicate current.

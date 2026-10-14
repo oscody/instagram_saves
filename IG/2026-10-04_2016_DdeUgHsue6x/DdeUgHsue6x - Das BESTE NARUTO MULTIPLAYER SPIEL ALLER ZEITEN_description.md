@@ -17,10 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Das BESTE NARUTO MULTIPLAYER SPIEL ALLER ZEITEN?! Startet als NIEMAND und kämpft euch hoch bis zum HOKAGE!🎮🤯 #multiplayer #newgame #gamingontiktok #gamingnews #naruto
-
-## On screen text
-
-EICENEN CHARAKTERUND
-GEBEN
-CAME ZENKAI RP
-DAS BESTE NARUTO

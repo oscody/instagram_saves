@@ -33,15 +33,3 @@ Tag someone who’s always saying “I’ve got an idea.”
 This could be their sign to finally build it.
 
 #CaribbeanTech #CaribbeanInnovation #ArtificialIntelligence #AgenticAI #caribbeannews
-
-## On screen text
-
-ANDINEEDYOU
-TO PAY ATTENTION
-TO THIS
-@onlyrashida
-Agentic AI
-esn't just respond.
-It acts.
-TOOLS
-onlyrashic

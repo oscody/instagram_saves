@@ -30,16 +30,3 @@ Mine went through 70 reels I saved and never opened again. It kept everything wo
 What would you let yours scroll first?
 
 #claudeai #aiagents #agentskills #doomscrolling #aitools stilesai
-
-## On screen text
-
-Letyouragents doomscroll
-Continue through thereels
-Open the next reel
-Ccheckonemorereel
-Claude..
-THE MEME
-CLAUDE, SCROLLING REELS
-IT
-Co through your saved folder
-Go through

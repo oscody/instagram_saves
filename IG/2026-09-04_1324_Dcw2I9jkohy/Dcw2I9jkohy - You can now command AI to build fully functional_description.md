@@ -37,30 +37,3 @@ Comment “AI” to get to get the link 🚀
 Follow @globalaiforce for daily AI updates
 
 #GameDev #Unity3D #IndieDev #ClaudeAI #AITools
-
-## On screen text
-
-Global AiForce
-CAY
-@globalaiforce
-ENTIRE UNITY CAMES USING
-BUILDE
-SUST PLAIN TEXT PROMPTS
-Apache-2.0li
-evepeUys
-MCP
-starsk
-COMMENT AI FOR THE LINK
-GlobalAi Force
-ge
-GAMES USING
-ENTIRE UNITY
-Apache-2.0 licen
-Al Game Developer
-Unity SKILLS, MCP
-Global Ai Force
-CY
-ENTIREUNITY
-READ
-Al Game Developer-
-MP

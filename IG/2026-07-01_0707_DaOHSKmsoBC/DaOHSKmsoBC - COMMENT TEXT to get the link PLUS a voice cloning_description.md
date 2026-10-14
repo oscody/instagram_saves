@@ -35,25 +35,3 @@ It is smaller than a single photo and needs no GPU, so you can ship voices in an
 > no per-character cloud bill
 
 Save this if you need voices on a budget.
-
-## On screen text
-
-real voices in 25mb
-no gpu,no cloud
-Here's whatyouneed to know
-.A fulTTSmodelunder 25B
-2 Runs Unly noPuinreate
-.enureenerateechon
-.Nopercharactercuab unmted
-5.Over14kGitHub stars
-realvoices in 25mb
-Here's whatyouneedtolknow
-.AfulTTSmodelunder 25B
-Runs Unly noPUinrealte
-.enureeerateechon
-.Nopercharactercouabl unmted
-Here'swhatyouneed to know:
-.AfulTTSmodelunder 25
-2 Runs U-only noeuinreatie
-Openurceenerteechine
-5.Over 14kGitHub stars

@@ -21,31 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Follow and Comment “JANUARY” to get the FULL list
-
-## On screen text
-
-Don'tforget to apply for these
-grants before Januarv is over
-FreeBread
-Dont forget to apply for these
-rants before January is over
-Sengo Grant Program
-1,000
-1/10/2026
-Bysengo.com
-Amex Small Shop Grant
-$20,000
-1/16/2026
-Americanexpress.com
-HER Agenda Grant
-10,000
-1/30/2026
-Malachi.mp
-Breva Grant
-5,000
-1/31/2026
-Breva.ai
-Don't forget toapply for these
-$1,000
-20,000
-$5,000

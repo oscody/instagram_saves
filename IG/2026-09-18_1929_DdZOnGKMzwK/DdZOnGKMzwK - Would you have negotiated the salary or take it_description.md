@@ -17,11 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Would you have negotiated the salary or take it? #SalaryNegotiation #DramaSeries #CorporateLife #salary
-
-## On screen text
-
-WHATARETHE
-ON
-WON'TE
-BUDGE
-SIGN ON BONUS

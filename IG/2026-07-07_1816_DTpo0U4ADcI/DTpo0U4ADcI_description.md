@@ -27,14 +27,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #Photography #melanin #Reels
-
-## On screen text
-
-Webcam Color Grading For
-Melanated Streamers !
-Follow me for more
-Melanated Tips!
-Wait til you see the diff
-Melanated Streamers!
-ait ill you see the diff
-ait til you see the diff

@@ -49,8 +49,3 @@ They’re going to dominate the next decade.
 🎬 FULL EPISODE available now on @insidethevault
 
 Comment “INSIDERS” and we’ll send you the link to the full conversation. 🔥
-
-## On screen text
-
-you're like a nerd?
-Are you really

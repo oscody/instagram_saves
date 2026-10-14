@@ -32,9 +32,3 @@ Learning Robotics Basics in 30 days 🦾🤖
 Comment “Robot” and I’ll send you all the sources I mentioned!
 
 #tech #robot #robotics #programming
-
-## On screen text
-
-First,spendafewdays
-learning theelectronic
-For me

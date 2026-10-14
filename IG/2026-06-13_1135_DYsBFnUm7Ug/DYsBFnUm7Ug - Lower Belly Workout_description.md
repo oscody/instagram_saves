@@ -26,9 +26,3 @@ Pay Attention To Your Diet For Quicker Results✅
 Share & Save✅
 
 #abs #core #bellyfatworkout #fitness #explorepage
-
-## On screen text
-
-Lower Belly Workout
-3Sets of 15
-3Setsof 15

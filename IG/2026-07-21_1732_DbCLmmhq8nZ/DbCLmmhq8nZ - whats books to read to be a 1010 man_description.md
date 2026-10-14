@@ -28,24 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 what’s books to read to be a 10/10 man
-
-## On screen text
-
-1.Masterframe
-AT
-noditoff
-Charisma Myth
-4.Read
-the psychology books
-DO
-PIC
-HI
-labits
-audio lessons
-Foryou
-top Reacting
-ivingby I
-BeFroed
-25m3.0
-tart lea
-top Wait

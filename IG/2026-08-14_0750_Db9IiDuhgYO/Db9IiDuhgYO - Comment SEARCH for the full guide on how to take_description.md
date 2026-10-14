@@ -32,28 +32,3 @@ Comment ‘SEARCH’ for the full guide on how to take advantage of this and lea
 Your content can now show up in Google search and that’s a win for content because it now has a longer shelf life.
 -
 This also means you have the ability to see what searches will lead to your content being discovered by a new audience!
-
-## On screen text
-
-Houzz
-ate a workspace you'll
-started now.
-The Spruce
-https:/www.thespruce
-THE ORIGINAL
-GUESSING GAME
-C
-https://sea
-Google Search Console
-Track and improve your
-performance on Google
-Search
-Add awebsite
-erhow visitors
-indyour contenton Google search
-Instagram
-Ad
-TikTok
-X
-YouTube
-Alredystarted nish verficton

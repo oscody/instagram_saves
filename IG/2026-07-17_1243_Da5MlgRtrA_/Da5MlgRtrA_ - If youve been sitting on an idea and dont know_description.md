@@ -78,14 +78,3 @@ I personally use a Done-For-You system that includes the training, resources, an
 Follow @buildwealthwiththomas  for more content on digital marketing, AI, and online business.
 
 Educational content only. This post reflects my personal experience. Results vary based on individual effort, experience, consistency, implementation, and market conditions. There are no guarantees of incom
-
-## On screen text
-
-uecanactubdyouaues
-n24hours.opythese10promptsto
-turnyourideaintoincome today
-ude canactubudyouaues
-n24hour.Copyhee1oprmptsto
-turnyourideaintoinome today
-uecanalyuabune
-in24hour.Copythe10prompt to

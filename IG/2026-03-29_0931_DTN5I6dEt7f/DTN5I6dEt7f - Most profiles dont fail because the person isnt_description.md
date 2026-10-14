@@ -62,12 +62,3 @@ Let opportunities come to you.
 [data, analyst, engineer, career, skills, roles, learning, mindset, professional, business, insights, guidance, job, placements ]
 
 #dataanalyst #analyticscareers #linkedinprofile #jobsearchtips #careergrowth
-
-## On screen text
-
-Optimize your Linkedin
-Profile in 30 minutes
-Using ChatcPT Prompts
-Using G ChatePT Prompts
-Read the Caption below
-Using ChatePT Prompts

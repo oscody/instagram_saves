@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 In my experience, the only way I've gotten out of the friend zone is by leaving it. 
 
 thank you @mel_elise3 for acting!
-
-## On screen text
-
-kaywel, I can changothat.
-untlgave herthececondono.
-Anddoythinktha ood

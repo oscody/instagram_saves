@@ -41,13 +41,3 @@ Whether you’re looking for thrills, date ideas, family fun, or something total
 Follow @aiyanafig for more things to do, hidden gems, and must visit places! 🗺️✨
 
 #newjersey #nj #jersey #summer #musttry
-
-## On screen text
-
-Aeria
-Liberty Scionce Conten
-Handson cence.museum
-featuring 12 exhibition hals
-BigjSnow
-Ski&Snow Resort
-Indoors

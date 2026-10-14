@@ -37,12 +37,3 @@ This circuit is a great core-strengthening finisher. Pair it with real training 
 Ready to build a plan that gets you there for real? Comment “READY” and we’ll send you the details.🔥
 
 #abroutine #coreworkout #weightlossforwomen #fatlosstips #fatlossforwomen
-
-## On screen text
-
-How I reducedmybey
-fat in 30 days
-in n out.
-4x30 sec
-Russian twist
-4x 30 sec

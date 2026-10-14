@@ -25,31 +25,3 @@ Written by claude-haiku-5-5.
 
 meaningful conversations >>> smol talk.
 God Bless
-
-## On screen text
-
-smalltakisn'treal
-ifyouuse this)
-FAMILY
-OCCAUPATION
-RECREATION
-DREAMS
-e
-if you ask how they feel
-about theirjob
-smaltalkisn'treal
-ifyouuse this
-SENTIMENTAL
-REALWU.
-ENJOY TALKIN
-WYOU.
-FRENS HLIFE
-+
-They will want to be
-friendswith you
-0
-smalltalkisn'treal
-EAMIL
-OCAPATION
-Y TALKIN
-yourboyafollow

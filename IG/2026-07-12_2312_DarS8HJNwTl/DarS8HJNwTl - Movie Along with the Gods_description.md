@@ -18,7 +18,3 @@ Written by claude-haiku-5-5.
 
 Movie: Along with the Gods:
 The Last 49 Days #youtube
-
-## On screen text
-
-E

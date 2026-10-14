@@ -25,14 +25,3 @@ Written by claude-haiku-5-5.
 
 creative energy.
 #adadindi #motivation #inspiration #motivationalvideo
-
-## On screen text
-
-nergyintoomething
-highestan
-Yougoopenyour legsand
-youdontgospreadyour
-energy
-Becausethe energythat
-does notgooutstaysin
-andasittaysin useit

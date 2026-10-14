@@ -23,9 +23,3 @@ Written by claude-haiku-5-5.
 Comment “DESIGN” to get the link!
 
 #aitools #artificalintelligence #ai
-
-## On screen text
-
-ebsite
-really like
-copying

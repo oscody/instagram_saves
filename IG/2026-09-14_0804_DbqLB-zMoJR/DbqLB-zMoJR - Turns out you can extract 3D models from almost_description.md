@@ -33,13 +33,3 @@ Sou will need special version of duckstation with the 3D screenshot. You can fin
 What’s the first PS1 game you’d rip a model from? 👇
 
 #PS1 #PlayStation #RetroGaming #GameDev
-
-## On screen text
-
-PS1 model
-Extract any
-Just by one click!
-Extract any PS1model
-Extract anyPsi model.
-Just by one
-click!

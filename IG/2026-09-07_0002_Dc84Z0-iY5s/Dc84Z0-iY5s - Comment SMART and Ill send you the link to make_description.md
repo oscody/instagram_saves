@@ -70,15 +70,3 @@ It meant knowing when to stop.
 Drop the file in and watch.
 
 #claude #github #ai #prompting #coding
-
-## On screen text
-
-SARTER
-NUMBER2
-SKILLS
-skills.sh
-vercel-react-
-frontend-
-bestpractices.md
-design.md
-GETTING

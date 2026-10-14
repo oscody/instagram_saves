@@ -23,28 +23,3 @@ Written by claude-haiku-5-5.
 Definitely worth looking at integrating, PAI and OpenSpace have an evolving loop architecture that will most likely survive new models!
 
 #github #ai #claudecode
-
-## On screen text
-
-+1
-Myfavorite
-Claude Code
-GitHub Repo's
-PAI
-USSAI
-STATE:
-HEALT
-CC:
-2.1.14
-CONTEXT:
-FILES5)
-000
-ng Skills
-News
-2026-04-16EVc
-GET SHIT DONE
-penC
-C
-P
-STARS2R
-executes,

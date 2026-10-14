@@ -43,19 +43,3 @@ the @apple swift student challenge is also a great way to motivate yourself to d
 
 if you want to learn more about the swift student challenge and possibly participate in the next challengeeee, 
 comment “swift” and i’ll send you the link 🍎✨
-
-## On screen text
-
-HerapoNAple' SwifChalenge
-andhelpspeoplescapefloods
-Here's how she didit:
-maybe from this time
-HerapoNApleSifChalenge
-andhelps peoplecescapefloods e
-Here's how she didit
-is not just
-HerapONAple'SiChlenge
-andhelpspcoplescapefloods
-Here's how she did it:
-And right now I'm not
-even

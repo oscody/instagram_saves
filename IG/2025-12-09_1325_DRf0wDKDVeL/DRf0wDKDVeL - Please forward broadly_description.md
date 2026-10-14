@@ -27,24 +27,3 @@ Please forward broadly!
 #careertraining #youthprograms #adulteducation #jobposting #jobpostings
 #nycjobs #jobopenings #jobsearch #hiringnow 
 #jobfair #jobfairalert
-
-## On screen text
-
-PATHTO PRO
-FREE TRAINING
-TO BECOME
-ELECTRICIANS
-PLUMBERS, HVAC TECH
-CARPENTERS
-The Home Depot is Too.
-careerand competve salary.
-High Demand Trades
-Program Benefits
-D
-Carpentry
-Eloctrical
-Piumbing
-HVAC
-and Many More Trades
-Classes Offered Weekly
-ny

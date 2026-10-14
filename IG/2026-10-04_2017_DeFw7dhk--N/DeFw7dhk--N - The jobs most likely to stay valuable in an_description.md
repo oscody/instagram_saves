@@ -29,34 +29,3 @@ Semiconductor engineering is a great example. As AI infrastructure expands, so d
 Which career do you think will be hardest for AI to replace? 
 
 #ai #technology #careers #engineering #robotics
-
-## On screen text
-
-TECH JOBS THAT
-STILLEXIST
-N
-THEAGEOFA
-SWIPEFORMORE
-EMBEDDED SYSTEMS
-ENGINEER
-ROBOTICS ENGINEER
-proverobots in therel word.
-CYBERSECURITYENGINEER
-ELECTRICALENGINEER
-buia herwere that actualy works.
-NETWORKENGINEER
-FIELD SERVICEENGINEER
-on-site.
-SEMICONDUCTORENGINEER
-everything.
-YOU
-THIS
-JONT
-SEE
-FOLOW
-PAGE
-EAGAIN
-ITDISAPPEARS
-BEFORE
-YOURFEED
-FROM

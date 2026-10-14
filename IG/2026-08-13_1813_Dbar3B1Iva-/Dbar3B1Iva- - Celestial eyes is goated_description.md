@@ -17,24 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Celestial eyes is goated
-
-## On screen text
-
-BOE SO CELESTIALEYES
-ANDFIGHTAGENTS
-IMCOINGTO
-FUCIING
-KILLyOU!
-The Mysterious Power of the
-CELESTIALEYES
-WELCOMETOTHE
-DARKSIDE
-OPTHEMON
-HEDARKSIDE
-The Mysterious Powerof the
-CHAPTER FIVE
-CELESTIAL EYES
-ENE
-SOYOUALREADY
-CUISELPEA
-ORDB

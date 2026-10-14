@@ -23,20 +23,3 @@ Written by claude-haiku-5-5.
 The last one is undefeated… 
 
 These 3 github repositories are perfect for any aspiring software engineer looking to land that job 💪 #programmer #softwareengineer #computerscience #coding #ai
-
-## On screen text
-
-EVERYARINGSOFTWAREENNER
-Made With ML
-g_reason
-requirements.txt
-EADMEmd
-Agentic RAG with Reasoning
-FREE Stepby-Step Tutorial
-Sop
-he agent's thought p
-es,
-K
-ue
-soning capabilities
-Features

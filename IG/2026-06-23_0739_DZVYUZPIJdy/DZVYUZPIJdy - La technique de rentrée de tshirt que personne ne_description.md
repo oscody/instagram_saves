@@ -28,14 +28,3 @@ Written by claude-haiku-5-5.
 🇬🇧 The tuck method nobody taught you 🤫 Save this one
 
 #menstyle #mensfashion #styletips #ootd #fashion
-
-## On screen text
-
-Coment
-Remren gomTeegher
-panfaiment
-How to tuck in your
-Teeshirtperfectly
-Meme chose de
-L'autre cote
-Same on the other side

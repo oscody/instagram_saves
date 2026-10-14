@@ -55,12 +55,3 @@ follow if starting today, you are not hiding behind your art anymore.
 🎆31
 
 #hanabi #animeartist #animecreator #artistadvice #artistgrowth #digitalartist #animecommunity #creatorcareer #createearngrow
-
-## On screen text
-
-is no longer enough.
-Theperson
-BEHIND
-the work
-get hired and build a career
-around the craft

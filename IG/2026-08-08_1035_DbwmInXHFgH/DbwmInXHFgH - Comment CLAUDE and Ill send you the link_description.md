@@ -38,36 +38,3 @@ He walks through exactly how to get 300% more out of Claude: CLAUDE.md files, pe
 And it’s free.
 
 Doesn’t matter if you’re just starting out or coding all day, after this, you’ll be using Claude in a way you didn’t know was possible.
-
-## On screen text
-
-The creator of Claude
-Code just showed us
-how to actually use it.
-Here's the full setup:
-SWIPE
-@godofprompt
-02/06
-Set up, then start with Q&A
-prompt.md
-Optimize your setup
-Set set up
-llowed-tools
-03/06
-Panfirt thenleticheckitsown
-work
-Use tools to get
-things done
-lauc
-04/06
-Layeryour context learn the
-shortcuts
-Give claude more context
-05/06
-Automate, then scale it
-Claude Code SDK
-06/06
-FULLCLAUDE
-MEGA GUIDE
-Comment CLAUDE
-and Ill DMyou instantly

@@ -17,7 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 6️⃣7️⃣ #memes #humor #education #comedy #fyp #satire #foryoupage #funnymemes #propergiggle
-
-## On screen text
-
-hen Septembe

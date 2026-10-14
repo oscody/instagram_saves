@@ -19,16 +19,3 @@ Written by claude-haiku-5-5.
 can’t believe these are legal…
 
 #content #contentcreator #contentcreationtips #socialmediagrowth #socialmediacontent
-
-## On screen text
-
-6 videos that should be
-legal for how good theyll
-make you at content
-onamonthly basis.
-22:40
-Howobocoerichwth socl moa
-Just start
-6:54
-How to row anAudenceYouHave
-0 Followers

@@ -17,22 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 2026 Grant List FREE #grants #grant #entrepreneur
-
-## On screen text
-
-2ozeEntreprenurGran aendar
-January 2026
-Jan 15
-Jan5-
-Ge Nearshored Grant (1.000)
-Jan 18
-Jan 31
-Breva Thrive Grant (S5,000)
-February 2026
-e
-March 2026
-April 2026
-Apr 15
-Apr30-
-May 2026
-OngoingRolling Grants

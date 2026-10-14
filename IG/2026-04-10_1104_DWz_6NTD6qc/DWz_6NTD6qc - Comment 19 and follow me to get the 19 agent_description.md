@@ -34,22 +34,3 @@ How do you stop AI coding agents from shipping broken code?
 Free and open source on GitHub.
 
 #coding #programming #ai #aitools #technology
-
-## On screen text
-
-without these, your agent
-skips the spec
-skips the tests
-skips code review
-ships broker
-agents take the shg
-skips code rev
-ships brok
-agents take the s
-19
-engineering skills
-Spec-Driven Developm
-Incremental Impleme
-Test-Driven Develor
-Code Review&Qua
-Security&Hardening

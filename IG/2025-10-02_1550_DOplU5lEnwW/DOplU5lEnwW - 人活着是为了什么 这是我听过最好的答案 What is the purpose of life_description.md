@@ -33,10 +33,3 @@ Written by claude-haiku-5-5.
 Song：à thế làm sao remix
 
 #中文 #douyin #douyin抖音 #tiktok #motivation #chinese #mandarin #repost #reposting #sub #fyp #foryoupage #music #songs
-
-## On screen text
-
-People who diedtnthomoming
-ays beplanng o tonigt
-Let me tellyou a
-little secret

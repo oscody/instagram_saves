@@ -22,21 +22,3 @@ What songs am I missing? 👀
 .
 .
 #Djplaylist #Summer26 #Djkid #tourdj #WaveRunnersplaylist
-
-## On screen text
-
-2026 SUMMER HITS
-ITBAG
-DTMF
-MOTION PARTY
-2026SUMMER HITS
-ANG
-BAG
-BOSSMAN
-HANG
-RAK
-LATTO
-YGRI
-FATSMA
-OTMF
-WITER

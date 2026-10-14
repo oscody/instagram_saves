@@ -35,7 +35,3 @@ Step 4 Side-to-Side Reach 2x15
 Step 5 Seated Knee Tucks 4x10
 
 Follow for more ✅
-
-## On screen text
-
-1300

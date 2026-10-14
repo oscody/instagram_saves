@@ -25,19 +25,3 @@ Due Sept 30 (for now, a Q&A addendum may push it). Search E-PIN 05626P0001 on NY
 Not for beginners: 5+ yrs experience, FedRAMP, SOC 2
 
 If you win from this video, I’ll take dinner… and $200,000.
-
-## On screen text
-
-Own a software
-company? NYPD has a
-$5M+ contract closing in
-2eeks
-this is the opportunity
-company?NYPD has a
-$5M+contract closing in
-2weeks
-andrepotngthis thing sdue
-September 3oth though
-$M+ contract closing in
-hichhy52.9milon
-ayearin officerpay

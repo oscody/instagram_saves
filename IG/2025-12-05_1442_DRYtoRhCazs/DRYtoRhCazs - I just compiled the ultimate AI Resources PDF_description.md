@@ -32,12 +32,3 @@ These are the same resources used by AI engineers from top companies — and I�
 
 💡 Comment “AI” below & I’ll DM you the full resource file 🚀
 #AIResources #ArtificialIntelligence #MachineLearning #DeepLearning #GenAI #AIAgents #OpenAI #MicrosoftAI #DataScience #StudentResources #TechForStudents #AIForEveryone #LearnAI #AITools #AICommunity #CareerKickstart #CSStudents #EngineeringLife #Placements2025 #CollegeKeeda #CodingJourney
-
-## On screen text
-
-Videos:
-5.
-6.
-Repos
-MindA
-Guides

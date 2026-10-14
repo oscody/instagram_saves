@@ -27,9 +27,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Someone pet him 😭
-
-## On screen text
-
-ANDHOWLONGITS
-BUTTHATDACKIRED ON ME
-SO NOW MY ROBOT

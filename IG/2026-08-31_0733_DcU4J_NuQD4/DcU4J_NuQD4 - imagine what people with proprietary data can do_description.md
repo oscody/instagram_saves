@@ -25,11 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 imagine what people with proprietary data can do
-
-## On screen text
-
-pretty scary
-models fromcamera feeds
-the different
-models from camera feed
-there's higher

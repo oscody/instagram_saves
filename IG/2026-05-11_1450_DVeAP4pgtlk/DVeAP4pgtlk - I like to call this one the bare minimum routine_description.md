@@ -32,7 +32,3 @@ follow for more hygiene tips!
 •
 •
 #reels #explorepage #explore #hygiene #skincare
-
-## On screen text
-
-Sai shincare

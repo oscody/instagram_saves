@@ -38,12 +38,3 @@ The real insight is barrier removal. When setup becomes easy, adoption scales fa
 A reminder that simplifying access can unlock entire industries.
 —
 🎯 I share clever product and business ideas from around the world. Follow @dailyideasguy for more.
-
-## On screen text
-
-LIKEA STICKER
-ITWORKS
-Comment READY and
-lhelpyou get started
-IN YOUR COUNTRY YET
-MIETPARK

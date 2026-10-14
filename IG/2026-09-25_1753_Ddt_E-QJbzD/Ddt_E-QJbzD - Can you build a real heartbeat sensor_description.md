@@ -28,16 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Can you build a real heartbeat sensor? @grok #grokbot #spacexaipartner
-
-## On screen text
-
-Tech.Explain
-outside
-milimeters,
-Tech.E
-the
-Name
-IRIS
-Label (optional
-Ul designer
-Description

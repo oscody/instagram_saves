@@ -19,10 +19,3 @@ Written by claude-haiku-5-5.
 Everything we did in Utah Day 2: Steal my itinerary 🏞️
 
 #travel #travelinspo #utah #thingstodoinutah #glamping
-
-## On screen text
-
-sand
-Coral Pink Sand Dunes
-State Park
-Fun

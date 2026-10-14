@@ -25,11 +25,3 @@ Written by claude-haiku-5-5.
 conviction
 
 #avatar #atla #selfimprovement #mindset #avatarthelastairbender
-
-## On screen text
-
-He says to bend
-another's energy, your
-they're right,maybe this
-justisn'twholam
-someone else's

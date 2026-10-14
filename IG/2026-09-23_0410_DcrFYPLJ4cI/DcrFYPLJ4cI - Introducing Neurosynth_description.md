@@ -27,10 +27,3 @@ within the next few months we will have the ability to target any intelligent in
 #future #ads #startup #neuro
 
 Robert G
-
-## On screen text
-
-alte
-10
-as aprompt
-this one.

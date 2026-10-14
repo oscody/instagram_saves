@@ -31,12 +31,3 @@ The silence in this scene is louder than any scream. It captures the sheer agony
 🎯 Follow @scene.byte and @clips.byte for the most iconic movie moments!
 A fight for freedom that will never be forgotten.
 #TheUndergroundRailroad #BarryJenkins #MustWatchSeries #PowerfulCinema #CinematicMoments
-
-## On screen text
-
-Witness the raw struggle for
-Iiberatoninthis heartpounding
-escape.
-liberationin thisheartpounding
-Witness the raw strugglefon
-Tberationin this heart-pounding

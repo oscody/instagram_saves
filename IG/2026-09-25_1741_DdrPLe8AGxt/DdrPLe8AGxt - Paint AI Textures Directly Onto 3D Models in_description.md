@@ -29,22 +29,3 @@ Open source: yedp123/comfyui-yedp-uv-painter
 Follow for more open source project drops.
 
 #ComfyUI #3DArt #AIArt #UVMapping
-
-## On screen text
-
-GithubSignals
-MIT license
-README
-Sample Wo
-BROWSER COMFYUI
-comryuvep UVPainter
-llowsyou tosurgically textu
-Features
-@Githubsignals
-Toggle visibility, rero
-Live D Canny Previe
-asset1
-COOLEST
-PARTIS THE
-RUNS
-@@GithubSignals

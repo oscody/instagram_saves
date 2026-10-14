@@ -31,13 +31,3 @@ Written by claude-haiku-5-5.
 Day 24🫡 building demos is easy with Lovable💯
 
 #entrepreneur #business #lovablepartner #website #barber
-
-## On screen text
-
-websites for
-Google
-ovabecusto dain -oogte Sean
-vablero
-ovable dev
-ovable
-lovable.dev

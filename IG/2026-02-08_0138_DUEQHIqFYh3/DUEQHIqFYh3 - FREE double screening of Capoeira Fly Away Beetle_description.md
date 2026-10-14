@@ -21,10 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 FREE double screening of 'Capoeira: Fly Away Beetle' + 'Besouro' on Friday 6 February 2026 at 18:30 at The Black Cultural Centre Islington. Learn about capoeira and Afro-Brazilian History. Book here https://tinyurl.com/42apmc4t #capoeira #brazil #blackculturalcentreislington
-
-## On screen text
-
-Youare how untouchable
-am filme de
-Joao Daniel Tikhomiroff
-It's not going to be easy.

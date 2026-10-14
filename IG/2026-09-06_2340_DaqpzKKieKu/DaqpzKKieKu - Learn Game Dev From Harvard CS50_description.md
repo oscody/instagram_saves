@@ -23,22 +23,3 @@ This game dev course is a follow up to Harvard’s well known free CS50 course. 
 Follow for more free coding resources ✅
 
 #code #coding #tech #learntocode #gamedev
-
-## On screen text
-
-ng langua
-C550
-2
-using Harvard's
-Watch onYouTube
-u he ourse eiwesomrl
-you're going to build a
-Watch lecture
-Notes
-Slides
-Source Code
-Subtitles
-Transcript
-Video
-Project 0
-And the best part is

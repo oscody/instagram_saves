@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 Taser 1v1s duels?! 😮 Insane idea by @glenntheblack
 Would you try taser knife fighting??! 
 #viral #opensauce
-
-## On screen text
-
-REASONFOR THE
-DESIGNINGA RULE
-BEST OP THREE

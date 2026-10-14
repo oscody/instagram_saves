@@ -17,13 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The best couple in the world 🌎
-
-## On screen text
-
-The Best Couple in theWord
-Blackman&.Japanese woan
-Blackmh& Japanesewoan
-ITHYOU
-TheBest Couple in theWorld
-Black man& Japaneseworan
-JAPANESECONNECTION IS

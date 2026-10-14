@@ -41,10 +41,3 @@ Hit the group chat, tell ya friends and lock in the plans cause Gyalifest is the
 Laslapweekend.com ⛓️‍💥 #Gyalifest #labordayweekend #Recess
 
 🎥 @s.anktioned @conscioussheesh @spongito
-
-## On screen text
-
-uh going an metyuhmang
-gyalifone
-oh! okay
-Be ta be theremma pu up

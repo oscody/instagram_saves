@@ -29,11 +29,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “Embody” for the free guide.
-
-## On screen text
-
-with the five step
-embodiment method
-Give the version
-that procrastinates
-to drop below

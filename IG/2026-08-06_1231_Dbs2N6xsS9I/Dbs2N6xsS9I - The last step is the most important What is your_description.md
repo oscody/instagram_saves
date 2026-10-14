@@ -47,9 +47,3 @@ Follow to learn how to Hockey Stop
 •
 _
 #rollerblading #beginnerskater #tips #reelsinstagram #viral
-
-## On screen text
-
-3.DrawaC Shape
-Bendyourkneeandget
-lowtobreakfriction

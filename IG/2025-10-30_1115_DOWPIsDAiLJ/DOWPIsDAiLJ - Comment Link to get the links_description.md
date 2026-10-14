@@ -41,24 +41,3 @@ Stop memorizing code blindly. See every algorithm in action — arrays, linked l
 Whether you’re preparing for coding interviews, studying computer science, or just starting with DSA, this is the fastest way to master the fundamentals.
 
 Save this, share it, and turn complex algorithms into simple visuals you’ll never forget.
-
-## On screen text
-
-visualgo.net
-VISUALO
-NUS Computing
-Optiver
-000
-IND
-Learn them visually
-S332D
-csvistool.com
-ABC
-cA
-A
-rp oiepreentat
-acenyMatrix Representetio
-save for later!
-h:500
-Lchane Cnvas sizeove onto
-ion Speec

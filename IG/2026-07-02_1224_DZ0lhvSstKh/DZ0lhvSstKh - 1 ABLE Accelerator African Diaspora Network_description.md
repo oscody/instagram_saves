@@ -34,17 +34,3 @@ If you're building tech and you're a Black founder in Africa — this is equity-
 For grassroots and social enterprises, especially outside the big hubs — rural areas, underserved communities. Applications are ongoing, not a one-time deadline.
 
 Comment "Real" to get link to apply
-
-## On screen text
-
-Breal grants forAfrican and
-iasporaentrepreneurs. up
-to1.Mavailable,here's
-what each one actually
-requires
-Greal grants for Africanand
-iaspora entrepreneurs. up
-to$1.5M available, here's
-Greal grants for African and
-diasporacentrepreneurs.up
-what each one actualy

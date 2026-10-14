@@ -25,13 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Did you know about this trick?
-
-## On screen text
-
-the second somethingflies
-towards your face
-and aggressively splash it at
-your own face
-Tennes
-and ifyou can see the punch
-coming

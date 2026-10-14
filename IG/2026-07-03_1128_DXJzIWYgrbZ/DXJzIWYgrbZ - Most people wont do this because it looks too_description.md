@@ -57,10 +57,3 @@ you’ll move different, feel different, and perform different.
 Most people scroll past this.
 
 The few who don’t… transform.
-
-## On screen text
-
-STOMACH
-CARVING
-For11
-DISCIPLINE

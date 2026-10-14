@@ -26,21 +26,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Mental re-frames that keep me calm no matter how much my life is hitting the fan ft. My temu tattoo (also I shortened it to 4) | #mindset #discipline
-
-## On screen text
-
-Breaking the Habit of
-Being
-Yoursef
-Dr. Joe Dispenza
-First is theconceptlearned
-from Joe Dispenza
-Become the verslon of you
-who already has it
-You have to get into the
-emotionalfrequencyof the
-realityyouwant
-I choose not to
-let it affect me
-decide thatyou're no longer
-controlyour

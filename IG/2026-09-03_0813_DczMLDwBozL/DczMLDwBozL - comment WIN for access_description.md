@@ -23,27 +23,3 @@ Written by claude-haiku-5-5.
 comment WIN for access
 
 #SubmitTember
-
-## On screen text
-
-OBREAKING
-$21Bingrants
-are closin
-in Septe
-BASED ON OPEN GRANT LI
-WIN FOR ACCESS
-COMME
-COM
-year
-$21Bin grants
-are closing
-in Septer
-BASED ON OPEN BRANT LIS
-TWIN FOR ACCESS
-CESS
-sure
-BREAKING
-BASED ON OPENCRANT
-T WIN FOR ACCESS
-CCESS
-app

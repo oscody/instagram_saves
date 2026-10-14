@@ -17,14 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Devils’ Crest basically takes the Sword Art Online setup and flips it. SAO was nuts because you couldn’t log out. Here, they do log out… and the game starts following them into the real world. That’s way more interesting to me than just doing another trapped-in-a-game story. #DevilsCrest #SwordArtOnline #AnimeTok #NewAnime #animenews
-
-## On screen text
-
-Yes!
-ART
-fe ike the game ysteoi
-MONSTER
-This is a game,
-This is realityt
-this is real.
-LIKE

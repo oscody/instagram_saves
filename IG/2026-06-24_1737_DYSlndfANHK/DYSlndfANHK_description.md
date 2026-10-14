@@ -24,24 +24,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: grader.owner.com
-
-## On screen text
-
-Competitor
-e
-Alillstartanalyzing
-Mattenga's Pizzeria Scherz
-nattengas.com
-Online health
-94
-Good
-Yourwebste i loking good
-Youreranked irtaongoporors
-Mattenga's Pizerachertz
-Parry's Pizzea&Taphouse
-Figlio's Pizzeria
-TheAlwiligiveyoualistof
-everythingyouineedtofix
-Grader.Owner.com
-andyoucantryit
-forfreetoday

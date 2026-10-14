@@ -17,19 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If You Could Only Keep 1 List, Who’s Are You Keeping? @sheeloveskp @cam.vibetherapy #drake
-
-## On screen text
-
-JB
-MISSME
-JB:
-1.MISSME
-2.SHABANG
-CIRCOLOCO
-KP:
-.GIRLS WANT GIRLS
-2.JUMBOTRONS POPPIN
-3.
-CAM:
-HEADLINES
-10BANDS

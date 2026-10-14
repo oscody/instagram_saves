@@ -38,19 +38,3 @@ October for Free: Top Free Events in NYC 🎃
 Follow @nyc_forfree for free things to do every day! 
 
 #nycforfree #nycevents #nycfall #halloweennyc #freeinnyc
-
-## On screen text
-
-Village Halloween Parade
-ctober3
-theme i Body Soull
-aorderDun
-ctober910
-DUNDUN
-DINER
-NEWYORKNY
-tre
-withtcopaiddketoptons
-@ctober28)
-idreeents
-willoupthronghearly20

@@ -30,34 +30,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment 'STITCH' and I'll send it over.
-
-## On screen text
-
-Al Mode
-Short videos
-Videos
-Shopping
-Images
-oois
-Sitch Designwith AlGooglo
-Design with Al
-MCP server
-STEP1
-AIS
-%
-AEONCom
-Export
-X
-Format
-Al Studi PREVEW
-Figma
-Jules
-E
-zip
-Code to Clipboard
-MCP
-STEP 3
-through MCp
-Claude Code
-dit automaticly
-STEP5

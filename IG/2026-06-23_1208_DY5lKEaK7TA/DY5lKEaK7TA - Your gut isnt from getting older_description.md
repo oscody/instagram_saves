@@ -66,11 +66,3 @@ Comment COACHING if you’re ready for accountability, structure, and a plan des
 Save this so you don’t forget it tonight.
 
 Follow @iamtherealdp for more no-excuses fat loss strategies.
-
-## On screen text
-
-juice of
-habits
-SINGAPORE
-YDNEY
-just toldyou

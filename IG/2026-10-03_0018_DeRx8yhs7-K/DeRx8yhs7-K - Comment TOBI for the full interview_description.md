@@ -39,21 +39,3 @@ Thanks for the talk Tobi!
 Follow @jonathanwordsofwisdom for more! 👀💡
 
 #jwow #wonsulting #jobsearch #career #hiring
-
-## On screen text
-
-boucing hred eoaret.
-LASTTIMEITALKED
-REPRESENT
-TOTHIS GUY HE WAS AT
-LL
-S
-IFYOU'REJOE
-SEARCHNG
-RIGHT NO...
-IWOULDFOLLOW THE
-EPRESEN
-START
-PITCHING
-YOURSEE
-DIRECTLY TO THE

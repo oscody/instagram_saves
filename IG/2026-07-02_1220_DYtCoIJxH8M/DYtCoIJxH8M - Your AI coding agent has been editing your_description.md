@@ -52,16 +52,3 @@ Save this — every dev using AI in production needs this. 🔖
 Follow for more.
 
 #GitNexus #ClaudeCode #Cursor #OpenSource #AIEngineering DeveloperTools MCP CodeIntelligence SoftwareDev TechNews
-
-## On screen text
-
-Someone opensourced ekowede
-raphen ne feryourcodabase and
-steiinghowgoodiis.
-called GitNexus.
-Someone opensoured kowede
-repheneforvourodebao ond
-'s eyinghowgoditis.t
-Somsone opensoureakowede
-rpheneforyourecodebose and
-'steriyinhwooditi.t's

@@ -39,27 +39,3 @@ A person shared his journey of becoming AI engineer and it went viral on Reddit.
 .
 .
 #ai #aiengineer #jobs
-
-## On screen text
-
-environments
-candi
-overwhelming me.
-3MONTHS):
-COGGIN
-earningand mathsandfor
-theheused AndrewNg's M
-CourseonCoursera
-PHASE 3:Mode AI&LLMs
-3-4 Months)
-Resources
-uing ac uingcCou
-Pinccone inecone ocenation
-OpenAI APE OpenALAPUDOCs
-Projects to Build
-.RAGChatboPDupload
-anhuggtngfacc.courseon
-for code review
-Q&Auing CUPand BIPodel
-COOGGINS
-evenapplying

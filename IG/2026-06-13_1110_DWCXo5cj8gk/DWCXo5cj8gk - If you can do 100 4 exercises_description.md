@@ -26,9 +26,3 @@ Written by claude-haiku-5-5.
 If you can do 100. 4 exercises. 
 
 #abs #core #workout #motivation #explore
-
-## On screen text
-
-100
-Ifyoudo
-a100

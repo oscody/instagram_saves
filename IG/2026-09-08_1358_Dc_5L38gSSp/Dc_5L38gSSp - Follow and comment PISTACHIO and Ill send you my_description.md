@@ -44,12 +44,3 @@ How do I get better answers from ChatGPT?
 How do ChatGPT Projects and Skills work?
 
 #ai #chatgpt #chatgptprompts #aitools #productivity
-
-## On screen text
-
-Number one contexthiis
-theinfonationyougiveA.
-youll stopfaingforits e
-andglazing
-Thishelpsyou automate
-repetitivetasks

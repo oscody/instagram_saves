@@ -18,8 +18,3 @@ Written by claude-haiku-5-5.
 
 My first month of inline skate training🙌 I’ve
 made progress since the end of this video but I wanted to document the first couple of sessions It’s been so fun learning 🔥 #inlineskating #skates #trick #progression #challenge
-
-## On screen text
-
-NOPE.
-YEARS

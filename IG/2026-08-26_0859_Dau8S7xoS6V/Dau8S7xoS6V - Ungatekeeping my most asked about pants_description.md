@@ -21,11 +21,3 @@ Ungatekeeping my most asked about pants 🤷🏾‍♂️
 Can’t tell me I don’t put you on 😉
 
 #wideleg #widelegpants #pleatedpants #ootd #uniqlo
-
-## On screen text
-
-479284
-NAVY
-BLACK
-482287E
-476550BROWN

@@ -21,15 +21,3 @@ Send this to your person and answer every question. No dodging 👀 🧠
 Follow @ryahbracy for more!
 
 #psychology #fyp #viralreel #ryahbracy #relationships
-
-## On screen text
-
-QUESTIONS TOASKYOUR PARTNER
-HATTRUTHWOULDYOU
-FINALLY TELL
-ME?
-QUESTIONS TOASKYOURPARTNER
-IFWE WEREEVERTO
-QUESTONSTOASK YOUR PARTNER
-WHAT DO YOU BELIEVE
-COULDEVENTALLY

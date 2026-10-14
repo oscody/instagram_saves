@@ -25,11 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The MILLIONAIRE SURGEON 🤯 I interviewed a multimillionaire doctor on Wall Street AGAIN! I asked @grigoriy.arutyunyan_md how he made his millions and how went from an employee doctor to starting his own multimillion dollar business. Lastly, I asked him how he found his belief in God and his best advice to the younger generation. #wealth #entrepreneur #financialfreedom #motivation
-
-## On screen text
-
-in the last year.
-dream has
-Your
-o besobig
-to

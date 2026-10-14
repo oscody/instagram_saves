@@ -17,13 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #claude #obsidian #learn #digital #ai
-
-## On screen text
-
-BuildingaTeal
-second brain
-auteboobsin
-Building a real
-Building
-garea
-w caueNotebookbsidan

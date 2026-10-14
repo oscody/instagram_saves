@@ -37,20 +37,3 @@ Balogun Ogunbona of Ikija, one of the respected war commanders of Abeokuta, unde
 Then the attack came.
 
 Read more in the comments 👇🏽
-
-## On screen text
-
-Aheokuta
-DahomeyWar185
-A must read for every Africans
-HISTORYLOVERS001
-UNTOLD
-CHRONICLES
-THEYBURNEDTHE ARCHIVES
-BUT NOTTHEMEMORIES.
-ADEGOKE TAIWO
-THE
-THEATER
-OFBLOD
-tio
-ounder,Historylovers

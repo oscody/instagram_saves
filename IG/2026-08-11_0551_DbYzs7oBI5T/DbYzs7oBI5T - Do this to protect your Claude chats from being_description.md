@@ -23,24 +23,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Do this to protect your Claude chats from being leaked..
-
-## On screen text
-
-But frt savethisvideo and
-get lockedin
-REEMHE
-Google
-AlMode
-Images
-AIl
-Short videos
-News
-Videos
-Sho
-Claude.al
-psaudepubcanifacts
-BrosMiamiFarewl ekend Flyer
-and nowlcan seesomeone
-madea Miamifarewell
-weekend flyer
-ORMH

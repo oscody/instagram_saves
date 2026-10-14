@@ -17,12 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Can yall read? 📚🤓 bet you can’t do this !!
-
-## On screen text
-
-Can you read 900 words
-per minute?
-let
-muscle.
-5Ov
-understanding

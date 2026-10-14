@@ -59,14 +59,3 @@ Comment "TIN" and I'll send you the link, and follow for more ideas that make yo
 .
 .
 [Agent Tincan, AI agents, agent communication, multi-agent workflows, AI collaboration, task handoffs, workflow automation, open source, self-hosted AI, Tailscale, Grok Bot, Muse, Instinct, Hermes, Claude Code, Codex, ChatGPT, Claude, AI permissions, founder productivity]
-
-## On screen text
-
-def
-needs to
-you can
-ONNECT
-Ofice Workforce
-the tools and
-ACCESS
-it needs

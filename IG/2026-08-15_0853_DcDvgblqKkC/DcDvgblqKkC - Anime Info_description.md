@@ -46,10 +46,3 @@ Thanks for taking the time to read ^_^
 Tags 📌
 
 #dungeonfighter #animescenes #donghua #anime #animeedits
-
-## On screen text
-
-MONARCHIANIME CONTENTC
-@monarchnewso
-MONARCH
-MONARCHANIME CONTENT

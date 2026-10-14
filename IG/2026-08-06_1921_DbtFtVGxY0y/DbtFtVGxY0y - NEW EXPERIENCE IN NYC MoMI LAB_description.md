@@ -41,12 +41,3 @@ TICKETS: 🎟️Adult $20, Youth (age 3-17) $10. Free general admission is offer
 GOOD TO KNOW: Be sure to check the calendar! MoMI offers a wide range of amazing programming - including movie screenings and events for families. 
 
 @movingimagenyc #museumofthemovingimage #nyckids
-
-## On screen text
-
-and it's a must
-SEE
-and meet Sparky-the lab's
-resident robo friend!
-of film, television, and
-digital media

@@ -19,7 +19,3 @@ Written by claude-haiku-5-5.
 Have anyone else noticed how the most effective business models usually involve distracting consumers away from where the money is really going? 🤔
 
 #college #dukestudents #professor #teacher #businessschool
-
-## On screen text
-
-ortant estion,

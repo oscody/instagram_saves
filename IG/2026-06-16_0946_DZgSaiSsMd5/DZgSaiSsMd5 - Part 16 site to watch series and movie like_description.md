@@ -19,20 +19,3 @@ Written by claude-haiku-5-5.
 Part 16 site to watch series and movie like Netflix 
 
 #netflix #reel #modie #tech #movie
-
-## On screen text
-
-POVYou plugged your
-homieswith astreaming site
-thatfees likeNetflix
-want towatch Netflix?
-homies with astreaming site
-that feels like Netflix
-everymonth.Tstayupdated
-mobile app and
-US TV Sho
-POV:You plugged your
-homeswithatreamingsite
-xtubefix.com
-Streamex
-YouTube

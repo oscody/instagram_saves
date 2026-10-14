@@ -44,14 +44,3 @@ Most guys reject themselves before she even gets a chance to.
 Keep talking yourself out of approaching? DM me “FEARS” and I’ll send you the full video.
 
 #confidence #socialskills
-
-## On screen text
-
-#1 "'ll bother her...
-IS THISOKAY
-Is this okay?
-YOU ARE DOING
-REJECT THEMSELVES
-BEFORE
-before she even gets
-a chance to

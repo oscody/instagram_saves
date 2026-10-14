@@ -55,18 +55,3 @@ Reworded lines, sharper framing, a tighter use-of-funds, etc. plus a video walkt
 You revise and submit with time to spare!
 
 📝Comment “AUDIT” and I’ll send you the details.
-
-## On screen text
-
-$50KGRANT
-the entire application?
-twoessays
-Requirements:
-U.S.-based
-Prof o businesregitration
-The Essays:
-Essay#1:
-you use this grant?
-Essay#2:
-Abrndponcchng
-align with this purpose.

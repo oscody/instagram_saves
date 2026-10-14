@@ -19,19 +19,3 @@ Written by claude-haiku-5-5.
 Black-girl fantasy books people have recommended to me over the years for rebellion and rage. What would you add this list? 
 
 #fantasybookstagram #blackfantasybooks #blackbooks #diversifyyourbookshelf #bookreels
-
-## On screen text
-
-donareabuttheMet ala
-ShowmeBlackgirlsdrapedin
-rebellion and rage."
-doncareboutheMeal.
-ShowmeBackgirisdrapedin
-rebellion andrage.
-onceboutthoe
-ShowmeBackgirldrapedin
-rebellionand rage.
-UTCASSDYDLODWRSYCHOIC
-GIDED
-NES
-NAMINAORNA

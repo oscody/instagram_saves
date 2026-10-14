@@ -24,12 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Fun fact. Mar was in her all girls robotics club in high school 🤖 beep boop #robotics #codingproject #firstrobotics
-
-## On screen text
-
-Building your own robot
-and IrememberI made
-5
-this in high school
-or some sort of sound asan
-input

@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I wasn't ready for Resurrection!
-
-## On screen text
-
-MOST PEOPL
-ANDHE'S
-36

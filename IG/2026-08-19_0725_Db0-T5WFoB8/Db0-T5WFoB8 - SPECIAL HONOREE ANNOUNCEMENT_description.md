@@ -35,28 +35,3 @@ Join us as we honor their legacy of community-building and creative entrepreneur
 🎟️ www.legacy100brunch.com
 
 #Legacy100Brunch #BlackBusinessMonth #SpecialHonoree
-
-## On screen text
-
-LECAC
-SPECIALHONOREE
-00
-CELEBRATING
-BLACK
-BUSINESS
-MONTH
-Michael+ NicoleNicholas
-Co.Founders Auntset Uns
-30TH AUCUST12:30 PM
-LONGISLAND NY
-SsinUwww.eevoobrunch.co
-ARIBIZNTWOK ENINEEWO
-LEGACY
-L
-An ExclusiveExperience for
-Visionaries,Founders &
-30AUGUST.2026
-1230PM
-LONGISLAND, NY
-TICKETS LIVE
-www.legacy100brunch.com

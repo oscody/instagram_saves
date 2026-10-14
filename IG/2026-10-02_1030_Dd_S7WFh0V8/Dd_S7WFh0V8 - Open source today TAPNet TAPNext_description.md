@@ -52,13 +52,3 @@ Octopus / 문어: Martin Thoma
 https://commons.wikimedia.org/wiki/File:Sealife-Munich-Octopus.ogv
 Footage trimmed/cropped; tracking graphics by Xity / 영상 구간·크롭 편집, 추적 그림: Xity
 Curated by @hyun2xyz
-
-## On screen text
-
-Every dot here was placed
-on the choothin ustone frae
-When the polehides tho chootah.
-the dots vanish,
-0,
-Forvisual ork.pinpartices
-strokes or stickers

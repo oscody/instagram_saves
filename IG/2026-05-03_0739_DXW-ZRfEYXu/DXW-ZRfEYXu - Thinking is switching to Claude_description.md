@@ -33,9 +33,3 @@ Thinking is switching to Claude?
 here are three things you need to do immediately to get the most out of it.
 
 Comment “CODES” below and I’ll send the full list of ways to get the most out of Claude 👇
-
-## On screen text
-
-this gives Claude
-ndsafe
-specifically for

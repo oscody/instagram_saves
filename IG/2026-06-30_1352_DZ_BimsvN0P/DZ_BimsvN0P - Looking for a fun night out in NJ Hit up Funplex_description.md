@@ -24,13 +24,3 @@ Like and follow for more fun things to do in New Jersey and on the East Coast!
 
 🏷️
 #adventures #funplexafterdark #arcades #21plusnightout #amusementpark
-
-## On screen text
-
-until1AM
-addicted and then there's a
-bowlingaley and go-karts
-areawithhad its
-Nogoing to liebytheendo
-the nightIdidnt want to
-leave

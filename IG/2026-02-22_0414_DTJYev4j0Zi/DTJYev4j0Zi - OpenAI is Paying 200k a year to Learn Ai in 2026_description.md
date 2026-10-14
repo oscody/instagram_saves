@@ -22,14 +22,3 @@ Written by claude-haiku-5-5.
 
 OpenAI is Paying 200k a year to Learn Ai in 2026 with OpenAI Residency 
 #chatgpt #openai #chatgpt5 #aicontent #ai
-
-## On screen text
-
-OpenAI
-QD
-Research
-OpenAl Residency
-ooreresechet heroer
-Open AlResidency
-and solvingrealproblems
-It's2026

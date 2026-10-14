@@ -23,17 +23,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 You addicted and don’t even know it
-
-## On screen text
-
-If you smoke everyday that
-means you're depressed.&
-addicted
-end mignotinentother
-habisthoevenreeleng
-alsoknown as nicotinic
-acetylcholine
-means you're depressed.&.
-candefinitelyhelpreduce
-someofthesetenasthatour
-bodyproduces

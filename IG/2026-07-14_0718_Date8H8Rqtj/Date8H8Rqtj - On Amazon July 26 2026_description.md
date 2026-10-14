@@ -17,15 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 On Amazon July 26, 2026 #books #theheritage  #riseoftheguardians #centralasian #bukharianjews
-
-## On screen text
-
-BUKHARA
-Liaine
-20
-910
-9.41
-Linh Trane
-18M
-26.6M
-STORYSOCOODTCOMEFOROU

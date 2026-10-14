@@ -35,21 +35,3 @@ Comment “CODE” and I’ll send you the links. 🚀
 Send this to someone who thinks they’re “bad at coding.”
 
 #coding #programming #logicbuilding #developerlife #learntocode
-
-## On screen text
-
-You were never bad at coding.
-Your brainjust needed these 3
-logic-buildingvideo
-80%LeetCode
-30
-B patterns to solve 80%
-Leetcode problems
-3.
-AFTER
-BEFORE
-8:06
-How I Tricked MyBrain to
-Be Addicted to CodingThe D.
-Ashish Prtap sinh 5aviews
-year ago

@@ -35,14 +35,3 @@ Comment "DESIGN" below, and I'll DM you all five plugins.
 [keywords: Claude Code, Claude AI, Claude plugins, AI coding, AI programming, Anthropic, frontend development, web development, web design, UI design, UX design, AI website builder, vibe coding, TasteSkill, Web Design Guidelines, AwesomeDesign, ImageToCode, Playwright CLI, Playwright, design systems, UI/UX, coding assistant, AI developer tools, developer productivity, prompt engineering]
 
 #claudecode #claudeai #coding #anthropic #programming
-
-## On screen text
-
-LOOF
-Ready.
-Steady.
-Record.
-00
-TOACTUALDESIGNER
-BEFORETEMBARRASS
-ITGIVES CLAUDE

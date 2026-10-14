@@ -17,15 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Day 165 | 845 to go #wewillmakeit
-
-## On screen text
-
-We shall forget that they
-once criticized us
-CHALLENGE THOSE
-WHO DOUBT US
-THAT THEY
-PILOSANG
-ONCECRITICISED
-THE POTENTIAL
-TO DISCOVER

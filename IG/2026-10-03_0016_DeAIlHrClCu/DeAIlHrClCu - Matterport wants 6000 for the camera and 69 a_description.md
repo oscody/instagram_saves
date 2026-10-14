@@ -35,14 +35,3 @@ Comment SCAN and I'll send it over.
 floor plan scanner app, floor plan scanner app free, how to 3d scan a building, how to 3d scan a house, 3d scan house interior, scan house to make floor plan, create a house plan from a scan, cost of 3d scanning a house, room layout estimation, floor plan ai app scan
 
 #computervision #photogrammetry #3dscanning #opensourceproject #realestatetech
-
-## On screen text
-
-Microsoft Just Killed
-The 3D Scanner.
-INTOA
-@billy.coder
-UPALL
-It is on GitHub
-right now.
-GITHUB

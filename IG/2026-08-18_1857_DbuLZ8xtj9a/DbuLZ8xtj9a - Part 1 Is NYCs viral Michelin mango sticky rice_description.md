@@ -22,11 +22,3 @@ Part 1: Is NYCâ€™s viral Michelin mango sticky rice actually worth the hype? ðŸ‘
 Chelsea Market, NYC
 
 #nycfood #nyceats #mangostickyrice #foodreview #newforkcity
-
-## On screen text
-
-2026
-firupthe viralem
-handcvednoooeey
-an
-sweet the verdict

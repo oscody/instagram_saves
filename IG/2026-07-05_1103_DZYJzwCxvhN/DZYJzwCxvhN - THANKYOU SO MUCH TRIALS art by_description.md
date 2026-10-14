@@ -21,21 +21,3 @@ THANKYOU SO MUCH TRIALS 😭🏔️ art by @marcosalvarado #recommendations
 #mindset
 #psychology
 #reels
-
-## On screen text
-
-YO
-Why You Will
-ColdFusion
-despitebeingmore
-EPIDEMIC
-entary
-ows 2yearsego
-OF TIME
-RSA
-2FOLUS ON THE
-PAST
-FUTURE
-10:00
-PEOPLELIUE
-8 chapters

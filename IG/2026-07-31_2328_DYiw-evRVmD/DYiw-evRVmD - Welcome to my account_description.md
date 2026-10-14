@@ -25,12 +25,3 @@ Everything else comes with it!
 
 Welcome to my account🫶🏼
 Follow @suagherjacopo for the journey 🌎
-
-## On screen text
-
-Ive studied hundreds of
-notivationalvideo.Thisisthe
-onekeep coming.backto.lneed
-this remindenevery single day.
-callme
-crazy

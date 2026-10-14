@@ -17,11 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #micahluxi #fyp #spirituality #zodiac #Scorpio
-
-## On screen text
-
-BECAUSE
-SCORPIO
-NIGGA
-THE
-ON

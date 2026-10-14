@@ -84,11 +84,3 @@ But becoming healthier, stronger, more confident and proving to myself that I ca
 📤 And share/repost this if you know someone who’s working towards becoming a healthier version of themselves.
 
 You never know who might need that little bit of inspiration to start today. 👊
-
-## On screen text
-
-2.BodyWaves
-0 Seconds
-5.Deadarms
-60Seconds
-8.Ballet Squats

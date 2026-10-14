@@ -44,24 +44,3 @@ The sync runs unattended on a schedule. The ideation runs when you’re ready to
 Full step by step build is in the guide. Prompts, schema, scheduler, everything.
 Comment “Insta” and it’s yours.
 Save this one so you actually come back to it (the irony is the point).
-
-## On screen text
-
-ai_anubhav
-YOURINSTAGRAM SAVES
-AREDEADWEIGHT. HERE'S
-HOWITURNED MINEINTO
-A CONTENT ENGINE.
-The Instagram Saves Engine
-What You're Building
-tep produces a ork
-YOU SAVEINSTAGRAMPOSTS FOR
-NSIATONATENOHEYETST
-EUITASSTENTHATPUISYSAVESIC
-NTONAUTONATALYTICADAATK
-TUNSACHONEINTOAEADYTOSHOT
-CLAUDECODEBUIDSITFORYOU
-COMMENTINSTA"
-BELOWAND
-ILL DMYOU THE EXACT
-STEPS

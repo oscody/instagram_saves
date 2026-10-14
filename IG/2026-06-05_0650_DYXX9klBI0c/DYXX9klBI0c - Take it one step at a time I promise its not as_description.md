@@ -32,24 +32,3 @@ Written by claude-haiku-5-5.
 Take it one step at a time, I promise it’s not as complicated as you think. 
 
 Anything I can do, you can do better Westie ( yes we are soft launching writing + bestie = Westie)
-
-## On screen text
-
-anowteabookburdont
-know where
-get ready to screenshot
-antwtteaboolbrdon
-knowhere,tostart
-4.The Why
-Why do you write?
-away with?
-ht wm hisrelec ebou you
-reowhknd or sores oyouove
-and want more of?
-the plot ond theme whichis next
-antowriteabook bu dont
-know wheretostart.
-FollowforPart2
-r coment guide and lsond
-my FREE guide to yourinbox
-YYanA

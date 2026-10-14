@@ -24,16 +24,3 @@ Thanks for having me @netflix x @netflixgeeked
 Can’t wait for this one @briantyreehenry THIS IS SO MAJOR
 
 FOLLOW : hippypotter FOR MORE
-
-## On screen text
-
-Netflix
-Anime
-assReeves
-Bass Reeves is the first
-INA
-NetflixAnime
-SSR
-They don't
-N
-good ma

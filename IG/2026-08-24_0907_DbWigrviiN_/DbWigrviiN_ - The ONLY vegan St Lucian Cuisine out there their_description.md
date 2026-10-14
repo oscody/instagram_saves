@@ -21,9 +21,3 @@ The ONLY vegan St. Lucian Cuisine out there 🔥 their food is seasoned to the N
 📍Flatbush, NYC 
 
 #eastflatbush #nycvegan #vegannyc #brooklynvegan #auntsetuncles
-
-## On screen text
-
-COTRIGHTINTOTHISBIG
-ANDTHSAMAZINGSAUCE
-CAKEWHENSHE

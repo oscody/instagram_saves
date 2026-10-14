@@ -17,13 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Would you join this salsa class?
-
-## On screen text
-
-youhaveohearabou hiNe
-York Citysalsa class
-he'd have everyone learn the
-basics and then rotate dance
-partners
-which oneofyourdance parthers
-was your match

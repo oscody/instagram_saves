@@ -33,22 +33,3 @@ The bottleneck has never been tools. It has been originality. And clones, he sai
 What are your thoughts on this? 🤔💬 
 
 🎥: @davidsenra
-
-## On screen text
-
-VOLVINGAI
-CEO OF TAKE TO THE
-COMPANY BEHIND GTA
-JUST SAID SOMETHING
-THEENTIRE ATINDUSTRY
-DOES NOT WANT TO HEAR
-Evolving Al
-@evolving.a
-never be confused
-uikerand bettertomake hts
-make hit games
-Is bigatascts lots of compute
-Evolving Ale
-@evolving.ai
-could never predict
-but speed isn't the issue

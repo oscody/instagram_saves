@@ -57,24 +57,3 @@ You pick the one you like, hit generate, and it turns that storyboard into one c
 Going from one idea to a finished cinematic sequence this fast is exactly what saves me hours when I’m making ads or short films at scale.
 
 If you want all three workflows, comment Morphic and I’ll send them over so you can run them right now.
-
-## On screen text
-
-orkflows
-Org workflows Lastmodified
-Seedance 2.0 Direc
-storyboard
-Character sheet + scene
-options final video
-Run workflow
-Community Most used
-81
-Seedance 2.0
-Seedance 2.0 Director
-final video
-DIRECTOR
-2.0
-ASSeSEEDANCE
-Morphic
-SEEDANCE2.0
-SAVES ME HOURS

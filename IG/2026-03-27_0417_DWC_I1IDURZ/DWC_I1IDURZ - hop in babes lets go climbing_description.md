@@ -27,23 +27,3 @@ hop in babes, let’s go climbing
 mwah 💋 
 
 #build #aiengineering
-
-## On screen text
-
-Let me start with OpenAl.
-iionines of codem production
-The creatorof Claw: ship
-How Peter Steinbergercrear
-y of the code he pushes
-outthe
-with these Same coding
-agents
-owitores context howt
-compresses memory
-ENVIRONMENTAL
-LEARNING
-BEHAVIOURAL
-COaNITIVE
-HEORY
-SOCIAL
-eventhe best models

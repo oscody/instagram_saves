@@ -33,16 +33,3 @@ The moment you start dictating into your AI apps, I promise you’ll never go ba
 Follow @justyn.ai and send this to someone who still types everything!
 
 #ai #aitools #aihacks
-
-## On screen text
-
-Google AlEdge Eloquent
-Speaknaturally,
-tively.
-expr
-A
-tool
-UeTILUIL
-AUO
-And as crazy as this
-you think and process

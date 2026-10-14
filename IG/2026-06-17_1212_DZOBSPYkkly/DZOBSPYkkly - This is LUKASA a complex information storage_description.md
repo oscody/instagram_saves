@@ -17,21 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 This is LUKASA, a complex information storage system invented by An African country before the 16th century.
-
-## On screen text
-
-PLANETSVIEW
-BBPA
-Africainvented acomplex
-digitalstorage device
-WEARE TAUGHT
-THAT STORING
-PLANETSVIE
-ONTENT
-TORII
-Afficainventedacomplex
-digitalstoragedevice
-LUKASA
-TOUNERSTANDWHY
-Afficafnvented acomplex
-INMODERNCOMPUTING

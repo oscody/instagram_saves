@@ -30,8 +30,3 @@ Written by claude-haiku-5-5.
 ⚠️Correction: my app exports Point Cloud data NOT Gaussian Splats 
 
 Open sourced it 💕 https://github.com/donalleniii/lingbot-desktop-mac
-
-## On screen text
-
-footage
-Blender

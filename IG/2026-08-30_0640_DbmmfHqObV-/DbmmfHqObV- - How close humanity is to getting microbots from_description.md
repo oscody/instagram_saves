@@ -27,16 +27,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 How close humanity is to getting microbots from Big Hero 6
-
-## On screen text
-
-Whye STILL Can't make
-microbots fromBig Hero
-gottobeabetterway
-RAUODAMO
-Whywe STILL can'tmake
-microbots from Big Hero
-andareceiverpicks
-ZPas
-Whywe STILL Can't make
-from this

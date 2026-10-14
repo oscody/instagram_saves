@@ -21,8 +21,3 @@ Found the perfect flower shop for XL bouquets 💐 and all types of arrangements
 I am truly obsessed with how beautiful and creative their work is. Check them out for all of your special moments (Valentine’s Day is around the corner 😉♥️) 
 •
 #flowershopnyc #smalbusinessnyc #largebouquet #valentinesdaynyc
-
-## On screen text
-
-TIZARAH&CO.
-FLOWERSCAFE

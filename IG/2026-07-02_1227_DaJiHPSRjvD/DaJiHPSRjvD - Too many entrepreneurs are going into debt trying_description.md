@@ -39,13 +39,3 @@ I break down:
 Stop funding your dream with debt when you may qualify for funding you never have to repay.
 
 Comment “JOIN” and I’ll send you the link to my community. 💰🏦
-
-## On screen text
-
-BUSINESS GRANTS
-TO APPLY TO
-THIS MONTH
-(No LLCNeeded)
-She Seals The Deal-5k
-Learn how to in business
-grants in my community@

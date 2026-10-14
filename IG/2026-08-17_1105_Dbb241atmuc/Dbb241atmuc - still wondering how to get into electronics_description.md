@@ -27,13 +27,3 @@ then i have the PERFECT resource for you...and it's free! 🙆🏾‍♀️
 Pixel and i added a new page on my website that lists the topics that beginners should know, including the resources that i've used for learning and the supplies that have held me down for the past year!
 
 comment 'learn' below and i'll send you the link!
-
-## On screen text
-
-STARTED
-IT
-ELECTRONICS
-TUNEIN TO
-FROMTHERE
-AND
-THEN

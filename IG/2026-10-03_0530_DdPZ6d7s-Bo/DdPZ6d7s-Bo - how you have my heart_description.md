@@ -47,9 +47,3 @@ Franchia Vegan Cafe
 .
 .
 [vegan nyc, new york vegan, vegan, vegan dinner nyc, vegan lunch nyc, happy hour nyc, korean restaurant nyc, korean food nyc, vegan korean new york, koreatown nyc]
-
-## On screen text
-
-vegan koreanfoo
-vegan koreanfood
-vegankoreanfood

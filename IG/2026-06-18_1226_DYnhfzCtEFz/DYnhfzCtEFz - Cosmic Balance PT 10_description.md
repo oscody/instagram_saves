@@ -24,14 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Cosmic Balance PT 10 #philosophy #taoism #affiliate
-
-## On screen text
-
-IUME
-IMPROVISING ONSTAGE.
-CLICK THE
-CULTIVAT
-STRANGEENERCETICAUTHENTICIT
-TooSelf
-Conscious?
-HIDE THEIR MOVEMENTS,

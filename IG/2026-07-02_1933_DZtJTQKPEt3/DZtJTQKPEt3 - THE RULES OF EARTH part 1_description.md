@@ -44,10 +44,3 @@ whether you believe in the magic or don’t
 you’re right.
 
 love n light
-
-## On screen text
-
-had already awakened;
-doesntmatch the one they
-feelin their bones.
-you are themain character.

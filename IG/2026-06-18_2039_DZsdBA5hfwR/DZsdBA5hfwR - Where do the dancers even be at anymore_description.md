@@ -29,12 +29,3 @@ Battles • Showcases • Party
 Tickets available now. Link in bio.
 
 🎥: @410jem
-
-## On screen text
-
-Bathurs
-KARTE
-LIKE CATCHAWNE AT LEAST
-OPEN
-EOTORE
-AVVY

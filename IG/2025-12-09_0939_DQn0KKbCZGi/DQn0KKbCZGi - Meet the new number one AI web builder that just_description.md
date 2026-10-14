@@ -27,28 +27,3 @@ No coding or setup needed. Just type your idea and launch it for free.
 (Coding, coder, vibe coding, latest developer, developer, code, tech news, new gadget, gadgets)
 
 #coding #vibecoding #vibe #code #coder #developer #techproducts #technews #techupdates #trendingtech #trendingvideos #trendingaudio #factsdaily #unknownfacts #facts💯
-
-## On screen text
-
-Lovable
-part?
-php
-PRAAE
-curlinit(
-curl_init
-Sch
-CURLOPTURL,
-Surl):
-curl_setopt(Sch,
-CURLOPT_RETURNTRANSFER
-CURLOPT_PROXY,
-CURLOPT_PROXYYPE,7
-curl_setopt(ch,
-curl_exec(Sch);
-Soutput
-curl_errorse
-Scuri_error
-without
-22
-23
-24

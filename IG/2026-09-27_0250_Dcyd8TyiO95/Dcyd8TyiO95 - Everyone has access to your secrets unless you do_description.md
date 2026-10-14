@@ -34,25 +34,3 @@ Everyone has access to your secrets unless you do this quickly. Comment “PRIVA
 👉Follow @avigrondin for more AI & business tips 
 
 #claude #ai #chatgpt #artificalintelligence #business
-
-## On screen text
-
-Justbya
-ASTEJALO SAC
-NOESTU
-avis-macbook-pr
-avi@variancemarketing.com
-Setkngs
-Language
-Get help
-View aliplans
-Get apps and extensions
-View changelog
-Claude Academy
-Learn more
-Logout
-A Avi Man
-78
-UY
-name,clickonit
-By doing all that,you

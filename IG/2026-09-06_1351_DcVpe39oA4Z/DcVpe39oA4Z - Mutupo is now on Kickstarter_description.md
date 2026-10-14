@@ -18,16 +18,3 @@ Written by claude-haiku-5-5.
 
 Mutupo is now on Kickstarter.
 The link will be in the first place you look🫶🏾
-
-## On screen text
-
-The Zimbabweananime
-you'vebeenwaiting foris now
-On KICKSTARTER
-I'M SURE
-LANGUAGE.
-MUNERA CHI?
-YOU
-NOW?
-The Zimbabwean anime
-OnKICKSTARTER

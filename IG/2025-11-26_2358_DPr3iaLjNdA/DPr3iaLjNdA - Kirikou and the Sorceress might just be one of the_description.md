@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 Kirikou and the Sorceress might just be one of the most overlooked animated films ever made.
 
 #cinema #filmtok #whattowatch #movierecommendation #animation
-
-## On screen text
-
-It's about culture and comunity
-why she became so cruel.
-Te'snotabou saving aprines

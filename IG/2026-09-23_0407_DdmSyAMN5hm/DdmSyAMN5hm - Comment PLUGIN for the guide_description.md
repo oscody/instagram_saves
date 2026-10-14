@@ -22,11 +22,3 @@ Written by claude-haiku-5-5.
 
 Comment "PLUGIN" for the guide.
 Stop guessing which plugins or subagents to install for Claude Code by using Claude Code Setup: a smart utility that scans your codebase in seconds and automatically recommends the exact MCP servers, hooks, and review subagents tailored to your project.
-
-## On screen text
-
-That's because most
-peopleare
-hooks sub
-than30
-seconds

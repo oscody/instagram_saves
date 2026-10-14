@@ -26,14 +26,3 @@ Yeah… this might be a little wild lol
 Whether you have an existing business or you’re starting a new one in 2026 you can use this as a roadmap
 
 Comment ‘Four’ and I’ll send the YouTube link to your DMs
-
-## On screen text
-
-BREAKING NEWS
-MANCREATES4HOURINDEPTH
-COURSEONHOWTOGETBUSINESS
-START TO FINISH
-UNDING FROMS
-FORFREEON
-COMPLETELYF
-YOUTUBE

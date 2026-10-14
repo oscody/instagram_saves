@@ -18,30 +18,3 @@ Written by claude-haiku-5-5.
 
 NVIDIA released a new computer vision model that is up to 10 times faster than leading models by using parallel box decoding to predict entire bounding boxes at once. The model was trained on massive datasets and is fully open-sourced on HuggingFace and GitHub. 
 #NVIDIA #computervision #parallelboxdecoding #openai #huggingface
-
-## On screen text
-
-top models
-5BRIDGES
-#OTATUM
-#23ROBINSON
-# PORZINGIS
-ROWN
-roboflow
-Sign In
-Arena Object Detection
-Head-to-Head Evaluation
-Object Detection
-which model best detects
-Upload an image a
-Al Anthropic
-Microsoft
-G Google
-OpenAI
-Qwen
-Tencent Al Lab
-Meta
-calledparallel
-person x|
-Run Evaluation
-over 1o0millionqueries

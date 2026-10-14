@@ -32,11 +32,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 How to create an AI Agent team with Openclaw and Hermes using the supervisor builder stack on my laptop powered by @snapdragonofficial #ai #tech #sponsoredbysnapdragon #snapdragonxseries
-
-## On screen text
-
-Im partneringwiththem
-to
-finishes a task
-that scanstrendingt
-inyourniche

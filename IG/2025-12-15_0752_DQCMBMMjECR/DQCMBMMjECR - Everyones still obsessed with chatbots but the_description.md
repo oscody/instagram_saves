@@ -26,18 +26,3 @@ AI just learned how to move, not just talk.
 And the craziest part? You can start training your own robot today.
 
 Comment ROBOT to get the link.
-
-## On screen text
-
-Robotics Course
-welcometotheRobotics course
-LeRobot
-You trained a model.
-Nowyou'll train a robot.
-100%Open Source)
-ORel
-Nowyou'lltrain arobot.
-(100%Open Source)
-weloetotheRobotics coure
-OReat
-CheckBelow

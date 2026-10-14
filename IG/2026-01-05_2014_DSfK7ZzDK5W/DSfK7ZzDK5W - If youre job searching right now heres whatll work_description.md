@@ -50,31 +50,3 @@ askhunch @resume.io
 This is the difference between applying endlessly and having a system that works
 
 Comment ROADMAP and i'll share the full Job Search System straight to your DMs
-
-## On screen text
-
-C DONT HAVE THE TIME
-OR MONEY
-LOOKFOR
-TO
-A NEWJOB
-IDONT KNOW
-WHAT TO DO
-EXCHANGE
-EXPERIENCES
-XCHANGE
-NOLEDGE
-Soal:Maxmize outcomes ev
-Advanced actions:
-ven whenone processlos strang
-eing thoughtulabout teat
-Reeruiterrea thisa conidence
-Short
-No apology
-. Use
-Example
-I'm in late-stage con
-tions elsewhere.
-Neotiatecope notutslary
-First projects
-is about power dynamics

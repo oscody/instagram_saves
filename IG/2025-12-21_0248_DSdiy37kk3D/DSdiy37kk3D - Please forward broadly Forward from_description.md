@@ -19,35 +19,3 @@ Written by claude-haiku-5-5.
 Please forward broadly. Forward from @stnicksalliance 
 
  #electrician #youthtraining #nycjobs #career #skilledtrades
-
-## On screen text
-
-Get on a
-FREE Training&
-Job Placement!
-You could become:
-apprentice electrician
-electrician helper
-electrical installer
-electrical assembler
-field service technician
-construction technician
-Earn these certifications:
-NCCERlectricalLevel1
-Requirements:
-Electrician
-Must pass TABEM10Test
-whainm th grae reading ovel
-Must be phycalyitandable
-Training
-st 50pounds
-towork in the United States
-Sign up
-hen:
-ednesdays at 1:00PM
-Where
-Contact Info:
-h
-50
-St.Nicks Alliance
-Where oporuniy Grows

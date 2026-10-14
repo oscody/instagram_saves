@@ -24,15 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The Secret To Being More Productive 📚 Thoughts? 💭
-
-## On screen text
-
-Put your phone down,tare at the
-eingndontovinra
-long as you can.
-Ioundthtwhen there ando
-absoutey nothing nophone,no
-TV,
-Becausewhenyouret theurge
-o contanv stlatevourrain
-boredom resets your focus.

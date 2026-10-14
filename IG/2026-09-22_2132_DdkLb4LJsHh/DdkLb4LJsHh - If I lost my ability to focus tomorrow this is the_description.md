@@ -35,9 +35,3 @@ Save this for your next deep work session 💪
 Thanks to @daisysound for the headphones. 
 
 #daisyone #daisyheadphones #stillmode #ad #gifted
-
-## On screen text
-
-HW
-4)Set thelimit
-time

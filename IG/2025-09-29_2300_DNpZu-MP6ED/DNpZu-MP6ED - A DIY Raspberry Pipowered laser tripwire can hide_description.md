@@ -28,15 +28,3 @@ Follow @chugtec for daily amazing tech clips and facts.
 
 ---
 ( tech relatable trending techfact best daily dailygrowth interesting )
-
-## On screen text
-
-Daily Tech Updates
-chugtec
-ey wnsoeone proches
-git.io/daytrippe
-DailyTech Updates
-awensomeone aprochoseee
-git,io/daytripper
-cywnseone prochese
-More on

@@ -49,11 +49,3 @@ Save this post before it disappears from your feed 📌
 Tag a friend who’s job hunting 
 
 #LinkedInHacks #JobSearch CareerTips LinkedInTips JobHunting CareerGrowth
-
-## On screen text
-
-NEWS
-pli o7oberuni
-got one'
-theirf
-Soif

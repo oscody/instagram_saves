@@ -44,32 +44,3 @@ The researchers combined 3D Gaussians, 4D neural voxels, and a lightweight defor
 📎 Paper & demos / 논문·데모: https://guanjunwu.github.io/4dgs/
 Curated by @hyun2xyz
 #OpenSource #4DGS #GaussianSplatting #Dynamic3D
-
-## On screen text
-
-From a camera, those splats
-blend into a detailed image.
-0
-The official demos show
-atoy opening,people cooking,
-and synthetic characters.
-Apache License 2
-uenuu updateCNsed
-eines e9 o 11. K
-Preview code  olame
-Apache LIcense
-ache.ergicense
-nheritednia source les ay
-non-commercial research use
-nria
-2023
-igh
-ial,
-E.md file
-numpy as np
-portn
-randint
-sin,_loss ip_loss
-l1_loss, 5
-S
-mport sys

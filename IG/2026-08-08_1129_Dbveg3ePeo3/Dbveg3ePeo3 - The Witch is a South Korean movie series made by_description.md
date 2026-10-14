@@ -21,13 +21,3 @@ The Witch is a South Korean movie series made by director Park Hoon-jung, about 
 The Witch: Part 2. The Other One (2022)
 
 #thewitch #마녀 #마녀2 #koreanmovie #actionmovie
-
-## On screen text
-
-FY
-ME
-TME
-Tranciweean tobero
-IME
-Tharanchiswmeantobeatrloy
-IFY

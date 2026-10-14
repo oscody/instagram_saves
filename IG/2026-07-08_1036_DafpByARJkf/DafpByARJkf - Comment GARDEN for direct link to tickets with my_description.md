@@ -37,16 +37,3 @@ New York City’s Largest OPEN Bar Garden Experience 🌸🍸✨ @fpgardenparty 
 .
 .
 #ThingsToDoNYC #prettycitynewyork #nycevent #nycthingstodo #nycsummer
-
-## On screen text
-
-n
-oteosmeree
-ovohaeayeerpno
-tpreperony
-eordGarden
-com
-t&Link ToTichets.
-Forisc
-thatyou definitely
-dont want tomiss!

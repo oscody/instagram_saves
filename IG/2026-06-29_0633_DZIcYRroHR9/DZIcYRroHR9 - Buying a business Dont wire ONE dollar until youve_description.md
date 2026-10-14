@@ -52,39 +52,3 @@ Comment BUSINESS and I’ll send you the
 
  (Make sure you’re following me so the
   DM can reach you! 📩)
-
-## On screen text
-
-EP
-B
-WHO HAS SOLD NEARLY
-MAN
-BUSINESSES REVEALS
-0
-YOUNEEDDURING
-NHAT
-DILGENCE
-BIVNG
-EWHEN
-BUSINESS IN 2026
-Michael Steinberg
-@businessbrokerking
-2- Legal Information
-reevewlinrch
-buk sale filing, rtice of
-norporaon vendor contracts
-and
-more
-MORTANTLEGALINFORMION
-3- General Due Diligence
-This is why you need a strong
-business broker
-The ownerand companye backeround
-custoereaonsps.oeion
-management and schedulng
-Diligence
-Due
-Want to buy a business?
-Comment business and I wl
-send you a list of 50+
-businesses for sale

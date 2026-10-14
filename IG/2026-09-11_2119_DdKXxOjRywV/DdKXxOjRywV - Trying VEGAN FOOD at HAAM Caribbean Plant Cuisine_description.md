@@ -22,10 +22,3 @@ Trying VEGAN FOOD at HAAM Caribbean Plant Cuisine!
 COMMENT “YUM” or LINK IN BIO for the free stuff!
 
 #fyp #veganfoodlovers #veganfoodspot #williamsburg #nycfoodie
-
-## On screen text
-
-withanyentreoonmel
-withplantair
-THISISNEVERTHAT
-It's tempeh bacon

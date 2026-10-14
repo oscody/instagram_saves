@@ -37,24 +37,3 @@ If you want the job audit prompts comment “audit” and I’ll send it your wa
 There is some real data to show this was an orchestrated PR campaign but that doesn’t mean they don’t genuinely believe the things they say. It’s like a weird SF culture at this point. Idk man I don’t live in SF but every person I know who does seems to be low key preparing for the apocalypse. 
 
 #ai #buildwithai #vibecoding
-
-## On screen text
-
-copy
-PROMPT 11/2
-1.
-download
-hierarchy_levelo. Pivot
-ahrton enn
-cite dates and URLs.
-.ow ate
-nts and Occupation Data
-match.
-cells as untested hypotheses.
-geuinyfhene
-humanitys future.ex-Anthropic
-researcher tells BBC
-GAddasp
-Mitchell Labiak, usir
-Angus,whatabout
-really good at the

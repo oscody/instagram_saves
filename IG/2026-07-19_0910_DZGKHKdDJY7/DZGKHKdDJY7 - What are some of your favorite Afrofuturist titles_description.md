@@ -21,12 +21,3 @@ What are some of your favorite Afrofuturist titles?
 To see her work with AWA, check out THE PROTOPIAS COLLECTION. Available now at bookstores and comic book shops everywhere or online at the AWA Studios shop! Free shipping on orders $35+ limited time only!
 
 #YtashaWomack #AWAStudios #AfroFuturism #BlackMoonRitual #ComicBook #Futurism #AWA #Writer #BlackArtists #GraphicNovel #TheProtopiasCollection
-
-## On screen text
-
-PEACEMAKER
-ATMAN
-AND SHE SPENT HER
-BATMAN
-AND THEVERY BOOK
-AN AFRO FUTURISTIC

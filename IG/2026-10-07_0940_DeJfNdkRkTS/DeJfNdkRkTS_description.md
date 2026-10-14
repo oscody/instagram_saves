@@ -17,26 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: dubshowcase.com
-
-## On screen text
-
-Thephrase ofthe day is:
-DUBSHOWCASE
-PIKNISH
-SHIRTF
-roverbhenarihs.pople
-akedowthhateveris avalble
-enthing heywoud lyreet
-or consider beneath them.
-Example:
-When di money get tight,
-him tek any work- when
-roubletean pinishir t hi.
-Whenoneygets tight youdo
-hardship
-what you have to do
-makes you adapt.)
-SIMPLE WORDS.
-RICH CULTURE.
-GOUSHOWASE DUESHOWCASECOM
-CARRY ON THE CULTURE

@@ -23,26 +23,3 @@ Written by claude-haiku-5-5.
 These shaders and VFX are available in The Shaders Bible Collection (Unity + Godot). Link in Bio. 
 
 #indiedev #gamedev #madewithunity #vfx #godot
-
-## On screen text
-
-Unity or Godot?
-=0.5+v.10 0.1
-s(=sin(-100.1
-y+s(a
-0.2(a,ya+-0
-X
-0.62
-72
-1.12
-=0.118
-0.15
-1.122
-s=1
-p-0.5,y-0.5
-p.xc+min(0.2-(p.
-prcpy-0.1.
-8
-p.+min(0.1-py-.
-min(o.1s-p.l.o)+(.
-min(0.01-[p.l.o)p.

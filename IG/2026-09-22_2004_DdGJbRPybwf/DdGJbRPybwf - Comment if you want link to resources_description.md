@@ -31,15 +31,3 @@ From wiring sensors to writing my first lines of logic, it’s amazing how imagi
 🚀Drop a ⚙️ if you are also building or learning something new this week!
 
 #RoboticsLearning #STEMEducation #Coding101 #FutureEngineers #HandsOnLearning TechSkills Arduino
-
-## On screen text
-
-UnderstandingROBOTISisso
-hard
-untilyouwatchthese
-Robotics
-by Stanford Onine
-Followandcommentifyou
-needresources
-Followand commentifyou
-need resources

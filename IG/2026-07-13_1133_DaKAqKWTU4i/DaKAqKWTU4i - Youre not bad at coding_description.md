@@ -44,19 +44,3 @@ Sometimes, one great explanation is better than 100 random tutorials.
 #Coding #Programming #logicbuilding #softwareengineer #learntocode
 
 ProblemSolving CodingTips ProgrammingTips Developers LearnToCode CodingJourney CodeNewbie Python Java Cpp JavaScript TechStudents EngineeringStudents PlacementPreparation CodingInterview LeetCode CodeChef CompetitiveProgramming TechReels TechInstagram DeveloperLife ProgrammingLife CodingResources TechCareer CareerGrowth
-
-## On screen text
-
-Youwere never bad at coding
-Your brain just needed
-these 3 logic building
-videos
-12:33
-How tooive AN Codinginerview
-Question in  Steps
-3
-AFTER
-BEFORE
-8:06
-Hwcktd
-Coding The Dopamine Hack)

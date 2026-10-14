@@ -23,26 +23,3 @@ Written by claude-haiku-5-5.
 How we have been crafting immersive worlds. 
 
 https://open.substack.com/pub/donalleniii/p/crafting-immersive-worlds?r=cxnxw&utm_medium=ios
-
-## On screen text
-
-film had
-ld Book)
-a set of
-laws or
-orpin
-everythi
-he texture
-ofrelati
-This is howyou can
-World M
-he right i
-oa
-generatic
-3D
-iviron
-doing ouragentic
-recorde
-have tex
-Trans
-So yeah, link in thebio

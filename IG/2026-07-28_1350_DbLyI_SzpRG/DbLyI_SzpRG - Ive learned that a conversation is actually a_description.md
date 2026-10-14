@@ -34,12 +34,3 @@ By now, we should be comfortable enough in the conversations for me to start lig
 These questions are still great even when I'm not approaching someone romantically. 
 
 Save this post to never stress about what to ask your crush in conversations again.
-
-## On screen text
-
-eek so far?
-.Curiosity Questons
-isual thinking
-. ImaginationQuetions
-most alive?
-5. Emotional Questions

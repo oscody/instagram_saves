@@ -49,22 +49,3 @@ What videos help with confidence, AI, and money mindset?
 What videos teach personal branding and how to start a business?
 
 #recommendations #perspective #mindset #psychology #ai
-
-## On screen text
-
-# Learning
-Hobart
-18:19
-IED
-LEARN
-#3AI
-CLAUDECOWORK
-For Beginners
-laude owork for Duies 101
-EVERYTHING.
-#Business
-STARTNOW
-O
-1:07:40
-Zero Employees)
-BUSINESSES

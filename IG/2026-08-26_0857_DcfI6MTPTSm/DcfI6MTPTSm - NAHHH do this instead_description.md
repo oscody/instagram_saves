@@ -30,18 +30,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 NAHHH do this instead #viewmaxpartner
-
-## On screen text
-
-make that much
-MIRACMAM
-Video Generator
-2IV
-RAHAM
-how muchmoney does a Yourub
-shortemake for 55mlin views?
-55M views$11,000
-00
-viewsso
-2V
-IRAA

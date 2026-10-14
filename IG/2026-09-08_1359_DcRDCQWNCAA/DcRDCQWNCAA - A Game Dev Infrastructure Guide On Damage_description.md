@@ -26,21 +26,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 A Game Dev Infrastructure Guide On Damage
-
-## On screen text
-
-CENTRALIZE DAMAGE
-New Script.cs
-do is createa
-NoOptimization
-With.Optimization
-Here'sasideby
-1,000,000 DAMAGE
-CALCULATIONS
-CPUTIME
-1000ms
-NO BURST
-X SPEDUP
-Cpu time. That is
-240 ms
-BURST

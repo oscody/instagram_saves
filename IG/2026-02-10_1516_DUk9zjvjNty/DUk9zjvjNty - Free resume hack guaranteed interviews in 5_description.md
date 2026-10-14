@@ -49,14 +49,3 @@ Follow @ByAditiMishra to get ahead ahead in your career & finances
 Comment “AI” for all prompts + templates 👇
 
 #resume #chatgpt #jobsearch #career #ats
-
-## On screen text
-
-Manypeopletu tolifecoac
-seprogrammes
-toherndiapoinmentevenca
-withoutpaying
-STEP2
-using thesekeywords
-these requirements:
-FORMATTING RULES:

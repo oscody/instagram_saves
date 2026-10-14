@@ -47,23 +47,3 @@ It’s time for winter-lock-in, and if you’re pondering whether AI is the righ
 I created a detailed AI engineering roadmap that guides, supports and encourages you to learn the right skills and enable yourself to work ASAP.
 
 Comment “ROADMAP” and I’ll send you the link!
-
-## On screen text
-
-Al certificates you should
-take this winter to
-become 1% Al engineer
-MIT Certificate Program
-in ML &AI
-Professional Cerifcate
-BACKTOCOURSECATALOG
-IPEN HOUSE
-10010088
-Vachine
-earning
-ArtificialInte
-tanfod School o Engineering
-Aricanteligence oraut
-Certificate
-0000
-OVERVIEW

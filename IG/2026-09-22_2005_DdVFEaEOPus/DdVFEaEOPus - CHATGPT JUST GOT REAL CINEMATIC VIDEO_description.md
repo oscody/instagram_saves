@@ -40,16 +40,3 @@ ChatGPT does the thinking. Higgsfield does the making.
 👉 https://higgsfield.ai
 
 #HiggsfieldCreator  @higgsfield.ai
-
-## On screen text
-
-CHATGPT JUST GOT
-REAL CINEMATIC VIDEO
-ChatGPT
-YOU GOTTAALLOW
-https://higgsfield.ai
-REAL CINEMATICVIDEO
-MY.USING SEEDANGEEVEN
-https://higgsfieldai
-. SOTSCONNABEVANDV2
-https://higgsfield.i

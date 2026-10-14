@@ -17,16 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 They made this for us millennials who watched anime in 80s & 90s #nerd #anime #manga #comics #sekiro
-
-## On screen text
-
-An Anime For The Uncs
-krrectio
-xQ
-sekire
-Blu
-F
-AIl
-SOLO
-An Anime For TheUncs
-sekir

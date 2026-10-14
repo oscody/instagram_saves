@@ -23,10 +23,3 @@ thank you @ghst__studio for the food for thought
 looking forward to the parade again next year 🏃🏾‍♂️
 
 #westindiandayparade #caribbean #hurricaneseason #carnival #art
-
-## On screen text
-
-had hepportunty BJ
-restored and regenerated
-aren't eve
-going to the parade

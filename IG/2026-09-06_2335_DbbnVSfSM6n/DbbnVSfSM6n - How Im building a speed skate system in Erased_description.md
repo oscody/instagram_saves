@@ -28,16 +28,3 @@ Written by claude-haiku-5-5.
 How I’m building a speed skate system in “Erased” like “Alita: Battle Angel”
 
 #Erased #GameDev #IndieGame #SpeedSkate #AlitaBattleAngel
-
-## On screen text
-
-SO YOU CANREALLY
-MY MOTIONS
-FEATURED
-UMMUNLT
-sarch bynae or labei
-NEW
-Pinata Whack
-PNO.C
-Back Flip
-Front Roll

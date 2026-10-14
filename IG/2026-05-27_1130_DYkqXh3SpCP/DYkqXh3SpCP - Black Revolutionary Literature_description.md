@@ -17,17 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Black Revolutionary Literature 🍯
-
-## On screen text
-
-SONES
-BEYOND CONTAINMENT
-oColourBara
-Edited by Carole Boyce Davie
-REYOLUTTONARY
-SUICIDE
-HUEYPNEWON
-COLONIALISM
-AIMCCSAIRE
-TRANSLATEDE
-PLOAN

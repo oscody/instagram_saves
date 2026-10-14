@@ -48,12 +48,3 @@ Step 9: Import the organized XML back into Rekordbox
 I turned the whole workflow into a Claude skill that automates this for Rekordbox or Serato! Comment “library” and I’ll send you the link. @claudeai 
 
 #djlibrary #djorganization #rekordbox #serato #djtips
-
-## On screen text
-
-lmewalk ou through the
-process that I took using
-rekordbox
-etcetera
-Step I had Claudeaudit
-the entire library

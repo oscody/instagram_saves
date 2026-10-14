@@ -19,10 +19,3 @@ Written by claude-haiku-5-5.
 “From the moment you were born you were so thoroughly indoctrinated by the insanity of Western European world views you can’t bear to see yourself the way nature would have you…..” -Blair Underwood
 
 #BadHair #FlyingAfrican
-
-## On screen text
-
-It's ridiulous. I'm sorry
-and theirwdomis make believe
-ebouwhetyoureleeandwhoyou
-might have been

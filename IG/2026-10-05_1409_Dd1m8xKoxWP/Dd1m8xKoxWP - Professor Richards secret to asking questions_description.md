@@ -23,18 +23,3 @@ Written by claude-haiku-5-5.
 Professor Richards’ secret to asking questions: Laurie Mulvey
 
 #soc119 #pennstate #pennstateliberalarts #winc
-
-## On screen text
-
-woridinconversation.psu.edu
-Worlan
-Conversation
-DONATE NOW
-HOME OURTEAM LAURIEMUIVEY
-at World inConversation.
-Laurie Mulvey
-DIRECTOR
-CLINICAL PROFESSOR
-laurewordnconveration.or
-s6c119.erg
-soc119.org

@@ -17,19 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Happy Caribbean American Heritage Month and Happy Read Caribbean Month!! 🇯🇲 🇹🇹 ✨
-
-## On screen text
-
-An Arcane Inheritance
-Kamilah Cole
-ARCANE
-INERTANCE
-UTHO
-The Ghosts of
-Gwendolyn M
-ClarenceAHay
-THE
-GWEND
-OLIVIE BLAKE
-CLARENCE
-OLIVIE

@@ -49,11 +49,3 @@ Across multiple benchmarks, Claude tends to use roughly 2–4× more tokens than
 So next time, instead of waiting for your tokens to reset, give @openai Codex a try!
 
 #claude #aihacks #openai #automation #claudecode
-
-## On screen text
-
-Hwhae ueaeii
-Hi Clsude.
-Hi Claude,
-Youve eachedyourrate limt.
-Please try again later.

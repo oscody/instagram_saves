@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #claude #obsidian #apprentissage #notebooklm #secondbrain
-
-## On screen text
-
-Claude+Obsidian +
-NotebookLM
-Claude + Obsidian +

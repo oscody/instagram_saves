@@ -49,27 +49,3 @@ Students using the AI version scored significantly higher and every single one s
 After 500 years of static textbooks, this could be the first time learning finally adapts to the student.
 
 🔥Comment “PAPER” and I’ll DM you the link to access it.
-
-## On screen text
-
-umans. Experts
-elieve the genus
-Homo evolved from
-Australopithecus.
-hisreplica shows the
-kull of Homo habiis,
-peared about two
-o three million years
-o.Habilis mean
-handyand while i
-S
-ieywe
-made earlier. Homo
-pilisha
-pr four feet tall
-Partially restored
-your
-understanding this
-species.
-into audio
-confident

@@ -33,20 +33,3 @@ Most people are obsessed with learning a particular skill.
 I’m obsessed with the ability to learn skills.
 
 Comment the word “skill” and I’ll send you the full video.
-
-## On screen text
-
-ANY
-HOW TO LEARN ANYHInG
-INDIVEDUAL POINTS
-CONNECTIONS
-3
-2
-TOTALITY
-SEQUENCES
-separately,
-NDIVIDUALPOINTS
-CONECTIONS
-4
-there
-ANYTHING

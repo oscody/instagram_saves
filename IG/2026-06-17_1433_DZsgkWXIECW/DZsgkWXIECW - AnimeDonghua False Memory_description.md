@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 Anime/Donghua: False Memory 
 Release Date: Summer 2026 TBD 
 #anime #animerecommendations #donghua #newanime
-
-## On screen text
-
-FALSEMEMORYIS
-WHENPEOPLEEXPERIENCE
-ORSIMILARPREMISE.

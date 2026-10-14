@@ -19,16 +19,3 @@ Written by claude-haiku-5-5.
 Comment below AGENT to try the best video agent ever!
 
 #videotools #technology #ai
-
-## On screen text
-
-CARBOA
-OP
-BATEPAPO
-Ask aquestion
-KONSTANTINOSCLONEAVATARSVICO
-News tovideo
-Xpost to video
-Script to video
-out of a
-TL

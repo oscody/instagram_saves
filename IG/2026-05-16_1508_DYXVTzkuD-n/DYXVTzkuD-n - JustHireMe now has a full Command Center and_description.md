@@ -33,22 +33,3 @@ Ships with:
 Still 100% local, private, open source & free.
 
 👉 https://github.com/vasu-devs/JustHireMe
-
-## On screen text
-
-AI JOB SEARCHAGENT
-JUST DROPPEDA
-MASSIVE UPDATE
-ITS CALLEDJUST
-https://github.cor
-Vasu-devsJustHireM
-JUST DROPPED A
-carded Job
-H OUTREACH GENERATOR
-https://github.com/
-Vasu-devs/JustHireMe
-AIJOB SEARCHAGENT
-JUSTDROPPED A
-CANFIGUREHOW
-https://github.co
-Vasu-devs/JustHireM

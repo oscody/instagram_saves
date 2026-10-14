@@ -21,28 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #WorkforceDevelopment #fundingopportunities #business #grantwriting #VIP #CommunityEmpowerment #grants #dunbarmetaversity
-
-## On screen text
-
-Grants For Black Men
-Men's Appreciation Grant
-Programby Fearless
-Fund $10k
-The Coalition to Back
-BlackBusinesses 5,00
-The FedEx Small
-Business Grant Contest
-$50.000
-Northwestern Mutual
-BlackFounder
-Accelerator S100,000
-Power Forward Small
-Business Grant S25k
-Program by Fearless
-Fund S10k
-Black Businesses ,00
-$50,000
-Accelerator $100,000
-Grab my Million Dollar
-Grant List
-Link in Bio

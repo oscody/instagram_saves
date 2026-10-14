@@ -28,10 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 how to develop an insane memory
-
-## On screen text
-
-A
-memory formation
-something that
-Thisappplus themethod

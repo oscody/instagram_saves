@@ -32,7 +32,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 We’re going to be in this loop of wanting to use the newest most expensive model without lighting dollars on fire for the rest of time so might as well get good at it
-
-## On screen text
-
-Urusing Claude at 5%

@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 The legendary story, The Three Musketeers, has black history hidden in plain sight. 
 
 Why did nobody tell us this?
-
-## On screen text
-
-ACROSS
-HEAGES
-ECES

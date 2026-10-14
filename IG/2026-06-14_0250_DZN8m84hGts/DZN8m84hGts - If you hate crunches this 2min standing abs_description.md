@@ -30,15 +30,3 @@ If you hate crunches, this 2min standing abs workout is for you 👏
 .
 .
 #abs #workout #ab #absworkout #explore
-
-## On screen text
-
-OUNO#
-00:06
-FRITZ_FTNESS
-ROUND3
-00:02
-FRITZ_FITNESS
-ROUND
-00:17
-FRITZFITNESS

@@ -21,9 +21,3 @@ ChatGPT-6 Astra built out the Hidden Leaf Village…
 bruh this thing built out Konoha: with an actual Ichiraku Ramen shop and the Chunin Exam arena lmao
 
 #ai #chatgpt #chatgpt6 #vibecoding
-
-## On screen text
-
-look how beautifu
-recognize this
-skills eveledup

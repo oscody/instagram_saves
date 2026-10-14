@@ -53,18 +53,3 @@ It hits different when you realize the spoon isn’t the thing that needs to ben
 
 Reality is a reflection, not a requirement.  
 #Mindset #Motivation #Growth #SelfBelief #LifeLessons
-
-## On screen text
-
-ALSOREPELS THINGS
-AWAYFROMYOU.
-DAMNILITERALLY
-CANNOTSAYIT
-Thoughts
-create
-feelings
-Behavior
-einforces
-oughts
-IT'S STRAIGHT UP
-SCIENCEANDIT

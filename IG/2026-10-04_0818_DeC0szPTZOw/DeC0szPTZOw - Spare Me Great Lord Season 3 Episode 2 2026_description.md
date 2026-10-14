@@ -27,17 +27,3 @@ Animation By: Hsu Injia
 Not something that is the norm for this series and hopefully is not a one episode wonder. You can find the first two seasons on YouTube and this one on WeTV.vip 
 
 #kungfu #martialarts #donghua #anime #fyp
-
-## On screen text
-
-This secuence isust beutifulin
-this Donghua series.
-timessqkungfu
-Spare Me, Great Lord
-Season 3Ep.2
-This seuence iust beautifulin
-this onghua series.
-timesskungfu
-Spare Me, Great Lord!
-Thisseuence isust beutifulin
-@timessqkungfu

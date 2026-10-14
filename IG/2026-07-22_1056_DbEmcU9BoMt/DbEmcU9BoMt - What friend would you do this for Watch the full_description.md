@@ -43,15 +43,3 @@ Grip: @tali.baptiste
 Sound Mixer: @tony_troy246 
 
 Sound Utility: @iamjdego
-
-## On screen text
-
-When You catch Your Friend
-on adatewith their ToxicEx
-What?
-on adatewith ther ToxiEx
-Spinning the block,
-shooting up the club,doing
-drive bys on that cabaret,
-When You catch YourFriend
-Why don't you play along?

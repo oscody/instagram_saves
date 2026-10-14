@@ -40,22 +40,3 @@ Credit: chirovisuals on X
 Follow @activeprogrammer for more programming and tech discoveries.
 
 #threejs #webgl #javascript #programming #opensource
-
-## On screen text
-
-PLA
-BUILT
-ADEVELOPERB
-VEXPLAYGROUND
-THS
-INSIDE
-WEBBROWSE
-OPENSOURCE
-ANDT'S
-@activeprogrammer
-Bulwhhre hs opesouree
-elemental abilities
-Everi enerenee
-No textures.
-No sprite sheets.
-No baked meshes

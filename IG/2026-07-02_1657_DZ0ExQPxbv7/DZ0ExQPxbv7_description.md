@@ -39,9 +39,3 @@ Original creator and audio by @christalynn.95 ✨
 .
 .
 #theblackmermaid
-
-## On screen text
-
-they not problems friend
-everything shifts
-is you

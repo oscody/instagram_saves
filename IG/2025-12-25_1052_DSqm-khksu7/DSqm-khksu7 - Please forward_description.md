@@ -22,31 +22,3 @@ Written by claude-haiku-5-5.
 
 Please forward!! 
 #jobsearch #career #careergrowth #jobs #civilservice
-
-## On screen text
-
-STATE UNIVERSITY OF
-YORK
-D BY YORK COLLECE
-SITY OF NEWYOR
-CITYUNN
-Jan29
-BeaNY
-Civil Servant!
-Get tons of
-Scan Me
-BENEFITS
-2026
-JANUARY 29.
-THURSDAY
-EACH SESSION INCLUDES.
-Valuable infor
-aboutth
-Han
-ives the
-ments,job descriptions,
-requ
-eoc
-QUEENS
-on-Wods9:30AM
-3PM

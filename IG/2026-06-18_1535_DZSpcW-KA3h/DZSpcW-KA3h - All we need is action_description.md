@@ -17,18 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 All we need is action
-
-## On screen text
-
-There is no rest fortheman
-who has seen theperson he
-was born to become
-epictetus
-VHO
-BORNSLAVE ALMOST
-There is no rest foritheman
-MAYBEYOUWANNA
-SACONTENT
-who has seen thepersonhe
-ORIFLUCK
-NAS ONYUR

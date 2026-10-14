@@ -78,9 +78,3 @@ The exact protocol my family and I use for detoxing, deworming, timing, dosing, 
 Comment “GUIDE” and I’ll send it over.
 
 This is not medical advice. I’m sharing for educational purposes only, always do your own research. 🧐
-
-## On screen text
-
-$20
-ITH5TO
-Stalittle

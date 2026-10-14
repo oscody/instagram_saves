@@ -31,31 +31,3 @@ Written by claude-haiku-5-5.
 .
 .
 #claude #ai
-
-## On screen text
-
-Donot just copypaste
-Contentdrectyfrom Claude
-Many companeanautodetet
-COGGINS
-this and canautoreectyou
-Three steps to avoid this
-Full Name
-Veeraj Gadda
-Nickname
-Veeraj
-UpdateProfile
-PersonalPreferences
-Lgugu Iiuy
-uptons onrbiaeand
-shy awayromdisagreeon when ns
-wedndenureany
-I'm
-weyui
-preferencespastethis
-promptandcioudwill
-K
-Z
-123
-ThirdlyuseClaudetogeta
-Startorhelpbutalsoput

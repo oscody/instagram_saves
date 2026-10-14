@@ -21,12 +21,3 @@ ARE THESE ANSWERS VALID? 👀🎶
 TICKETS FOR AUGUST 16 DROPPING SOON! ☀️
 
 #spintheblockparty #dayparty #summer2026
-
-## On screen text
-
-SpendDat
-SLM
-VerifiedbySpotify
-0g8monthy liteners
-Follow
-i Litentothonewrack

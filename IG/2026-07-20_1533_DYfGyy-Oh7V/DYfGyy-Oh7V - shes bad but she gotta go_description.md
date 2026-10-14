@@ -17,16 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 she’s bad but she gotta go
-
-## On screen text
-
-Doyouknowwhata
-mortgageloanis?
-TGAGELOAN
-Do youknow how to build
-and keep yourweath?
-Chapter la
-PORTFOLIO IDEAS TO BULD
-AND KEEPYOURWEAITH
-wasnt on sale. But nowit
-is.

@@ -24,7 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Reuse Old Cellphones As Personal AI Servers
-
-## On screen text
-
-eois bns

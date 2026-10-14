@@ -28,14 +28,3 @@ Written by claude-haiku-5-5.
 
 Link in my bio + Comment Al to learn #lifestyle #aiagency #explorepage #reels #tech #softwareengineer #aiagents #ai #n8n
 #aiworkflows
-
-## On screen text
-
-Hi,Riley.
-Uhjust do the gelmanicure
-and then she was also
-talking about getting a
-gh
-information but once you
-do that youjust go to this
-so the NNworkflow is

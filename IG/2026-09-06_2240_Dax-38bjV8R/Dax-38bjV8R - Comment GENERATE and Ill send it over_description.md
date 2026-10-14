@@ -21,15 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment 'GENERATE' and I'll send it over.
-
-## On screen text
-
-banana-pro-
-director
-skill.md
-#
-AIS
-PROMPT
-Avoun womanwheback harpued
-Sharp amondshaped ark brown eye
-they came

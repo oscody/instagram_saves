@@ -30,38 +30,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: SpaceshipGenerator
-
-## On screen text
-
-SpaceshipGenerator
-Todays opensource project
-grows them froma single box:
-one ship, step by step
-a few faces stick out
-Thenaw randomfaces stik out
-smaller each time.
-br
-591
-get aspectatioface4
-ontinue
-59
-in..
-jace
-# Maybe apply Some scaling
-uniform(1.1,1.5)
-ceceb,ce,,s
-602
-paceship_generator.py
-paceshipenetorEN
-Fle0140
-da3yearsao
-8 Lines (29 loc  1.69 KB
-CodeBlame
-he MT License MIT
-ranted, f
-free of charge
-right
-use it, change it,share i
-keep the notice.
-O.
-camera, starsi ours

@@ -17,20 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 if hood dudes had a anime power system
-
-## On screen text
-
-IHoodDudesHadan
-Anime PowerSystem
-NONSENSE
-THE 4 TENETS OF STAIN
-STAIN
-CRASHOUT
-TENTOES
-T
-Users withthiss
-ytohola thetr
-AURA
-MOTION
-theyspent
-you know

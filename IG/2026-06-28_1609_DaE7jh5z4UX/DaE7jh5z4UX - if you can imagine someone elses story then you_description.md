@@ -48,37 +48,3 @@ you think this is silly, but it works
 and nothing will train you better to create “worlds out of thin air” than reading stories that require you to do just that 
 
 Don’t believe me, try it
-
-## On screen text
-
-NHE
-ORLD
-Rober
-oram
-AE
-ND
-BRAN
-THE
-BBIT
-RRTollen
-OF THESTORMLICHT ARCHIVE
-AORLD
-HF
-oroar
-IND
-ao
-CE
-NDENOUN
-astofeel So real to
-our Subconscious mind
-.RRTalin
-SE THE STORMLIGHTARCHIVE
-INH
-EYEOFTHE
-TRIC
-VORLD
-DIHFS
-ltostari
-thinkingabout your
-gRRThin
-OF THESTORMLIGHTARCHIVE

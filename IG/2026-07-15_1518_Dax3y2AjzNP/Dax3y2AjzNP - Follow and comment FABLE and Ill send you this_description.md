@@ -38,38 +38,3 @@ How does the /goal command work in Claude Code?
 Which projects teach loop engineering?
 
 #ai #claude #aitools #automation #coding
-
-## On screen text
-
-1.3D Simulation
-Lear ur ro
-penu aude code terin.
-rt earning to emb sairs
-0:00/0:14
-It' ol because ts the
-labs care about.
-Give n agent  body and a
-and wateh 1t earn the k1
-Training  policy from ser
-easy to explore and ompare.
-Netfii,Bc.or for kids.
-4.Marketing
-01/07
-growthadvice is tee
-owgot to100
-yit'st
-02/07
-Salt Lake Cityweekend
-9:30am
-$800
-Day1-Arrival
-RIJUL
-Friday
-ANDSETTLEIN
-Fly into s
-Afternoon
-inn
-First drink
-The CONSTRAINTs Line h
-VERIFICATION line force
-on your dates instea

@@ -30,29 +30,3 @@ Written by claude-haiku-5-5.
 Comment below “FULL” for the Prompt guide and the Full tutorial!!
 
 #claude #printify #prompts
-
-## On screen text
-
-Go to Claude Al
-And use this prompt
-replan Upgrade
-Afternoon Konstantinos
-what
-Sonnet 4.0
-Will giveyou theTop sub
-niches to select
-onceaniery
-Digianoawrk esye
-rovintageaesthetics
-tlecultu
-Welghtliftir
-Ceramicug (oz/15oz)
-oster/wallart(8x24)
-Reply.
-Sonnet 4.6
-And select the Printify
-Best sellers ithmax margins
-Printify
-iters& Sortin
-Bestsellers
-3

@@ -34,13 +34,3 @@ do NOT listen to developers that have never shipped a product… LEARN how to op
 YOU CANNOT SCALE WITH VERCEL🚨
 
 #ai #vibecoding #aiagents #aiagent #coding
-
-## On screen text
-
-an ARl reques
-do you know how like
-trmal that woud  to
-your mental health
-and managee
-to run VP
-VPS

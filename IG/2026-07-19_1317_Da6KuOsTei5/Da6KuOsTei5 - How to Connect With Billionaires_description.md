@@ -26,10 +26,3 @@ Written by claude-haiku-5-5.
 
 How to Connect With Billionaires 🤯 @theschoolofhardknockz 
 A billionaire explains why luck isn’t random—it’s created through networking, showing up, and putting yourself where opportunities exist. If you stay in your comfort zone, you’ll never find the people who can change your life.. #wealth #ﬁnancialfreedom #entrepreneur #motivation
-
-## On screen text
-
-YOU'RE NOT GOING
-THEY'RE RUNNING
-ILL GO TO THE HAPPY
-HOUR. ILL NETWORK.

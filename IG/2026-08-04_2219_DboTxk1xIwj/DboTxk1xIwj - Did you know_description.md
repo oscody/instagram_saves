@@ -24,9 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Did you know ?
-
-## On screen text
-
-and it's growing up
-t's gravitropic in nature
-that is oneof the

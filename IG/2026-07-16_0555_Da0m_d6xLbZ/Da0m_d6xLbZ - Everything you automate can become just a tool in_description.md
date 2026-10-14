@@ -23,14 +23,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Everything you automate can become just a tool in a larger augmentation
-
-## On screen text
-
-Job12:7
-Augment
-EXISTED
-Job12:71
-480
-9
-UNDERSTOOD
-HUMAN

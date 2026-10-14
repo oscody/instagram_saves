@@ -35,29 +35,3 @@ Let me show you 3 of the MOST important websites to know about as a 3D artist—
 Bookmark this video so you don’t forget and check out my page for tons of 3D tutorials and tips! CREATE MORE.
 
 #gamedev #websites #digitalart #3dmodeli̇ng #3dart
-
-## On screen text
-
-Theyfollow
-@
-Pt
-Pr
-T
-Ds
-Finalnote: By subitingd
-license Pleose ony submit d
-you use the Assets.
-a significant way.
-urposes alwhout athg peaton
-OMGLORD
-Search the site
-Figma Plugins
-Better Font Picker
-Gaechangerfortypeexplorations.
-Material Design Icons
-is money.
-Paginate
-Figma
-Scale
-Super Tidy
-Thicithe

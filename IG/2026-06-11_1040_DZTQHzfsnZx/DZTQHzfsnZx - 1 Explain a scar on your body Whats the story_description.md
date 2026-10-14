@@ -59,18 +59,3 @@ Written by claude-haiku-5-5.
 17. Five years from now, what would make you feel like your life turned out exactly the way you hoped?
 
 Comment “Wolf” for free boys 2 men guide 🐺📚
-
-## On screen text
-
-17QUESTIONS TOASK
-HERONADATE
-THATWILI
-MAKE
-HERNEVEREORGETYOU
-(SAVE4LATER
-17 QUESTIONS TOASK
-THATWILLMAKE
-HERNEVER FORGETYOU
-(SAVE 4LATER)
-COMMENYOLFFORFREE
-BOY2MENGUIDE

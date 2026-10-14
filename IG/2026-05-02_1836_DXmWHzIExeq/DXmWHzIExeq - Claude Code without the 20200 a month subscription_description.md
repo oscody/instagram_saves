@@ -44,36 +44,3 @@ The repo has 12,332 stars on GitHub and was last updated today. Anthropic isn’
 I put together a free setup guide with the exact two terminal commands and the NVIDIA signup link. Comment NVIDIA and I’ll send it over.
 
 #ClaudeCode #AI #FreeAI #DevTools #Coding
-
-## On screen text
-
-eg
-Favorites
-Shopify
-Amazon
-STEP1
-Google
-Built with
-Trends
-Claude Pro.
-from
-openai
-import
-sys
-REASONING_COLOR
-0339
-RESETCOLOROSSOf
-client
-https://int
-base_url
-api_key
-nvapi-SCgHB
-DBb
-completionclient.cha
-modo1a-i/gn4.7
-CALLS PERMINUTE
-temperaturesi,
-top_p=1,
-lone1AR
-mAy
-PUTTOGETHER

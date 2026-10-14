@@ -32,18 +32,3 @@ Written by claude-haiku-5-5.
 Comment AI for the workflow.
 
 #seedance #artlist
-
-## On screen text
-
-How
-YO
-DO THS
-Afternoon, Ashu
-How can help youtoday?
-+chat Cowork
-Opus 5 High
-to analzyse
-Evening,how are things
-pus 5HI
-1
-and location sheet

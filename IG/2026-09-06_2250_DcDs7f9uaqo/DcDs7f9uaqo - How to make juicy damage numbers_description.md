@@ -35,22 +35,3 @@ How to make juicy damage numbers!
 Made smth small )) been busy catching up with uni assignments 
 
 #gamedev #pixelart #tutorial #code #indiedev
-
-## On screen text
-
-JUICY DAMAGENUMBERS
-THE SAD DEFAULT
-12
-JUICV DAMAGENUMBERS
-OPICOLOURETVPE
-Pop
-FLOAT
-FADE
-ARC
-SIZE
-COLOUR
-STACK
-SPREAD
-CRIT
-ALL TOGETHER
-27

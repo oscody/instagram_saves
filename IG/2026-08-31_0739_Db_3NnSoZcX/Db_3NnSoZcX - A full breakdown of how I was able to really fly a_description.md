@@ -31,9 +31,3 @@ Be sure to save this for your next trip to Vegas and turn it into the ultimate m
 And follow for more travel content just like this
 
 #solotravel #lasvegas #adrenaline #explore #thingstodo
-
-## On screen text
-
-THE STRIP
-FORYOU TO
-A LIFETIME

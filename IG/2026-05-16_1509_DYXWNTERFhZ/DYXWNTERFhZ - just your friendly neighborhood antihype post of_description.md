@@ -17,14 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 just your friendly neighborhood anti-hype post of the day.
-
-## On screen text
-
-roverbs25:2
-ent
-S
-r
-the
-use
-OA
-orsrr

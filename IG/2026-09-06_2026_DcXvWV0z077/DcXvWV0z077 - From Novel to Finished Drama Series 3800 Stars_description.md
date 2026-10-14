@@ -25,31 +25,3 @@ Written by claude-haiku-5-5.
 Source: https://github.com/dramaclaw/dramaclaw
 
 #OpenSource #AI #AIGC #VideoGeneration Drama Storytelling Filmmaking ContentCreation GenerativeAI fyp foryou
-
-## On screen text
-
-is is the inaustria
-OI
-Tear down the wl
-fthis resonai
-AN
-TrailerBiibi
-Madewith Dramaclaw
-ick a link to play
-eal shor
-AA
-hat is DramaClaw?
-athough 's buit around
-RT
-TE
-TORYBOARDS
-waa
-E
-Quick Start
-uriLohttp
-l eveopenvFhon.
-ep env.e
-RESTAP CE dfauts to
-SupportedModels&Provider
-maclaw staysmodel-neutr
-1 upfo

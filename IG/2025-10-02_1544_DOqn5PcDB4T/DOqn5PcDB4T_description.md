@@ -19,21 +19,3 @@ Written by claude-haiku-5-5.
 1. Time to first token (TTFT) is the time between submitting a request and the first token being generated.
 2. TTFT in LLM inference can be reduced through smart cache eviction.
 3. TTFT in LLM inference can also be reduced through intelligent routing policies.
-
-## On screen text
-
-CONF
-P99
-ONLINEOCT22+23,2025
-John Thomson
-eep Leaninglorithms Enginer
-Ill be speaking about
-ow-latency LM inference,
-A ScylaDB Community
-P99 CONF
-ONLINE|OCT22+23,2025
-which is the amount of time
-betwecn recquest submission
-AScylaDB Community
-Hope to see you there.
-A ScyllaDB Community

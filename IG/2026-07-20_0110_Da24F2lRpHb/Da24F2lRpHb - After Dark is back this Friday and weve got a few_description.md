@@ -30,7 +30,3 @@ Upcoming dates:
 Tickets are available online so grab yours before they sell out.
 
 #mountaincreekwaterpark #waterpark #waterparkafterdark #njfun #njevents
-
-## On screen text
-
-AFTERDARK

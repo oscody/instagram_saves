@@ -17,8 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 This a trial reel, so if your into fashion or looking to switch up your style shoot me a follow🤞🏾 #mensfashion #menstyle #menswear
-
-## On screen text
-
-of them,
-my account is for you.

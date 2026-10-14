@@ -29,7 +29,3 @@ AI has no limits. Apparently, neither does my token bill.
 Would you spend your last tokens on this? And which game should I bring into the room next?
 
 #Pokemon #AugmentedReality #VibeCoding #GPT6
-
-## On screen text
-
-RVELE

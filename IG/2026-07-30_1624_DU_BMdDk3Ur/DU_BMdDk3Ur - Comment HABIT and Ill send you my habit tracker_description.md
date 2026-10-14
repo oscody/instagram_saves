@@ -28,25 +28,3 @@ Stick to the plan bro.
 Your dreams are 12 months of consistency away.
 
 #selfimprovement #discipline #selfgrowth
-
-## On screen text
-
-Bro: I'm going tomarry herr
-Also Bro months later:
-Week1
-Habits
-Su
-Mo
-e
-Wake up at 05:00
-Gym
-Bro: "I'm going tomarry her
-February
-Hours of Sleep
-Habit Count
-DailyProgres
-Bro m going tomarry herr
-Also Bro  months later:
-Wednesday
-Tuesday
-Monday

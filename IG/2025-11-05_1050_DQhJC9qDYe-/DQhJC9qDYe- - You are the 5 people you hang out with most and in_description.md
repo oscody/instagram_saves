@@ -53,15 +53,3 @@ Tech creator who makes software engineering and coding concepts approachable, fu
 Content creator demystifying tech careers and helping beginners break into software development with humor and honesty.
 
 Links in bio🌟
-
-## On screen text
-
-Communjiestojoinii
-you're serius abeut
-getingintoTechy2025
-communtiestojpinif
-you'reseriouscbout
-ettingintoechy2028
-Communitestojoinif
-you'reserousabout
-gertingintoTechby2020

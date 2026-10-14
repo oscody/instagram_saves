@@ -31,10 +31,3 @@ Written by claude-haiku-5-5.
 Comment “skill” to get a link to it 👇
 
 #ai @duncanrogoff
-
-## On screen text
-
-IS
-FACT
-OR
-HYPE

@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Y Combinator just released a list of startups they want to invest in. The list outlines startups that YC is looking to fund in 2026. If you are a startup founder building or an investor allocating capital, these areas might be of interest to you. Here's my full breakdown of the list.
-
-## On screen text
-
-BUTHOW DO YOU KNOW
-SUPER MANUAL
-THE UNITED STATES

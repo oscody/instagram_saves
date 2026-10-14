@@ -24,19 +24,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 He exposed a Claude hack that will make anyone successful💰
-
-## On screen text
-
-He exposed a Claude hack
-that will make anyone
-successful
-(itwill blowyourmind)
-Ist go over to Claude and
-write down all ofyour goals
-and desires
-(itwill blowyour mind)
-Tellme a storyof adayinmy
-ife as myuture sel basedon
-this description
-Iwant you to type ths create
-me a dally schedule tofollow

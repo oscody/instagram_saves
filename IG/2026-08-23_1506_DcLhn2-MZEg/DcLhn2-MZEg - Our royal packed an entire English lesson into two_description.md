@@ -44,27 +44,3 @@ Learning can be fun! Rap is worthy of serious literary analysis.
 Part 4 gets even crazier!!!
 
 #EnglishMajorExplains #KnuckIfYouBuck #CrimeMob #HipHopLiterature RapAnalysis
-
-## On screen text
-
-CocaCola
-And CrineMol
-Itbe likeaan
-Neaalve Concord
-AAVE
-Simile
-AlloSion
-thatsactually
-calledanegative
-And CrineMel
-ENGLISHMAJOR EXPLAINS
-LEVISIONT
-A reference to a
-recognizableperson,
-place,event, or story
-without explaining
-it fully.
-LAR
-Allosi
-MUSIC TELEVISION
-Soto breakit

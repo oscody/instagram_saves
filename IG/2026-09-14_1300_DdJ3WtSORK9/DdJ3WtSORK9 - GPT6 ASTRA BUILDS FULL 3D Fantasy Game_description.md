@@ -26,8 +26,3 @@ Make 3D Assets: New users get 500 free credits with code R8OM8Q!
 Link in bio to get started 🔗
 
 #chatgpt #TripoAI #vibecoding #aitools #3dartist
-
-## On screen text
-
-CHARACTERHERE
-/26

@@ -26,22 +26,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Fastest way to learn is by taking it seriously and not relying on others to challenge you.
-
-## On screen text
-
-ONE POINT
-CINEMATIC
-LIGHTING
-14:56
-Tutora Cneueighing in lender
-226Kviews 4 years ago
-This one is great, it's
-1:00
-946Kviews6years ao
-Hubert's lazy tutorials
-OCeometry
-APPLYING
-MATERIALS
-ABSOLUTE BECINNERS
-13:23
-sitting youup with the

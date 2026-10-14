@@ -19,10 +19,3 @@ Written by claude-haiku-5-5.
 this series might actually end up on my top 10 
 
 #donghua #anime #animes #bilibili #otaku
-
-## On screen text
-
-FIGHT SCENES
-ABOUT TO END
-MOMENTS
-@justPepin

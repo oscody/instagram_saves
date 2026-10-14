@@ -39,13 +39,3 @@ If you’re the human: share this reel to Claude Code and watch it build.
 Comment “YouTube” for my full step-by-step guide.
 
 #claudecode #claude #ai #aiagents #aitools
-
-## On screen text
-
-Create any Claude Code Agent
-from YouTube
-almost anyskill set
-Google Al Studio
-because Gemininatively
-G
-Now,I do recommend

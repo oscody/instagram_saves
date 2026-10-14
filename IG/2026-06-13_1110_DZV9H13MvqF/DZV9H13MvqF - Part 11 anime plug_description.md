@@ -23,19 +23,3 @@ Written by claude-haiku-5-5.
 Part 11 anime plug 
 
 #tech #technology #anime #reel #modie
-
-## On screen text
-
-POV Yourfrend asks fora
-plug towatch anime
-you wanna watch anime?
-I gotyourelax
-POVe Yourfriend asks fora
-Dive Backin
-POV: Your friend asks for a
-plug to watch anime
-nimetsu
-New Tab
-X
-animesuge.c
-animesugecz

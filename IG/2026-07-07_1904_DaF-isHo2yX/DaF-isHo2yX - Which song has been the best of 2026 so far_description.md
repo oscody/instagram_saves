@@ -18,35 +18,3 @@ Written by claude-haiku-5-5.
 
 Which song has been the best of 2026 so far? 🇳🇬
 #dj #jinseoul #nigeria
-
-## On screen text
-
-WHICH SONG HAS BEEN
-THEBEST OF 2026 S0FAR
-20% BackOutside
-40%WORSHIP
-60%
-80%
-100%
-150%
-200%
-300%
-350%
-400%
-450%
-500%
-THEBEST OF 2026SFAR? II
-40% WORSHIP
-60%BigBumBum
-0%Tornado
-100%Jogodo
-150% Forgiveness
-ssno
-THEBEST OF 2026 S0FAR?
-0% BigBumBum
-80%Tornado
-200%Gratitude
-300%Chanel
-350% MOTIONSICKNESS
-400%FRE$H
-ssnoi

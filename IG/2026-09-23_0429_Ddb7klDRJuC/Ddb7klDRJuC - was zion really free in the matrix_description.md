@@ -25,16 +25,3 @@ was zion really free in the matrix?
 drop a 🍊 for the full episode
 
 #explore #fyp #matrix #zion
-
-## On screen text
-
-the
-vicmensa
-show
-everything geting cracked and the
-so zion is allowed to
-vic mensa
-The Matrix
-Wasa
-C
-Seeyou againand hatwhabroke

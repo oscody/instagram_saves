@@ -27,20 +27,3 @@ Send this to your friend who should check out this site where people team up aro
 Comment ”startup” and we’ll send you the link!
 
 #startup #founder #startuplife #businessowner #startupideas
-
-## On screen text
-
-T want to Buid a Startup
-u hve orendtosawit
-Twant to Buid a Startup
-buve restotawi
-thousands of startups
-Iwant to Build a Startup
-uve orondstoawi
-probl
-renendmangatansto
-atons
-er
-ategory
-looking
-forcofounders

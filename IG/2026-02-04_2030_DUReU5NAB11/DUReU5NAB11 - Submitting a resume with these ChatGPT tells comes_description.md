@@ -23,31 +23,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Submitting a resume with these ChatGPT tells comes across as lazy. They want to know that you have a command of the written word AND that you can use AI to do more than just the bare minimum. #ChatGPT #AI #resume #jobsearch
-
-## On screen text
-
-Greg Langstaff
-Professional Sumary
-Skills
-Professional
-May
-FIRSTOFFTHIS
-Professional Summary
-nt
-Dash
-EM
-me for high-traffics
-Education
-THESEMDASHES
-owre Developer  ou infras
-ture Enginee
-reeeglangsf.om 112
-Docke
-Repetitive Sentence
-Cloud Securi
-Professional Experi
-Structure
-eadeda Clc
-pea
-for high-trar
-DEAD GIVEAWAY.NOW

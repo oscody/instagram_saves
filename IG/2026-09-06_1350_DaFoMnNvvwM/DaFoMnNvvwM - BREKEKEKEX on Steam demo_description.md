@@ -17,7 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 BREKEKEKEX on Steam demo #demo #edited #steamgames #brekekekex #newgame
-
-## On screen text
-
-BLEM

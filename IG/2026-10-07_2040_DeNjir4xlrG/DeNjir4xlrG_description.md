@@ -21,15 +21,3 @@ Written by claude-haiku-5-5.
 3. Have the AI read each person's LinkedIn profile and public posts, then sort them into one of four archetypes: confidence/salesy, influencer-style fun, nerdy introverted (analyst), and steady/team-loving.
 4. Draft a message for each person based on their archetype: confidence/salesy people get short, to-the-point messages; influencer-style people get a few emojis; steady people get a proper self-introduction, a question about them, and a mention of a mutual connection; analyst people get straight to the point right away.
 5. Mirror each person's communication style by guessing their vibe, rather than applying for the job directly.
-
-## On screen text
-
-Linkedin profiles
-licwriting
-Unclcar? Revie
-Steady
-vibe
-Warm. Team first. Giv
-credit.
-Introduceyourself. Ask ab
-steadfast,

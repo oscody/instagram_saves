@@ -22,21 +22,3 @@ Written by claude-haiku-5-5.
 
 Follow and Comment “DECEMBER” to get the full list
 Follow 👉🏿 @grantwinnersclub
-
-## On screen text
-
-Opportunity
-GOOD LUCK!
-22
-tv
-Bing
-hnually
-Apply NOW
-BUSINESS!
-Winner
-ORDEB
-LIFE
-LIFEORDEB
-Grant Seekers,
-Ist giv
-atv

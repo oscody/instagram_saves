@@ -59,17 +59,3 @@ My services:
 ✅ Funding Readiness Score, included with your initial consultation, discovery session to determine exactly how grant ready you are before you apply starting at $197
 
  #menownedbusiness #minoritybusinessowner #minorityownedbusiness #businessgrants
-
-## On screen text
-
-Emailing all the men
-entrepreneurs these
-summer 2026 business
-grants and all they need
-is one yearin business
-and an EIN
-utMEN ONLY forinks andhelp
-ut MENONY torinks an help
-grants and allthey need
-s one yearin business
-ut MEN ONLY forinks anc help

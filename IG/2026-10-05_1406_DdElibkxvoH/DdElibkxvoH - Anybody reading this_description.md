@@ -17,27 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Anybody reading this? #manga #mangareview #mangarecommendation #otaku #mangaart
-
-## On screen text
-
-91Days
-IJUST
-COUNTED.
-SPLITTING
-SHORT
-LOOKE
-NOTICE
-DUN.
-LONG
-STTER
-DUUUN
-LENGTH.
-50
-THEMOST
-MADEA
-OMMON
-REIN
-JAPANESE
-ESIS,
-DOT DASH
-THOUGHT

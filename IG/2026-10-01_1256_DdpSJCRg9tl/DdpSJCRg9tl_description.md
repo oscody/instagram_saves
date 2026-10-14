@@ -13,14 +13,3 @@ described_at: "2026-10-08"
 A short promo video for Guillermo del Toro's Pan's Labyrinth 20th Anniversary, shown in theaters, with creature imagery and the on-screen line "Get Tickets Now." The transcript is a single "Oh."
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-THEATERS
-GUILLERMODELTORO'S
-PAN'S
-ABYRINTH
-20 Anniversary
-Get
-Tickets
-Now

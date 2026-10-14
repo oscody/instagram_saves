@@ -26,7 +26,3 @@ Written by claude-haiku-5-5.
 🛰️ Gwangju, Republic of Korea🇰🇷
 
 #lineupxi #lineuphiphop
-
-## On screen text
-
-OLM

@@ -27,9 +27,3 @@ Written by claude-haiku-5-5.
 Claude code removes its Limits.
 
 #anthropic #claudecode #opus4.7
-
-## On screen text
-
-48 ms
-BERESETMANUALLY.
-SOTHE LIMITWAS NEVER

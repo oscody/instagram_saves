@@ -40,38 +40,3 @@ Follow @editsz.ex for more
 
 Hashtags:
 #manhwa #manhwarecommendations #webtoon #manhua #manhwaedit
-
-## On screen text
-
-Trust me bro, read..
-Shadow Slave
-3112 chapters (ongoing)
-Reverend insanity
-2334 Chapers (Unfinished
-Lord of TherVysteries
-528Ch
-mpleted
-Daooftizarre lmortal
-Toahapers (Completed
-Prsuitorthe
-rur
-1481
-ChaptersCompleted
-Renegadeimmofta
-H2Chapteraompleted
-The MirrorLegacy
-1626 Chapters (ongoing
-redrautivai
-ers (Completed)
-Beyond theTimescape
-1354 Chapters (Completed)
-MVampire System
-2545-Chapters(Completed)
-TheBeginninAfer theEd
-0 Chapters (Completed
-Mother of Leemins
-SUN
-THE
-Kill the Sun
-937ChaptersCc
-ompleted

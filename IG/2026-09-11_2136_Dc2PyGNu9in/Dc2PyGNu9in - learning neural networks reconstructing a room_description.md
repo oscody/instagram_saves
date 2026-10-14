@@ -28,19 +28,3 @@ Written by claude-haiku-5-5.
 learning neural networks - reconstructing a room with phone images (pt. 4/7)
 
 day 12/131 learning to build cool tech
-
-## On screen text
-
-(making D clone fromimages
-learning NEURALnetworks
-part.5/7)
-ofyourroomwith
-(making p clonefrommages
-learning NEURAL networks
-do thiswith depth
-anythingV2
-(making aD clone fromimages)
-earning NEURAL networks
-youcan makeit better
-VGGT
-Single Ven

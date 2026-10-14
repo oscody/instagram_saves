@@ -33,27 +33,3 @@ Ships with:
 👉 https://github.com/michiganrobotics/rob311
 
 Who’s learning to build real robots today?
-
-## On screen text
-
-UNIVERISTY OF
-MICHIGAN JUST OPEN
-SQURCED THEIRFULL
-GPL-3.0license
-ROBOTICS COURSE
-Robotics 311: How to
-Build Robots and Make
-Them Move
-FROM THE UNIVERSITY
-https://github.com/
-michiganrobotics/rob3
-SOURCED THEIRFULL
-GPL-3.0 license
-Robotics 311:How to
-FROMMECHANICAL DESIGN
-michiganrobotio rob31
-SQURCEDTHEIR FULL
-Buid Robots and Make
-UH,LABS
-michiganrobotic/rob31
-AAREA

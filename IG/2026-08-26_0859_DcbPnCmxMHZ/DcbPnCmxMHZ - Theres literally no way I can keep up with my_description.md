@@ -35,28 +35,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 There’s literally no way I can keep up with my LinkedIn network without this trick 👀 Comment CONNECTIONS and I’ll send you the full prompt to use for yourself 👇
-
-## On screen text
-
-Po
-an Lieu[n
-View profi
-Accoun
-um featur
-oly today
-anage
-Messi
-Posting Accou
-Mess Sign ou
-#Back atit Megan Lieu
-company,not
-tivity.Sa.ano
-thanyou'dthinkatfrst
-KaySO
-e.100row
-Topmatches(core4-5)
-Title
-Company
-Name
-riteame
-match

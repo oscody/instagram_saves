@@ -36,24 +36,3 @@ Did your favorite all vegan spot make part one? 👀
 STAY TUNED FOR PART TWO! 🗽💚
 
 #vegan #vony #nycveganeats #veganeatsnyc #veganmanhattan
-
-## On screen text
-
-Vegan eats
-All-Vegan Manhattan
-Part One
-6.NY Dosa
-1.Spicymoon
-7.Rawsome
-2. Sen Saigon
-8.Orchard Grocer
-3.Peacefoods
-9. Vegan On The Fly
-4.Jerrell's
-10.Jajaja
-5.Chloe's
-NYC
-0All-Vegan Manhattan
-1. Spicymoon
-0 All-Vegan Manhattan
-.Orchard Grocer

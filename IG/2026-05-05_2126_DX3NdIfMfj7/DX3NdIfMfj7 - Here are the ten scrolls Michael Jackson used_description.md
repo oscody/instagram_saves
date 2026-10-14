@@ -63,11 +63,3 @@ If you feel the same way as me, you’ll love the following:
 I’ve carefully taken notes of this book and curated each scroll in a digestible way so my 5 year old brain can understand what to DO.
 
 Comment "MIKE“ and”I’ll send you the notes.
-
-## On screen text
-
-ght there is osocialmedia
-AU1
-NOPr
-formyfamily
-andread

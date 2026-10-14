@@ -31,25 +31,3 @@ Ships with:
 The missing manual for building reliable agent systems.
 
 👉 https://github.com/ai-boost/awesome-harness-engineering
-
-## On screen text
-
-AWESOMEHARNESS
-ENGINEERING JUST
-DROPPED
-Awesome
-Harness
-Engineering
-bservability,and orche
-estration
-W
-IT'SA CURATED
-https:/github.com/ai
-boost awesome-harness-
-READEConrbuning
-SO,SUPER SICK,
-https:github.com/ai
-oostawesome-harness-
-AWESOME HARNESS
-README Cntibuing
-boostawesome harness

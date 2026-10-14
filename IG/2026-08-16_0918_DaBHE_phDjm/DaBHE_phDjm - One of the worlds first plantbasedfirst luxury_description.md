@@ -31,9 +31,3 @@ Code: ROMA10 (minimum 2-night stay, offers 10% off) 🤍
 Save this & follow me @itsromab - I’ll be sharing more about the food & personal tips from my stay. 🌿
 
 #vegan #veganfood #vegansofig #plantbased #vegantravel
-
-## On screen text
-
-Piaitho indoor cafe t
-vee
-the indoor gyin thoung

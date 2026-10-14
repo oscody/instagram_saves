@@ -17,14 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I FOUND HER SALUTE @redspunch KNICKS IN 5 !!!!! YOO @realmissnatalienunn SHE NEED TO BE ON BADDIES 😂😂 HAPPY JUNETEETH
-
-## On screen text
-
-GREDSPUNCH
-CA
-TikTok
-@ orangeslemonslimes
-NICKS
-BREDSPUNCH
-Rumble in NewYork Knicks
-Parade

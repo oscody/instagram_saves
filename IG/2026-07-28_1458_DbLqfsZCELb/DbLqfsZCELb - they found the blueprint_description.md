@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 they found the blueprint 👀 #blackhistory #mythology #marvel
-
-## On screen text
-
-ALREADY FEARED
-INSIDEOF
-TWIST

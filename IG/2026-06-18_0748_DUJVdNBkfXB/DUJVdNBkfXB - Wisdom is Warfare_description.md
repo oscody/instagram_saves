@@ -17,37 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Wisdom is Warfare.
-
-## On screen text
-
-WISHFULFILLINGTREE
-BYBLEEDING OUT
-GAIN
-TRUTI
-WISDOM
-HAM AGAINST THEWORLD
-THAN
-IS
-WARFARE
-Ephesians :12
-King James Verion
-st flesh and blood, bu
-ainst the
-DISCERNMENT.SO YOU
-My hypothesis:
-sition/striving) creates the
-Sanskrit Viveka (dis
-ernment),
-Sanskrit Vira hero)
-Latin Violentia (viole
-Latin Vita life
-e,vitalit,viacity,i
-id)
-LatnVenerato venerable revered
-NoreVigr(ablenbatue vigorous
-Sermar
-Wigwar,
-.
-Wisomis exile and imortaity.
-and creative.
-Thatiswhatitmeanstobe VIRLE.

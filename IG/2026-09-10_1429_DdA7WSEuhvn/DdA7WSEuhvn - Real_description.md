@@ -17,14 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Real😅
-
-## On screen text
-
-Guys sometimesyou
-Ustneedaconsistent
-sexpartnernota
-elationship
-Guyssometimesyou
-fustneedaconsistent
-relationship
-justneedaconsistent

@@ -32,24 +32,3 @@ Telepathy 101:
 5.Take more risks, put yourself in social situations often 
 
 #superhero #inspirational #motivational #relatable #focus
-
-## On screen text
-
-1.Puzzles and chess
-Puzzleshelpyouwith
-E
-NAVAR
-Study bodylanguae
-3.
-DOcy
-EFINITIV
-00K
-ODY
-AtractOthers
-NGUAGE
-UnderstandN
-ERNATIONALBESTSELLER
-communicateand
-ABARBARAEASE
-5.TAKERISK
-you

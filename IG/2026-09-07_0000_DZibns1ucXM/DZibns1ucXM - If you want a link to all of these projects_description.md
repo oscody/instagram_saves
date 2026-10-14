@@ -23,11 +23,3 @@ Written by claude-haiku-5-5.
 
 If you want a link to all of these projects comment the word “repo” and I’ll send them over to you.
 I wish I knew about these at the start of college because they would’ve been an absolute game changer for how I view projects and how easy they are to build. Coding definitely doesn’t have to be tough. #coding #computerscience #student
-
-## On screen text
-
-get uprepositories
-Lines of Cod
-wn Linux Kerne
-Generatior
-andget aproject

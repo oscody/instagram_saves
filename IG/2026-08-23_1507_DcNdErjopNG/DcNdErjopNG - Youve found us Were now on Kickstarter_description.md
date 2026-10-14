@@ -17,13 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 You've found us. We're now on Kickstarter
-
-## On screen text
-
-Patientlywaiting forallthe
-blacknerds looking for
-anime that centers african
-culture
-tofind our page
-to find our page
-black nerds looking for

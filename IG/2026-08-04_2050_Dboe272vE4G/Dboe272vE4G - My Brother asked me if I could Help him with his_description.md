@@ -25,15 +25,3 @@ Address: 3932A white plains road
 Tell them Burnhard sent yah! 🫡
 
 Comment below which Juice bar / vegan restaurant me & A$ap Ferg should check out / review next we are all ears‼️⬇️
-
-## On screen text
-
-SSDRINKS
-Jamaican spots
-vegan
-POVAAPFERG Eatting
-VEGANX
-NKS
-Facts
-POV: A$AP FERG Eatting
-Onelovedone

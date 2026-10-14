@@ -27,12 +27,3 @@ Thanks to support from MacKenzie Scott, the Marshall Heights Community Developme
 The initiative goes beyond theory, empowering fellows to leverage cutting-edge tools to solve real-world community and business problems.
 
 Tap AfroTech Latest News at the 🔗 in bio for the full story. #AFROTECH
-
-## On screen text
-
-THIS NONPROFIT BACKEDBY
-MACKENZIE SCOTTLAUNCHED
-AN AIFELLOWSHIP FOR
-BLACK MEN TO SOLVE
-REAL WORLDISSUES
-AFROTECH

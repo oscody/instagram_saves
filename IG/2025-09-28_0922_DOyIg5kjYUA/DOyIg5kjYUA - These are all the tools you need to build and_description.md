@@ -40,19 +40,3 @@ What should we build next? 🤔
 A video editing agent, a blockchain consumer-facing tool or should we finally figure out mobile apps?
 
 #aitools @windsurf_ai @claudeai @openai @teamposthog @marclouvion @godaddy
-
-## On screen text
-
-Build & Launch a eb
-app in 1week
-T
-vibe
-app in 1 week
-CoDaddy
-future-u.app
-future-u.epp
-uture-u.c
-Broker Serice?
-Get This Domain?
-and
-see

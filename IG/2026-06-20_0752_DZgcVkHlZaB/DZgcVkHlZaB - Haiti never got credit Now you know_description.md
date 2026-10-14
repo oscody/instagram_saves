@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Haiti never got credit. Now you know. 💀 #history #culture #mythology
-
-## On screen text
-
-THECROSSROADS
-SPREADTHROUGH
-GTA

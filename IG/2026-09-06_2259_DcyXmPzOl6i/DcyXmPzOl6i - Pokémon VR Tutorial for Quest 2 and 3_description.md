@@ -27,16 +27,3 @@ Written by claude-haiku-5-5.
 
 Pokémon VR Tutorial for Quest 2 and 3! @austincreedwins
 #pokemonvr #Tutorial #quest3
-
-## On screen text
-
-tic Shape VR for Quest 2/3
-YOXE
-YGRJUND
-Try this fuly dest
-@
-ramatios
-Shape
-POKEMON BLUE
-STADIUM
-PAKS

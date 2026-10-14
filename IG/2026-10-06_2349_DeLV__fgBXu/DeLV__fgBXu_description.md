@@ -13,12 +13,3 @@ described_at: "2026-10-14"
 The post shows three 3D mapping clips of indoor rooms, with a point-cloud view and a first-person "ego" view, under the caption "GroundedSLAM brings more accurate 3D mapping and navigation to robots." A spoken line says "Don't do it, don't give up."
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-undsAbecurt
-epping and navigationtorobots.
-roundesbringeur
-apping and avigetiontorobots.
-roundesbrnsmoecurt
-apping and navigationtorobots.

@@ -17,39 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: www.TopTechBoy.com
-
-## On screen text
-
-SunFeunder
-Thinking...
-: Turn the light on
-VXR
-UsionHAT+
-R
-NNE
-FUSIONHAT
-E plvoieonrlds
-Q
-Creete
-YouTube
-Search
-0
-www.TopTechBoy.Com
-Al on the Edge for ...
-Paul McWhorter
-Share
-Pau MoWhorter
-1/51
-on the Edge
-LESSONT
-STEPBYSTEP
-Alon the Edge
-LESSON2
-Sort by
-266 Comments
-PaulMcW
-Al on the Edge
-LESSON3:
-Add o comment.
-3514
-PaulMch

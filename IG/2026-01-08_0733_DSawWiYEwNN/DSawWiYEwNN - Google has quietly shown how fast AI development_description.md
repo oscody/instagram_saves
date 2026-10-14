@@ -34,16 +34,3 @@ The release reflects how large platforms are shifting toward AI systems that any
 Follow us (👉@artificialintelligenceee) for everything latest from the AI world.
 
 Source: Google
-
-## On screen text
-
-Google
-GOOGLERELEASES A
-STEP-BY-STEPGUIDE
-SIS ASSISTANTUS
-NAV
-AI3E
-SWIPE
-DAYTRADING.CO
-ow to build a financia
-al analys

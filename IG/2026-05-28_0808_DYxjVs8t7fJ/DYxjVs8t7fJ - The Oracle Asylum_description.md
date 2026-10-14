@@ -37,23 +37,3 @@ Everything depends on the trials which the crown Royals of Itakaa must participa
 The Oracle Asylum is Open.
 
 #bookcommunity #bookish
-
-## On screen text
-
-POV the algorithmthinks
-African
-youirethetargetaudience
-formyAfricanmythology
-fantasy book
-Ayi
-N SONIA NKERA
-POV the algorithm thinks
-yourethe target audence
-formyAfrican mythology
-hac
-sracle
-Ayh
-ylum
-POV: the algorithmthinks
-youirethetarget audence
-fantasybook

@@ -32,16 +32,3 @@ Written by claude-haiku-5-5.
 10 TUTORIALS that helped ME jumpstart my game dev adventure! YOU CAN DO IT TO! >:)
 
 #games #gamedev #godot #blender #indiegame
-
-## On screen text
-
-CODE WITH
-ROWAS.
-HE'S ACTUALLY
-MAKING A
-Later on..
-UM.IT'S
-CARTO IN YOUTUBE
-WELL
-I'M HERE TO CHANGE THAT.
-Uy Master

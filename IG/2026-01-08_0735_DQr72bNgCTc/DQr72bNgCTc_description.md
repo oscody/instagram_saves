@@ -13,9 +13,3 @@ described_at: "2026-10-08"
 A person wearing a VR headset and holding controllers stands in a marker-lined room under the text "EASY SETUP NO WIRES". Two gameplay clips follow, labeled Depths of Osiris (underwater shark and crab scene) and Manor Escape (night manor with torches and a bow).
 
 Written by claude-haiku-5-5.
-
-## On screen text
-
-EASY
-UR
-NOIRES

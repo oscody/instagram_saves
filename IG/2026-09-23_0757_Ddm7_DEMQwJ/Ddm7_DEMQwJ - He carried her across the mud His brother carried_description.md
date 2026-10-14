@@ -20,9 +20,3 @@ He carried her across the mud. His brother carried her ALL DAY 🧘‍♂️🪷
 
 #claymation #stopmotion #animation
 #zen #lettinggo
-
-## On screen text
-
-over,picks her up,
-to touch women.
-withe harsh Lulltop

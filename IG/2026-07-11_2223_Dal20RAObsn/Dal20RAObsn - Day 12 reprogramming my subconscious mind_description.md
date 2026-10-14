@@ -34,18 +34,3 @@ Day 12 reprogramming my subconscious mind!
 •
 
 This is a personal practice, not therapy or medical advice. If you have a history of psychosis, mania, dissociation, or serious mental illness, talk to a professional before starting.
-
-## On screen text
-
-Day12
-Psycho-
-Cybernetics
-002536
-there'antastiebookebout
-thaedybeei
-00 152
-hats Iketto happenafferwe
-arethis renewed person
-000505
-betweenavivily imagined
-reality

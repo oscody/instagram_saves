@@ -28,7 +28,3 @@ Summary:
 The Yorozuya trio (Gintoki, Shinpachi, and Kagura) helps a young boy named Seita try to reunite with his mother in the hidden underground red-light district of Yoshiwara, pitting them against Housen, the terrifying "Night King" of the Yato clan.
 
 #anime #animeedit #animeedits #animereels #animevideo #amv #amvedit #edit #edits #viralreels #reelsinstagram #explorepage #explore #fyp #foryou #otaku #weeb #animecommunity
-
-## On screen text
-
-Editverse-4u

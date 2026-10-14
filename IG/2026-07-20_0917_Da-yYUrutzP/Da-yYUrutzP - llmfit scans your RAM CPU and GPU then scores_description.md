@@ -40,28 +40,3 @@ Ships with:
 👉 https://github.com/AlexsJones/llmfit
 
 Who’s checking model fit before downloading today? Drop a 🔥
-
-## On screen text
-
-README
-STOPDOWNLOADING
-Imfit
-MODELS THAT WON'T
-RUN ONYOUR
-HARDWARE
-SO THIS TOOL
-https://github.com/
-AlexsJones/limfit
-hardw
-edsof
-Fload
-THENSCORES EVERY
-https:/github.com
-PLAN
-AlexsJones/llmfit
-STOP DOWNLOADING
-aso
-SOYOUKNOW
-https:/github.com/
-PLAND
-AlexsJones/llmfi

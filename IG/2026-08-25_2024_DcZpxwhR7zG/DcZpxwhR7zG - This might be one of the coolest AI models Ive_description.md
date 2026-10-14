@@ -31,11 +31,3 @@ You could imagine generating game environments in minutes, building virtual worl
 Unfortunately we can’t actually play with this model yet, but this is absolutely one I’m keeping an eye on.
 
 #ai #ainews #aimodel #genai #3dart
-
-## On screen text
-
-isactually
-Eleven worlds, from
-orbit to ground.
-ornurse
-sothat

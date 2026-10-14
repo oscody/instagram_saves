@@ -33,17 +33,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 It’s a lot harder to get to 100k MRR from just vibecoding but this would give you the stack you need go build out any app! The rest comes from google, meta ads, and UGC
-
-## On screen text
-
-use lovable orreplit
-to
-AN
-M
-supabase
-Superbase for
-authentication
-porkbun
-and managing
-la
-domain

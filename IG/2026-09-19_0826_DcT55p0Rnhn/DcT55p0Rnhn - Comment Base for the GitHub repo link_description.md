@@ -40,32 +40,3 @@ Consistency up 90%.
 #AIWorkflow
 #Automation
 #DevTools
-
-## On screen text
-
-CLAUDE.md
-BASE Integration
-review,brie
-explain,lead,
-outreach,shi
-nauoff,k,task,
-CHARLIE
-ATES
-Graph
-250 edges
-JSON
-218 nodes
-+ Entity
-Align
-Reload
-Explorer
-Domain
-Clear
-Rule
-Note
-Project
-All
-IHAVEA.
-ALTAMATES
-YOU'LLS
-SEE

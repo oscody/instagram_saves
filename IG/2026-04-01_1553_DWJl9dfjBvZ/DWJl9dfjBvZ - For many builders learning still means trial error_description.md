@@ -25,39 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 For many builders, learning still means trial, error, and losing time solving the same problems the hard way. Tools like Claude are changing that by helping users get to clarity faster when the right prompts are used. These six prompts stand out for one reason: they can turn hours of confusion into practical understanding in minutes.
-
-## On screen text
-
-Your speed of learning
-with Claude
-HOW PEOPLE ARE USING
-CLAUDE TOLEARNFASTER
-AND WHY THE APPROACH
-IS CATCHING ON
-SWIPE FOR MORE
-TEARNANYTHING INZOHOURS
-Prompt:
-o hourplnoused on he o tht
-hour sessions with the best
-end ofeach.
-2CREATEAONE-PACE CHEATSHET
-ona singiepageUseulet points
-airas anaeples cnrevew
-it in 5 minutes."
-3.QUIZ MEUNTILIBREAK
-jussudea topi.iveme
-ogresivehanerueion os
-yundartaninger ach answer
-.BULDA LEARNING LADDER
-Show me how to go from Levei 1
-beginer oleve  avanced
-with
-learilestone at each sep.
-SINTHEETEARNINGESOURCES
-is the op 5 resources books
-opie rast an explain why each is
-worth my time."
-GUSE THEFEYAN TECHNIOUE
-Prompt
-Epiin opiome nhe sple
-on my own.

@@ -25,33 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Your Attack Speed Is Lagging Everyone!
-
-## On screen text
-
-PROJECTILE DATA
-'Bolt"
-5f
-91UL
-pos / vel
-atch those attak toether
-CLIENT
-SHARED DATA
-sharednew
-var
-"Bolt"
-projectileID
-lifetime= 5f,
-SpecHash91UL
-5
-ID
-37
-and store it in
-CLIENT LOOKUP TABLE
-Bolt/5f
-37+pos,Vel
-useful pattern youcan
-Bolt"
-5f91UL
-Bolt"5f
-CLIENTA
-CLIENTB

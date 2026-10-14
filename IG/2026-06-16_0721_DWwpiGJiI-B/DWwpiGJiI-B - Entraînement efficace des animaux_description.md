@@ -28,15 +28,3 @@ Entraînement efficace des animaux 🔥✅🍫
 Enregistre / Partage / Essaie 💪🏿🫡
 
 #fit #motivation #work #explorepage✨ #abs
-
-## On screen text
-
-See the Changes In Your
-Belly When You Do This
-WEEK
-Exercises
-COMPLETEAEDONINALWORNOUT
-SETS X20REPS
-SUBSCRIBE
-COMHUETEAEDOMINAORKOUT
-4SETS X 20REPS

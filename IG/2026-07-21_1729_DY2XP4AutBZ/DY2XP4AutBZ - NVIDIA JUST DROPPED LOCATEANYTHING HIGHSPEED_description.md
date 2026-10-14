@@ -33,20 +33,3 @@ Ships with:
 Insanely fast and accurate visual grounding from NVIDIA.
 
 👉 https://research.nvidia.com/labs/lpr/locate-anything/
-
-## On screen text
-
-NVIDIA JUST DROPPED
-LOCATEANYTHING HIGH
-SPEED VISUAL SEARCH
-SYSTEM
-Sort
-AFASTAND
-https://
-research.nvidia.com/labs/
-Ipr/locate-anything/
-NVIDIA JUSTDROPPED
-THEDIFFERENCEBETWEEN
-https:/
-research.nvidia.comlabs/
-EIGHT MILLION SAMPLES

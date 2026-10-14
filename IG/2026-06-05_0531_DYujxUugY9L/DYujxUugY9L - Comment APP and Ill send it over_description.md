@@ -45,39 +45,3 @@ If you build WhatsApp bots, automations, or messaging tools, this is the WhatsAp
 Comment “APP” — GitHub repo and full setup guide in your DMs.
 
 #WhatsAppAPI #WhatsAppAutomation #OpenSource
-
-## On screen text
-
-X.com
-OxMarioNawfal
-@RoundtableSpace
-AGENTAWHATSAPP NUMBERINONE
-COMMAND
-Send messages
-0:05 Andres Matte
-745AM5/21
-11
-37
-Relevant
-ole on WhatsAppfor
-Here-get free hatsApp
-api
-53
-Box1.2d
-Comment app Ill send
-it over
-README
-aMIT license
-OpenA
-OpenWA
-ourceWhatsApp APIGateway
-Here -get free WhatsApp
-19
-Comment "app"l send
-tMIT license
-OpenNA
-Open SourceWhatsApp API Ca
-Fatureuik srDcA
-A?
-eopensour hAppAPitew
-Heregetfree WhatsApp

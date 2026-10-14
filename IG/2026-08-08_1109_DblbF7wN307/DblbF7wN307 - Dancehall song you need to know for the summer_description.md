@@ -17,33 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Dancehall song you need to know for the summer Part 3/3. Full mix link in bio. Available on Soundcloud, YouTube, Audiomack and Download
-
-## On screen text
-
-DANCEHALLSONGS
-YOUNEEDTOKNOW
-THISSUMMER
-Fullmixoutnow
-Linkinbio
-JustcoitMedzBoss
-2.Faada
-GANTS
-8.
-9
-10.
-11
-Fullmixavailableon
-JustdoitMedz
-MalieDonn
-an
-Km
-Ova
-Skinitout
-.
-DANGEHALLSONGS
-THSSUMMER
-ustdoit
-Dan,Cou
-Kman
-7.Tea
-IO.ChullupsTieloLanez

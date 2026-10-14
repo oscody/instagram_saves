@@ -28,20 +28,3 @@ Make sure to save this
 Dm the word “BUMMY” for your personal haircut 
 
 #barber #fade #explore #seattle #washington
-
-## On screen text
-
-Goodbarbers dont
-gatekeep
-Hairbeard tips
-For clients
-Dryscalp?
-Use
-HOLLYWOOD
-Tea Tree
-ASIAM
-PREMIUMOIL
-FLOZ(23CML
-Thinning hairline?
-Or
-Minoxidil

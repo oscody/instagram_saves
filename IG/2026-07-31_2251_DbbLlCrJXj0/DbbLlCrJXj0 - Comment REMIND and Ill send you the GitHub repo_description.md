@@ -51,23 +51,3 @@ Instead of simply tracking movement, REMIND focuses on remembering visual identi
 Follow @syntaix.ai for the latest AI tools, GitHub projects, and cutting-edge tech.
 
 #aitool #opensource #githubrepo #llm #vision
-
-## On screen text
-
-syntaix.ai
-oebersoctsevenerch
-disappear
-2-TVSM
-7[AM]
-BLANKTT[SM
-[SM]
-bersotsevenerch
-disappear.
--DEVICEWM]
-POTTEDPLANTSAM
-FURNTURE2[AIM]
-ELANKETTIEM
-BLANKET2M
-CUSHIONTIAM
-DCOUCHM]
-syntaixai

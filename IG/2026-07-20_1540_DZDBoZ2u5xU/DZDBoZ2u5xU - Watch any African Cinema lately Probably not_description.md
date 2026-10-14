@@ -34,16 +34,3 @@ Zahra Hondo, Mblegacy, Ktownafrica, Jaimar123, FridayFilmboy, Souad.achaib
 All photos and video clips used under fair use for educational purposes.
 
 #52moviesin2026 #africancinema #filmtok #filmdirector #worldcinema
-
-## On screen text
-
-52
-Movies
-in
-2026
-AFRICANFILMS.
-ANDBURIEDFAMILY
-FILMSSCREENED
-CHIONAUDIO-VISION
-THE WORLD OR BLACK FILM
-holbyshot

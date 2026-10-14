@@ -28,18 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If you look on your computer right now , one of the best AI tools you could ever have is already installed.
-
-## On screen text
-
-Modc
-MODEL
-Proverbs 2.52
-nthfoPic
-e.Do
-Skiil
-Skil.md
-Script.Pyo
-Template.DoCx
-SKiu
-FOLDER
-SKin

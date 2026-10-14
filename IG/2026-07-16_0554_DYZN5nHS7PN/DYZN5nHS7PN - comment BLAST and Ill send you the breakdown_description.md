@@ -48,9 +48,3 @@ the catch: it's a first-pass tool, not the shipping pipeline. you still bring in
 Comment "BLAST" for the full breakdown 👇
 
 #claudecode #gamedev #indiedev #3d #aiengineering devtools
-
-## On screen text
-
-TOOLKIT FOR CLAUDE
-IGHTING,AUDIO
-ANDIFYOU

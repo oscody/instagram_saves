@@ -52,22 +52,3 @@ If you’re stuck in tutorial hell, pick one project and start building. You’l
 Hashtags:
 
 #ProjectBasedLearning #GitHub #Programming #Coding #LearnToCode WebDevelopment Python JavaScript Cpp Java ReactJS RustLang Golang SoftwareEngineering ComputerScience OpenSource DeveloperResources CodingProjects Developer TechReels
-
-## On screen text
-
-Coding YouTube Channels
-PYTHON
-Remix and
-Re-imagine
-2:16
-SUBSCRIBE
-TUTORIAL
-HELL
-PREMIUM
-NLPCh
-AH YESLEARNING
-FREE
-CODING
-CURRICULUM
-F THAT YOU
-PROOF

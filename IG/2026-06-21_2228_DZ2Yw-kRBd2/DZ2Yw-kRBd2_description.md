@@ -17,11 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #blemmyae #blemmyes #mythical #creature #realormyth
-
-## On screen text
-
-DETROI
-Barae
-cythe
-Sarde
-MICO MANDE

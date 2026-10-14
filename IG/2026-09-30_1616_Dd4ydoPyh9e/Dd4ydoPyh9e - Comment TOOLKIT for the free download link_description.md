@@ -25,10 +25,3 @@ Comment TOOLKIT for the free download link!
 The crowd system built for The Lord of the Rings, winner of a 2004 Academy Sci-Tech Award, is now free for non-commercial use.
 
 #vfxnews #3dsimulation #3danimation #cgi #blender
-
-## On screen text
-
-TOOLKIT
-TUESDAY
-Episode12
-lt is called

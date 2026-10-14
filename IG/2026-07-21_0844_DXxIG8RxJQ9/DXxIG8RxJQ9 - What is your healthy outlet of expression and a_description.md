@@ -21,12 +21,3 @@ What is your healthy outlet of expression and a way to stay grateful, sane and h
 If I didn’t know any better, I would have thought I was reading one of the thousand and one Arabian Nights stories, but NOPE. West & Central African lore. I mean it - this stuff is CAPTIVATING
 
  #storytelling #storytime #africanhistory #learning #History
-
-## On screen text
-
-THEIMPACTOF
-KNOWING THYSELF
-KNOWINGTHYSELF
-Curse the Rains
-SERPENT
-SAND

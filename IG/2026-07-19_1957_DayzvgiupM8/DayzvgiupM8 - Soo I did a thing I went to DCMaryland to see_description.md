@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 Soo I did a thing🤣 I went to DC/Maryland to see Chris Brown & Usher but had to go on a side quest to West VA‼️I can now scratch bungee jumping off my bucket list✅😌I actually did it twice (one attached to my ankles while jumping forward & this one that’s attached by a body harness jumping backwards) I was gone post both in this clip but I was cussin in the other one cause that was my first jump🥴
 
 #fun #bungeejumping #live #life #monaiellis
-
-## On screen text
-
-N
-BUNGEE
-nsertspychotic augh

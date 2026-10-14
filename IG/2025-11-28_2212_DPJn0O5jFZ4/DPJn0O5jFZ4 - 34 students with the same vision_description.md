@@ -27,19 +27,3 @@ Send this to your friend who should check out this platform where people team up
 Comment ”startup” and we’ll send you the link!
 
 #startup #startupideas #startuplife #businessowner #founder #businessman #student #college #uni #unilife #businesstips #businessideas #businesslife
-
-## On screen text
-
-want to Build a Startup
-uhve nrndtotwi
-thousands ofprojects
-Twant to Build a Startup
-ut averondtoawi
-ad,logepi
-edgelossisabigpr
-eisbu
-ndations
-eforetne
-help
-CO
-and join the team.

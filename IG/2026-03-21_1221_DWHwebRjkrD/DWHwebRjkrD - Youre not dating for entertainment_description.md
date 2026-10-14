@@ -37,7 +37,3 @@ Anybody can be amazing for a night
 Very few can be solid over time
 
 Slow it down… and watch how fast the truth reveals itself
-
-## On screen text
-
-4.FUN/CREATIVE

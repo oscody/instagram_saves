@@ -43,12 +43,3 @@ Comment "FDE" and I'll send you a list of automations you can build and sell to 
 .
 .
 [Ode, Anthropic, Blackstone, AI implementation, forward deployed engineer, AI services, enterprise AI, AI consulting, AI business, AI opportunity, OpenAI, AI agents, automation, local business, AI for business, AI strategy, AI jobs, AI money, tech business, AI trends]
-
-## On screen text
-
-large
-COMPANIE
-ES
-AGENCY
-youalready
-RSTAN

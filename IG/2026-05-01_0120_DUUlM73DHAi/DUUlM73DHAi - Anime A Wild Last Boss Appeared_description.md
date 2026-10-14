@@ -19,9 +19,3 @@ Written by claude-haiku-5-5.
 Anime: A Wild Last Boss Appeared
 Streaming: Crunchyroll
 #sololeveling #animerecommendations #newanime #anime
-
-## On screen text
-
-ANDWHILEIT
-IN THESAMEWORLD.
-QUALITYASAN

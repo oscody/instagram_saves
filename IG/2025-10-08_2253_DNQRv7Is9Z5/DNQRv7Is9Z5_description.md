@@ -17,19 +17,3 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: getrecall.ai
-
-## On screen text
-
-THEMOST
-AI
-Chat with yourknowledge base
-@
-I need a sumaryofthe GPT-
-LETS ME
-ASK QUESTIONS
-ws Artic
-YouTube Videos
-Bog post
-IMPORT FROM
-YOUR BOOKMARKS
-ATAI

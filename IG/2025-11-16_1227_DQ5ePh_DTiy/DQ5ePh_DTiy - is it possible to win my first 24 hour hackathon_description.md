@@ -27,14 +27,3 @@ is it possible to win my first 24 hour hackathon with my mind?
 Also if you want the code we developed comment “GitHub” and I’ll send it over. 
 
 #engineering #engineeringstudents #hackathon
-
-## On screen text
-
-000020
-11am - 6pm
-theelectrodes
-2:30am - 7am
-538
-1030am
-3pm-5pm
-Because there is always

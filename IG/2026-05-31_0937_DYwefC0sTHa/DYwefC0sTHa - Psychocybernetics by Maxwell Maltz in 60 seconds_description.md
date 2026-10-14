@@ -34,17 +34,3 @@ Written by claude-haiku-5-5.
 Psycho-cybernetics by Maxwell Maltz (in 60 seconds)
 
 #identityshifting #discipline #psychocybernetics
-
-## On screen text
-
-psycho-cybemetics
-#3
-3. give itaclear target
-and it'll findaway
-#8
-8.mistakes are
-notfailures..
-#12
-12dehypnotizeyourself
-from the limits society
-gaveyou

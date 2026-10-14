@@ -21,15 +21,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Thoughts? We discuss the alarming water consumption of AI data centers, which require billions of liters for cooling. According to the UN University Institute for Water, Environment, and Health, by 2030, these centers are projected to consume 9.3 trillion liters of water annually—enough to meet the basic water needs of 1.3 billion people in sub-Saharan Africa for a year.
-
-## On screen text
-
-1%
-YWATER
-%
-DRINKABLE
-entrepreneur.com
-E
-XYL
-Xylem Inc.
-XY109.402022)

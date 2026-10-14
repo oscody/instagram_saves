@@ -19,17 +19,3 @@ Written by claude-haiku-5-5.
 Couldn’t be me, I need to read everything, I’m too nosey to have it any other way. Gimme all the mythology and folklore. Book recs welcome!
 
 #diversereads #booklover #fantasybookstagram #diversifyyourbookshelf #readingcommunity
-
-## On screen text
-
-onlyreadbooks basedon
-weternworaandEuropean
-themedbelief systems.
-Sorrybabe.cantrelate.
-FIRSTBORN
-Sorrybabe.canftrelate.
-DS
-JADE
-AND
-SHADOW
-BIVIAMORENO-GARCIA

@@ -21,15 +21,3 @@ This Man Just Unlocked the Remote Job Cheat Code! 🙌
 TikTok : Inwmediagroup ✅
 
 #remotejobs #financialfreedom
-
-## On screen text
-
-S
-USTEKPOSED
-TOLAND
-HEOUICKEST W
-E
-ABOT
-SWIPE
-FOR MORE
-Competition is too high

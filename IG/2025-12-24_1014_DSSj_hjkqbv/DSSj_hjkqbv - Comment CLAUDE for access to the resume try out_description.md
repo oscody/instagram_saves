@@ -70,22 +70,3 @@ So yeah, the winner is Claude, and honestly, it wasn’t even close!
 What do you all think?
 
 #claudepartner
-
-## On screen text
-
-Entormanually
-Acee
-Education
-School
-niversyoichigan-AnnArbor
-Degree
-Bachelor's Degree
-Disciplino
-Business
-Addanother
-WHYDOITHINKTHAT
-stantly update this
-Based on this, Id love for
-me in thef
-onnet 4.5 V
-based on the

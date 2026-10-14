@@ -28,12 +28,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Giving Claude Eyes 👀 This AI upgrade changes everything... wait until the end to see what Claude can recognize with its new vision capabilities! 🤯 #ClaudeAI #ArtificialIntelligence #Anthropic #AITools #techtok
-
-## On screen text
-
-detais.
-FRAMEBYFRAME
-HOOK
-Claude
-thisall
-SANDBOX

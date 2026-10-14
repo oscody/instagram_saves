@@ -18,8 +18,3 @@ Written by claude-haiku-5-5.
 
 My websites finally don't look vibecoded 
 #websitebuilding #vibecoding
-
-## On screen text
-
-gsmarter.Auomaticaly
-Yournertwebsitestartshere.

@@ -29,28 +29,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “narrow" for my free guide.
-
-## On screen text
-
-gonna
-What to do
-Want
-Need
-Imagine
-poomscroll
-Purpose
-your best
-and goon
-elf and do
-one thing to
-the
-nt
-are to
-Security
-rs
-really
-Emotion
-hat to do
-Shame
-Isolate
-Perspective

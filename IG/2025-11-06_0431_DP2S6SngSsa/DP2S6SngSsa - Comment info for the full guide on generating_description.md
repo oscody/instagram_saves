@@ -30,37 +30,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “info” for the full guide on generating revenue from an app
-
-## On screen text
-
-ednesday.
-ec 4,2024
-venue:$375
-Apr 04'25
-and howIwasableto
-nerateooeee
-fromthis oneapp
-65,638
-$100
-1,764
-BashOutput
-Ild me an app [ap idea here]
-it automaticaly Ap.ts
-your app ID goes here here's
-anapp that I buitin twohours
-with step coding
-codeproj
-cworkspace
-SpecarNat
-ios
-open
-e
-8
-Identifier beta
-apple.com
-eyhanksrchoing ouake sure
-toointheFishrbetahttps//
-com/oin/wSqeWEBq
-shoula.look somethinilike
-this
-M

@@ -27,8 +27,3 @@ Written by claude-haiku-5-5.
 2 things I didn’t even think about!!🤯👟
 
 #runningtips #husbandandwife #fitnessjourney
-
-## On screen text
-
-POV:Day1of
-running

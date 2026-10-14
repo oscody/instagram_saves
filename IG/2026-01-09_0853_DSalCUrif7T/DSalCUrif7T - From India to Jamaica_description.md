@@ -41,16 +41,3 @@ Tell me what you call it, Ludi or Loodi? Let me know below.
 #jamaicajamaica
 #jamaicalandwelove
 #jamaicanculture
-
-## On screen text
-
-THE HISTORY OF THE
-JAMAICAN LUDILOODIGAME
-RACHELLE
-dice were introduced and
-colourfui tokens replaced
-shells
-and reatinghouserules
-hatmadethegameeven
-Jamaicans take their board
-games very seriously

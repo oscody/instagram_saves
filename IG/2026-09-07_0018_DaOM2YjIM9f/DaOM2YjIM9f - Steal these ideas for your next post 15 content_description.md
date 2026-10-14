@@ -32,19 +32,3 @@ Written by claude-haiku-5-5.
 
 Steal these ideas for your next post! 15 content ideas every game studio should try.
 #gamedev #gamemarketing
-
-## On screen text
-
-VIEWS
-17K
-15 CONTENT FORMATS THAT
-GET YOUR GAME WISHLISTS
-(GAMEDEV)
-BEHIND THE SCENES
-VIEW
-267K
-SOUND DESIGNSHOWCASE
-WEAPON SWINGS
-968K
-CHARACTER CREATION
-completely

@@ -37,28 +37,3 @@ Follow @activeprogrammer for more AI and programming stories.
 Credit: jichiep / NVIDIA Research
 
 #ai #nvidia #3danimation #programming  #gamedev
-
-## On screen text
-
-Text to motion
-A DEVELOPERMADE
-NVIDIA'SALCREATE
-3D
-IATIONS
-CHARACTER
-ACPU
-IN
-@activeprogrammer
-TYPE A SENTENCE
-GET A SD ANIMATION.
-CUDA setup
-ext tomotion
-Would you use it? oo
-NEVER
-YOU
-SEE THIS
-PAGE
-UNLESS
-AGAIN
-FOLLOWUS
-RIGHTNOW

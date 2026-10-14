@@ -17,12 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Los Dioses De La Biblia!
-
-## On screen text
-
-Arichkes
-Nergal
-ArngagiS
-Ishtar
-Enlit
-ENLIL

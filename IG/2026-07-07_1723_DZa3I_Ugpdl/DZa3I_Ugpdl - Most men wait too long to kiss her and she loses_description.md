@@ -32,21 +32,3 @@ Written by claude-haiku-5-5.
 Most men wait too long to kiss her — and she loses interest before you ever make a move.
 
 #datingadvice #moderndating #datingtips #kissing #firstdate #attractiontips #masculinity #datingsmarter #relationshipcoach #mensdating #confidencetips #firstdateadvice
-
-## On screen text
-
-MEETHERBETWEEN
-St
-A
-Rosemary's
-W10thiSt
-W10thSt
-9St
-Topr
-yP
-MINIDATES
-MITA
-Google Maps
-Dear Strangers
-Toprated
-COMMONALITIES

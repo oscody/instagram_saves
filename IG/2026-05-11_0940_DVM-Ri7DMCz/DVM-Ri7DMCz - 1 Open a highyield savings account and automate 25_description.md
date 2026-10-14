@@ -89,12 +89,3 @@ Follow for more
 @isarahcn 
 @isarahcn 
 @isarahcn
-
-## On screen text
-
-30thingtodo instead f
-wasting anotheryear
-3othings to doinstead of
-wasting anotheryear:
-Sothingstodoinsteadof
-wastinganotheryeara

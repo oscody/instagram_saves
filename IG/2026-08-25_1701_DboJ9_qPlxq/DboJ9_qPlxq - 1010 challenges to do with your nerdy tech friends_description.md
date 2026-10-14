@@ -28,13 +28,3 @@ Written by claude-haiku-5-5.
 Want more nerdy friends? Check out our Builder Network 🧑‍💻✨
 
 #creativetech #buildinpublic #vibecoding
-
-## On screen text
-
-Blind handoff.game fam
-HUNTERS
-chosen genre
-Sipit and shipit
-appwhose onlyjobis to
-Solve it in AR
-the most annoying

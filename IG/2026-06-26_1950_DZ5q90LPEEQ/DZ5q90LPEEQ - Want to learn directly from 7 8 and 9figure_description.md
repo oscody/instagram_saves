@@ -31,9 +31,3 @@ Written by claude-haiku-5-5.
 Want to learn directly from 7, 8, and 9-figure entrepreneurs? Check out the School of Mentors on our profile and get started today.
 
 #wealth #entrepreneur #financialfreedom #motivation
-
-## On screen text
-
-ONLINE,YOU
-FORREVOLUTION
-THISIS ABOUT

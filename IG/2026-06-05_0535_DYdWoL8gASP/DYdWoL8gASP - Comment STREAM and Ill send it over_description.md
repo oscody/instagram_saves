@@ -37,35 +37,3 @@ The streaming wars built six apps with half the catalog each, 4 minutes of pre-r
 Streambert is the opposite philosophy: one tool, your library, your machine.
 Comment “STREAM” — GitHub link and install instructions in your DMs.
 #OpenSource #StreamingApp #IndieDev
-
-## On screen text
-
-X.com
-OxMarioNawfal
-@RoundtableSpace
-WATCHANYMOVIEFORFREEWITH
-STREAMBERT
-PTHATAOWSUSERSTOSTEMAN
-Educationalpurpose:
-FROM AROUND THEWORLD
-STREAMFREEMOVIES
-STREAM ANY MOVIEWITH
-CLAUDE CODEFREE
-EXF
-ithub github.o/ruelockmeh
-Comment"stream"
-270
-Across-platform Electron D
-OxMarioNafal
-WATCHANY MOVIEFORFREWITH
-PTHATALOWSUSERSTOSTEAMAND
-FROMAROUND THEWORLD.
-EXPERIENCE.
-thub github.oruorstr.
-Comment "stream"
-READEPLOens
-SCLOSED
-Acrossplatfo ElctronDest
-ime in theWorld. Zero A
-StreaingStreamany
-Downloading:Downloe

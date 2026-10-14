@@ -38,34 +38,3 @@ Just paste these before or after any prompt:
 Save this video for later and try them all.
 
 #claude #ai #claudeprompts #aitools #chatgpt
-
-## On screen text
-
-ChatCoworkCode
-Greeting
-ow forfindingAljobs:
-Thebgpltformsthatstdeliver
-eroneplace where
-oupIt'sstill the
-Arolesget pos
-ndidates
-you can addifyou h
-mostaggressive
-Reply..
-Opus 4.6Extended
-MT
-Claudeis Ala
-Chat Cowork Code
-Koha introduction
-advice.
-momentun
-for.
-If
-expertlevel
-Reply.
-Opus 4.6 Extended
-laude is Ala
-Kohaintroduction
-ahumanandeven
-pus4.6 Extended
-laudels AI

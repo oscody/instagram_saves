@@ -46,20 +46,3 @@ How do you use Claude to create a business plan?
 What AI prompts help you make money online?
 
 #chatgpt #ai #chatgptprompts #makemoney #chatgptmoney
-
-## On screen text
-
-what you're gonna do is run
-these prompts in the same
-Claude conversation
-ho is the singleot succes
-rsonI should be learning fron
-make this happen? Cive me
-e name.
-who's the single most
-uccessful personshould
-learm from to make this
-happen
-here's abonusprompt if
-you'rerealystruggling with
-procrastinaton

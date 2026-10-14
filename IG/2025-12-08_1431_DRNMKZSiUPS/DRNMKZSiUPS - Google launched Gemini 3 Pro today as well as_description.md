@@ -35,27 +35,3 @@ Not that benchmarks really matter all that much IMO - but it should make Google 
 I’ll upload the benchmarks and more to @eluna.ai today.
 
 If you like this video, follow @rpn to stay two steps ahead on the incredibly disruption happening in tech and how to leverage it in content and business.
-
-## On screen text
-
-mult
-sponsored,
-OCreateNext App
-X
-Flight Tracker
-Treckany ight anytime anywhere.
-O
-AA123
-American Airines
-o origin
-Destination
-LAX
-JFK
-OT
-king for 5s
-ewing Project Template
-ing.I'll need
-g Impleme
-ntation Steps
-ree.js Snowflake A
-avino

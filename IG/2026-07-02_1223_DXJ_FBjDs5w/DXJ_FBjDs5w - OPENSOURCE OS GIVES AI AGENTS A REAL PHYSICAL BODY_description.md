@@ -35,19 +35,3 @@ AI agents now have bodies.
 👉 https://github.com/dimensionalOS/dimos
 
 Who’s giving AI agents a physical body today? Drop a 🔥
-
-## On screen text
-
-OPEN-SOURCEOS
-GIVES AI AGENTS AREAL
-PHYSICALBODY
-WITIEINIUINAL
-SYSTEM THAT GIVES
-https://github.com/
-dimensionalOS/dimos
-PHYSICAL BODY
-UITIENIUINNL
-WORLD ROBOTICS.
-IENSIUNAL
-LIDAR ACTUATORS
-https:/github.com/

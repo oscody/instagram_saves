@@ -19,10 +19,3 @@ Written by claude-haiku-5-5.
 Would you watch it? 
 
 Coding reality
-
-## On screen text
-
-While
-And tobemoreSpecific
-it's
-made of codeandjust

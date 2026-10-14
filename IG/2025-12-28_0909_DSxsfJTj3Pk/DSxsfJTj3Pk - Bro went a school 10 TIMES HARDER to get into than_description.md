@@ -25,8 +25,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Bro went a school 10 TIMES HARDER to get into than Harvard...and made 10 times MORE money than people will see in their entire lives in one day🤯
-
-## On screen text
-
-inaday?
-soyou'remarried?

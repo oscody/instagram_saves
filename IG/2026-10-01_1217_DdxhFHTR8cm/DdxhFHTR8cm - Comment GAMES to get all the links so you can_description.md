@@ -38,34 +38,3 @@ Follow for more practical AI learning resources.
 #artificialintelligence #computerscience #programming #python #sql 
 
 [learn AI, AI for beginners, computer science students, programming, Python, SQL, machine learning, neural networks, LLMs, generative AI, coding for beginners, tech careers, early career professionals, software engineering, AI engineering]
-
-## On screen text
-
-Ithought earning Alwas HARD
-ntilfound theseGAES.
-coding
-Learning
-on web
-Course
-y
-03
-TensorFlow
-(NeuralNetorks)
-Visualy build neuralnets
-Donomy ou can erek n wers.
-REGENERA
-06
-TrickGuard
-Al Safety)
-TrickAlintorevealingeret
-pgKeaueakypee
-Mergefal
-Skysalvo
-Volyscope
-Slipstack
-Bitstorn
-anglevine
-Level1The Rookie
-dea what hers guardin
-ra stays with me
-Rester

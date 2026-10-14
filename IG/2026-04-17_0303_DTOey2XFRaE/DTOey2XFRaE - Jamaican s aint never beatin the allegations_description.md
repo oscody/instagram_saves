@@ -17,9 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Jamaican 🥷’s ain’t never beatin the allegations 😂😂😂😂😂 #streamer #twitch #clips
-
-## On screen text
-
-Bro has his ownbasketball
-team
-Bro has his own basketbal

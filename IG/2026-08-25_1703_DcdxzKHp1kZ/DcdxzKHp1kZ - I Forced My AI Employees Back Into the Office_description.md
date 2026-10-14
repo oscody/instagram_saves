@@ -17,12 +17,3 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I Forced My AI Employees Back Into the Office @chatgpt #ChatGPT_Partner
-
-## On screen text
-
-One afternoonFas using
-ChatGPT Work
-And there,standing right
-in front of me..
-Oof managing an employee
-in person.
