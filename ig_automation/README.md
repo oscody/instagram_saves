@@ -1,6 +1,6 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the exporter and the last three in batches until everything is done.
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the exporter and the last three in batches until everything is done. `play_saves.py` plays the downloaded posts on the Pi's screen and logs likes and skips (see [Watch the saves](#watch-the-saves-play_savespy-added-2026-10-14)).
 
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before. It reads the chat through Instagram's Android app API. If that fails, it reads new messages through headless Firefox instead (`export_chat_browser.py`).
 
@@ -398,6 +398,27 @@ Each stage runs with `IG_PIPELINE=1` set, which tells `describe.py` its output a
   * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in the same log, under each `=== describe.py` line.
 * **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off), `--export-every HOURS` (default 6).
 * **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. Since 2026-10-14 it reads the chat only when the last export (`exported_at`) is at least `--export-every` hours old (6), because reading it every batch looked like a bot. `--no-export` turns it off. Nothing is read while `output/LOGGED_OUT` exists; the runner stops instead. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
+
+## Watch the saves: `play_saves.py` (added 2026-10-14)
+
+Plays the downloaded posts back to back on the Pi's screen with mpv. Reels play through, photos and carousel slides stay up 6 seconds. A carousel is one post: next and previous jump past all its slides.
+
+```
+../Instagram-Saves-Engine/.venv/bin/python play_saves.py                     # unseen first, newest first
+../Instagram-Saves-Engine/.venv/bin/python play_saves.py --topic ai --type reel
+../Instagram-Saves-Engine/.venv/bin/python play_saves.py --dry-run --limit 20  # print the list only
+../Instagram-Saves-Engine/.venv/bin/python play_saves.py --report              # likes and skips per author and type
+```
+
+Options: `--order newest | oldest | random | liked-first | unseen-first`, `--topic WORD`, `--type reel | carousel | post`, `--author NAME`, `--limit N`, `--include-skipped` (posts skipped twice are left out otherwise), `--image-seconds N`.
+
+Keys (from `saves_log.lua`): `l` like, `n` or `→` next post, `p` or `←` previous post, `Space` pause, `i` title and summary, `o` save the post's link to the log, `+` / `-` photo time, `q` quit.
+
+* **Needs mpv:** `sudo apt install mpv`.
+* **Over SSH** it sets `WAYLAND_DISPLAY=wayland-0`, so the video opens on the HDMI screen.
+* **Log:** `output/watch_log.jsonl`, one line per post: `finished`, `partial` (moved on after half), `skip` (moved on before half), `quit` (closed mpv mid post, the post stays unseen), plus a `like` line when `l` is pressed and an `open` line for `o`.
+* **Read only:** it never writes `iambogle.json` and never talks to Instagram. Likes stay on the Pi.
+* Also writes `output/playlist.m3u`, `output/playlist_index.json` and a cache of video lengths, `output/video_durations.json`.
 
 ## Timer (added 2026-10-14)
 
