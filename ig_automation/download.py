@@ -283,8 +283,22 @@ def download_video(record: dict, folder: Path, base: str, firefox_profile: str) 
             record["caption"] = caption
     if not video.exists():
         raise RuntimeError("yt-dlp finished but wrote no mp4")
+    # Some Reels are silent (Instagram serves only a video stream), so there is nothing to transcribe.
+    if not has_audio_stream(video):
+        audio.unlink(missing_ok=True)
+        return [video.name]
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-vn", "-ar", "16000", "-ac", "1", str(audio)])
     return [video.name, audio.name]
+
+
+def has_audio_stream(video: Path) -> bool:
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index", "-of", "csv=p=0", str(video)],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"ffprobe could not read {video.name}")
+    return bool(result.stdout.strip())
 
 
 def best(versions: list) -> str:

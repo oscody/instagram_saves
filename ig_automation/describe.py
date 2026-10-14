@@ -664,6 +664,8 @@ def write_note(record: dict, folder: Path, teaches: list = (), source: dict = No
         "type": record.get("type", ""),
         "author": record.get("author", ""),
         "shared": record.get("sent_at", ""),
+        # Groq or local Whisper; only reels have a transcript.
+        **({"transcribed_by": record["transcribed_by"]} if record.get("transcribed_by") else {}),
         "described_by": record.get("described_by", ""),
         "described_at": record.get("described_at", ""),
     }
