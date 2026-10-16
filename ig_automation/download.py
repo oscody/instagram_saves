@@ -17,7 +17,7 @@ import sys
 import tempfile
 import time
 import wave
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -47,6 +47,7 @@ TITLE_MAX_CHARS = 50
 LOGGED_OUT_FILE = OUTPUT_DIR / "LOGGED_OUT"
 LOGGED_OUT_EXIT = 77  # tells run_pipeline.py to stop everything
 ATTEMPTS_FILE = OUTPUT_DIR / "download_attempts.json"  # when each post was tried, for the daily cap
+CAP_RETRY_FILE = OUTPUT_DIR / "download_cap_retry.json"
 NETWORK_WAIT = 600  # longest wait for the network to come back, in seconds
 
 # Errors that can mean Instagram sent the request to its login page or a challenge. A single broken post can
@@ -193,6 +194,26 @@ def note_attempt() -> None:
     tmp = ATTEMPTS_FILE.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(times))
     tmp.replace(ATTEMPTS_FILE)
+
+
+def next_allowed_time(slot: datetime, quiet_hours: str) -> datetime:
+    """Move a cap reopening time out of quiet hours while preserving its local timezone."""
+    if not quiet_hours or not in_quiet_hours(quiet_hours, slot):
+        return slot
+    start, end = (int(part) for part in quiet_hours.split("-"))
+    today_at_end = slot.replace(hour=end, minute=0, second=0, microsecond=0)
+    if start > end and slot.hour >= start:
+        return today_at_end + timedelta(days=1)
+    return today_at_end
+
+
+def save_cap_retry(slot: datetime, quiet_hours: str) -> datetime:
+    retry_at = next_allowed_time(slot, quiet_hours)
+    CAP_RETRY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    tmp = CAP_RETRY_FILE.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps({"next_attempt_at": retry_at.isoformat(), "reason": "rolling 24 hour download cap"}, indent=2) + "\n")
+    tmp.replace(CAP_RETRY_FILE)
+    return retry_at
 
 
 def make_title(caption: str) -> str:
@@ -451,6 +472,7 @@ def main() -> int:
         for record in todo:
             print(f"{record['sent_at']}  {record['type']:<8}  {base_name(record)}")
         return 0
+    CAP_RETRY_FILE.unlink(missing_ok=True)
     if not todo:
         return 0
     if LOGGED_OUT_FILE.exists():
@@ -468,8 +490,11 @@ def main() -> int:
             logger.info(f"Quiet hours ({args.quiet_hours}), stopping; the rest waits for the next run")
             break
         if args.daily_cap and len(recent_attempts()) >= args.daily_cap:
-            next_slot = datetime.fromtimestamp(min(recent_attempts()) + 24 * 3600)
+            next_slot = datetime.fromtimestamp(min(recent_attempts()) + 24 * 3600).astimezone()
+            retry_at = save_cap_retry(next_slot, args.quiet_hours)
             logger.info(f"Daily cap reached ({args.daily_cap} posts in 24 h), next slot at {next_slot:%a %H:%M}")
+            if retry_at != next_slot:
+                logger.info(f"Quiet hours apply, retry scheduled for {retry_at:%a %H:%M}")
             break
         if index > 1:
             time.sleep(random.uniform(args.min_sleep, args.max_sleep))

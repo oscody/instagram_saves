@@ -172,6 +172,16 @@ Offline regression checks:
 ../Instagram-Saves-Engine/.venv/bin/python -m unittest discover -s tests -p test_carousel_audio.py -v
 ```
 
+## Daily status report
+
+At the end of each pipeline run, `run_pipeline.py` refreshes `output/daily_status.md`. It reports total completed posts and those completed today, per-stage backlog, descriptions eligible for Claude upgrade, failed posts, the latest successful chat sync, chat history scan progress and the next scheduled timer window. It flags a logged out session, a failed latest export, and identical post errors affecting at least three posts. The sync attempt and success timestamps are stored in `output/pipeline_health.json`.
+
+Every pipeline run appends a timestamped snapshot to `output/daily_status.md` and sends only that new snapshot to the configured Hermes home chat using `hermes send`. If delivery fails, the next run tries again with its newer snapshot. By default it uses `/home/homepi/.local/bin/hermes` and the `telegram` home target; override these with `HERMES_SEND_BIN` and `HERMES_STATUS_TARGET`. It records the latest delivery state in `pipeline_health.json`. `hermes send` uses its configured platform credentials and does not require the gateway process to be running.
+
+The **last successful chat sync** is when the pipeline most recently finished reading the `iambogle` Instagram DM thread for shared post and reel links. It records a successful check even if there were no new links. It is separate from downloading or processing saved posts. `exported_at` in `iambogle.json` is used as a fallback until the pipeline records its first explicit sync result.
+
+The next run window mirrors `~/.config/systemd/user/ig-pipeline.timer`: every two hours from 8 am through 10 pm, with up to 20 minutes of randomized delay. When a download-cap retry is scheduled sooner, the report shows that time instead. The report is generated locally in `output/` and appended once per pipeline run.
+
 ## Download the media: `download.py`
 
 `download.py` reads `output/iambogle.json` and downloads each post's media into its own folder in `/home/homepi/Work/ig/instagram_saves/IG/`. Run the exporter first. Run one script at a time: they all write `iambogle.json`.
@@ -211,7 +221,7 @@ All three scripts get the folder from one helper, `post_dir()` in `download.py`.
 * **On failure:** `downloaded` stays `false` and `error` gets the reason, for example `HTTP 400 on /media/.../info/` for a deleted or private post. Later runs skip it unless you pass `--retry-failed`. A failed post leaves no empty folder.
 * **Stop on logout (added 2026-10-14):** an error that can mean Instagram sent the request to its login page or a challenge (`Exceeded 30 redirects`, `Failed to parse JSON`, login required, checkpoint, HTTP 401, 403 or 429) triggers one check of the session (a media info request that does not follow redirects). If the session is logged out, the post gets no error, the run stops with exit code 77, and `output/LOGGED_OUT` is written with the reason. No download (and no chat read by `run_pipeline.py`) starts while that file exists. To start again: log in to instagram.com in Firefox, close Firefox, run `tests/download_test.py`, then delete `output/LOGGED_OUT`. If the session is fine, only that post gets the error. Before this, the 2026-10-08 block failed about 960 posts over 5 hours.
 * **Network drops:** an error like `Failed to resolve 'www.instagram.com'` leaves the post untouched (the next run tries it again) and waits up to 10 minutes for the network. If it does not come back, the run stops.
-* **Pacing (added 2026-10-14):** 20 to 60 seconds between posts (was 5 to 12), at most `--daily-cap` posts (75) tried in any 24 hours across all runs, and none during `--quiet-hours` (11 pm to 8 am). Every try is logged in `output/download_attempts.json`, which the cap counts. At the cap the run stops with `Daily cap reached ..., next slot at ...`. Instagram does not publish its limits, so these numbers are a cautious guess after the 2026-10-08 block.
+* **Pacing (added 2026-10-14):** 20 to 60 seconds between posts (was 5 to 12), at most `--daily-cap` posts (75) tried in any 24 hours across all runs, and none during `--quiet-hours` (11 pm to 8 am). Every try is logged in `output/download_attempts.json`, which the cap counts. At the cap the downloader records the first available slot in `output/download_cap_retry.json`. The pipeline schedules a one shot systemd retry for that slot when it is earlier than the next regular timer run; if the time falls in quiet hours, it moves the retry to the next allowed hour. The regular two hour timer remains a fallback. Instagram does not publish its limits, so these numbers are a cautious guess after the 2026-10-08 block.
 
 ### Options
 
@@ -473,6 +483,11 @@ A systemd user timer runs one short batch every 2 hours from 8 am to 10 pm, each
 * A batch that downloads nothing because of the cap or the quiet hours logs `made no progress, stopping`. That is expected.
 
 ## Troubleshooting
+
+For the manual, resumable knowledge synthesis script, see [Saved Instagram knowledge playbook](PLAYBOOK.md).
+Its output stays in `../knowledge_library/`, outside the vault. Run `python3 build_playbook.py --dry-run`
+to inventory inputs. Run `python3 -u build_playbook.py --stage topics` first to save the topic library,
+then `python3 -u build_playbook.py --stage playbook` to build from those groups with GPT-6 Astra.
 
 * **A video plays with no sound:** the sound is in the `.mp4` (an AAC audio track, check with `ffprobe -v error -show_entries stream=codec_type,codec_name -of csv=p=0 FILE.mp4`). Instagram reels come down as VP9 video with AAC audio, an unusual mix: VS Code and Obsidian play VP9 but have no AAC support, so they show the picture with no sound. VLC plays them fine. The separate `.mp3` is a copy of the audio made on purpose for transcribe. Not fixed yet; options are to ask yt-dlp for H.264 (`-S vcodec:h264`, new downloads only) or convert the audio of existing videos to Opus in a `.webm`.
 * **`No Instagram sessionid cookie in Firefox`:** log into instagram.com in Firefox ESR.

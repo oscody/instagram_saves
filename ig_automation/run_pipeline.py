@@ -31,11 +31,11 @@ import os
 import subprocess
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from describe import CLAUDE_LIMIT_EXIT, needs_description, written_by_hailo
-from download import DEFAULT_JSON, IG_DIR, LOGGED_OUT_EXIT, LOGGED_OUT_FILE, needs_download
+from download import CAP_RETRY_FILE, DEFAULT_JSON, IG_DIR, LOGGED_OUT_EXIT, LOGGED_OUT_FILE, needs_download
 from transcribe import needs_transcript
 
 logging.basicConfig(
@@ -49,6 +49,7 @@ HERE = Path(__file__).resolve().parent
 STOP_FILE = HERE / "output" / "STOP"
 LOG_FILE = HERE / "output" / "pipeline.log"
 LOCK_FILE = HERE / "output" / "pipeline.lock"
+HEALTH_FILE = HERE / "output" / "pipeline_health.json"
 FINISH_LINE = "Pipeline ran"
 BATCH_LINE = "=== Batch"
 
@@ -203,15 +204,120 @@ def hours_since_export() -> float:
         return float("inf")
 
 
-def export(backfill_pages: int) -> None:
+def export(backfill_pages: int) -> bool:
     """Pick up new posts from the chat; a failure is only logged, the batch goes on without them."""
     started = time.monotonic()
-    result = subprocess.run(
-        [sys.executable, str(HERE / "export_chat_links.py"), "--backfill-pages", str(backfill_pages)], cwd=HERE
-    )
-    logger.info(f"  export_chat_links.py finished in {(time.monotonic() - started) / 60:.1f} min (exit code {result.returncode})")
-    if result.returncode != 0:
+    attempted_at = datetime.now().astimezone().isoformat(timespec="seconds")
+    state = load_health_state()
+    state["last_chat_sync_attempt"] = attempted_at
+    try:
+        result = subprocess.run(
+            [sys.executable, str(HERE / "export_chat_links.py"), "--backfill-pages", str(backfill_pages)], cwd=HERE
+        )
+        success = result.returncode == 0
+        state["last_chat_sync_result"] = "success" if success else "failed"
+        state["last_chat_sync_error"] = None if success else f"export_chat_links.py exited with code {result.returncode}"
+        if success:
+            state["last_chat_sync_success"] = datetime.now().astimezone().isoformat(timespec="seconds")
+    except OSError as e:
+        success = False
+        state["last_chat_sync_result"] = "failed"
+        state["last_chat_sync_error"] = str(e)
+        logger.exception("Could not start chat exporter")
+    save_health_state(state)
+    if 'result' in locals():
+        logger.info(f"  export_chat_links.py finished in {(time.monotonic() - started) / 60:.1f} min (exit code {result.returncode})")
+    else:
+        logger.info(f"  export_chat_links.py could not start after {(time.monotonic() - started) / 60:.1f} min")
+    if not success:
         logger.warning("  EXPORT FAILED: no new posts from the chat this batch. The error is just above.")
+    return success
+
+
+def load_health_state() -> dict:
+    try:
+        return json.loads(HEALTH_FILE.read_text())
+    except (OSError, ValueError):
+        return {}
+
+
+def save_health_state(state: dict) -> None:
+    HEALTH_FILE.parent.mkdir(parents=True, exist_ok=True)
+    tmp = HEALTH_FILE.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(state, indent=2) + "\n")
+    tmp.replace(HEALTH_FILE)
+
+
+def next_regular_timer_start(now: datetime | None = None) -> datetime:
+    """Next nominal run from ig-pipeline.timer, which adds up to 20 minutes of jitter."""
+    now = now or datetime.now().astimezone()
+    candidates = []
+    for day_offset in (0, 1):
+        day = (now + timedelta(days=day_offset)).date()
+        candidates.extend(
+            datetime.combine(day, datetime.min.time(), tzinfo=now.tzinfo).replace(hour=hour)
+            for hour in range(8, 23, 2)
+        )
+    return next(candidate for candidate in candidates if candidate > now)
+
+
+def cancel_cap_retry() -> None:
+    """Cancel a previously scheduled one-shot retry, if any."""
+    try:
+        subprocess.run(
+            ["systemctl", "--user", "stop", "ig-pipeline-cap-retry.timer"],
+            capture_output=True, text=True, timeout=15,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        pass
+
+
+def schedule_cap_retry() -> None:
+    """Add a one-shot user timer when a cap slot opens before the next regular run."""
+    if not CAP_RETRY_FILE.exists():
+        cancel_cap_retry()
+        return
+    try:
+        retry = datetime.fromisoformat(json.loads(CAP_RETRY_FILE.read_text())["next_attempt_at"])
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        logger.warning(f"Could not read the download cap retry time: {e}")
+        return
+    now = datetime.now().astimezone()
+    if retry.tzinfo is None:
+        retry = retry.astimezone()
+    if retry <= now or LOGGED_OUT_FILE.exists():
+        CAP_RETRY_FILE.unlink(missing_ok=True)
+        cancel_cap_retry()
+        return
+    # A normal run will try first if it starts in the same timer window, or before the cap reopens.
+    if retry >= next_regular_timer_start(now):
+        cancel_cap_retry()
+        logger.info(f"Periodic timer will check downloads before the cap slot reopens at {retry:%a %H:%M}")
+        return
+
+    cancel_cap_retry()
+    calendar_time = retry.strftime("%Y-%m-%d %H:%M:%S")
+    wait_for_pipeline = (
+        "while systemctl --user is-active --quiet ig-pipeline.service; do sleep 15; done; "
+        "exec systemctl --user start ig-pipeline.service"
+    )
+    try:
+        result = subprocess.run(
+            [
+                "systemd-run", "--user", "--quiet", "--collect", "--unit=ig-pipeline-cap-retry",
+                f"--on-calendar={calendar_time}", "--timer-property=AccuracySec=1s",
+                "--timer-property=RandomizedDelaySec=0", "/bin/bash", "-lc", wait_for_pipeline,
+            ],
+            capture_output=True, text=True, timeout=20,
+        )
+    except (OSError, subprocess.TimeoutExpired) as e:
+        logger.warning(f"Could not schedule the download cap retry; the regular timer remains active: {e}")
+        return
+    if result.returncode == 0:
+        logger.info(f"Scheduled a download cap retry for {retry:%a %b %d %H:%M}")
+    else:
+        detail = (result.stderr or result.stdout).strip()
+        logger.warning(f"Could not schedule the download cap retry; the regular timer remains active: {detail}")
 
 
 def main() -> int:
@@ -283,6 +389,19 @@ def main() -> int:
     finally:
         STOP_FILE.unlink(missing_ok=True)
         logger.info(f"{FINISH_LINE} {batch_no} batches in {(time.monotonic() - run_started) / 3600:.1f} h")
+        try:
+            from status_report import post_daily_status, write_daily_status
+
+            schedule_cap_retry()
+            report_path, snapshot = write_daily_status()
+            logger.info(f"Daily status snapshot appended to {report_path}")
+            posted = post_daily_status(snapshot)
+            if posted:
+                logger.info("This run's status snapshot posted to the configured Hermes chat")
+            else:
+                logger.error("Could not post this run's status snapshot to Hermes; see the delivery error")
+        except Exception:
+            logger.exception("Could not update the daily status report")
         lock.close()
     return 0
 
