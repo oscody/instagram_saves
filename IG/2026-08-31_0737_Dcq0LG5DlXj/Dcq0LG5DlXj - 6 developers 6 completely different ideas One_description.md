@@ -4,20 +4,22 @@ url: "https://instagram.com/p/Dcq0LG5DlXj/"
 type: "Carousel"
 author: "activeprogrammer"
 shared: "Aug 31, 2026, 07:37 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Six developer projects making the internet creative again
+# Six Developer Projects Making the Internet Creative Again
 
-A carousel showing six creative developer projects: an airplane-window portfolio that toggles dark mode, the ThreeUI Three.js component library, a bouquet that becomes a scannable QR code, a Claude-designed personal website, a live 3D iPhone twin, and a soccer game with no referees. The caption adds a brief reminder that small, weird, or fun projects can inspire other developers.
+A carousel showcasing six creative developer projects: a portfolio whose airplane window controls dark mode, ThreeUI's free Three.js components, a bouquet that becomes a scannable QR code, Claude designing its own personal website, a tool that syncs a real iPhone with a 3D model, and a soccer game with no referees.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. ThreeUI: copy a component's prompt or source, give it to an AI coding agent, then customize the theme, lighting, motion, and layout
-2. Bouquet QR: choose a flower type, customize the bouquet, then generate the QR code
+1. To use ThreeUI components: copy the prompt or source code for a component.
+2. Give the copied prompt or source to an AI coding agent.
+3. Customize the theme, lighting, motion, and layout of the component.
 
 ## Caption
 

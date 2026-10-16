@@ -4,24 +4,25 @@ url: "https://instagram.com/p/Dcwk8hBGDvv/"
 type: "Carousel"
 author: "evolvingfrontier"
 shared: "Sep 08, 2026, 07:56 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Boris Cherny's Claude Code tips from his talk
+# Eight Claude Code tips from Boris Cherny's talk
 
-A carousel recapping tips Boris Cherny gave on stage at Anthropic's first developer conference, noting which ones have since become built-in Claude Code features. It covers codebase Q&A, CLAUDE.md, planning, feedback loops and memory.
+A carousel recapping tips from Boris Cherny's talk on Claude Code best practices at Anthropic's developer conference, noting which tips have since become built-in commands. It has a comment-to-receive course offer in the caption.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Ask Claude Code questions about your codebase directly; no command is needed. The speaker said this cut Anthropic's technical onboarding from two or three weeks to two or three days.
-2. Keep one CLAUDE.md in the project root, written by hand and checked into git. Use /init to generate one from the codebase, /context to confirm it loaded, and /doctor to propose cuts once it passes about 200 lines.
-3. Plan before coding: ask Claude to make a plan, or press Shift+Tab until plan mode is on, then Ctrl+G to edit the plan before Claude runs it.
-4. Give Claude a feedback loop, such as a unit test or a screenshot to check its work against. The speaker said two or three iterations gets it almost perfect. Stop hooks can enforce this by blocking the turn from ending until the check passes.
-5. Run several sessions at once with /batch.
-6. Use /context to see which memory files are loaded, and /memory to view and edit auto memory, where Claude saves notes on your corrections and reloads them at the start of every session.
+1. Start with codebase Q&A: ask Claude Code questions about your codebase from day one instead of relying on other engineers or manual code reading.
+2. Put a CLAUDE.md in the project root and check it into git so the team shares it; keep personal notes in CLAUDE.local.md, which is not checked in.
+3. Keep CLAUDE.md under about 200 lines, since adherence drops past that; use /init to generate one, /context to confirm it loaded, and /doctor to propose cuts.
+4. Before coding, ask Claude to make a plan first. Plan mode is optional: press Shift+Tab until plan mode shows in the status bar, then Ctrl+G to edit the plan before Claude runs it.
+5. Give Claude a way to check its own work, such as a unit test or a screenshot, so it can iterate; two or three rounds often gets close to perfect. A Stop hook can stop the turn from ending until the check passes.
+6. Use /context to see which memory files are loaded and /memory to open auto memory, where Claude saves notes on your corrections and reloads them at the start of every session.
 
 ## Source
 

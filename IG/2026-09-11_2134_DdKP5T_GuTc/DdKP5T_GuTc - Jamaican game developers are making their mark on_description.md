@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DdKP5T_GuTc/"
 type: "Carousel"
 author: "jamaicansdotcom"
 shared: "Sep 11, 2026, 09:34 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Four Jamaican indie games on Steam
+# Four new Jamaican indie games on Steam
 
-A carousel from jamaicans.com introducing four new indie games by Jamaican or Jamaican-linked developers on Steam: Duppy Detective: Tashia, Jamaican Ludi, Ourlands and Gravity's Edge. Each slide gives a short description of one game, and the closing slides ask readers to visit the site and follow it.
+A jamaicans.com carousel introducing four new indie games by Jamaican or Jamaican-linked developers on Steam: Duppy Detective: Tashia, Jamaican Ludi, Ourlands and Gravity's Edge. Each slide gives a short description of the game and its studio, and the final slide points readers to the full story on jamaicans.com.
 
 Written by claude-haiku-5-5.
 
@@ -33,7 +34,7 @@ Studios:
 @gravitysedgegame
 @grahamoflegend
 
-🔗 Learn more about the games and the developers behind them at the link in bio. 
+🔗 Learn more about the games and the developers behind them at the link in bio.
 
 And if you’re a gamer, wishlist, download, play and review their games on Steam to support Jamaica’s growing game development community.
 

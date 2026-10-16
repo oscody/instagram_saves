@@ -4,24 +4,25 @@ url: "https://instagram.com/p/DY2Cf2jks2a/"
 type: "Carousel"
 author: "vyzual.ai"
 shared: "May 29, 2026, 07:47 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Audit of five scraping frameworks for AI agents
+# Audit of five scraping frameworks' deployment friction
 
-A six-slide carousel reviewing Crawl4AI, Firecrawl, Scrapy, Playwright and Crawlee for deployment friction, bugs and over-promised features. Its closing advice is to check the open issue queue and configuration files before trusting a README.
+A six-slide carousel that audits Crawl4AI, Firecrawl, Scrapy, Playwright and Crawlee, giving each a verdict on self-hosting, timeouts, issue-queue health, anti-bot claims and global config side effects. It ends by urging readers to check a repo's issues and config files before adopting it.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
 1. Before trusting a repository's README, check its open issue queue.
-2. Before trusting a repository's README, check its configuration files.
+2. Before trusting a repository's README, check its configuration files (for example Docker compose files, .env templates and config modules).
 
 ## Source
 
-* Link: github.com/unclecode/crawl4ai, github.com/scrapy/scrapy, github.com/firecrawl/firecrawl, github.com/microsoft/playwright, github.com/apify/crawlee
+* Link: github.com/unclecode/crawl4ai, github.com/firecrawl/firecrawl, github.com/scrapy/scrapy, github.com/microsoft/playwright, github.com/apify/crawlee
 
 ## Caption
 

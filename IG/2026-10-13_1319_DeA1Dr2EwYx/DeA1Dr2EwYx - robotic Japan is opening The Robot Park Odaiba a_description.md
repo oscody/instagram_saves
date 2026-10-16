@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DeA1Dr2EwYx/"
 type: "Carousel"
 author: "robotic"
 shared: "Oct 13, 2026, 01:19 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-10-15"
 ---
 
-# Robot Park Odaiba opening with Skeletronics exoskeletons
+# Robot Park Odaiba opening and robot battles
 
-The post announces The Robot Park Odaiba in Tokyo, a facility where visitors can pilot large robotic systems and take part in robot battles, opening as a permanent attraction on October 15, 2026. It shows Skeletronics exoskeleton robots fighting in an arena, with the credit "X/skeletonics".
+A carousel announcing The Robot Park Odaiba in Tokyo, a permanent facility opening October 15, 2026, where visitors can pilot large robotic systems and take part in robot battles. The slides show Skeletronics exoskeleton robots fighting in an arena, with a battle recap in the audio.
 
 Written by claude-haiku-5-5.
 

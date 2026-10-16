@@ -1,0 +1,38 @@
+---
+shortcode: "DNPpuMlu9Y6"
+url: "https://instagram.com/reel/DNPpuMlu9Y6/"
+type: "Reel"
+author: "itsnextwork"
+shared: "Aug 17, 2025, 02:45 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-15"
+---
+
+# Skit on exposed app data and access control
+
+A skit in which an intern's dating app exposes government IDs and private messages because a storage bucket has no security rules and the message database has no ownership check. The clip uses a diagram and a boss character to walk through what went wrong.
+
+Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Logging in (authentication) does not mean a user may read other people's data (authorization); check permissions on every request.
+2. Set security rules and permissions on databases and storage buckets; don't leave a bucket publicly accessible with no rules.
+3. Users should never query the database directly.
+4. Route every data request through an API layer that verifies ownership first and returns only the requesting user's data.
+
+## Source
+
+* Link: learn.nextwork.org
+* How to get it: comment 'I want in' for the hands-on tech projects
+
+## Caption
+
+Follow & Commnt "I want in" for hands-on tech projects to add to your resume! 
+
+In this video we cover how the intern made a rookie mistake when creating the Tea dating app...
+
+Got to set those permissions right...
+
+#security #cybersecurity #systemsdesign

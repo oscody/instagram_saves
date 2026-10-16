@@ -4,20 +4,20 @@ url: "https://instagram.com/p/DXtMAUfDSjZ/"
 type: "Carousel"
 author: "anubhavhingg"
 shared: "Apr 29, 2026, 03:47 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
 # Trending GitHub repos list teaser for Claude Code
 
-Slides show a ranked list of trending GitHub repos with star counts and one-line descriptions. The top two are forrestchang/andrej-karpathy-skills, a single CLAUDE.md file based on Andrej Karpathy's observations on LLM coding pitfalls, and thedotmack/claude-mem, a Claude Code memory plugin.
+The post is a teaser for a list of trending GitHub repos related to Claude Code and AI tools. It shows the top two entries (forrestchang/andrej-karpathy-skills and thedotmack/claude-mem) and says the full top 10 list is sent only by comment or DM.
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* Link: forrestchang/andrej-karpathy-skills, thedotmack/claude-mem
-* How to get it: Full list of 10 repos is sent by DM after commenting "GITHUB" (caption) or "REPO" (on-screen text)
+* How to get it: Comment GITHUB (per the caption) or REPO (per the on-image text) to get the full top 10 list by DM
 
 ## Caption
 

@@ -4,15 +4,24 @@ url: "https://instagram.com/p/DZpmi8hklz6/"
 type: "Carousel"
 author: "vyzual.ai"
 shared: "Jun 18, 2026, 07:44 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Five open-source local AI agent tools roundup
+# Five open-source local AI agent orchestration repos
 
-A carousel listing five open-source repos for local AI agent orchestration and observability: agenttrace, gbrain, mission-control, skillclaw and hermes-workspace. Each slide gives a short description, the problem it addresses, a core feature, and a sample command or config snippet.
+A carousel listing five open-source repos for local AI agent work: agenttrace (session cost and health CLI), gbrain (cited answers from a knowledge graph), mission-control (self-hosted agent dashboard), skillclaw (cross-device skill sync proxy), and hermes-workspace (browser control plane for Hermes). Each slide gives a short description and a code snippet.
 
 Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. agenttrace: install with `go install github.com/luoyuctl/agenttrace@latest`, then run `agenttrace --doctor --fail-under-health 80` to get a terminal report or fail the CI pipeline when local agent run health is below 80.
+2. gbrain: import `BrainEngine` from `@gbrain/core` and call `await BrainEngine.query("architecture")` to get answers cited from a local knowledge graph.
+3. mission-control: start the dispatch with `OPENCLAW_GATEWAY_HOST=localhost pnpm run dispatch`.
+4. skillclaw: `from skillclaw import EvolveProxy`, then create `EvolveProxy(target="http://localhost:11434")` to route LLM provider traffic through the local proxy.
+5. hermes-workspace: set `HERMES_API_URL=http://gateway:8080` and `API_SERVER_ENABLED=true` in the environment section to connect to the Hermes gateway.
 
 ## Source
 

@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DaTnhCyCGrI/"
 type: "Carousel"
 author: "chopdaily"
 shared: "Jul 03, 2026, 01:09 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Victony's songs since "Soweto"
+# Victony's recent songs since "Soweto"
 
-A carousel listing Victony tracks released since his hit "Soweto," with "Slick" called his new release. Slides show clips and credits for Fresh, Skido, Stubborn, Everything and Jaga Jaga.
+Chop Daily lists eight Victony tracks released since his 2023 hit "Soweto," with "Slick" called his new release. Slides show featured artists for some songs, including Olamide on "Skido" and Asake on "Stubborn."
 
 Written by claude-haiku-5-5.
 
@@ -24,5 +25,5 @@ Skido
 Stubborn
 Everything
 Jaga Jaga
-My Darling 
+My Darling
 Soweto

@@ -4,20 +4,21 @@ url: "https://instagram.com/p/Db37Gy2HHXr/"
 type: "Carousel"
 author: "godofprompt"
 shared: "Aug 11, 2026, 05:30 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-10-15"
 ---
 
 # Vision Agents: open-source toolkit for video AI agents
 
-A four-slide carousel introducing Vision Agents, an open-source toolkit from Stream for building AI agents that watch, listen to and react to video in real time. It lists claimed traits such as low latency, support for your own models and edge layer, and providers like OpenAI, Gemini, Deepgram and ElevenLabs, with example uses in pose-tracking coaching, collaboration apps, avatars and robotics; the closing slide asks viewers to comment "Github" to receive a link.
+A four-slide carousel presenting Vision Agents, an open-source toolkit by Stream for building AI agents that watch, listen to, and react to live video. It lists supported models and providers, sample use cases such as live pose-tracking coaching and robotics, and shows a short code snippet.
 
 Written by claude-haiku-5-5.
 
 ## Source
 
 * Link: visionagents.ai
-* How to get it: Comment "Github" on the post; the link is sent to you by DM
+* How to get it: Comment "Github" on the post; the setup guide link is sent to you by comment/DM.
 
 ## Caption
 

@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DWJUbQmDBjQ/"
 type: "Carousel"
 author: "theaifield"
 shared: "Mar 21, 2026, 11:56 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# AI series licenses bartender's likeness for $1M
+# Bartender's likeness licensed for AI series
 
-A sponsored carousel (tagged #higgsfieldpartner) says Higgsfield AI licensed the likeness of a 22-year-old New Brunswick bartender for over $1M to star in "Arena Zero," described as the first full-length AI series. Slides show short clips from the show alongside the claim and a call for opinions in the caption.
+A news-style carousel saying Higgsfield AI licensed the likeness of a 22-year-old New Brunswick bartender for over $1M to star in "Arena Zero," presented as the first full-length AI series. It shows a real set photo, subtitled AI-generated clips, and ends by asking for opinions; the post is tagged #higgsfieldpartner.
 
 Written by claude-haiku-5-5.
 

@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DYzhQmCjG20/"
 type: "Carousel"
 author: "culturecustodian"
 shared: "May 27, 2026, 11:29 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Nigerian indie developers' game picks
+# Nigerian Indie Game Developers Spotlight
 
-A carousel that shows a Twitter post questioning whether Nigerian indie developers make well-known games, then gives the post's figures on Nigeria's gaming market (over 46 million gamers, nearly $300 million a year). It closes with screenshot slides of four indie games by Nigerian studios: Legends of Orisha: Blood and Water, Adventurers, Taste of Wazobia and Tribulation.
+A carousel showcasing video games made by Nigerian indie studios, prompted by a Twitter thread questioning whether local developers make games. It features titles including Legends of Orisha: Blood and Water, Adventurers, Taste of Wazobia and Tribulation, and cites Nigeria's 46 million gamers and an estimated $300 million annual industry.
 
 Written by claude-haiku-5-5.
 

@@ -4,13 +4,14 @@ url: "https://instagram.com/p/Dd0j_P5FQKt/"
 type: "Carousel"
 author: "chatgptricks"
 shared: "Sep 30, 2026, 08:15 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# AI-generated playable game clones carousel
+# AI-generated playable game clones showcase
 
-The caption says AI models can now turn simple prompts into rough, playable game-like experiences. The slides show example clones: a Pokémon-style battle, a League of Legends-style third-person game, a Splatoon-style ink shooter, a World of Warcraft-style character creator, and a coin maker simulator.
+A carousel showing examples of games AI has generated from simple prompts, including a Pokémon-style battle, a coin maker simulator, a League of Legends-style third-person arena, a Splatoon-style shooter and a World of Warcraft-style character creator. The caption says the results are rough, and it asks which game viewers would recreate first.
 
 Written by claude-haiku-5-5.
 

@@ -4,28 +4,34 @@ url: "https://instagram.com/p/DbwmInXHFgH/"
 type: "Carousel"
 author: "godofprompt"
 shared: "Aug 08, 2026, 10:35 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-10-15"
 ---
 
-# Claude Code setup walkthrough from a conference talk
+# Claude Code setup and workflow tips carousel
 
-A six-slide carousel summarizing a talk by the creator of Claude Code, with slides on setup, tools, context files, and automation. The full material is offered separately through a comment keyword.
+A six-slide carousel relaying setup and workflow tips from a talk by the Claude Code creator, covering setup commands, planning, layered CLAUDE.md context, and the SDK. It ends with a call to comment a keyword.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Set up Claude Code first using the optimize-setup options: /allowed-tools (customize tool permissions), /install-github-app (tag @claude on issues and PRs), /config (turn on notifications), /terminal-setup (enable shift+enter for newlines), /theme (enable light/dark mode), and turn on MacOS dictation. Then start with Q&A.
-2. Plan first, then let Claude check its own work.
-3. Use the built-in tools, which make Claude Code powerful: bash, file search, file listing, file read and write, web fetch and search, TODOs, and sub-agents.
-4. Layer your context with CLAUDE.md files: an enterprise root CLAUDE.md and a ~/.claude/CLAUDE.md are shared across all projects, a project-root CLAUDE.md is checked in, and a CLAUDE.local.md is not checked in.
-5. Learn the shortcuts (type # to add to memory).
-6. Automate first, then scale: use the Claude Code SDK for programmatic access to Claude Code, for CI and non-interactive scripts, automation, and building agentic apps.
+1. Run /terminal-setup to get shift+enter for new lines instead of backslashes.
+2. Use /theme to switch between light and dark mode.
+3. Run /install-github-app so you can mention Claude on GitHub issues and pull requests.
+4. Customize the allowed tools list so you are not prompted to approve the same actions every time.
+5. On macOS, enable dictation in system settings under accessibility and dictate prompts instead of typing them.
+6. Plan first: ask Claude to brainstorm or make a plan before it writes code, and give it enough context, since it makes better decisions with more.
+7. Put a CLAUDE.md file in the project root with common bash commands, common MCP tools, and architecture notes; it is read automatically at the start of every session.
+8. Check the project CLAUDE.md into source control so the team shares it, and use CLAUDE.local.md for personal notes that are not checked in.
+9. Layer context: an enterprise root CLAUDE.md applies to all sessions, and ~/.claude/CLAUDE.md is shared across all your projects.
+10. Automate with the Claude Code SDK: use claude -p with a prompt, allowed tools, and an output format such as JSON or streaming JSON, treating it like a Unix utility.
+11. Scale automation once it works, for example in CI pipelines or incident response.
 
 ## Source
 
-* How to get it: Comment "CLAUDE" on the post to receive the link by DM
+* How to get it: Comment the keyword CLAUDE on the post; the post says the link is sent after commenting.
 
 ## Caption
 

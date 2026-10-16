@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DY48LieCGCn/"
 type: "Carousel"
 author: "nwe"
 shared: "May 28, 2026, 10:48 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Songs of the Sahara: African fantasy graphic novel
+# African fantasy we've all been waiting for
 
-A six-slide carousel promoting Songs of the Sahara, an African fantasy graphic novel by Cameroonian creator Eposi Litumbe, shown through character art, a short video clip, a book spread and comic panels. The caption pushes a Kickstarter pre-order that is nearing its deadline.
+An promotional carousel for Songs of the Sahara, a hand-drawn, hand-painted African fantasy graphic novel trilogy by Cameroonian creator Eposi Litumbe, inspired by pre-colonial West African kingdoms and myths. It shows character art, comic panels from the book, and a note that the Kickstarter campaign is nearing its deadline.
 
 Written by claude-haiku-5-5.
 

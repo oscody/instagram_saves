@@ -4,26 +4,25 @@ url: "https://instagram.com/p/DUIi82oDMsq/"
 type: "Carousel"
 author: "theaifield"
 shared: "Jan 30, 2026, 08:15 AM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Kimi K2.5 features: visual coding, agent swarm, editing
+# Kimi K2.5: Visual Coding, Agent Swarm, Visual Edit
 
-A carousel promoting Moonshot's Kimi K2.5 model, with benchmark charts, examples of websites cloned from screenshots and videos, subagent cards, and a visual-edit demo of a ceramics site. The post ends with a comment-to-get-access offer.
+A six-slide promo for Moonshot's Kimi K2.5 model, citing benchmark claims, lower cost, and features such as visual coding, Agent Swarm, and Office Agent. The later slides show a website recreated from a screenshot and a visual edit made on a generated page.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Upload a website screenshot, video or images (50+ files) to Kimi's visual coding to get a recreated website with UX design and animations.
-2. Open the live website in the Preview panel and click the edit (pen) icon.
-3. Circle the area of the preview you want to change.
-4. Describe the change in plain language in the prompt box, for example 'Change the plate color to a red one.'
-
-## Source
-
-* How to get it: Comment "KIMI" on the post to receive the access link for the free membership
+1. Visual coding: upload a website screenshot (the caption says up to 100MB) or images and videos (slides say 50+ files) and Kimi rebuilds it as a site with UX design and animations.
+2. Open the generated site in the Preview pane to review it.
+3. Visual edit: click the pencil (edit) icon in the top bar of the preview.
+4. Circle the area of the page you want to change.
+5. Describe the change in plain language in the box that appears (e.g., 'Change the plate color to a red one'), then send it.
+6. Agent Swarm: from the Create Subagent prompt, pick a role such as 'Arxiv Researcher' or 'Technical Architect' to set up agents that work in parallel.
 
 ## Caption
 

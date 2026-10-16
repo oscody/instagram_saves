@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DcLWqIOjNIN/"
 type: "Carousel"
 author: "theaifield"
 shared: "Aug 18, 2026, 08:24 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# Grok 4.6 creative examples carousel
+# Grok 4.6 creative AI showcase examples
 
-A carousel from @theaifield showing Grok 4.6 outputs: an interactive 3D riverside scene with adjustable settings, an FPS shooter, a self-made game trailer, a 3D-printable Tesla part, a Minecraft-style clone, and a desk setup labeled "Grok got its first iPhone." The caption frames these as examples of AI creation moving from text and images into playable, explorable and physical results.
+A carousel showing ten examples of what Grok 4.6 can create, including a 3D riverside scene with adjustable controls, an FPS shooter built over 48 hours, a self-made game trailer, a Tesla part with 3D-print files, a Minecraft-style clone, and Grok running on an iPhone. The caption frames AI creation as moving from text and images into playable, explorable and printable experiences.
 
 Written by claude-haiku-5-5.
 

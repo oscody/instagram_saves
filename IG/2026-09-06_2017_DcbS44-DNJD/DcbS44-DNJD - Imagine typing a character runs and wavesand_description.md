@@ -4,13 +4,14 @@ url: "https://instagram.com/p/DcbS44-DNJD/"
 type: "Carousel"
 author: "activeprogrammer"
 shared: "Sep 06, 2026, 08:17 PM"
+transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-10-15"
 ---
 
-# kimodo.cpp: text-to-3D animation on a CPU
+# kimodo.cpp: text-to-3D motion on local hardware
 
-A carousel showing kimodo.cpp, a community C++ port of NVIDIA's Kimodo model, which turns text descriptions like "a person sprints and falls" into skeletal 3D motion that runs locally on CPU or Vulkan. Screenshots show a text-to-motion interface with past animations and a skeleton preview.
+The post introduces kimodo.cpp, a community C++ port of NVIDIA's Kimodo model that turns a text description into skeletal 3D character motion locally on CPU or Vulkan, without a full PyTorch and CUDA setup. Screenshots show a "Text to motion" app where prompts like "A person does a star jump" generate animations that can be replayed and edited.
 
 Written by claude-haiku-5-5.
 
