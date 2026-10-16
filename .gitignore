@@ -3,6 +3,7 @@ IG/Media/
 instagram-djboglemusic-2026-07-10-Rk6cAOgC/
 IG_export/
 ig_automation/__pycache__/
+ig_automation/tests/__pycache__/
 ig_automation/output/
 # Post folders: only the .md notes are tracked; media, transcripts and the rest stay out (since 2026-10-14).
 IG/*
@@ -11,3 +12,5 @@ IG/*/*
 !IG/*/*.md
 hailort.log
 ig_automation/.env
+# Generated private knowledge library, evidence caches, and run logs stay local.
+knowledge_library/
