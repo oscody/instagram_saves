@@ -24,6 +24,7 @@ instead, with no log file.
 """
 
 import argparse
+import fcntl
 import json
 import logging
 import os
@@ -47,6 +48,7 @@ logger = logging.getLogger("ig_pipeline")
 HERE = Path(__file__).resolve().parent
 STOP_FILE = HERE / "output" / "STOP"
 LOG_FILE = HERE / "output" / "pipeline.log"
+LOCK_FILE = HERE / "output" / "pipeline.lock"
 FINISH_LINE = "Pipeline ran"
 BATCH_LINE = "=== Batch"
 
@@ -219,6 +221,14 @@ def main() -> int:
     if pid := other_runner():
         logger.error(f"run_pipeline.py is already running (PID {pid})")
         return 1
+    # Also protects against maintenance jobs in a different process namespace.
+    lock = LOCK_FILE.open("a")
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        lock.close()
+        logger.info("Pipeline state is locked by another run or maintenance job; waiting for the next scheduled run")
+        return 0
     STOP_FILE.unlink(missing_ok=True)
     run_started = time.monotonic()
     batch_no = 0
@@ -273,6 +283,7 @@ def main() -> int:
     finally:
         STOP_FILE.unlink(missing_ok=True)
         logger.info(f"{FINISH_LINE} {batch_no} batches in {(time.monotonic() - run_started) / 3600:.1f} h")
+        lock.close()
     return 0
 
 

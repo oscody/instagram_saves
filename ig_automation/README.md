@@ -130,6 +130,48 @@ The first complete pass through a long chat can take 30 to 60 minutes. You can s
 | `--backfill-pages N` | Read all new messages, then at most N pages of older history. `0` reads no history (before 2026-10-08, `0` meant no limit). Without it, the backfill runs to the start of the chat. `run_pipeline.py` passes 50 |
 | `--browser` | Read new messages through headless Firefox (`export_chat_browser.py`) instead of the app API. Happens on its own when the app API fails |
 
+## Carousel audio (fixed 2026-10-15)
+
+Carousel video slides now go through the audio pipeline too. After downloading a
+carousel, `download.py` checks each video for an audio stream. It combines the
+audio-bearing slides in their original slide order into
+`<shortcode>_carousel_audio.mp3` (16 kHz mono). Silent slides are skipped. The
+record's `carousel_audio_sources` retains the source video filenames and each
+clip's start/end offset in the combined audio.
+
+The existing transcription stage writes a separate
+`<shortcode>_carousel_audio_transcript.txt`. Description generation waits for that
+transcript and uses it along with the images, caption and OCR. **Raw transcripts
+are not copied into Markdown notes**; notes continue to contain the title,
+summary, takeaways, source information and caption.
+
+`prepare_carousel_audio(record, folder)` also works on already downloaded media
+without fetching Instagram again. Adding audio clears `transcribed` and
+`described` so the following stages refresh the post. Existing notes remain on
+disk until their replacements are ready. Existing combined audio is reused.
+
+For a post whose audio was backfilled, refresh its note from saved OCR with:
+
+```sh
+../Instagram-Saves-Engine/.venv/bin/python describe.py --reuse-ocr --shortcode CODE
+```
+
+This uses Claude and the current transcript without taking the Hailo device. It
+requires the saved OCR file and retains the old note if Claude fails or reaches
+its limit. Use `--redo` too when intentionally refreshing a post still marked
+described. The normal timer continues to use its existing OCR/Claude workflow.
+
+The runner holds `output/pipeline.lock` for the whole batch. Maintenance that
+writes the export file must hold the same exclusive `flock`; a scheduled run
+skips when maintenance already holds it. Run only one standalone writing stage
+at a time.
+
+Offline regression checks:
+
+```sh
+../Instagram-Saves-Engine/.venv/bin/python -m unittest discover -s tests -p test_carousel_audio.py -v
+```
+
 ## Download the media: `download.py`
 
 `download.py` reads `output/iambogle.json` and downloads each post's media into its own folder in `/home/homepi/Work/ig/instagram_saves/IG/`. Run the exporter first. Run one script at a time: they all write `iambogle.json`.
@@ -204,7 +246,7 @@ The transcript goes next to the audio, as `<shortcode> - <title>_transcript.txt`
   * A reel over Groq's 25 MB upload limit, or a Groq error, goes to the CPU instead.
   * Each post records the backend in `transcribed_by` (`groq whisper-large-v3-turbo` or `faster-whisper base`).
   * Quality: on 5 reels Groq matched the local transcripts by 92 to 100% of words (`groq_transcribe_test.py`, 2026-10-08).
-* **Which posts:** newest first, every post with `downloaded: true`, `transcribed: false`, `error: false` and an `.mp3` in `files`. Photo and carousel posts have no audio, so they are skipped and keep `transcribed: false`.
+* **Which posts:** newest first, every post with `downloaded: true`, `transcribed: false`, `error: false` and an `.mp3` in `files`. Photos and silent videos are skipped and keep `transcribed: false`. Carousels with audio use the combined MP3 prepared by the download step.
 * **No speech:** a reel with only music or silence gets an empty transcript and still `transcribed: true`, so it is not tried again every run. Music with lyrics comes out as the lyrics.
 * **Trust the folder:** a post marked `transcribed` whose transcript file is gone is transcribed again. A post whose `.mp3` is gone gets `downloaded: false`, so the next `download.py` run fetches it again.
 * **After each post:** `transcribed` becomes `true`, and `iambogle.json` is saved. The transcript is not added to `files`, which lists only downloaded media.
@@ -254,7 +296,7 @@ cd /home/homepi/Work/ig/instagram_saves/ig_automation
 
 * `IG/<folder>/<base>_frame_1.jpg` to `_frame_3.jpg`: for reels, 3 frames spread evenly over the video. Photos and carousels use their own images (a carousel video slide gives one frame, `<slide>_frame.jpg`).
 * `IG/<folder>/<base>_ocr.txt`: the raw text read from the frames or images, repeated lines removed.
-* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption. The transcript and the on screen text are not in the note (left out since 2026-10-14; the OCR text was mostly broken fragments); they stay in `<audio>_transcript.txt` and `<base>_ocr.txt` in the same folder, and Claude still reads both. `strip_note_sections.py` removes the `## Transcript` and `## On screen text` sections from older notes (for example after restoring a backup): a dry run by default, `--apply` to change them, and it only removes a section whose text matches the post's own file exactly. On 2026-10-14 it removed the on screen text from 827 notes. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `transcribed_by` (reels only: `groq whisper-large-v3-turbo` or `faster-whisper base`, added 2026-10-14), `described_by`, `described_at`.
+* `IG/<folder>/<base>_description.md`: a note with the title, summary, who wrote it, **What it teaches** (numbered steps or rules) and **Source** (a link written in the post, and how to get the material, for example "comment AUDIT, sent by DM"), then the caption. The transcript and the on screen text are not in the note (left out since 2026-10-14; the OCR text was mostly broken fragments); they stay in `<audio>_transcript.txt` and `<base>_ocr.txt` in the same folder, and Claude still reads both. `strip_note_sections.py` removes the `## Transcript` and `## On screen text` sections from older notes (for example after restoring a backup): a dry run by default, `--apply` to change them, and it only removes a section whose text matches the post's own file exactly. On 2026-10-14 it removed the on screen text from 827 notes. The steps and source are only in the note, never in `iambogle.json`, and only Claude writes them (Qwen posts get them when upgraded). Front matter: `shortcode`, `url`, `type`, `author` (the Instagram account), `shared`, `transcribed_by` (posts with audio: `groq whisper-large-v3-turbo` or `faster-whisper base`, added 2026-10-14), `described_by`, `described_at`.
 * In `iambogle.json`: `ai_title`, `summary`, `described_by` (the model, for example `claude-haiku-5-5` or `qwen2.5-1.5b-instruct (hailo)`), `described_at` (date), and `described: true`. `author` was already taken by the Instagram account, so the model goes in `described_by`.
 
 Example note (reel `Dd2F41WFQgF`, Claude). Its title and summary are also in `iambogle.json`; the steps and source are only here:

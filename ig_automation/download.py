@@ -14,7 +14,9 @@ import re
 import socket
 import subprocess
 import sys
+import tempfile
 import time
+import wave
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -301,6 +303,56 @@ def has_audio_stream(video: Path) -> bool:
     return bool(result.stdout.strip())
 
 
+def prepare_carousel_audio(record: dict, folder: Path) -> bool:
+    """Extract local video-slide audio in slide order for the existing transcription stage.
+
+    One combined MP3 keeps the post-level transcript contract. Source offsets are
+    retained in the record; silent slides are omitted. No Instagram requests.
+    Returns True only when new audio was prepared.
+    """
+    if record.get("type") != "Carousel":
+        return False
+    files = record.get("files") or []
+    existing = next((name for name in files if name.endswith(".mp3")), None)
+    if existing and (folder / existing).exists():
+        return False
+    videos = [folder / name for name in files if name.endswith(".mp4")]
+    sources = [video for video in videos if has_audio_stream(video)]
+    if not sources:
+        return False
+    audio = folder / f"{record['shortcode']}_carousel_audio.mp3"
+    offsets = []
+    with tempfile.TemporaryDirectory(prefix=".carousel-audio-", dir=folder) as temp:
+        temp = Path(temp)
+        combined = temp / "combined.wav"
+        frames_written = 0
+        with wave.open(str(combined), "wb") as output:
+            output.setparams((1, 2, 16000, 0, "NONE", "not compressed"))
+            for index, video in enumerate(sources):
+                clip = temp / f"{index}.wav"
+                run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video),
+                     "-map", "0:a:0", "-vn", "-ar", "16000", "-ac", "1",
+                     "-c:a", "pcm_s16le", str(clip)])
+                start = frames_written / 16000
+                with wave.open(str(clip), "rb") as source:
+                    frames_written += source.getnframes()
+                    while chunk := source.readframes(65536):
+                        output.writeframesraw(chunk)
+                offsets.append({"file": video.name, "start_seconds": start,
+                                "end_seconds": frames_written / 16000})
+            # wave writes the final frame count when the output is closed.
+        prepared = temp / "combined.mp3"
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(combined),
+             "-c:a", "libmp3lame", "-b:a", "64k", str(prepared)])
+        prepared.replace(audio)
+    record["files"] = [name for name in files if not name.endswith(".mp3")] + [audio.name]
+    record["carousel_audio_sources"] = offsets
+    record["transcribed"] = False
+    record["described"] = False  # the old note remains until a refreshed one is ready
+    record.pop("transcribed_by", None)
+    return True
+
+
 def best(versions: list) -> str:
     return max(versions, key=lambda v: v.get("width", 0) * v.get("height", 0))["url"]
 
@@ -358,6 +410,7 @@ def download_post(record: dict, ig_dir: Path, cookies: dict, firefox_profile: st
             files = download_images(items[0], folder, base)
 
     record["files"] = files
+    prepare_carousel_audio(record, folder)
     record["downloaded"] = True
     record["error"] = False
 

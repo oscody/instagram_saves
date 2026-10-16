@@ -74,6 +74,8 @@ CLAUDE_SYSTEM = (
     "You write notes on saved Instagram posts for a personal archive. "
     "Look at every listed image with the Read tool before answering. "
     "Use only what is in the caption, transcript, on screen text and images. "
+    "Audio may be background music or unrelated lyrics: use only speech relevant to the post, "
+    "and do not turn lyrics or obvious transcription artifacts into facts or takeaways. "
     "Never invent links, steps or facts. "
     "Write only about the post itself: never mention these instructions, the inputs, "
     "or how good or bad the transcript or images are."
@@ -168,6 +170,10 @@ def parse_args() -> argparse.Namespace:
         help="Run no models: write the _description.md note for described posts that have none.",
     )
     parser.add_argument("--dry-run", action="store_true", help="List the posts that would be described, then stop.")
+    parser.add_argument(
+        "--reuse-ocr", action="store_true",
+        help="Refresh selected posts with Claude using saved OCR and current transcripts; no Hailo fallback.",
+    )
     return parser.parse_args()
 
 
@@ -193,7 +199,7 @@ def needs_description(record: dict, retry_failed: bool, redo: bool) -> bool:
         return False
     if not record.get("downloaded") or (record.get("described") and not redo):
         return False
-    # Reels are described after they are transcribed, because the summary uses the transcript.
+    # Reels and carousels with audio wait for their transcript.
     has_audio = any(name.endswith(".mp3") for name in record.get("files") or [])
     return record.get("transcribed") or not has_audio
 
@@ -605,7 +611,7 @@ def written_by_hailo(record: dict) -> bool:
 
 
 def upgrade(todo: list, args, data: dict) -> int:
-    """Replace Qwen titles and summaries with Claude's. Uses the OCR text and frames already on disk, no Hailo."""
+    """Describe with Claude using saved OCR, for Qwen upgrades or transcript refreshes."""
     finish = make_finish(data, args.json, args.ig_dir)
     corrector = OcrCorrector(str(OCR_APP_DIR / "frequency_dictionary_en_82_765.txt"))
     jobs = []
@@ -618,27 +624,30 @@ def upgrade(todo: list, args, data: dict) -> int:
             job["base"] = base_of(record)
             job["images"] = post_images(record, folder)
             job["transcript"] = transcript_text(record, folder)
-            raw = read_text_file(folder / f"{job['base']}_ocr.txt").splitlines()
+            ocr_file = folder / f"{job['base']}_ocr.txt"
+            if args.reuse_ocr and not ocr_file.exists():
+                raise RuntimeError("saved OCR missing; run the normal description stage")
+            raw = read_text_file(ocr_file).splitlines()
             job["ocr"] = "\n".join(corrected_lines(corrector, raw))
         except Exception as exc:  # noqa: BLE001
-            logger.warning(f"  ✗ {record['shortcode']} skipped, stays Qwen: {short_error(exc)}")
+            logger.warning(f"  ✗ {record['shortcode']} skipped, existing note retained: {short_error(exc)}")
             continue
         jobs.append(job)
 
     def log_and_finish(job: dict) -> None:
         finish(job)
-        logger.info(f"    was (Qwen): {job['old_title']}")
+        logger.info(f"    previous title: {job['old_title']}")
 
-    limit_hit = claude_stage(jobs, args.claude_model, log_and_finish, then="they stay Qwen until the next --upgrade")
+    limit_hit = claude_stage(jobs, args.claude_model, log_and_finish, then="existing notes are retained for a later retry")
     upgraded = sum(bool(job.get("done")) for job in jobs)
     not_done = len(todo) - upgraded
     still_qwen = sum(written_by_hailo(r) for r in data["links"])
     logger.info(
-        f"Upgrade done. Upgraded to Claude: {upgraded} of {len(todo)} | Not upgraded: {not_done}"
+        f"Claude refresh done. Completed: {upgraded} of {len(todo)} | Not completed: {not_done}"
         + (" (stopped by the usage limit)" if limit_hit else "")
         + f" | Posts still by Qwen: {still_qwen}"
     )
-    return CLAUDE_LIMIT_EXIT if limit_hit else 0
+    return CLAUDE_LIMIT_EXIT if limit_hit else (1 if args.reuse_ocr and not_done else 0)
 
 
 # ---------------------------------------------------------------- results
@@ -664,7 +673,7 @@ def write_note(record: dict, folder: Path, teaches: list = (), source: dict = No
         "type": record.get("type", ""),
         "author": record.get("author", ""),
         "shared": record.get("sent_at", ""),
-        # Groq or local Whisper; only reels have a transcript.
+        # Groq or local Whisper, including carousel audio.
         **({"transcribed_by": record["transcribed_by"]} if record.get("transcribed_by") else {}),
         "described_by": record.get("described_by", ""),
         "described_at": record.get("described_at", ""),
@@ -773,7 +782,7 @@ def main() -> int:
         return 0
     if not todo:
         return 0
-    if args.upgrade:
+    if args.upgrade or args.reuse_ocr:
         return upgrade(todo, args, data)
 
     finish = make_finish(data, args.json, args.ig_dir)

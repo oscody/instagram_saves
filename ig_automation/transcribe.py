@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Transcribe the downloaded reels in an export file.
+"""Transcribe downloaded reels and combined carousel audio in an export file.
 
 Groq's hosted Whisper does the work while its free quota lasts. When Groq says the quota is used up
 (a long Retry-After), the rest of the run uses faster-whisper on the CPU, with cooling pauses.
@@ -167,7 +167,7 @@ def groq_transcribe(key: str, audio: Path, model: str, language: str | None) -> 
 
 
 def audio_name(record: dict) -> str | None:
-    """The post's .mp3, if it has one. Photo and carousel posts do not."""
+    """The post's .mp3, including audio combined from carousel video slides."""
     return next((name for name in record.get("files") or [] if name.endswith(".mp3")), None)
 
 
