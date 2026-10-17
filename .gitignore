@@ -12,8 +12,13 @@ IG/*/*
 !IG/*/*.md
 hailort.log
 ig_automation/.env
-# Generated private knowledge library, evidence caches, and run logs stay local.
-knowledge_library/
+# Generated knowledge library: evidence caches, Codex workspace, and run logs stay local.
+# The topic groupings are tracked so their history is kept.
+knowledge_library/*
+!knowledge_library/Topic index.md
+!knowledge_library/topics.json
+!knowledge_library/topics/
+!knowledge_library/groupings/
 ig_automation/playbook/__pycache__/
 ig_automation/playbook/tests/__pycache__/
 ig_automation/playback/__pycache__/
