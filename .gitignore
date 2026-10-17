@@ -14,3 +14,6 @@ hailort.log
 ig_automation/.env
 # Generated private knowledge library, evidence caches, and run logs stay local.
 knowledge_library/
+ig_automation/playbook/__pycache__/
+ig_automation/playbook/tests/__pycache__/
+ig_automation/playback/__pycache__/

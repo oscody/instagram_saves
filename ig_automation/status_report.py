@@ -40,6 +40,8 @@ def local_timestamp(value: str | None) -> str:
 
 def next_run_window(now: datetime) -> str:
     """Mirror ig-pipeline.timer: even hours from 08:00 through 22:00, plus up to 20 min."""
+    if (OUTPUT_DIR / "PAUSED").exists():
+        return "Paused (output/PAUSED)"
     candidates = []
     for day_offset in (0, 1):
         day = (now + timedelta(days=day_offset)).date()

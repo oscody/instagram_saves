@@ -1,6 +1,6 @@
 # ig_automation
 
-The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the exporter and the last three in batches until everything is done. `play_saves.py` plays the downloaded posts on the Pi's screen and logs likes and skips (see [Watch the saves](#watch-the-saves-play_savespy-added-2026-10-14)).
+The Instagram pipeline: `export_chat_links.py` exports the links, `download.py` downloads the media, `transcribe.py` turns reel audio into text, `describe.py` reads on screen text on the Hailo-10H and writes a title, summary and note for each post (Claude, or Qwen2.5 on the Hailo when Claude is out of usage). `run_pipeline.py` runs the exporter and the last three in batches until everything is done. `playback/play_saves.py` plays the downloaded posts on the Pi's screen and logs likes and skips (see [Watch the saves](#watch-the-saves-play_savespy-added-2026-10-14)).
 
 `export_chat_links.py` exports the posts and reels shared in one Instagram DM chat to a JSON file. Each later run adds only links it has not saved before. It reads the chat through Instagram's Android app API. If that fails, it reads new messages through headless Firefox instead (`export_chat_browser.py`).
 
@@ -453,13 +453,13 @@ Each stage runs with `IG_PIPELINE=1` set, which tells `describe.py` its output a
 
 ## Watch the saves: `play_saves.py` (added 2026-10-14)
 
-Plays the downloaded posts back to back on the Pi's screen with mpv. Reels play through, photos and carousel slides stay up 6 seconds. A carousel is one post: next and previous jump past all its slides.
+Plays the downloaded posts back to back on the Pi's screen with mpv. Both files are in `playback/`: `play_saves.py` and its mpv key script `saves_log.lua`. The watch log and playlist stay in `output/`. Reels play through, photos and carousel slides stay up 6 seconds. A carousel is one post: next and previous jump past all its slides.
 
 ```
-../Instagram-Saves-Engine/.venv/bin/python play_saves.py                     # unseen first, newest first
-../Instagram-Saves-Engine/.venv/bin/python play_saves.py --topic ai --type reel
-../Instagram-Saves-Engine/.venv/bin/python play_saves.py --dry-run --limit 20  # print the list only
-../Instagram-Saves-Engine/.venv/bin/python play_saves.py --report              # likes and skips per author and type
+../Instagram-Saves-Engine/.venv/bin/python playback/play_saves.py                     # unseen first, newest first
+../Instagram-Saves-Engine/.venv/bin/python playback/play_saves.py --topic ai --type reel
+../Instagram-Saves-Engine/.venv/bin/python playback/play_saves.py --dry-run --limit 20  # print the list only
+../Instagram-Saves-Engine/.venv/bin/python playback/play_saves.py --report              # likes and skips per author and type
 ```
 
 Options: `--order newest | oldest | random | liked-first | unseen-first`, `--topic WORD`, `--type reel | carousel | post`, `--author NAME`, `--limit N`, `--include-skipped` (posts skipped twice are left out otherwise), `--image-seconds N`.
@@ -478,16 +478,16 @@ A systemd user timer runs one short batch every 2 hours from 8 am to 10 pm, each
 
 * Units: `~/.config/systemd/user/ig-pipeline.timer` and `ig-pipeline.service` (`Type=forking`, because the runner starts itself in the background; `PATH` includes `~/.local/bin` for `claude`).
 * Check: `systemctl --user list-timers ig-pipeline.timer`, and `tail -f output/pipeline.log`
-* Pause: `systemctl --user stop ig-pipeline.timer` (and `disable` to keep it off after a reboot). Start again with `enable --now`.
+* Pause: `systemctl --user disable --now ig-pipeline.timer`. `output/PAUSED` is an additional guard that makes any timer or manual pipeline invocation exit without work. To resume, remove `output/PAUSED` and run `systemctl --user enable --now ig-pipeline.timer`.
 * Runs that finished today share `output/pipeline.log`; a log from an earlier day, or a run that was cut off, is still moved to `pipeline-<date>-part<N>.log`.
 * A batch that downloads nothing because of the cap or the quiet hours logs `made no progress, stopping`. That is expected.
 
 ## Troubleshooting
 
-For the manual, resumable knowledge synthesis script, see [Saved Instagram knowledge playbook](PLAYBOOK.md).
-Its output stays in `../knowledge_library/`, outside the vault. Run `python3 build_playbook.py --dry-run`
-to inventory inputs. Run `python3 -u build_playbook.py --stage topics` first to save the topic library,
-then `python3 -u build_playbook.py --stage playbook` to build from those groups with GPT-6 Astra.
+For the manual, resumable knowledge synthesis script, see [Saved Instagram knowledge playbook](playbook/README.md).
+Its output stays in `../knowledge_library/`, outside the vault. Run `python3 playbook/build_playbook.py --dry-run`
+to inventory inputs. Run `python3 -u playbook/build_playbook.py --stage topics` first to save the topic library,
+then `python3 -u playbook/build_playbook.py --stage playbook` to build from those groups with GPT-6 Astra.
 
 * **A video plays with no sound:** the sound is in the `.mp4` (an AAC audio track, check with `ffprobe -v error -show_entries stream=codec_type,codec_name -of csv=p=0 FILE.mp4`). Instagram reels come down as VP9 video with AAC audio, an unusual mix: VS Code and Obsidian play VP9 but have no AAC support, so they show the picture with no sound. VLC plays them fine. The separate `.mp3` is a copy of the audio made on purpose for transcribe. Not fixed yet; options are to ask yt-dlp for H.264 (`-S vcodec:h264`, new downloads only) or convert the audio of existing videos to Opus in a `.webm`.
 * **`No Instagram sessionid cookie in Firefox`:** log into instagram.com in Firefox ESR.

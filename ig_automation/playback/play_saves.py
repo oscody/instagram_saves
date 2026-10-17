@@ -27,6 +27,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # download.py lives in ig_automation/
 from download import DEFAULT_JSON, IG_DIR, OUTPUT_DIR, post_dir
 from export_chat_links import SENT_AT_FORMAT
 

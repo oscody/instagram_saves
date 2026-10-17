@@ -15,6 +15,7 @@ picked up (newest first, so they go into that batch). It reads every new message
 A failed export is logged as a warning; the batch carries on with the posts already in the file.
 
 Stop cleanly after the current batch by creating output/STOP (it is removed on exit).
+output/PAUSED keeps scheduled and manual runs stopped until it is removed.
 
 By default it starts itself in the background and returns: it refuses to start if another
 run_pipeline.py is running, checks that the export file is valid JSON, moves the last run's
@@ -47,6 +48,7 @@ logger = logging.getLogger("ig_pipeline")
 
 HERE = Path(__file__).resolve().parent
 STOP_FILE = HERE / "output" / "STOP"
+PAUSED_FILE = HERE / "output" / "PAUSED"
 LOG_FILE = HERE / "output" / "pipeline.log"
 LOCK_FILE = HERE / "output" / "pipeline.lock"
 HEALTH_FILE = HERE / "output" / "pipeline_health.json"
@@ -274,6 +276,9 @@ def cancel_cap_retry() -> None:
 
 def schedule_cap_retry() -> None:
     """Add a one-shot user timer when a cap slot opens before the next regular run."""
+    if PAUSED_FILE.exists():
+        cancel_cap_retry()
+        return
     if not CAP_RETRY_FILE.exists():
         cancel_cap_retry()
         return
@@ -322,6 +327,9 @@ def schedule_cap_retry() -> None:
 
 def main() -> int:
     args = parse_args()
+    if PAUSED_FILE.exists():
+        logger.info(f"Instagram pipeline is paused: {PAUSED_FILE}")
+        return 0
     if not args.foreground:
         return start_background(sys.argv[1:])
     if pid := other_runner():
@@ -342,6 +350,9 @@ def main() -> int:
     work = ("download", "transcribe", "describe") + (("qwen",) if args.upgrade_batch else ())
     try:
         while True:
+            if PAUSED_FILE.exists():
+                logger.info("Pause file found, stopping")
+                break
             if args.max_batches and batch_no >= args.max_batches:
                 logger.info(f"Stopping after {batch_no} batches (--max-batches)")
                 break
