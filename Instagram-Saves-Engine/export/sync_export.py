@@ -35,7 +35,7 @@ DEFAULT_MESSAGE_HTML = Path(
     "instagram-djboglemusic-2026-07-10-Rk6cAOgC/your_instagram_activity/"
     "messages/inbox/shemeirbogle_448720033191192/message_1.html"
 )
-DEFAULT_OUTPUT_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG_export")
+DEFAULT_OUTPUT_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG/0_IG_Archive")
 
 STATE_FILE = SCRIPT_DIR / "state_export.json"
 

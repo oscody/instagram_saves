@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 
-IG_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG")
+IG_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG/0_IG_Archive")
 DEFAULT_MEDIA_DIR = IG_ROOT / "Media"
 VIDEO_FILENAME = "reel.mp4"
 TRANSCRIPT_FILENAME = "transcript.txt"

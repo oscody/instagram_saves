@@ -41,7 +41,7 @@ IG_USER_AGENT = (
 )
 
 STATE_FILE = "state.json"
-NOTES_DIR = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG/Notes")
+NOTES_DIR = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG/0_IG_Archive/Notes")
 
 
 def parse_args() -> argparse.Namespace:

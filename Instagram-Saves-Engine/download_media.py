@@ -10,7 +10,7 @@ import time
 from pathlib import Path
 
 
-IG_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG")
+IG_ROOT = Path("/Users/bogle/Dev/test-stuff/instagram_saves/IG/0_IG_Archive")
 DEFAULT_NOTES_DIR = IG_ROOT / "Notes"
 DEFAULT_MEDIA_DIR = IG_ROOT / "Media"
 URL_PATTERN = re.compile(r"^- URL:\s+(?P<url>https?://\S+)\s*$", re.MULTILINE)
