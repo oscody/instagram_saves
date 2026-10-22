@@ -34,3 +34,20 @@ And remember, you can visit rollerblade.com any time for great gear, information
 the BAR Saturday Night Party is just around the corner 🎶
 
 @goskate.usa #rollerblade #movefreely #rollerblading
+
+## Research
+
+* Verdict: Valid. The shop page lists the Saturday night party ticket (presented by Rollerblade, $20) and a $5 raffle ticket, which matches the post. The event date was Aug 2, 2025, so it has already passed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Big Apple Roll shop (party and raffle tickets) (bigappleroll.org)](https://bigappleroll.org/shop): page, in the post, verified, high confidence. The page lists 'Ticket to the Saturday night party, presented by Rollerblade' at $20 and a $5 raffle ticket. It doesn't mention the date or venue.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Big Apple Roll.md`: Event dates (July 31 – Aug 3, 2025) and the creator's Instagram link. It has no details on the party.
+
+### Not found
+
+The shop page didn't mention Aug 2 or Sean's Bar & Kitchen, so I couldn't confirm those from the page. They come from the caption only.

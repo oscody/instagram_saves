@@ -50,3 +50,26 @@ Across multiple benchmarks, Claude tends to use roughly 2–4× more tokens than
 So next time, instead of waiting for your tokens to reset, give @openai Codex a try!
 
 #claude #aihacks #openai #automation #claudecode
+
+## Research
+
+* Verdict: Partly valid. Three of the four plugins are real, free and public: claude-mem, Claude Context and Superpowers. The "Context Manager" plugin is too vague to identify. The saving percentages are unsourced. The only measured figure I found is about 40% for Claude Context, and the 2-4x Codex claim has no citation.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [claude-mem (github.com)](https://github.com/thedotmack/claude-mem): repo, found by search, verified, high confidence. README describes persistent memory compression for Claude Code, matching the post's first plugin.
+* [Claude Context (zilliztech) (github.com)](https://github.com/zilliztech/claude-context): repo, found by search, verified, high confidence. MCP semantic code search that returns only relevant code; the README claims about 40% token reduction, the low end of the post's 40-70%.
+* [Superpowers (obra) (github.com)](https://github.com/obra/superpowers): repo, found by search, not opened, medium confidence. Search results show a popular skills plugin for Claude Code. It is a skills and workflow framework, not clearly a prompt-shortening tool. I did not open the repo.
+
+### Key steps
+
+1. claude-mem: run `npx claude-mem install`, or `/plugin marketplace add thedotmack/claude-mem` then `/plugin install claude-mem`, then restart Claude Code.
+2. Claude Context: needs Node 20 or later (not Node 24), an OpenAI API key and a Zilliz Cloud endpoint and token.
+3. Claude Context: run `claude mcp add claude-context -e OPENAI_API_KEY=... -e MILVUS_ADDRESS=... -e MILVUS_TOKEN=... -- npx @zilliz/claude-context-mcp@latest`.
+4. Claude Context: ask Claude Code to index the codebase, then search in natural language.
+5. Superpowers: run `/plugin marketplace add obra/superpowers-marketplace`, then `/plugin install superpowers@superpowers-marketplace`, then restart.
+
+### Not found
+
+The "Context Manager" plugin could not be identified. I found no source for the 80-90%, 30-50% and 15-40% savings figures or the 2-4x Codex comparison. I did not read the vault notes or grep the vault.

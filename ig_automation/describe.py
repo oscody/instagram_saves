@@ -31,6 +31,7 @@ import numpy as np
 
 from download import DEFAULT_JSON, IG_DIR, OUTPUT_DIR, post_dir, save, short_error
 from export_chat_links import SENT_AT_FORMAT
+from research import existing_research
 
 # Hailo's standalone PaddleOCR example holds the OCR pre and post processing.
 OCR_APP_DIR = Path.home() / "Work/hailo-apps/hailo_apps/python/standalone_apps/paddle_ocr"
@@ -694,6 +695,10 @@ def write_note(record: dict, folder: Path, teaches: list = (), source: dict = No
         if text:
             lines += [f"## {heading}", "", text, ""]
     note = folder / f"{base}_description.md"
+    # research.py's section is kept when the note is written again.
+    research = existing_research(note.read_text(encoding="utf-8")) if note.exists() else ""
+    if research:
+        lines += [research]
     note.write_text("\n".join(lines), encoding="utf-8")
     return note
 

@@ -37,3 +37,23 @@ You will walk alongside the River Styx stopping to marvel at the wonders of Tita
 .
 .
  #travelandexplore #thingstodoinnyc #nycrecs #travelnyc #nyctraveltips #nycbucketlist #explorenyc #nycexplored #discoverny #discovernyc #travelnyc #nycguide  #explorenyc #newyorkbucketlist  #nycdatenight #videosofnewyork  #nyhotels  #discoverny #travelnyc #nycguide #nyctravelguide #hiddengems #nybucketlist #thingstodoinnyc #travelandexplore #nyhiking  #nyccreatives #coolhotels
+
+## Research
+
+* Verdict: Valid. Howe Caverns is real and the address matches the post. I did not confirm the 90-minute tour length or the named features (River Styx, Lake of Venus, Bridal Altar, Winding Way) on the official page.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Howe Caverns (howecaverns.com)](https://www.howecaverns.com): page, found by search, verified, high confidence. The official site gives 255 Discovery Drive, Howes Cave, NY. It describes a 1.25-mile cave walk with a boat ride and 139 stairs.
+
+### Key steps
+
+1. Buy traditional tour tickets online. Walk-up tickets cost $5 more each.
+2. Arrive 15-30 minutes early.
+3. Expect a 1.25-mile walk with 139 stairs and a short boat ride.
+4. Check pricing and hours at howecaverns.com/howe-caverns-pricing/ or call 518-296-8900.
+
+### Not found
+
+I did not check the 3.5-hour drive from NYC. The official page did not confirm the 90-minute duration or the named cave features. I also did not check the vault, since the prompt listed no matching notes.

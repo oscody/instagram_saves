@@ -415,7 +415,51 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 * **Qwen2.5 sometimes invents details:** in one test run it made up song titles and cast names for an anime announcement. Treat summaries as a rough guide, not facts.
 * **Transcription mistakes carry through:** "CLAUDE.md" heard as "Clod.MD" ends up in the title.
 * **Qwen summaries are only as good as the text input:** posts with a long caption or clear speech get good summaries. A carousel whose slides are dense small text gets a weak one, mostly from the caption. Claude reads the slides itself, so this mostly affects Qwen posts until they are upgraded.
-* **Links are often not in the post:** about 384 captions say "comment X and I'll send you..." or "link in bio", while only about 92 captions and 49 on screen texts contain a URL. The note then records how to get the material (the keyword), not a link. Claude is told never to invent one.
+* **Links are often not in the post:** about 384 captions say "comment X and I'll send you..." or "link in bio", while only about 92 captions and 49 on screen texts contain a URL. The note then records how to get the material (the keyword), not a link. Claude is told never to invent one. `research.py` goes looking for it.
+
+## Research the posts: `research.py` (added 2026-10-22)
+
+`research.py` digs deeper into described posts. For each `_description.md` outside `IG/0_IG_Archive`, headless Claude checks the Obsidian vault first, then searches the web (creator profile and site, GitHub, the web) for the repo, guide, tool or page the post describes. It opens the best match to confirm it, gives the post a verdict, and pulls out the key steps or prompts needed to use the resource. This covers the "Research scope: discover project links from saved videos" plan in the vault note `repo - Instagram saves`, plus the verdict and the steps.
+
+It runs on the Mac and on the Pi: only Python 3 and the logged in Claude CLI, no packages. On the Pi it also sends the transcript (`*_transcript.txt`) and the on screen text (`*_ocr.txt`); on the Mac copy, where only the notes are in git, it works from the note alone.
+
+```
+cd ig_automation
+python3 research.py --dry-run --limit 10          # posts and the vault notes found for each, no Claude calls
+python3 research.py --shortcode Dd35zfeq9bR       # one post
+python3 research.py --topic coding-agent-configuration-and-workflows --limit 20
+```
+
+### What it writes
+
+A `## Research` section at the end of the note, and the same result in `output/research.json` (with the cost Claude reported):
+
+* **Verdict:** Valid, Partly valid, Not valid, Promo, Unresolved (should exist but was not found) or Nothing to find (entertainment or personal)
+* **Resources:** each link with its kind, how it was found (in the post, in the vault, by search), whether it was opened and matched, confidence and evidence
+* **Already in the vault:** vault notes that already cover it
+* **Key steps:** up to 8 steps or prompts from the resource itself
+* **Not found:** what could not be found, for example material only sent by DM
+
+Posts that already have a Research section are skipped unless `--redo`. `describe.py` keeps the section when it writes a note again.
+
+### How it finds vault notes
+
+Before calling Claude it scans the vault for notes that mention the post's shortcode, its creator's handle or a link from the post, and lists up to 8 of them in the prompt. Claude can also Read and Grep the vault itself (`--add-dir`). The vault is `--vault`, else `IG_VAULT`, else the first of `~/Dev/obsidian/Bogle`, `~/Work/obsidian/Bogle`, `~/obsidian/Bogle` that exists. With no vault it skips that step. Notes in `Vault knowledge library` are ignored, since they list every post.
+
+### Options
+
+| Option | What it does |
+| --- | --- |
+| `--limit N` | Research at most N posts, newest first |
+| `--shortcode CODE` | Only this post. Can be given more than once |
+| `--topic SLUG` | Only posts in this knowledge library topic (`knowledge_library/topics.json`). Can be given more than once |
+| `--redo` | Research again even if the note has a Research section |
+| `--model NAME` | Model for `claude -p --model`. Default `sonnet` |
+| `--timeout SECONDS` | Per post. Default 600 |
+| `--vault DIR`, `--ig-dir DIR` | Vault to check first, and the post folders |
+| `--dry-run` | List the posts and their vault notes, then stop |
+
+On a usage limit it stops with exit code 75, like `describe.py`. It is not part of `run_pipeline.py` yet.
 
 ## Run everything: `run_pipeline.py`
 
