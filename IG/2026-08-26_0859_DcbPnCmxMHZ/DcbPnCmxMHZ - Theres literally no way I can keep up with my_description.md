@@ -36,3 +36,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 There’s literally no way I can keep up with my LinkedIn network without this trick 👀 Comment CONNECTIONS and I’ll send you the full prompt to use for yourself 👇
+
+## Research
+
+* Verdict: Partly valid. The method is sound: LinkedIn's data export gives a Connections CSV that an AI can score. The creator's exact prompt is only sent by comment (CONNECTIONS) and I found no public copy. The post's own steps are enough to rebuild it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The creator's full prompt, which is only sent after commenting CONNECTIONS on the post. I did not check the LinkedIn export steps against LinkedIn's own help page. Web search found only generic vendor articles, which say the export includes name, company, title and connection date but not profile URLs.

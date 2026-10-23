@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Songs literally everyone forgot about 😮‍💨 How many do you remember? Let me know👇🏼
+
+## Research
+
+* Verdict: Nothing to find. This is a music nostalgia engagement reel (a "how many do you remember" quiz). It has no resource, tool or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

@@ -23,3 +23,16 @@ Written by claude-haiku-5-5.
 
 Follow and Comment “DECEMBER” to get the full list
 Follow 👉🏿 @grantwinnersclub
+
+## Research
+
+* Verdict: Unresolved. The full list is only sent after a comment, and I found no public copy. I also couldn't confirm the "Galaxy Holiday Grant" or "Outta Excuses" grant from public sources. Both deadlines (Dec 31, 2025) have passed.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/grants.md`: Tag #grants and a link to the Instagram account @grantwinnersclub only. It has no grant details.
+
+### Not found
+
+There is no public copy of the "DECEMBER" grant list. A search for the Galaxy Holiday Grant ($2,025) found nothing matching. I did not search for the Outta Excuses grant. Grants like these are often giveaways or lead-generation hooks, so treat them with caution. The deadlines have also passed (today is 2026-10-23).

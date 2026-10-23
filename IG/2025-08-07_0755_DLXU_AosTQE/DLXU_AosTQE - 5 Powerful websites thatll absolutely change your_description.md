@@ -23,3 +23,18 @@ Written by claude-haiku-5-5.
 
 5 Powerful websites that’ll absolutely change your life 🤩
 #tech #website #ai
+
+## Research
+
+* Verdict: Partly valid. The sites are real and do what the post says. "Change your life" is hype, and "accredited" for Class Central is loose, since it lists courses from many providers. I could not open Class Central (HTTP 403). The AI logo maker and PC builder are not named in the post, so I could not identify them.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [FakeDetail (fakedetail.com)](https://fakedetail.com): tool, in the post, verified, high confidence. Free collection of 65 mock screenshot and fake chat tools, with no sign-up and no watermark.
+* [Kiddo Worksheets (kiddoworksheets.com)](https://kiddoworksheets.com): tool, in the post, verified, high confidence. Printable worksheets for preschool through grade 5, plus a worksheet generator.
+* [Class Central (classcentral.com)](https://www.classcentral.com): page, in the post, not opened, medium confidence. Named on screen in the post as the course library. The fetch returned 403, so I could not check it.
+
+### Not found
+
+The AI logo maker and the custom PC builder tied to Amazon parts are not named in the post. I did not search for them. Class Central could not be opened (403).

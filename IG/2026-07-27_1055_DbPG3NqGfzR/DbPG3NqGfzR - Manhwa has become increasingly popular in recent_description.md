@@ -40,3 +40,12 @@ Follow @editsz.ex for more
 
 Hashtags:
 #manhwa #manhwarecommendations #webtoon #manhua #manhwaedit
+
+## Research
+
+* Verdict: Partly valid. The definitions are broadly correct: manhwa is Korean, manhua is Chinese, manga is Japanese. The five recommended series are web novels or comics whose chapter counts I did not check. Magic Emperor is a Chinese manhua, as the post says. This is a general recommendation post with no single resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No specific resource. I did not search the web or check the chapter counts and statuses. Several of the titles (Shadow Slave, Reverend Insanity, Lord of the Mysteries) are originally web novels, not comics, so the post's framing may be loose.

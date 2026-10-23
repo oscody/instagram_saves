@@ -34,3 +34,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 It’s a lot harder to get to 100k MRR from just vibecoding but this would give you the stack you need go build out any app! The rest comes from google, meta ads, and UGC
+
+## Research
+
+* Verdict: Partly valid. The post is a list of well-known tools, not a single resource, so there is nothing specific to open. It is a reasonable starter stack, but the post doesn't back up the $100k MRR claim. The creator says himself that growth comes from Google, Meta ads and UGC.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - claudex-loop - similar ai agent workflows.md`: Mentions the creator raycfu only. It is about agent code-review workflows and has nothing on this tool stack.
+
+### Not found
+
+I did not search the web or open any links. The post gives no links, and each tool on the list is a separate product. The vault holds no copy of this stack.

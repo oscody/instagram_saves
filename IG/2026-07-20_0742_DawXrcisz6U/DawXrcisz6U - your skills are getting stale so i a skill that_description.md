@@ -42,3 +42,26 @@ My skills stay current. I stay the one who says yes.
 Save this if you’re building out your own Claude setup!
 
 #claude #aiworkflow #aitools #ai #skills
+
+## Research
+
+* Verdict: Unresolved. The skill is the creator's own and no public copy turned up. The idea is plausible and easy to rebuild from the post's steps.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `4. Archives/Evernote/career Learning/Learning, Hackathons, open source, Learning courses Repo, Learningcourses, learn, Tutorials, (Website, ideas, topics, resourses).md`: Only lists the bytesofbree Instagram profile link. It has nothing on this skill.
+
+### Key steps
+
+1. Make a SKILL.md for an end-of-session skill, for example 'session-closer'.
+2. Tell it to scan the whole conversation for corrections, things explained twice, and preferences said aloud but never written down.
+3. Sort the findings into two groups. How you think and decide goes to one skill. Recurring patterns and formats go to another.
+4. Set a rule to edit only after the same correction has come up in two sessions.
+5. Make it show the exact lines to change and why, then wait for your approval before writing.
+6. Prefer small, targeted edits over rewrites.
+7. Now and then, run a cleanup pass that removes stale skills and merges duplicates.
+
+### Not found
+
+I found no public copy of the creator's skill file. Searches on bytesofbree and the skill's behavior returned only generic session-end skills. I did not check the creator's Instagram profile, which may offer the file by comment or DM.

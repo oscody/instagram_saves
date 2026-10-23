@@ -35,3 +35,24 @@ How do you stop AI coding agents from shipping broken code?
 Free and open source on GitHub.
 
 #coding #programming #ai #aitools #technology
+
+## Research
+
+* Verdict: Partly valid. The repo is real, public, free and MIT-licensed, so you don't need to comment "19" to get it. It now has 25 skills rather than 19, and "Google engineer" is only loosely accurate.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [addyosmani/agent-skills (github.com)](https://github.com/addyosmani/agent-skills): repo, found by search, verified, high confidence. The repo is called agent-skills, is by Addy Osmani and is MIT-licensed. Its skills cover spec-driven development, incremental implementation, TDD, code review, security hardening and CI/CD. It lists 25 skills today.
+
+### Key steps
+
+1. Install all skills for any agent: npx skills add addyosmani/agent-skills (add --list to browse, or --skill <name> for one).
+2. In Claude Code, run /plugin marketplace add addyosmani/agent-skills, then /plugin install agent-skills@addy-agent-skills.
+3. The README has setup steps for Cursor, Gemini CLI, Windsurf, OpenCode, Copilot and Codex.
+4. Use the slash commands /spec, /plan, /build, /test, /constraints, /review, /webperf, /code-simplify and /ship. In Claude Code, /review becomes /agent-skills:review.
+5. Skills also activate on their own based on the task. In Codex, call one with @, for example @spec-driven-development.
+
+### Not found
+
+I didn't check Osmani's current employer. The vault has only Vercel's and Apify's agent-skills repos, which are different repos.

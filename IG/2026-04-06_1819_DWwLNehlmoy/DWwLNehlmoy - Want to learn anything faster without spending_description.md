@@ -40,3 +40,20 @@ claude ai prompts for learning, learn anything with ai, free learning resources 
 #LearnAnything
 #SelfLearning
 #StudyTips
+
+## Research
+
+* Verdict: Partly valid. The post is a set of generic prompt templates that work with Claude, and the description lists them in full. The cover promises seven prompts but the carousel shows only five, and "learn anything" is overstated.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Roadmap: give Claude your skill, weekly hours, goal and timeframe. Ask for a week-by-week roadmap using only free resources, with what to study, what to build, how you'll know you understand it, and the 3 most common beginner mistakes.
+2. Simple explanations: ask Claude to explain a topic as if you are 12, starting with an analogy. Then ask for basic, intermediate and slightly advanced layers, 3 test questions, and what to learn next.
+3. Interview prep: give the job title, company, a short company description and the job description. Ask for the 10 most likely questions (behavioural, technical, culture fit) with an outline of a strong answer for each, plus 3 questions to ask the interviewer.
+4. Book or course summary: name it and ask for the 10 most actionable lessons, each in 3-4 sentences with one thing to do today. Then ask who benefits most and what to read next.
+5. Learn from mistakes: paste your attempt and ask what you got wrong and why. Ask for the underlying principle, not just the fix, then 3 similar practice exercises.
+
+### Not found
+
+No separate public resource exists. The post is the prompt set itself. I did not search the web, and the vault had no matching notes.

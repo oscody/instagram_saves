@@ -36,3 +36,25 @@ Use everything available to you. Seriously. Lmk if you also want the prompt I us
 @claudeai 
 
 #claude #jobsearch #aiworkflows #anthropic #productivityhack
+
+## Research
+
+* Verdict: Partly valid. The workflow is plausible: Claude supports connectors, and a Microsoft Learn connector exists. I couldn't confirm an Indeed connector. The exact prompt is only sent by DM after commenting "Team", and the post's own steps describe it well enough to rebuild.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Microsoft Learn MCP Connector (third-party listing) (skillsplayground.com)](https://skillsplayground.com/connectors/microsoft-learn/): page, found by search, not opened, medium confidence. Search result describes a Microsoft Learn connector for Claude with docs search and fetch tools. I did not open the page.
+* [Claude connectors getting started (claude.com)](https://www.claude.com/docs/connectors/getting-started): guide, found by search, not opened, medium confidence. Official Claude docs on enabling connectors. I did not open the page and it doesn't mention Indeed.
+
+### Key steps
+
+1. Attach your resume PDF to a new Claude chat.
+2. Click + then Connectors, and enable Indeed and Microsoft Learn. If Microsoft Learn is not listed, add a custom connector with the URL https://learn.microsoft.com/api/mcp (from a third-party source, not verified).
+3. Prompt: find 10 full-time recruiter jobs in your city requiring 6+ years of experience, with apply links.
+4. Ask Claude to identify the skills those jobs require and match the gaps to free Microsoft Learn courses or certifications.
+5. Ask for a side-by-side table of each job's needs, matching Microsoft Learn content, and which roles to apply to first.
+
+### Not found
+
+The creator's exact prompt (sent by DM only) and any confirmation of an Indeed connector for Claude. I did not open the creator's profile or any search result.

@@ -35,3 +35,24 @@ For students, creators, and professionals, tools like this could make learning f
 If you could have Claude teach you one skill from scratch, what would it be?
 
 Follow us (👉 @theaifield) for everything happening in the world of AI.
+
+## Research
+
+* Verdict: Partly valid. The five prompts are in the carousel and work as ordinary Claude prompts. No Anthropic feature called "Infinite Tutor Mode" exists, and the "any skill from zero in 4 hours" claim is hype.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Claude Learning mode (style preset) (tomsguide.com)](https://www.tomsguide.com/ai/claudes-new-learning-modes-take-on-chatgpts-study-mode-heres-what-they-do): page, found by search, not opened, medium confidence. Search results describe Claude's real Socratic tutoring feature, the closest match to what the caption describes. I only saw the search snippets and did not open the page.
+
+### Key steps
+
+1. Learning curve destroyer: say you're a teacher with 4 hours who will never see the learner again. Skip theory with no practical use. Say what to learn first, what to ignore, and the one exercise that puts you ahead.
+2. Real error simulator: don't explain the concept. Put me in a realistic situation where I'd likely err. Ask guiding questions instead of giving the answer, and only answer after 2+ attempts. Repeat until I get it right without hesitation.
+3. Impossible language translator: paste the confusing content. Name the one sentence that unlocks the rest. Explain it with an everyday analogy and no jargon, then ask 3 questions. Don't move on until I pass all three.
+4. Personal learning path architect: give your goal, the deadline and what you already know. Ask for a 7-day path with one task under 45 minutes per day, a check for doing it correctly, and what not to do that day.
+5. Hidden gap detector: say you think you've mastered the skill and ask Claude to prove you wrong. Ask for 5 deceptively simple questions, then for each answer what it reveals is missing. Ask it to say so plainly if you're being shallow.
+
+### Not found
+
+No official "Infinite Tutor Mode" from Anthropic. The vault has no note on this post. The one vault hit is a different @theaifield post.

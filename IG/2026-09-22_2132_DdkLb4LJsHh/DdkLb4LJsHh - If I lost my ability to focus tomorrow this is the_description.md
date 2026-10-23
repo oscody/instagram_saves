@@ -36,3 +36,12 @@ Save this for your next deep work session 💪
 Thanks to @daisysound for the headphones. 
 
 #daisyone #daisyheadphones #stillmode #ad #gifted
+
+## Research
+
+* Verdict: Promo. The reel is a gifted/paid ad for Daisy headphones. It wraps generic focus advice with no downloadable resource. The tips (clear distractions, set a time limit, silence the phone) are common deep-work practice. The claim that "focus is inevitable" is overstated.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists. I did not search the web or the vault, because the post is an ad with generic advice. The summary lists 7 of the 8 steps.

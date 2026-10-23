@@ -87,3 +87,12 @@ Thank you to @mantak_chia and @juttahealingtao for the great Qigong work they sh
 If you want the training link or want to dive deeper into this stuff with me, comment “MJ.” ⚡️
 
 #MJ #michaeljackson #taichi #qigong #dance
+
+## Research
+
+* Verdict: Unresolved. The training link is only given out to people who comment "MJ", and I found no public copy. The claim that Michael Jackson's dance drew on qigong is the creator's own interpretation, and I found nothing to back it up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "MJ" training link and the full video. I found no public copy and no vault note on the creator. One web search for the creator's name returned nothing relevant. I did not check the creator's Instagram profile or bio link.

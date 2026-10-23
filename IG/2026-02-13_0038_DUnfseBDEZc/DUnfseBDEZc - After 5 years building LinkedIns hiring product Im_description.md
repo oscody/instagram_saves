@@ -50,3 +50,28 @@ Save this post before it disappears from your feed 📌
 Tag a friend who’s job hunting 
 
 #LinkedInHacks #JobSearch CareerTips LinkedInTips JobHunting CareerGrowth
+
+## Research
+
+* Verdict: Partly valid. The URL trick (f_TPR=r3600) is a documented unofficial tip and the hiring-post search is plausible. The "14x recruiter reach-outs" claim is unsupported, and the guide is only sent after a comment, with no public copy found.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [How to Hack LinkedIn URLs to Find Jobs Posted in the Last Hour (trykondo.com)](https://www.trykondo.com/blog/linkedin-url-job-hack): guide, found by search, not opened, medium confidence. Describes the same trick of changing f_TPR from r86400 to r3600; seen in search results only, not opened.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/job insta - byaditimishra.md`: Only a job-hunt tag, the creator's Instagram link and resume.io and other job links. It has no steps from this post.
+
+### Key steps
+
+1. Search a job on LinkedIn and apply the Date posted: Past 24 hours filter.
+2. In the URL, change f_TPR=r86400 to f_TPR=r3600 to see jobs from the last hour. Adding &sortBy=DD sorts by most recent.
+3. Check that your profile photo visibility is set to all LinkedIn members.
+4. Open Profile viewers analytics, set the range to 365 days, and filter by company.
+5. Search "I'm hiring [job title]", then Filter and choose Posts.
+
+### Not found
+
+The free LinkedIn optimization guide is sent only after commenting "LINKEDIN", and I found no public copy. I did not open any pages, so nothing is verified. I also found no evidence for the 14x reach-out claim.

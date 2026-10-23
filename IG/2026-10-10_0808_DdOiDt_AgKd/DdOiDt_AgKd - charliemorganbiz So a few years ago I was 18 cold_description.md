@@ -47,3 +47,16 @@ every system I used to build my AI marketing agency from scratch
 and how you can learn to do this from your bedroom too
 
 if you want it just click below
+
+## Research
+
+* Verdict: Promo. The reel is a lead magnet for a free course behind a link in the post. The course appears to be Charlie Morgan's free Imperium Academy on Skool, which a third-party review describes as a funnel to paid programs. The "$40M" figure is only repeated on an unofficial review site.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Imperium Academy (Charlie Morgan free training, Skool) – review page (marksinsights.com)](https://marksinsights.com/charlie-morgan-imperium-academy/): page, found by search, not opened, low confidence. The page covers a free Skool program by Charlie Morgan for starting an agency, and repeats the $40M+ sales claim. It has no direct course link, is an affiliate-style review, and doesn't mention gyms, so the match to this reel is unconfirmed.
+
+### Not found
+
+The real course link was not found. It sits behind the "click below" link in the post's bio or comment flow. I could not confirm that this Charlie is the Imperium Academy Charlie Morgan, and found no primary source for the $40M claim. The vault had no matching notes.

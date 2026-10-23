@@ -37,3 +37,25 @@ Use these 6 Claude and ChatGPT Prompts.
 Don’t forget to SAVE this for later! ✅
 
 #ai #artificialintelligence #aitools #aihacks #chatgpt
+
+## Research
+
+* Verdict: Partly valid. The Harvard study is real and the "more than twice as much in less time" claim matches it. The five generic prompts are not from the study, which used a custom-built tutor, and the results may not carry over to Harvard-style students elsewhere.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [AI Tutoring Outperforms In-Class Active Learning (Kestin & Miller et al., Scientific Reports 2025) (pmc.ncbi.nlm.nih.gov)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/): paper, found by search, not opened, medium confidence. Search results describe this randomized crossover trial of 194 Harvard physics students with learning gains more than double and less time spent, matching the caption. I did not open the page.
+* [Harvard Gazette: Professor tailored AI tutor to physics course (news.harvard.edu)](https://news.harvard.edu/gazette/story/2024/09/professor-tailored-ai-tutor-to-physics-course-engagement-doubled/): page, found by search, not opened, medium confidence. Harvard news coverage of the same study, found in search results and not opened.
+
+### Key steps
+
+1. Feynman: ask the AI to explain [topic] in the simplest way, explain it back in your own words, have it point out your mistakes and re-teach them, and repeat until you can explain it alone.
+2. Self-test: after studying [topic], ask for 10 increasingly difficult questions, answer each, then get a score and an explanation of what you got wrong.
+3. Study sheet: ask for a one-page summary of [topic] with bullets, diagrams and examples that you can review in 5 minutes.
+4. Ladder: ask the AI to break [topic] into 5 difficulty levels from beginner to advanced, with a clear goal at each stage.
+5. Resources: ask for the 5 best books, videos, courses or experts for learning [topic] fast, and why each is worth your time.
+
+### Not found
+
+The post's sixth prompt (the caption says 6, the carousel shows 5) isn't known. I did not open the paper to check the details.

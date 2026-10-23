@@ -25,3 +25,17 @@ Written by claude-haiku-5-5.
 
 🛒 Shop now via the link in our bio! metanexusxr.com
 #XR #VirtualReality #VRGear #TechMarketplace #MetaNexusXR
+
+## Research
+
+* Verdict: Partly valid. Sharp's half-glove VR controller prototype is real and not on general sale. But Road to VR says it has no temperature feedback, and the post claims temperature and material density. The post is also a marketplace promo.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Road to VR: Sharp Unveils Prototype VR Controller, Combining Haptic Gloves & Standard Buttons (roadtovr.com)](https://roadtovr.com/?p=173005): page, found by search, verified, high confidence. The article describes the same half-glove with fingertip tactile elements and standard sticks and buttons. It says there is no temperature or force feedback.
+* [Yanko Design: Sharp VR Haptic Controller Lets You Feel Virtual Textures (yankodesign.com)](https://www.yankodesign.com/2025/07/24/sharp-vr-haptic-controller-lets-you-feel-virtual-textures/): page, found by search, not opened, medium confidence. This search result covers the same Sharp prototype. I did not open it.
+
+### Not found
+
+I found no public purchase page. Road to VR says Sharp opened Japan-only pre-registration at about ¥100,000 and may cancel the product. I did not open the metanexusxr.com link from the post.

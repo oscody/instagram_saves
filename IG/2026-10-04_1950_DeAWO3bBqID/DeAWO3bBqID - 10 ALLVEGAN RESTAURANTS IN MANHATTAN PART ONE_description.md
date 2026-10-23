@@ -37,3 +37,16 @@ Did your favorite all vegan spot make part one? 👀
 STAY TUNED FOR PART TWO! 🗽💚
 
 #vegan #vony #nycveganeats #veganeatsnyc #veganmanhattan
+
+## Research
+
+* Verdict: Partly valid. The post is a restaurant list. The caption gives all ten Instagram handles, so no separate resource exists. I did not check whether each place is still open or fully vegan.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [nyc_veganeats Reel, 10 all-vegan restaurants in Manhattan part one (instagram.com)](https://instagram.com/reel/DeAWO3bBqID/): page, in the post, not opened, medium confidence. The caption lists the handles: spicymoonnyc, sensaigon.nyc, peacefoodnyc, jerrellsbetrbrgr, chloesonbleecker, nydosas, rawsometreats, orchardgrocer, votfnyc and jajajamexicana. I did not open the post.
+
+### Not found
+
+I did not check each restaurant's current status or whether it is fully vegan. Part two was not found.

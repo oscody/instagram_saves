@@ -30,3 +30,16 @@ Written by claude-haiku-5-5.
 Ask questions that pull depth from a conversation not auto responses 🎯💯😮‍💨 #TheWolfHasSpoken Episode 84 OUT NOW (Comment “Podcast” for the full episode) 
 •
 Comment “Order” to buy my books The Art of Accountability and Cheating is Not Cheating #TheAuthor #WolfNetwork
+
+## Research
+
+* Verdict: Nothing to find. The reel is conversation advice with no resource to find. The only extras are a podcast episode and books, which are promoted through comment-for-link and are not included.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already lists this reel with its questions (interesting happen today, favorite part, something learned), plus related question ideas and a five-stage conversation sequence.
+
+### Not found
+
+The podcast episode (The Wolf Has Spoken, Ep. 84) and the books (The Art of Accountability, Cheating is Not Cheating) are sent only after a comment ("Podcast" or "Order"). I did not search for them.

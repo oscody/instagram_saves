@@ -54,3 +54,17 @@ It’s completely free. Paste the link into Claude and test it with your own res
 Comment “RESUME” for the link.
 
 #claudeai #claudecode #claude #claudetips
+
+## Research
+
+* Verdict: Unresolved. The link is sent only by DM after a "RESUME" comment, and I found no public copy. The idea is plausible, but I couldn't check the actual setup.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Comment "RESUME" on the reel to get the DM link, then paste that link into Claude as the post says.
+2. To try it without the link, ask Claude to play each role in turn: an ATS screener, a hiring manager, then five reviewers (manager, peer applicant, CEO and others). Have it list the problems and then rewrite the resume.
+
+### Not found
+
+The DM-gated link. The vault has no notes on this creator or post. One web search found nothing public about it.

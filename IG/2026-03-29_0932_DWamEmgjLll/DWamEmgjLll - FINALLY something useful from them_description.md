@@ -28,3 +28,16 @@ Written by claude-haiku-5-5.
 FINALLY something useful from them 😭
 
 #website #college #studygram
+
+## Research
+
+* Verdict: Partly valid. Turbo AI is real and matches the study-tool part: it makes podcasts and practice questions from uploads, and it has a free tier. The "most dangerous websites" framing is clickbait, and the other two sites are never named in the post.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Turbo AI (turbo.ai)](https://turbo.ai): product, in the post, verified, high confidence. The site says it turns PDFs, slides and lectures into podcasts, quizzes and endless practice questions, and it has a free tier. It doesn't confirm interrupting the audio to ask questions or the 'show explanation' button.
+
+### Not found
+
+The photo-location site and the free-paid-apps site are not named in the post or transcript, so I did not identify them. I also did not check the interrupt-and-ask feature or the 'show explanation' button.

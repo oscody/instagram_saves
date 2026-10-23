@@ -52,3 +52,16 @@ Comment BUSINESS and I’ll send you the
 
  (Make sure you’re following me so the
   DM can reach you! 📩)
+
+## Research
+
+* Verdict: Partly valid. The three-area advice (legal, accounting, operations) is sound and matches standard due diligence guidance. The creator's own checklist is only sent by DM after a comment, and I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [BizBuySell: Due diligence checklist, what to verify before buying a business (bizbuysell.com)](https://www.bizbuysell.com/learning-center/article/sell-due-diligence-checklist-what-to-verify-before-buying-a-business): guide, found by search, not opened, low confidence. This is a public stand-in that covers the same areas (tax returns, financials, legal, operations, add-backs). It is not the creator's checklist, and I did not open it.
+
+### Not found
+
+The creator's "Due Diligence Checklist" link. It is sent by DM after commenting BUSINESS, and a web search found no public copy. The vault had no notes on this post or creator.

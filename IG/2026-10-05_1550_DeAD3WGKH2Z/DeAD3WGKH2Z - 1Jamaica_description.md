@@ -21,3 +21,8 @@ Written by claude-haiku-5-5.
 
 .
 #jamaica #caribbean #westindian
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy reel about Jamaicans and money. It has no resource, tool or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

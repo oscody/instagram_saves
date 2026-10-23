@@ -22,3 +22,21 @@ Written by claude-haiku-5-5.
 3. Have AI sort each person into one of four archetypes based on their LinkedIn profile and posts: confident/salesy, influencer-style, nerdy/introverted analyst, or steady team-focused.
 4. Write each message to match the archetype: confident people get short, to-the-point messages; influencer types get a few emojis; steady types get a warm intro that mentions a mutual connection, gives credit to the team, and asks a question; analysts get straight to the point.
 5. Guess each person's vibe from their profile and posts, then mirror it in your message.
+
+## Research
+
+* Verdict: Unresolved. The method is plausible, but the creator's actual prompt isn't public. I found no copy of it, and the post names no tool.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/prompts - 5 ChatGPT prompts to multiply your LinkedIn influence and following.md`: Only matched the word 'archetype' in a grep. It holds general LinkedIn prompts, not this creator's prompt.
+
+### Key steps
+
+1. Checked the vault: no note mentions the creator or the shortcode.
+2. Searched the web for the creator's name plus the outreach method: only generic LinkedIn outreach guides came back, none by this creator.
+
+### Not found
+
+The creator's prompt for analyzing LinkedIn connections, and the name of the sales data tool. Both were probably shared by comment or DM, and I found no public copy.

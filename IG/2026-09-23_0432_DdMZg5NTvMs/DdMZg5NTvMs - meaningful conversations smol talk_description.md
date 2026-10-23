@@ -26,3 +26,16 @@ Written by claude-haiku-5-5.
 
 meaningful conversations >>> smol talk.
 God Bless
+
+## Research
+
+* Verdict: Nothing to find. The reel is a short conversation tip (FORD: Family, Occupation, Recreation, Dreams). It has no separate resource. FORD is a widely used small-talk mnemonic, and the claimed outcomes are rules of thumb, not tested facts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already lists this reel under Conversation frameworks with all four FORD topics and what each leads to, plus related reels on charisma and reading people.
+
+### Not found
+
+No web search was done. The post has no linked resource, and the vault note already holds the full content.

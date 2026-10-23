@@ -47,3 +47,25 @@ The non-obvious part: this is how you escape vibe coding. Vibe coding fails beca
 I rebuilt three prompts in my own setup this morning. Replaced two custom Claude commands.
 
 Comment “notes” for the template plus the three places to plug it in 👇
+
+## Research
+
+* Verdict: Valid. Thariq Shihipar did post this prompt on X in May 2026, and it is short and public, so the DM template isn't needed. The reel's claims about replacing commands and escaping vibe coding are the creator's opinion.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Thariq (@trq212) original X post (x.com)](https://x.com/trq212/status/2056415973125796184): page, found by search, not opened, medium confidence. The link comes from the abmedia article, which says it is Thariq's prompt post. I did not open it on X.
+* [abmedia: Thariq's implementation-notes prompt (abmedia.io)](https://abmedia.io/thariq-anthropic-claude-code-prompt-implementation-notes-may-2026): page, found by search, verified, high confidence. I opened it. It quotes the prompt 'implement <SPEC> and while you do, keep a running implementation-notes.html file (or markdown)' and lists the kinds of notes to keep.
+* [mer.vin: implementation notes prompt template (mer.vin)](https://mer.vin/2026/05/implementation-notes-prompt-track-agent-decisions-whilst-shipping-a-spec/): guide, found by search, verified, medium confidence. I opened it. It is a third-party tightened version of the prompt with its own suggested sections, not Thariq's text.
+
+### Key steps
+
+1. Paste this prompt: "implement <SPEC> and while you do, keep a running implementation-notes.html file (or markdown)".
+2. Ask it to record decisions the spec didn't cover, changes it made to the spec, tradeoffs it accepted, and anything else you should know.
+3. Optional structure from mer.vin, not Thariq's: Assumptions, Spec deltas, Trade-offs, Risks and follow-ups.
+4. When it finishes, open the HTML file in a browser and review the decisions.
+
+### Not found
+
+I could not open the original X post. The exact full wording comes only from the abmedia quote, and the DM template was not checked.

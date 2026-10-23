@@ -85,3 +85,18 @@ But becoming healthier, stronger, more confident and proving to myself that I ca
 📤 And share/repost this if you know someone who’s working towards becoming a healthier version of themselves.
 
 You never know who might need that little bit of inspiration to start today. 👊
+
+## Research
+
+* Verdict: Partly valid. The post is a personal routine, not a published resource. The creator says the movements are not why he lost weight. He credits Mounjaro, TRT, diet and training, so the Tai Chi framing shouldn't be read as the cause. I did not search for a separate public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Do each movement for 60 seconds (about 9 minutes in total).
+2. Go in order: Lymphatic Hops, Body Waves, Trunk Twists, Arm Swings, Dead Arms, Golf Swings, Marches, Ballet Squats, Horse Stance.
+3. Go at your own pace and adapt where needed.
+
+### Not found
+
+No separate guide, site or downloadable resource. I did not search the web or the vault, because the post's own caption has the full list. There is no vault note on this creator or post.

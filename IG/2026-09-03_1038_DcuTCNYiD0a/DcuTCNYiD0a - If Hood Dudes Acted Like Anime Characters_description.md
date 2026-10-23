@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If Hood Dudes Acted Like Anime Characters
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit with no resource, tool or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

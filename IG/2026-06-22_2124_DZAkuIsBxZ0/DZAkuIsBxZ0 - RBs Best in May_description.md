@@ -26,3 +26,12 @@ R&B’s Best in May
 -
 -
 #rnbmusic #relatablereels #musicplaylist #rnbvibes #latenightvibes
+
+## Research
+
+* Verdict: Nothing to find. This is a music list reel (a personal Top 10 R&B songs for May). It has no tool, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The No. 1 song is only named in the description. No playlist link was in the post. I did not search, because this is music content.

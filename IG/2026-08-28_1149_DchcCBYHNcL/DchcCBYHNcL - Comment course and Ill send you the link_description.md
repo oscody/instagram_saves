@@ -33,3 +33,16 @@ Comment “course” and I’ll send you the link.
 Anthropic just released a free course to a $500k AI engineering job.
 
 Four hours covering the right way to prompt Claude, what makes it act dumber on your code, how Anthropic uses Claude internally every day, and the fix that makes it noticeably smarter. This free course replaces about 10 paid engineering courses.
+
+## Research
+
+* Verdict: Partly valid. Anthropic does offer free courses, but I found no single four-hour course matching the post. The slides look like clips from Code with Claude talks, and the "$500k job" and "replaces 10 paid courses" lines are hype. The link is only sent by comment.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Anthropic Academy (Skilljar) course catalog (anthropic.skilljar.com)](https://anthropic.skilljar.com/): page, found by search, verified, medium confidence. It lists free Anthropic courses such as Claude Code 101 and Claude Code in Action, but no single four-hour prompting course.
+
+### Not found
+
+The exact "course" link the account sends by comment. I found no public copy of a four-hour course, and course durations aren't shown on the catalog page. I didn't open the original talks.

@@ -33,3 +33,16 @@ Let’s show Pennsylvania how NYC does plant-based 🌱
 Tag your PA crew — we’re pulling up DEEP.
 
 #PhoenixvilleVegFest #MadrinaVeganaOnTheRoad #VeganTacos #BirriaTakeover #PAeats #PlantBasedFuego #VeganFoodFestival #TacoQueenTour #VeganInPA
+
+## Research
+
+* Verdict: Partly valid. The 2025 Phoenixville VegFest was a real event at Reeves Park on Aug 2. The post's hours and rain date differ from the listing I found, and I didn't open any page.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [County Lines Magazine – August 2025 events (7th Annual Phoenixville VegFest) (countylinesmagazine.com)](https://countylinesmagazine.com/article/august-2025-events-in-and-around-chester-county-pa/): page, found by search, not opened, medium confidence. The search snippet lists the 7th annual VegFest on Aug 2 at Reeves Park, but with noon–5 PM and an Aug 6 rain date, not the post's 11 AM–5 PM and 8/3.
+
+### Not found
+
+I didn't open the official festival site (PhoenixvilleVegFest.com). I didn't confirm the hours or rain date. The event has already passed (Aug 2, 2025).

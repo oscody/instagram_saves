@@ -35,3 +35,16 @@ The series leans into comedic misunderstandings while keeping the cultivation wo
 Date: TBA 🔗 PV Link: http://t.cn/AXSyl0Y4
 
 #NianFanchen #念凡尘 #Donghua #ChineseAnime #OtakuWeek
+
+## Research
+
+* Verdict: Valid. The donghua exists: MyAnimeList lists 念凡尘 as a 2026 ONA by Chongzhuo Animation with Tencent Video as a producer, not yet aired. The post's "Webnovel/Yuewen" source and English title are not confirmed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Nian Fanchen – MyAnimeList (myanimelist.net)](https://myanimelist.net/anime/62751): page, found by search, verified, high confidence. Lists 念凡尘 as a 2026 ONA by Chongzhuo Animation, Tencent Video as producer, not yet aired, based on the web novel 原来我是修仙大佬.
+
+### Not found
+
+I did not open the PV short link (t.cn). I found no release date and no official Tencent Video page. MAL gives the source as the web novel 原来我是修仙大佬 by 木下雉水, which doesn't confirm the post's Webnovel/Yuewen claim.

@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 she’s bad but she gotta go
+
+## Research
+
+* Verdict: Unresolved. The reel promotes an unnamed personal finance book that is "on sale" with a link given elsewhere. The summary has no title or author, so I couldn't identify the book. I didn't search the web, since there were no distinctive names to search for.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The book's title, author and sale link are not in the post text or caption. A vault search for the shortcode and creator handle found nothing. The link is probably in the creator's bio or comments, which I couldn't see.

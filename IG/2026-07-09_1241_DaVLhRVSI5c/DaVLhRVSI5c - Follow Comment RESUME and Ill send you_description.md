@@ -40,3 +40,25 @@ employees thousands to get this. 60 questions,
 proctored, webcam on. Free for the first 5,000 people,
 then $99
 #student #college #certifications #ai
+
+## Research
+
+* Verdict: Partly valid. The Claude Certified Architect exam is real (60 questions, proctored). The "free for the first 5,000" offer was reportedly limited to Claude Partner Network employees, and the fee isn't officially published. The links are only sent after a "RESUME" comment, and I didn't check the other four certifications.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Claude Market: Claude Certified Architect (CCA-F) guide (claudemarket.ai)](https://claudemarket.ai/blog/claude-certified-architect): guide, found by search, verified, medium confidence. Opened it. It confirms the proctored exam and the $99 fee, and says the first-5,000 waiver applied to Claude Partner Network employees. It doesn't mention Deloitte.
+* [Tutorials Dojo: How to book the CCA-F exam (tutorialsdojo.com)](https://tutorialsdojo.com/how-to-book-ccar-f-exam/): guide, found by search, not opened, low confidence. The page came back truncated, so I only saw its title and a search summary of it.
+
+### Key steps
+
+1. Join the Claude Partner Network (free for organizations that bring Claude to market).
+2. Register at the Anthropic Partner Academy; login credentials arrive by email.
+3. Schedule the exam through the Pearson VUE portal, either online (OnVUE) or at a test center.
+4. Confirm the fee in the Partner Academy portal before booking; it is unpublished publicly, with $99 reported.
+5. Sit the exam: 60 scenario-based questions, 120 minutes, pass mark 720 out of 1,000.
+
+### Not found
+
+The links for the other four certifications (Google AI Essentials, HubSpot, IBM SkillsBuild, GitHub Foundations) were not checked. I found no official Anthropic page confirming the fee or the first-5,000 offer, and no source confirming the Deloitte claim.

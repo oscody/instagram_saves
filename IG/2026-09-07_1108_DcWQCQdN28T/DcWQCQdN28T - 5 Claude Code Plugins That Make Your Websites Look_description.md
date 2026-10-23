@@ -36,3 +36,29 @@ Comment "DESIGN" below, and I'll DM you all five plugins.
 [keywords: Claude Code, Claude AI, Claude plugins, AI coding, AI programming, Anthropic, frontend development, web development, web design, UI design, UX design, AI website builder, vibe coding, TasteSkill, Web Design Guidelines, AwesomeDesign, ImageToCode, Playwright CLI, Playwright, design systems, UI/UX, coding assistant, AI developer tools, developer productivity, prompt engineering]
 
 #claudecode #claudeai #coding #anthropic #programming
+
+## Research
+
+* Verdict: Partly valid. Three of the five tools have public repos (taste-skill, Vercel web-design-guidelines, and awesome-design-md, which is probably "AwesomeDesign"). ImageToCode wasn't identified, and the "10x better" claim is hype. The post's own list is only sent by DM.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Taste Skill (Leonxlnx/taste-skill) (github.com)](https://github.com/Leonxlnx/taste-skill): repo, found by search, verified, high confidence. Anti-generic-AI-UI frontend skill with a Claude Code plugin install, matching TasteSkill.
+* [Vercel agent-skills (web-design-guidelines) (github.com)](https://github.com/vercel-labs/agent-skills): repo, found by search, verified, high confidence. Includes web-design-guidelines, which audits UI code against 100+ rules.
+* [Awesome DESIGN.md (VoltAgent) (github.com)](https://github.com/VoltAgent/awesome-design-md): repo, found by search, verified, medium confidence. Brand design-system files covering colors, typography and components; likely the AwesomeDesign item, though the post doesn't name it.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Openclaw hub skills v1 12-30-26.md`: Mentions 'Web Design Guidelines' in a skills list only; no steps.
+
+### Key steps
+
+1. Taste Skill: in Claude Code run `/plugin marketplace add Leonxlnx/taste-skill`, then `/plugin install taste-skill@taste-skill`. It needs Node 22+ and Chrome, Edge or Chromium.
+2. Web Design Guidelines: run `npx skills add vercel-labs/agent-skills`, then ask Claude to review your UI files against the guidelines.
+3. Awesome DESIGN.md: copy a brand's DESIGN.md from the repo into your project root, then ask Claude to build with that design system.
+4. Playwright CLI: install Playwright so Claude can open your site and take screenshots.
+
+### Not found
+
+ImageToCode could not be identified as a specific public tool. The creator's DM list was not checked, and it is only sent after a comment. Playwright CLI was not opened.

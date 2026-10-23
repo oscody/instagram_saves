@@ -39,3 +39,27 @@ Built in ten days. 33,000 GitHub stars. $4M in funding within 24 hours. And it�
 Stop guessing. Start simulating.
 
 Comment “simulate” and I’ll send you the link.
+
+## Research
+
+* Verdict: Partly valid. MiroFish is a real, free, open-source (AGPL-3.0) multi-agent simulation tool, but the hype is unverified. Simulated reactions are predictions, not "answers", and it needs paid LLM and Zep API keys. I did not check the "20-year-old", "10 days", "$4M" or "Black Mirror" claims.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [666ghj/MiroFish (github.com)](https://github.com/666ghj/MiroFish): repo, in the post, verified, high confidence. The repo is a swarm-intelligence engine that simulates agents with distinct personalities to predict outcomes. It shows 81.3k stars, which is consistent with the post's 33k figure from earlier in its growth.
+
+### Key steps
+
+1. Install Node.js 18+, Python 3.11-3.12 and uv.
+2. Clone the repo and copy .env.example to .env.
+3. Add an OpenAI-compatible LLM API key (README suggests qwen-plus) and a Zep Cloud API key to .env.
+4. Run `npm run setup:all`.
+5. Run `npm run dev`.
+6. Open the frontend at localhost:3000 (the API runs on 5001).
+7. Upload seed material (news, a policy draft or a scenario) and run the simulation.
+8. Docker alternative: `docker compose up -d`.
+
+### Not found
+
+Did not verify the post's claims about the founder's age, the 10-day build, the $4M funding or Black Mirror. Simulation accuracy was not checked. The comment-for-link gate is unnecessary because the repo is public.

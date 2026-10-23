@@ -42,3 +42,16 @@ Whether you’re looking for thrills, date ideas, family fun, or something total
 Follow @aiyanafig for more things to do, hidden gems, and must visit places! 🗺️✨
 
 #newjersey #nj #jersey #summer #musttry
+
+## Research
+
+* Verdict: Partly valid. The post is a list of NJ summer attractions with an influencer discount code. The Fever-promoted Sculpture Without Sight appears to be in Manhattan, not NJ. I did not check the other attractions.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Sculpture Without Sight Experience (Fever) (feverup.com)](https://feverup.com/m/53098?thm=278): product, found by search, not opened, medium confidence. Search result shows the Fever listing for the experience named in the caption, at a New York venue (West 27th St), not NJ. I did not open the page.
+
+### Not found
+
+I did not open any page. I did not check the Bubble Planet listing, whether the code AIYANAF10 works, or the other seven attractions' current details and prices.

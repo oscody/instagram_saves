@@ -27,3 +27,23 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If you find this useful please like, save, and share to your business partner
+
+## Research
+
+* Verdict: Valid. PostHog session replay exists and does what the post says. The review-prompt routing is a common practice (a pre-prompt before the native review request), not a specific resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [PostHog Session Replay docs (posthog.com)](https://posthog.com/docs/session-replay): page, found by search, verified, high confidence. Page describes recording user sessions with linked events, console logs and errors, with SDKs for iOS and React Native.
+
+### Key steps
+
+1. Add the PostHog SDK for your platform (iOS, React Native, web) using the installation guide: https://posthog.com/docs/session-replay/installation
+2. Enable session replay in project settings.
+3. Review recording rules and privacy masking (text, inputs) before shipping.
+4. Link replays to funnel drop-offs or errors to find the session behind them.
+
+### Not found
+
+The review pre-prompt has no single named resource. I did not look for a specific implementation.

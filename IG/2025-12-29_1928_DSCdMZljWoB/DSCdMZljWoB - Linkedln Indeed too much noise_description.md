@@ -27,3 +27,17 @@ Linkedln + Indeed =too much noise.
 Use these instead...
 
 ( hiring,  jobs, linkdln,  indeed )
+
+## Research
+
+* Verdict: Partly valid. Dice and Upwork are real job sites. The reel's "hidden websites" framing is overstated, because both are well-known. Only two of the sites in the reel were legible.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Dice (dice.com)](https://www.dice.com): product, found by search, verified, high confidence. The page is a tech-focused job board with AI matching, as the post describes.
+* [Upwork (upwork.com)](https://www.upwork.com): product, found by search, not opened, medium confidence. Well-known freelance marketplace, but the page returned 403 so I couldn't open it.
+
+### Not found
+
+The other sites in the reel's list were not legible, so I could not identify them. I did not open Upwork (403 error).

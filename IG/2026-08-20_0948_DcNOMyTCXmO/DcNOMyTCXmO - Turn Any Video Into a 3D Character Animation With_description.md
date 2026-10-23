@@ -45,3 +45,27 @@ Open source: squall01337/mixamo-llm-mocap
 Follow for more open source project drops.
 
 #MotionCapture #Blender3D #AIAnimation #AITools #GameDev
+
+## Research
+
+* Verdict: Valid. The repo exists and matches the post: video to Mixamo FK animation in Blender, two-person duel support, and the listed scripts. The "no human needed" claim is overstated, because you must set up GVHMR, download the SMPL-X model and Mixamo character yourself, and you need Blender 5.1+ and a GPU.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [squall01337/mixamo-llm-mocap (github.com)](https://github.com/squall01337/mixamo-llm-mocap): repo, in the post, verified, high confidence. README lists the same scripts (setup_rig, estimate_pose_gvhmr, lift_to_mixamo, compare_pair, setup_duo) and the two-person duel; MIT license.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only lists the repo URL (line 77), no steps.
+
+### Key steps
+
+1. Install per docs/INSTALL.md: Blender 5.1+, clone GVHMR into tools/GVHMR, download the checkpoints (~5 GB) and the SMPL-X v1.1 model (free registration). You need a GPU with about 8 GB VRAM.
+2. Download your own Mixamo character (FBX Binary, T-pose), then run setup_rig.py to build the scene and write rig_profile.json.
+3. Shoot or generate a locked-camera plate with a T-pose at the start and end.
+4. Run estimate_pose_gvhmr.py --smplx-only, then retarget_smplx.py.
+5. Bake the action with bl_motion.py using blender -b.
+6. Run render_review.py to make a 2x2 review video, then eval_fidelity.py to check angles, foot slide and jitter.
+7. For two fighters, use --person left|right, then setup_duo.py, compare_pair.py and run_in_blender.py.
+8. If the output looks wrong, read docs/PIPELINE.md and docs/PITFALLS.md.

@@ -44,3 +44,12 @@ The sync runs unattended on a schedule. The ideation runs when you’re ready to
 Full step by step build is in the guide. Prompts, schema, scheduler, everything.
 Comment “Insta” and it’s yours.
 Save this one so you actually come back to it (the irony is the point).
+
+## Research
+
+* Verdict: Unresolved. The full guide is only sent by DM after commenting "Insta", and I found no public copy. The idea is plausible, but I couldn't check the creator's specific build.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The guide itself (prompts, schema, scheduler) is gated behind a comment and DM. A web search for the creator and the project found no public repo or page. The vault has no note on this post or creator.

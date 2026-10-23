@@ -39,3 +39,28 @@ Written by claude-haiku-5-5.
 💬Comment “roadmap” to get all the resources + my guide in your DMs!
 
 #upskill #ai #roadmap #usa #uk
+
+## Research
+
+* Verdict: Partly valid. The plan uses real, public resources (Anthropic tutorial, Google courses, Google Cloud cert), but the creator's own guide is only sent by DM. "Free" leaves out the $99 exam fee, and "in 8 weeks" is a loose promise.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Cloud Generative AI Leader certification (cloud.google.com)](https://cloud.google.com/learn/certification/generative-ai-leader): page, found by search, verified, high confidence. Page confirms a no-prerequisite certification for any job role, with a free study guide and learning path link, but the exam costs $99.
+* [Anthropic courses repo (includes interactive prompt engineering tutorial) (github.com)](https://github.com/anthropics/courses): repo, found by search, not opened, medium confidence. Search results describe the prompt engineering tutorial as part of Anthropic's courses repo; I did not open it.
+* [Google Cloud Skills Boost: Generative AI Leader learning path (cloudskillsboost.google)](https://www.cloudskillsboost.google/paths/1951): guide, found by search, not opened, medium confidence. The certification page links to this path as prep; I did not open it to check it is free.
+
+### Key steps
+
+1. Complete an intro YouTube video on how LLMs are used (week 1).
+2. Work through Anthropic's prompt engineering tutorial (weeks 2-3).
+3. Take Google's free Introduction to Generative AI course (week 4).
+4. Study the Skills Boost Generative AI Leader path, then sit the $99 exam (week 5).
+5. Build a no-code AI tool for your own field (week 6).
+6. Combine prompts, cert knowledge and tool into one system, then test and debug it (week 7).
+7. Post about the tool publicly (week 8).
+
+### Not found
+
+The creator's own roadmap guide and exact resource list are sent by DM after commenting "roadmap". I found no public copy. The specific YouTube video and the free prompting course were not named in the post.

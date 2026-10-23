@@ -30,3 +30,25 @@ Open source: alayalab/worldsculpt
 Follow for more open source project drops.
 
 #3DDesign #CreativeCoding #GenerativeAI #AICoding #Procedural3D
+
+## Research
+
+* Verdict: Partly valid. The repo is real and matches the reel. But it needs RGB images with instance masks and 3D boxes as input, not plain video. The "actual code behind the model" and "editable" lines are loose: inference code and checkpoints are released, with no training code mentioned.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [alayalab/worldsculpt (github.com)](https://github.com/alayalab/worldsculpt): repo, in the post, verified, high confidence. README describes the official WorldSculpt implementation (compositional meshes of scenes with hundreds of objects), from Alaya Lab, with a TL;DR list, as shown in the reel.
+
+### Key steps
+
+1. Set up the base environment by following the TRELLIS.2 install guide.
+2. Install the extra dependencies: natten==0.21.0 built for your GPU, the utils3d wheel, the listed pip packages, and setuptools<81.
+3. Download checkpoints from Hugging Face: AlayaLab/WorldSculpt and TencentARC/Pixal3D.
+4. Download the UE-MeshyScene and Marble demo datasets and extract the tar archives.
+5. Set the env vars INPUT_ROOT, OUTPUT_ROOT, CKPT_ROOT, SAMPLER, step counts, RENDER, FACE_BUDGET and GPU.
+6. Run ./inference.sh <scene_name>.
+
+### Not found
+
+I did not check the arXiv paper (2609.05416) or the Hugging Face pages. I did not test the install.

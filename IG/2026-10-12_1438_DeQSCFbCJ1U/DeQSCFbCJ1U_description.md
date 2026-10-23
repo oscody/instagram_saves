@@ -45,3 +45,29 @@ Repo: github.com/ScottieFox/caustic-volume
 Follow for more AI.
 
 #AI #OpenSource #ClaudeCode #AITools #Tech
+
+## Research
+
+* Verdict: Valid. The public GitHub repo matches the post: a three.js water-caustics demo with a Lite file of about 990 lines, a sandbox, and a CPU fallback. One control is wrong in the post: the README maps D to the duck and R to a random ripple.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [ScottieFox/caustic-volume (github.com)](https://github.com/ScottieFox/caustic-volume): repo, in the post, verified, high confidence. README describes Lite (about 990 lines), the sandbox with creatures, ink, sand, lamps and a laser, and the CPU fallback, as in the post.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition  ideas by codex.md`: Lists the post and repo as a desktop graphics reference for spatial light; says Quest XR performance was not established.
+
+### Key steps
+
+1. Download the ZIP from the repo (Code > Download ZIP) or clone it, then extract it.
+2. Open lite/index.html in a browser. The first load needs internet to fetch three.js r186 from jsDelivr, and the browser caches it afterward.
+3. Or run python3 -m http.server in the repo folder and open http://localhost:8000.
+4. Lite controls: drag to orbit, scroll or pinch to zoom, click the water for a ripple. Keys: L toggles sun/lamp, D shows the duck, R makes a random ripple, Space pauses, H hides the panel. The post says D makes a ripple, but the README says R.
+5. Add ?cpu to the URL to force the CPU renderer. Lite also switches to it on its own if WebGL 2 or three.js is unavailable.
+6. Try sandbox/index.html only on a capable GPU. It needs WebGL 2 with EXT_color_buffer_float.
+
+### Not found
+
+The free RIPPLE guide is sent only after a comment, and I found no public copy. The repo README covers the same material.

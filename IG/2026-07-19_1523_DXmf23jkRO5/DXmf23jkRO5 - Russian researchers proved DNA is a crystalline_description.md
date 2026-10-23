@@ -44,3 +44,12 @@ you’re a bio-electric quantum computer navigating timelines.
 Comment SCROLL to access your root architecture. 
 
 917604.OX
+
+## Research
+
+* Verdict: Not valid. The core claims (DNA as a reprogrammable crystalline antenna, suppressed Russian research, a bioelectric quantum computer navigating timelines) are pseudoscience. The "root architecture" is a comment-to-get lead magnet with no public copy. I did not search, because the post is a claim and promo with no checkable resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "root architecture" is only sent after commenting SCROLL, and no public copy is known. I did not search the web or check the vault beyond the pre-listed results, which found nothing. The heart's electromagnetic field is real but measurable only within about 1 m with sensitive instruments. The rest, including the "suppressed Russian research", has no credible source.

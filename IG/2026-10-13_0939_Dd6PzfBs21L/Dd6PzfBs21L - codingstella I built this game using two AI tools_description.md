@@ -54,3 +54,17 @@ Instead of relying on one tool for everything, combine them and let each tool ha
 🔗 Link in bio.
 
 #game #TripoAI #Tripo3D #AI #AITools 3DModeling GameDev GameDevelopment AIWorkflow 3DAssets AIGameDev WebDevelopment Tech ArtificialIntelligence
+
+## Research
+
+* Verdict: Partly valid. The Tripo plus Astra workflow is plausible and Tripo does publish related material. The post is mainly a Tripo promo with an invite code and discount, and I found no step-by-step guide for it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [awesome-astra-prompts (TripoGrowthLab) (github.com)](https://github.com/TripoGrowthLab/awesome-astra-prompts): repo, found by search, verified, medium confidence. Tripo-run repo of GPT-6 Astra prompts and 3D examples, tagged tripo and threejs. It doesn't describe this exact workflow.
+* [Build your 3D game using Tripo (Rosebud) (lab.rosebud.ai)](https://lab.rosebud.ai/blog/build-your-3d-game-using-tripo): guide, found by search, not opened, low confidence. Search result describing a Tripo-assets-into-game pipeline, but for Rosebud rather than Astra. I did not open it.
+
+### Not found
+
+The creator's own workflow guide and the "link in bio" target. The invite code and 60% discount (code TRIPO CREW) could not be checked. I did not confirm any official OpenAI Astra documentation.

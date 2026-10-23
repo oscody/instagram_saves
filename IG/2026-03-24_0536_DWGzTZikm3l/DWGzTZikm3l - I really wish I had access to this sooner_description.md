@@ -42,3 +42,12 @@ Follow for daily Tech tips 🚀
 Follow @codingknowledge For More ❤️ 
 
 #tech #claude #ai #iit #students
+
+## Research
+
+* Verdict: Valid. The post is a set of generic study prompts that are fully written out in the slides, so no outside resource is needed. The prompts are reasonable. The cover and caption say six prompts, but only five are shown.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No external resource exists. I did not search the vault or the web, because the post is self-contained. The sixth prompt the cover promises is not in the slides.

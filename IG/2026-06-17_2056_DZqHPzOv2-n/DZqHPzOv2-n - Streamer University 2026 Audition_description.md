@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 Streamer University 2026 Audition
 
 #Erased #streameruniversity2026 #indiegames #gamedev #jetsetradio @kaicenat
+
+## Research
+
+* Verdict: Nothing to find. This is a personal audition story for Streamer University 2026 from a solo developer. It makes no claim and offers no resource. Two quick searches found no public page for his game "Erased".
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No public page for the game "Erased" by jerron_jacques turned up in web search. The vault has no matching note. The only vault hit for the search terms was an unrelated note, "Talking to Scarlett".

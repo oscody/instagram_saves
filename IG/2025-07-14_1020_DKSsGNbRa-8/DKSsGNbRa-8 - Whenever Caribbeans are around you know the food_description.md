@@ -36,3 +36,12 @@ A simple google search with give you all you need to know about the upcoming eve
 @houseofindependents
 
 *Edit: June 8th Englewood Caribbean fest ft. Kranium @harmonconciergeandevents
+
+## Research
+
+* Verdict: Nothing to find. The reel is an events list for summer 2025 (June 7 to Sept 11) that has already ended. It has no single resource to link, and the caption only tags organizer accounts. I did not search, and the vault has no matching notes.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No public copy of the event list exists beyond the reel itself. The tagged Instagram accounts (such as @reggaeandsocaevents, @jccarnival and @sjcaribbean) are the only sources, and I did not open them. Their 2026 events would need a fresh look.

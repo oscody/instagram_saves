@@ -57,3 +57,17 @@ You can start with an Arduino kit or practice using an online circuit simulator.
 Next episode: learning how to solder. Follow along, and maybe we’ll build a real robot together.
 
 #LearningRobotics #RoboticsEngineering #Electronics #Circuits
+
+## Research
+
+* Verdict: Valid. The free course and book exist and fit a beginner circuits path. The post spells the site "Engineering4Free"; the real site is Engineer4Free. The Ohmie app was not checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Engineer4Free (Circuits course) (engineer4free.com)](https://www.engineer4free.com): page, found by search, verified, high confidence. The post's 'Engineering4Free.com' is this free university-level tutorial site, and its course list includes Circuits.
+* [Complete Electronics Self-Teaching Guide with Projects (Boysen & Kybett, Wiley 2012) (oreilly.com)](https://www.oreilly.com/library/view/-/9781118282328/): other, found by search, not opened, high confidence. Search results confirm the title, authors, and a companion site with 20+ projects. I did not open this page.
+
+### Not found
+
+The Ohmie app was not searched or checked. The exact Amazon soldering kit was not checked. The Engineer4Free Circuits course page gave no description of its contents.

@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: momjustreby.com
+
+## Research
+
+* Verdict: Unresolved. The site named in the post (momjustreby.com) doesn't resolve, and searches found no matching product. The domain is probably misheard or misspelled from the audio transcription.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The momjustreby.com site: the domain returned a DNS error (ENOTFOUND), and a web search found nothing on it. Core Memories (corememoriesapp.carrd.co) is a similar service but nothing links it to this post. The vault has no notes on it. The post is also a Cursor promo reel, and the claim that he built the site with Cursor, Composer and cloud agents couldn't be checked.

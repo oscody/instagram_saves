@@ -68,3 +68,12 @@ Follow @datasciencebrain for daily AI notes 📝,tips ⚙️ and interview Q&A �
 [dataanalytics, artificialintelligence, deeplearning, bigdata, agenticai, aiagents, statistics, dataanalysis, datavisualization, analytics, datascientist, neuralnetworks, 100daysofcode, llms, datasciencebootcamp, ai]
 
 #genai #aiengineer #datascience #pythonforai #aicareers
+
+## Research
+
+* Verdict: Promo. The 20-file guide is only available through a paid Instagram subscription (Rs.45 per month), and I found no public copy. The design ideas it describes (bitemporal memory, never deleting rows, a human review gate) are sound and well known, but I couldn't check the author's ablation claims.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No public repo or copy of the guide turned up. The one vault match, a ZAIHub note on API logging, isn't related. I did not check the author's null-result claims, because the guide is paywalled.

@@ -38,3 +38,12 @@ Remember to check stories for more things to do in NYC everyday and every Sunday
 What event are you most excited about?
 
 #explorenycfree #thingstodoinnyc #nyc #nycsummer
+
+## Research
+
+* Verdict: Partly valid. The post is a list of free NYC events for August 2025. It has no single resource to link, and every event date has passed. I didn't verify the individual events.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+I didn't check any of the listed events against official sources. The creator's stories and Sunday roundups are not public copies, and the dated events have expired.

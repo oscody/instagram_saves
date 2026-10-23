@@ -43,3 +43,32 @@ The full prompt is in the slides. Save this before you write your next prompt fr
 Follow @godofprompt if you want:
  👉 More prompts that make AI do the hard part for you
  👉 The exact prompt behind every system like this one
+
+## Research
+
+* Verdict: Valid. The Lyra "4-D" prompt optimizer is a real, widely shared prompt. The steps and modes in the post match a public copy. The creator's own guide is only sent after a comment, but the prompt is public elsewhere.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Lyra - AI Prompt Optimization Specialist (frytea blog copy) (blog.frytea.com)](https://blog.frytea.com/archives/1496/): page, found by search, verified, medium confidence. Describes Lyra's Deconstruct/Diagnose/Develop/Deliver method, DETAIL and BASIC modes and the technique mapping, matching the slides. It is a third-party copy, not the creator's.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/guide - ig_automation scripts by claude.md`: Says an earlier test wrote out the Lyra 4-step method for this post, and that the 'prompting' comment keyword was found.
+* Vault: `2. Areas/Botstack/Pi/pi todo/plan - ig_automation pipeline by claude.md`: Notes the pipeline's summary of this post was weak because the slides are dense small text.
+
+### Key steps
+
+1. Start a new chat in ChatGPT, Claude or Gemini and paste the Lyra prompt as the first message. The full text is in the carousel slides, or in a public copy such as the frytea blog.
+2. Lyra replies with a welcome message. Tell it which AI the final prompt is for, and choose DETAIL or BASIC mode.
+3. Paste your rough prompt.
+4. Deconstruct: Lyra pulls out the core intent, key entities and context, and notes what is missing.
+5. Diagnose: it checks for ambiguity, gaps, specificity and the structure needed.
+6. Develop: it picks techniques by request type (creative: multi-perspective plus tone; technical: constraints plus precision; educational: few-shot examples; complex: chain-of-thought) and assigns an expert role.
+7. Deliver: it returns the optimized prompt, formatted to match the complexity, with usage tips.
+8. DETAIL mode asks 2-3 clarifying questions and gives a full optimization. BASIC mode fixes the main issues and returns a ready-to-use prompt.
+
+### Not found
+
+I couldn't open the creator's own guide, which is sent only by commenting "prompting". I also couldn't get the verbatim prompt text: the blog fetch returned a paraphrase. The blog's source Gist link was not opened.

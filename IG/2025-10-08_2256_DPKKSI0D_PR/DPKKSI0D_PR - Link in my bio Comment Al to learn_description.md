@@ -29,3 +29,16 @@ Written by claude-haiku-5-5.
 
 Link in my bio + Comment Al to learn #lifestyle #aiagency #explorepage #reels #tech #softwareengineer #aiagents #ai #n8n
 #aiworkflows
+
+## Research
+
+* Verdict: Unresolved. The idea is plausible and common (Vapi + n8n + Google Calendar), but the creator's own workflow is only given out after a comment or DM, and I found no public copy.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Vapi AI Google Calendar Appointment Scheduling (Growwstacks, similar template) (growwstacks.com)](https://growwstacks.com/workflows/automated-voice-appointment-booking-with-vapi-ai-and-google-calendar): page, found by search, not opened, low confidence. A third-party n8n template for the same Vapi to n8n to Google Calendar flow. I only saw it in search results and did not open it, and it isn't the creator's file.
+
+### Not found
+
+The creator's actual workflow or link. The post says to comment "Al" or use the link in the bio, and no URL is written in the post. The vault has no note on this creator or post. Its only hit was an unrelated "Vapium lite" note.

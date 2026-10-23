@@ -23,3 +23,12 @@ Written by claude-haiku-5-5.
 booksopedia_ Comment "RESET" for book links 🔗📚
 
 Save it for later!
+
+## Research
+
+* Verdict: Unresolved. The post is a list of four book recommendations, but the saved note doesn't name the books. The links are only sent to people who comment "RESET", so I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The four book titles and their links. The saved note only describes the slides in general terms, and the links are sent after a "RESET" comment on the post. I didn't search the web, because no titles or other distinctive names were available. To resolve it, open the carousel and read the covers.

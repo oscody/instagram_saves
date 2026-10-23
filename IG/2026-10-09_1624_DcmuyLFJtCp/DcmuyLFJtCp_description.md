@@ -32,3 +32,26 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Everything you've been told about context is wrong, and this is why the ICM method is so valuable. If you want the full article on the entire ICM method and how to implement it in your business, just comment "ICM" below and I'll send it to your DMs.
+
+## Research
+
+* Verdict: Valid. ICM is a real, public method (GitHub repo and arXiv paper) that matches the reel's description. The creator's full article is only sent by DM, but the original source is public.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Interpretable Context Methodology (RinDig) (github.com)](https://github.com/RinDig/Interpretable-Context-Methodology): repo, found by search, verified, high confidence. README describes numbered stage folders, a small CLAUDE.md router, per-stage CONTEXT.md with inputs, process and outputs, and layered context loading, as in the reel.
+* [Model Workspace Protocol: Folder Structure as Agent Architecture (Van Clief, 2026) (arxiv.org)](https://arxiv.org/abs/2603.16021): paper, found by search, not opened, medium confidence. The paper is cited in the repo README, and the search results list it as the ICM paper. I did not open the paper itself.
+
+### Key steps
+
+1. Clone the RinDig/Interpretable-Context-Methodology repo.
+2. cd into a workspace, e.g. workspaces/script-to-animation (or workspace-builder to generate your own).
+3. Open Claude Code there and type `setup`; answer the onboarding questions in one pass.
+4. Give the agent a topic and run the numbered stages in order.
+5. Review and edit each stage's output/ files before the next stage runs.
+6. For your own workflow: keep CLAUDE.md as a short router, and give each stage folder a CONTEXT.md covering inputs, process, outputs and the human check.
+
+### Not found
+
+The creator's (tomcrawshaw.ai) DM-only article was not found publicly. The reel's audit steps (inventory-only, complete/partial/empty) are probably from that article and were not checked against the repo.

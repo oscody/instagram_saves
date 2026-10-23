@@ -54,3 +54,24 @@ People can tell when you're using ChatGPT & Claude. These 6 prompts fix that.
 👉 Join our +22k free readers, and get the latest AI developments, news, and tools to stay ahead.
 
 Follow @airesearches to stay updated on the world's most fascinating AI developments.
+
+## Research
+
+* Verdict: Partly valid. The six prompts are fully in the caption, so there's nothing else to find. They're ordinary rewrite prompts and will probably help somewhat. The post doesn't prove they make text undetectable, and several of them overlap.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [6 Prompts to Make AI Writing Sound Human (post caption) (instagram.com)](https://instagram.com/p/DahjAYBmZVP/): prompt, in the post, not opened, high confidence. The caption contains all six prompts word for word, each with a [paste] placeholder.
+
+### Key steps
+
+1. Paste your draft in place of [paste] in one prompt.
+2. Start with prompt 1 (Real Person Rewrite) or 3 (Pattern Disruptor).
+3. Run Voice Shaper (4) if the draft still reads as neutral.
+4. Finish with The Credibility Test (6) for a sentence-by-sentence pass.
+5. Read the result aloud and edit by hand. Add real details from your own experience, because prompts alone won't supply them.
+
+### Not found
+
+I didn't search the web or open the post, because the caption already holds the full prompts. I didn't test whether the prompts beat AI detectors or make writing sound more human.

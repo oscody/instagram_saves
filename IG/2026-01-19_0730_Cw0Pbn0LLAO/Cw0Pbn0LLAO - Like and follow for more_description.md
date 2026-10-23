@@ -24,3 +24,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Like and follow for more ❤️ #modernflirting #dating #datingadvice #pickupline #pua #datingcoach #datingcoachesformen #fy #fyp #approachinggirls #approachanxiety #datingtips #modernsuccess
+
+## Research
+
+* Verdict: Nothing to find. The reel is dating-advice entertainment. It gives three spoken conversation openers and links to no tool, guide or product.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/_pi todo query.md`: Only lists this shortcode among 19 failed downloads to retry. It has no content about the post.
+
+### Not found
+
+No resource exists to find. I did not search, and I did not check whether the openers work.

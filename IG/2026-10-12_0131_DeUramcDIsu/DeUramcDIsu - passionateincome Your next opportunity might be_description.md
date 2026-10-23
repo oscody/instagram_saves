@@ -43,3 +43,23 @@ Save this post and try these prompts today.
 Follow @passionateincome for more insights on AI, personal growth, and career opportunities.
 
 #ArtificialIntelligence #CareerGrowth #ChatGPT
+
+## Research
+
+* Verdict: Partly valid. The post is a set of generic ChatGPT prompts. They work as a starting point, but ChatGPT can invent scholarships, deadlines and links, so the post's own caveat to verify on official sources matters. There is no separate resource to open.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Upload your CV to ChatGPT.
+2. Jobs: ask for 15 roles you qualify for, with required skills, your matching strengths and the gaps to fix.
+3. Scholarships: based on your CV, education, location, field and achievements, ask for ones you may qualify for, prioritizing no application fee, and ask it to explain the eligibility criteria.
+4. Grants: ask for grants, fellowships or funding programs that fit your background, with eligibility, deadlines, amount and the official source.
+5. Hidden opportunities: ask for job boards, scholarship databases, grant directories and organizations that list less-advertised opportunities.
+6. ATS match: paste a job description, ask it to act as an ATS recruiter, list missing keywords and skills, and improve your CV without adding anything untrue.
+7. Plan: ask for a 30-day strategy covering what to target each week and how many applications to send.
+8. Scout: ask it to search the web for currently open opportunities with deadlines not yet passed, each with the official link. Check every link and deadline yourself.
+
+### Not found
+
+No separate resource exists. I did not search because the post is generic prompt advice, and the vault had no matching notes.

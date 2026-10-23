@@ -32,3 +32,17 @@ WHEELS & WAISTLINES ✨
 pix:
 
 📸 @davefotogram + @kennyrodz
+
+## Research
+
+* Verdict: Valid. The post is an event flyer for a real recurring Xanadu Caribbean Skate Night series. The Aug 29, 2025 date is now past, and I didn't open the listings.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Caribbean Skate Night presents (Discotech listing) (app.discotech.me)](https://app.discotech.me/events/38259201-caribbean-skate-night-presents-skate-dance-party-at-xanadu): page, found by search, not opened, medium confidence. Search result lists a Caribbean Skate Night presents skate and dance party at Xanadu. Search summary says the Labor Day weekend Wheels & Waistlines night is in 2026, not this post's 2025 date.
+* [Xanadu Roller Arts on Dice (dice.fm)](https://dice.fm/venue/xanadu-5knl): page, found by search, not opened, low confidence. Xanadu's venue ticketing page, where its events are listed. I didn't open it.
+
+### Not found
+
+I found no listing for the exact Aug 29, 2025 event. I opened none of the pages. The search summary only showed the 2026 editions, including Wheels & Waistlines on Fri Sept 4, 2026.

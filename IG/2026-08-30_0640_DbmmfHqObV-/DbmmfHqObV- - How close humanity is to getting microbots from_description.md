@@ -28,3 +28,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 How close humanity is to getting microbots from Big Hero 6
+
+## Research
+
+* Verdict: Partly valid. The post is an explainer with no single resource. Its main claim holds: antennas limit tiny robots, and infrared optical links are a researched alternative. The specific "time-of-flight" communication idea isn't confirmed, and ToF sensors normally measure distance rather than carry data.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [IR-based Communication and Perception in Microrobotic Swarms (arxiv.org)](https://arxiv.org/pdf/1109.3617): paper, found by search, not opened, medium confidence. Search result describing IR light as the communication and perception link for millimetre-scale swarm robots, which matches the post's general idea. I didn't open it.
+* [Free-Space Optical Communication in a Swarm of Microrobots (vde-verlag.de)](https://www.vde-verlag.de/proceedings-en/563042108.html): paper, found by search, not opened, low confidence. Search result on optical communication between swarming microrobots. I didn't open it.
+
+### Not found
+
+The creator's source and the promised simulation video were not found. I didn't check the vault beyond the listed search, which found no notes. I found no source for the time-of-flight and backscatter claims specifically.

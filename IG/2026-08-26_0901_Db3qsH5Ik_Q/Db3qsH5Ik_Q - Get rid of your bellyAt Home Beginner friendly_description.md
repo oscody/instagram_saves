@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 Get rid of your belly.(At Home) Beginner friendly 
 
 #Abs #core #workouts #shred #explorepage
+
+## Research
+
+* Verdict: Partly valid. The reel is a plain exercise demo with no linked resource. Its claim that each move removes a specific kind of belly fat is not supported, because exercise cannot target fat loss in one area. The moves are still ordinary core exercises.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No external resource exists. The vault had no notes on this post or creator. I did not search the web, because the post is a short exercise demo.

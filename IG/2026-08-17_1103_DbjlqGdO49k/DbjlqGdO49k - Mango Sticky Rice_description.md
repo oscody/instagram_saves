@@ -22,3 +22,7 @@ Mango Sticky Rice 🥭🍚
 75 9th Ave New York, NY 10011
 #mango #mangostickyrice
 
+## Research
+
+* Verdict: Nothing to find. Food reel about a mango sticky rice stall. The caption gives the vendor and address (Ayada, 75 9th Ave, New York, NY 10011), and there is no resource or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

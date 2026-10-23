@@ -38,3 +38,16 @@ Everything depends on the trials which the crown Royals of Itakaa must participa
 The Oracle Asylum is Open.
 
 #bookcommunity #bookish
+
+## Research
+
+* Verdict: Nothing to find. This is a book promo reel for a real novel, The Oracle Asylum by Sonia Nkera. It makes no claim to check and has no steps. The retailer listing matches the caption's blurb.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The Oracle Asylum by Sonia Nkera (preigu.de listing) (preigu.de)](https://preigu.de/buecher/the-oracle-asylum/132796171): product, found by search, verified, high confidence. The blurb matches the caption (Ekara Amaare, Kazani as 19th Oracle, Itakaa trials). It lists a paperback, ISBN 9798231689309, published May 2025, currently unavailable at that shop.
+
+### Not found
+
+I found no publisher page or major retailer listing. The only listing I opened was a single German shop that shows the book as unavailable. Searching the ISBN on other retailers may turn up a copy.

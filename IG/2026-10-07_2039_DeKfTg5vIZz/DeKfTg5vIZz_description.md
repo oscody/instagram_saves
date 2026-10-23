@@ -28,3 +28,19 @@ Written by claude-haiku-5-5.
 ## Source
 
 * How to get it: Comment "CLONE" below the post; the creator says they will send the files, folders, prompts and slash commands.
+
+## Research
+
+* Verdict: Partly valid. The idea (plain text context files plus a CLAUDE.md router) is sound and common. The creator's actual "CLONE" files are only sent after a comment, and I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Make an ai-brain folder with My-Voice.md, My-Audience.md and My-Business.md.
+2. Add a CLAUDE.md that tells the agent which file to read for which task.
+3. Make subfolders (AI-Chats, Emails, Inspiration, Other, Transcripts, Voice-Recordings) and drop new material in them.
+4. Point any AI tool at the folder. To switch tools, move the same folder.
+
+### Not found
+
+The creator's CLONE package (files, prompts, slash commands) has no public copy. It is sent only after commenting "CLONE". The vault had no related note, and a web search found nothing from justyn.ai.

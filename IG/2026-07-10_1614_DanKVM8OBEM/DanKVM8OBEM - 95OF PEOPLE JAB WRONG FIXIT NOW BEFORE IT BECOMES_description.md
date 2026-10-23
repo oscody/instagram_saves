@@ -28,3 +28,12 @@ Written by claude-haiku-5-5.
 
 95%OF PEOPLE JAB WRONG FIXIT NOW BEFORE IT BECOMES A HABIT!!
 #boxinglife #foryoupage #boxingtraining #boxingdrills #explorepage✨
+
+## Research
+
+* Verdict: Valid. This is a short boxing technique tip with no linked resource. The advice is standard jab form: keep the elbow in, punch straight, and return the hand to your face. The "95% of people" figure is an unsupported hook.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists. I did not search the web or open the reel. The vault listing found no notes for this post.

@@ -51,3 +51,23 @@ askhunch @resume.io
 This is the difference between applying endlessly and having a system that works
 
 Comment ROADMAP and i'll share the full Job Search System straight to your DMs
+
+## Research
+
+* Verdict: Partly valid. The tips are generic but reasonable advice. The "Job Search System" is only sent by DM after commenting ROADMAP, and I found no public copy. The tools named in the caption are real services, but I didn't open them.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Resume.io (resume.io)](https://resume.io/): tool, in the vault, not opened, medium confidence. The caption tags @resume.io for fixing the resume, and the vault note links this site.
+* [Hunch (askhunch) (hello.askhunch.com)](https://hello.askhunch.com/): tool, in the vault, not opened, medium confidence. The caption mentions askhunch, and the vault note links this site.
+* [Blind (teamblind.com)](https://www.teamblind.com/): tool, in the vault, not opened, low confidence. The caption tags @blind.me. The vault note links teamblind.com, which may be a different product from the tagged account.
+* [byaditimishra Instagram profile (instagram.com)](https://www.instagram.com/byaditimishra/): page, in the vault, not opened, high confidence. This is the post author's profile, and the vault note links it.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/job insta - byaditimishra.md`: Links only: resume.io, the creator's profile, askhunch, teamblind and a refer.me settings page. It has no steps and no roadmap content.
+
+### Not found
+
+The ROADMAP "Job Search System" is sent only by DM after commenting, and I found no public copy. I didn't open any of the tool sites to check them. I also didn't check which Blind or Referme product the tagged accounts point to.

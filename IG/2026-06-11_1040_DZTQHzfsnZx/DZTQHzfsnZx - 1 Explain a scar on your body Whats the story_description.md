@@ -60,3 +60,16 @@ Written by claude-haiku-5-5.
 17. Five years from now, what would make you feel like your life turned out exactly the way you hoped?
 
 Comment “Wolf” for free boys 2 men guide 🐺📚
+
+## Research
+
+* Verdict: Partly valid. The 17 questions are fully in the caption and are ordinary deep-conversation prompts. The "never forget you" claim is hype. The "Boys 2 Men guide" is a comment-for-DM lead magnet that I didn't look for or check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this reel under 'Deep, better in person than over text', next to similar question reels from other creators.
+
+### Not found
+
+The "Boys 2 Men" guide is sent only after commenting "WOLF". I did not search for a public copy, so I can't say whether one exists.

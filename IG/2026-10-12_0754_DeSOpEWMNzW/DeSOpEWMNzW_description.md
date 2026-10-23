@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 From robe to meetings to dinner plans. The @fossil Everett 27mm is the kind of piece that makes everything feel more pulled together without trying too hard. 9–5, 5–9, and everything in between. #ad #FossilPartner
+
+## Research
+
+* Verdict: Promo. The reel is a sponsored ad (#ad, #FossilPartner) for the Fossil Everett 27mm watch. It makes no checkable claim and has no how-to content.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not search. The post is a paid ad with no resource to find, and the vault listing showed no notes on it.

@@ -33,3 +33,12 @@ follow for more hygiene tips!
 •
 •
 #reels #explorepage #explore #hygiene #skincare
+
+## Research
+
+* Verdict: Partly valid. This is a general skincare routine with no single downloadable resource. The four-step routine is standard advice. I didn't search the web, so I didn't check the glycolic acid claims, including the underarm and odor one.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I didn't search the web or open the reel. The moisturizer isn't named in the post. The cleanser and SPF picks aren't confirmed beyond a CeraVe cleanser and The Ordinary glycolic toner, which come from the post's description and transcript. The vault has no notes on this creator or topic.

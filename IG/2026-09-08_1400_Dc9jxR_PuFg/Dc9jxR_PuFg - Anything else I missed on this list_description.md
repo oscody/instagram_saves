@@ -43,3 +43,16 @@ Written by claude-haiku-5-5.
 Anything else I missed on this list?
 
 #buildinpublic #ai #claude #websiteoptimization #applaunch
+
+## Research
+
+* Verdict: Partly valid. The post is a generic pre-launch checklist with no downloadable resource. Most items are standard good practice. A few are vague or missing (item 20 "one clear color action" means a single clear call-to-action; security basics like server-side auth checks are absent).
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Links to this post and creator @millee.md alongside related pre-launch and AI safety posts, e.g. 7 prelaunch checks (search code for sk-/secret/password, server-side permission checks, two-account data isolation test).
+
+### Not found
+
+No separate public resource (prompt pack, repo or guide) exists for this list. It lives only in the reel, so I did not search the web.

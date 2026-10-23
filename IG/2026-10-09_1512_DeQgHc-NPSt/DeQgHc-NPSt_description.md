@@ -27,3 +27,8 @@ This was a little scary to make, but I wanted to share my journey quitting weed.
 •
 •
 #quittinggardening #quittingsmoking #newbeginnings #relatable #explore
+
+## Research
+
+* Verdict: Nothing to find. Personal story about the creator's first week quitting weed. It has no resource, tool or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

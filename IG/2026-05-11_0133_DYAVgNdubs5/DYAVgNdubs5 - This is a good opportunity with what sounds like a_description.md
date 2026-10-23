@@ -34,3 +34,25 @@ This is a good opportunity with what sounds like a gauranteed job!
 .
 .
 #fyp #job #apprenticeship #government #southcarolina
+
+## Research
+
+* Verdict: Partly valid. The program is real and the positions match the official page in search results. The window has closed: applications opened July 6, 2026 and closed in mid-July. The caption's "guaranteed job" claim is not confirmed by anything I found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [DoW Cyber Apprenticeship Program (official page) (dowcio.war.gov)](https://dowcio.war.gov/Cyber-Workforce/Cyber-Workforce-Development/Cyber-Apprenticeship-Program/): page, found by search, not opened, high confidence. The domain matches the post's dowcio.war.gov. Direct fetch returned 403, so I only saw the search listing.
+* [USAJOBS posting 875318000 (usajobs.gov)](https://usajobs.gov/job/875318000): page, found by search, not opened, medium confidence. Search summary describes it as the official posting, closing 07/13/2026, GG-7 to GG-9. I did not open it.
+* [DoW Cyber Apprenticeship applications now live (dodcio.defense.gov)](https://dodcio.defense.gov/In-the-News/Article/4535198/dow-cyber-apprenticeship-applications-now-live/): page, found by search, not opened, medium confidence. The DoW CIO announcement that applications opened.
+
+### Key steps
+
+1. The July 2026 window is closed, so watch the DoW CIO Cyber Apprenticeship page and USAJOBS for the next cohort.
+2. Requirements reported in search results: US citizen, 18 or older, able to obtain a Secret clearance, no prior experience needed.
+3. There are two pathways. The Technical Specialist pathway needs no degree. The Defense Manpower Data Center pathway needs an accredited degree.
+4. Graduates can move into entry-level roles: Cyber Defense Analyst (511), Infrastructure Support Specialist (521) and Incident Responder (531).
+
+### Not found
+
+I could not open the official page, since it returned 403 to direct fetch. I could not confirm a guaranteed job after the program. I could not resolve the discrepancy between the USAJOBS closing date (July 13) and the press reports (July 17).

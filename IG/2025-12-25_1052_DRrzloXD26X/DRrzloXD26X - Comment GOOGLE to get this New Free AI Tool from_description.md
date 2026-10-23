@@ -56,3 +56,30 @@ Here's what you get:
 Limited to open-source now. But it's free. Public preview rocks. Try a repo like TensorFlow. See the magic yourself.
 
 #codewiki #Googleai #githubrepo
+
+## Research
+
+* Verdict: Partly valid. Google Code Wiki is real, free in public preview, and works on public repos with diagrams and Gemini chat. The "1.4 million lines" figure and the videos aren't confirmed by Google's launch post, and the tool is on the web, not a download. The link is public, so no DM is needed.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Code Wiki (codewiki.google)](https://codewiki.google/): product, in the vault, not opened, high confidence. The vault note lists this URL, and the Google developers blog and search results confirm it is the Code Wiki site; the page itself returned only its title when fetched.
+* [Introducing Code Wiki: Accelerating your code understanding (developers.googleblog.com)](https://developers.googleblog.com/introducing-code-wiki-accelerating-your-code-understanding/): page, found by search, verified, high confidence. Google's launch post confirms auto-updating wikis, Gemini chat, generated diagrams and public-repo-only preview.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/job - google ai tools.md`: Lists the codewiki.google link among Google AI tools.
+* Vault: `2. Areas/Botstack/Pi/pi todo/openclaw chat with stef resources.md`: Mentions codewiki (a passing reference).
+
+### Key steps
+
+1. Go to codewiki.google.
+2. Search for or paste a public GitHub repo (e.g. google-gemini/gemini-cli).
+3. Browse the generated wiki sections and the architecture, class and sequence diagrams.
+4. Use the Gemini chat to ask about specific code; answers link to the relevant files.
+5. For private repos, join the waitlist for the Gemini CLI extension (not released as of the latest reports).
+
+### Not found
+
+I couldn't confirm the "1.4 million lines" limit or the explanation videos. Google's post doesn't mention either. The Code Wiki page itself didn't load its content, so it isn't marked verified.

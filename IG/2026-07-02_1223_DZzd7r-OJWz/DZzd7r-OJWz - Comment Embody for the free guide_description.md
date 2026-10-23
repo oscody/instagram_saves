@@ -30,3 +30,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “Embody” for the free guide.
+
+## Research
+
+* Verdict: Unresolved. The guide is only sent to people who comment "Embody", and I found no public copy. The five steps are generic self-improvement advice with no evidence behind them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "Embody" guide from rewirewithjake. It is delivered only after commenting on the reel. The vault has no note on it, and a web search turned up only unrelated products named Embody.

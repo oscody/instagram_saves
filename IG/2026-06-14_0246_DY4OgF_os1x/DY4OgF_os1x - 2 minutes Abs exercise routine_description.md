@@ -27,3 +27,15 @@ Written by claude-haiku-5-5.
 
 2 minutes Abs exercise routine #fyp #viral #trending #reels
 
+## Research
+
+* Verdict: Nothing to find. This is a short abs workout reel with a hashtag-only caption. It has no link, offer or separate resource, so I didn't search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Ab works outs.md`: Only holds the links to this reel and another ab reel (DZN8m84hGts). It has no steps or other content.
+
+### Not found
+
+No external resource exists. The post's own description of the exercise is all there is.

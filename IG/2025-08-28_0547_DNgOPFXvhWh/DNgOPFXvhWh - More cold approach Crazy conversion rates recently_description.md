@@ -28,3 +28,12 @@ Written by claude-haiku-5-5.
 More cold approach. Crazy conversion rates recently with this method.
 
 #salesstrategy #doortodoor #ai #entrepreneur #doortodoorsales
+
+## Research
+
+* Verdict: Nothing to find. This is a sales-tactic demo with no named tool, repo or product. The post's own steps are the whole method, and the conversion-rate claim is the creator's own and can't be checked.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The post doesn't name the AI receptionist product, so I found no public resource. I searched the vault for the creator and "AI receptionist" and found nothing. I didn't search the web.

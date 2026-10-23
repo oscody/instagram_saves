@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 Lil Baby really back on top of the charts🥹balance has been restored
 
 Which song are you adding first ?
+
+## Research
+
+* Verdict: Nothing to find. This is a music-recommendation reel. It shows on-screen song lists by rap subgenre and has no tool, guide or other resource to verify.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The song titles on screen are not in the transcript or description. I did not search, and I did not check the Lil Baby chart claim.

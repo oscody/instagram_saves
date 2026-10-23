@@ -33,3 +33,25 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “agent” for my Claude code guides
+
+## Research
+
+* Verdict: Valid. The repo exists, is MIT-licensed, and matches the post: a Claude Code job-search tool with /career-ops commands and the "don't apply below 4.0" rule. Setup has changed slightly since the reel.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [santifer/career-ops (github.com)](https://github.com/santifer/career-ops): repo, in the post, verified, high confidence. Opened the repo. It describes a local AI-CLI job search tool with /career-ops commands, PDF generation, a tracker, and the 4.0/5 guidance.
+
+### Key steps
+
+1. Quick setup: run `npx @santifer/career-ops init`. Or clone the repo, run `npm install`, then `npx playwright install chromium` (needed for PDF generation).
+2. Open Claude Code (or another supported AI CLI) in the project folder. The first run walks you through setup by chat.
+3. Add your CV (cv.md) and profile. Per the reel, copy config/profile.example.yml to config/profile.yml and templates/portals.example.yml to portals.yml, then edit them. The current README may have changed this flow.
+4. Paste a job URL or description with `/career-ops {JD}`. It evaluates the job and produces a report, a PDF and a tracker entry.
+5. Other commands: `/career-ops scan` (find new offers), `pipeline`, `pdf`, `tracker` and `batch`.
+6. Review every output yourself. It never submits for you, and it advises against applying to roles scored below 4.0/5.
+
+### Not found
+
+The reel itself wasn't checked. The "agent" comment guides are a lead-gen offer and weren't needed.

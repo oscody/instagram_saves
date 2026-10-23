@@ -58,3 +58,24 @@ You pick the one you like, hit generate, and it turns that storyboard into one c
 Going from one idea to a finished cinematic sequence this fast is exactly what saves me hours when I’m making ads or short films at scale.
 
 If you want all three workflows, comment Morphic and I’ll send them over so you can run them right now.
+
+## Research
+
+* Verdict: Partly valid. A public Morphic "Seedance 2.0 director" workflow exists, but its page describes bilingual prompts and a camera timeline, not four 3x3 storyboard options. The character generator and character-sheet workflows weren't found, and the creator's bundle is only sent after a comment.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Seedance 2.0 director (Morphic workflow) (morphic.com)](https://morphic.com/workflows/019e46be-075a-76fb-892c-1fdf8972b378/seedance-20-director): tool, found by search, verified, medium confidence. Opened it: a Morphic workflow with the same name that turns a scene idea into Seedance prompts, a camera timeline and model settings. It is not confirmed to be the creator's version, and the page doesn't mention four 3x3 storyboard options.
+* [3x3 storyboard (Morphic workflow) (morphic.com)](https://morphic.com/es/workflows/019d2ba3-7972-7132-b8c5-ead6aff303a4/3x3-storyboard): tool, found by search, not opened, low confidence. This search result is a public Morphic workflow that lays out a 3x3 storyboard grid, which resembles the grid in the post. I didn't open it.
+
+### Key steps
+
+1. Open the Morphic Seedance 2.0 director workflow and click Run workflow.
+2. Enter a scene idea (the creator also drops in a character sheet).
+3. Take the output (prompts, camera timeline, settings) into Seedance 2.0 to generate the video.
+4. For the storyboard step, try Morphic's public 3x3 storyboard workflow.
+
+### Not found
+
+I found no public Morphic character generator or character-sheet workflow. The creator's exact three-workflow bundle is sent only after commenting "Morphic" on the post. I didn't check whether the video output works as claimed.

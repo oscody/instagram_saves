@@ -41,3 +41,16 @@ Build these and AI goes from a second job, to digital employees that work for yo
 And I’ll be responding to every DM!
 
 #chatgpt #claude #productivity #work #automation
+
+## Research
+
+* Verdict: Promo. The reel gives general advice (folders, a short memory.md, documented automations, scheduled workflows) and funnels viewers to a "comment ACTION" DM offer to work with the creator. No public repo, guide or template is named.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - claudex-loop - similar ai agent workflows.md`: Mentions the same creator (cooper.simson) via a different reel, a /route Claude Code plus Codex workflow; also gated behind a comment, with no source repo. It does not cover this post.
+
+### Not found
+
+The "details" offered after commenting "ACTION" are only sent by DM and have no public copy that I found. I did not search the web, because the post is a promo.

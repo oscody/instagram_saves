@@ -46,3 +46,30 @@ Credits:
 ⚽ Repotted
 
 #developer #webdevelopment #threejs #opensource #ai
+
+## Research
+
+* Verdict: Valid. The ThreeUI repo by Meng To exists and matches the post's claim of a free Three.js component library (about 160 free browse results). The other five projects are only credited in the post, and I did not check them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [ThreeUI Community (MengTo/threeui) (github.com)](https://github.com/MengTo/threeui): repo, found by search, verified, high confidence. The repo opened. It is an MIT-licensed open-source Three.js component catalog by Meng To, with 164 free browse results, which fits the post's "160+".
+* [ThreeUI on 21st.dev (21st.dev)](https://21st.dev/@mengto/library/threeui): page, found by search, not opened, medium confidence. It appeared in search results as a listing of the ThreeUI library. I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Mentions other activeprogrammer posts (Elemental VFX playground in Three.js). It does not cover this post or ThreeUI.
+
+### Key steps
+
+1. Run `npm install @designcodeio/threeui`.
+2. Import a component and the stylesheet: `import { AtTheHorizon } from "@designcodeio/threeui"; import "@designcodeio/threeui/style.css";`.
+3. For a smaller bundle, import from a subpath such as `@designcodeio/threeui/components/AtTheHorizon`.
+4. Some components render full HTML documents. Copy the files from `node_modules/@designcodeio/threeui/lib-dist/assets/` into your public folder, or override the `sourceUrl` or `assetBaseUrl` props.
+5. To browse locally, clone the repo and run `npm install` and then `npm run dev`.
+6. Alternatively, copy a component's prompt or source from threeui.com and give it to your AI coding agent.
+
+### Not found
+
+I did not check the other five projects: Mikey Barton's airplane-window portfolio, Ann Nguyen's QR bouquet, Kevin Ngo's Claude-designed site, yyyole's iPhone 3D sync, and Repotted's soccer game. The post marks the yyyole attribution as unclear. I did not check the Pro-tier claims (MCP and skills).

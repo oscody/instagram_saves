@@ -32,3 +32,19 @@ Want to learn how to turn Claude into your personal Career Architect and escape 
 Swipe through to steal my exact frameworks, then comment "Freedom" below to unlock access to my FREE masterclass on AI in business and productivity! 🚀
 
 #AI #CareerDesign #ClaudeAI #LifestyleEngineering #WealthStrategy ProductivityHacks FinancialFreedom
+
+## Research
+
+* Verdict: Promo. The prompts are shown in full in the post's slides, but the post exists to funnel people into a paid or lead-gen AI masterclass through a "Freedom" comment. The frameworks (DEAL, fear-setting, muse business) are borrowed from Tim Ferriss, and the income claims aren't backed by anything. I did not search the web or the vault.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Prompt 1 (unfair advantage): give Claude your skills, interests, experience and personality. Ask it to find the 20% of skills producing 80% of your results and the rare skill intersections. Have it explain the market premium each could command and rank them by income and lifestyle fit.
+2. Prompt 2 (leverage gaps): give Claude what you do and how you earn. Apply DEAL (Define, Eliminate, Automate, Liberate). Separate tasks only you can do from tasks that can be delegated or automated. Build a plan that frees at least 10 hours a week.
+3. Prompt 3 (career path): give Claude your role, income structure and weekly hours. Classify each activity as freedom-building, skill-building or a time-for-money trap. Calculate your freedom ratio. Run fear-setting (worst case of changing vs. worst case of staying). Compare 5 years on your current path with 5 years on a redesigned one.
+4. Prompt 4 (wealth strategy): give Claude your background, skills and ideal lifestyle. Have it map scalable income streams (productized services, digital products, licensing, equity). Build a roadmap: years 1-2 launch a muse business, years 3-5 automate, years 6-10 own. Ask for the single most important 90-day move.
+
+### Not found
+
+The masterclass link is only sent after commenting "Freedom". I did not look for a public copy. Each slide's full #ROLE/#RULES/#OUTPUT text exists only in the images, so I didn't check it.

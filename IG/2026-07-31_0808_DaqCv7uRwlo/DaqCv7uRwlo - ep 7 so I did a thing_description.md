@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 ep. 7 | so I did a thing…💇🏽‍♀️✨
+
+## Research
+
+* Verdict: Nothing to find. Personal vlog-style reel (episode 7) about cutting hair and changing identity. It has no tool, guide or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

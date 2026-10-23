@@ -28,3 +28,11 @@ If You do these at home everyday..
 
 #exercise #workout #explore #explorepage
 
+## Research
+
+* Verdict: Partly valid. The post is a simple how-to with no linked resource. The exercises are real, but the claims of a flat belly, round glutes and a slim waist from these daily amounts are overstated. Exercise can't target fat loss or body shape in specific areas, and no source backs the numbers.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No external resource exists. The post has no link, program or source. I didn't search, and the vault had no matching notes.

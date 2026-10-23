@@ -34,3 +34,16 @@ Link in Bio🔗
 -
 -
 #parijan #outfit #oldmoney #oldmoneymen #fashionmen
+
+## Research
+
+* Verdict: Promo. The reel is brand advertising for Parijan, an online "old money" menswear store. The "fit matters" advice is generic and the post gives no guide.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [PARIJAN (men's old-money clothing store) (parijanofficial.com)](https://www.parijanofficial.com): product, in the post, verified, high confidence. The site is the link in the post's bio. It sells knitwear, polos, linen, trousers, loafers and watches in the style the reel shows.
+
+### Not found
+
+The "how to dress for female attention" claim has no source or evidence. The reel is styling opinion, not a tested guide.

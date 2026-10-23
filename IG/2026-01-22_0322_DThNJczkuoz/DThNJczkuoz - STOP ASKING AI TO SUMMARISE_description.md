@@ -35,3 +35,16 @@ Summaries reduce information. Strategic prompts improve judgement & decisions
 Ask for insights, surface assumptions, compare perspectives & turn information into action
 
 Great visuals by Charlie Hills
+
+## Research
+
+* Verdict: Partly valid. The post is a self-contained set of eight prompt patterns, and the idea behind it is sound: prompts asking for insights and decisions usually beat a plain "summarise". The "summaries reduce information, strategic prompts improve judgement" line is a general opinion, not something tested. I couldn't find a separate public copy from Charlie Hills.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/_pi todo query.md`: Only a to-do entry about retrying the failed download of this post. It has no content on the prompts.
+
+### Not found
+
+The one web search I ran failed with an error and I didn't retry it. So I did not look for a public version of Charlie Hills' original visual. The vault notes hold no copy of the prompts.

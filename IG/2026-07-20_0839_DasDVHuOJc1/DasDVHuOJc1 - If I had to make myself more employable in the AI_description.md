@@ -64,3 +64,12 @@ Tools: Notion + ChatGPT Projects + Feedly AI + Make
 “Find examples from my career that prove I can do this role.” Instead of trying to remember stories under pressure, you already have your proof.
 
 Tools: Notion + Google Drive + ChatGPT Projects.
+
+## Research
+
+* Verdict: Partly valid. The post is a list of ideas with named tools, not a downloadable resource. The advice is reasonable, but the claim that these systems make you employable is untested. The tools named are real products.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No vault notes matched, and I did not search the web. The post gives no downloadable template, prompt pack or link. The five systems and their tools are fully listed in the caption.

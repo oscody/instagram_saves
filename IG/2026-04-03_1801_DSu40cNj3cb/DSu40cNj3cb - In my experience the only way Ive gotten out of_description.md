@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 In my experience, the only way I've gotten out of the friend zone is by leaving it. 
 
 thank you @mel_elise3 for acting!
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit about the friend zone. It has no tool, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

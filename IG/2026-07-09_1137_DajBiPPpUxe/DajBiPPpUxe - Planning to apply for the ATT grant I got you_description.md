@@ -56,3 +56,16 @@ Reworded lines, sharper framing, a tighter use-of-funds, etc. plus a video walkt
 You revise and submit with time to spare!
 
 📝Comment “AUDIT” and I’ll send you the details.
+
+## Research
+
+* Verdict: Partly valid. The AT&T She's Connected small business contest is real ($50K grand prize, July 31 deadline), but the 2026 window has closed. AT&T's page doesn't confirm the essay prompts or the creator's reading of "Connecting Changes Everything", and the audit is a paid offer.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [She's Connected by AT&T Small Business Contest (more.att.com)](https://more.att.com/shesconnected/): page, found by search, verified, high confidence. Page lists the $50K grant, four $5K runners-up and the July 31, 2026 deadline; it doesn't list essay prompts, and 'Connecting Changes Everything' appears only in a finalist quote.
+
+### Not found
+
+The official rules and exact essay prompts weren't on the page I opened. A third-party listing says two essays of up to 750 words each, which I couldn't confirm. The paid Application Audit is only sent after commenting "AUDIT", so there is no public copy. The contest is closed, and the next cycle is probably 2027.

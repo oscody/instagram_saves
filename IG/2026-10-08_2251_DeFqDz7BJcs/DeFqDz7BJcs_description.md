@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 BOUYON to the world!! What’s your favourite song 👇👇
 
 #bouyon #bouyonmusic #bouyontotheworld🇩🇲 #djmixes
+
+## Research
+
+* Verdict: Nothing to find. This is a music/entertainment reel about Dominican bouyon songs. It is a fan quiz with no tool, guide or other resource to find.
+* Checked: 2026-10-22 by claude-sonnet-5-5

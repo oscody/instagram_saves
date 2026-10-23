@@ -45,3 +45,29 @@ what impressed me:
 > worked around Blender API errors on its own
 
 the whole thing runs from one html file and a 2.3 MB model.
+
+## Research
+
+* Verdict: Partly valid. The MCP for Blender repo is real and the setup works as the post describes. The "271-part robot built by Opus 5.5" is the creator's own demo, and I couldn't check it. The link is only sent by DM, but the repo is public.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [MCP for Blender (ahujasid/blender-mcp) (github.com)](https://github.com/ahujasid/blender-mcp): repo, found by search, verified, medium confidence. The README describes a Blender addon plus an MCP server that lets Claude control Blender, with uv and Claude Code setup matching the post. I guessed the URL, and it opened as the Blender MCP project. I did not confirm it is the exact one the post links.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: mentions creator simplifyinai; not checked for this resource
+* Vault: `ZAIHub/search - competition ideas by claude.md`: mentions simplifyinai (OneCanvas); unrelated to this post
+
+### Key steps
+
+1. Install uv (macOS: brew install uv).
+2. Add the server to Claude Code: claude mcp add blender uvx mcp-for-blender
+3. Install the Blender add-on: uvx mcp-for-blender install-addon, then enable 'Interface: MCP for Blender' in Edit → Preferences → Add-ons.
+4. In Blender, press N in the 3D viewport, open the MCP for Blender tab and click Start MCP Server.
+5. Restart Claude, attach your reference drawing, and paste the post's prompt: clear the scene, list parts and proportions, build in Python with bevels and named collections, render, compare, fix the two biggest differences, then add detail.
+
+### Not found
+
+The creator's exact prompt text and the interactive teardown site. I didn't verify the Opus 5.5 result or the 271-part and 2.3 MB figures. I did not grep the vault beyond the listed notes.

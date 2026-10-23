@@ -30,3 +30,12 @@ I needed to quickly get the attention of 50 energetic tenor-bass singers…and h
 🎶 Try this with your singers this week and let me know how it works for you.
 
 Because…if you can’t beat ‘em, join ‘em! 😎
+
+## Research
+
+* Verdict: Nothing to find. This is a short choir-teaching clip that plays on the "6-7" meme. It has no linked resource, and the post's own steps are the whole technique. Nothing was searched.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+Nothing to look up. The claim that it works every time rests on one clip and was not checked.

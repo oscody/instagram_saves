@@ -28,3 +28,12 @@ Send this to your friend who should check out this site where people team up aro
 Comment ”startup” and we’ll send you the link!
 
 #startup #founder #startuplife #businessowner #startupideas
+
+## Research
+
+* Verdict: Unresolved. The reel promotes an unnamed cofounder-matching site and sends the link only after a "startup" comment. I found no public copy and no vault note covering it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The site's name and URL. The creator _solvearn did not name the site in the caption, and the link goes out only by comment or DM. A web search for the creator and the site returned nothing relevant. A Grep of the vault for the creator found nothing. Public cofounder-matching sites do exist (CoFounders Lab, coFoundrr, CoParty), but none of them is confirmed as the one in the reel.

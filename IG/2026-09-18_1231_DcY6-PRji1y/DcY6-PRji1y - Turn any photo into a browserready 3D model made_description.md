@@ -34,3 +34,31 @@ Written by claude-haiku-5-5.
 Turn any photo into a browser-ready 3D model made entirely from code. More like this → gittrend.io
 
 #opensource #3dmodeling #threejs #generative #aiagents #webgl #indiedev
+
+## Research
+
+* Verdict: Valid. The repo exists and matches the post: an agent skill that rebuilds an object from one image as code-only, animatable Three.js. Install is via npx, not a manual clone.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [hoainho/img2threejs (github.com)](https://github.com/hoainho/img2threejs): repo, in the post, verified, high confidence. README describes a single-image to procedural Three.js THREE.Group factory skill with a strict-quality spec gate and staged passes, for Claude Code, Codex and OpenCode.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Lists img2threejs with AnyCreature as AI tools for generating Three.js models, e.g. custom Ludi pieces or alien types. No install steps.
+
+### Key steps
+
+1. Check you have Node.js 18+, Git, Python 3.10+ and a supported agent (Claude Code, Codex, OpenCode or Hermes).
+2. Run: npx --yes img2threejs@latest install
+3. Run: npx --yes img2threejs@latest doctor to verify.
+4. Restart the agent.
+5. In Claude Code, attach the image and run /img2threejs with a description of the target model.
+6. The agent assesses the image, writes a spec, and passes it through the strict-quality gate.
+7. It then builds in passes (blockout, structural, form, material, surface, lighting, interaction, optimization), checking each against a render of the reference.
+8. For multi-session work, use forge/state.py init and forge/next.py --state to resume.
+
+### Not found
+
+I didn't check the quality of the output. The repo states that hidden sides are inferred from a single image.

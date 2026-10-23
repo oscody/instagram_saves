@@ -45,3 +45,32 @@ Never trust a repository's README without checking the open issue queue and the 
 Save this audit digest before you integrate a new crawler framework into your agent's infrastructure.
 
 👉 Follow @vyzual.ai for your daily signal on codebase audits, exploit architectures, agentic workflows, and developer intelligence.
+
+## Research
+
+* Verdict: Partly valid. The five repos are real and the advice to check issues and config files is sound. The per-repo audit claims (60-second timeout, Crawlee's global EventEmitter change, Playwright's regression-heavy queue) came from AI-generated text and I couldn't confirm them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Crawlee (apify/crawlee) (github.com)](https://github.com/apify/crawlee): repo, in the post, verified, high confidence. Opened it. It is a Node.js library with one interface for HTTP and headless browser crawling, and its README claims crawlers will fly under bot protections even with default settings, which matches the post's anti-bot over-promise point.
+* [Crawl4AI (github.com)](https://github.com/unclecode/crawl4ai): repo, in the post, not opened, high confidence. Repo link is listed in the post and is already in the user's vault. I did not open it to check the 60-second timeout or Docker claims.
+* [Firecrawl (github.com)](https://github.com/firecrawl/firecrawl): repo, in the post, not opened, high confidence. Link is listed in the post. I did not open it to check the self-hosting claims.
+* [Scrapy (github.com)](https://github.com/scrapy/scrapy): repo, in the post, not opened, high confidence. Link is listed in the post. I did not open it.
+* [Playwright (github.com)](https://github.com/microsoft/playwright): repo, in the post, not opened, high confidence. Link is listed in the post. I did not open it to check the issue-queue claim.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Learning - ai tools.md`: Has the crawl4ai GitHub link, saved next to SerpAPI and Tavily.
+* Vault: `ZAIHub/search - claudex-loop - similar ai agent workflows.md`: Mentions the creator vyzual.ai and their other saved posts, such as the local agent tools roundup. It doesn't cover this audit.
+
+### Key steps
+
+1. Open the repo's Issues tab and sort by most commented or newest. Look for recurring regressions and bugs that stay open.
+2. Read the deployment files: docker-compose.yml, .env.example and the config modules. Look for hardcoded timeouts, missing templates and services the self-host setup needs, such as Redis or Postgres.
+3. Search the source for global side effects, for example grep -r defaultMaxListeners in Crawlee.
+4. Compare the README's claims, such as one-command self-hosting or anti-bot ability, with what the config files actually do.
+
+### Not found
+
+I did not check the specific claims: Crawl4AI's hardcoded 60-second timeout, Firecrawl's self-hosting limits, Playwright's issue-queue health, or Crawlee setting EventEmitter.defaultMaxListeners. A web search turned up nothing about Crawlee changing that setting. No public copy of the carousel's audit text exists beyond the caption.

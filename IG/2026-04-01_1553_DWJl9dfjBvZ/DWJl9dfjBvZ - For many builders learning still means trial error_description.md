@@ -25,3 +25,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 For many builders, learning still means trial, error, and losing time solving the same problems the hard way. Tools like Claude are changing that by helping users get to clarity faster when the right prompts are used. These six prompts stand out for one reason: they can turn hours of confusion into practical understanding in minutes.
+
+## Research
+
+* Verdict: Nothing to find. The post is a carousel of generic Claude prompts. The prompts are written out in the post, and no external resource, link or gated material is involved. I didn't search.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The caption mentions six prompts, but the post description lists only five. I did not check the sixth. I did not search the vault or the web.

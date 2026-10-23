@@ -25,3 +25,12 @@ What if you could just sit back and read without holding anything?
 
 ✨📚 Project your book onto the wall, get comfortable, and enjoy every page on a much bigger screen. Read from your bed or couch while staying completely relaxed.
 It turns your favorite books into a cozy, immersive reading experience — perfect for those nights when you just can’t put the story down. 🤍
+
+## Research
+
+* Verdict: Unresolved. The reel promotes a projector for reading on a wall, apparently sold by storyverse.store, but I found no product page or model name. The site would not open and searches turned up nothing specific.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The storyverse.store product page and the projector's name, price and specs. The WebFetch of storyverse.store failed with an SSL handshake error. Searches returned only generic children's storybook projectors. It is also unclear how the projector gets a book's pages (an ebook or screen cast, or a camera on a physical book). The caption doesn't say. The Yule Ball illustration suggests an ebook or a screen cast. A search of the vault for the creator and product found nothing.

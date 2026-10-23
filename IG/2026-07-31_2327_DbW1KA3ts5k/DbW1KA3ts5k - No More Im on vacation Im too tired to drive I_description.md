@@ -35,3 +35,12 @@ Let’s dance together, wherever you are. ❤️
 👉 Registration is now open via afrodancenewyork@gmail.com
 
 #AfroDance #OnlineDanceClass #angelkaba #nyc
+
+## Research
+
+* Verdict: Promo. The post advertises paid live online Afro dance classes ($35 drop-in, $99 per month) from the creator. It has no separate resource to find. I did not search, and the vault matches are unrelated email-address hits.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Nothing searched. The post gives no public link, and registration is by email to afrodancenewyork@gmail.com. The start date (Aug 15) has already passed as of today (Oct 22, 2026), so the classes may have changed.

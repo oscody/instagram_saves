@@ -42,3 +42,16 @@ Hit the group chat, tell ya friends and lock in the plans cause Gyalifest is the
 Laslapweekend.com ⛓️‍💥 #Gyalifest #labordayweekend #Recess
 
 🎥 @s.anktioned @conscioussheesh @spongito
+
+## Research
+
+* Verdict: Partly valid. Real event promo; the official page confirms both events and dates. It lists the Labor Day Fete at Brooklyn Monarch, not 3 Dollar Bill as the caption says, and doesn't mention the BLESSED code. The events were Sept 6-7 and are now past.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Gyalifest Las Lap Weekend (gyalifest.com)](https://www.gyalifest.com/laslap): page, in the post, verified, high confidence. laslapweekend.com redirects here and lists Night Jam (Sept 6, Chocolate Factory, with Recess) and the 5th annual Labor Day Fete (Sept 7).
+
+### Not found
+
+The BLESSED promo code isn't on the page. I didn't open the Posh ticket links (posh.vip/f/cb5b3, posh.vip/f/d035a). The venue mismatch (Brooklyn Monarch on the site, 3 Dollar Bill in the caption) is unexplained.

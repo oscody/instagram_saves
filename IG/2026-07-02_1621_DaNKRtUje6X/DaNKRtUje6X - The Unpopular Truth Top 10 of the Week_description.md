@@ -48,3 +48,12 @@ Truth Score = exécution avant popularité.
 👉 Analyse complète sur Facebook — lien en bio
 
 #AnimeReview #AnimeRankings #AnimeCommunity #AnimeTop10 #OtakuWeek
+
+## Research
+
+* Verdict: Nothing to find. This is an anime episode ranking carousel (opinion content). The "Truth Score" is the creator's own rating, and the full breakdown is only on Facebook via the bio link.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Full breakdown is on the creator's Facebook page (link in bio). I did not search for it, and the vault has no matching notes.

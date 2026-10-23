@@ -42,3 +42,16 @@ Whether you’re looking for thrills, date ideas, family fun, or something total
 Follow @aiyanafig for more things to do, hidden gems, and must visit places! 🗺️✨
 
 #newjersey #nj #jersey #summer #musttry
+
+## Research
+
+* Verdict: Partly valid. The reel is a list of real NJ attractions with an influencer discount code (AIYANAF10) for two Fever-ticketed experiences. I couldn't check the code or the current prices.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Bubble Planet (Fever listing) (feverup.com)](https://feverup.com/m/176115/en): product, found by search, not opened, medium confidence. The Fever listing for Bubble Planet at American Dream matches the post's ticketed item. I only saw it in search results and did not open it.
+
+### Not found
+
+The Sculpture Without Sight ticket page and the AIYANAF10 code were not confirmed. Prices were not checked on live pages. The other venues were not looked up.

@@ -40,3 +40,8 @@ Original creator and audio by @christalynn.95 ✨
 .
 .
 #theblackmermaid
+
+## Research
+
+* Verdict: Nothing to find. This is a lifestyle reel (foraging, sea swim) with a generic mindset monologue. It links to no tool, guide or other resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5

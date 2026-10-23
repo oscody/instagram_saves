@@ -42,3 +42,12 @@ What I’ve done is put together a huge list of grants and a blueprint that will
 Let’s get you started! Comment the word: Grants
 
 #BusinessFunding #SmallBusinessTips #LLC #Grants #Grant BusinessGrants FundingOpportunity FundingOpportunities StartupFunding BusinessStartup GrantMoney FinancialSupport EntreprenuerFunding NonprofitGrants NonProfits NonProfit SmallBizSupport GrantOpportunity GrantOpportunities SmallBusinessFunding
+
+## Research
+
+* Verdict: Promo. The reel is a lead-generation pitch. The grant list and "blueprint" sit inside the creator's Skool community and are released only after you comment "Grants". The "100k+ in grants" and "apply monthly" claims are unsupported and not backed by any public list.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The grant list and blueprint are not public. The post says they are inside the creator's Skool community and sent after a comment. I did no web search. For real grants, check the official sources Grants.gov and SBA.gov, plus state and local programs. Treat any paid "grant list" with caution.

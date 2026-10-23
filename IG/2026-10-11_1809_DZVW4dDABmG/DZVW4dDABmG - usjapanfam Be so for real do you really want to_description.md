@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 usjapanfam Be so for real, do you really want to give another gift card at the next birthday, or do you want to be the coolest parent in the grade and gift them a @kiwico_inc crate!? I know you want to get some for your own kids, too - click the link in my bio to learn more and shop today!! #kiwicopartner #ad @kiwico_inc
+
+## Research
+
+* Verdict: Promo. Sponsored reel (#ad, #kiwicopartner) for KiwiCo crates, with no resource beyond the product itself. I did not search, per the entertainment/promo rule.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Nothing searched. The post is a paid ad, and the only link is in the creator's bio.

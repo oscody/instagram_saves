@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If You Could Only Keep 1 List, Who’s Are You Keeping? @sheeloveskp @cam.vibetherapy #drake
+
+## Research
+
+* Verdict: Nothing to find. Entertainment reel where three people pick Drake songs for a pregame. It has no resource, tool or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

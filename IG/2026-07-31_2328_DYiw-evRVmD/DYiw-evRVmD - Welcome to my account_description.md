@@ -26,3 +26,8 @@ Everything else comes with it!
 
 Welcome to my account🫶🏼
 Follow @suagherjacopo for the journey 🌎
+
+## Research
+
+* Verdict: Nothing to find. This is a personal motivational reel that promotes the creator's own account. It has no resource, tool or steps to find.
+* Checked: 2026-10-22 by claude-sonnet-5-5

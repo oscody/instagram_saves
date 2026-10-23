@@ -43,3 +43,24 @@ For anyone that is interested please read the caption or use the link on my bio 
 Anybody can join from anywhere and you can pay with any currency, if you’re interested comment the word “VIRTUAL”
 
 #Virtualassistant #Makemoney #Digitalmarketing #passiveincome #explore Remote
+
+## Research
+
+* Verdict: Partly valid. The advice to use specific prompts holds up, but the post is also a lead-in to a paid virtual assistant course (37500 naira or $50) with a comment-"VIRTUAL" call to action. The prompts are only on the slides, and no public copy of the full set exists. I did not search the web, since the post's summary already lists the prompt ideas.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/_pi todo query.md`: Only a download-retry to-do that lists this shortcode. It has nothing on the CV prompts.
+
+### Key steps
+
+1. Vague prompts like "rewrite my CV" give generic output. Name the task and the quality you want.
+2. Results bullets: "Rewrite my experience as bullet points showing results, impact and measurable outcomes. Use action verbs and keep it ATS-friendly."
+3. Job match: "Compare my CV with this job description and highlight the relevant skills and keywords recruiters search for."
+4. Weak bullets: "Rewrite these bullet points so they sound confident, clear and professional without exaggerating my experience."
+5. Summary: "Write a 3–4 line professional summary for a [role] with [X] years of experience, focused on value rather than personality traits."
+
+### Not found
+
+No public prompt set from the creator was found, because I did not search. The slides are the only source, and the course syllabus sits behind the creator's bio link.

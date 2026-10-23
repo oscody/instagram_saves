@@ -48,3 +48,19 @@ https://www.amazon.com/s?k=The+Great+Transformation+Karen+Armstrong
 🔎 References:
 https://iep.utm.edu/jaspers/
 https://en.wikipedia.org/wiki/Axial_Age
+
+## Research
+
+* Verdict: Partly valid. The Axial Age is a real concept coined by Karl Jaspers in 1949. The caption overstates it: the thinkers weren't all alive at the same time, "no contact" is assumed, and many scholars dispute a single trigger.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Axial Age – Wikipedia (en.wikipedia.org)](https://en.wikipedia.org/wiki/Axial_Age): page, in the post, verified, high confidence. Opened it. It confirms Jaspers' 1949 coinage, the 8th–3rd century BCE span, the named figures, and the criticisms.
+* [Karl Jaspers – Internet Encyclopedia of Philosophy (iep.utm.edu)](https://iep.utm.edu/jaspers/): page, in the post, not opened, medium confidence. This is the post's source link. WebFetch returned a 500 error, so I could not check it.
+* [The Origin and Goal of History (Karl Jaspers) (amazon.com)](https://www.amazon.com/s?k=The+Origin+and+Goal+of+History+Karl+Jaspers): other, in the post, not opened, medium confidence. Amazon search link from the caption. It points to Jaspers' original book, which is Vom Ursprung und Ziel der Geschichte.
+* [The Great Transformation (Karen Armstrong) (amazon.com)](https://www.amazon.com/s?k=The+Great+Transformation+Karen+Armstrong): other, in the post, not opened, medium confidence. Amazon search link from the caption, for the follow-up reading.
+
+### Not found
+
+The IEP page could not be opened (HTTP 500). The vault has no notes on this topic.

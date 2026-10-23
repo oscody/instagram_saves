@@ -37,3 +37,25 @@ Open source: nirholas/three.ws
 Follow for more open source project drops.
 
 #ThreeJS #AIAgents #3DArt #AIAvatar #CreativeCoding
+
+## Research
+
+* Verdict: Valid. The nirholas/three.ws repo exists and matches the post: open source, text-to-3D GLB avatars in the browser, with an LLM, memory and on-chain registration. The README gives no details on registration or the embed snippet.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [nirholas/three.ws (github.com)](https://github.com/nirholas/three.ws): repo, in the post, verified, high confidence. The repo is Apache-2.0, built on Three.js, and turns text or an image into a GLB avatar. It lists an LLM, memory and a wallet, and can be embedded as a web component.
+* [three.ws Forge (three.ws)](https://three.ws/forge): tool, found by search, not opened, medium confidence. The README names this as the place to type a prompt and download a GLB, with a free draft tier that needs no account. I did not open the page itself.
+
+### Key steps
+
+1. Open three.ws/forge (a free draft tier needs no account).
+2. Type a text prompt, e.g. "a brass steampunk owl, full body". Image and sketch inputs also work.
+3. Download the generated GLB file.
+4. Give the avatar an LLM brain with memory, then optionally register the agent on-chain. See three.ws/docs for the details.
+5. Embed the avatar on any site with the single web component.
+
+### Not found
+
+The README text I read gave no on-chain registration steps and no embed snippet. About 314k characters of the README were not read. I did not open three.ws/docs.

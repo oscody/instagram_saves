@@ -29,3 +29,20 @@ Written by claude-haiku-5-5.
 ## Caption
 
 how to develop an insane memory
+
+## Research
+
+* Verdict: Partly valid. The reel teaches the method of loci (memory palace), a well-known and evidence-backed technique. The "insane memory" framing and the hippocampus link are loose, and the promised material is only sent after a comment, with no public copy found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Reel: How to develop an insane memory (edwin.bigbrain) (instagram.com)](https://instagram.com/reel/DdsRIk4qMz5/): video, in the post, not opened, medium confidence. This is the post itself. I did not open it. The material it offers is sent only after commenting "memory".
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Lists this reel as a memory palace save, under a competition idea about placing items at a desk and reviewing them with spaced repetition. It has no steps or resource.
+
+### Not found
+
+The material sent after commenting "memory" has no public copy that I could find. I did not search, because the post's own steps already cover the technique.

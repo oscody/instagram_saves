@@ -54,3 +54,16 @@ It hits different when you realize the spoon isn’t the thing that needs to ben
 
 Reality is a reflection, not a requirement.  
 #Mindset #Motivation #Growth #SelfBelief #LifeLessons
+
+## Research
+
+* Verdict: Partly valid. The reel points to real sources, and James Allen's book is free to read. The "science" claims are overstated: the reel treats the RAS as a "gatekeeper" that makes you blind to solutions, and says thoughts "dictate" reality. The CBT thought-feeling-behavior loop is real. "The world responds to you" is a motivational claim, not a proven one.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [As a Man Thinketh by James Allen (Project Gutenberg #4507) (gutenberg.org)](https://www.gutenberg.org/ebooks/4507): page, found by search, not opened, high confidence. The caption names As a Man Thinketh as the source for the garden-of-the-mind idea. This is the public-domain edition listed in search results; I did not open the page.
+
+### Not found
+
+I did not find the reel's exact source clip. I did not check the Marcus Aurelius "Mirror" reference, and it may not be a named concept in Meditations. I did not open the Gutenberg page.

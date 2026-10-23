@@ -39,3 +39,25 @@ Google also provides privacy and removal tools for certain personal information 
 The key takeaway: AI can make the process much easier, but there’s no magic ChatGPT prompt that can guarantee it will find every photo of you online. 
 
 #ChatGPT #AI #Privacy #Cybersecurity #Technology
+
+## Research
+
+* Verdict: Partly valid. The workflow is a plausible how-to, and the caption says plainly that no prompt finds every photo. Agent mode is often blocked from reverse-image sites. Google's "Results about you" tool is real, but the tool only removes Search results and mostly covers personal contact details, not every photo.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Results about you (coverage) (techradar.com)](https://www.techradar.com/pro/security/google-updates-people-search-finder-tool-making-it-easier-to-remove-personal-information-on-search): tool, found by search, not opened, medium confidence. The article describes Google's 'Results about you' tool, which removes personal info from Search. I only saw it in search results and did not open it.
+
+### Key steps
+
+1. Upload a selfie to ChatGPT and ask it to list the features that make you recognisable.
+2. Turn on agent mode with the '+' next to the message box.
+3. Ask it to reverse-image search the selfie and give a link for each place you appear.
+4. If agent mode is blocked, upload the same selfie to PimEyes and Google Lens yourself.
+5. Paste the results into ChatGPT and ask for a removal request per site, citing that site's privacy or takedown policy.
+6. Search 'Google results about you', open the tool and submit any pages that show your image next to personal details.
+
+### Not found
+
+The vault had nothing on this post. I did not open Google's own help page, PimEyes or Google Lens, and I did not test ChatGPT agent mode.

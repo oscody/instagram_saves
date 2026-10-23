@@ -41,3 +41,30 @@ And I’m giving it away for free.
 Comment PROMPT to get the prompt 🔥
 
 #jobsearch #jobsearch #jobhunt #jobseeker #jobapplication
+
+## Research
+
+* Verdict: Partly valid. The approach is sound and the post's steps describe it well. The creator's exact prompt is only sent by comment, and I found no public copy. The "10+ hours" and "free" claims are marketing, since the creator sells coaching and membership.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [TechTalk UK Linktree (linktr.ee)](https://linktr.ee/techtalkuk): page, in the vault, verified, medium confidence. This is the creator's link hub, listed in the vault. It links to free resources and paid coaching, but none of the entries is this Claude prompt.
+* [TechTalk UK resource center (techtalkuk.co)](https://techtalkuk.co/pages/resource-center): page, found by search, not opened, low confidence. The Linktree links to it as free resources. The fetch returned a 429 error, so I couldn't check whether the prompt is there.
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/instagram job hunt people .md`: Lists techtalkuk and its Linktree. It has no prompt.
+
+### Key steps
+
+1. Open a new Claude chat and attach your CV.
+2. State your target field, whether you're switching careers or staying in your field, and your location or market (e.g. London, remote, UK-wide).
+3. Ask Claude to be honest about where you have realistic chances and where you're stretching.
+4. Ask for 4-6 transferable skills from your CV, and why each is valuable to employers in your target field.
+5. Ask for the company types (industry, size) where you have the best chance. For each, ask why you fit, which role to lead with, and which job titles to search.
+6. Turn the answer into a priority list of companies and roles instead of applying broadly.
+
+### Not found
+
+The creator's exact prompt. It is sent by comment ("PROMPT") and I found no public copy. The resource-center page returned a 429 error, so I couldn't check it.

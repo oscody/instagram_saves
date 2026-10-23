@@ -33,3 +33,16 @@ Written by claude-haiku-5-5.
 Most men wait too long to kiss her — and she loses interest before you ever make a move.
 
 #datingadvice #moderndating #datingtips #kissing #firstdate #attractiontips #masculinity #datingsmarter #relationshipcoach #mensdating #confidencetips #firstdateadvice
+
+## Research
+
+* Verdict: Partly valid. The post is a dating-advice list with no downloadable resource. The structure tips (timing, mini dates, conversation topics) are sensible. The claim that waiting costs you her interest is overstated, and some tips, like not telling her where you're going and telling her how to dress, can come across as controlling.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already lists this reel under Date plans and ideas: meet 7 to 9 pm, three mini dates with a location change every 45 minutes, talk travel, hobbies and music, take selfies. Notes touch and the kiss only if she is clearly into it.
+
+### Not found
+
+No external resource exists; the post is opinion advice only. I did no web search.

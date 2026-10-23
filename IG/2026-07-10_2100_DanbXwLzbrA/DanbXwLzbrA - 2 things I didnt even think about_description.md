@@ -28,3 +28,17 @@ Written by claude-haiku-5-5.
 2 things I didn’t even think about!!🤯👟
 
 #runningtips #husbandandwife #fitnessjourney
+
+## Research
+
+* Verdict: Valid. The heel lock (runner's loop) lacing is a well-documented technique that reduces heel slip. The post's steps match standard guides. I did not open the pages.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Heel Lock Lacing: Step-by-Step Instructions and What the Research Says (RunnersConnect) (runnersconnect.net)](https://runnersconnect.net/how-to-lace-your-running-shoes/): guide, found by search, not opened, medium confidence. Search result describes the same heel lock lacing, and cites a 2009 study showing lower heel pressure. I did not open the page.
+* [Heel-Lock Lacing: How To Tie A Runner's Knot (Coach) (coachweb.com)](https://www.coachweb.com/gear/running-gear/heel-lock-lacing-how-to-tie-a-runners-knot-to-stop-your-heel-from-slipping): guide, found by search, not opened, medium confidence. Search result describes the same loop-and-cross technique shown in the reel. I did not open the page.
+
+### Not found
+
+The vault had no notes on this post. I did not open any of the guide pages. The shorts tip is general advice with no specific product named.

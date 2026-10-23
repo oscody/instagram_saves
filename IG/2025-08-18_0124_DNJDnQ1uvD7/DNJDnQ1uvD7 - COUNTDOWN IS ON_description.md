@@ -30,3 +30,16 @@ This Tuesday it’s going down — Planted Culture Market is BACK from 4–9 PM 
 Let’s pack the park and show NYC what community looks like! 🙌💚
 
 #PlantedCultureMarket #NYCVegan #NYCFoodies #WashingtonSquarePark #VeganInNYC #VeganMarketNYC #NYCEvents #VeganFoodShare
+
+## Research
+
+* Verdict: Partly valid. The market is real, but the event was a one-off promo for a date in Aug 2025 that has passed. I did not find or open the Eventbrite page.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Planted Culture Market (Socrates Sculpture Park listing) (socratessculpturepark.org)](https://socratessculpturepark.org/zh/?p=7874): page, found by search, not opened, medium confidence. The search snippet says Erica Muñoz curates Planted Culture Market, a vegan food market. This is a different host and venue, and I did not open the page.
+
+### Not found
+
+The Eventbrite RSVP link was not in the post text and did not turn up in search. The Aug 2025 event has passed. I could not confirm whether there are any 2026 dates.

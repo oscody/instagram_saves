@@ -29,3 +29,27 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: s-macke/VoxelSpace
+
+## Research
+
+* Verdict: Valid. The s-macke/VoxelSpace repo exists, is MIT licensed, and matches the post's description of the Comanche terrain technique in under 20 lines. One caveat: the Comanche height and colour maps are excluded from the MIT licence.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [s-macke/VoxelSpace (github.com)](https://github.com/s-macke/VoxelSpace): repo, in the post, verified, high confidence. README describes terrain rendering from Comanche (1992) in under 20 lines, with height and colour maps, MIT licence, and vertical-line drawing.
+
+### Key steps
+
+1. Open the repo and try the web demo to see the terrain render.
+2. Keep two maps: a height map and a colour map with the shading already baked in (1024x1024, one byte each).
+3. Clear the screen, then go through the depth steps from back to front (painter's algorithm).
+4. At each depth, find the map line at that distance, allowing for field of view, and split it into one segment per screen column.
+5. For each segment, read the height and colour from the maps.
+6. Project the height to a screen y-position and draw a vertical line in that colour.
+7. To speed it up, draw front to back with a y-buffer so you only draw what rises above the previous line, and use coarser steps at distance.
+8. Check the licence: the code is MIT, but the Comanche maps are not covered by it, and the technique may be patented in some countries.
+
+### Not found
+
+The vault note that mentions this post only covers a caption-download fix, not the resource. The exact line count of the shipped code wasn't checked.

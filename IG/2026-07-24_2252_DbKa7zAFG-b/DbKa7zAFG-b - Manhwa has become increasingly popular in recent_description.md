@@ -39,3 +39,12 @@ Follow @sagetaoist for more
 
 Hashtags:
 #manhwa #manhwarecommendations #webtoon #manhua #manhwaedit
+
+## Research
+
+* Verdict: Nothing to find. This is a manhwa recommendation carousel with a short explainer. It has no single resource to look up. The definitions in it are correct: manhwa are Korean, manhua are Chinese, and manga are Japanese.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The titles in the cover-art grids are only in the images, so they weren't checked. I didn't search the vault or the web, since the post has no resource.

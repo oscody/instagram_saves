@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 How do you give and receive notes? Sounds like a simple question, but not in animations
 
 Comment “Editor”, if you wanna join my team
+
+## Research
+
+* Verdict: Nothing to find. The reel is a talking-head piece of general advice on giving and receiving animation notes. It names no tool, repo or document. The "Editor" comment call is a recruiting hook for the creator's team.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource exists to find. I didn't search the vault or the web. The vault list showed no matches for this post.

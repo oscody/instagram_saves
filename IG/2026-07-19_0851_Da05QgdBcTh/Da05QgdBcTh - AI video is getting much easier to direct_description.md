@@ -46,3 +46,25 @@ And I think this is a preview of where AI filmmaking is going.
 
 Not a world where you type a few words and let the AI make every creative decision for you.
 A world where filmmakers can direct AI with the same kind of intention they would bring to a real camera.
+
+## Research
+
+* Verdict: Valid. The repo maxprokopp/film-space is an iPhone ARKit app that matches the post's Edit/Camera modes, lens presets and recording. The "free, open-source" claim is only partly confirmed: the page shows no license, and it is built from source in Xcode, not installed from the App Store.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Film Space (maxprokopp/film-space) (github.com)](https://github.com/maxprokopp/film-space): repo, found by search, verified, high confidence. SwiftUI/ARKit iPhone app with Edit and Camera modes, lens presets and recording to the photo library, for use as an AI video camera reference.
+
+### Key steps
+
+1. Clone the repo and open the Xcode project; build and run it on a physical iPhone (ARKit needs a real device).
+2. Edit mode: orbit and zoom around the grid floor and place human stand-ins to block the scene.
+3. Pick a lens preset: 35, 50, 75 or 200mm.
+4. Switch to Camera mode and move the phone to move the virtual camera. Use the shoulder placement and lock/return viewpoint tools if needed.
+5. Press Record. The clip, with mic audio, saves to the photo library.
+6. Upload the clip to Seedance 2.0 or a similar tool as a motion and camera-path reference.
+
+### Not found
+
+No license found on the repo page. No App Store listing or install steps found. I didn't check the creator's profile for a link.

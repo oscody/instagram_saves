@@ -36,3 +36,17 @@ Here are 5 killer prompts that helped me and dozens of others switch jobs or lev
 - Optimize existing AI tools with a consistent prompt library
 
 Comment “PROMPT” to learn prompt engineering for free 🎁
+
+## Research
+
+* Verdict: Partly valid. The post contains the five prompts in the carousel, so no outside resource is needed. The claims ("R.I.P LinkedIn", "3–5x faster interviews", "dozens of others") are unsupported marketing, and the post is also a funnel to the creator's prompt-engineering giveaway.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/gmail labels.md`: Only lists a 'godofprompt' Gmail label; has none of these prompts.
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Mentions godofprompt for a different post (Codex Router); unrelated to job prompts.
+
+### Not found
+
+I did not search the web. The prompts are described in full in the post, and the free "PROMPT" material is only sent after a comment, with no public copy found. The 3–5x faster interview claim has no source.

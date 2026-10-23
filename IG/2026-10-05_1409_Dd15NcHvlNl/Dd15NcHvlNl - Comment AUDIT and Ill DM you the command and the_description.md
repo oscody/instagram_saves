@@ -45,3 +45,27 @@ Comment “AUDIT” and I’ll DM you the command and the guide: how to clean up
 5. It pays off. One developer found about 70 fixes across his skills, CLAUDE.md and AGENTS.md. When Anthropic tested it, costs dropped around 9% and accuracy went up about 2 points on the same model.
 
 Comment “AUDIT” and I’ll send you the exact command and the full guide. #claudeai #claude #claudetips #claudecode
+
+## Research
+
+* Verdict: Partly valid. The command is public and matches the post: `/claude-api prompt-audit` in Anthropic's claude-api skill. The 9% cost and 2-point accuracy figures could not be confirmed. The skill also applies edits only if you explicitly ask, rather than asking you to approve each cut.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [anthropics/skills claude-api SKILL.md (prompt-audit) (github.com)](https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md): repo, found by search, verified, high confidence. Opened it. It documents /claude-api prompt-audit, which scans CLAUDE.md, skills and prompts for dated patterns and outputs a report and proposed diff.
+* [Lance Martin post announcing the prompt-audit command (x.com)](https://x.com/RLanceMartin/status/2095170001175199771): page, found by search, not opened, medium confidence. The search snippet shows the command and the anti-pattern list (verification rituals and others). The page itself returned HTTP 402, so it was not opened.
+* [Claude API skill - Claude Platform Docs (platform.claude.com)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill): guide, found by search, not opened, medium confidence. Official docs page for the claude-api skill. It appeared in search results and was not opened.
+
+### Key steps
+
+1. Install the skill: `npx skills add https://github.com/anthropics/skills --skill claude-api`, or use the plugin marketplace. Restart Claude Code.
+2. In your project, run `/claude-api prompt-audit`.
+3. It sets scope and target model without asking, then inventories CLAUDE.md, rules, commands, skills, subagents and prompts.
+4. It scans for dated patterns using the tables in shared/prompt-audit.md, and it has a keep list of things not to delete.
+5. Read the report. Each finding has file:line, the pattern, why it is obsolete, and a confidence level.
+6. Review the proposed diff. The skill applies edits only if you explicitly ask, so say so only for the cuts you accept.
+
+### Not found
+
+The 9% cost drop and +2 accuracy points claim was not found in the skill page (its last ~14k characters were not read). The creator's DM guide was not found. The command itself is public, so the DM is not needed. The X post returned 402.

@@ -24,3 +24,20 @@ African stories are already being told in Hollywood like the woman king, but mor
 Like if you agree
 
 #Africa #art #story #music
+
+## Research
+
+* Verdict: Nothing to find. The post is an opinion clip (African storytelling is less formulaic than Western). It has no tool or guide, and the claim is subjective. The comic it names, The Crusaders, does exist.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [The Crusaders – Hunt for the Sun Blade (downthetubes crowdfunding spotlight) (downthetubes.net)](https://downthetubes.net/crowdfunding-spotlight-the-crusaders-hunt-for-the-sun-blade/): page, found by search, not opened, medium confidence. Search snippet describes a Nigerian comic by Eromose (Thomas Ikimi) and Iacci rooted in African history (Benin artefact). I did not open the page.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/africa story research.md`: Holds the post link under 'African story tellers', with story-research tags and links to an African Black Authors note. It has no steps.
+
+### Not found
+
+The creator @rohrsteam's original theory source was not checked. I did not open the Crusaders page, so that match is unconfirmed.

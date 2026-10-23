@@ -25,3 +25,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 What should I talk about next?
+
+## Research
+
+* Verdict: Nothing to find. The reel is general social-skills advice with three informal conversation formulas. It links to no downloadable or external resource, and the vault already summarizes it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Summary of the three charisma formulas (compliment plus question; questions, assumptions or jokes; eye contact, mirroring, active listening) and his caution, listed next to other conversation frameworks.
+
+### Not found
+
+No public guide or document from the creator was searched for. The post's own steps are the whole content.

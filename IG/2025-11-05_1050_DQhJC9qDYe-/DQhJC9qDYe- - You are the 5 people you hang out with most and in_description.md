@@ -54,3 +54,17 @@ Tech creator who makes software engineering and coding concepts approachable, fu
 Content creator demystifying tech careers and helping beginners break into software development with humor and honesty.
 
 Links in bio🌟
+
+## Research
+
+* Verdict: Partly valid. The free communities and creators are real and useful. The post leaves out that Big Stage Energy is a paid community ($499/year), and I found no official Coding Den page to confirm its "beginner" focus.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Big Stage Energy (Skool) (skool.com)](https://www.skool.com/bigstage/about): product, found by search, not opened, medium confidence. The search snippet shows a paid Skool community ($499/year) offering free conference tickets. The post doesn't mention the fee, and I didn't open the page myself.
+* [The Coding Den (third-party listing) (thehiveindex.com)](https://thehiveindex.com/communities/the-coding-den/): page, found by search, not opened, low confidence. This is a third-party listing for a Discord server named The Coding Den. Sources disagree on whether it is beginner-focused or JavaScript-focused.
+
+### Not found
+
+I couldn't open Reddit, so I didn't check r/learnprogramming or r/cscareerquestions. I also didn't check freeCodeCamp's forum or Discord, or the creator profiles (@ossia, @michellescomputer, @itsthatlady.dev). I found no official Coding Den invite. The post says "links in bio", so the invite is probably there.

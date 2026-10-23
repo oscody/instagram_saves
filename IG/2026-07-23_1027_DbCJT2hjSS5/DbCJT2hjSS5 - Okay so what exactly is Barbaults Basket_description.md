@@ -36,3 +36,17 @@ Some things may finally start making sense. Other things may become impossible t
 Swipe through the full breakdown and tell me which slide hit you the hardest ♏️
 
 #Scorpio #ScorpioEnergy #ScorpioHoroscope #Astrology #BarbaultBasket
+
+## Research
+
+* Verdict: Partly valid. The "Barbault's Basket" configuration (Jupiter in Leo opposing Pluto in Aquarius, with Uranus and Neptune linked to them) is described by many astrologers, and the planet positions match. The Scorpio advice is interpretive astrology with no evidence behind it. The post's own caution that it isn't a one-day miracle is reasonable.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The Barbault Basket, July 2026: A Rare Alignment Explained (bonniesorsby.com)](https://bonniesorsby.com/barbault-basket-astrology-july-2026/): page, found by search, not opened, medium confidence. The search result describes the same July 2026 pattern, with the peak around July 19–21. I didn't open the page.
+* [Barbault's Basket and What's Actually Coming: The 2026–2027 Astrology of a New Era (cosmicowlastrology.substack.com)](https://cosmicowlastrology.substack.com/p/barbaults-basket-and-whats-actually): page, found by search, not opened, medium confidence. The search result describes Jupiter in Leo opposing Pluto in Aquarius, with Uranus and Neptune linked by supportive angles. I didn't open the page.
+
+### Not found
+
+I didn't open any of the articles. I found no original Barbault source for the "basket" term. Sources conflict on how rare it is, and some give 1955 as the year Barbault first described it.

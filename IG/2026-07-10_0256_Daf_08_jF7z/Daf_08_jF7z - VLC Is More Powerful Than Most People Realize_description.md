@@ -42,3 +42,27 @@ Always use public, legal, and region-permitted streams.
 Have you tried VLC for more than just videos?
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Valid. VLC can play IPTV M3U playlists via Open Network Stream, and both named playlist repos exist and say so. Stream legality and availability vary by channel.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [iptv-org/iptv (github.com)](https://github.com/iptv-org/iptv): repo, in the post, verified, high confidence. Community list of public IPTV channels; README says to paste https://iptv-org.github.io/iptv/index.m3u into a player such as VLC.
+* [Free-TV/IPTV (github.com)](https://github.com/Free-TV/IPTV): repo, in the post, verified, high confidence. M3U playlist of free TV channels; playlist at https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8; geoblocked channels are marked.
+* [VLC media player (videolan.org)](https://www.videolan.org/vlc/): product, in the post, not opened, high confidence. The post names videolan.org as the download source; I did not open this page.
+
+### Key steps
+
+1. Install VLC from videolan.org.
+2. Copy a playlist URL, e.g. https://iptv-org.github.io/iptv/index.m3u or https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8.
+3. In VLC choose Media > Open Network Stream (Open → Network Stream on some versions), paste the URL, and click Play.
+4. Open the playlist view (Ctrl+L on Windows/Linux, Cmd+Shift+P on Mac) to switch channels.
+5. For sports or country-specific lists, see PLAYLISTS.md in the iptv-org repo.
+6. Geoblocked channels (marked Ⓖ in Free-TV) may not play outside their country.
+
+### Not found
+
+The post's specific sports playlist URL wasn't shown in the repo README. It points to PLAYLISTS.md, which I didn't open. I didn't open videolan.org. I didn't check individual streams for legality or whether they work.

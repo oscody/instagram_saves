@@ -43,3 +43,24 @@ Want access?
 Comment ”KIMI” below and I’ll send you a link to redeem a FREE membership with EXTRA quota to test these new agent features.
 
 #kimipartner
+
+## Research
+
+* Verdict: Partly valid. Kimi K2.5 is real and has visual coding, Agent Swarm and office features. The post is a #kimipartner promo, and "Claude-level" is unproven. Agent Swarm is a beta limited to high-tier paid users. The "free membership" link is only sent after a comment.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Kimi K2.5 official blog (kimi.com)](https://www.kimi.com/blog/kimi-k2-5.html): page, found by search, verified, high confidence. Describes image/video-to-code, Agent Swarm with up to 100 sub-agents, and an Agent that produces Word, Excel and PDF files, matching the post.
+* [Kimi.com (web app) (kimi.com)](https://www.kimi.com): product, found by search, not opened, medium confidence. The blog names Kimi.com as the place to use the K2.5 modes. I did not open the site.
+
+### Key steps
+
+1. Open kimi.com or the Kimi app and choose K2.5 Agent for office files, or Agent Swarm (Beta) for parallel tasks.
+2. For visual coding, upload a screenshot, image or video and ask Kimi to rebuild it as a site.
+3. Review the result in the Preview pane, then use the edit tool to circle an area and describe the change.
+4. Agent Swarm is a beta for high-tier paid users. The promo's free-membership link is only sent after commenting.
+
+### Not found
+
+The creator's free-membership referral link is sent only after a "KIMI" comment and has no public copy. I did not check the 100MB upload limit or the "Claude-level" claim.

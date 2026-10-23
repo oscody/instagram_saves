@@ -41,3 +41,26 @@ Open source: aldegad/sprite-gen
 Follow for more open source project drops.
 
 #GameDev #IndieDev #PixelArt #SpriteAnimation #AIArt
+
+## Research
+
+* Verdict: Valid. The aldegad/sprite-gen repo exists and matches the post. It turns one base image into transparent sprite atlases with a manifest, or into video-based transparent loops, and it has a curation webview and saved defaults.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [aldegad/sprite-gen (github.com)](https://github.com/aldegad/sprite-gen): repo, in the post, verified, high confidence. The README describes the atlas-rows and video-to-loop pipelines, manifest.json frame layout, curation webview and saved defaults, all as shown in the post.
+
+### Key steps
+
+1. Create a Python 3.11+ virtualenv and run `pip install -e .` in the cloned repo; run `sprite-gen --help` to see the commands.
+2. Or install it as a Codex/Claude skill with the repo's install-skill-from-github.py script.
+3. Choose a provider: codex or grok use existing subscription logins, while openai needs OPENAI_API_KEY and bills per call.
+4. Atlas flow: run `prepare`, then `gen-set`, `extract` and `compose-atlas`. This produces sprite-sheet-alpha.png and manifest.json.
+5. Optionally run `sprite-gen curation --run-dir <run>` to compare, reject and nudge frames and preview loops before baking.
+6. Loop flow: animate the still with a video model, then cut it into transparent GIF, WebP or strip loops. This needs ffmpeg and img2webp.
+7. Save defaults once with `sprite-gen defaults save ...`, for example `--codex-unavailable grok|openai`. One-off requests don't overwrite them.
+
+### Not found
+
+The vault has no notes on this tool. I did not check the demo images (knight, wolf, slime) or the output quality.

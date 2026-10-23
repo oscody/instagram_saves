@@ -39,3 +39,28 @@ Here are 4 prompts that install Ferriss's DEAL framework inside Claude.
 (Save this. Run it before you automate or delegate anything else.)
 
 Join my Telegram for daily AI prompts, frameworks, and strategies. New prompt every morning. Click the link in bio.
+
+## Research
+
+* Verdict: Partly valid. The four prompts are in the post itself. They are loosely based on Ferriss's real DEAL framework, but the caption misstates it and adds income figures I couldn't verify. It also funnels people to the creator's Telegram channel.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Using The 4 Hour Workweek DEAL System (Shortform) (shortform.com)](https://www.shortform.com/blog/4-hour-workweek-deal/): guide, found by search, not opened, medium confidence. The search snippet gives DEAL as Define, Eliminate, Automate, Liberate. I did not open the page. The post calls the last step Delegate.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only a link to the creator's Instagram profile (thinkgpt_ai). It holds no prompts or resource.
+
+### Key steps
+
+1. Rule: eliminate first, then automate, then delegate.
+2. Run Prompt 1, Life Design Audit. Give Claude your work, goals and daily life. Ask whether your definition of success is really yours, and what the biggest mismatch is.
+3. Run Prompt 2, 80/20 Elimination Audit. Sort your tasks, clients and commitments into the top 20% and bottom 80% by results. Flag anything already automated or delegated that should be cut, and say what to cut first.
+4. Run Prompt 3, Income Autopilot Builder. Take the surviving top 20%, then find what can become a repeatable process, what needs a handoff, and the single highest-leverage automation. Describe the business running on autopilot.
+5. Run Prompt 4, Fear-Setting Audit. For each change you haven't acted on, name the real fear, the worst realistic outcome, and how you'd recover. Then compare the cost of inaction with the cost of the feared outcome.
+
+### Not found
+
+I found no public copy of the exact prompt text beyond the carousel images. The $40K/year to $40K/month and 80-hour to 4-hour figures did not appear in any source I checked. I did not open Ferriss's book, and the post's "Delegate" wording doesn't match the book's DEAL (Define, Eliminate, Automate, Liberate).

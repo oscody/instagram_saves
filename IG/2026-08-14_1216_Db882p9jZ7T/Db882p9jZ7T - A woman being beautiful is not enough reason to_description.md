@@ -41,3 +41,16 @@ Character and compatibility determine whether you should go on the second one.
 Which question would you ask first?
 
 #talkingstage #love #soulmate #dating #relationships
+
+## Research
+
+* Verdict: Nothing to find. The post is a dating-advice list with no tool, file or link to find. The ten questions are all in the post, and the vault already has a summary of it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Summary of this post under 'Screening for compatibility', with the post link, the creator and the key questions. It also lists related saved posts of the same kind.
+
+### Not found
+
+No external resource exists. I did not search the web, because this is opinion-based dating advice and not something that can be fact-checked.

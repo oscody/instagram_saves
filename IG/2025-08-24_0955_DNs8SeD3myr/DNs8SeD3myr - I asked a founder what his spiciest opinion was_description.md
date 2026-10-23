@@ -26,3 +26,12 @@ Follow for more words of wisdom and let me know who I should interview next!
 Thanks for the insight @vivekpandit108 🙌
 
 #JobTips #JobSearch #JobMarket #resume #resumetips #linkedin #linkedintips #career #job #careertips #interview #interviewtips #jobinterview #resumai #jwow #wonsulting
+
+## Research
+
+* Verdict: Nothing to find. The post is an opinion interview clip that asks for comments on a debate. It links to no resource, and the claim is a personal opinion, so there is nothing to check.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/networking tiktok referrals.md`: Only a saved TikTok link from the same creator about finding companies with referral bonuses. It has nothing on this post.

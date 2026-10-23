@@ -27,3 +27,16 @@ Written by claude-haiku-5-5.
 
 How to Connect With Billionaires 🤯 @theschoolofhardknockz 
 A billionaire explains why luck isn’t random—it’s created through networking, showing up, and putting yourself where opportunities exist. If you stay in your comfort zone, you’ll never find the people who can change your life.. #wealth #ﬁnancialfreedom #entrepreneur #motivation
+
+## Research
+
+* Verdict: Partly valid. The book Never Eat Alone is real and fits the networking advice. The speaker isn't named, so the "billionaire" label can't be checked, and "luck isn't random" is opinion, not proven.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Never Eat Alone (Keith Ferrazzi, with Tahl Raz) (penguin.co.uk)](https://www.penguin.co.uk/books/271940/never-eat-alone/): other, found by search, not opened, high confidence. The post names the book Never Eat Alone. The search result lists it as a networking book by Ferrazzi on building relationships. I did not open the page.
+
+### Not found
+
+The speaker's name and the original interview were not identified. The vault has no note on this post or the book.

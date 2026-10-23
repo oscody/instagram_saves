@@ -27,3 +27,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 5 life hacks for Scorpio Sun sign #scorpio #lifehacks
+
+## Research
+
+* Verdict: Nothing to find. This is an astrology reel with general advice for Scorpio Sun signs. It has no resource to find, and astrology can't be tested as a claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

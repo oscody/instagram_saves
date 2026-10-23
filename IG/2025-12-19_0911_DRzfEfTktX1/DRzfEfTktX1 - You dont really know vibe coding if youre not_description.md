@@ -41,3 +41,24 @@ Comment Vibe to get the complete guide
 Follow @codewithharshad for more such dev content.
 
 #vibecoding #ai #softwaredevelopment
+
+## Research
+
+* Verdict: Partly valid. The advice (structure first, vertical slices, set the stack and constraints up front) is sound and common. The "complete guide" is only sent after commenting "Vibe", and I found no public copy. The listed link, public-apis/public-apis, is a list of free APIs and doesn't match the workflow.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [public-apis/public-apis (github.com)](https://github.com/public-apis/public-apis): repo, in the post, not opened, low confidence. The post lists it as the source, but it is a general directory of free APIs and has no vibe-coding workflow. I did not open it.
+
+### Key steps
+
+1. Pick a path: an IDE tool (Cursor, Windsurf, Claude Code) or a web builder (Lovable, v0, Bolt.new, Figma Make).
+2. Set the foundation before prompting: a UI library (shadcn, Tremor), a starter or boilerplate, and a full-stack framework.
+3. Write your rules and constraints down first, so the AI doesn't guess your stack.
+4. Build one vertical slice (one feature end to end: database, API and UI), then iterate.
+5. Go from simple to complex.
+
+### Not found
+
+The full guide sent after commenting "Vibe". I found no public copy and did not search the web. I only searched the vault, which had no matches.

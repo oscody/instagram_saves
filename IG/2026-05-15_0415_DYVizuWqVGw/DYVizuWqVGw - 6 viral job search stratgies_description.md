@@ -32,3 +32,18 @@ Follow and comment “Red” to get these viral job search strategies
 .
 .
 #reddit #jobs #hiring
+
+## Research
+
+* Verdict: Partly valid. The tips are generic and plausible, but the full article is only sent after commenting "Red", with no public copy found. The "10% conversion, 3x LinkedIn" statistic is unsourced.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Target recently promoted people at your target companies instead of senior executives, since they are more likely to respond and refer you.
+2. On LinkedIn, search for the job and filter to under 10 applicants. Pick postings with fewer than 3 applicants, ideally posted 1–2 weeks ago.
+3. Search for jobs posted directly on company ATS and career pages (Greenhouse, Lever, Ashby, Workable, BreezyHR, Pinpoint, or jobs/careers/people/talent subdomains) using Google queries such as site:boards.greenhouse.io "job title".
+
+### Not found
+
+The full six-strategy article is sent only after commenting "Red"; I found no public copy. I did not search the web, so the 10% conversion claim is unchecked. The vault has no related notes.

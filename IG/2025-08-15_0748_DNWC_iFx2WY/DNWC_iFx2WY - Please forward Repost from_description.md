@@ -39,3 +39,17 @@ Spots are limited — apply today! Link in our bio!
 #careersuccess #careerservices #gotocollege #internship #myfirstjob #workforcedevelopment
 #careertraining #youthprograms #adulteducation #jobposting #jobpostings
 #nycjobs #jobopenings #jobsearch #hiringnow
+
+## Research
+
+* Verdict: Partly valid. The NYCHA Clean Energy Academy is real, and its 2025 relaunch has an 8-week format and three cohorts, with Kinetic Communities as a partner. The Cohort 3 application link works, but the deadline of Aug 29, 2025 has passed. I could not confirm the $1,500 stipend or the dates from any page I opened.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [NYCHA Clean Energy Academy Application (Typeform) (p33ddq5k8fo.typeform.com)](https://p33ddq5k8fo.typeform.com/NychaCEA): page, in the post, verified, medium confidence. The bit.ly link in the post redirects here, and the page title is "NYCHA Clean Energy Academy Application". The page content was not readable, so the eligibility, stipend and dates could not be checked.
+* [NYCHA Journal: Clean Energy Academy Expands to Train NYCHA Residents for Green Jobs (nychajournal.nyc)](https://nychajournal.nyc/clean-energy-academy-expands-to-train-nycha-residents-for-green-jobs/): page, found by search, not opened, medium confidence. The search snippet describes three 2025 cohorts of 8 weeks each, with up to 25 participants per cohort. I did not open the article.
+
+### Not found
+
+The stipend amount, the eligibility rules and the info session dates are not confirmed by any page I could read. No official page for Cohort 3 turned up. Check whether a later cohort is open, because this one closed on Aug 29, 2025.

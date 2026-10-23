@@ -31,3 +31,16 @@ If you hate crunches, this 2min standing abs workout is for you 👏
 .
 .
 #abs #workout #ab #absworkout #explore
+
+## Research
+
+* Verdict: Nothing to find. This is a short fitness reel with no separate resource. The routine is shown only in the video, and the post's steps cover it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Ab works outs.md`: Only holds the two reel links (DZN8m84hGts and DY4OgF_os1x). It has no steps or notes.
+
+### Not found
+
+No written version of the routine exists outside the reel. I did not open the second reel (DY4OgF_os1x) or search the web.

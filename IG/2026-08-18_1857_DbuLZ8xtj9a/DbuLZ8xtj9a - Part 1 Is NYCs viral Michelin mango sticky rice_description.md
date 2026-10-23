@@ -23,3 +23,8 @@ Part 1: Is NYCâ€™s viral Michelin mango sticky rice actually worth the hype? ðŸ‘
 Chelsea Market, NYC
 
 #nycfood #nyceats #mangostickyrice #foodreview #newforkcity
+
+## Research
+
+* Verdict: Nothing to find. A food review reel of the mango sticky rice at Ayada Thai in Chelsea Market, NYC. It has no tool, guide or downloadable resource to find. The only useful detail is the place, which the caption names.
+* Checked: 2026-10-22 by claude-sonnet-5-5

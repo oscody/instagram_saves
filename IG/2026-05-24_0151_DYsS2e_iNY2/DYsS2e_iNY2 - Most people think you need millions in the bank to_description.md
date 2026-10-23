@@ -35,3 +35,17 @@ The bank will lend based on the business performance and its assets, therefore y
 Private investors will provide capital based on your ability to give them equity in a profitable deal where they do no work. 
 
 This game is all about being a deal maker and connecting the right people together.
+
+## Research
+
+* Verdict: Partly valid. SMB Market is real and matches the post, and the 10% down SBA 7(a) structure is broadly right. The site is a paid membership, though. The "investor does no work" and $7,916/mo example are simplified, and lenders may limit how investor equity counts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [SMB Market (smbmarket.com)](https://smbmarket.com): product, in the post, verified, high confidence. Aggregates 80,000+ listings from 30+ brokers, with SDE/cash-flow buy-box filters and a Deal Analyzer showing monthly take-home after loan payments; membership costs $67/mo.
+* [BizBuySell: SBA 7(a) loan for business acquisition (bizbuysell.com)](https://www.bizbuysell.com/learning-center/sba-7a-loan-business-acquisition/): guide, found by search, not opened, medium confidence. Search snippet describes the 10% equity injection and seller-note options; page not opened.
+
+### Not found
+
+Vault not searched beyond the pre-supplied check (no matches listed). The SBA SOP 50 10 8 text was not opened, so the exact equity-injection rules are unconfirmed. Per search snippets, the injection must be fresh cash, not loan proceeds.

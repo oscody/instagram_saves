@@ -22,3 +22,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment PHYSICAL and I’ll send you the guide. A Raspberry Pi, a $10 camera and Claude Code, no cloud bill.
+
+## Research
+
+* Verdict: Unresolved. The guide is only sent after a "PHYSICAL" comment, and no public copy turned up. The claim is plausible (a Pi with a camera running local vision models) but I couldn't check the specific demos.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/Raspberry Pi AI HAT.md`: Your own notes on a Raspberry Pi AI HAT. Related background, not this guide.
+* Vault: `2. Areas/Botstack/Pi/homePi.md`: Your homePi setup notes. Related background, not this guide.
+
+### Not found
+
+The guide itself. It is delivered by comment/DM ("PHYSICAL") on brochbuilds' post. No vault note mentions the creator or the post, and one web search found no public repo or page.

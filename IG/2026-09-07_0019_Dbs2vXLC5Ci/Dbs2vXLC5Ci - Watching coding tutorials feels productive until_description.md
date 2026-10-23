@@ -53,3 +53,20 @@ If you’re stuck in tutorial hell, pick one project and start building. You’l
 Hashtags:
 
 #ProjectBasedLearning #GitHub #Programming #Coding #LearnToCode WebDevelopment Python JavaScript Cpp Java ReactJS RustLang Golang SoftwareEngineering ComputerScience OpenSource DeveloperResources CodingProjects Developer TechReels
+
+## Research
+
+* Verdict: Valid. The repo is public and matches the post: a curated list of build-it-yourself tutorials across many languages. The post's "comment to get it" gate is unnecessary.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [practical-tutorials/project-based-learning (github.com)](https://github.com/practical-tutorials/project-based-learning): repo, in the post, verified, high confidence. Opened it. It is an MIT-licensed curated list of project tutorials by language (Python, JS, C/C++, Java, Go, Rust and more), with about 287k stars.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/_inbox.md`: Mentions project-based-learning in a match from the grep. I didn't open it, so I don't know whether it relates to this repo.
+
+### Not found
+
+The repo is a link list, not a set of projects. The tutorials it links to are hosted elsewhere, and their quality varies. Some links may be old or dead.

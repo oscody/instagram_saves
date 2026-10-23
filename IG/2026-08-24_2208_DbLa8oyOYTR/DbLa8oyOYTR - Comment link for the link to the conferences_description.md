@@ -24,3 +24,16 @@ Written by claude-haiku-5-5.
 Comment “link” for the link to the conferences happening this second half of the year. 
 
 Here are the conferences for the culture in 2026. Whether you’re networking across the tech, media, creator, finance, business or other industries, we have something for you.
+
+## Research
+
+* Verdict: Unresolved. The conference list is only sent after commenting "link" on the reel. I found no public copy of it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [High Vibe by Onose (Substack) (highvibedc.substack.com)](https://highvibedc.substack.com/): page, found by search, not opened, low confidence. This looks like the creator's events newsletter, but the search only showed DC event roundups, many paywalled. I found no 2026 conference list and did not open it.
+
+### Not found
+
+The "culture conferences" list itself. It is delivered by DM after a "link" comment, and no public copy turned up in the search or the vault.

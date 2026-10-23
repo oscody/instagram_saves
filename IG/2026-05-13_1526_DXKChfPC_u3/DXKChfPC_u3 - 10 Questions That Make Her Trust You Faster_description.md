@@ -60,3 +60,16 @@ Written by claude-haiku-5-5.
 ‎
 ‎#DatingAdvice #TextingTips #RelationshipAdvice #ModernDating #FlirtingTips #DatingCoach #HowToText #LoveTips #RelationshipGoals #DatingLife #TalkStage #Situationships #DateBetter #HealthyRelationships #DatingStruggles #RelationshipTalk #DatingMistakes #LoveAdvice #DatingContent #RelationshipTips
 ‎
+
+## Research
+
+* Verdict: Partly valid. The post is a list of ten open-ended questions with no outside resource. They are sound general rapport questions, but "makes her trust you faster" is an unproven claim, and the "use wisely" framing suggests a tactic rather than real curiosity.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this reel under 'Trust building' with example questions, next to other dating question reels (icebreakers, 17 and 50 deep questions).
+
+### Not found
+
+No separate resource exists. The full list of ten questions is in the caption. I did not search the web.

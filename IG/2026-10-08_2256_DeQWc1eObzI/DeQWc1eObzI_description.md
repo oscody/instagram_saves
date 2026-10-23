@@ -52,3 +52,12 @@ Comment “THEORY” and I’ll send you the details on how you can create your 
 ✨ Perfect for fashion creators, influencers, boutiques & clothing brands.
 
 #coupleoutfits#styleinspo#ootd#outfitinspiration#fyp
+
+## Research
+
+* Verdict: Promo. The reel is outfit inspiration that funnels viewers to comment-for-DM offers (a styling app and a video-creation app). No public copy of either was found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "STYLECODE" styling and color pairing app and the "THEORY" AIB Color Theory App details are only sent by DM after a comment. One web search found no public page for either. The vault had no matching notes.

@@ -30,3 +30,22 @@ AI has no limits. Apparently, neither does my token bill.
 Would you spend your last tokens on this? And which game should I bring into the room next?
 
 #Pokemon #AugmentedReality #VibeCoding #GPT6
+
+## Research
+
+* Verdict: Unresolved. The reel is a demo of a vibe-coded Pokémon AR world. I found no public repo, app or tool from ae.t.he.r. The post says nothing verifiable about the engine or tools, and "GPT6" is only a hashtag.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition  ideas by codex.md`: Lists this reel as a visual reference for a mixed-reality (MR) board on a real surface. It notes the engine and Meta compatibility were not verified.
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Uses the reel as the passthrough look to aim for: board and pieces on a real table. It has no link to the project itself.
+
+### Key steps
+
+1. Checked the vault notes that mention the post.
+2. Ran one web search for the creator and project. It found only unrelated Pokémon AR projects.
+
+### Not found
+
+No public source, repo or download for the Pokémon AR world. I did not open the creator's Instagram profile, so a link in their bio or a reply to a comment is possible. The tools used, such as the engine, headset or AI model, are not stated.

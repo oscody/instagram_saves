@@ -29,3 +29,30 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If you look on your computer right now , one of the best AI tools you could ever have is already installed.
+
+## Research
+
+* Verdict: Valid. The post describes Claude Code Agent Skills, which are folders with a SKILL.md and optional scripts and templates that one agent loads when needed. The official docs confirm this. The post's file names are slightly off: the file is SKILL.md, and scripts usually sit in a scripts/ folder.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Claude Code docs: Skills (code.claude.com)](https://code.claude.com/docs/en/skills): guide, found by search, verified, high confidence. Opened it. It describes a skill as a folder with SKILL.md plus optional scripts and reference files, which Claude loads when relevant. This matches the post's one-agent, many-skill-folders idea.
+
+### Already in the vault
+
+* Vault: `ZAIHub/claude - Claude and Codex Skills Index.md`: Index of Claude and Codex skills the user already has. It does not mention this post.
+
+### Key steps
+
+1. Create a folder for each workflow: ~/.claude/skills/<name>/ for personal use, or .claude/skills/<name>/ inside a repo.
+2. Add SKILL.md with YAML frontmatter (name, description saying when to use it) and the workflow instructions in Markdown.
+3. Put helper code in scripts/ (e.g. scripts/helper.py) and refer to it from SKILL.md using ${CLAUDE_SKILL_DIR}.
+4. Add templates or reference files (e.g. template.docx, reference.md) to the same folder and mention them in SKILL.md so Claude loads them only when needed.
+5. Keep SKILL.md under about 500 lines and move detail into the other files.
+6. Run it with /skill-name, or let Claude pick it from the description.
+7. To run a skill in a sub-agent, set context: fork (and agent) in the frontmatter.
+
+### Not found
+
+The post names no specific repo or product beyond Claude Code. I did not open the video itself, only its description and transcript.

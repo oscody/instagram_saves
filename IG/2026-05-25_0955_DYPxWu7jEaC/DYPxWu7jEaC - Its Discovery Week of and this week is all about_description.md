@@ -31,3 +31,18 @@ We grow up constantly hearing about Greek mythology. We read it in schools, see 
 Through this campaign, we hope to highlight just how expansive African storytelling truly is and to make more room for stories inspired by African myth, folklore, history, and imagination.
 
 #readafrica #africanfantasy
+
+## Research
+
+* Verdict: Nothing to find. The post is a book-recommendation carousel with no link or download. The books are real, and your vault already lists most of them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/African Black Authors - IG.md`: Table of African authors and series, including The Gilded Ones trilogy, the Beasts of Prey trilogy and Evan Winter's The Burning series (The Rage of Dragons, The Fires of Vengeance).
+* Vault: `2. Areas/Library/_toread to read.md`: Has The Burning (series) by Evan Winter on the to-read list.
+* Vault: `2. Areas/Library/audible read List.md`: Lists The Rage of Dragons by Evan Winter (2025).
+
+### Not found
+
+A web search for the Read Africa Month Discovery Week campaign and the two creators' accounts found nothing, so I couldn't confirm the event. I didn't search for the individual books. Legacy of Orisha and Of Mermaids and Orisha aren't in your vault.

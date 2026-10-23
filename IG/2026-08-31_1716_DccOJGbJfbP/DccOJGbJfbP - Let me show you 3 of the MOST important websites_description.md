@@ -36,3 +36,24 @@ Let me show you 3 of the MOST important websites to know about as a 3D artist—
 Bookmark this video so you don’t forget and check out my page for tons of 3D tutorials and tips! CREATE MORE.
 
 #gamedev #websites #digitalart #3dmodeli̇ng #3dart
+
+## Research
+
+* Verdict: Valid. All three sites exist and match the descriptions. The Base Mesh is CC0 with clean topology, UVs and real-world scale. OMGLORD is a design resource directory with the categories mentioned. noclip's page content didn't load, so it is unverified.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The Base Mesh (thebasemesh.com)](https://www.thebasemesh.com/): page, in the post, verified, high confidence. Page says 1,250+ free base meshes, CC0, clean topology, UV unwrapping, real-world scale.
+* [OMGLORD (omglord.com)](https://omglord.com/): page, in the post, verified, high confidence. Design resource directory with categories like Figma Plugins, Chrome Extensions and Typography & Lettering.
+* [noclip.website (noclip.website)](https://noclip.website/): tool, in the post, not opened, medium confidence. The fetch returned only the word 'noclip' (a JavaScript app). It is the known browser game-level viewer, but I couldn't confirm the controls.
+
+### Already in the vault
+
+* Vault: `ZAIHub/REA - Expanded Program Review Candidates.md`: Links to noclip.website and thebasemesh.com with review focus notes.
+* Vault: `ZAIHub/ig repo to review.md`: Links to noclip.website and thebasemesh.com, plus threeui.com and viggle.ai.
+* Vault: `ZAIHub/REA - Program Review Candidates.md`: Links to noclip.website and thebasemesh.com.
+
+### Not found
+
+The noclip.website controls and settings could not be checked because the page needs JavaScript. I did not find the paywall request on thebasemesh.com's home page. It may be on another page.

@@ -36,3 +36,20 @@ Spend the first month cutting out what you don’t need. Use the second to build
 Every 15 days, revisit your notes: what worked, where you fell short, and what needs to change. This will help you see your progress and adjust your plan along the way.
 
 Save this post so you can work through every step.
+
+## Research
+
+* Verdict: Partly valid. The post is a generic journaling and habit plan with no separate resource to find. The approach (write down where you are, cut distractions, build routines, review regularly) is sensible, but it is not backed by any evidence or program.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Three-Month Notebook Self-Reflection Plan (Instagram carousel by steel_people_) (instagram.com)](https://instagram.com/p/DeYw_o-DGMq/): page, in the post, not opened, high confidence. This is the post itself. It contains the whole plan, and the caption matches the carousel summary.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Only lists this post's link under 'From my IG saves'. It has no steps from the plan.
+
+### Not found
+
+No separate guide, app or download exists. I did not open the post or run any web searches. The verdict rests on the post summary and caption you gave me, plus the vault note I was shown.

@@ -25,3 +25,8 @@ Once this semester is over (my last semester of coursework!), I’m so excited t
 5. Seeds (2025) 
 6. OBA (2023)
 7. The Fisherman (2024)
+
+## Research
+
+* Verdict: Nothing to find. This is a personal film watchlist with no single resource, guide or claim to check. I did no searching.
+* Checked: 2026-10-22 by claude-sonnet-5-5

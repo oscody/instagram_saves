@@ -29,3 +29,12 @@ Written by claude-haiku-5-5.
 Want more nerdy friends? Check out our Builder Network 🧑‍💻✨
 
 #creativetech #buildinpublic #vibecoding
+
+## Research
+
+* Verdict: Nothing to find. The post is a list of four informal friend challenges, and the post itself gives all the rules. The only link-like item is a "Builder Network" in the caption, which has no public page I could find.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The Scout House "Builder Network" has no public page in search results. It is probably linked from the creator's Instagram bio. Scout House itself is a real mixed-reality studio in LA, but I did not open its site and confirm the Builder Network there.

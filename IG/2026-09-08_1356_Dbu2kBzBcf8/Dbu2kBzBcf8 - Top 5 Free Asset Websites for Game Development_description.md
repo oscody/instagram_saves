@@ -38,3 +38,24 @@ These free asset websites can help you create prototypes faster, improve your wo
 🚀 Build Smart. Create More. Finish Games.
 
 #GameDev #Unity #Unity3D #UnrealEngine #Godot
+
+## Research
+
+* Verdict: Valid. All five sites exist and offer free game assets as described. Licenses vary by asset, so check each one before shipping. Mixamo's page would not load, so I could not confirm its details.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Kenney Assets (kenney.nl)](https://kenney.nl/assets): page, found by search, verified, high confidence. Lists 2D, 3D, UI, audio and pixel asset categories. The page did not state the license.
+* [OpenGameArt (opengameart.org)](https://opengameart.org): page, found by search, verified, high confidence. Community site for free 2D, 3D, music and sound assets under CC0, CC-BY and similar licenses.
+* [itch.io free game assets (itch.io)](https://itch.io/game-assets/free): page, found by search, verified, high confidence. Shows 64,106 free asset results: sprites, tilesets, audio, 3D models and UI packs.
+* [Poly Pizza (poly.pizza)](https://poly.pizza): page, found by search, verified, high confidence. Free low-poly 3D models, 10,700+ listed. The page did not state the license.
+* [Mixamo (mixamo.com)](https://www.mixamo.com): product, found by search, not opened, medium confidence. The page only showed a loading screen, so I could not check the free animation and auto-rigging claim.
+
+### Already in the vault
+
+* Vault: `2. Areas/VR Work/iwsdk/research rts port to VR.md`: Has a Kenney space-kit link on itch.io. It does not have the full list of five sites.
+
+### Not found
+
+Mixamo's features and login requirement, because the page did not load. Per-asset license terms for Kenney and Poly Pizza, which the pages did not state.

@@ -48,3 +48,26 @@ I’ve put together the exact prompts you can copy and use for your DSA intervie
 Follow me + comment “PROMPT” and I’ll send them to your DM.
 
 #DSA #CodingInterview #ClaudeAI #SoftwareEngineer #techcareers
+
+## Research
+
+* Verdict: Partly valid. The method is sound and common practice, but the exact prompts are only sent by DM after a comment, and no public copy was found. I did not search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Prompt - technical interviewer from Bloomberg.md`: A related interview-prep prompt. It was a keyword hit only and I did not read it, so it may not match this post.
+* Vault: `3. Resources/0. note idea draft/Algo Monster Study Guide.md`: A DSA pattern study guide. It was a keyword hit only and I did not read it, so it may not match this post.
+
+### Key steps
+
+1. Ask Claude to explain and visualize the DSA pattern (e.g. sliding window) and its sub-patterns.
+2. Ask for a list of practice problems for that pattern, ordered by difficulty.
+3. Attempt a problem yourself. If stuck, ask for hints that don't reveal the answer.
+4. If still stuck, ask for a step-by-step, line-by-line walkthrough of the solution.
+5. Ask for the time and space complexity breakdown.
+6. Ask for similar problems and repeat until the pattern feels easy.
+
+### Not found
+
+The creator's actual prompts. They are only sent by DM after commenting 'PROMPT', and I found no public copy.

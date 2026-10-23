@@ -36,3 +36,23 @@ Open source: v4c38/spectacles-dimensional-os
 Follow for more open source project drops.
 
 #SnapSpectacles #HumanRobotInteraction #AR #RobotControl
+
+## Research
+
+* Verdict: Valid. The GitHub repo exists and its README matches the post's hardware list, same-WiFi requirement and recommended launcher setup. The "just look where to go" framing is the reel's gloss. The README also describes voice commands and an AprilTag registration step.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [v4c38/spectacles-dimensional-os (github.com)](https://github.com/v4c38/spectacles-dimensional-os): repo, in the post, verified, high confidence. README lists Snap Spectacles 2024, Unitree Go2 (tested) and G1 (untested), same WiFi, and a recommended launcher setup; MIT license.
+
+### Key steps
+
+1. Get a Mac, Snap Spectacles 2024 dev kit and a Unitree Go2 (or G1). Put all three on the same WiFi.
+2. Start the launcher: double-click launcher/Start Launcher.command, or run ./launcher/scripts/start-launcher.sh. Keep the terminal open.
+3. Open http://127.0.0.1:8790. In Dependencies, choose Go2 or G1 and press Install.
+4. Select the robot, press Start, wait for Bridge Ready and note the Bridge IP.
+5. In Config, generate the AprilTag PDF. Print it at 100% scale (70 mm tag, ID 0, for the Go2) and mount it on the robot.
+6. Open lens-studio/spectacles-dimensional-os.esproj in Lens Studio and send the Lens to the Spectacles.
+7. In the Lens Registration Wizard, enter the Bridge IP. Keep the robot still and walk around it, looking at the tag from 0.5 to 1.5 m.
+8. For voice Agent Mode, set OPENAI_API_KEY in the launcher. The Mac needs internet access.

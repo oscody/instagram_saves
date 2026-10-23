@@ -79,3 +79,12 @@ I personally use a Done-For-You system that includes the training, resources, an
 Follow @buildwealthwiththomas  for more content on digital marketing, AI, and online business.
 
 Educational content only. This post reflects my personal experience. Results vary based on individual effort, experience, consistency, implementation, and market conditions. There are no guarantees of income or business
+
+## Research
+
+* Verdict: Promo. The ten prompts are generic and fully listed in the caption. They work as a starting point but are lead-in to a "Done-For-You" system. The free training is sent only after a "CLASS" comment, and no public copy exists. I did not search.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "free beginner-friendly training" and the Done-For-You system are only sent after commenting "CLASS". No public link was in the post and I did not search for one. The vault had no matching notes.

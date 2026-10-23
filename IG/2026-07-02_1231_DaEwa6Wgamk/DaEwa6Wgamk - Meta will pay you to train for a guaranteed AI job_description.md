@@ -22,3 +22,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Meta will pay you to train for a guaranteed AI job — free, 5 weeks, no degree.#ai
+
+## Research
+
+* Verdict: Partly valid. The program is real and Meta publicly announced it: free, about 5 weeks, no experience needed, job guarantee. The post's "paid" framing is loose, since Meta covers tuition, lodging, airfare and a daily stipend. The job is guaranteed only after background check, drug screening and completing training. The comment-"Meta" step isn't needed because the application link is public.
+* Checked: 2026-10-22 by claude-sonnet-5-5

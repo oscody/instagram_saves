@@ -34,3 +34,23 @@ Once you start recognizing the patterns, a lot of questions stop feeling random 
 If coding interviews have ever felt overwhelming, this is one of those resources that’s absolutely worth bookmarking.
 
 #LeetCode #CodingInterview #Algorithms #DataStructures #SoftwareEngineering Programming GitHub DeveloperTips 🚀
+
+## Research
+
+* Verdict: Unresolved. The reel only calls the repo "algorithm patterns" and shows no link, owner or name. I found several similar public repos but can't tell which one it is.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [aha-med/coding-interview-pattern (github.com)](https://github.com/aha-med/coding-interview-pattern): repo, found by search, not opened, low confidence. Search result describes folders per pattern (sliding window, two pointers, binary search, backtracking, DP), matching the caption's topics, but I didn't open it and nothing ties it to the reel.
+* [ambicuity/Coding-Interview-Questions-and-Patterns (github.com)](https://github.com/ambicuity/Coding-Interview-Questions-and-Patterns): repo, found by search, not opened, low confidence. Search result shows two pointers, sliding window and backtracking sections; it is a generic candidate only.
+* [ByteByteGoHq/coding-interview-patterns (github.com)](https://github.com/ByteByteGoHq/coding-interview-patterns): repo, found by search, not opened, low confidence. Companion repo for the book Coding Interview Patterns. It is pattern-based, but the name differs from the one in the reel.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Algo Monster Study Guide.md`: Related interview pattern study guide; not this repo.
+* Vault: `ZAIHub/study - Interview Mastery Guide.md`: Related interview prep material mentioning sliding window; not this repo.
+
+### Not found
+
+The exact repo. Check the creator's profile (algorithmswithpeter) bio or pinned comments for the link. I did not open any candidate repo.

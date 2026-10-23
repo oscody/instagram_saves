@@ -45,3 +45,16 @@ Repeat the process to keep expanding your animation.
 Comment “ANIME” and I’ll send you the full guide!
 
 Follow me (@skaigenerated) for more AI video tips! 🥰
+
+## Research
+
+* Verdict: Partly valid. The tool is real: weavy.ai now redirects to Figma Weave, a node-based AI platform that promotes Seedance. The page didn't mention Nano Banana. The "full guide" with the prompts is only sent by comment, and I found no public copy.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Figma Weave (formerly Weavy) (weave.figma.com)](https://weave.figma.com/): product, in the post, verified, medium confidence. weavy.ai (the link in the post) redirects here. The page describes a node-based AI design platform and promotes Seedance 2.5, but doesn't name Nano Banana.
+
+### Not found
+
+The "ANIME" guide and its prompts are only sent after a comment or DM, and I found no public copy. I couldn't confirm that Nano Banana is available in Weave.

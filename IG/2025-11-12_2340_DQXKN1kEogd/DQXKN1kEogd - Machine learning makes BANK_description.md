@@ -22,3 +22,22 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Machine learning makes BANK 💰🤑 #ml #ai #swe #fyp
+
+## Research
+
+* Verdict: Valid. MLU-Explain is a free Amazon MLU site of visual ML essays, as the post says. I did not check the $276K salary figure, which is a joke framing and not the resource.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [MLU-Explain (mlu-explain.github.io)](https://mlu-explain.github.io): page, in the post, verified, high confidence. Opened it. It is Amazon Machine Learning University's free interactive ML essay site, matching the on-screen site in the reel.
+
+### Key steps
+
+1. Open mlu-explain.github.io.
+2. Pick an essay: Neural Networks, Linear and Logistic Regression, Decision Trees, Random Forest, Cross-Validation, Bias-Variance, Precision & Recall, ROC & AUC, Reinforcement Learning, or Double Descent.
+3. Scroll through each one. The visuals are interactive and update as you scroll.
+
+### Not found
+
+The vault notes listed (levels.fyi job-hunt notes) only mention levels.fyi and don't cover MLU-Explain. I didn't verify the $276K median figure on levels.fyi.

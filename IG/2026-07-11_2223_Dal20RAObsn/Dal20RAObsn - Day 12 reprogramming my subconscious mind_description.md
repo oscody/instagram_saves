@@ -35,3 +35,20 @@ Day 12 reprogramming my subconscious mind!
 •
 
 This is a personal practice, not therapy or medical advice. If you have a history of psychosis, mania, dissociation, or serious mental illness, talk to a professional before starting.
+
+## Research
+
+* Verdict: Partly valid. The post is a personal practice routine based on Maxwell Maltz's Psycho-Cybernetics. The book is real. The 21-day self-image idea comes from Maltz's claim, which has no solid scientific support. The Christian prayer part is the creator's own addition.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Psycho-Cybernetics by Maxwell Maltz (book) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Psycho-Cybernetics): page, found by search, not opened, medium confidence. The book cover appears in the post, and Wikipedia is the usual reference page for it. I did not open this page or search the web.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only a bare line reading 'Psycho-Cybernetics'. It has no steps or link.
+
+### Not found
+
+I did not search the web or open any page. The Wikipedia URL is unverified. The creator's own routine is only in the post, with no separate public guide.

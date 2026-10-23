@@ -45,3 +45,16 @@ Save this. You’ll want to come back to it.
 — Follow for more on building in public. Big shoutout to @foggylabs for teaching me all this! 
 
 #startup #ai #yc #entrepreneurship #founderlife
+
+## Research
+
+* Verdict: Partly valid. Hermes Agent is a real open-source tool with Telegram and a Claude Code import. The README doesn't mention Obsidian or "dreaming cycles". The reel's specific stack comes from @foggylabs, and I couldn't find that tutorial.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Hermes Agent (Nous Research) (github.com)](https://github.com/NousResearch/hermes-agent): repo, found by search, verified, medium confidence. Open-source agent with a Telegram gateway, persistent memory, multiple model providers and a `hermes import-agent claude-code` command, which matches the post's central tool.
+
+### Not found
+
+I found no public @foggylabs tutorial or repo. The Obsidian integration, "dreaming cycles", and the Zapier and Apollo setup were not confirmed in official docs. The only claim of a Claude Code bridge to Obsidian came from a promotional blog, which I did not open.

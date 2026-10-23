@@ -30,3 +30,19 @@ The results are still rough. Many feel more like experimental clones than finish
 If this keeps improving, creating a playable game could eventually become as accessible as generating an image is today.
 
 What game would you try to recreate first?
+
+## Research
+
+* Verdict: Partly valid. The links are real playable examples, and the caption admits the results are rough. But Coin Maker Simulator is a Steam game with no AI claim on its page, and the other pages don't show which prompts or models were used.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [League of Spawn (spawn.co)](https://www.spawn.co/@izkimar/league-of-spawn/play): product, in the post, verified, high confidence. Free browser third-person 5v5 lane battle (MOBA) by @izkimar on Spawn, matching the League-style arena.
+* [Pokémon-style battle page (titled 'Rock Gym') (pokemon-battle-sim-1vq.pages.dev)](https://pokemon-battle-sim-1vq.pages.dev): page, in the post, not opened, low confidence. Page loads with the title 'Rock Gym', HP text and a credit to @nagk01. The content is too thin to confirm it is a Pokémon-style battle.
+* [Coin Maker Simulator (Steam) (store.steampowered.com)](https://store.steampowered.com/app/4156710/Coin_Maker_Simulator/): product, in the post, verified, medium confidence. Casual crafting sim by Studio 312, due March 2027 with a demo. The page makes no AI claim, so it may not be AI-made.
+* [Inkwave (Splatoon-style) (inkwave-six.vercel.app)](https://inkwave-six.vercel.app/): page, in the post, not opened, low confidence. The server returned HTTP 402, so the page could not be opened.
+
+### Not found
+
+The Stefan 3D AI YouTube channel was not checked. The Splatoon-style and WoW character creator examples could not be confirmed. The post names no specific model or prompts. The Spider-Man and Stardew Valley examples have no link.

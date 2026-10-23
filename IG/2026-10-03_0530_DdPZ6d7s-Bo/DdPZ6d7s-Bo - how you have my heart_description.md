@@ -48,3 +48,16 @@ Franchia Vegan Cafe
 .
 .
 [vegan nyc, new york vegan, vegan, vegan dinner nyc, vegan lunch nyc, happy hour nyc, korean restaurant nyc, korean food nyc, vegan korean new york, koreatown nyc]
+
+## Research
+
+* Verdict: Nothing to find. This is a personal restaurant review. The only resource is the restaurant, and its address matches a search listing. I didn't open any page.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Franchia Vegan Cafe (Toast listing) (toasttab.com)](https://www.toasttab.com/local/franchia-vegan-cafe-12-park-ave/r-8c9be685-6658-4bd5-9d4e-65843edc165f): page, found by search, not opened, medium confidence. The search result lists Franchia Vegan Cafe at 12 Park Ave with a menu that includes jjajangmyeon, as in the caption. I didn't open the page.
+
+### Not found
+
+I did not check the Dubai cheesecake or the review's claims about the food. I also did not open the listing pages.

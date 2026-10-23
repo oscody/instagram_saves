@@ -40,3 +40,23 @@ Now they build prompts like software: modular, testable, and fast.
 Source: u/volodith
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Unresolved. The original Reddit post by u/volodith could not be found in two searches. The 94% success and 50% token-reduction figures are unverified self-reported claims. The advice itself is ordinary prompt-engineering guidance.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Key steps
+
+1. Keep it simple: give one clear goal.
+2. Easy to verify: state checkable success criteria (e.g. 'include 3 code examples').
+3. Reproducible: avoid time-relative wording; pin versions and exact requirements.
+4. Narrow scope: one prompt, one goal; split complex tasks.
+5. Explicit constraints: say what not to do (e.g. 'No external libraries. No functions over 20 lines.').
+6. Logical structure: context, then task, then constraints, then output format.
+7. Add a verification step to the prompt.
+8. Chain single-purpose prompts, feeding each output into the next.
+
+### Not found
+
+The Reddit post by u/volodith and any public copy of the 'KERNEL' or 'Voloditha' framework. The post's testing data (1,000 hours, 94% first-try success, half the tokens) has no source I could check. The vault notes listed don't cover this post.

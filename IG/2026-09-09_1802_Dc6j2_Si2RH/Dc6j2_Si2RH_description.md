@@ -31,3 +31,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #Dating
+
+## Research
+
+* Verdict: Partly valid. The reel is opinion-based dating advice with no resource to find. Its claims are generalizations about women, not facts. The user's own vault note already judges it as game-playing and skips it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this post under 'Weak or skip': game playing (less attention, shame, hiding wanting family). It conflicts with what the user wants (claude - dating - What I Am Looking For) and with women who said they want intentionality.
+
+### Not found
+
+No separate resource. The four books on screen are not named in the transcript or description, and I did not search, since this is opinion content.

@@ -60,3 +60,12 @@ That’s real engineering experience.
 I made a full training showing you how to build projects that actually impress employers, the same type of strategy that has helped engineers land over $1M in combined salary in the past three months.
 
 Comment “IMPRESSIVE” and I’ll send you the link
+
+## Research
+
+* Verdict: Promo. The post is mainly a lead-in to a paid training that is only sent after you comment "IMPRESSIVE". I found no public copy. The advice itself is common career guidance. The "$1M in combined salary" figure can't be checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The training link is sent only by comment or DM, and I did not search for a public copy. The vault had no notes on this post or creator.

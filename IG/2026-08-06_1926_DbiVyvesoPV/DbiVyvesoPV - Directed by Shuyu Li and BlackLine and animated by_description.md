@@ -22,3 +22,16 @@ Directed by Shuyu Li and BlackLine, and animated by Flint Sugar and Studio Tumbl
 𝗙𝗼𝗹𝗹𝗼𝘄 @mitsuzen 𝗬𝗼𝘂𝗿 𝗽𝗮𝗴𝗲 𝗳𝗼𝗿 𝗲𝘃𝗲𝗿𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝗮𝗻𝗶𝗺𝗲 𝗿𝗲𝗰𝗼𝗺𝗺𝗲𝗻𝗱𝗮𝘁𝗶𝗼𝗻𝘀, 𝗻𝗲𝘄𝘀, 𝗮𝗻𝗱 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗹𝗮𝘁𝗲𝘀𝘁 𝗿𝗲𝗹𝗲𝗮𝘀𝗲𝘀. 
 
 #anime #animenews #donghua #falsememories #donghuaedit
+
+## Research
+
+* Verdict: Valid. The news post is accurate. Anime Corner confirms the donghua False Memory, a Bilibili premiere in early August 2026 with three episodes released together, the same studios and the same synopsis.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Anime Corner: False Memory donghua trailer, premieres in August with three episodes (animecorner.me)](https://animecorner.me/false-memory-donghua-reveals-new-trailer-premieres-in-august-with-three-episodes/): page, found by search, verified, high confidence. Opened it. It gives Bilibili, three episodes together, Flint Sugar and Studio Tumble, and the Guan Chao, Burning Stone and Time Gun synopsis.
+
+### Not found
+
+The exact August 2 release date is only partly confirmed. Anime Corner lists the official X account as August 2 and the YouTube channel as August 4, probably for domestic versus overseas. I did not open the Bilibili page itself.

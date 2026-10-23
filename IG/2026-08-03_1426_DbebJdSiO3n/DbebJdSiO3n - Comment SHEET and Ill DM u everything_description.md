@@ -22,3 +22,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “SHEET” and I’ll DM u everything🫵🫪
+
+## Research
+
+* Verdict: Promo. The reel is a comment-to-get-DM funnel for a replica (counterfeit) goods seller spreadsheet. The material is only sent by DM and has no public copy. I did not search for it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The seller spreadsheet and discounts are only sent by DM after commenting "SHEET". No public copy was found or searched for. Replica designer goods are counterfeits, so buying them can mean legal, customs and quality risks.

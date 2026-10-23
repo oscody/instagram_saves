@@ -50,3 +50,29 @@ Should you copy other creators' hooks?
 How do you get views posting 1 day a week?
 
 #entrepreneur #business #sidehustle #ai #startup
+
+## Research
+
+* Verdict: Partly valid. The method is public on Blotato's blog and matches the reel, but the "full playbook" is gated behind a comment or DM. The "copy openers word for word" advice is plausible but rests on her own claims, and Blotato (her paid product) sells the tooling.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Blotato: Sabrina Ramonov 3 million followers (blotato.com)](https://www.blotato.com/blog/sabrina-ramonov-3-million-followers): page, found by search, verified, medium confidence. Describes the same copy-proven-openers-then-go-original plan over about a month, with daily posting.
+* [Blotato: Social media hooks (blotato.com)](https://www.blotato.com/blog/social-media-hooks): page, found by search, not opened, low confidence. Search snippet only: a hooks article from the same author, likely related; I did not open it.
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only mentions Sabrina Ramonov and a pending DM about teaching Claude Code. It has nothing on this playbook.
+
+### Key steps
+
+1. Pick one topic and commit to it for 30 days.
+2. Collect about 10–20 openers from top viral videos in your niche, written exactly as spoken.
+3. Post once a day for about 20 days, reusing the proven openers and adding your own story and proof.
+4. Around day 21, switch to your own original openers.
+5. Budget about 60 minutes a day. The method itself needs no paid tools.
+
+### Not found
+
+The exact "30-day playbook" sent after a BRAND comment or DM has no public copy that I found. I did not open the hooks article or the podcast page.

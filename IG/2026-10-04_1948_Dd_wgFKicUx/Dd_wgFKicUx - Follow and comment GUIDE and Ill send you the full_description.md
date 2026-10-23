@@ -50,3 +50,16 @@ What videos help with confidence, AI, and money mindset?
 What videos teach personal branding and how to start a business?
 
 #recommendations #perspective #mindset #psychology #ai
+
+## Research
+
+* Verdict: Unresolved. The post is a curated list of six YouTube videos. The full list is only sent by DM after you comment "GUIDE", and I found no public copy. The caption doesn't name the videos, so I couldn't identify them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Mentions sabrina_ramonov, her Instagram profile link and a pending DM about teaching Claude Code. It links to [[Sabrina Ramonov Youtube]]. It doesn't cover this video list.
+
+### Not found
+
+The six video titles and links. They are only in the DM guide, and the one web search I ran found nothing relevant. I didn't open the vault's "Sabrina Ramonov Youtube" note. The videos may be other creators' uploads rather than hers.

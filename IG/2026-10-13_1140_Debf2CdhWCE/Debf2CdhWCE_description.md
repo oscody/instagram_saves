@@ -50,3 +50,26 @@ Save this one for later.
 Comment “SAVE” for the link.
 
 #claudeai #claudecode #claude #claudetips
+
+## Research
+
+* Verdict: Partly valid. The repo exists and matches the post's install steps and benchmark numbers. The 42% saving is the best case: it compares against xhigh effort, uses only four mostly easy tasks, and ran on fresh API chats. The README says this itself.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [HeyCubit/effortless (github.com)](https://github.com/HeyCubit/effortless): repo, in the post, verified, high confidence. README describes a free MIT Claude Code plugin whose Haiku 5.5 judge picks the effort level, with the same install commands and the 21/29/42% savings and 12/12 correct answers.
+
+### Key steps
+
+1. In Claude Code, run: /plugin marketplace add HeyCubit/effortless
+2. Run: /plugin install effortless@effortless
+3. Run /reload-plugins or restart Claude Code
+4. Complete the short setup that appears above the prompt. The default judge uses your Claude login, so no API key is needed.
+5. Read the hooks/ folder before installing, because the mod runs code on your machine.
+6. Optional: add TypeSafe's Jev as a faster judge.
+7. Optional: the experimental cheaper-model routing switch is off by default.
+
+### Not found
+
+The comment-for-DM link isn't needed. The repo is public, and the post's own text gives the name HeyCubit/effortless.

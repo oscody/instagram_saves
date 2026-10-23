@@ -35,3 +35,12 @@ And before y’all start 😂 prices can always change depending on flights, hot
 Save this for the next time that group chat starts talking about “we need a trip.” 😂
 
 #CaribbeanTravel #TravelTips #Caribbean #IslandLife #FeteFinders
+
+## Research
+
+* Verdict: Partly valid. The post is a graphic of tips with no downloadable resource or link. The general idea holds: May to June and September to November are low or shoulder season for most of the Caribbean, so prices drop. I did not check the per-island month lists, and the caption itself says prices vary.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The per-island month list exists only in the post's slides, and I did not search for or verify it. Hurricane season (June to November) can affect September and October trips, and the post doesn't mention that.

@@ -23,3 +23,11 @@ Concepted in MidJourney. Developed with ChatGPT and Claude. Brought to life in S
 
 All cities. All styles.-Dr. Arcade.
 
+## Research
+
+* Verdict: Nothing to find. This is an AI-generated character reel, which is entertainment. The caption lists the tools used (MidJourney, ChatGPT, Claude, Seedance, CapCut) but gives no downloadable resource, prompt or guide.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did no searching, as the post is entertainment. The vault listing showed no matching notes, and I did not grep the vault separately. The post does not share prompts or a workflow.

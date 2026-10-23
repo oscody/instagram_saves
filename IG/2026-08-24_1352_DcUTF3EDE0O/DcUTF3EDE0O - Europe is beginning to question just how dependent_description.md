@@ -40,3 +40,25 @@ How much control should countries and individuals have over the technology, infr
 As more of modern life moves online, digital sovereignty may eventually become just as important as control over physical infrastructure.
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Partly valid. The post is a list of well-known privacy tools (Proton Mail, DuckDuckGo, Proton Drive, Brave, Firefox, Signal, LibreOffice, Organic Maps, OsmAnd). I did not search or open any of them this session. The "Europe is moving away" framing is a general trend claim, and the caption itself says Europe won't leave Big Tech soon.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Only a saved link to this post (@theaifield) in a list. It holds no steps or resource details.
+
+### Key steps
+
+1. Proton Mail: move your most sensitive email first.
+2. DuckDuckGo: set it as the default search engine in your browser settings.
+3. Proton Drive: use it for encrypted cloud storage, or keep sensitive files on a locally encrypted drive.
+4. Brave or Firefox: install one, import your bookmarks, then switch.
+5. Signal: move your most sensitive chats off WhatsApp and iMessage.
+6. LibreOffice replaces Microsoft Office. Organic Maps or OsmAnd replace Google Maps.
+
+### Not found
+
+I did not check the vendors' sites or the claim that European countries are moving away from Big Tech. The post gives no links.

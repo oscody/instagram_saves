@@ -90,3 +90,12 @@ Follow for more
 @isarahcn 
 @isarahcn 
 @isarahcn
+
+## Research
+
+* Verdict: Nothing to find. This is a generic self-improvement list. The first 20 items are fully in the caption. The last 10 are only sent by DM, with no keyword and no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Items 21-30 are only sent by DM, so there is no public copy. I did not search the web or the vault, because the post is general advice and not a specific resource.

@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 Armanii is never going to disappoint you 🔥
 
 Which songs are you playing first?
+
+## Research
+
+* Verdict: Nothing to find. The reel is a summer playlist of dancehall and afrobeat songs, with Armanii's "NEW TINGZ" as the first pick. It has no tool, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

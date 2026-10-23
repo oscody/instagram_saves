@@ -68,3 +68,16 @@ The goal isn’t to impress each other—it’s to understand each other.
 40. What story best explains who you are today?
 
 Great conversations help people feel seen, heard, and understood. ✨❤️
+
+## Research
+
+* Verdict: Nothing to find. The post is a list of conversation questions, and the caption holds the whole list. There is no separate resource to look up. The caption numbers 50 questions but prints only 40.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this reel under deep questions that work better in person than over text, with its rule: understand each other, don't impress. Also lists related question reels, including the same creator's '50 questions that reveal everything'.
+
+### Not found
+
+Questions 41–50 are not in the caption. I did not search for them, since the post has no linked resource.

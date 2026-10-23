@@ -32,3 +32,17 @@ Industry experts predicted this moment was 5-10 years away. It arrived yesterday
 What are your thoughts on this?🤔💬
 
 #higgsfieldpartner
+
+## Research
+
+* Verdict: Partly valid. Arena Zero is a real Higgsfield series with an episode 1 page. I found no public source for the $1M likeness deal, Adil as its star, or "first full-length AI series". It is a #higgsfieldpartner promo post.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Higgsfield Original Series (Arena Zero) (higgsfield.ai)](https://higgsfield.ai/original-series): page, found by search, verified, medium confidence. The page lists Arena Zero with an episode 1 link, but it names no cast, no Adil and no $1M deal.
+* [Higgsfield launches crowdsourced AI TV pilot (GamesBeat) (gamesbeat.com)](https://gamesbeat.com/higgsfield-launches-crowdsourced-ai-tv-pilot-where-influencers-are-ai-film-stars/): page, found by search, not opened, low confidence. A search snippet describes Arena Zero as a pilot and describes Higgsfield's likeness licensing framework. I did not open the page.
+
+### Not found
+
+I found no public confirmation of the $1M figure, of Adil's likeness being used in Arena Zero, or of "first full-length AI series". One LinkedIn snippet says Adil Alimzhanov is a former bartender who now works at Higgsfield and starred in a different AI film, Hell Grind. Arena Zero looks like a pilot, not a full-length series.

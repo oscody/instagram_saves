@@ -26,3 +26,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Your Attack Speed Is Lagging Everyone!
+
+## Research
+
+* Verdict: Partly valid. The post teaches a sound, standard netcode technique (send a shared-data ID plus the changing values), but it points to no downloadable resource. I couldn't find the creator's own code.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Projectile Replication (Roblox DevForum) (devforum.roblox.com)](https://devforum.roblox.com/t/projectile-replication/62516): page, found by search, not opened, low confidence. It describes a related approach: send only start conditions and let each client build the projectile locally. I didn't open it, and it doesn't mention spec hashes.
+
+### Not found
+
+The creator's (taori_dev) code, repo or game was not found. The vault has no notes on this post or creator. I didn't open the creator's Instagram profile or any external page.

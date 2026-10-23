@@ -38,3 +38,26 @@ The right prompt can help you work smarter, create faster, learn better, and get
 🔥 Follow for daily ChatGPT prompts, AI tools & useful AI hacks.
 
 #ChatGPT #ChatGPTPrompts #AI #AITips #PromptEngineering AItools ArtificialIntelligence Productivity TechTips ArtificialIntelligence ChatGPT ClaudeAI AIPrompts AIAutomation GenerativeAI Midjourney AITools PromptEngineering ChatGPT4 AICommunity FutureOfTech AIGenerated AIAgents AITricks TechTrends AIContent MachineLearning Innovations DigitalTransformation AITools2026 ChatGPTTricks OpenAI Anthropic AIWorkflow TechUpdates ProductivityTools AITech AIForBusiness TechCommunity
+
+## Research
+
+* Verdict: Partly valid. The prompts are given in the post and in your vault, and they run fine. The premise that a birth date alone gives a real psychological map is not supported. The "1K+ Premium Prompts" pack is a comment-for-DM lead magnet.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/prompts - self discovery from birth date.md`: Index note with the post link, linking to four prompt notes (life map, shadow work, life purpose path, self-care guide).
+* Vault: `ZAIHub/prompts - personalized life map from date of birth.md`: Verbatim life-map prompt, the evidence check (Carlson 1985, Forer effect), and a test of the prompt against your own vault. The test found the birth date added nothing beyond generic Barnum-style statements.
+
+### Key steps
+
+1. Paste the prompt into ChatGPT with your date in place of [DD/MM/YYYY].
+2. Life map: ask for strengths, challenges, values, decision style, emotional needs and contradictions, then 5 strengths, 5 challenges and 3 questions.
+3. Shadow work: ask for blind spots, defense mechanisms and sabotage patterns, each with trigger, reaction, underlying need and how to break it.
+4. Life purpose: ask for 3 possible paths, each with what it brings, what you'd sacrifice, its biggest risk and how to test it.
+5. Self-care: ask for a plan that separates what recharges, stabilizes and grows you, with daily, weekly and monthly layers and an overwhelm protocol.
+6. Treat the output as a reflection aid only. For better results, replace the date with real facts about yourself.
+
+### Not found
+
+The full prompt pack ("1K+ Premium Prompts") is only sent after a comment, so there is no public copy. I did no web search because the vault already covers the four prompts shown in the post.

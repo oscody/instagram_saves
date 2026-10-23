@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 Femi Anikulapo Kuti discusses the impact of colonial legacies in Africa, arguing that some individuals who participated in the slave trade were later empowered by colonial authorities after independence. He further reflects on how leaders who challenged colonial interests and policies were often removed or overthrown, calling for the dismantling of colonial structures that continue to influence African societies.
 
 #Africa #africaaware #decolonization #fela #black
+
+## Research
+
+* Verdict: Nothing to find. This is a short opinion clip of Femi Kuti speaking about colonial legacies. It has no tool, guide or other resource, and the vault has no matching notes. I did not search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The original full interview the clip comes from. I did not look for it because the post offers no resource.

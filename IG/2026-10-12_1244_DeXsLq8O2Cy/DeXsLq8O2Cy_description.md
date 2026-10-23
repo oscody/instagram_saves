@@ -33,3 +33,12 @@ Written by claude-haiku-5-5.
 Comment “FACE” and I’ll send it over to you 👇
 
 #ai #claude #looksmaxxing #chatgpt
+
+## Research
+
+* Verdict: Unresolved. The prompt is only sent by DM after you comment "FACE", and I found no public copy. A selfie scored out of 10 by Claude is an entertainment-style rating, not a validated measurement.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The exact prompt text. It is gated behind a comment and follow, and I ran no web search for it. The vault has no note on this post. The vault notes listed for @avigrondin cover Claude chat privacy, not this prompt.

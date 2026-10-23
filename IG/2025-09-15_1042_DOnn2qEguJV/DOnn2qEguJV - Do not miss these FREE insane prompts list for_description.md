@@ -27,3 +27,16 @@ Written by claude-haiku-5-5.
 ‼️Do not miss these FREE insane prompts list for Nano-Banana.
 
 #ai #prompts #nanobanana
+
+## Research
+
+* Verdict: Valid. The prompts are in the post itself and work as described. The red-arrow map prompt matches a public gallery entry. Results vary by location.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Awesome Nano Banana images (prompt gallery mirror) (git.frytea.com)](https://git.frytea.com/songtianlun/awesome-prompts/src/commit/d9c8433636939782f5de8ad5d056be4d60ec693a/docs/nano-banana/awesome-nano-banana-images.en.md): page, found by search, not opened, medium confidence. Search result snippet lists the 'draw what the red arrow sees' prompt and a Map to Isometric Buildings case; I did not open the page.
+
+### Not found
+
+I didn't open the gallery page. I found no public source for the exact 'Make Image Daytime and Isometric' wording, the 1970s era prompt, or the pink BMW example. No vault note covers this post.

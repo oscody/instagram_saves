@@ -36,3 +36,19 @@ Here are 4 Claude prompts that build your escape plan from trading time for mone
 - Optimize existing AI tools with a consistent prompt library
 
 Comment “CLAUDE” to learn prompt engineering for free 🎁
+
+## Research
+
+* Verdict: Partly valid. The four prompts are fully described in the post, so you can use them as they are. The "free AI guide" is only sent after a comment, and "Claude can think like Tim Ferriss" is just prompt framing, not a new Claude feature. I did not search for a public copy of the guide.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Prompt 1 (unfair advantage): give Claude your skills, interests, experience and personality. Ask it to apply 80/20 to find the 20% of skills that drive 80% of your results. Ask for rare skill combinations, the market premium each could command, and a ranking by income potential and lifestyle fit.
+2. Prompt 2 (leverage gaps): give Claude what you do and how you earn. Ask it to apply DEAL (Define, Eliminate, Automate, Liberate) and to separate tasks only you can do from tasks that can be outsourced or automated. Ask it to map a muse business or scalable income stream and build a plan that frees at least 10 hours a week.
+3. Prompt 3 (career trajectory): give Claude your role, income structure and weekly hours. Ask it to classify each activity as freedom-building, skill-building or a time-for-money trap. Ask for a freedom ratio, fear-setting (the realistic worst case of changing versus staying), and a 5-year comparison of the current path against a redesigned one.
+4. Prompt 4 (wealth strategy): give Claude your background, skills and ideal lifestyle. Ask it to identify your highest-leverage skills and fitting muse business models, then map scalable streams (productized services, digital products, licensing, equity). Ask for a 10-year roadmap (years 1-2 launch, 3-5 automation, 6-10 ownership) and one 90-day move that needs no permission.
+
+### Not found
+
+I did not search for the free guide. It is only sent after commenting "CLAUDE" on the post, and I did not look for a public copy. The vault has no note on this post. The only match was a Gmail label list that mentions godofprompt.

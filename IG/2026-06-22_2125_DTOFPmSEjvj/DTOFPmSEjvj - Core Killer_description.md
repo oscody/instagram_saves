@@ -37,3 +37,12 @@ If you want a no-gym plan that actually reveals your abs,
 📩DM “SHREDS” for 1:1 coaching 
 
 #fitness #homeworkout #core
+
+## Research
+
+* Verdict: Nothing to find. A short bodyweight core circuit with all exercises listed in the post. The only extra is a 1:1 coaching DM offer, and I found no separate resource to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I didn't search. The "SHREDS" coaching and the programs in the bio are paid or DM-only offers, and I didn't check them.

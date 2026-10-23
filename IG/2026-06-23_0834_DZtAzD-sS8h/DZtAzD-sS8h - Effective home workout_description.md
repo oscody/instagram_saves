@@ -26,3 +26,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Effective home workout🔥
+
+## Research
+
+* Verdict: Nothing to find. This is a short home workout demo with no separate resource. The four moves and rep counts are already in the post's own description.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No search done. The post links to no resource. The "fat-burning" framing is a general claim that the post gives no evidence for. Exercise doesn't burn fat from one body area.

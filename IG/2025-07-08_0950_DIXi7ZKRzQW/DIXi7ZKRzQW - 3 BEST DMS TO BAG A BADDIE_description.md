@@ -28,3 +28,12 @@ Written by claude-haiku-5-5.
 3 BEST DMS TO BAG A BADDIE!!! 
 
 #reels #igreels #trend #trending #viral #explore #explorepage #tiktok #tiktokers #relatable #foryoupage #edenfromli
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy/dating-advice skit from an entertainment creator. It offers DM lines and no resource. The claim that you can see who is "watching you" through the share menu isn't a real Instagram feature.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No resource exists. I didn't search, and the vault had no matching notes.

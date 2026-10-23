@@ -67,3 +67,12 @@ Comment COACHING if you’re ready for accountability, structure, and a plan des
 Save this so you don’t forget it tonight.
 
 Follow @iamtherealdp for more no-excuses fat loss strategies.
+
+## Research
+
+* Verdict: Partly valid. The post is a coaching promo built around a simple home recipe with no resource to find. The post itself hedges ("not magic"), and evidence that apple cider vinegar causes meaningful belly fat loss is weak.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists. The coaching offer is only available by commenting COACHING. I did no web search, so the health claim is judged from general knowledge and not checked against sources.

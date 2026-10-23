@@ -53,3 +53,25 @@ Save this — every dev using AI in production needs this. 🔖
 Follow for more.
 
 #GitNexus #ClaudeCode #Cursor #OpenSource #AIEngineering DeveloperTools MCP CodeIntelligence SoftwareDev TechNews
+
+## Research
+
+* Verdict: Partly valid. GitNexus is real and does what the post says (graph, blast-radius, MCP). But it is not "100% open source": the license is PolyForm Noncommercial, and the star count is now ~48k, not 9.4K. `analyze` only indexes; you also need `setup` or an MCP add for the agent to use it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [GitNexus (abhigyanpatwari/GitNexus) (github.com)](https://github.com/abhigyanpatwari/GitNexus): repo, found by search, verified, high confidence. README describes a codebase knowledge graph of dependencies and call chains exposed to agents via MCP, with `npx gitnexus analyze` setup.
+
+### Key steps
+
+1. From the repo root run: npx gitnexus analyze (builds the graph in .gitnexus/, may add AGENTS.md/CLAUDE.md and skills).
+2. Run: npx gitnexus setup (auto-detects Claude Code, Cursor, etc. and writes the MCP config). Optionally install globally first: npm i -g gitnexus, to avoid slow npx startup.
+3. Or add manually for Claude Code: claude mcp add gitnexus -- npx -y gitnexus@latest mcp
+4. For Cursor, add to ~/.cursor/mcp.json: {"mcpServers":{"gitnexus":{"command":"npx","args":["-y","gitnexus@latest","mcp"]}}}
+5. Ask your agent to use the MCP tools such as query, context, impact (blast radius) and detect_changes before editing.
+6. Check the PolyForm Noncommercial license before using it in commercial work.
+
+### Not found
+
+Did not read the last ~20k characters of the README. No Windsurf manual config snippet seen. The claim that GPT-4o-mini stops breaking call chains was not checked.

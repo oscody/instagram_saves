@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 GYAL BRUCKOUT DANCEHALL MIX PT2… PT 3 LOADING. Full MIX AVAILABLE IN BIO
+
+## Research
+
+* Verdict: Nothing to find. This is a music reel: a DJ mix teaser. The full mix is only pointed to "in bio", and there is no resource or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not search for the full mix link. The post says it is in the creator's bio, on YouTube and SoundCloud.

@@ -43,3 +43,17 @@ and this is every step you need.
 comment “future u” to get a free plan for your dream career.
 
 #aiengineering #computerscience #techjobs #aijobs
+
+## Research
+
+* Verdict: Partly valid. The roadmap is a sound, generic outline of AI engineering topics, and the linked tools exist. The post is mainly a comment-to-get lead magnet, and the "free plan" is not public.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [OpenAI Playground (platform.openai.com)](https://platform.openai.com/playground): tool, in the post, not opened, medium confidence. This is the source link listed in the post. WebFetch returned 403, so I could not open it and match it to the post.
+* [Python Tutorial - Python Full Course for Beginners (Programming with Mosh) (youtube.com)](https://www.youtube.com/watch?v=_uQrJ0TkZlc): video, found by search, not opened, medium confidence. Third-party lists give this URL for Mosh's full Python course, which matches the post. I did not open it on YouTube.
+
+### Not found
+
+The "future u" free plan is sent only after a comment or DM, and I found no public copy. The OpenAI Playground page returned 403, so I did not open it. I did not open the YouTube video either.

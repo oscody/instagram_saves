@@ -35,3 +35,17 @@ do NOT listen to developers that have never shipped a product… LEARN how to op
 YOU CANNOT SCALE WITH VERCEL🚨
 
 #ai #vibecoding #aiagents #aiagent #coding
+
+## Research
+
+* Verdict: Partly valid. This is an opinion post with no resource to find. The claim is overstated. Vercel does bill serverless usage, but a VPS is not always cheaper or better, and you take on the ops and security work yourself.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Checked the vault: no notes mention this post or its creator.
+2. No web search was run. The post is an opinion with no named resource.
+
+### Not found
+
+There is no linked resource. I did not check current Vercel pricing, so the cost claim is unverified.

@@ -22,3 +22,18 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment 'GENERATE' and I'll send it over.
+
+## Research
+
+* Verdict: Unresolved. The two skills are only sent after a "GENERATE" comment. I found no public copy and no vault note covering them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Comment 'GENERATE' on the reel (instagram.com/reel/Dax-38bjV8R/) to get the skills from nateherkai.
+2. Searched the vault for 'Banana Pro Director', 'Cinema World Builder' and 'nateherkai': no matches.
+3. Web search for both skill names with Nate Herk returned nothing relevant.
+
+### Not found
+
+No public copy of Banana Pro Director or Cinema World Builder turned up. I didn't check Nate Herk's Skool community or his YouTube descriptions, which may host them.

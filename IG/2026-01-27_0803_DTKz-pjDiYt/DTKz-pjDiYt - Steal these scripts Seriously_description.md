@@ -30,3 +30,19 @@ This is what actually worked for me after sending hundreds of DMs with no replie
 Voice notes → coffee chats → referrals ✅
 
 Let me know if you want part 2!
+
+## Research
+
+* Verdict: Partly valid. It's a personal-experience tip with no downloadable resource; the scripts are only described in the video. The outcome (six-figure offer) is anecdotal and can't be checked, though voice-note outreach is a plausible tactic.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Key steps
+
+1. Find one specific thing you share with the person (industry, school, city) and open with it.
+2. Be honest: say what you're struggling with and why you're sending a voice note.
+3. Skip generic openers like 'Hope you're doing well'. Start with an unexpected hook, e.g. typing this felt awkward so I'm sending a voice note.
+4. Aim for a coffee chat first, then ask for a referral.
+
+### Not found
+
+No public copy of the full scripts. The creator offered a part 2 only if people ask. I didn't search the web, because the post is a how-to with nothing public to find.

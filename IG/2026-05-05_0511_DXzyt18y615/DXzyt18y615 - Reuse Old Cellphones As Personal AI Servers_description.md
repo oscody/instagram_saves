@@ -25,3 +25,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Reuse Old Cellphones As Personal AI Servers
+
+## Research
+
+* Verdict: Unresolved. The creator's specific setup (case, software, multi-phone task splitting) wasn't found publicly. The general idea of running a small LLM on an old Android phone is real and has public tools.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [OlliteRT (NightMean) – Android phone as local LLM API server (github.com)](https://github.com/NightMean/OlliteRT/wiki): repo, found by search, not opened, low confidence. Similar concept (old Android phone as an OpenAI-compatible LLM server), but not shown to be what the creator used.
+
+### Not found
+
+The creator's own repo, site, case design and multi-phone scheduler weren't found. Searches for cjtrowbridge turned up nothing, and the vault has no notes on the creator. The post may only show the idea, with no public resource.

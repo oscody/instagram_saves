@@ -28,3 +28,17 @@ When Germans arrived and took control of the region in 1916, some tried to claim
 This is the story they don’t teach enough.
 
 #Africanhistory #cameroon #blackhistory #truthmatters #blackexcellence
+
+## Research
+
+* Verdict: Partly valid. The core facts hold: Njoya created the Bamum script, which was reduced from about 500 signs to about 80, and he built the Foumban palace. The 1916 German claim is wrong, because Germany lost Cameroon in 1916, and it was the French who later suppressed the script.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Ibrahim Njoya (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Ibrahim_Njoya): page, found by search, not opened, medium confidence. The search result for the topic covers Njoya, his script and the Bamum kingdom. I did not open the page.
+* [Foumban Royal Palace (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Foumban_Royal_Palace): page, found by search, not opened, medium confidence. The search summary says the palace was built in 1917 and is still the king's residence. I did not open the page.
+
+### Not found
+
+I did not open any source page, so the details come from search summaries. I did not check the claims about the comic-style illustrations or the German attempts to credit Njoya's work to German influence.

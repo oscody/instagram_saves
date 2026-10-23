@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 She got him spitting facts 😝😀 #Everyone does he have a point?
+
+## Research
+
+* Verdict: Nothing to find. The reel is an opinion rant about dating and money, posted as engagement bait. It has no resource, tool or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

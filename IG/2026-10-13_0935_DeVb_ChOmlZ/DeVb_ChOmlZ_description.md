@@ -40,3 +40,18 @@ Every build detects or communicates. Nothing targets. Defense sensing, reconnais
 Follow @1nska if you’re building the future, not just studying for it.
 
 #engineering #defensetech #sensors #engineeringstudent #buildinpublic
+
+## Research
+
+* Verdict: Unresolved. The material is sent only after commenting 'SENSE' on the reel, and I found no public copy. The projects are plausible hobby builds, but I could not check the parts costs or the "free" offer.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Comment 'SENSE' on the reel (https://instagram.com/reel/DeVb_ChOmlZ/) to get the material from @1nska.
+2. Laser warning receiver (from the post): put six photodiodes in a ring, each feeding a fast AC-coupled amplifier so sunlight is ignored and laser pulses are caught. The sector hit by a pointer lights up.
+3. Underwater acoustic modem (from the post): use two potted piezo transducers, one emitting a tone for 1 and one for 0, and a detector that reads the bits.
+
+### Not found
+
+No public copy of the build guide, BOMs or schematics. A web search for the creator and project names returned nothing relevant, and the vault has no notes on this post or creator. I did not check the $35, $40 and $60 parts costs.

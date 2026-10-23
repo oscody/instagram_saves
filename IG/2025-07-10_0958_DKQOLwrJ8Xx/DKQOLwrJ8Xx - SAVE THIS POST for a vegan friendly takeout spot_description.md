@@ -30,3 +30,16 @@ If you’re in the area be sure to check them out for tasty vegan food!🌱
 📍 881 10th Ave, New York (open daily til 9pm)
 
 #nycvegan #nycveganeats #vegannyc #newyorkcity #nyceats #vegansofig #vegansofinstagram #nycblogger #vegan #plantbased #plantbasednyc #newyorknewyork #newyorklocals #newyork_instagram #newyork_ig #nycfoodie #veganfoodie #centralpark
+
+## Research
+
+* Verdict: Valid. Plant Blossom exists at 881 10th Ave and listings show it as vegan and vegetarian with hours up to 9pm, as the post says. I didn't open any listing page, and I didn't check the menu items or the "10-minute walk" claim.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Plant Blossom, 881 10th Ave (WhereYouEat listing) (whereyoueat.com)](https://whereyoueat.com/Plant-Blossom-28298.html): page, found by search, not opened, medium confidence. The search snippet shows the same address, vegetarian cuisine and hours of 11am to 9pm. The site says its data may be outdated.
+
+### Not found
+
+I couldn't open the restaurant's own site or menu to confirm the dishes the poster named (satay skewers, Beyond cheesesteak garlic sub, Beyond vegan burrito). Opening hours came only from third-party listings.

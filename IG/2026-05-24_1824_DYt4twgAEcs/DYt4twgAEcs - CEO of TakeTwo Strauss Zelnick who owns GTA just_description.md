@@ -34,3 +34,17 @@ The bottleneck has never been tools. It has been originality. And clones, he sai
 What are your thoughts on this? 🤔💬
 
 🎥: @davidsenra
+
+## Research
+
+* Verdict: Valid. Several game-news outlets report the same Zelnick remarks from David Senra's podcast, and they match the post's claims. I only saw search summaries and did not open the podcast or any article.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [80.lv: Take-Two CEO says AI will not make it easier to create hits (80.lv)](https://80.lv/articles/take-two-ceo-says-ai-will-not-make-it-easier-to-create-hits): page, found by search, not opened, medium confidence. The search summary says Zelnick, speaking on Senra's podcast, argued AI is backward-looking, is good at assets but not hits, and that clones don't sell.
+* [Shacknews: Hits are created by genius (shacknews.com)](https://shacknews.com/article/135544/take-two-ceo-ai-games-quote): page, found by search, not opened, medium confidence. Second outlet covering the same Zelnick AI remarks.
+
+### Not found
+
+I did not open the original David Senra podcast episode or any article. I did not read the vault note that mentions the creator, which looks unrelated.

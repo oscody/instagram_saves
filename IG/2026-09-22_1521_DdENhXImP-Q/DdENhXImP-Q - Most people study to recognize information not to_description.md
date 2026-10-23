@@ -40,3 +40,12 @@ Study less passively. Recall more actively.
 Save this for your next study session and follow @passionateincome for more.
 
 #Learning #Productivity #SelfGrowth
+
+## Research
+
+* Verdict: Partly valid. Active recall is a well-supported study technique (retrieval practice research), and the steps are sound. The cover claim that Japan banned a method is not backed by the caption or slides, and I didn't check it, so treat it as clickbait.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No downloadable resource exists; the post is a self-contained how-to. I did not search the web or the vault beyond the supplied results, and I did not check the Japan ban claim.

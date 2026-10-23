@@ -37,3 +37,12 @@ You can save those instructions in Claude’s preferences so they carry into fut
 It still won’t make hallucinations disappear, but it makes the weak parts of an answer much easier to spot.
 
 👉 Follow @uncover.ai to stay updated with the latest AI news
+
+## Research
+
+* Verdict: Partly valid. The post is a how-to whose steps and prompt are fully in the post itself. Custom instructions in Claude settings are a real feature. The prompt can't remove hallucinations, and the post admits this. Confidence tags are self-reported by the model, so they aren't reliable evidence. I did not open Claude's settings or search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No public copy of the prompt beyond the post itself. I did not search the web or verify the settings path in the current Claude UI.

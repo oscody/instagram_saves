@@ -22,3 +22,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Looks like I gotta do the 55 passenger instead of the 40 hmmm #biancaandthecity #waterparktrip #funplexafterdark
+
+## Research
+
+* Verdict: Promo. The post is a promo for a paid group trip ($180 per person) to Funplex on Aug 21, 2026. Details go only to people who comment. I did not search, and the date has already passed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No public copy of the trip details. They are sent only to commenters. The event date (Aug 21, 2026) is already over. I did not search the web or check the vault beyond the note's "none found" result.

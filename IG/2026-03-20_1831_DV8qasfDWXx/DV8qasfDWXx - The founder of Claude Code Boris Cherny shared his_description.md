@@ -69,3 +69,26 @@ Drop this file in your project root:
 This is how top engineers ship 10x faster from the terminal.
 
 Comment “MD” to get the full file.
+
+## Research
+
+* Verdict: Partly valid. A public copy of this CLAUDE.md exists, but it's a third-party reconstruction, not a file Boris Cherny published. The post's "his personal file" framing is overstated, and the comment-for-file gate isn't needed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Claude Code creator workflow CLAUDE.md (MindWired AI) (mindwiredai.com)](https://mindwiredai.com/2026/03/25/claude-code-creator-workflow-claudemd/): guide, found by search, verified, medium confidence. Page shows a CLAUDE.md with Workflow Orchestration, Task Management and Core Principles (Simplicity First, No Laziness, Minimal Impact), labelled 'reconstructed from his public sharing'.
+* [InfoQ: Claude Code creator workflow (infoq.com)](https://infoq.com/news/2026/01/claude-code-creator-workflow/): page, found by search, not opened, medium confidence. Search snippet says Cherny describes teams keeping a CLAUDE.md in git to log mistakes (about 2.5k tokens); it did not confirm the wording of this file. I did not open it.
+
+### Key steps
+
+1. Create CLAUDE.md in your project root.
+2. Add a Workflow Orchestration section: plan mode for tasks of 3+ steps, subagents for research, a self-improvement loop, verify before done, demand elegance, and autonomous bug fixing.
+3. Add a Task Management section: write the plan to tasks/todo.md, check in before starting, track progress, summarize changes, add a review section, and update tasks/lessons.md after corrections.
+4. Add Core Principles: Simplicity First, No Laziness (find root causes), Minimal Impact.
+5. Create the tasks/ folder with todo.md and lessons.md, and have Claude review lessons.md at session start.
+6. Edit the rules to fit your repo. Anthropic's own advice is to keep CLAUDE.md short.
+
+### Not found
+
+I did not find Boris Cherny's original Threads or X post, and nothing confirms the 33-rule file is his verbatim file. The MindWired text may differ from the carousel's wording.

@@ -48,3 +48,21 @@ Directions:
 4. Shape into hash browns and place onto a parchment lined baking sheet and freeze for about 15 minutes to help it firm up or refrigerate for about 30 minutes. 
 5. Preheat the oven to 350 degrees F. Heat oil on a pan and fry until lightly golden on both sides. Transfer to the oven and finish cooking through, about 10-15 minutes. Enjoy! 💚
 
+## Research
+
+* Verdict: Valid. The post is a recipe, and the full recipe is written in the caption. It's partly a MyFitnessPal partner post, but the recipe is plausible and stands on its own.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Ingredients (makes about 6-7): 4 green plantains, 1 ripe plantain, 2 tsp onion powder, 1 tsp sea salt, 2-3 tbsp oil.
+2. Peel and grate the green plantains. Rinse and squeeze out the excess starch.
+3. Grate the ripe plantain and mix it in. It binds the mixture.
+4. Add salt, onion powder and any other spices. Toss gently and don't overmix.
+5. Shape into patties on a parchment-lined sheet. Freeze about 15 minutes, or refrigerate about 30.
+6. Preheat the oven to 350°F. Fry in oil until lightly golden on both sides.
+7. Finish in the oven for 10-15 minutes. Top with avocado, egg and green onion if you like.
+
+### Not found
+
+I did not search the web or the vault. The caption already has the full recipe, and I found no vault notes for this post.

@@ -28,3 +28,24 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Someone pet him 😭
+
+## Research
+
+* Verdict: Partly valid. The creator's own code wasn't found, and the dog is likely a SunFounder PiDog, which is my guess and not confirmed. The directional head touch sensor it uses supports the idea in the post, but the post is mostly a story. The timer values are the creator's own.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [SunFounder PiDog – Dual Touch (head sensor) docs (docs.sunfounder.com)](https://docs.sunfounder.com/projects/pidog/en/latest/python/py_b12_dual_touch.html): guide, found by search, not opened, low confidence. The page describes a head touch sensor that returns L, R, LS, RS or N, with swipes for direction. That fits the 'back to front petting' step, but I only saw it in search results, and nothing ties it to this creator's robot.
+
+### Key steps
+
+1. Read the head sensor in a loop with dog.dual_touch.read(). It returns N, L, R, LS or RS.
+2. Treat any touch as a pet and store the time of the last pet.
+3. Each loop, compute the time since the last pet. About 1s: head tilt. About 4s: whine. About 7s: growl.
+4. Ignore plain L or R taps for resetting the timer. Only count a swipe (LS or RS) as a real pet.
+5. Make a back-to-front swipe add a 30-second delay before the neediness starts.
+
+### Not found
+
+The creator's code or project page. Nothing was found for prettywiredbuilds or a robot named Pixel. The robot model is unconfirmed.

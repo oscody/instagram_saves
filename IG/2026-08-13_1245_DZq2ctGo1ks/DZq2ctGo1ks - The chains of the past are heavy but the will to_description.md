@@ -32,3 +32,8 @@ The silence in this scene is louder than any scream. It captures the sheer agony
 🎯 Follow @scene.byte and @clips.byte for the most iconic movie moments!
 A fight for freedom that will never be forgotten.
 #TheUndergroundRailroad #BarryJenkins #MustWatchSeries #PowerfulCinema #CinematicMoments
+
+## Research
+
+* Verdict: Nothing to find. This is a movie-clip reel promoting The Underground Railroad (2021, Barry Jenkins, Prime Video). It has no tool, guide or other resource to extract. I did not search or check the details.
+* Checked: 2026-10-22 by claude-sonnet-5-5

@@ -21,3 +21,12 @@ Written by claude-haiku-5-5.
 2. Caramel and powder blue look good, but adding olive makes the outfit look elevated.
 3. Charcoal, gray and ivory work, but adding yellow makes the outfit more vibrant.
 4. Powder blue looks beautiful, and adding more olive makes it look richer.
+
+## Research
+
+* Verdict: Nothing to find. A short fashion-tip reel about colour pairings. It has no external resource, and the tips are style opinions that can't be fact-checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource to find. I did not search the web or the vault, and the post names no tool, product or link.

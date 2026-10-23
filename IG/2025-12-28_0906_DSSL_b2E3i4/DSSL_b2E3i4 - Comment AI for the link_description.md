@@ -34,3 +34,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “AI” for the link
+
+## Research
+
+* Verdict: Valid. Career Dreamer is a real Google tool from Grow with Google, and its official page matches the post's description. The link is public, so you don't need to comment to get it.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Career Dreamer (Grow with Google) (grow.google)](https://grow.google/career-dreamer/): tool, found by search, verified, high confidence. The official page describes an AI career exploration tool that creates a Career Identity Statement and suggests career paths, matching the reel.
+
+### Not found
+
+I didn't open the tool itself, so I couldn't check the salary, day-in-the-life or Google AI skills sections shown in the reel. The page says the tool is US-only. It doesn't state a price, but it describes the tool as free to try. The vault notes listed only mention the creator, not this tool.

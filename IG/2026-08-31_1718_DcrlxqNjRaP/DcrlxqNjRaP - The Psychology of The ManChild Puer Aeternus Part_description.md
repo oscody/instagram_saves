@@ -109,3 +109,12 @@ Don’t save this and tell yourself you’ll come back later.
 That’s kind of the whole point.
 
 #PuerAeternus #CarlJung
+
+## Research
+
+* Verdict: Unresolved. The post points to two resources (Ordinary Man Project, 14-Day Discipline Game) linked only in the creator's bio, and I found no public copy or link for them. The puer aeternus idea is real Jungian/von Franz material, but the post is mostly a funnel to those products.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The bio link, the Ordinary Man Project and the 14-Day Discipline Game were not found. The search results showed unrelated products (an "Ordinary Men's Project" on Skool and a Gumroad 14-day challenge by a different seller), and I didn't open or match them. The YouTube video under @hellocategg was not checked.

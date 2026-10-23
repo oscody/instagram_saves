@@ -67,3 +67,12 @@ Written by claude-haiku-5-5.
 48. What’s one truth about you that surprises people?
 49. What would make you walk away from a relationship?
 50. Do our values actually align?
+
+## Research
+
+* Verdict: Nothing to find. The post is a self-contained list of 50 dating questions in the caption. There is no external resource, and the claim that the questions "reveal everything" is opinion.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Links this reel under 'Screening for compatibility' (non-negotiables, conflict, kids, marriage, money). Also links the creator's related '50 deep questions to ask on a date' reel.

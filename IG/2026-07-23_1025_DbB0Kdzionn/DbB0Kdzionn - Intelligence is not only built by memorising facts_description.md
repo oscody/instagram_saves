@@ -28,3 +28,12 @@ Written by claude-haiku-5-5.
 Intelligence is not only built by memorising facts. Challenging your usual routines can encourage curiosity, flexible thinking and stronger problem solving. Try reading a conclusion first, learning an unfamiliar subject or writing briefly with your opposite hand to see ideas from a fresh angle. 🧠✨
 
 You can also practise defending a viewpoint you disagree with or spend quiet time reflecting without distractions. These habits will not instantly make someone a genius, but they may help break repetitive thinking, expose personal biases and develop a more adaptable mind. 💭📚
+
+## Research
+
+* Verdict: Partly valid. The post is a listicle of habits with no linked resource. The caption itself says they won't make anyone a genius. The carousel's neuroscience claims (theta waves from darkness, "new neural pathways" from using your other hand) are overstated and have little direct evidence.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+There is no linked resource. I did not search the web, because the post is a general self-improvement list. The vault had no matching notes.

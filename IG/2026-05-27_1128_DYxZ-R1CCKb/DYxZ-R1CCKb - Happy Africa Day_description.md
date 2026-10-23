@@ -31,3 +31,20 @@ This felt less like making a recommendation list and more like opening a door I 
 If you have more favourites rooted in African myth, folklore or history, leave them below so we can keep the list growing 🩷
 
 #readafricanmonth #africanliterature #africanmythology #fantasybooks #scifibooks
+
+## Research
+
+* Verdict: Nothing to find. The post is a book recommendation list with no single resource to retrieve. The books named in the description (Legacy of Orisha, Beasts trilogy, The Gilded Ones) are real published series. I couldn't find a public copy of the full list.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [20 Must-Read African Fantasy Novels (Book Riot) (bookriot.com)](https://bookriot.com/african-fantasy-novels/): page, found by search, not opened, low confidence. A similar public list of African-inspired fantasy, not the creator's own list. I saw it only in search results and did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Links this post under 'From my IG saves' as 'Fantasy books inspired by African myth', next to the African mythology book recs reel and other African-story saves.
+
+### Not found
+
+The full six-slide list is only in the carousel images, and I found no public text copy. I didn't open the vault note. The one search didn't surface the creator's post.

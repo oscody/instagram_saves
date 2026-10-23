@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 What if every time a diaspora war broke out we had someplace to call? 📞😩🫣🙂
 
 #davinci #funkyfriday #skit #books #laughtokeepfromcrying
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit about a satirical "diaspora war" emergency hotline. It has no resource, tool, or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

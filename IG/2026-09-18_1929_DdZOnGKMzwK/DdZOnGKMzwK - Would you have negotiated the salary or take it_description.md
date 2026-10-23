@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Would you have negotiated the salary or take it? #SalaryNegotiation #DramaSeries #CorporateLife #salary
+
+## Research
+
+* Verdict: Nothing to find. The reel is a scripted drama skit about salary negotiation. It has no resource, tool or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

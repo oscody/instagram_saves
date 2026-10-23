@@ -53,3 +53,22 @@ In AI, speed matters.
 And information spreads fast.
 
 Comment CLAUDE and I’ll send you the link.
+
+## Research
+
+* Verdict: Partly valid. The leak is real: a source map in the public npm package exposed Claude Code's TypeScript source on March 31, 2026. The post's "link" is only a DM, and BUDDY is described as an "assistant" when it is actually a terminal pet.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [NodeSource: Anthropic Accidentally Leaked Claude Code's Entire Source (nodesource.com)](https://nodesource.com/blog/anthropic-claude-code-source-leak-bun-bug): page, found by search, verified, high confidence. Opened it. It confirms researcher Chaofan Shou, the npm source map, and the KAIROS, ULTRAPLAN and BUDDY features.
+* [InfoQ: Claude Code source leak (infoq.com)](https://infoq.com/news/2026/04/claude-code-source-leak): page, found by search, not opened, medium confidence. Appeared in search results as news coverage of the same leak. I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspider - similar ai safety workflows.md`: Mentions this post and the creator thevibefounder. I did not open it.
+* Vault: `(vault list entry) Claude Code source leak via npm`: Already saved as a supply chain example.
+
+### Not found
+
+The DM link was not found. It is probably a news article or a repo mirror. I did not link the mirror repos of the leaked code.

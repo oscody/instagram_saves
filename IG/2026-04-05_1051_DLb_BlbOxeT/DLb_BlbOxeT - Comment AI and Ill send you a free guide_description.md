@@ -34,3 +34,12 @@ Comment “AI” and I’ll send you a free guide 🤝
 .
 .
 #n8n
+
+## Research
+
+* Verdict: Unresolved. The creator's "free guide" and the workflow-analysis prompt are only sent after commenting "AI", and I found no public copy. The method is plausible, since Gemini in AI Studio can take YouTube links and n8n accepts pasted workflow JSON. I couldn't confirm that Claude's JSON imports cleanly.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The guide and the exact workflow-analysis prompt are gated behind a comment or DM from koen.agi. The vault search found nothing. One web search found no public copy. The post names "Claude Opus 4" and an unnamed "agent builder", and I couldn't identify that builder.

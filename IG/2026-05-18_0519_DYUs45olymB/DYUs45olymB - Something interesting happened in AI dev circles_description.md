@@ -42,3 +42,23 @@ Follow @‌thedevlife for more content like this
 .
 
 #thedevlife AI ClaudeCode Anthropic Karpathy LLM WebDev DeveloperTools SoftwareEngineering TechNews AIagents
+
+## Research
+
+* Verdict: Partly valid. The companion site exists and matches the post's argument. It has 20 demos in 9 categories, not "9 examples" as the caption says. I didn't check the Karpathy and Kurtis Redux claims.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The unreasonable effectiveness of HTML: examples (Thariq Shihipar) (thariqs.github.io)](https://thariqs.github.io/html-effectiveness): page, in the post, verified, high confidence. Opened it: it is the companion site with agent-made HTML examples (code review, SVG diagrams, decks, explainers) that the post describes.
+
+### Key steps
+
+1. Open the companion site and look at the demos by category: planning, code review, design, prototyping, diagrams, decks, research, reports and custom editing interfaces.
+2. Ask your agent to produce a self-contained .html file instead of a .md file. For example, add 'structure your response as HTML' to the prompt, as Karpathy reportedly suggested.
+3. Use HTML where markdown flattens the content: side-by-side option comparisons, annotated diffs or module maps, design previews, and long material that needs collapsible sections or tabs.
+4. For throwaway editing tools such as a triage board or prompt tuner, add an export step that returns the result to the agent or to version control.
+
+### Not found
+
+I didn't find or verify Karpathy's comments or Kurtis Redux's rebuttal, and I didn't check the May 8 date. I also didn't open Thariq's original blog post.

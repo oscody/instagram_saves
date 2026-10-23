@@ -37,3 +37,12 @@ But if you’re trying to understand how people are positioning businesses to ac
 If you’re watching from Facebook, the link is in the comment section.
 
 #AshleyTheAlchemist #Wealth #BusinessCredit #Bankruptcy #DonaldTrump
+
+## Research
+
+* Verdict: Promo. The post is a lead-in for a playbook sent after a comment. It lists "what not to do" and gives no usable steps. I found no public copy of the playbook.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "$100K in 90 Days Playbook" is only sent after you comment "$100K" on the post. A web search found no public copy. The one similar result, a Gumroad ebook by Ashley Marie Brown, is a different creator and not linked to this one. I did not check the claims about dissolved businesses and business credit. Reviving or using a dissolved shell business to get credit is widely warned against as a fraud risk, and I'd treat this as marketing for a paid or lead-gen funnel.

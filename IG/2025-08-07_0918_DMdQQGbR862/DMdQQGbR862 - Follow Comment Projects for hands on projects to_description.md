@@ -33,3 +33,20 @@ Follow & Comment "Projects" for hands on projects to add to your resume 🤪
 Thanks to our lead engineer for the research for this video...
 
 #systemsdesign #softwareengineer
+
+## Research
+
+* Verdict: Partly valid. The post is a short skit on system design with no single resource to find. The advice (confirm payment first, queue payments, unlock after success, use expiring per-user JWTs) is standard practice. The "Projects" material is only sent after a comment, and I found no public copy.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Key steps
+
+1. Take payment through the payment gateway and confirm it succeeded before showing any premium content.
+2. Put payment requests on a message queue so they are stored durably and processed asynchronously, which protects against lost transactions at peak load.
+3. Have the payment service consume from the queue and record the result.
+4. Only after the payment succeeds, have the content service unlock the content.
+5. Serve the content from S3 through links protected by a JWT that expires and is tied to one user, so links can't be shared.
+
+### Not found
+
+The "Projects" resource list is sent only after commenting on the reel. I did not search the web or the vault for it, and I found no public copy.

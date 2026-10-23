@@ -29,3 +29,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 what’s books to read to be a 10/10 man
+
+## Research
+
+* Verdict: Partly valid. The books are real and widely read, but the "10/10 man" claim is opinion with no evidence. The "reading method" is only sent after a comment, and no public copy was found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: A similar reel (@improvewithkate) with the same tips: Charisma Myth, get great at one skill, talk to anyone.
+* Vault: `2. Areas/Library/audible read List.md`: Lists The Psychology of Money by Morgan Housel.
+
+### Not found
+
+The "book" reading method is sent only by comment/DM. I did not search the web, so I did not look for a public copy and did not check the claim that people who read psychology books outperform those who don't.

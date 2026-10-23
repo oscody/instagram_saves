@@ -53,3 +53,24 @@ Octopus / 문어: Martin Thoma
 https://commons.wikimedia.org/wiki/File:Sealife-Munich-Octopus.ogv
 Footage trimmed/cropped; tracking graphics by Xity / 영상 구간·크롭 편집, 추적 그림: Xity
 Curated by @hyun2xyz
+
+## Research
+
+* Verdict: Valid. The linked Google DeepMind tapnet repo lists TAPNext++ checkpoints with occlusion tracking and re-detection, as the reel shows. The reel states it is not a benchmark.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [google-deepmind/tapnet (TAPNext++) (github.com)](https://github.com/google-deepmind/tapnet/tree/730cda1c730877cfedbe01bf87fb1cadb78a565d): repo, in the post, verified, high confidence. README lists TAPNext++ 256 and 512 PyTorch checkpoints, occlusion tracking and re-detection, a Colab demo, and Apache-2.0 licensing.
+
+### Key steps
+
+1. Open the repo README and find the TAPNext++ section.
+2. Pick a checkpoint: 256×256 (DAVIS First AJ 65.6%) or 512×512 (DAVIS First AJ 67.0%). Both are PyTorch with a TrecViT-B backbone.
+3. Open the Colab notebook torch_tapnextpp_demo.ipynb to try it. The README gives no local TAPNext++ usage steps.
+4. Give the model query points from one frame. It returns each point's position and a visibility flag for every frame.
+5. For a local run, use the 512 checkpoint's VOTSp2026 README for setup. The post's author ran it on Apple MPS.
+
+### Not found
+
+The author's own scripts for query points, rainbow drawing and trail filtering were not found. The Apple MPS setup is not documented in the repo page I read.

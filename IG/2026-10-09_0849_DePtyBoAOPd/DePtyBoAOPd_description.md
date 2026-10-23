@@ -63,3 +63,29 @@ Install this one first.
 Let it find the rest.
 
 #claude #claudeskills #findskills #aitools #productivity
+
+## Research
+
+* Verdict: Valid. The find-skills skill is in vercel-labs/skills and does what the post says. It sits at #1 on skills.sh. The "million skills" figure is not confirmed: the page's 1.46M "All Time" number may count installs rather than skills.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [vercel-labs/skills (CLI, includes skills/find-skills) (github.com)](https://github.com/vercel-labs/skills): repo, in the post, verified, high confidence. Public MIT repo with the `npx skills` CLI and a skills/find-skills folder.
+* [find-skills SKILL.md (github.com)](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md): page, found by search, verified, high confidence. The skill finds skills by task and installs them on request.
+* [skills.sh leaderboard (skills.sh)](https://skills.sh): page, found by search, verified, medium confidence. find-skills is #1 with about 4.0M installs. The page doesn't state a total number of skills.
+
+### Key steps
+
+1. Check that Node.js is version 22.20 or later.
+2. Install the skill: `npx skills add vercel-labs/skills --skill find-skills -g`. I did not run this; the repo README doesn't spell out this exact command, so check it against `npx skills --help`.
+3. Ask your agent for a task, for example "is there a skill for editing videos?".
+4. The skill checks the skills.sh leaderboard, then runs `npx skills find <keywords>` if nothing fits.
+5. It vets results by install count, source reputation and GitHub stars, then shows the options and install commands.
+6. Read each skill's SKILL.md before approving the install.
+7. Install the one you want with `npx skills add <owner/repo@skill>`.
+8. Manage installed skills with `npx skills list`, `check`, `update` and `remove`.
+
+### Not found
+
+The comment keyword FINDER is not needed, because the repo is public. I could not confirm the "over a million skills" figure.

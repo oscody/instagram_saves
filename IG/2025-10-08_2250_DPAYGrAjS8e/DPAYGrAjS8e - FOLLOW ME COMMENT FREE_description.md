@@ -43,3 +43,16 @@ What Changed Was I Got Mentors Who Taught Me How To Scale & Market My Business�
 #bephenomenalorbeforgotten
 #viral #finance #explore #explorepage✨
 #exploremore #explorepage
+
+## Research
+
+* Verdict: Promo. The post is lead-generation for the creator's business and credit program, and the link is only sent after a "FREE" comment. The claim that these citations permanently remove anything is overstated. The FCRA lets accurate negative items stay for 7 years (bankruptcies for 10), and several cited sections don't match the debt types they're listed under.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [15 U.S.C. § 1681c (FCRA time limits on reporting) (law.cornell.edu)](https://www.law.cornell.edu/uscode/text/15/1681c): page, found by search, verified, high confidence. It is the statute that sets how long collections, charge-offs and late payments can be reported (7 years), which contradicts the idea of permanent removal by citation.
+
+### Not found
+
+The "FREE" link is sent by comment or DM and I found no public copy. I didn't search the vault beyond the listing you gave, which found nothing.

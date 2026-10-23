@@ -26,3 +26,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Grab a copy of my latest book “CORPORATE CLAPBACKS” available on. Audiobook available, link in the bio #Awareness #Work #Corporate #Tips #advice
+
+## Research
+
+* Verdict: Promo. The reel is mainly a plug for the creator's book "Corporate Clapbacks". The advice is generic and needs no resource. I found no public listing for the book.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I found no public listing for "Corporate Clapbacks" by grimetimeready in one web search. The caption says the link is in the bio, and I didn't open the profile. The vault has no notes on this creator or book.

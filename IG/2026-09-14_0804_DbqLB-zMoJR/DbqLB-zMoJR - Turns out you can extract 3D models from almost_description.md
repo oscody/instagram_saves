@@ -34,3 +34,29 @@ Sou will need special version of duckstation with the 3D screenshot. You can fin
 What’s the first PS1 game you’d rip a model from? 👇
 
 #PS1 #PlayStation #RetroGaming #GameDev
+
+## Research
+
+* Verdict: Partly valid. A DuckStation fork for 3D screenshots exists on GitHub (scurest, topic "model-ripper"). Its page has no usage docs and no releases, so you'd have to build it, and I couldn't confirm the .obj output or the "flawless" claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [scurest/duckstation-3D-Screenshot (github.com)](https://github.com/scurest/duckstation-3D-Screenshot): repo, found by search, verified, medium confidence. Fork of stenzek/duckstation described as '3D screenshots in DuckStation', on the feature/3d-screenshot branch, topic model-ripper; README is only upstream's and the Releases section is empty.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Lists the same scurest/duckstation-3D-Screenshot GitHub link (twice), with no steps.
+
+### Key steps
+
+1. Open the scurest/duckstation-3D-Screenshot repo and switch to the feature/3d-screenshot branch.
+2. Build that branch from source, since the fork publishes no releases. Follow upstream DuckStation's build instructions.
+3. Run the PS1 game and set Texture Mode to Full, as the reel shows.
+4. Take a 3D screenshot. The reel says it saves a .obj file in the screenshots_3D folder under DuckStation's screenshots folder.
+5. Drag the newest .obj into Blender to inspect the model and its textures.
+6. Optionally unfold the model into a papercraft (the reel does this, but the tool isn't named).
+
+### Not found
+
+The reel itself wasn't watched. I couldn't confirm the .obj output, the screenshots_3D folder, the Texture Mode setting or the comparison with Avocado, because the fork's page has no usage docs. I also couldn't find prebuilt binaries or the papercraft tool used.

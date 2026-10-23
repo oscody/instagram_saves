@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Groovy Soca Lovers....We off to a good start, lots of others, so more videos and mixes to come. Lewee start it ‼️ 🔊 #soca #socamusic #trinidad  #groovysoca #trinidadcarnival
+
+## Research
+
+* Verdict: Nothing to find. This is a DJ's soca music reel. It lists songs (Mical Teja x Jofroxi "Take My Time", Kimba and Madlypso "Jam Together", Syo "Tidal Wave") and promises more mixes. There is no tool, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Nothing searched. This is a music post with no resource, and the vault pre-check found no related notes.

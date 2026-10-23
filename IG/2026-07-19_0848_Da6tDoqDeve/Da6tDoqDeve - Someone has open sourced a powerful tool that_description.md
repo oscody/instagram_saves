@@ -37,3 +37,27 @@ Would you use your phone to build 3D worlds?
 Sources: GitHub (mudler/depth-anything.cpp) · Hugging Face · ByteDance Seed
 
 #ai #opensource #3d #tech #innovation
+
+## Research
+
+* Verdict: Valid. The repo exists and is MIT-licensed. Its merged PR #2 adds the video-to-point-cloud pipeline, voxel mode, VSLAM elements and a web studio. The "rough, voxel-styled" caveat matches. The README alone doesn't mention video or the studio, so you have to read the PR.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [mudler/depth-anything.cpp (github.com)](https://github.com/mudler/depth-anything.cpp): repo, in the post, verified, high confidence. C++/ggml port of ByteDance Depth Anything 3 with a CLI, point-cloud (PLY) export and Vulkan, CUDA and Metal backends.
+* [PR #2: Demo server, Video, Voxels and elements of VSLAM (github.com)](https://github.com/mudler/depth-anything.cpp/pull/2): page, found by search, verified, high confidence. Merged Jul 27, 2026. Adds streaming video reconstruction, a WebGL studio server, voxel mode and loop closure, matching the post's screenshots.
+
+### Key steps
+
+1. Clone the repo: git clone --recursive https://github.com/mudler/depth-anything.cpp
+2. Build with GPU support enabled: cmake -B build -DDA_BUILD_CLI=ON (add the CUDA, Metal or Vulkan flag), then cmake --build build -j
+3. Download and convert a DA3 model to GGUF: python scripts/download_model.py --repo depth-anything/DA3-BASE --out models/DA3-BASE, then python scripts/convert_da3_to_gguf.py --model models/DA3-BASE --output models/depth-anything-base-f32.gguf
+4. Quick test on one image: build/examples/cli/da3-cli reconstruct --model <gguf> --input photo.jpg --ply cloud.ply
+5. For video, build and launch the demo server in the server/ directory from PR #2. Check that directory for the exact commands, since the README doesn't cover them.
+6. To force a GPU, set DA_DEVICE, for example Vulkan1 or CUDA0.
+7. Check the licenses. DA3 Small and Base are Apache-2.0. Large, Giant and Nested are CC BY-NC 4.0, so non-commercial only.
+
+### Not found
+
+I found no launch instructions for the video studio server. The PR page doesn't give them, and I didn't open the server/ directory. I didn't check the tweet or the Hugging Face link.

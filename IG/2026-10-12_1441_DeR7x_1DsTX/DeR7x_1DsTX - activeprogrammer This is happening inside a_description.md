@@ -32,3 +32,21 @@ Share this with someone who remembers playing browser games after school.
 Follow @activeprogrammer for creative developer projects, AI, and tech.
 
 Project and demo credits: Asher, Chetan Ankola, Ryan Sael, omonkey. Additional footage shared by chasm and gnoyex.
+
+## Research
+
+* Verdict: Partly valid. The Skate 3 browser project and the GTA V browser demo are confirmed by TweakTown, and GTA V was taken down as the caption says. I couldn't find the project's own links, or any trace of the Fortnite demo, creek scene or endless city.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [TweakTown: Skate 3, Black Ops and 20+ classic games in your browser (tweaktown.com)](https://www.tweaktown.com/news/113993/you-can-now-play-skate-3-black-ops-and-20-plus-classic-games-in-your-web-browser/index.html): page, found by search, not opened, medium confidence. Search snippet describes a fan-made browser Skate 3 by an 18-year-old named Asher, matching the post's credit. The page returned 403, so I couldn't open it.
+* [TweakTown: GTA V briefly playable in a browser, now taken down (tweaktown.com)](https://www.tweaktown.com/news/113929/gta-v-was-briefly-playable-in-a-web-browser-and-it-reportedly-ran-smoothly-but-its-now-been-taken-down/index.html): page, found by search, not opened, medium confidence. Search snippet says playgta5.com ran GTA V in Chrome and went offline soon after, matching the caption. I didn't open the page.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Mentions activeprogrammer only for a different post (Three.js elemental VFX playground). Nothing on this post.
+
+### Not found
+
+I found no direct URL for Asher's Skate 3 site, and the TweakTown article wouldn't open (403). I found nothing on the Fortnite demo, the creek scene (Chetan Ankola?), the endless city (Ryan Sael or omonkey?) or any credited creators beyond Asher. The caption's claim that you need your own converted game files wasn't confirmed, and the article snippet suggested the game just runs in the browser. The GTA V demo is gone.

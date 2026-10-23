@@ -42,3 +42,12 @@ Use AI to structure your ideas, improve clarity, and highlight impact but always
 Follow @leadwithniki for more tips on building a strong profile, finding opportunities, and navigating careers in the UK and Europe! 🇬🇧🇪🇺
 
 [LinkedIn profile optimisation, LinkedIn prompts, AI for job search, UK job market, Europe jobs, recruiter keywords, LinkedIn headline, LinkedIn About section, LinkedIn skills section, ATS optimisation]
+
+## Research
+
+* Verdict: Partly valid. The advice is sensible, and the post itself shows what each of the 6 prompts asks for. The full prompt text is only sent after a "LINKEDIN" comment, and I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The full 6-prompt set is gated behind a comment ("LINKEDIN") to @leadwithniki. A vault search and one web search found no public copy and no page for the creator. The Instagram account itself was not opened.

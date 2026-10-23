@@ -60,3 +60,29 @@ Build a cue so you never have to decide when to start again. And know exactly wh
 Here are 4 prompts that run the full system on whatever you keep putting off.
 
 ⤵️ Comment EXPERT below and I will DM you access to 100+ world class advisors who help you think through your biggest decisions, thinking that normally costs $500 an hour from a consultant.
+
+## Research
+
+* Verdict: Partly valid. Oakley does say that thinking about unpleasant tasks can activate the insular cortex (a pain-related region), but the "fades within 20 minutes, per her research" claim is a popular-press line with no study named. The prompts exist only in the carousel, and the "100+ advisors" DM is a lead-magnet promo.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Big Think: Learn How to Learn Better with the Pomodoro Technique (Oakley) (bigthink.com)](https://bigthink.com/videos/learn-how-to-learn-better-with-the-pomodoro-technique/): page, found by search, not opened, medium confidence. Search snippet says the brain suffers for about 20 minutes when you first try to concentrate. I did not open the page, and no study is named.
+* [thinkgpt_ai Instagram profile (instagram.com)](https://www.instagram.com/thinkgpt_ai/?g=5): page, in the vault, not opened, low confidence. The profile is saved in the vault note 'ig repo to review'. I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only the thinkgpt_ai profile link. It has no prompts or steps.
+
+### Key steps
+
+1. The four prompts are in the carousel slides only, and no public copy turned up. Use the slide text.
+2. Prompt 1: Ask Claude to find the moment just before you avoid the task. Separate the task from the feeling, check whether the feeling shows up in other tasks, and name the avoided thing in one sentence. Don't accept 'laziness'.
+3. Prompt 2: Shrink the task to a first action so small that refusing it feels harder than doing it. Define the first 20 minutes, one signal that resistance has faded, and what happens right after.
+4. Prompt 3: Attach the task to a fixed daily cue (a time, place or existing action). Remove decision points between the cue and the task. Plan what to do if resistance appears anyway.
+5. Prompt 4: Describe what a slip usually looks like for you and what causes it. Define a re-entry action smaller than the original one and one signal that you're back on track. Don't treat a slip as a personal failure.
+
+### Not found
+
+The full prompt text (it is only in the slide images), any public copy of the '100+ advisors' pack (sent by DM after a comment), and a primary study for the 20-minute claim.

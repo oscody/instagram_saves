@@ -58,3 +58,12 @@ you’ll move different, feel different, and perform different.
 Most people scroll past this.
 
 The few who don’t… transform.
+
+## Research
+
+* Verdict: Partly valid. The post is a simple bodyweight routine with no external resource to find. The 400-rep daily routine is plausible light exercise, but the claim that 14 days will transform you is overstated, and no evidence supports it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists beyond the post. I didn't search the web or the vault: the vault search listed no matches, and this is a self-contained routine. The creator's hip-replacement story and the "empty stomach" detail were not checked.

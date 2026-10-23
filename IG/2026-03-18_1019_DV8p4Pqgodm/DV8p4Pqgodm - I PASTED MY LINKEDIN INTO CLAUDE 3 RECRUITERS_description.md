@@ -34,3 +34,21 @@ I PASTED MY LINKEDIN INTO CLAUDE. 3 RECRUITERS MESSAGED ME WITHIN A WEEK.
 THESE 5 PROMPTS ARE UNFAIR ADVANTAGE.
 
 Access the prompt list now to optimise your Linkeidn, Comment “Prompt” to access :)
+
+## Research
+
+* Verdict: Partly valid. The post is a lead magnet. The full prompt list is only sent after commenting "Prompt", and I found no public copy. The post's own summary already gives the gist of each prompt, but the recruiter claim rests on one anecdote.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Paste your LinkedIn profile and resume into Claude and name your target role.
+2. Headline: ask for a rewrite under 120 characters covering what you do, who you help and what sets you apart. Ban words like passionate, motivated and driven, and rank the options by searchability and clickability.
+3. About: ask for a first-person rewrite under 2000 characters with a strong opening line, the problems you solve, skills relevant to the role, what you want next, a human tone, and a closing line on how recruiters can reach you.
+4. Referral: give Claude the company, role and resume, and ask for three messages under 300 characters each (professional, warm, and one opening with a specific compliment), none desperate or generic.
+5. Keywords: paste five job descriptions, extract the repeated skills, compare them with your profile, list the missing and buried keywords, and ask for an exact order for your top 15 skills.
+6. Experience: rewrite each entry as 'Did X, using Y, which resulted in Z', with numbers, each bullet under two lines. Replace any numbers Claude suggests with your real ones.
+
+### Not found
+
+The full prompt list is delivered only by comment/DM from @thegauravghai. I did not search the web, since the exact prompts are not public. The vault has no related note.

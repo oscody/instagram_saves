@@ -38,3 +38,8 @@ Here are 20 solo side quests for 2026:
 	18.	Go somewhere you’ve never been in your own city.
 	19.	Keep a daily handwritten journal for 60 days.
 	20.	Spend one evening planning your “ideal life” in detail — no limits.
+
+## Research
+
+* Verdict: Nothing to find. This is a lifestyle list of 20 solo activities. The full list is in the caption, and there is no tool, product or link to find.
+* Checked: 2026-10-22 by claude-sonnet-5-5

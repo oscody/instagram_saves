@@ -82,3 +82,26 @@ So I can spend as much time as I want with my family and never work a corporate 
 The U.S. govt. wants to help you become rich.
 
 If you want to learn how to buy your first small business, DM me “SMB” & let’s chat.
+
+## Research
+
+* Verdict: Partly valid. SBA 7(a) loans are real and can fund business acquisitions with about 10% down. But the post's figures are wrong (the cap is $5M, not $10M, and the guarantee is 75–85%, not 90%). It is also a lead-gen funnel (DM "SMB") with no public resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [SBA 7(a) Loan Guide 2026 (United Capital Source) (unitedcapitalsource.com)](https://www.unitedcapitalsource.com/blog/sba-7a-loans/): guide, found by search, not opened, medium confidence. Search results list the $5M 7(a) cap, 75–85% guarantee and limits, which contradict the post's $10M and 90% claims. I did not open the page.
+* [SBA 7(a) Acquisition Financing Rules 2026: Why Zero-Down Deals No Longer Exist (angelinvestorsnetwork.com)](https://angelinvestorsnetwork.com/capital-raising/sba-7a-acquisition-financing-rules-2026): guide, found by search, not opened, medium confidence. Search summary says SOP 50 10 8 requires a minimum 10% equity injection on change-of-ownership loans, which undercuts the post's '$0 of my own money' and '0-15% down' framing. I did not open the page.
+
+### Key steps
+
+1. Find a profitable business with a retiring owner, using a broker listing or direct outreach.
+2. Get the seller's financials and have the price and cash flow checked.
+3. Ask an SBA-preferred lender about a 7(a) acquisition loan. The cap is $5M, and the guarantee is 75–85%.
+4. Plan for a minimum 10% equity injection of total project cost. A seller note counts only in part, and only if it is on full standby.
+5. Expect to pledge collateral on all available business assets for loans over $50k, and to give a personal guarantee.
+6. Hire or retain a manager, and check that the cash flow covers the debt service plus the manager's pay.
+
+### Not found
+
+The "SMB" material is sent only by DM and has no public copy. I did not check the author's profile. I also did not open the search results or SBA.gov, so the rule details come from search summaries only.

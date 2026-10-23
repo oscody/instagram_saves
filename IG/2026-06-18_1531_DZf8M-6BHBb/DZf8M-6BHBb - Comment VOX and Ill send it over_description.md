@@ -39,3 +39,27 @@ Premium AI voices used to mean a monthly bill. This one’s free, runs on your o
 Comment “VOX” — the repo + the live demo, in your DMs. 👇
 
 #VoiceAI #TextToSpeech #OpenSourceAI
+
+## Research
+
+* Verdict: Partly valid. VoxCPM2 is real, public and matches the listed features (Apache-2.0, 30 languages, voice design, cloning). The "#1 trending" claim isn't backed by the README, and the "runs on a 4090" claim needs a caveat. The DM gate is unnecessary.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [OpenBMB/VoxCPM (VoxCPM2) (github.com)](https://github.com/OpenBMB/VoxCPM): repo, found by search, verified, high confidence. README describes VoxCPM2, a 2B MiniCPM-4-based TTS model with Apache-2.0 license, 30 languages, 48kHz, voice design and cloning.
+* [VoxCPM live demo (Hugging Face Space) (huggingface.co)](https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo): tool, found by search, not opened, medium confidence. Link given in the repo README as the Live Playground; I did not open the Space itself.
+* [VoxCPM2 model weights (huggingface.co)](https://huggingface.co/openbmb/VoxCPM2): page, found by search, not opened, medium confidence. Appeared in search results as the official model page; I did not open it.
+
+### Key steps
+
+1. Install: pip install voxcpm (Python 3.10–3.12, PyTorch ≥2.5, CUDA ≥12.0).
+2. Voice design: put a description in parentheses before the text, e.g. "(A young woman, gentle and sweet voice)Hello, welcome to VoxCPM2!" No reference audio is needed.
+3. Controllable cloning: pass reference_wav_path with a short clip of your own voice. You can add a style description in parentheses.
+4. Ultimate cloning: pass prompt_wav_path plus prompt_text (the exact transcript of the clip).
+5. Try it without installing in the Hugging Face demo Space.
+6. The repo also supports SFT/LoRA fine-tuning and a CLI.
+
+### Not found
+
+I found no source for the "#1 trending repo on GitHub" claim for VoxCPM2. The README cites #1 GitHub Trending only for the earlier VoxCPM1.5. I did not open the demo Space or the HF model page.

@@ -29,3 +29,12 @@ Top candidates are now using LLMs like ChatGPT, Claude Opus, and Gemini as a per
 SWIPE➡️ for the five high impact prompts that have helped many people switch roles or level up. Many professionals are already using AI to identify skill gaps, tailor their experience to specific roles, and communicate their value more clearly to recruiters.
 
 Those who treat AI as a thinking partner rather than just a tool are seeing results much faster. From resume rewrites to personalized cold messages, LLMs are quietly becoming a powerful advantage in the modern job search.
+
+## Research
+
+* Verdict: Partly valid. The post is a self-contained set of five generic prompts, all given in the description. Using LLMs for job applications is a reasonable idea, but "quietly becoming a powerful advantage" and "seeing results much faster" have no evidence behind them. I did not search the web, since the prompts are the whole resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate public resource exists. The vault has no related note. The prompts exist only on the carousel slides. I did not open the post itself, so the wording is taken from the description.

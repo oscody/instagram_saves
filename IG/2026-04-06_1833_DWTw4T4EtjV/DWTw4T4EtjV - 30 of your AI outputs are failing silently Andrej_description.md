@@ -44,3 +44,25 @@ Written by claude-haiku-5-5.
 - Optimize existing AI tools with a consistent prompt library
 
 Comment “CLAUDE” to learn prompt engineering for free 🎁
+
+## Research
+
+* Verdict: Partly valid. Karpathy's autoresearch is real, and the keep-or-revert loop idea carries over. But the repo is for LLM training experiments, not Claude prompts. The XML prompts are the creator's own adaptation and are only sent after a comment. The "30% failing silently" figure has no source.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [karpathy/autoresearch (github.com)](https://github.com/karpathy/autoresearch): repo, found by search, verified, high confidence. Opened it: an agent changes one file, runs a fixed test, keeps the change if the score improves and discards it if not. This is the loop the post borrows.
+
+### Key steps
+
+1. Paste your current skill or prompt and run it on 5 different test inputs. Score each output and note the failure patterns.
+2. Write 3-6 yes/no checklist questions, each checking one thing. Test them on 3 sample outputs and drop any that give different answers on the same output.
+3. Score the skill against the checklist to set a baseline, then target the lowest-scoring item.
+4. Make one change per round and re-score. Keep it if the score rises, revert it if not, and log every change with its reason.
+5. Stop when the skill scores 90%+ three times in a row. Save the improved version separately from the original.
+6. Turn the change log into 5-10 general rules, each backed by an example from your own history.
+
+### Not found
+
+The full XML prompts from the carousel are sent only after commenting "CLAUDE" on the post, and I found no public copy. The "30% of outputs fail silently" claim has no source.

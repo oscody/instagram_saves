@@ -43,3 +43,20 @@ Credit: r/vibecoding
 ➡️ Tech founder looking for traction?
 
 DM us “Market” to get your startup in front of 433k+ founders and operators.
+
+## Research
+
+* Verdict: Partly valid. The advice is sound standard pre-launch practice, but I couldn't find the original r/vibecoding post. The "days, not months" claim and the author's credentials are unverified. The caption ends with a promo for the account's startup-exposure service.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Already lists this post: search code for sk-/secret/password, server-side permission checks, and two-account data isolation tests.
+
+### Key steps
+
+1. Read the vault note and one search. Searched the web once for the original Reddit post and found only vendor cleanup-service pages. The post's own 7 points cover the steps, so no extra steps are added.
+
+### Not found
+
+The original r/vibecoding Reddit post. The carousel gives no direct link, and one standard search didn't surface it.

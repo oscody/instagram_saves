@@ -36,3 +36,26 @@ Would you create your own show or just watch what others make?
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates and trends straight to your inbox.
 
 Don’t miss out! click the link in our bio and subscribe for free today!
+
+## Research
+
+* Verdict: Valid. Showrunner is real, made by Fable, and Amazon's Alexa Fund backed it. Exit Valley is its launch show. The post's "free for now" and "scaling rapidly" claims are unconfirmed, and pricing now looks like paid credits.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Showrunner (showrunnerstudio.com)](https://www.showrunnerstudio.com/): product, in the post, verified, high confidence. showrunner.xyz redirects here. The site offers watching, Create Show, Create Scene, Upload Yourself and Remix, as the post describes.
+* [GeekWire: Amazon invests in Fable, the 'Netflix of AI' (geekwire.com)](https://www.geekwire.com/2025/amazon-invests-in-fable-the-netflix-of-ai-where-users-can-create-tv-shows-with-prompts/): page, found by search, not opened, medium confidence. The search snippet confirms Amazon's backing, Exit Valley and the prompt-to-episode concept. I did not open the article.
+
+### Key steps
+
+1. Open showrunnerstudio.com (showrunner.xyz redirects there) and sign in to save your work.
+2. Browse the feed or search for a show to remix.
+3. Click Create Scene or Remix on a show to make your own version.
+4. Or click Create Show to start a new story world from scratch, a YouTube link or a video.
+5. Use Upload Yourself to add yourself as a character.
+6. Use Combine Scenes to join your scenes into an episode.
+
+### Not found
+
+Current pricing and credit limits. The homepage doesn't list them, and press reports disagree ($10–$40 per month). I did not check the vault note, which only lists the creator's other posts.

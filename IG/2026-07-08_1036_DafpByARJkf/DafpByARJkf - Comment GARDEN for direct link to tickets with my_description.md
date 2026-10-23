@@ -38,3 +38,17 @@ New York City’s Largest OPEN Bar Garden Experience 🌸🍸✨ @fpgardenparty 
 .
 .
 #ThingsToDoNYC #prettycitynewyork #nycevent #nycthingstodo #nycsummer
+
+## Research
+
+* Verdict: Partly valid. The event looks real, with an Eventbrite listing for Aug 1, 2026 at Queens Botanical Garden. The post is a paid ad, and I didn't open the listing, so I couldn't check the open bar claim or the discount. The event date has also passed (today is Oct 22, 2026).
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [FP Garden Party 2026 (Eventbrite listing, seen in search results only) (eventbrite.com)](https://www.eventbrite.com/d/ny--ossining/events/): page, found by search, not opened, medium confidence. The search snippet shows 'FP Garden Party 2026' on Sat Aug 1 at 12:00 PM at Queens Botanical Garden. This URL is a regional Eventbrite listing page, not the event page.
+* [The Source: FP Garden Party Hosts Epic Picnic Party At The Queens Botanical Garden (thesource.com)](https://thesource.com/?p=693834): page, found by search, not opened, low confidence. The search result describes a picnic party at the same garden. It is probably about the 2025 edition.
+
+### Not found
+
+The creator's discount code and ticket link are only sent after you comment "GARDEN", and I found no public copy. I didn't open the Eventbrite event page, so the price, the open bar terms and the 6-hour length are unchecked. The event date has passed.

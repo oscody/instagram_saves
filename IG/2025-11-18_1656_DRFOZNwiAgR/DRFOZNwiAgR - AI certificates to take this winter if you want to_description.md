@@ -48,3 +48,16 @@ It’s time for winter-lock-in, and if you’re pondering whether AI is the righ
 I created a detailed AI engineering roadmap that guides, supports and encourages you to learn the right skills and enable yourself to work ASAP.
 
 Comment “ROADMAP” and I’ll send you the link!
+
+## Research
+
+* Verdict: Partly valid. The certifications are real and public, but the roadmap is only sent by comment ("ROADMAP") and I found no public copy. The "level up fast" claim is generic: the IBM program alone is about 6 months, and the MIT and CAIS programs are paid.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [IBM AI Developer Professional Certificate (Coursera) (coursera.org)](https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai): page, found by search, verified, high confidence. Opened it: a 10-course beginner program covering Python, AI, generative AI, Flask and deployment, about 6 months at roughly 4 hours a week.
+
+### Not found
+
+The creator's AI engineering roadmap link: it is sent only after a comment or DM, and a search found no public copy. I did not open the MIT, Microsoft Azure AI Engineer, CAIS or NVIDIA program pages. Microsoft has been retiring some Azure role-based certifications, so check that one is still offered.

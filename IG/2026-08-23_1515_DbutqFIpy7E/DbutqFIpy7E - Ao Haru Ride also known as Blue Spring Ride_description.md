@@ -59,3 +59,12 @@ Shuko Murao
 🏆 acclaim: loved for its realistic romance, emotional depth, and relatable characters.
 📺 where to watch
 Ao Haru Ride is available on Crunchyroll, Netflix, and other platforms depending on region.
+
+## Research
+
+* Verdict: Nothing to find. This is an anime fan-edit reel with an info card about Ao Haru Ride. It has no tool, guide or download to find. I did no searching, and the listed facts (2014, Production I.G, 12 episodes plus an OVA) match what I know of the show from memory. I did not check them against a source, nor the streaming availability.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Nothing searched. Streaming availability (Crunchyroll, Netflix) varies by region and was not checked.

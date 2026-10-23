@@ -33,3 +33,12 @@ Step 3: Lead with value — always
 This isn’t just about networking. It’s about believing in yourself enough to put yourself out there, even when it’s uncomfortable. That’s where opportunity lives. #explore #fyp #fau #intern #billionaire #mentor #college #student #bocaraton #stbarths 
 
 Interning: @avenuez_pr
+
+## Research
+
+* Verdict: Nothing to find. This is a personal-story reel with general networking advice (start conversations, earn respect, lead with value). It has no specific tool, document or link to find.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No resource exists. I didn't search, and I didn't check the vault beyond the pre-search, which found no notes on this post.

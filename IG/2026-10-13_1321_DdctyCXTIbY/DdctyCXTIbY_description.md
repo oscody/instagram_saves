@@ -18,3 +18,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Your hobby: skydiving edition ✈️👀😤☝️ if you like these videos, follow @jimmy.learns as I drop them on here too 🤝🚀
+
+## Research
+
+* Verdict: Partly valid. Joseph LeDoux is a real NYU fear and extinction researcher (the post spells it "Leduc"). I found no NYU study showing skydiving itself trains the brain to stop reacting to fear. Extinction as a mechanism is real, but the skydiving claim is an extrapolation.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Joseph E. LeDoux (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Joseph_E._LeDoux): page, found by search, not opened, medium confidence. It confirms the NYU researcher and his fear and extinction work. It was seen in search results only and not opened.
+
+### Not found
+
+No NYU or LeDoux publication on skydiving as fear extinction. The vault grep for skydiving only turned up unrelated personal notes. The reel itself was not watched.

@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 this series might actually end up on my top 10 
 
 #donghua #anime #animes #bilibili #otaku
+
+## Research
+
+* Verdict: Nothing to find. This is an opinion reel about a donghua. The post doesn't name the series, and the summary has no link or resource to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The series title isn't in the caption or summary. It might be in the video itself, but I didn't search for it.

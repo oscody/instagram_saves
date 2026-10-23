@@ -47,3 +47,16 @@ How do you use Claude to create a business plan?
 What AI prompts help you make money online?
 
 #chatgpt #ai #chatgptprompts #makemoney #chatgptmoney
+
+## Research
+
+* Verdict: Partly valid. The prompts are fully given in the post and caption, so no outside resource is needed. The claim that they will make money and that the answers were "spot on" is unverified. The output depends on what Claude knows about you, and "one name" of a successful person is generic advice.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only a task about waiting for Sabrina Ramonov's DM reply on teaching Claude Code. It doesn't contain these prompts.
+
+### Not found
+
+I did not search the web. The full prompts are in the caption, so the "comment MONEY" DM adds nothing. The post's claim of "spot on" results is not backed by any shown evidence.

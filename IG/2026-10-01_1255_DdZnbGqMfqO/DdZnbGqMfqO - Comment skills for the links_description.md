@@ -30,3 +30,24 @@ Written by claude-haiku-5-5.
 Comment ‘skills’ for the links!
 
 [ claude, claudeskills, claudecode, anthropic, ai, artificialintelligence, ml, machinelearning, skills, llm, openai, chatgpt, claudecowork, cowork, students, techstudents, indianstudents ]
+
+## Research
+
+* Verdict: Partly valid. The reel most likely shows coreyhaines31/marketingskills, a public repo with A/B testing, ads, AI SEO and customer-research skills. The post never names the repo, so the match is inferred from the categories shown, and the "comment for links" gate is unnecessary.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [coreyhaines31/marketingskills (github.com)](https://github.com/coreyhaines31/marketingskills): repo, found by search, verified, medium confidence. The README groups skills into categories including A/B testing, ads and AI SEO, and has a customer-research skill, which matches the categories described in the reel.
+
+### Key steps
+
+1. Open github.com/coreyhaines31/marketingskills and browse the skill categories.
+2. Install with: npx skills add coreyhaines31/marketingskills
+3. Or install it as a Claude Code plugin, or clone the repo and copy the skill folders into your skills directory.
+4. Each skill is its own folder with a SKILL.md holding the instructions and metadata.
+5. For Claude web, use the skill ZIPs listed in the README.
+
+### Not found
+
+The reel's exact repo isn't named in the post. Other Claude Skills lists exist, so this match is a best guess from the categories shown.

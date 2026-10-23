@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 All we need is action
+
+## Research
+
+* Verdict: Not valid. The post is motivational talk with no resource. The quote attributed to Epictetus could not be found in his works or in search results, so it is probably misattributed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No source for the quote in the Discourses, the Enchiridion or any quote database. I ran one web search and did not search the vault beyond the listing provided. The search was not exhaustive.

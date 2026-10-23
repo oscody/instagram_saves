@@ -39,3 +39,24 @@ This is real-life FPS, built from scratch.
 New shell design coming soon. 
 
 Make sure to follow because I’ve got a lot more to build 👇
+
+## Research
+
+* Verdict: Partly valid. Tracer is a real, early-stage product with a public waitlist, but I found no independent demo, specs or reviews. The hit-detection and "what you hit" claims are the creator's own and are unverified, and the multiplayer, UAV and airstrike features are plans.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [TRACER waitlist (jointracer.com/join) (jointracer.com)](https://jointracer.com/join): product, found by search, verified, medium confidence. Linked from the @tracertechapp Instagram bio. It's a pre-sale waitlist for buyers and investors, with no product details or price.
+* [@tracertechapp Instagram (instagram.com)](https://www.instagram.com/tracertechapp/): page, found by search, verified, high confidence. The bio reads 'Real-Life FPS', a camera blaster with an AI companion app, no vests or arena.
+
+### Key steps
+
+1. Open jointracer.com/join.
+2. Choose the buyer or investor role.
+3. Enter your email and click 'Join the waitlist'.
+4. Wait for the pre-order email; no date or price is given.
+
+### Not found
+
+No independent demo, specs, price, release date or reviews. A web search for the product returned nothing relevant (only unrelated airsoft tracer units). The vault has nothing on it.

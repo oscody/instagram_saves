@@ -28,3 +28,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Smoking before a run? Here’s the timeline.
+
+## Research
+
+* Verdict: Partly valid. The timing of the THC peak and the heart-rate rise matches the research. The "flow state" and "runner's high" claims, and the exact 20–30 bpm figure, are not backed by a source I could find. The post doesn't point to any resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Acute Effects of Smoked and Vaporized Cannabis in Healthy Adults Who Infrequently Use Cannabis (rti.org)](https://www.rti.org/publication/acute-effects-smoked-and-vaporized-cannabis-healthy-adults-who-infrequently-use-cannabis): paper, found by search, not opened, medium confidence. Search results say blood THC and heart rate peaked within 30 minutes and returned to baseline in 3–4 hours, which fits the post's timeline. I did not open the page.
+* [Duke Scholars: smoked marijuana kinetics study (scholars.duke.edu)](https://scholars.duke.edu/publication/1551528): paper, found by search, not opened, medium confidence. Search results say plasma THC peaked about 7–8 minutes after smoking began, and heart rate peaked several minutes after smoking ended. I did not open the page.
+
+### Not found
+
+I found no primary source for the "flow state" or "runner's high" claims, and none for the specific 20–30 bpm rise (the only figure I saw was 20–50 bpm, from a consumer health site). I did not check whether THC helps or hurts running performance. The vault had no related notes.

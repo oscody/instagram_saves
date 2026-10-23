@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 Soo I did a thing🤣 I went to DC/Maryland to see Chris Brown & Usher but had to go on a side quest to West VA‼️I can now scratch bungee jumping off my bucket list✅😌I actually did it twice (one attached to my ankles while jumping forward & this one that’s attached by a body harness jumping backwards) I was gone post both in this clip but I was cussin in the other one cause that was my first jump🥴
 
 #fun #bungeejumping #live #life #monaiellis
+
+## Research
+
+* Verdict: Nothing to find. Personal travel reel about the poster's bungee jumps, with no resource or claim to check. The Old Standard Quarry bungee logo is only an on-screen detail.
+* Checked: 2026-10-22 by claude-sonnet-5-5

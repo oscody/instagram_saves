@@ -36,3 +36,25 @@ Not that benchmarks really matter all that much IMO - but it should make Google 
 I’ll upload the benchmarks and more to @eluna.ai today.
 
 If you like this video, follow @rpn to stay two steps ahead on the incredibly disruption happening in tech and how to leverage it in content and business.
+
+## Research
+
+* Verdict: Partly valid. Antigravity and Gemini 3 Pro are real and launched together. The "VS Code fork" claim is from the creator and the official page doesn't confirm it. It also now describes a broader platform than the launch IDE.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Antigravity (antigravity.google)](https://antigravity.google): product, found by search, verified, high confidence. Official page calls it Google's agentic development platform, free to download for macOS, Windows and Linux.
+* [Google unveils Gemini 3 Pro (Unite.AI) (unite.ai)](https://www.unite.ai/co/google-unveils-gemini-3-pro-with-benchmark-breaking-performance/): page, found by search, not opened, medium confidence. Search result covering the Gemini 3 Pro launch and its benchmark jump; I did not open it.
+
+### Key steps
+
+1. Go to antigravity.google and download the build for your OS (Apple Silicon or Intel on Mac).
+2. Install it and sign in with a Google account.
+3. Open a project folder and give the agent a task, for example a Three.js rocket animation or a flight tracker app.
+4. Review the agent's plan, then let it work across the editor, terminal and browser.
+5. Check the result in the browser, for example on localhost.
+
+### Not found
+
+I didn't open the creator's benchmarks, which he says are on @eluna.ai. I couldn't confirm the VS Code fork claim from the official page. The Grep hits for "Antigravity" in the vault were in unrelated notes, and I didn't read them.

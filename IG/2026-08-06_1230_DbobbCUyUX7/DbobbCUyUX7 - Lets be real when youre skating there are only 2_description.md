@@ -38,3 +38,8 @@ Protect yourself, learn how to fall, and keep rolling. Your future self will tha
 
 Ohh and….don’t ever ask me have I fallen yet.  The answer is no. I don’t fall. 🗣️🤪🤣
 #BigAppleRoll #Skate #NewYorkCity #ManhattenBridge #fyp
+
+## Research
+
+* Verdict: Nothing to find. Personal skating clip with general safety advice (learn to brake, learn to fall, wear pads). No specific resource, and the advice is standard and sound.
+* Checked: 2026-10-22 by claude-sonnet-5-5

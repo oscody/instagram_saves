@@ -33,3 +33,12 @@ Comment MP3 to download these viral sounds!
 Completely free! Use them to make your videos more engaging. 
 
 Follow for more tips!
+
+## Research
+
+* Verdict: Unresolved. The sound pack is only sent by comment ("MP3") and no public copy was found. The advice (riser, Among Us, Vine Boom) is standard editing practice.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The MP3 sound pack is delivered only by comment/DM from louisbuildsbrands. I checked the vault, which has no notes on this post or creator. I did not search the web, since the pack is gated and the sounds are common ones you can find on any free sound-effect library.

@@ -31,3 +31,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Using AI to snipe $4,000 houses from the US government.
+
+## Research
+
+* Verdict: Not valid. The post pitches a "$4,000 government house" scheme, and the tool and keyword are hidden behind a comment-for-link offer. That is a lead-gen funnel. The numbers are unrealistic: a $10K loan refinanced on an inflated $80K value, with Section 8 rent above market. Cheap homes in these cities usually have major defects, back taxes or title problems, and lenders refinance on real appraisals and seasoning rules. I did not search the web, because the post names no resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The AI tool and the comment keyword are not named or legible in the post. No public copy was found, and no vault note covers it.

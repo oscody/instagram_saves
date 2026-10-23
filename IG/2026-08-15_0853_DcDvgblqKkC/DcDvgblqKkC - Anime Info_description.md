@@ -47,3 +47,16 @@ Thanks for taking the time to read ^_^
 Tags 📌
 
 #dungeonfighter #animescenes #donghua #anime #animeedits
+
+## Research
+
+* Verdict: Partly valid. A new Dungeon & Fighter (DNF) animation was announced at Tencent Video's 2025 event, but I found no source naming Big Firebird or Penguin Pictures. The "flex" clips are only the post's own framing.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [IT之家: 2025 Tencent Video Anime Showcase, day 2 roundup (ithome.com)](https://www.ithome.com/0/874/374.htm): page, found by search, verified, medium confidence. Lists an untitled 'Dungeon & Fighter IP new work' animation from Tencent Video, with no studio or producer named.
+
+### Not found
+
+No official source confirming Big Firebird Culture Media as studio or Tencent Penguin Pictures as producer. No release date, episode count or trailer found. The vault has no related notes.

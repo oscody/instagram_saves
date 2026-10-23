@@ -49,3 +49,12 @@ Step 9: Import the organized XML back into Rekordbox
 I turned the whole workflow into a Claude skill that automates this for Rekordbox or Serato! Comment “library” and I’ll send you the link. @claudeai 
 
 #djlibrary #djorganization #rekordbox #serato #djtips
+
+## Research
+
+* Verdict: Unresolved. The skill link is only sent after commenting "library", and I found no public copy. The workflow itself (export XML, have Claude classify, re-import) is plausible, because Rekordbox does import and export XML.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The Claude skill link is sent by comment or DM. One web search found no public repo, page or listing for it, and the vault has nothing on it. I did not check the creator's profile or GitHub directly.

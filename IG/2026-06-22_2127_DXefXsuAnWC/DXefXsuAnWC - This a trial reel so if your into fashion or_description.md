@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 This a trial reel, so if your into fashion or looking to switch up your style shoot me a follow🤞🏾 #mensfashion #menstyle #menswear
+
+## Research
+
+* Verdict: Nothing to find. This is a men's fashion reel from the account twco.io that asks viewers to follow it. It links to no tool, guide or product.
+* Checked: 2026-10-22 by claude-sonnet-5-5

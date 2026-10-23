@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 They serve drinks in coconut!
+
+## Research
+
+* Verdict: Nothing to find. This is an entertainment/news-style reel about serving cocktails in coconuts. It links to no tool, repo or guide, and the vault has no matching note.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+I did not search for or verify the two-brothers Caribbean story. The post names no business or location.

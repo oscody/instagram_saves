@@ -51,3 +51,26 @@ The difference between hobby vibe coders and founders who actually ship: a spec.
 100% open source. MIT license. Free forever.
 Comment “FREE” — GitHub link and the official starter guide in your DMs.
 #ClaudeCode #VibeCoding #aiagents
+
+## Research
+
+* Verdict: Valid. Spec Kit is a real, MIT-licensed GitHub project for spec-driven development, and the public repo is free. The post's gating of the link behind a "FREE" comment is unnecessary, and its star count (103k) is now out of date.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [github/spec-kit (github.com)](https://github.com/github/spec-kit): repo, found by search, verified, high confidence. Opened the repo. It is an MIT toolkit with /constitution, /specify, /plan, /tasks and /implement commands, and it shows about 142k stars.
+
+### Key steps
+
+1. Install Python 3.11+ and uv.
+2. Run: uv tool install specify-cli
+3. Run: specify init my-project --integration <your agent> (e.g. copilot), then cd my-project.
+4. In the agent chat, run /speckit-constitution once to set project rules.
+5. For each feature, run /speckit-specify, then /speckit-plan, then /speckit-tasks.
+6. Run /speckit-implement, then /speckit-converge. Repeat until it reports Converged, and review each result.
+7. Optional: run specify extension add bug, or specify extension add assess, for bug-fix and idea-assessment flows.
+
+### Not found
+
+The DM "starter guide" was not found and may not be public. The repo's own docs cover the same ground. The post's /clarify step was not in the current README command list. Current commands are prefixed with speckit- and add /speckit-converge. I did not check which agents are supported. The README points to an integrations index for that.

@@ -24,3 +24,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Timing isn’t up to you! Someone made this clip thought it was cool im gonna turn into a speaker now new career alert lol
+
+## Research
+
+* Verdict: Nothing to find. This is a motivational clip about timing, using a dog named Lola waiting by her bowl as the example. It has no tool, repo, guide or product to find.
+* Checked: 2026-10-23 by claude-sonnet-5-5

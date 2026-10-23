@@ -42,3 +42,30 @@ Comment ELEPHANT and it’s in your DMs.
 
 #aivideo #aifilmmaking #seedance #higgsfieldpartner #blender virtucamera
 
+## Research
+
+* Verdict: Partly valid. The pipeline tools are real (Higgsfield Blender plugin with Seedance 2.5 and an MCP Bridge for an assistant), so the workflow is plausible. The creator's exact prompts are only sent by DM after a comment, and I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Higgsfield Blender plugin blog (higgsfield.ai)](https://higgsfield.ai/blog/higgsfield-blender-plugin): guide, found by search, verified, high confidence. Describes Scene Builder blockouts, MCP Bridge, phone-driven camera and Seedance 2.5 video generation from Blender, matching the post's pipeline.
+* [Higgsfield Blender plugin download (higgsfield.ai)](https://higgsfield.ai/plugins/blender): tool, found by search, not opened, medium confidence. The blog says the plugin zip is downloaded here; I did not open this page.
+
+### Already in the vault
+
+* Vault: `2. Areas/VR Work/z-xr/higgsfield x chatgpt.md`: Only two links: a ChatGPT Higgsfield plugin and a Higgsfield blog on generating videos from ChatGPT. Nothing on Blender, Seedance or this workflow.
+
+### Key steps
+
+1. Download the plugin zip from higgsfield.ai/plugins/blender (needs Blender 5.1+ and a Higgsfield account).
+2. Drag the zip onto Blender, or use Edit > Preferences > Add-ons > Install, then sign in from the floating bar.
+3. In your assistant's (e.g. Claude) connector settings, add 'Higgsfield Bridge' with URL bridge.higgsfield.ai/mcp and sign in.
+4. Ask it to build a blockout, e.g. 'Build me a calibration bay blockout in Blender'.
+5. Drive the camera by hand with your phone (the post uses VirtuCamera, which the official page doesn't name).
+6. Use the Video tab (Seedance 2.5) with the grey render as motion reference, plus character, car and elephant reference images.
+7. Grade in DaVinci Resolve with halation, grain and bloom.
+
+### Not found
+
+The creator's actual prompts (Claude brief, Soul character sheet, car/elephant prompts, final Seedance prompt with reference order) are sent only by DM after commenting ELEPHANT. No public copy found. VirtuCamera is not mentioned on the Higgsfield page.

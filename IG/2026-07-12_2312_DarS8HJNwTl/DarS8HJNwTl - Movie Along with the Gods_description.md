@@ -19,3 +19,8 @@ Written by claude-haiku-5-5.
 
 Movie: Along with the Gods:
 The Last 49 Days #youtube
+
+## Research
+
+* Verdict: Nothing to find. This is a movie recommendation reel for the 2018 Korean film "Along with the Gods: The Last 49 Days." It has no tool, guide or other resource to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5

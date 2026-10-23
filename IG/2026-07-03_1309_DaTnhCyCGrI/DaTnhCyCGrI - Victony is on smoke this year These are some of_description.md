@@ -27,3 +27,8 @@ Everything
 Jaga Jaga
 My Darling
 Soweto
+
+## Research
+
+* Verdict: Nothing to find. The post is a music list of Victony tracks released since "Soweto". It has no repo, tool, guide or other resource to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

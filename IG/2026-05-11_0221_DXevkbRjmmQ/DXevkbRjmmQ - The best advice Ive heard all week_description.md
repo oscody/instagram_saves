@@ -32,3 +32,12 @@ Imma try to work on this.
 Thank you @aiemannzahabi for these wise words
 
 #bjj #jiujitsu #relatable #fyp #martialarts
+
+## Research
+
+* Verdict: Nothing to find. The post is a short clip of spoken life advice with no link, tool or offer. The quote about gratitude and living in the present is already saved in the vault.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/poem - no room for anxiety.md`: The quote text (full cup of gratitude, what is meant for you won't miss you, future = anxiety, past = worry, present), the reel link, and three gratitude habits for morning, anxiety spikes and evening.

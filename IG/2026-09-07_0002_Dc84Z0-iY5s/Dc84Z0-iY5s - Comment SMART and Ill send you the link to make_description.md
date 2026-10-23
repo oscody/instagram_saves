@@ -71,3 +71,25 @@ It meant knowing when to stop.
 Drop the file in and watch.
 
 #claude #github #ai #prompting #coding
+
+## Research
+
+* Verdict: Partly valid. The reel's four boundaries match a real, public CLAUDE.md (Karpathy-inspired guidelines). The reel never names it and gates the link behind a comment, but the public repo is free. The "smarter" framing is marketing, and the repo's own README says the file biases toward caution.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [andrej-karpathy-skills (CLAUDE.md) (github.com)](https://github.com/forrestchang/andrej-karpathy-skills): repo, found by search, verified, medium confidence. The repo has one CLAUDE.md with four principles (think before coding, simplicity first, surgical changes, goal-driven execution) that map onto the reel's four boundaries. The post doesn't name the repo, so the match is inferred from content.
+
+### Key steps
+
+1. Easiest: in Claude Code run /plugin marketplace add forrestchang/andrej-karpathy-skills
+2. Then run /plugin install andrej-karpathy-skills@karpathy-skills
+3. Or per project: download CLAUDE.md from the repo's raw GitHub URL into your project root
+4. If you already have a CLAUDE.md, append the file's contents to it
+5. The four rules are: think before coding (state assumptions, ask when unclear), simplicity first (minimum code), surgical changes (touch only what was asked), goal-driven execution (verify against success criteria)
+6. For trivial tasks like typo fixes, don't apply the full process
+
+### Not found
+
+The creator's exact linked file wasn't seen, because it is sent by comment. The skills.sh frames suggest a skills.sh listing, which I didn't check.

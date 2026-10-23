@@ -51,3 +51,21 @@ The gap isn’t the AI.
 The gap is how you prompt it.
 
 Save this post and use these prompts the next time you’re building, fixing, or scaling something.
+
+## Research
+
+* Verdict: Partly valid. The advice (role, context, constraints, output format) is sound general prompting guidance. The post only shows 5 of the 11 promised prompts, and no public copy of the full set was searched for or found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Start each prompt with a senior role, e.g. 'You are a senior full-stack engineer', and add the project context.
+2. MVP: ask Claude to design the full system architecture first, then build the most minimal but scalable version. Request architecture, file structure, DB schema, API endpoints, UI architecture and production-ready code.
+3. Codebase audit: have Claude reverse-engineer the architecture and data flow, then list bad decisions, duplicate logic, bottlenecks, scalability risks and maintainability issues. Ask for critical problem areas, refactoring strategies and improved code. Do not change functionality.
+4. Production bug: ask Claude to analyze the code step by step, trace the real root cause, explain why it fails, list hidden edge cases and propose the most robust fix, with no guessing.
+5. Performance: state goals (speed, memory, scalability, rendering). Ask Claude to find bottlenecks, inefficient logic, unnecessary rendering, expensive operations and memory leaks before proposing optimizations.
+6. Refactor: set the mission to separate concerns, increase modularity and reduce coupling without changing behavior. Ask for a new folder structure and an explanation of the improvements.
+
+### Not found
+
+The remaining 6 prompts (backend architecture, frontend, security audit, DevOps and others) are not in the slides. I did not search the web, so I don't know whether the creator (stics.ai) posted them publicly. They may only be sent by comment or DM.

@@ -22,3 +22,8 @@ Trying the viral hand spun Mexican ice cream from @nieves_cortes87 in NY!
 📍 282 Knickerbocker Ave, Brooklyn, NY 11237
 
 #nieve #mexico #mexicanicecream #nieves #nycfood #icecream #dessert #nycdessert #sorbet #icee
+
+## Research
+
+* Verdict: Nothing to find. This is a food review reel. The only "resource" is a stand's address, which the caption already gives (282 Knickerbocker Ave, Brooklyn). I did not search.
+* Checked: 2026-10-23 by claude-sonnet-5-5

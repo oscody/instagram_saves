@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #foodie #food #dinner #tasty #chef #eats #kitchen
+
+## Research
+
+* Verdict: Nothing to find. This is a food reel with fragmentary on-screen text (a chicken thigh swap and a shrimp curry plating). It names no specific resource or recipe and makes no claim to check.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No recipe, link or named resource is in the post. I didn't search, and the vault listing showed no matching notes.

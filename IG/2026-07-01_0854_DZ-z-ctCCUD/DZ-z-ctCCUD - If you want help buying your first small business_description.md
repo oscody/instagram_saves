@@ -33,3 +33,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If you want help buying your first small business with little to no money down in 2026, DM me “SMB” and I’ll show you exactly how to get started 🤝🏻
+
+## Research
+
+* Verdict: Partly valid. smbmarket.com is real and fits the approach, but it is a paid subscription ($67/month) and the post ends in a DM lead offer. "SBA covers 90%" is simplified: the SBA guarantees part of the loan, and the 10% equity injection is a baseline that lenders can raise.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [SMB Market (smbmarket.com)](https://smbmarket.com): product, in the post, verified, high confidence. Opened it: a subscription feed of small businesses for sale with a Buy Box filter on SDE, industry and DSCR, a Deal Analyzer, and SBA lender help.
+* [BizBuySell: SBA 7(a) loan for business acquisition (bizbuysell.com)](https://www.bizbuysell.com/learning-center/sba-7a-loan-business-acquisition/): guide, found by search, not opened, medium confidence. Appeared in search results on the 10% equity injection and seller note rules. I did not open it.
+
+### Not found
+
+The DM ("SMB") offer content is not public. I did not check the SBA SOP 50 10 8.1 text directly. Search results disagree on whether a seller note counting toward the equity injection must be on standby for 24 months or for the life of the loan, so confirm with a lender.

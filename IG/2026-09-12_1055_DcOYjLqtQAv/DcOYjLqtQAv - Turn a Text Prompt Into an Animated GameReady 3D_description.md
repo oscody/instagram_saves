@@ -43,3 +43,29 @@ Spotted on Hacker News.
 Follow for more open source project drops.
 
 #3DGeneration #GameDev #GenerativeAI #AiAgents #aitools
+
+## Research
+
+* Verdict: Partly valid. The repo exists, is MIT-licensed, and matches the post's quick start and knobs. I couldn't confirm the harness/presets minion/npc/boss files from the README. It only mentions a "boss standard" and a tri_budget setting in harness/claims.json.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [ariescar/anycreature (github.com)](https://github.com/ariescar/anycreature): repo, in the post, verified, high confidence. README describes the JSON spec to GLB Node engine, setup.sh with calibrate OK, wolf example, MANUAL.md and cards, smooth_angle, build rigid and ao.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Mentions AnyCreature as an AI tool for generating Three.js models (e.g. Ludi pieces, alien types). It has no repo link or steps.
+
+### Key steps
+
+1. Run `bash setup.sh` (`setup.ps1` on Windows). It needs Node and Python with numpy, pillow and scipy.
+2. Check that it prints `calibrate OK` before trusting any output.
+3. Build the example: `node engine/cli.js example/wolf.json out/wolf.glb`.
+4. For text-to-creature, give an agent the README prompt. It follows MANUAL.md and the cards/ stages (00_START to 04_SHIP) and asks one question. Describe your creature and its real-world height.
+5. Tune the spec: `smooth_angle` (default 50), `shading`, `build: "rigid"` for robots and crystals, and `ao: false` to skip the AO bake.
+6. For cheaper creatures, lower `tri_budget` in harness/claims.json. The README doesn't show the minion/npc/boss presets.
+
+### Not found
+
+The harness/presets folder with minion.json, npc.json and boss.json wasn't confirmed. I only read the README summary, not the file tree.

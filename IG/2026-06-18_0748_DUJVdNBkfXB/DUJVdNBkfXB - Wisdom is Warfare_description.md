@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Wisdom is Warfare.
+
+## Research
+
+* Verdict: Nothing to find. This is a short philosophical talk with no resource, tool or product to find. Its word-root claim is a speculative hypothesis, and I did not check it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource is named in the post. I did not search, and I did not check the etymology claim linking Sanskrit, Latin and Germanic words.

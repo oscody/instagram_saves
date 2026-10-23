@@ -28,3 +28,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The psychology behind why you’re not consistent #psychology #nervoussystem #consistency #disciplined
+
+## Research
+
+* Verdict: Partly valid. The reel is a general self-help explainer with no downloadable resource. Its claim is plausible but oversimplified. Identity and meaning do support habit consistency, but "the nervous system safety check" is a loose, pop-psychology framing and the post cites no evidence.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource is offered. I did not search the web or check the creator's profile. The vault had no matching notes.

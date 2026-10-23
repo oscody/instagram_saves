@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 From anime binging to just read webnovels only these days😭😭 I fell off
+
+## Research
+
+* Verdict: Nothing to find. Personal/entertainment reel about the creator moving from anime and manga to webnovels. It names no resource, tool or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

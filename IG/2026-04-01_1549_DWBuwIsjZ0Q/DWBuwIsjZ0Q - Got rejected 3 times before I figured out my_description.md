@@ -33,3 +33,20 @@ So I built a doc with 12 AI prompts that fix your resume section by section.
 Summary. Skills. Projects. Work experience. All of it.
 Comment “Guide” and I’ll send it to you. 🔥
 (Save this before you apply to your next job)
+
+## Research
+
+* Verdict: Partly valid. The post shows 5 usable prompts, but the full set of 12 is only sent after you comment "Guide", so no public copy exists. The claim that the prompts fix your resume is plausible, but the "rejected 3 times" story is unverified marketing.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Summary: paste your current summary, fill in job title and industry, and ask for a more concise, engaging rewrite that reflects your strengths, skills and years of experience.
+2. Work experience: paste the bullets for one role and ask for measurable accomplishments, strong action verbs and numbers or metrics.
+3. Keywords: paste the job description and ask for relevant keywords to be added naturally so the resume passes ATS and still reads well to recruiters.
+4. Career change: name your old and new fields and ask for the summary and achievements to highlight transferable skills.
+5. Full audit: ask where the resume is too vague, too wordy or low-impact, and for feedback on tone, structure, and showing leadership, results or innovation.
+
+### Not found
+
+The full 12-prompt guide is sent only by the account after a "Guide" comment. I did not search the web because no public copy is likely. The vault has no notes on this post or creator.

@@ -27,3 +27,8 @@ Written by claude-haiku-5-5.
 🛰️ Gwangju, Republic of Korea🇰🇷
 
 #lineupxi #lineuphiphop
+
+## Research
+
+* Verdict: Nothing to find. This is a dance performance clip from the Lineup battle in Gwangju. It is entertainment, and the post offers no tool, guide or other resource.
+* Checked: 2026-10-22 by claude-sonnet-5-5

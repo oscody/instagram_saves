@@ -20,3 +20,16 @@ Written by claude-haiku-5-5.
 Comment below AGENT to try the best video agent ever!
 
 #videotools #technology #ai
+
+## Research
+
+* Verdict: Unresolved. The reel is a comment-to-get promo, and it never names the tool in the caption or description. I couldn't confirm which product it shows.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Opus Agent – Article to Video (possible match, unconfirmed) (opus.pro)](https://www.opus.pro/es-es/agent/workflows/article-to-video): product, found by search, not opened, low confidence. It turns articles, scripts and news into videos, as the reel describes, but nothing ties it to this reel or to simplydigital.gr.
+
+### Not found
+
+The tool's name, and any public link from simplydigital.gr. The link is probably sent by DM after you comment "AGENT". I didn't open any page, and the vault has no note on it. The Opus Agent link is only a guess from a similar feature set.

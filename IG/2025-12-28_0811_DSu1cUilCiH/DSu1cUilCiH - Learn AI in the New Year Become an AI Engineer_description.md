@@ -49,3 +49,16 @@ Check it out here: https://bytebyteai.com
 
 #AI #AIEngineer #MachineLearning 
 .
+
+## Research
+
+* Verdict: Promo. The post is an ad for a paid ByteByteGo cohort course. The course exists, but the site now shows a waitlist and none of the post's cohort details, projects or tracks.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Become an AI Engineer (ByteByteAI) (bytebyteai.com)](https://bytebyteai.com): product, in the post, verified, medium confidence. The page lists a live 6-week 'Become an AI Engineer' course covering LLM training, RAG and multi-agent systems with MCP. It is on waitlist, and the site doesn't mention Cohort 3, the six projects or the two tracks.
+
+### Not found
+
+The Cohort 3 project list, price and dates are not on the public homepage. The vault has no note on this course.

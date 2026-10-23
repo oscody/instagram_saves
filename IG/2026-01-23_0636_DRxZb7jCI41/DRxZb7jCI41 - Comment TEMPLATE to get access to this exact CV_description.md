@@ -63,3 +63,34 @@ This is how you switch careers with confidence - by making your CV easy for recr
 🔥 Want this CV template? Comment “TEMPLATE” and I’ll send it to you.
 
 #cvtips #careerswitch #careerchange #jobsearch #jobseekers #techjobs
+
+## Research
+
+* Verdict: Partly valid. The CV advice is sound and standard. The exact "TEMPLATE" file is only sent by comment/DM, but TechTalk UK has a public general CV template page that is a close substitute.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [TechTalk UK CV Templates (free resource center) (techtalkuk.co)](https://techtalkuk.co/pages/templates/cv-template): page, found by search, not opened, medium confidence. Listed on the creator's resource center as five ATS-friendly CV templates; I did not open the download page, and it may not be the exact career-switcher PM version.
+* [TechTalk UK Resource Center (techtalkuk.co)](https://techtalkuk.co/pages/resource-center): page, found by search, verified, high confidence. Opened it. It is the creator's public library with CV, cover letter, LinkedIn and interview templates, and no career-switcher PM CV.
+* [Reslink (video resume builder) (reslink.io)](http://www.reslink.io): tool, found by search, not opened, low confidence. Linked from the creator's Linktree as a video resume builder, which may be what the post's 'Play Intro' video pitch refers to. Not opened.
+* [TechTalk UK Linktree (linktr.ee)](https://linktr.ee/techtalkuk): page, in the vault, verified, high confidence. The vault note lists it for this creator. I opened it and it links to the resources above.
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/instagram job hunt people .md`: Lists the creator techtalkuk with their Instagram and Linktree links. It has no template or steps.
+
+### Key steps
+
+1. Put the exact target role directly under your name.
+2. Write the summary around the skills the new role needs, not past job titles.
+3. Move the skills and tools section near the top, using the new field's keywords.
+4. Use the new field's language, such as roadmap, user feedback loops and product-market fit.
+5. Reframe past projects as proof of transferable skills, with specifics.
+6. Write every bullet as an outcome with a number, and avoid 'supported', 'helped' and 'assisted'.
+7. Restate old metrics through the lens of the new role, such as time to launch or adoption.
+8. Add a one-minute video intro covering your story, why you are switching and what you bring.
+
+### Not found
+
+The exact career-switcher product manager CV template is only sent after commenting "TEMPLATE", and I found no public copy. I did not open the CV template download page or Reslink, and I did not watch the video.

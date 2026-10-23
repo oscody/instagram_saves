@@ -43,3 +43,27 @@ Your model was never slow at looking. It was slow at typing.
 Comment BOXES and I will send you the repo and the licence.
 
 #opensourceproject #githubprojects #computervision #objectdetection #nvidia #machinelearning #aitools #devtools #eccv
+
+## Research
+
+* Verdict: Valid. The repo and model card confirm the post: Apache 2.0 code, NVIDIA License weights, 12.7 BPS on H100, and no out-of-the-box visual prompt support. The post's "research or evaluation" wording is looser than the model card, which says non-commercial, academic and non-profit research only. That is stricter, so the conclusion still holds. The ECCV claim was not confirmed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [NVlabs/Eagle – Embodied (LocateAnything code) (github.com)](https://github.com/NVlabs/Eagle/tree/main/Embodied): repo, found by search, verified, high confidence. README lists Apache 2.0 code, a separate NVIDIA model license, the 12.7 BPS vs Qwen3-VL 1.1 and Rex-Omni 5.0 figures, and the visual prompt note.
+* [LocateAnything-3B model card (huggingface.co)](https://huggingface.co/nvidia/LocateAnything-3B): repo, found by search, verified, high confidence. Weights under the NVIDIA License, non-commercial and academic/non-profit research only; install and inference steps given.
+
+### Key steps
+
+1. Clone the repo: git clone https://github.com/NVlabs/Eagle.git eagle && cd eagle/Embodied && pip install -e .
+2. Install PyTorch for your CUDA version. MagiAttention is optional and works only on Hopper or Blackwell GPUs.
+3. Download the weights: hf download nvidia/LocateAnything-3B
+4. Quick start: load LocateAnythingWorker("nvidia/LocateAnything-3B") and call detect, ground_multi, detect_text, ground_gui or point.
+5. For batch runs on A100 or L40, use: python batch_infer.py --model . --attn la_flash --scheduler pipeline --batch-size 4 --image <path> --query "<query>"
+6. Read the output boxes as <box><x1><y1><x2><y2></box> with coordinates in 0–1000. Divide by 1000 for relative coordinates.
+7. Check LICENSE_MODEL before any commercial use. Don't expect visual prompt inference from the released weights.
+
+### Not found
+
+I did not check the ECCV 2026 acceptance, the training data figures (12M images, 138M queries, 785M boxes) or the BPS benchmark details in document/RESULTS.md. The model card doesn't mention ECCV. The post says "section 3.3" of the licence; I did not open the licence text to check it. The 10x figure is against Qwen3-VL and the 2.5x figure is against Rex-Omni, which matches the post's point. The BOXES comment/DM is not needed, since the repo is public.

@@ -41,3 +41,16 @@ Follow @tomiwabankole__ for heart-deep conversations with your partner.
 
  #GOD #Chtistiantiktok #faithoverfear
 #christianity #godspeed
+
+## Research
+
+* Verdict: Partly valid. The five questions are in the post itself and are sensible. The card game is only sent after a "Soft" comment, and I found no public copy of it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this post as a later-stage question set for a serious relationship, next to other dating-question posts. It has no card game link.
+
+### Not found
+
+The "Ultimate Courtship Edition" card game link. One web search turned up no public page for it. It appears to be sent by DM only after commenting "Soft" on the post. I did not open the creator's profile or bio link.

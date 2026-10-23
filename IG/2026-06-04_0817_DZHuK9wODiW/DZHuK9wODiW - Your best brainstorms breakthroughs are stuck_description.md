@@ -49,3 +49,26 @@ Straight to a markdown file in your AI Brain.
 Pro-tip: use your judgement to decide what gets exported, and what can get deleted indefinitely. 
 
 comment 'CLAUDE' and I'll send you my free beginner's guide to Claude Code 🤝
+
+## Research
+
+* Verdict: Partly valid. Free Chrome extensions that export ChatGPT, Claude and Gemini chats to markdown do exist. The reel doesn't name the ones it uses, so I couldn't match them. The "CLAUDE" guide is only sent after a comment.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Chatport (export Claude/ChatGPT/Gemini chats) (addons.mozilla.org)](https://addons.mozilla.org/en-US/firefox/addon/chatport/): tool, found by search, not opened, low confidence. This is a search-result listing for an extension that exports chats from all three tools to markdown, with bulk export. I didn't open it, and it is a Firefox listing.
+* [LLM Chat Exporter (chromeboard.com)](https://chromeboard.com/extension/llm-chat-exporter-aiienkcfiaklilljllikmckfopepglkd): tool, found by search, not opened, low confidence. This Chrome extension saves Claude, ChatGPT and Gemini chats as markdown. I didn't open the page, and the reel doesn't say which extension it uses.
+* [Chat Exporter (chromeboard.com)](https://www.chromeboard.com/extension/chat-exporter-gmbljfljnmaaonbjdlchnkppnooccbab): tool, found by search, not opened, low confidence. This Chrome extension covers all three tools with markdown download. Its listing mentions loading all messages first.
+
+### Key steps
+
+1. Install a chat-export Chrome extension that supports ChatGPT, Claude and Gemini.
+2. Open the chat and use the extension's export button.
+3. Load the full thread, which may need scrolling to the top.
+4. Export as markdown (.md).
+5. Save the file into your notes folder (the creator calls it "AI Brain").
+
+### Not found
+
+The exact extensions shown in the reel. The creator's free Claude Code beginner's guide is sent only after commenting 'CLAUDE', and I found no public copy.

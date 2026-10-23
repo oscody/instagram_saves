@@ -60,3 +60,12 @@ Pro Tip: Chill the sweet potato purée overnight (or for at least 30 minutes) be
 Crunch-Maxing Tip: Roast the sweet potato, press the mixture firmly, and let the cereal cool completely before storing. Most of the crunch develops as it cools.
 
 Follow for more banging healthy recipes 🔥
+
+## Research
+
+* Verdict: Partly valid. The recipe is complete in the caption and is a plausible oat-and-sweet-potato granola. The health claims, such as "testosterone nutrients", are marketing. The reel also promotes a cookbook (comment "COOKBOOK") and a honey discount code, and I did not search for either.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The Real Food Cookbook link is only sent after a comment, so I found no public copy. I did not search the web or open any page. The vault had no related notes. The recipe steps are in the post itself.

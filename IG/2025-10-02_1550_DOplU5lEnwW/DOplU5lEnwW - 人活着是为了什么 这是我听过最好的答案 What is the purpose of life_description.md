@@ -34,3 +34,16 @@ Written by claude-haiku-5-5.
 Song：à thế làm sao remix
 
 #中文 #douyin #douyin抖音 #tiktok #motivation #chinese #mandarin #repost #reposting #sub #fyp #foryoupage #music #songs
+
+## Research
+
+* Verdict: Nothing to find. This is a motivational repost of a Douyin video with no tool, guide or product to find. The only link is the original Douyin video, which I did not open.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Original Douyin video (from caption) (douyin.com)](https://www.douyin.com/video/7464571445268679976): video, in the post, not opened, medium confidence. The caption and source line both give this as the original, but I did not open it.
+
+### Not found
+
+I did not search the web or open the Douyin link, because the post has no resource to find. The vault had no matching notes.

@@ -36,3 +36,25 @@ It is smaller than a single photo and needs no GPU, so you can ship voices in an
 > no per-character cloud bill
 
 Save this if you need voices on a budget.
+
+## Research
+
+* Verdict: Partly valid. KittenTTS is real, open source and runs on CPU, but only the int8 nano V0.8 model is 25 MB. The new flagship KittenTTS 2 is about 506–947 MiB. Voice cloning is now in the repo's KittenTTS 2, so the comment-gated link isn't needed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [KittenML/KittenTTS (github.com)](https://github.com/KittenML/KittenTTS): repo, in the post, verified, high confidence. Repo opened. It lists the V0.8 ONNX models (nano int8 at 25 MB, CPU-only), Apache-2.0 code, and voice cloning in KittenTTS 2.
+
+### Key steps
+
+1. Requires Python 3.9+. Run: pip install kittenml
+2. For the small 25 MB CPU model, use the V0.8 kitten-tts-nano int8 model listed in the repo (check the README for its exact model ID).
+3. For the flagship, load it with m = KittenTTS("KittenML/kitten-tts-2"). It is about 506 MiB with weights="emb4" or 947 MiB by default.
+4. Generate audio with m.generate(text, voice=...), then save it with soundfile at m.sample_rate. generate_to_file and generate_stream also exist.
+5. For voice cloning (KittenTTS 2 only), pass reference=<5–30 s clip of one speaker> instead of voice=. reference_text is optional, and Whisper transcribes the clip if it is omitted.
+6. Check the license: the code is Apache-2.0, but the KittenTTS 2 weights use the Stellon Labs Community License.
+
+### Not found
+
+The separate voice cloning link sent by comment 'TEXT' was not seen. The repo documents cloning itself. I did not check the V0.8 nano model's exact Hugging Face ID.

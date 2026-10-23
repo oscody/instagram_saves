@@ -28,3 +28,12 @@ Sharing an AI-generated answer is easy. But if it's all you, then you need to as
 Ep 55: AI Plan Mode Is Dead. What Developers Are Doing Instead.
 
 #coding #programming #developer #techcareers #beyondthebuild
+
+## Research
+
+* Verdict: Nothing to find. The reel is a podcast opinion clip about not passing off AI-generated text as your own work. It has no tool, repo or guide to find. The advice (add your own value, verify AI output) is common sense.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Did not search. The post names only a podcast episode (Ep 55, Beyond the Build), which is not needed to act on the advice.

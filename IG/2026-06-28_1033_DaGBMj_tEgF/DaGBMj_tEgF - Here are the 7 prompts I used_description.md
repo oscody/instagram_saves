@@ -73,3 +73,23 @@ So if you want more options…and you want to learn how everyday people are buil
 ⚠️ Make sure you’re FOLLOWING @buildwealthwiththomas first so I can message you!
 
 📌 Save this for later. Your future self will thank you. ✨
+
+## Research
+
+* Verdict: Partly valid. The seven prompts are all in the caption and you can use them as they are. The post is also a lead-in for a "free training" that is sent by DM after a follow and a comment, and I found no public copy. Prompts like these give generic brainstorming, not income ideas based on real data.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Paste your salary and career history into ChatGPT first as context.
+2. Hidden skills: "Identify the 10 most valuable skills I'm underestimating. Explain why they're valuable, who would pay for them, and how AI could help me monetize them."
+3. Income: "Suggest 10 realistic ways I could earn an additional 1-3k per month. Include startup cost, time commitment, difficulty level, and earning potential."
+4. Monetize: "Act as a business strategist. Identify services, consulting offers, digital products, or freelance opportunities I could create using skills I already have."
+5. Leverage: "To increase my income as quickly as possible using my current skills, what would you focus on first and why?"
+6. Pays more: "Identify roles, industries, or opportunities that would pay significantly more than my current position. Explain what makes me qualified."
+7. AI side hustle: "Suggest 5 AI-assisted services I could offer that require less than 5 hours per week to start."
+8. 90-day plan: "Create a step-by-step plan for more career security and additional income over the next 90 days, based on my background, schedule, and experience."
+
+### Not found
+
+The "LEARN" free training is only sent by DM after you follow the account and comment. I found no public copy and did not search for one. The vault has no notes on this post or creator.

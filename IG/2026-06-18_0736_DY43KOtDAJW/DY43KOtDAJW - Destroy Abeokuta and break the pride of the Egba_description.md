@@ -37,3 +37,18 @@ Balogun Ogunbona of Ikija, one of the respected war commanders of Abeokuta, unde
 Then the attack came.
 
 Read more in the comments 👇🏽
+
+## Research
+
+* Verdict: Partly valid. The core history holds: Dahomey under Gezo attacked Abeokuta on 3 March 1851 with Amazon troops, and Dahomey lost. The dramatic details (the quote, Ogunbona's moves) are unsourced, the rest of the story sits behind "read in comments", and the last slides promote the founder's books.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Gbalefa Peninsula (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Gbalefa_Peninsula): page, found by search, not opened, medium confidence. Search snippet dates the first major Dahomean incursion into Egba territory to 3 March 1851 under Ghezo; I did not open the page.
+* [Ghezo (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Ghezo): page, found by search, not opened, medium confidence. Background on Gezo and the Abeokuta–Dahomey wars; the snippet doesn't name Ogunbona; I did not open the page.
+* [Ahosi (Amazons) of Dahomey (BlackPast) (blackpast.org)](https://blackpast.org/global-african-history/amazons-ahosi-dahomey): page, found by search, not opened, medium confidence. Covers the Dahomey Amazon corps mentioned in the post; I did not open the page.
+
+### Not found
+
+The vault had no related notes. I found no public listing for Adegoke Taiwo's books, and no source naming Balogun Ogunbona in the 1851 battle. I did not open any of the pages above. The rest of the story is in the comments, which I couldn't see.

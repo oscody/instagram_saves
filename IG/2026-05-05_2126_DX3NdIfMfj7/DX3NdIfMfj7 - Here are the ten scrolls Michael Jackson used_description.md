@@ -64,3 +64,21 @@ If you feel the same way as me, you’ll love the following:
 I’ve carefully taken notes of this book and curated each scroll in a digestible way so my 5 year old brain can understand what to DO.
 
 Comment "MIKE“ and”I’ll send you the notes.
+
+## Research
+
+* Verdict: Partly valid. The scrolls come from Og Mandino's "The Greatest Salesman in the World" (1968), a real book. I found no source saying Michael Jackson used it. The creator's "notes" are only sent after a comment, so it is a lead-gen offer.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The Greatest Salesman in the World (Og Mandino) (en.wikipedia.org)](https://en.wikipedia.org/wiki/The_Greatest_Salesman_in_the_World): page, found by search, not opened, medium confidence. Search results describe the book's ten scrolls, matching the post's scroll format. I did not open the page, and it does not mention Michael Jackson.
+
+### Key steps
+
+1. Read Scroll I three times a day for 30 days, as the book instructs, then move to the next scroll.
+2. The creator's notes version is sent only after commenting "MIKE". No public copy found.
+
+### Not found
+
+No source linking Michael Jackson or Kobe Bryant to the book. The creator's notes have no public copy. I did not check the vault beyond the note's "none found" list.

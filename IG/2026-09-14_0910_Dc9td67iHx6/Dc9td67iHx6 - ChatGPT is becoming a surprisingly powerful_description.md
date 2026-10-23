@@ -41,3 +41,23 @@ The key is specificity. Tell ChatGPT exactly what you want to preserve, then des
 💬 Comment “PHOTO” and I’ll send you the prompts.
 
 #ChatGPT #AIPhotography #AIPrompts #PhotoEditing #fyp
+
+## Research
+
+* Verdict: Partly valid. The post is a lead-magnet carousel: five prompts are shown as patterns on the slides, and the full set of seven is only sent by DM after commenting "PHOTO". The general advice (say what to preserve, then describe the look) is sound, but the identity-preserving results are not guaranteed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Upload your own photo to ChatGPT.
+2. State what to keep: face, facial structure, proportions, hairstyle, skin tone, identity (and pose/background for outfit changes).
+3. Describe the target look: lighting, environment, textures, composition, shadows, depth, style.
+4. Cinematic portrait: place yourself in [scene] with directional lighting, natural shadows, subtle depth of field, believable skin texture, film-style color grading.
+5. Headshot: keep identity, ask for flattering studio lighting, clean background, realistic skin detail, sharp focus, natural expression.
+6. Travel: place yourself in [destination], match lighting, weather, shadows and perspective, keep face unchanged.
+7. Outfit change: keep face, hairstyle, body, pose and background, replace clothing with [outfit] with believable fabric, folds, seams and shadows.
+8. Luxury editorial: place yourself in [luxury setting] wearing [outfit], with elegant lighting, subtle background blur, tasteful grading, natural pose.
+
+### Not found
+
+The two prompts not shown on the slides (realistic location change and golden-hour photography) are only sent by DM after commenting "PHOTO". No public copy was searched for or found. I did no web search, because the post's own text already holds the prompt patterns.

@@ -28,3 +28,12 @@ So if you want to write stronger characters, improve your storytelling, create m
 Save this for later and keep creating ✨
 
 #storytelling #characterarcs #writingtips #webcomic #comicartist mangawriter artistsoftiktok creativewriting learnwriting storystructure
+
+## Research
+
+* Verdict: Unresolved. The post promises 12 YouTube videos on character arcs, but only a screenshot of three appears and the titles aren't legible. No public list from the creator turned up, and the "faster than 99% of writers" claim is just marketing.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The list of 12 YouTube videos. The reel shows only a screenshot of three, with no readable titles or links. One web search for the creator (minaismini) and the post title found nothing. The vault's only mention is a pipeline to-do note, which has no resource.

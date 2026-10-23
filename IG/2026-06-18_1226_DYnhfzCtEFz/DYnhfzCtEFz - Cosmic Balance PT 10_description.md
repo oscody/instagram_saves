@@ -25,3 +25,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Cosmic Balance PT 10 #philosophy #taoism #affiliate
+
+## Research
+
+* Verdict: Partly valid. The reel is a philosophy explainer with no downloadable resource. Its Butcher Ding story is a real Zhuangzi passage (Chapter 3), and the wu wei reading is a common interpretation, though some scholars read the story differently. The #affiliate tag suggests a promo link that I couldn't find.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Zhuangzi Chapter 3 (Cook Ding story), chinesenotes (chinesenotes.com)](https://chinesenotes.com/zhuangzi/zhuangzi003.html): page, found by search, not opened, medium confidence. Search result listing the Zhuangzi chapter containing the Cook/Butcher Ding ox story the reel uses; I did not open it.
+
+### Not found
+
+The "Cosmic Balance" series' other parts and the affiliate product or link were not found. The vault had no matching notes.

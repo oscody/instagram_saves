@@ -39,3 +39,17 @@ p/r/e/o/r/d/e/r the ebook for only 3️⃣.99
 
 🏷️ #blackfantasy #blackbookstagram #blackauthors #indieauthor #blackbooks
 [horror fantasy books with a romantic subplot. Black author indie published controversial themes and lush prose Hoodoo magic]
+
+## Research
+
+* Verdict: Promo. The post is a book promo for a real upcoming novel. The listing matches the post's premise and dates, but it doesn't show the $3.99 price or the "indie" label.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [DARK STAR: A Magical HBCU Horror Story in A Reverse Sundown Town (Bookishelf listing) (bookishelf.com)](https://www.bookishelf.com/?p=33212): page, found by search, verified, medium confidence. The listing gives the title, author Tonja K. Johnson, a Kindle release on 18 Dec 2026 and a Hoodoo-based premise. It shows no price or publisher.
+* [Fuse Literary: Laurie Welcomes New Client Tonja K. Johnson (fuseliterary.com)](https://www.fuseliterary.com/?p=234837): page, found by search, not opened, low confidence. The search summary says the novel has agency representation and a December release. I did not open this page.
+
+### Not found
+
+The $3.99 preorder price and the link in the creator's bio were not verified. The "indie" claim may conflict with the agent and Simon & Schuster audiobook details in search results, which I did not open.

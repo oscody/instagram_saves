@@ -71,3 +71,16 @@ So yeah, the winner is Claude, and honestly, it wasn’t even close!
 What do you all think?
 
 #claudepartner
+
+## Research
+
+* Verdict: Promo. The reel is tagged #claudepartner and is a paid Claude promotion. Its test of 50 applications per resume is anecdotal: one person, one week, and 5 vs 3 vs 1 interviews is too few to show a difference. The resume file is only sent after a comment, and I found no public copy.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/networking tiktok referrals.md`: Only a TikTok link from the same creator about finding companies with referral bonuses. It has nothing on this resume test.
+
+### Not found
+
+The "CLAUDE" comment-gated resume and access link. I did not search the web because the post is a promo with the material sent privately.

@@ -33,3 +33,27 @@ OpenMontage makes your AI coding assistant the director. You type a plain-langua
 The catch, in full: the license is AGPL-3.0, so anyone modifying and redistributing it as a service has obligations. The showcase videos in the README were made with paid models like Veo and Kling, and the free tier is the simpler Remotion path, so the zero-key output looks nothing like the trailers. 325 open issues, expect rough edges. And only install from the real repo, because copycat installers using this name have shipped malware twice.
 
 #claude #claudecode #github #opensource #openclaw
+
+## Research
+
+* Verdict: Valid. The public repo exists, is AGPL-3.0, and matches the post's features and assistant list. It needs no comment or DM. The star count is higher now than the post's figure, which is plausible growth.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [calesthio/OpenMontage (github.com)](https://github.com/calesthio/OpenMontage): repo, found by search, verified, high confidence. Opened the repo. It lists AGPL-3.0, 12 pipelines in the About text, a zero-key demo using Piper, and support for Claude Code, Cursor, Copilot, Codex and Windsurf.
+
+### Key steps
+
+1. Install Python 3.10+, FFmpeg, Node.js 18+ and an AI coding assistant such as Claude Code.
+2. git clone https://github.com/calesthio/OpenMontage.git
+3. cd OpenMontage
+4. make setup (the README also gives manual pip, npm and piper-tts steps, and PowerShell commands for Windows)
+5. make demo to render the zero-key demo videos (Piper narration and free stock sources)
+6. Open the folder in your assistant and give it a plain-language video brief.
+7. Approve each gated stage as the agent runs it.
+8. Add paid API keys in .env only if you want paid-model output like the README trailers.
+
+### Not found
+
+I did not check the creator's claims of a Sep 14 demo run, the malware copycats, or the 325 open issues. The README's pipeline table lists 11 pipelines, not the 12 in the About text.

@@ -61,3 +61,19 @@ Prompt: "I think [Project] will take 20 minutes, but it usually takes 2 hours. H
 Prompt: "My brain is full of 'Open Loops.' I will dump everything I'm worried about below. Categorize these into 'Now,' 'Later,' and 'Trash,' and then write a 1-sentence 'Actionable Next Step' for only the 'Now' items."
 
 Love learning AI? Follow @airesearches 🌟
+
+## Research
+
+* Verdict: Partly valid. The seven prompts are real and usable in any Claude chat, but Claude has no "ADHD Executive Function Mode." The "week's work in 4 hours" claim is clickbait. I did not search for an official feature.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Paste any of the seven prompts into a Claude chat and fill in the [Task], [Interest] or [Project] placeholders.
+2. Task Paralysis Shatterer: ask for steps under 1 minute each, then the first step and where to put your hands.
+3. Body Doubling: ask Claude to check in every 10 minutes for 30 minutes. This only works if you reply to each check-in.
+4. Executive Function Externalizer: dump your worries, ask for Now/Later/Trash, and get a 1-sentence next step for the Now items only.
+
+### Not found
+
+No official "ADHD Executive Function Mode" exists as far as I know. I did not search the web or check Anthropic's docs, because the post is just a list of prompts. The vault had no matching notes, and I did not grep it myself.

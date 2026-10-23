@@ -65,3 +65,24 @@ Class is $20 as usual
 Free for playmaker  SUBS
 
 Comment or DM me “buy”  to sign up
+
+## Research
+
+* Verdict: Partly valid. The three marketplaces are real and do what the reel says. The caption is partly a pitch for a $20 class ("buy" in comments or DMs), and its claim that buying pages is "not advertised" is hype, since Flippa openly lists social accounts.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Flippa (flippa.com)](https://flippa.com): product, in the post, verified, high confidence. The site lists websites, Shopify stores, Amazon businesses, YouTube channels and social accounts, as the reel says.
+* [Acquire.com (acquire.com)](https://acquire.com): product, in the post, verified, high confidence. It is a marketplace for buying and selling online businesses such as SaaS, ecommerce and content sites.
+* [LoopNet (loopnet.com)](https://www.loopnet.com): product, in the post, not opened, medium confidence. The site returned a 403 error when fetched. A saved vault note links to its business-for-sale section (loopnet.com/biz), which matches the reel's use for local businesses.
+
+### Already in the vault
+
+* Vault: `2. Areas/Plans/to do weekely 12924 - 121524.md`: A LoopNet business-for-sale search link for the NYC area and a BizBuySell listing.
+* Vault: `4. Archives/Evernote/nians notebook/Freelance 2023.md`: A Flippa link.
+* Vault: `4. Archives/Evernote/nians notebook/Jan 2023 to do Shopping.md`: An Acquire.com signup link.
+
+### Not found
+
+The creator's $20 class on buying domains, Instagram pages and TikTok pages is only available through a comment or DM ("buy"). I found no public copy. I could not open LoopNet.

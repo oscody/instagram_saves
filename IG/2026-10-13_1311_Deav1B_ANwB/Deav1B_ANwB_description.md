@@ -53,3 +53,25 @@ https://commons.wikimedia.org/wiki/File:Sobrevuelo_Castillo_de_Chapultepec.webm
 Curated by @hyun2xyz
 
 #OpenSource #COLMAP #Photogrammetry #CreativeCoding
+
+## Research
+
+* Verdict: Valid. COLMAP is a real, well-known open-source SfM/MVS tool under the new BSD license, and the post's four-stage description matches how it works. The 96-frame and 69,316-point figures come from the creator's own run, and I did not check them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [COLMAP (GitHub) (github.com)](https://github.com/colmap/colmap): repo, in the post, verified, high confidence. The repo page describes a Structure-from-Motion and Multi-View Stereo pipeline under the new BSD license, as the post credits. The post links a specific commit of this repo.
+* [Sobrevuelo Castillo de Chapultepec (drone video, ProtoplasmaKid, CC0) (commons.wikimedia.org)](https://commons.wikimedia.org/wiki/File:Sobrevuelo_Castillo_de_Chapultepec.webm): video, in the post, not opened, medium confidence. The post credits this as the source of its drone footage. I did not open it.
+
+### Key steps
+
+1. Install COLMAP: Windows prebuilt binaries from GitHub releases, `conda install colmap` (conda-forge), Docker, or build from source (see colmap.github.io/install.html).
+2. For Python use, install the `pycolmap` bindings from PyPI (`pycolmap-cuda12` for CUDA).
+3. Extract frames from a video, or collect overlapping photos, into one folder.
+4. Open the GUI, or use the CLI automatic reconstructor, and point it at the image folder. This runs feature extraction, matching, incremental mapping and bundle adjustment.
+5. Inspect the sparse model's camera poses and 3D points, then export them to use in compositing or point-cloud effects.
+
+### Not found
+
+I did not open the specific commit link or the Wikimedia video. I did not check the CLI command names in the docs. I could not check the 96-frame and 69,316-point figures.

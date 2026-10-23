@@ -28,3 +28,18 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “BUILD” and I’ll send you the repo #coding #programming #github #computerscience
+
+## Research
+
+* Verdict: Valid. The repo is the public "build-your-own-x" by codecrafters-io. It has over 500k stars and the categories shown in the reel. The comment-BUILD gate isn't needed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [build-your-own-x (codecrafters-io) (github.com)](https://github.com/codecrafters-io/build-your-own-x): repo, found by search, verified, high confidence. The repo has about 555k stars now and a list of 'build your own' tutorials, including Game, Emulator, Operating System, AI Model, Web Browser and Search Engine.
+
+### Key steps
+
+1. Open the repo README and pick a category, such as Game, Emulator, Operating System, Web Browser or AI Model.
+2. Choose a tutorial link under that category, filtered by your language.
+3. Follow the linked external tutorial to build the project from scratch.

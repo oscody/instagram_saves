@@ -32,3 +32,19 @@ Written by claude-haiku-5-5.
 Save time and find your next job with Claude! 🔥
 
 #JobSearchAutomation #CareerTech #AIJobSearch
+
+## Research
+
+* Verdict: Unresolved. The prompt is shared only through the comments or a DM, and the post doesn't show it. I didn't find a public copy. The idea itself (upload a resume, enable web search, ask Claude to rank jobs by fit) is plausible. The 75-point cutoff is the creator's own rule of thumb, and the fit scores are model estimates.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Open Claude and upload your resume.
+2. Turn on web search.
+3. Paste a prompt asking Claude to find current jobs that match the resume and build a dashboard. Include company, role, link, a fit score out of 100 and a probability label.
+4. Apply only to jobs scoring 75 or higher.
+
+### Not found
+
+The creator's exact prompt, which is gated behind a comment or DM. I only grepped the vault, which turned up nothing for this creator or post. I ran no web search.

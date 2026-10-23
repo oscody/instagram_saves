@@ -36,3 +36,16 @@ Comment FREE below, and I’ll send you:
 Don’t miss out on money that could be available to you. Comment FREE and let’s get you funded! 🚀💸
 
 #SmallBusiness #BusinessGrants #GrantFunding #Entrepreneur #StartupFunding WomenInBusiness
+
+## Research
+
+* Verdict: Partly valid. The "free grant list" is a lead-magnet funnel: it is sent only after a comment, and I found no public copy. Her other free offers look like upsells to paid training, and the claim of "$50,000 in grants" is unverified.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Access Granted With Coach K (podcast, links to free Grant Mastery Training) (podscan.fm)](https://podscan.fm/podcasts/access-granted-with-coach-k): page, found by search, not opened, low confidence. Search results tie a Coach K to free grant training and a paid grant community, but I did not open the page or confirm it is the same creator as @itsscoachk.
+
+### Not found
+
+The grant list itself and the free course are only sent after a comment, and I found no public copy. I did not open the creator's Instagram profile or confirm the funnel's contents. Treat the "$50,000" figure as marketing. Real grants are available free at grants.gov (federal) and SBA.gov. I did not open either site in this check.

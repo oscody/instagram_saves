@@ -42,3 +42,17 @@ If you want help finding grants in your specific niche or getting clarity on you
 Use who you are to your advantage.
 
 And follow me for more advice on storytelling, funding, and turning your ideas into opportunities.
+
+## Research
+
+* Verdict: Partly valid. The advice (affinity bias, narrow identity-based grants) is plausible and common in grant writing. The "25 identity points" list is only sent after a comment, and I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Searched the vault for the creator and for 'Dream in Black'; nothing found.
+2. Web search for the creator and the '25 identity points' list returned nothing relevant.
+
+### Not found
+
+The 25 identity points list is sent by the creator (queenabergen) after a comment of POINTS. I found no public copy. I did not verify her AT&T Dream in Black win.

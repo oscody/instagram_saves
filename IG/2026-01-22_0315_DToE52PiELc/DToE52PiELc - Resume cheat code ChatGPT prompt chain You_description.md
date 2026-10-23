@@ -26,3 +26,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Resume cheat code ChatGPT prompt chain. You definitely need to run through this at least once to optimize your resume to pass the automated filters. Plus, it’s a useful exercise anyway!  #chatgpt #resume #jobsearch #career #chatgptprompts
+
+## Research
+
+* Verdict: Valid. The reel describes a plain prompt chain (recruiter match score, XYZ rewrite, ATS check, interview prep) that works in any chatbot. No separate public resource exists, and the post already holds the full steps. Its claim that this beats automated filters is a mild overstatement, since ATS behavior varies.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only mentions creator sabrina_ramonov (a pending DM about teaching Claude Code); nothing on this resume chain.
+* Vault: `2. Areas/Botstack/Pi/pi todo/_pi todo query.md`: Only records the post's shortcode in a list of failed downloads; no resume content.
+
+### Not found
+
+No separate public page or document for the prompts was searched for or found. The steps in the post are complete as written.

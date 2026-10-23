@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Truth in anime
+
+## Research
+
+* Verdict: Not valid. The reel gives no sources, and its own reply names the show as Arslan, a fictional fantasy. The "true history" and "lost Western empire" framing is a conspiracy-style claim. I did not search, so I did not check the March 21, 1994 date.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No vault notes matched. I did not search the web. The reel gives no source for the 1994 broadcast or for any historical claim. From memory, Arslan Senki is an anime adaptation of Yoshiki Tanaka's fantasy novels, set in a fictional Persia-inspired kingdom, so it is not a record of a real lost empire.

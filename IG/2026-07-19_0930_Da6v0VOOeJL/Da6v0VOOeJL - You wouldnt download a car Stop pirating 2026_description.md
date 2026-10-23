@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 You wouldn’t download a car. Stop pirating 2026.
 
 #ai #bigtech #engineer #csmajor #linux
+
+## Research
+
+* Verdict: Nothing to find. This is a joke reel about piracy ("You wouldn't download a car") that shows a home server rack. It has no guide, repo or product to look up, and it doesn't make a claim that can be checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+Nothing searched. The post is entertainment, and the vault had no notes on it.

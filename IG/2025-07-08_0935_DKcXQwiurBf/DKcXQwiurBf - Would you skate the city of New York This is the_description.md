@@ -37,3 +37,29 @@ Follow to find the next big skating event
 •
 _
 #rollerblading #rollerskating #skatingisfun #rolki #summertime #streetskating #skating #newyork #reelsinstagram #fyp #foryou #viral
+
+## Research
+
+* Verdict: Valid. The Big Apple Roll is a real annual NYC skate event with an official site. The 2025 dates of July 31 to August 3 match the vault note. The event has since passed. The next ones are July 30 to August 2, 2026 and August 5 to 8, 2027.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Big Apple Roll official site (bigappleroll.org)](https://bigappleroll.org): page, found by search, verified, high confidence. Official BAR site. It lists the annual four-day event, is open to beginner and experienced skaters, and gives later dates (2026, 2027).
+* [Empire Skate Club of New York – BAR page (empireskate.org)](https://empireskate.org/weekend.html): page, found by search, verified, high confidence. Describes BAR as a four-day early-August skate weekend and links to bigappleroll.org.
+* [@bigappleroll Instagram (instagram.com)](https://www.instagram.com/bigappleroll/): page, in the vault, not opened, medium confidence. Account named in the post's caption and listed in the vault note. I did not open it.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Big Apple Roll.md`: The 2025 dates (July 31 to August 3) and the Instagram link, plus a few shop links.
+
+### Key steps
+
+1. Check bigappleroll.org for the next event. The listed dates are July 30 to August 2, 2026 and August 5 to 8, 2027.
+2. Register early. The site says to join early, and about 1,000 people registered last year.
+3. Follow @bigappleroll on Instagram for schedule updates.
+4. Be comfortable skating on city streets and wear all your protective gear.
+
+### Not found
+
+The site did not list registration steps, fees, or gear rules. I did not open the Instagram account.

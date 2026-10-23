@@ -50,3 +50,16 @@ While most people try to impress, the ones at the top influence without saying m
 Understand these, and you’ll start seeing every room differently.
 
 Apply them, and you won’t need to prove anything at all.
+
+## Research
+
+* Verdict: Partly valid. The carousel is a generic recap of well-known productivity methods. The caption's "billionaire secrets" framing doesn't match the content, and the linked site tulkit.co is now a parked GoDaddy for-sale domain.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [tulkit.co (source link in post) (tulkit.co)](https://tulkit.co): page, in the post, not opened, low confidence. The domain redirects to a GoDaddy for-sale page, so the original resource can't be confirmed.
+
+### Not found
+
+The original tulkit.co content is gone (domain parked). I didn't search further because the methods themselves (Pomodoro, Eisenhower, PARA and so on) are standard and the post's own steps already cover them. I didn't check the Dan Koe and Steve Jobs attributions.

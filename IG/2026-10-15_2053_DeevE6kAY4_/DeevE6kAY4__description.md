@@ -55,3 +55,24 @@ What are good AI projects for job seekers?
 How do I find AI project ideas under $100?
 
 #resume #job #work #career #chatgpt
+
+## Research
+
+* Verdict: Partly valid. The post's full prompt is public in the caption, so you don't need the DM. The advice is reasonable but unproven: a project may help, and the post offers no evidence that it gets interviews. The "full material" sent by DM was not checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only a task mentioning waiting for a reply from sabrina_ramonov about Claude Code; nothing on this post.
+
+### Key steps
+
+1. Open ChatGPT, Claude or Gemini.
+2. Paste: "I'm applying to this role _____. Brainstorm 10 easy AI project ideas I can do for <$100 that are highly relevant to the role and would help my resume stand out because everyone's obsessed with AI." Replace the blank with your target job title.
+3. Pick one idea and ask the AI for build steps.
+4. Ask which tools you need and check their costs first.
+5. Finish the project, then add it to your resume. Describe what you built and how it relates to the job.
+
+### Not found
+
+The DM material from commenting \"CAREER\" is not public, and I did not search for it. The caption already holds the core prompt.

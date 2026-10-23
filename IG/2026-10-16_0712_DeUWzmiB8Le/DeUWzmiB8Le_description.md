@@ -37,3 +37,12 @@ You don’t have to throw yourself backwards and hope for the best. Build the fo
 Save this video and practice each step in order. And if you want the full breakdown, my Backwards Skating Masterclass walks you through it step by step. Tap the link in my bio to get started 🛼
 
 #LearnToSkate #BackwardsSkating #RollerSkatingTips #beginnerskater
+
+## Research
+
+* Verdict: Promo. The reel is a free teaser for the creator's paid Backwards Skating Masterclass, which is linked only from her Instagram bio. The three-step lemon progression is a sound, common way to learn backwards skating, but I found no public page for the course.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I couldn't find the Backwards Skating Masterclass page. One web search for the creator's handle and the course name returned nothing for simply.salomee. The link is in her Instagram bio, which I can't open. The vault has no note on this post.

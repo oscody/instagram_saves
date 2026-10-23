@@ -50,3 +50,16 @@ It may be access to personalized guidance that helps people learn faster, unders
 What skill would you use AI to learn faster?
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Partly valid. A real Harvard study (2025) found a custom AI tutor beat in-class active learning in one physics course. The post turns this into generic prompts, which is a stretch, since that tutor had carefully built-in teaching design. The prompts are the post's own and are reasonable.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Harvard Gazette: professor tailored AI tutor to physics course, engagement doubled (news.harvard.edu)](https://news.harvard.edu/gazette/story/2024/09/professor-tailored-ai-tutor-to-physics-course-engagement-doubled/): page, found by search, not opened, medium confidence. Harvard's coverage of the AI tutor study (Kestin and Miller, Scientific Reports, 2025) that the post's 'Harvard study' claim most likely refers to; seen in search results, not opened.
+
+### Not found
+
+The post does not name the study, so the match to the Kestin/Miller physics study is an inference. I did not open the study page. The vault only mentions the creator in an unrelated note.

@@ -30,3 +30,27 @@ Open source: xgen-labs/xgen-jing
 Follow for more open source project drops.
 
 #InteractiveAI #AIVideo #GameAI #GenerativeWorlds #AIResearch
+
+## Research
+
+* Verdict: Partly valid. The repo exists and matches, but it generates video offline from control inputs. It needs six H100 GPUs, so "real-time" play is overstated.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [xgen-labs/xgen-jing (github.com)](https://github.com/xgen-labs/xgen-jing): repo, in the post, verified, high confidence. README describes an egocentric interactive model built on MiniMax-H3 that makes first-person video and audio with navigation, object interaction and dialogue.
+
+### Key steps
+
+1. Use Python 3.12 with a compatible CUDA setup. The authors validated it on six H100 GPUs.
+2. Clone the repo and run: python3 -m pip install -r requirements.txt
+3. Install SGLang separately at the commit the README pins, plus the pinned Diffusers revision and CUDA wheels.
+4. Weights download from Hugging Face on first use. Set HF_HOME to change the cache location.
+5. Check the setup: python3 demo_bidirection.py check_config=true
+6. Generate an example: bash demo.sh cases=examples/bakery_greeting.json. Output goes to examples/outputs/.
+7. For custom cases, give each chunk a prompt, a repeat count and a control list. Keys: w/a/s/d move, i/k look up/down, j/l turn. Frames = 17*sum(repeat)+5.
+8. Use the Prompt skills to turn a story plus reference images (up to 5) into a cases JSON.
+
+### Not found
+
+The causal model is listed as coming soon. I did not find a real-time interactive version.

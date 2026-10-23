@@ -31,3 +31,16 @@ Written by claude-haiku-5-5.
 Here’s the exact playbook (steal it):
 
 #AIJobSearch #CareerTips #ClaudeAI #JobHunting #PromptEngineering
+
+## Research
+
+* Verdict: Partly valid. The prompts are in the carousel and are sensible, but the "6 interviews in 7 days" claim is one anecdote with no proof. "Best tool to land a job" is hype.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only lists an unrelated x.com link from hasantoxr (status 2028464776805011729). It may be the original thread, but I couldn't open it and it has no prompts.
+
+### Not found
+
+No separate public copy of the prompts. The x.com thread in the vault returned HTTP 402, so I couldn't check whether it is the same content. The 6-interviews result can't be verified.

@@ -37,3 +37,22 @@ Use the results as a starting point for better financial decisions, not as a rep
 Save this post so you can come back and run all 5 prompts.
 
 #ChatGPT #AI #PersonalFinance #Money #FinancialLiteracy
+
+## Research
+
+* Verdict: Valid. The post is a self-contained set of ChatGPT prompts that need no outside resource. The advice is sound: give real numbers, and treat the output as a starting point, not professional advice.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Collect real figures: income, expenses, debts with interest rates, savings, investments, goals and timelines.
+2. Money audit: ask ChatGPT to act as your personal CFO, analyze everything, find leaks, missed opportunities and mistakes, then give the simplest improvement plan.
+3. Wealth plan: paste your situation and ask for a roadmap covering income growth, expense cuts, savings, debt, investing and long-term security.
+4. Cash flow: paste monthly income and expenses and ask what to cut, keep and automate, and where money should go each month.
+5. Money leaks: paste your spending history and ask for unnecessary expenses, subscriptions, impulse buys and lifestyle creep, ranked by annual cost, with the changes that save most at least lifestyle impact.
+6. Debt destroyer: paste your debts and ask for the best repayment strategy, with the logic explained and the most efficient path to debt-free.
+7. Check the output yourself and consult a professional for big decisions.
+
+### Not found
+
+The exact prompt wording from the carousel images was not available, only the summary. I did not search the web or the vault because the post has no named resource.

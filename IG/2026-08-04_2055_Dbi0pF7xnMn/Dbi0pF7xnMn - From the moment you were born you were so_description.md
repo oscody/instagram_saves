@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 “From the moment you were born you were so thoroughly indoctrinated by the insanity of Western European world views you can’t bear to see yourself the way nature would have you…..” -Blair Underwood
 
 #BadHair #FlyingAfrican
+
+## Research
+
+* Verdict: Nothing to find. This is a reaction video to a film quote, and it has no tool, guide or product. The quote is probably from Blair Underwood's role in the 2020 Hulu film Bad Hair (the caption uses #BadHair), but I couldn't confirm the exact wording.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I found no source for the exact quote. A web search for the phrase returned only general coverage of Bad Hair, which does list Blair Underwood in the cast. I didn't search the vault because the post has no resource to look for.

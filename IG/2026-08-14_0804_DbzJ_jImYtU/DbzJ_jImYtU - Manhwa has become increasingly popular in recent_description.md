@@ -40,3 +40,8 @@ Follow @editsz.ex for more
 
 Hashtags:
 #manhwa #manhwarecommendations #webtoon #manhua #manhwaedit
+
+## Research
+
+* Verdict: Nothing to find. Entertainment carousel of manhwa characters (old age vs prime) with a general explainer on manhwa, manhua and manga. There is no resource to find, and the basic definitions are accurate.
+* Checked: 2026-10-22 by claude-sonnet-5-5

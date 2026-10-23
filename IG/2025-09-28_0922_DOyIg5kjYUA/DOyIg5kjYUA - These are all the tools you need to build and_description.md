@@ -41,3 +41,16 @@ What should we build next? 🤔
 A video editing agent, a blockchain consumer-facing tool or should we finally figure out mobile apps?
 
 #aitools @windsurf_ai @claudeai @openai @teamposthog @marclouvion @godaddy
+
+## Research
+
+* Verdict: Partly valid. The tool stack is real and ordinary, but the "resources" list is only sent after a comment and I found no public copy. The post's claim that the sprite generator is the author's own tool is not confirmed.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Falsprite (sprite sheet generator, possible match) (github.com)](https://github.com/lovisdotio/falsprite): repo, found by search, not opened, low confidence. It is an open-source text-to-sprite-sheet tool that deploys on Vercel, but it belongs to lovisdotio, not michellescomputer. I only saw the search summary and did not open the page.
+
+### Not found
+
+The author's curated resources list (comment-gated, no public copy found). I did not find the author's own sprite sheet generator or confirm the exact tools shown. Data Fast (probably datafa.st) did not come up in search. The only vault hit was a log-format example in the Pi plan note, which has nothing on this post.

@@ -52,3 +52,16 @@ Instead of simply tracking movement, REMIND focuses on remembering visual identi
 Follow @syntaix.ai for the latest AI tools, GitHub projects, and cutting-edge tech.
 
 #aitool #opensource #githubrepo #llm #vision
+
+## Research
+
+* Verdict: Partly valid. The REMIND paper is real and matches the post's claims. The abstract says the code and dataset are public, but I found no repository URL, and the post only sends the link after a comment.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [REMIND: RE-Identification with Memory for INDoor Navigation (arXiv 2607.09267) (arxiv.org)](https://arxiv.org/abs/2607.09267): paper, found by search, verified, high confidence. The abstract describes frozen DINOv3 features, a multi-prototype memory, part-level descriptors, a neighbour-context module and ambiguity safeguards, as in the caption. It states the system and dataset are publicly released.
+
+### Not found
+
+The GitHub repository URL. The arXiv page lists no code link, and the PDF text was unreadable here. The post sends the link only via comment. The CVAR-UPM affiliation was not confirmed. Check the PDF's full text or the CVAR-UPM GitHub organisation for the repo.

@@ -33,3 +33,23 @@ comment "learn" if you want my full guide for remembering everything you read li
 this is day 2 of learning how to learn in 30 days. i break down the two ways to actually remember what you read, the memory-palace way and the understanding way.
 
 #howtolearn #learninghowtolearn #memorypalace #memorytechniques #studytips
+
+## Research
+
+* Verdict: Partly valid. The guide is only sent after commenting "learn" and I found no public copy. The memory palace and PAO techniques are real, but the claim of remembering everything you read like Mike Ross is overstated.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Art of Memory blog (background on PAO and memory palaces) (artofmemory.com)](https://artofmemory.com/blog/): page, found by search, not opened, low confidence. General background on the PAO system; it is not the creator's guide.
+
+### Key steps
+
+1. Memory palace: pick a familiar place and put vivid images of what you want to remember along a fixed route.
+2. PAO: give each two-digit number 00–99 a person, an action and an object, and combine them into scenes.
+3. Place those scenes in your palace and practice daily for about a month.
+4. Understanding way (per the post): treat understanding as a trainable skill.
+
+### Not found
+
+The "learn" guide from psychologymatt is not public; it is sent by comment/DM only. The one vault match (ZAIHub/search - competition ideas by claude.md) was not opened and does not look relevant.

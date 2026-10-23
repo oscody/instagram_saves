@@ -39,3 +39,24 @@ Send this to whoever is starting a robotics project this term.
 Comment ROBOT and I'll send it.
 
 #engineering #robotics #matlab #simulink #robotarm #slam #drones
+
+## Research
+
+* Verdict: Partly valid. The MathWorks Robotics GitHub org is real. It has about 34 repos, many BSD-3-Clause, including a vineyard sprayer and an underwater (RoboSub) project. I didn't check the post's other figures, and I found no excavator repo.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [MathWorks Robotics (GitHub org) (github.com)](https://github.com/mathworks-robotics): repo, found by search, verified, medium confidence. The org page shows 34 repos, including Tractor-Sprayer-Navigation-in-Vineyard and RoboSub-Virtual-Environment, mostly BSD-3-Clause.
+* [awesome-matlab-robotics (github.com)](https://github.com/mathworks-robotics/awesome-matlab-robotics): repo, found by search, verified, medium confidence. Curated index of MATLAB and Simulink robotics demos (UAV, manipulators, ground vehicles, AUV, vineyard sprayer). It has its own MathWorks license.txt.
+
+### Key steps
+
+1. Open github.com/mathworks-robotics and start with awesome-matlab-robotics for the categorised list.
+2. Pick a project, such as Tractor-Sprayer-Navigation-in-Vineyard, and read its README for the toolboxes it needs.
+3. Run it in MATLAB Online or desktop MATLAB/Simulink.
+4. Check each repo's LICENSE file before reuse (BSD-3-Clause, MathWorks terms, or none).
+
+### Not found
+
+I found no excavator repo. I didn't check the totals (33 repos, 2,835 stars, 594 forks), the 11/14/7 licence split, the $8,840 price or the 20 free MATLAB Online hours. The file sent for the comment ROBOT is probably a link to this public org, but I couldn't confirm that.

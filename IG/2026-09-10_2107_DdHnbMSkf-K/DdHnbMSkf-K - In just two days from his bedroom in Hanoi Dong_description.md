@@ -29,3 +29,16 @@ At the height of its success, Nguyen made an unbelievable choice: he deleted it.
 Millions rushed to download the game one last time before it disappeared. Nguyen walked away from tens of thousands of dollars in daily revenue, but gained something he valued more: relief.
 
 #FlappyBird #Tech #GameDev #Startup
+
+## Research
+
+* Verdict: Nothing to find. The post is a narrative history with no resource to find. Its main claims match news coverage from February 2014, though the download and revenue figures came from Nguyen himself and some people doubted them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Too Popular: 'Flappy Bird' Creator Removes App from Stores (NBC News) (nbcnews.com)](https://www.nbcnews.com/tech/tech-news/too-popular-flappy-bird-creator-removes-app-stores-n25946): page, found by search, not opened, medium confidence. The search result title and summary match the removal story. I did not open the page.
+
+### Not found
+
+I didn't open the news articles. The caption says the game came out in 2013, but it only went viral in early 2014. The "about $50,000 a day" figure is Nguyen's own statement. The 50 million downloads figure is reported, and one blogger suspected fake accounts inflated it.

@@ -40,3 +40,16 @@ you’re a bio-electric quantum computer navigating timelines.
 Comment SCROLL to access your root architecture. 
 
 917604.OX
+
+## Research
+
+* Verdict: Not valid. The "root architecture" material is only offered after commenting SCROLL, so it has no public copy. The "Russian researchers proved DNA is a crystalline antenna" claim traces to Gariaev's fringe wave-genetics work, which has no independent replication.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The DNA-wave Biocomputer (Gariaev et al., CASYS 2000 abstract) (qigonginstitute.org)](https://qigonginstitute.org/abstract-print/6823): paper, found by search, not opened, low confidence. This is the likely primary source behind the 'Russian researchers' claim, but I only saw it in search results and did not open it.
+
+### Not found
+
+The material offered for the comment "SCROLL" (the "root architecture") is sent by DM after a comment, and I found no public copy. I did not open any source, so nothing is verified. I found no peer-reviewed or independently replicated evidence that DNA is a "crystalline antenna". The "heart's 3-foot field" is a popular exaggeration of the heart's measurable field, which is weak.

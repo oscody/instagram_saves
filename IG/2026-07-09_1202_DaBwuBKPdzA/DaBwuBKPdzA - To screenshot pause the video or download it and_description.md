@@ -30,3 +30,27 @@ Written by claude-haiku-5-5.
 To screenshot, pause the video or download it and take screenshots from your camera roll!
 To download:
 Click Share > Scroll > Download
+
+## Research
+
+* Verdict: Valid. The Excel/Sheets workflow comes from Ruben Hassid's public Substack post, and its steps match the post. That post names Opus 4.7 with Adaptive thinking, while the reel says Opus 4.8 + Thinking, so the model label is probably updated or differs. I didn't find a source for the 9-settings checklist.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [how to make perfect spreadsheets (Ruben Hassid) (ruben.substack.com)](https://ruben.substack.com/p/how-to-make-perfect-spreadsheets): guide, found by search, verified, high confidence. Opened it: it covers the Cowork build, the prompt template with 10 assumptions, the Google Drive export, and the ChatGPT add-on with the Heavy model and @ tab tags.
+
+### Key steps
+
+1. Download Claude and get a Pro plan ($20/month), which Cowork requires.
+2. Open the Cowork tab and select a folder. Pick the top Opus model with thinking (the guide says Opus 4.7 + Adaptive thinking).
+3. Connect Google Drive through the + menu under Connectors.
+4. Give Cowork your data. Uploading it works best.
+5. Paste the prompt template: data source, purpose in one sentence, sheets (name, columns, row meaning, formulas), and formatting (currency, dates, frozen header, totals). Ask it to list its top 10 assumptions before building.
+6. Fix any assumptions you disagree with, then tell it to build. Complex models can take several minutes.
+7. Click Google Drive to open the result in Google Sheets.
+8. For targeted edits in Sheets, go to Extensions > Add-ons > Get add-ons, install the official ChatGPT add-on, pick the Heavy model, and use @ to tag a tab.
+
+### Not found
+
+The source of the infographic and the full 9-settings checklist. I didn't search for them separately. The model name differs: the guide says Opus 4.7, the reel says 4.8.

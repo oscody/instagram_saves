@@ -38,3 +38,12 @@ This circuit is a great core-strengthening finisher. Pair it with real training 
 Ready to build a plan that gets you there for real? Comment “READY” and we’ll send you the details.🔥
 
 #abroutine #coreworkout #weightlossforwomen #fatlosstips #fatlossforwomen
+
+## Research
+
+* Verdict: Promo. The post is a coaching lead-in ("Comment READY" for details) with a short core circuit. Its fat-loss advice is standard and sound: calorie deficit, strength training and protein. The "30 days" belly-fat claim is not backed by anything in the post, and the exercises don't cause spot fat loss. I did not search, because no resource is published.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The plan details are only sent after a "READY" comment, and no public copy was found. I did not search the web or the vault beyond the pre-check, which found no matching notes.

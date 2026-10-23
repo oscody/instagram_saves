@@ -33,3 +33,21 @@ Telepathy 101:
 5.Take more risks, put yourself in social situations often 
 
 #superhero #inspirational #motivational #relatable #focus
+
+## Research
+
+* Verdict: Partly valid. The two body language books are real, and the tips are common self-help advice. "Telepathy" is just a hook, and the post gives no evidence that these habits make you better at reading people.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The Dictionary of Body Language: A Field Guide to Human Behavior (Joe Navarro) (abebooks.com)](https://www.abebooks.com/Dictionary-Body-Language-Field-Guide-Human/31754875925/bd): other, found by search, not opened, medium confidence. The search result is a bookseller listing for the book shown on screen, a 2018 field guide by Navarro covering 400+ behaviors. I did not open the page.
+* [The Definitive Book of Body Language (Allan and Barbara Pease) (abebooks.com)](https://www.abebooks.com/Definitive-Book-Body-Language-Pease-Barbara/32109894919/bd): other, found by search, not opened, medium confidence. The search result is a bookseller listing for the Pease book shown on screen, first published in 2004. I did not open the page.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already lists this reel as 'Telepathy 101' with the Navarro and Pease books and the advice to get more social reps.
+
+### Not found
+
+I did not open any page myself. The book details come from search-result snippets only. I found no evidence on whether the five habits improve how well people read others.

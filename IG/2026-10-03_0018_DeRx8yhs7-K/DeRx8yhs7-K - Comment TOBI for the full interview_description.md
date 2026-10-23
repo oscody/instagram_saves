@@ -40,3 +40,20 @@ Thanks for the talk Tobi!
 Follow @jonathanwordsofwisdom for more! 👀💡
 
 #jwow #wonsulting #jobsearch #career #hiring
+
+## Research
+
+* Verdict: Unresolved. The full interview is only sent after a comment ("TOBI"), and I found no public copy. The advice itself (target recently funded companies and pitch them directly) is plausible but is a general tip with no evidence in the teaser.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/networking tiktok referrals.md`: Only links to other jonathanwordsofwisdom TikToks about LinkedIn referrals and companies with referral bonuses. It doesn't mention Tobi or this interview.
+
+### Key steps
+
+1. The post's own steps are all there is: follow the money, build a list of about 200 companies that raised funding in the last 60 days (the transcript's wording is garbled, so 'raised funding' is my best reading), and pitch them directly instead of applying.
+
+### Not found
+
+The full Tobi interview with Jonathan (the DM or comment-gated item) has no public copy that I could find. The Savvy Wallet podcast episode 226 with Tobi Oluwole is a different interview. I did not open it, so I can't say whether it covers this advice.

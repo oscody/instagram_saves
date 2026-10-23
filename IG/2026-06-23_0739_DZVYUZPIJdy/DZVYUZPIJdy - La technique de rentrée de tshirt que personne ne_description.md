@@ -29,3 +29,8 @@ Written by claude-haiku-5-5.
 🇬🇧 The tuck method nobody taught you 🤫 Save this one
 
 #menstyle #mensfashion #styletips #ootd #fashion
+
+## Research
+
+* Verdict: Nothing to find. This is a short men's style tip reel on tucking a t-shirt. It has no linked resource, tool or product, and its steps are all in the post.
+* Checked: 2026-10-22 by claude-sonnet-5-5

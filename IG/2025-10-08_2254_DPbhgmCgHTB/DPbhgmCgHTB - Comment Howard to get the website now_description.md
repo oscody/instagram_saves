@@ -25,3 +25,17 @@ Written by claude-haiku-5-5.
 ❤️ Comment ‘Howard’ to get the website now!
 
 #uxui #uidesign #ui #figma
+
+## Research
+
+* Verdict: Partly valid. Gambo (gambo.ai) is a real text-to-game AI tool that generates characters and assets, so the demo is plausible. The site is public, so the comment keyword isn't needed. I couldn't open the site itself or confirm the stickman-to-Naruto workflow, and a map editor is reported as "coming soon".
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Gambo (gambo.ai)](https://gambo.ai): product, in the post, not opened, medium confidence. The post names gambo.ai; search results describe it as a game vibe-coding agent that generates scenes, characters and assets. The fetch returned empty, so I couldn't open it.
+* [Gambo Get Help (Notion) (laced-basil-120.notion.site)](https://laced-basil-120.notion.site/Gambo-Get-Help-26a9b6f7c4d580958510c99f7fac701f): guide, found by search, not opened, medium confidence. The search result is a help guide covering asset generation, deploy links and Supabase. I didn't open it.
+
+### Not found
+
+I couldn't open gambo.ai (the fetch came back empty), so I couldn't check pricing or whether it turns a sketch into sprites and a tile map. The map editor is reported as "coming soon", which may conflict with the tile map shown in the post.

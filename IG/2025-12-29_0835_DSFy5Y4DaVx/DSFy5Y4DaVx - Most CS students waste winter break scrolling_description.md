@@ -39,3 +39,20 @@ Pick 1 easy, 1 medium, 1 hard, then watch your confidence explode.
 Save/share for your winter grind. ❄️💻
 
 #️⃣ #convictioncoding #techstudent #codingtips #buildinpublic #learntech #winterbreak
+
+## Research
+
+* Verdict: Partly valid. Only the Google Skills link exists. It is a real learning platform, but the full list of 22 moves is not public and only 3 are shown. The post calls it "Skillshop", but the site is now Google Skills.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Skills (skills.google)](https://www.skills.google/): product, in the post, verified, high confidence. Opened it: Google's learning platform with hands-on labs, a course catalog, skill badges and certificates, and 35 free monthly credits through the GEAR program.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/google agents public sector.md`: Only a bare skills.google link, plus Google Public Sector agent summit links. No steps.
+
+### Not found
+
+The full list of 22 moves. Only moves 3, 10 and 20 appear in the post, and no public copy was found. I didn't search further.

@@ -41,3 +41,23 @@ Here are 3 prompts that install Nietzsche's system inside Claude.
 (Save this. Run it before you chase the next goal that was never really yours.)
 
 Join my Telegram for daily AI prompts, frameworks, and strategies. New prompt every morning. Click the link in bio.
+
+## Research
+
+* Verdict: Partly valid. The post is a set of three self-reflection prompts with a Telegram promo. The prompts are in the post's own summary and no separate public resource exists. Nietzsche did criticise herd conformity, but the claim that Claude "installs Nietzsche's system" is marketing. They are ordinary reflective prompts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only a link to the creator's Instagram profile (thinkgpt_ai). It has no prompts or resource.
+
+### Key steps
+
+1. Prompt 1, Inherited Belief Audit: list your goals, standards and definition of success. For each, say whether you chose it or absorbed it from family, culture or fear of judgment. Name each belief specifically, and examine your most automatic defense.
+2. Prompt 2, Avoided Self Finder: name a change you keep postponing, the risk it needs, and the self it would build. Say what the avoidance protects, what continuing costs, and the daily moment it shows up.
+3. Prompt 3, Self-Overcoming Protocol: build one daily action toward that self. Name the discomfort as the mechanism. Add a plan for low-motivation days, what 30 days of evidence would confirm, and the one inherited belief that must shift.
+4. Tell Claude to ask for more information if anything is unclear before it concludes.
+
+### Not found
+
+The exact prompt wording is on the carousel slides, and I did not see it. Any fuller versions are probably in the creator's Telegram channel, linked from the bio. I did not search the web, because the post is a promo with only generic prompts.

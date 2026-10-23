@@ -37,3 +37,28 @@ If you’re serious about landing a remote job in 2026, these are the job boards
 & comment REMOTELY for the full list of 20+ job boards!
 
 #jobboard #remotework #remotejobs #workfromhome #hiringnow
+
+## Research
+
+* Verdict: Valid. The five named boards are real, free remote job sites. The full "20+ boards" list is only sent after a comment, and I found no public copy of it.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [NoDesk remote jobs (nodesk.co)](https://nodesk.co/remote-jobs/): tool, found by search, verified, high confidence. Opened it: a free remote job board updated daily, no account needed.
+* [We Work Remotely (weworkremotely.com)](https://weworkremotely.com): tool, found by search, not opened, medium confidence. The site returned 403 to my fetch, so I could not confirm it. It is a well-known remote job board.
+* [Built In remote tech jobs (builtin.com)](https://builtin.com/jobs/remote): tool, found by search, verified, high confidence. Opened it: the Built In remote tech jobs page, which has a Remote/Hybrid filter.
+* [Truly Remote (trulyremote.co)](https://trulyremote.co): tool, found by search, verified, high confidence. Opened it: a remote job board with the tagline "Work remotely from anywhere" and a hiring-region filter.
+* [Himalayas (himalayas.app)](https://himalayas.app): tool, found by search, verified, high confidence. Opened it: a remote job board with 100,000+ jobs, free core features and an optional paid tier.
+
+### Key steps
+
+1. Skip LinkedIn and Indeed for remote work. Their remote filter lets hybrid and in-office jobs through.
+2. Browse NoDesk, We Work Remotely, Truly Remote and Himalayas directly. They are free.
+3. On Built In, turn on the remote filter (the page offers Remote/Hybrid). It suits tech-company roles.
+4. The creator says NoDesk suits people with about 5+ years of experience.
+5. Truly Remote lets you filter by hiring region, which helps if you are outside the U.S.
+
+### Not found
+
+The full list of 20+ job boards. It is sent only after commenting REMOTELY, and I found no public copy. I did not check the vault for the board names, and the vault notes listed only mention this post in pipeline logs.

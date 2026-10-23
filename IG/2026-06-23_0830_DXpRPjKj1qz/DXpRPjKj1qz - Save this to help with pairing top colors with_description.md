@@ -30,3 +30,8 @@ Save this to help with pairing top colors with jeans🎨
 .
 .
 What color look best with jeans, The best linen shirt colors for jeans #jeans #linens #bluejeans The best top colors to pair
+
+## Research
+
+* Verdict: Nothing to find. This is a casual fashion-advice reel about shirt colors to wear with jeans. It has no external resource, tool or download to find. The color pairings are personal style opinion.
+* Checked: 2026-10-22 by claude-sonnet-5-5

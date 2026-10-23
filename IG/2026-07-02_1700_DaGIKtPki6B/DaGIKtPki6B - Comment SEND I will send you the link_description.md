@@ -35,3 +35,29 @@ Comment “SEND” I will send you the link!
 .
 .
 #openclaw #ai #claude #aiagents
+
+## Research
+
+* Verdict: Valid. The public repo bradautomates/claude-video provides a /watch skill that pulls captions (or transcribes with Whisper) and extracts frames, as the post describes. The "comment SEND" gate isn't needed because the repo is public.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [bradautomates/claude-video (Watch skill) (github.com)](https://github.com/bradautomates/claude-video): repo, in the vault, verified, high confidence. README describes /watch downloading a video, extracting frames, using captions or Groq/Whisper transcription, matching the post.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/search video watch.md`: Links this post and the GitHub repo bradautomates/claude-video, noting it uses Groq for transcription; also lists related reels.
+
+### Key steps
+
+1. In Claude Code run: /plugin marketplace add bradautomates/claude-video
+2. Then run: /plugin install watch@claude-video
+3. Make sure Python 3.10+, FFmpeg and the latest yt-dlp are installed (YouTube also needs a JS runtime like Deno).
+4. Run /watch <video link or file> with an optional question.
+5. Captions are used first. If there are none, set a transcription backend in ~/.config/watch/.env (whisperx locally, or groq/openai with an API key).
+6. Adjust with --detail (transcript, efficient, balanced, token-burner), --start/--end, --timestamps, or --resolution 1024 for small on-screen text.
+
+### Not found
+
+I didn't find the creator's DM link. It isn't needed, since the repo is public.

@@ -60,3 +60,29 @@ Comment "TIN" and I'll send you the link, and follow for more ideas that make yo
 .
 .
 [Agent Tincan, AI agents, agent communication, multi-agent workflows, AI collaboration, task handoffs, workflow automation, open source, self-hosted AI, Tailscale, Grok Bot, Muse, Instinct, Hermes, Claude Code, Codex, ChatGPT, Claude, AI permissions, founder productivity]
+
+## Research
+
+* Verdict: Valid. The public repo mvanhorn/agent-tincan exists and matches the post: a relay over Tailscale for agent requests, replies and files. Its README confirms the trust-by-default caveat, and it also offers optional approval holds.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Agent Tincan (github.com)](https://github.com/mvanhorn/agent-tincan): repo, in the vault, verified, high confidence. README describes an open-source Tailscale relay for agent-to-agent requests, replies and files, with Grok Bot, Hermes, Instinct, Muse, Claude Code and Codex support, matching the post.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - claudex-loop - similar ai agent workflows.md`: Links this reel and the public Agent Tincan repo, noting it is a handoff relay rather than a plan/build/review loop.
+
+### Key steps
+
+1. Pick an always-on machine for the relay (cloud VM, Mac mini or home server). A laptop works but the mesh stops when it sleeps.
+2. Install tincan with the repo's install script, run `tincan relay`, and approve the Tailscale link it prints. A tailnet is required.
+3. On the relay machine, run `tincan invite <name>` to get a code that is valid for 10 minutes.
+4. On each agent's machine, run `tincan join <code> --relay <url>`, then `tincan onboard` and `tincan doctor`.
+5. Optional: install the Chrome extension so logged-in ChatGPT or Claude web accounts can act as teammates.
+6. Optional: set up `approval.json` so requests to chosen agents are held until you approve them from an admin device or phone.
+
+### Not found
+
+I read only the first 100,000 of about 158,000 characters of the README. Command details come from that part.

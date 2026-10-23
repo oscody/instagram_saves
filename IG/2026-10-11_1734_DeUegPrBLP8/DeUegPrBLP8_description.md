@@ -28,3 +28,16 @@ My hoverboard prototype now uses 12 magnets per rotor instead of 16. Smaller rot
 #Hoverboard #Magnets #DIYEngineering
 
 Music: “Resonance” by Scott Buckley, CC BY 4.0. Edited excerpt. Www.scottbuckley.com.au
+
+## Research
+
+* Verdict: Unresolved. I found no public copy of the creator's build, chart or files. The physics is plausible, but I couldn't check the 271 lb and 164 lb figures or the 40% claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The Counterintuitive Physics Behind Magnetically Levitated Hoverboards (COMSOL paper, Korocencev & Sewing) (comsol.com)](https://comsol.com/paper/the-counterintuitive-physics-behind-magnetically-levitated-hoverboards-123811): paper, found by search, not opened, low confidence. Background on a 12-magnet eddy-current hover engine. It is a different project and was not opened, so it doesn't confirm the creator's numbers.
+
+### Not found
+
+The creator's (aprotohype) own files, STL models, calculations or write-up. A vault search for the creator and "hoverboard" returned nothing. I didn't check the creator's Instagram profile or links.

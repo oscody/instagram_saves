@@ -40,3 +40,26 @@ A person shared his journey of becoming AI engineer and it went viral on Reddit.
 .
 .
 #ai #aiengineer #jobs
+
+## Research
+
+* Verdict: Partly valid. The reel is a generic roadmap built from well-known public courses, and those courses exist. I couldn't find the original Reddit post, and the "20 Jobs" list is only sent by DM. The Llama 2, GPT-3.5 and Coursera/TensorFlow advice is somewhat dated for 2026.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Complete AI Learning Guide for 2026 (weeklydatascience.substack.com)](https://weeklydatascience.substack.com/p/complete-ai-learning-guide-for-2026): guide, found by search, not opened, low confidence. A similar roadmap that uses the same kinds of resources (Khan Academy, 3Blue1Brown, Ng). It is not the reel's source and I did not open it.
+* [AI Engineer Roadmap 2026 (Medium) (medium.com)](https://medium.com/@jeslurrahman/ai-engineer-roadmap-2026-step-by-step-guide-to-become-an-ai-engineer-with-free-resources-5beba43677d1): guide, found by search, not opened, low confidence. A comparable public roadmap. It turned up in search results, and I did not open it.
+
+### Key steps
+
+1. Phase 1 (1-2 months): refresh Python (decorators, async, virtual environments) if needed. Learn math with Khan Academy and 3Blue1Brown's Essence of Linear Algebra. Take Andrew Ng's Machine Learning course.
+2. Phase 2 (2-3 months): do fast.ai Practical Deep Learning, then Ng's Deep Learning Specialization.
+3. Phase 3 (3-4 months): study the LangChain, Hugging Face, Pinecone and OpenAI API docs.
+4. Build three projects: a RAG chatbot with PDF upload and memory, a Llama 2 fine-tune for code review, and an image captioning and Q&A app using CLIP and BLIP.
+5. Learn deployment: FastAPI, containers, and AWS SageMaker or GCP Vertex AI.
+6. Open-source the projects, share them on LinkedIn, then apply and interview.
+
+### Not found
+
+I couldn't find the original Reddit post. The "20 Jobs" list is only sent by DM after commenting, and no public copy turned up. The vault notes that matched only mention gpt-3.5 in unrelated contexts.

@@ -29,3 +29,24 @@ How to empower AI to 10X your job search from scratch in just 2 hours in 2026
 . 
 . 
 #AI #jobs #jobsearch
+
+## Research
+
+* Verdict: Partly valid. The workflow is plausible and the DOL sponsorship data is real and public. The prompts, templates and n8n workflow are behind a paid or comment-to-get offer, and "10X in 2 hours" is a marketing claim.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [DOL OFLC Performance Data (LCA disclosure data) (dol.gov)](https://www.dol.gov/agencies/eta/foreign-labor/performance): page, found by search, verified, medium confidence. It offers downloadable H-1B/LCA disclosure spreadsheets listing sponsoring employers, which matches the post's step 4 'sponsorship application data from DOL'.
+
+### Key steps
+
+1. LinkedIn: dictate each job's experience to an AI transcription tool, then run the creator's prompts (not public) and paste the results into each profile section.
+2. Resume: export your LinkedIn profile as a PDF and give it to Claude with a prompt asking for an ATS-friendly LaTeX resume. Paste the code into Overleaf to compile it.
+3. Auto-apply: build an n8n workflow with an AI agent that holds your resume and preferences, scores jobs, and passes on those with a match of 75% or more. Tailor the resume per role and use Easy Apply.
+4. Referrals: download the LCA disclosure xlsx from the DOL OFLC performance data page, filter for companies in your field, and find contacts there on LinkedIn to email.
+5. Interview prep: use an AI mock-interview prompt (the creator's prompt is not public).
+
+### Not found
+
+The creator's actual prompts, email template, n8n workflow and paid template are not public. They appear to be given out only after a comment or DM, or for payment. I did not search for them.

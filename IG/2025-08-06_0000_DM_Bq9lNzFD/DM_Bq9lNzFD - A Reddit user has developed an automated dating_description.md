@@ -27,3 +27,16 @@ Despite the technical achievement, the project has drawn significant criticism r
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates and trends straight to your inbox.
 
 Don’t miss out! click the link in our bio and subscribe for free today!
+
+## Research
+
+* Verdict: Unresolved. The original Reddit post by u/BlacksmithHot17 wasn't found, and no code or repo was shared. The "10 dates in a week" result is an unverified self-report. The general approach is plausible, since Claude can drive an Android emulator over ADB.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [claude-in-android (Android MCP server for Claude) (lobehub.com)](https://lobehub.com/de/mcp/alexgladkov-claude-in-android): tool, found by search, not opened, low confidence. It's a generic tool that lets Claude take screenshots and tap or type on an Android device or emulator over ADB, which is the mechanism the post describes. It isn't the poster's project.
+
+### Not found
+
+The original Reddit thread and any repo or code from u/BlacksmithHot17. Tinder's terms of service likely prohibit this kind of automation. I didn't check them.

@@ -31,3 +31,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “info” for the full guide on generating revenue from an app
+
+## Research
+
+* Verdict: Unresolved. The full guide is only sent to people who comment "info", and I found no public copy. The "100 paying users in 7 days" claim is unsupported, and the steps are generic.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The full distribution guide, which is gated behind a comment on the post. I searched the vault only (the one match was an unrelated plugin file) and did not run any web searches.

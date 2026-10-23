@@ -50,3 +50,27 @@ When this cycle is stable, it reduces the need for constant human correction and
 Credits: @AnatoliKopadze on X
 
 #ai #artificialintelligence #aitools #aihacks #chatgpt
+
+## Research
+
+* Verdict: Valid. The carousel summarizes Anatoli Kopadze's X article on AI loops. The advice is sound and matches the article's five-step cycle. I could only read a mirror of the article, not the original X post.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Loops explained: Claude, GPT, Mira and what actually works (Anatoli Kopadze, mirrored) (youmind.com)](https://youmind.com/landing/x-viral-articles/mastering-ai-loops-claude-mira): page, found by search, verified, medium confidence. Opened it. The author is @AnatoliKopadze, the date is 20 Jun 2026, and it lays out the same discover-plan-execute-verify-iterate cycle, the lint/tests check, and the iteration cap that the carousel shows.
+* [mer.vin summary of the article (mer.vin)](https://mer.vin/2026/06/ai-agent-loops-explained-claude-goal-gpt-self-check-and-mira-telegram-skills/): page, found by search, not opened, low confidence. A search result describing the same article. I did not open it.
+
+### Key steps
+
+1. Define a clear goal and constraints once.
+2. Cycle: Discover what needs doing, Plan, Execute, Verify against the goal, Iterate by feeding the result back in.
+3. Coding loop: the goal is passing tests, clean lint and no type errors. Each pass runs the tests, picks the highest-impact failure, makes the smallest fix, then re-runs the checks.
+4. Stop when verification passes or after 8 iterations.
+5. Self-check prompt for Claude or ChatGPT: plan the next step, do it, score yourself 1-10 on each criterion, then decide. Print FINAL if every criterion scores 8 or more. Otherwise print ITERATING and fix the weakest point first. Don't ask questions; make assumptions and note them.
+6. In Claude Code, /loop re-runs a prompt on an interval. /goal keeps a session running until a condition is true.
+7. Keep state of what has been tried, and set a hard iteration limit to control cost.
+
+### Not found
+
+The original X article on x.com was not opened. Only an aggregator mirror was read. The vault has no related notes.

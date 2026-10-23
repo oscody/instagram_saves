@@ -22,3 +22,16 @@ Send this to your person and answer every question. No dodging 👀 🧠
 Follow @ryahbracy for more!
 
 #psychology #fyp #viralreel #ryahbracy #relationships
+
+## Research
+
+* Verdict: Nothing to find. The reel is a list of conversation questions to send a partner. It has no tool, link or claim to check. The questions are only in the video.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this reel under 'Deep, better in person than over text' as 'Questions to ask your partner' (@ryahbracy), next to two similar question-list reels.
+
+### Not found
+
+No public copy of the full question list was searched for. The post is a plain list of prompts.

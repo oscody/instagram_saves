@@ -42,3 +42,22 @@ Stop memorizing code blindly. See every algorithm in action — arrays, linked l
 Whether you’re preparing for coding interviews, studying computer science, or just starting with DSA, this is the fastest way to master the fundamentals.
 
 Save this, share it, and turn complex algorithms into simple visuals you’ll never forget.
+
+## Research
+
+* Verdict: Valid. The sites are real, free, and animate data structures and algorithms. The "comment Link" offer is unnecessary, because the domains are in the caption.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [VisuAlgo (visualgo.net)](https://visualgo.net): tool, in the post, verified, high confidence. Opened it. It is a free NUS site that animates arrays, linked lists, heaps, hash tables, BSTs, graphs and sorting.
+* [CS 1332 Data Structures and Algorithms Visualizations (csvistool.com)](https://csvistool.com): tool, in the post, verified, medium confidence. Opened it. The page title says CS 1332 DSA Visualizations, but the fetch returned no list of topics.
+* [David Galles Data Structure Visualizations (USFCA) (cs.usfca.edu)](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html): tool, in the post, not opened, medium confidence. The post names cs.usfca.edu. This is the usual path for that site, but the fetch failed with a certificate error, so I did not open it.
+
+### Already in the vault
+
+* Vault: `4. Archives/Evernote/career Learning/instagram CS.md`: Lists csvistool.com in a to-do list of topics. It has no steps or other links.
+
+### Not found
+
+The exact USFCA URL could not be opened because of a certificate error. I did not check csvistool.com's topic list, and I did not check the graph visualizer with adjacency list and matrix options that is shown on screen.

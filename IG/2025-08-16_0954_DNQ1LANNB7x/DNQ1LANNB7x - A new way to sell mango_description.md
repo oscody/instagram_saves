@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 A new way to sell mango!
+
+## Research
+
+* Verdict: Nothing to find. This is a food reel about a cafe selling noodle-cut mango. It has no tool, guide or other resource to look up.
+* Checked: 2026-10-23 by claude-sonnet-5-5

@@ -34,3 +34,12 @@ I can attest to the crash outs personally 😭 worth it but you don’t need to 
 Writing a book doesn’t have to be so complicated and intense. You deserve to see your book on the shelf, let’s get there together 
 
 Following @writingwithv for more writing tips & advice and a transparent look at my journey towards traditional publishing.
+
+## Research
+
+* Verdict: Unresolved. The guide is sent only after commenting a keyword that is cut off on screen ("gui…"). I found no public copy. The routine advice itself (write daily, stay consistent) is common and reasonable.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The creator's guide (likely sent by DM after a comment) could not be found. The vault has no notes on @writingwithv. A web search returned only generic book-writing articles.

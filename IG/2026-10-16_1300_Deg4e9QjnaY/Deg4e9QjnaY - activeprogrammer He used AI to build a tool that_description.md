@@ -31,3 +31,24 @@ What would you create first with this? 👇
 Creator: u/Embarrassed_Guide_80 on Reddit.
 
 Follow @activeprogrammer for more creative developer projects.
+
+## Research
+
+* Verdict: Valid. The sinnon.net site matches the post: a free Windows app where a Claude agent builds game assets in Blender and Python from a text prompt. It needs your own paid Claude plan, which the post leaves out.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [SINNON Asset Generator (sinnon.net)](https://sinnon.net): tool, in the post, verified, high confidence. The page describes a text-to-3D game asset app that uses Claude, Blender and Python, and outputs GLB and .blend models.
+
+### Key steps
+
+1. Install the app on Windows 10 or 11 (it is free). It sets up Blender for you.
+2. Connect a paid Claude plan (Pro, Max or Team), or ChatGPT through Codex.
+3. Type a sentence describing the asset, such as a building, vehicle or character.
+4. Let the agent build and self-review it, then check the engine-readiness report.
+5. Export the GLB or .blend file to Unity or Godot. Unity assets drop straight into your project.
+
+### Not found
+
+I didn't verify the Reddit origin post or the creator's claim that Claude Code wrote almost all the code. I also didn't check output quality.

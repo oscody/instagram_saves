@@ -31,3 +31,27 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: SpaceshipGenerator
+
+## Research
+
+* Verdict: Valid. SpaceshipGenerator is a real MIT-licensed Blender add-on by Michael Davies, and it makes seeded, reproducible ships. I couldn't confirm the "ships are CC BY" claim from the repo page.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [a1studmuffin/SpaceshipGenerator (github.com)](https://github.com/a1studmuffin/SpaceshipGenerator): repo, found by search, verified, high confidence. Blender script that builds ships procedurally from a seed, MIT licensed, with seed reproducibility as in the post.
+
+### Key steps
+
+1. Install Blender 2.80 or later.
+2. Download the newest add_mesh_SpaceshipGenerator.zip from the repo's Releases.
+3. In Blender: Edit > Preferences > Add-ons > Install, and pick the zip.
+4. Enable "Add Mesh: Spaceship Generator".
+5. Add a ship with Add > Mesh > Spaceship in the 3D View.
+6. Adjust settings in the Spaceship panel at the bottom-left of the viewport.
+7. For a repeatable ship in the script, call generate_spaceship('yourseed').
+8. The script deletes existing objects named Spaceship* by default. Comment out reset_scene() to stop that.
+
+### Not found
+
+The repo page says nothing about CC BY for generated ships (point 10 of the post). Only the MIT license is named there. I did not check the other repo files.

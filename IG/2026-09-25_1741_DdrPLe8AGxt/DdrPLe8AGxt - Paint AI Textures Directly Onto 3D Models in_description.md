@@ -30,3 +30,27 @@ Open source: yedp123/comfyui-yedp-uv-painter
 Follow for more open source project drops.
 
 #ComfyUI #3DArt #AIArt #UVMapping
+
+## Research
+
+* Verdict: Valid. The repo exists and matches the post: a ComfyUI node for layered AI texturing of 3D model parts, with a live canny sketch preview, designed for 8GB VRAM. It's labeled experimental.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [yedp123/comfyui-yedp-uv-painter (github.com)](https://github.com/yedp123/comfyui-yedp-uv-painter): repo, in the post, verified, high confidence. README describes a non-destructive 3D-to-2D AI texturing node with layers, a live canny sketch preview and 8GB VRAM SDXL support. It is MIT licensed.
+
+### Key steps
+
+1. Clone the repo into ComfyUI/custom_nodes and restart ComfyUI. The nodes appear under Yedp/Texture.
+2. Get the recommended models: a GGUF SDXL UNet (Juggernaut XL Q5_K_M), ControlNet++ Union SDXL, SDXL VAE FP16 fix (needed to avoid black images), and the clip_g and clip_l text encoders.
+3. Add the Yedp UV Painter node and load an FBX, OBJ or GLTF model.
+4. Use the Select (Mask) tool to click the UV islands or faces that make up one material zone.
+5. Name the layer and enter its generation prompt.
+6. Optionally use the Draw (Canny) tool to sketch hard-surface lines.
+7. Queue the prompt. The result shows in the Gen Stack tab.
+8. Repeat for other layers, lock or hide layers as needed, then export the texture.
+
+### Not found
+
+Nothing outside the README was checked. I didn't test the node or view the video.

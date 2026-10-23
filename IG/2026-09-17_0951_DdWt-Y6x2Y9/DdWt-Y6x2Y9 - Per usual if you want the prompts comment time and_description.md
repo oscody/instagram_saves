@@ -35,3 +35,22 @@ Written by claude-haiku-5-5.
 Per usual if you want the prompts comment “time” and I’ll send em your way 
 
 #ai #buildwithai #vibecoding #chegg
+
+## Research
+
+* Verdict: Unresolved. The prompts are only sent by comment ("time") or DM, and I found no public copy. The idea of mining your chat export for repeated tasks and turning them into Claude Skills is sound, but I couldn't confirm the creator's exact prompts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Christopher Penn: the /export command (christopherspenn.com)](https://www.christopherspenn.com/2026/02/master-your-ai-workflow-the-export-command-you-need-to-know/): guide, found by search, not opened, low confidence. It covers a similar idea, exporting chat history and turning reusable prompts into skills or agents, but it is not the creator's material and I did not open it.
+
+### Key steps
+
+1. Vault grep for the creator, 'skillify' and 'REPEATS' found nothing relevant to this post.
+2. One web search found no public copy of the creator's prompts.
+3. The post's own steps are already listed in the note, so none are added here.
+
+### Not found
+
+The two prompts (the audit prompt that builds my_questions.txt with a REPEATS column, and the repeat-finder prompt). They are sent only via a "time" comment or DM. I did not check the creator's Instagram profile or any link in bio.

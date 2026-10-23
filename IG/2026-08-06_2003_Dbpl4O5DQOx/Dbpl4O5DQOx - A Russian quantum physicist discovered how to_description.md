@@ -35,3 +35,24 @@ According to him, assigning high importance creates “excess potential,” a fo
 A calm state improves focus and decision-making, while desperation leads to stress and mistakes.
 
 What you chase emotionally creates tension, but what you allow comes closer. Reality does not change, but how you move within it does.
+
+## Research
+
+* Verdict: Partly valid. Reality Transurfing and Vadim Zeland are real, and the "lower importance" advice matches his books. The "quantum physicist who discovered how to slide between realities" framing is unverified self-description, and the 1993 story has no support in my search. The parallel-tracks idea is pseudoscience.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Reality Transurfing (Vadim Zeland) – Goodreads listing (goodreads.com)](https://www.goodreads.com/book/show/3417632): page, found by search, not opened, medium confidence. This was in the search results for Zeland's Transurfing books. I did not open it, so I haven't confirmed it is the Transurfing book.
+
+### Key steps
+
+1. Lower the importance of the goal: move from 'must have' to 'nice to have'.
+2. Drop urgency and desperation, because Zeland calls the resulting tension 'excess potential'.
+3. Act and decide from a calm, neutral state.
+4. Don't fight or feed problems. Step aside so the 'pendulum' loses energy.
+5. Allow what you want instead of chasing it.
+
+### Not found
+
+I found no source for the 1993 'quit his job after an insight' story. Zeland is pseudonymous, and his physicist background rests on his own statements. The Transurfing books appear to have first been published around 2004. I did not open the Goodreads link.

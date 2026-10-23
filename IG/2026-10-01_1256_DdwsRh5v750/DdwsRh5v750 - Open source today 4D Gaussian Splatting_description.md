@@ -45,3 +45,28 @@ The researchers combined 3D Gaussians, 4D neural voxels, and a lightweight defor
 📎 Paper & demos / 논문·데모: https://guanjunwu.github.io/4dgs/
 Curated by @hyun2xyz
 #OpenSource #4DGS #GaussianSplatting #Dynamic3D
+
+## Research
+
+* Verdict: Valid. The repo is the official code for the CVPR 2024 4D-GS paper, and its README matches the post's description and Apache-2.0 root license. I did not check the claim about inherited Inria non-commercial files.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [hustvl/4DGaussians (github.com)](https://github.com/hustvl/4DGaussians): repo, in the post, verified, high confidence. Opened it. It is the official code for ' 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering' (CVPR 2024), Apache-2.0.
+* [4DGS project page (paper & demos) (guanjunwu.github.io)](https://guanjunwu.github.io/4dgs/): page, in the post, not opened, medium confidence. The post links it for the paper and demos. I did not open it.
+
+### Key steps
+
+1. Clone the repo: git clone https://github.com/hustvl/4DGaussians, then cd 4DGaussians and run git submodule update --init --recursive.
+2. Create the environment: conda create -n Gaussians4D python=3.7, then conda activate Gaussians4D. The authors tested with PyTorch 1.13.1+cu116.
+3. Install the dependencies: pip install -r requirements.txt, then pip install -e submodules/depth-diff-gaussian-rasterization and pip install -e submodules/simple-knn.
+4. Prepare data under data/: D-NeRF in data/dnerf, HyperNeRF in data/hypernerf, DyNeRF in data/dynerf/<scene>/camXX/images. For custom multi-view data, use data/multipleview/<name>/camXX and run bash multipleviewprogress.sh <name> to generate poses and point clouds.
+5. Train, for example: python train.py -s data/dnerf/bouncingballs --port 6017 --expname dnerf/bouncingballs --configs arguments/dnerf/bouncingballs.py
+6. Render: python render.py --model_path output/dnerf/bouncingballs/ --skip_train --configs arguments/dnerf/bouncingballs.py
+7. Evaluate: python metrics.py --model_path output/dnerf/bouncingballs/
+8. Before any commercial use, check the licenses of the inherited Inria files and the dataset or demo footage.
+
+### Not found
+
+Nothing in the vault covers this. I did not open the project page, and I did not check the inherited Inria license terms or the demo footage rights.

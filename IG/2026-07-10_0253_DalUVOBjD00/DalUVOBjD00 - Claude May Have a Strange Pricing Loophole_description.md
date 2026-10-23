@@ -47,3 +47,25 @@ Would you trust this for real coding work?
 Source: GitHub, teamchong/pxpipe
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Partly valid. The pxpipe repo exists and matches the post's claims about savings, how it works and the caveats. The post's "Opus 0 of 15" is slightly off: the README lists Opus 5 at 2/15 and the older Opus 4.8 at 0/15. The savings figures are the project's own and depend on workload.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [teamchong/pxpipe (github.com)](https://github.com/teamchong/pxpipe): repo, in the post, verified, high confidence. The README describes a local Claude Code proxy that renders old context as PNGs, with ~59–70% savings, ~3.1 chars per token, and the events.jsonl and count_tokens logging.
+
+### Key steps
+
+1. Run `npx pxpipe-proxy`. It listens on 127.0.0.1:47821.
+2. Start Claude Code with `ANTHROPIC_BASE_URL=http://127.0.0.1:47821 claude`. Alternatively run `pxpipe warp -- claude`.
+3. Open the dashboard at the same local address to see savings and conversions.
+4. Run `pxpipe stats` to summarize ~/.pxpipe/events.jsonl. It compares billed usage with a free count_tokens counterfactual.
+5. Keep IDs, hashes and secrets as plain text, because image rendering can silently swap characters.
+6. Use `npx pxpipe-proxy export` to render files or diffs to PNG pages without running the proxy.
+
+### Not found
+
+I did not check the savings numbers independently. They come from the project's own traces.

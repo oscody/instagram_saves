@@ -23,3 +23,16 @@ This is FREE to attend, stop by on August 6, August 20, September 3 and Septembe
 Are you stopping by?
 
 #explorenycfree #thingstodoinnyc #freenyc #nycevents #dominopark #salsa #nycsummer #whattodoinnyc #nycdancers #nyc
+
+## Research
+
+* Verdict: Valid. Salsa by the Water is a real, recurring free series at Domino Park with the same format (free lesson at 6:15, live music after). The 2025 dates are now past, and I found no 2025 listing to confirm them.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Salsa by the Water (Domino Park), SalsaVida listing (salsavida.com)](https://www.salsavida.com/event/new-york/new-york-city/salsa-by-the-water/): page, found by search, not opened, medium confidence. The search snippet describes the same free series at Domino Square with a 6:15 lesson taught by Wil Nieves. It lists 2026 dates, not the 2025 dates in the post, and I did not open the page.
+
+### Not found
+
+I found no 2025 listing to confirm the post's dates (Aug 6, Aug 20, Sep 3, Sep 17). Those dates have passed. The 2026 series is listed for Aug 12, Aug 26, Sep 9 and Sep 23. I did not open any page.

@@ -38,3 +38,22 @@ The goal isn’t to consume more information. It’s to build the ability to und
 Save these 6 prompts for your next learning session. 
 
 #claude #ai #technology #education
+
+## Research
+
+* Verdict: Valid. The post is a set of prompts shown on the slides, with no external resource to find. The approach (Socratic tutoring, time-boxing, a short plan) is sound, and the post's own description lists the prompts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Time-box: tell Claude you have a set time and it must make you functional in one specific skill. No theory without practical use, no generic lists.
+2. Ask up front: what to learn first, what to ignore, and the one most useful exercise. Then have it teach only step one and wait for your reply.
+3. Practice: have Claude put you in a realistic scenario where you would likely err, then wait for your answer.
+4. When you err, Claude asks one question that exposes where your reasoning breaks. It reveals the answer only after at least two attempts. Repeat with new scenarios until you answer without hesitation.
+5. For confusing material: paste it in. Claude names the one core idea, explains it with an everyday analogy and no jargon, then asks three questions one at a time. Don't move on until all three are correct.
+6. Learning path: give your real goal, the specific result, the deadline and what you already know. Ask for a 7-day plan with one task under 45 minutes per day, a success criterion, and what to skip. Have it rebuild the plan until you reach the goal.
+7. Skill check: Claude asks five simple-looking questions one at a time, explains the remaining gaps after each answer, and is blunt if your answers are shallow.
+
+### Not found
+
+No public copy of the exact prompt wording was searched for. The post says six prompts but shows five slides, and the steps above are paraphrased from the post's description, not the original text.

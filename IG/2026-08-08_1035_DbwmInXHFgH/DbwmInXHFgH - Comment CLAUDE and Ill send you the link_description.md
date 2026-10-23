@@ -44,3 +44,26 @@ He walks through exactly how to get 300% more out of Claude: CLAUDE.md files, pe
 And it’s free.
 
 Doesn’t matter if you’re just starting out or coding all day, after this, you’ll be using Claude in a way you didn’t know was possible.
+
+## Research
+
+* Verdict: Partly valid. The video is real and public: Boris Cherny's "Mastering Claude Code in 30 minutes" for Anthropic. The "300% more" and "$300 courses" lines are hype, and the "link" is just a comment-to-DM funnel for a public video.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Mastering Claude Code in 30 minutes (Boris Cherny, Anthropic) (youtube.com)](https://www.youtube.com/watch?v=6eBSHbLKuN0): video, found by search, not opened, medium confidence. The page title matches, but I couldn't confirm channel or length. I recalled the video ID from memory, and search results gave a runtime of about 28 min and Boris as speaker.
+
+### Key steps
+
+1. Watch the video on YouTube (search the exact title if the link is wrong).
+2. Run /terminal-setup for shift+enter newlines.
+3. Add a CLAUDE.md in the project root with bash commands, MCP tools and architecture notes.
+4. Use CLAUDE.local.md for personal notes and ~/.claude/CLAUDE.md for global context.
+5. Ask Claude to plan before coding.
+6. Run /install-github-app and tune the allowed tools list.
+7. Automate with claude -p, allowed tools and --output-format json.
+
+### Not found
+
+The official Anthropic upload page could not be confirmed. I didn't find godofprompt's DM link, which is probably just the YouTube video. The vault has no note on this resource.

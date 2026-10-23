@@ -31,3 +31,16 @@ Upcoming dates:
 Tickets are available online so grab yours before they sell out.
 
 #mountaincreekwaterpark #waterpark #waterparkafterdark #njfun #njevents
+
+## Research
+
+* Verdict: Promo. The reel advertises Mountain Creek Waterpark's 21+ After Dark nights. Press coverage matches the 7–11 PM hours and the season through Aug 14. All the dates in the post have now passed (today is Oct 22, 2026).
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Mountain Creek Waterpark After Dark 2026 coverage (WRNJ Radio) (wrnjradio.com)](https://wrnjradio.com/mountain-creek-waterpark-to-open-june-20-with-return-of-cannonball-falls-and-tarzan-swings/): page, found by search, not opened, medium confidence. The search summary says After Dark runs July 3 to Aug 14, 7–11 PM, which fits the post. I did not open the page. I did not open mountaincreek.com either, so the official ticket page URL is unconfirmed.
+
+### Not found
+
+I did not open the official ticket page. The 2026 After Dark dates are over, so it's only useful for the 2027 season. The caption doesn't say the nights are 21+, but the search results do.

@@ -42,3 +42,24 @@ TICKETS: 🎟️Adult $20, Youth (age 3-17) $10. Free general admission is offer
 GOOD TO KNOW: Be sure to check the calendar! MoMI offers a wide range of amazing programming - including movie screenings and events for families. 
 
 @movingimagenyc #museumofthemovingimage #nyckids
+
+## Research
+
+* Verdict: Valid. MoMI LAB is real: a free, 2,400 sq ft artist-led space in the museum's lower level, opened June 2026 with a first artist residency. The post is partly sponsored (#momipartner). Hours, prices and the name "Sparky" are unchecked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Museum of the Moving Image announces MoMI LAB (I LOVE NY) (iloveny.com)](https://www.iloveny.com/thebeat/post/museum-of-the-moving-image-announces-momi-lab/): page, found by search, verified, high confidence. Opened it. It confirms the free 2,400 sq ft lower-level space, the first artist residency (Rachel Rossin as inaugural artist) and a robot dog, but gives no name for the dog.
+* [Announcing MoMI LAB (museum official page) (movingimage.org)](https://movingimage.org/announcing-momi-lab/): page, found by search, not opened, medium confidence. Official announcement from the search results, but WebFetch returned 403, so I could not open it.
+
+### Key steps
+
+1. Go to Museum of the Moving Image, 36-01 35 Ave, Astoria. MoMI LAB is on the Lower Level.
+2. Entry to the LAB is free during museum hours. The post lists Thu 2–6, Fri 2–8, Sat and Sun 11–6.
+3. Check movingimage.org for current hours and the events calendar before you go.
+4. Museum admission per the post is $20 for adults and $10 for ages 3–17, with free general admission Thursdays 2–6 pm.
+
+### Not found
+
+I could not open the official museum page (403). The hours, ticket prices and the name "Sparky" are not confirmed by a source I opened.

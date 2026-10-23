@@ -45,3 +45,16 @@ Most guys reject themselves before she even gets a chance to.
 Keep talking yourself out of approaching? DM me “FEARS” and I’ll send you the full video.
 
 #confidence #socialskills
+
+## Research
+
+* Verdict: Promo. The reel is a motivational street interview that funnels viewers to a DM keyword ("FEARS") for the full video. It offers no public resource, and the advice (say hi, respect the answer) is generic. I did not search further.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already lists this reel under 'In person approach': say hi, see how she responds, respect the answer.
+
+### Not found
+
+The full video is sent only after a DM with "FEARS" to @justapproach1. No public copy was checked or found.

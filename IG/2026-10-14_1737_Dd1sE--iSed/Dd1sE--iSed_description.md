@@ -26,3 +26,17 @@ Haile Gerima understood early that cinema could be a weapon, a mirror, or a lie.
 From Bush Mama to Harvest: 3000 Years, his films pushed back against Hollywood’s narrow scripts for Black filmmakers, refusing stereotype for observation and political clarity.
 
 With Sankofa, he carried the film city by city. With Mypheduh, he built a shield for culture. His work reenforces strongly why it is important we tell our own stories.
+
+## Research
+
+* Verdict: Nothing to find. This is a film appreciation post with no tool or guide to use. Its award claims (FESPACO 2009, Venice 2008 jury and screenplay prizes, Carthage Golden Tanit) match search results.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Haile Gerima (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Haile_Gerima): page, found by search, not opened, medium confidence. Search result with Gerima's biography and filmography, including Teza. I did not open it.
+* [Film on Ethiopia's brutal past wins African Oscar (peacecorpsworldwide.org)](https://peacecorpsworldwide.org/film-on-ethiopias-brutal-past-wins-african-oscar/): page, found by search, not opened, medium confidence. Reuters report on Teza winning the FESPACO 2009 top prize. I did not open it.
+
+### Not found
+
+The post gives no link. The "14 years to fund the script" claim was not checked. Sources differ on which Carthage categories Teza won besides the Golden Tanit.

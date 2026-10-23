@@ -28,3 +28,12 @@ No coding or setup needed. Just type your idea and launch it for free.
 (Coding, coder, vibe coding, latest developer, developer, code, tech news, new gadget, gadgets)
 
 #coding #vibecoding #vibe #code #coder #developer #techproducts #technews #techupdates #trendingtech #trendingvideos #trendingaudio #factsdaily #unknownfacts #facts💯
+
+## Research
+
+* Verdict: Promo. The reel never names the tool. It says "comment AI" to get the link, and the claim that it beats Lovable and Replit has no evidence behind it. I couldn't find the tool publicly.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The tool's name and link. The creator says they will send it only after a comment ("AI"), and I found no public copy. One web search turned up only generic Lovable vs Replit comparisons. The vault has no mention of this post or creator.

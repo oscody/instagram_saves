@@ -37,3 +37,11 @@ Online coaching link in bio. 📈
 
 #abs #exercise #workout #gym #fyp
 
+## Research
+
+* Verdict: Nothing to find. This is a generic bodyweight ab circuit demo with a coaching plug. The post gives the whole routine (2 rounds, 30 seconds per exercise), and there is no separate resource to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not search. The post has no linked resource. Online coaching is only mentioned as "link in bio". The "six pack" claim is overstated: abs show through low body fat, which diet drives more than ab exercises. The post does say to eat in a calorie deficit.

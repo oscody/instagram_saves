@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Top Dancehall songs October 2026. Full mix available on YouTube, Soundcloud, Audiomack and Download. Link in bio
+
+## Research
+
+* Verdict: Nothing to find. This is a music mix promo from a dancehall DJ. It has no tool, guide or claim to check. The mix link is only in the creator's bio.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not search. The mix link is in the creator's bio, and I did not look it up. The vault had no related notes.

@@ -55,3 +55,25 @@ YOUR GROCERY LIST:
 
 #jamaicanfood #vegan #beans
 
+## Research
+
+* Verdict: Partly valid. The full recipe is public on Orchids + Sweet Tea and matches the reel's ingredients. The claim that kidney beans "can help reduce blood sugar levels" is a loose health claim, since beans are only low-glycemic.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Spicy Vegan Jamaican Stew Peas – Orchids + Sweet Tea (orchidsandsweettea.com)](https://www.orchidsandsweettea.com/spicy-vegan-jamaican-stew-peas/): page, found by search, verified, high confidence. The page lists the same ingredients as the caption (scotch bonnet, carrots, red onion, pimento seeds, arrowroot, kidney beans) and gives amounts and steps.
+
+### Key steps
+
+1. Heat 1-2 Tbsp olive oil in a deep skillet or Dutch oven. Sauté 4 minced garlic cloves and ½ chopped red onion for 1-2 minutes.
+2. Add 2 chopped carrots, 2 chopped bell peppers, the seasonings (salt, black pepper, parsley, dried thyme, smoked paprika, allspice) and 1-2 Tbsp pimento seeds.
+3. Add 2 cans of drained kidney beans, 2 cups vegetable stock and 1 can of coconut cream. Boil, then simmer on low for 10-15 minutes.
+4. Make the dumplings: mix 1 cup flour, ½ tsp salt and a pinch of pepper, then knead in about ½ cup cold water. Roll into long, thin spinners.
+5. Add the dumplings, thyme sprigs, 3-4 slit scotch bonnets and crushed scallion. Simmer about 10 minutes.
+6. If the stew is thin, stir in arrowroot mixed with warm water (about 1-1½ Tbsp arrowroot to 2 Tbsp water) and simmer 5 more minutes.
+7. Remove the thyme and scallion, then serve over rice or as a soup.
+
+### Not found
+
+I did not search the vault, because the note listed no matching vault notes. The reel itself may add nothing beyond the caption. The coconut milk and the dumplings are in the recipe but not in the caption's grocery list.

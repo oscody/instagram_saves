@@ -40,3 +40,30 @@ Completely free and open-source.
 Comment “Github” and I’ll send you the link.
 
 Full guide’s in my bio. Go check it out.
+
+## Research
+
+* Verdict: Valid. The public repo virgiliojr94/book-to-skill exists, is MIT-licensed, and generates the files the post describes, loading chapters on demand. The "hallucinations drop hard" line is the author's claim and I did not test it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [virgiliojr94/book-to-skill (github.com)](https://github.com/virgiliojr94/book-to-skill): repo, found by search, verified, high confidence. README describes /book-to-skill, SKILL.md plus index, per-chapter files, glossary, patterns and cheatsheet, with chapters loaded on demand.
+* [alirezarezvani/claude-skills book-to-skill (Tessl listing) (tessl.io)](https://tessl.io/registry/skills/github/alirezarezvani/claude-skills/book-to-skill): page, found by search, not opened, low confidence. A similarly named skill with a similar pipeline. I did not open it, so it may not be the one in the post.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/plan - ig_automation pipeline by claude.md`: Only mentions this post as a test case for the describe pipeline fallback. It does not hold the resource.
+
+### Key steps
+
+1. Install: npx skills add virgiliojr94/book-to-skill (or clone it into ~/.claude/skills/book-to-skill).
+2. Run python3 scripts/extract.py --check to see which extractors you have (pdftotext, docling). Scanned PDFs need OCR first, for example ocrmypdf.
+3. Convert a book: /book-to-skill <path|folder|glob> [skill-name].
+4. The output goes to ~/.agents/skills/<slug>/. It holds SKILL.md (about 4k tokens), chapters/chNN-*.md, glossary.md, patterns.md and cheatsheet.md.
+5. Query it with /<slug> <topic>. The agent reads only the relevant chapter.
+6. Chapter detection works best when the book has explicit "Chapter N" headings. Keep skills made from third-party books private.
+
+### Not found
+
+I did not check the post's claim that a 400-page book runs 200k+ tokens, or that hallucinations drop. Neither is measured in the README that I saw.

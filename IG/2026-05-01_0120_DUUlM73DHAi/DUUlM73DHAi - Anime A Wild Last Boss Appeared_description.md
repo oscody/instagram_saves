@@ -20,3 +20,16 @@ Written by claude-haiku-5-5.
 Anime: A Wild Last Boss Appeared
 Streaming: Crunchyroll
 #sololeveling #animerecommendations #newanime #anime
+
+## Research
+
+* Verdict: Nothing to find. This is an anime opinion reel. The show is real and streams on Crunchyroll, but there is no resource or how-to to extract. The "Solo Leveling successor" comparison is only his opinion.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [A Wild Last Boss Appeared! (anime, Crunchyroll) (animecorner.me)](https://animecorner.me/a-wild-last-boss-appeared-anime-gets-season-2/): page, found by search, not opened, medium confidence. Search results say season 1 premiered on Crunchyroll on Sept 27, 2025 and a season 2 is announced. I did not open the page.
+
+### Not found
+
+I did not open the Crunchyroll page, so the streaming details come from search results only. I did not check the Solo Leveling comparison.

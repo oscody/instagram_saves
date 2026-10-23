@@ -26,3 +26,12 @@ save this and comment to let me know if you want a full list of all the books an
 
 yes it’s free 
 (why wouldn’t it be 😩)
+
+## Research
+
+* Verdict: Unresolved. The full book list is only given in reply to a comment on the post. I found no public copy of it in the vault or on the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The full list of books and authors. It is sent after a comment or DM, and I found no public copy. I did not open the creator's Instagram profile or check for a link in her bio. The carousel covers themselves would show part of the list.

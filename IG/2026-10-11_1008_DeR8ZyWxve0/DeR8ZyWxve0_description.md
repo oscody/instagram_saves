@@ -34,3 +34,18 @@ Written by claude-haiku-5-5.
 Friends don’t let friends waste tokens.
 
 #claude #claudecode #ai
+
+## Research
+
+* Verdict: Unresolved. The prompt is said to be in the comments, and I found no public copy. The 50k to 3k (94%) claim is plausible, because a contact sheet is far cheaper than many frames, but I couldn't verify the figures.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Checked the vault for joshuablatch and 'contact sheet': no matches.
+2. Ran one web search on the creator, the tools and the savings figure: no public copy of the prompt found.
+3. Similar workflows exist (ButterCut, Brooke Lacey's Claude Code/FFmpeg/Whisper pipeline), but none are confirmed to be this creator's.
+
+### Not found
+
+The creator's prompt (in the Instagram comments) and the dashboard behind the 50k to 3k token figures. Check the comments on the reel directly.

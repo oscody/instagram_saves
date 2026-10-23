@@ -33,3 +33,12 @@ Written by claude-haiku-5-5.
 Take it one step at a time, I promise it’s not as complicated as you think. 
 
 Anything I can do, you can do better Westie ( yes we are soft launching writing + bestie = Westie)
+
+## Research
+
+* Verdict: Unresolved. The reel is a how-to tip list, and the full guide is only sent by DM after you comment "guide". I found no public copy of the guide.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The free guide from writingwithv (delivered by DM after commenting "guide"). A vault search and a web search turned up nothing for the creator or the guide. I did not check Instagram directly.

@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 7 Essential AI Prompts You Can’t Miss!
 
 Follow @thedigitalkinggg for daily AI hacks to help you achieve more!
+
+## Research
+
+* Verdict: Partly valid. The post is a set of generic AI prompts, shown in full in the slides, so there is no outside resource to find. The title says seven prompts but only five appear.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+Prompts 6 and 7 are not in the post. I did not search the web or the vault, because the prompts are complete in the slides.

@@ -53,3 +53,17 @@ Comment “GRANTS” and I’ll send it your way. 👇
 
 ⚠️ DISCLAIMER:
 I will never reach out asking you to complete an SBA application, pay application fees, or send Cash App payments for Bitcoin. Be extremely cautious of anyone using my name to solicit money or “guarantee” grants. I do not partner with anyone, and I will never send someone your way to help with grant opportunities.
+
+## Research
+
+* Verdict: Partly valid. The grants named are real, but they are not male-only and not all are open grants (some are past, contests or sponsor-run). The creator's guide is only sent after a "GRANTS" comment, so no public copy exists.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Warrior Rising pitch competition ($20,000 grant) (warriorrising.org)](https://warriorrising.org/blog/veteran-entrepreneurs-take-the-virtual-stage-at-warrior-risings-pitch-competition/): page, found by search, not opened, medium confidence. Search result shows Warrior Rising, a veteran-focused nonprofit, awarding a $20,000 grant at a pitch competition. This matches the reel's amount, but the page was not opened.
+* [LegalZoom Fast Break for Small Business (Www.legalzoom.com)](https://Www.legalzoom.com/fastbreakforsmallbusiness): page, found by search, not opened, medium confidence. Search result describes a $10,000 grant run with the NBA, which matches the reel's Fast Break name and amount. Listings show applications closed in Sept 2024. The page was not opened.
+
+### Not found
+
+The creator's "GRANTS" guide is only sent after a comment, with no public copy found. I found no public pages for the Progressive $50,000 or Intuit QuickBooks $10,000 grants. The Visa Everywhere Initiative is a startup/fintech competition and its prize amounts vary by edition, so $100,000 is unconfirmed. No source found limits any of these to men. I did not open the vault note that matched, which is a general Instagram/vault correlation note.

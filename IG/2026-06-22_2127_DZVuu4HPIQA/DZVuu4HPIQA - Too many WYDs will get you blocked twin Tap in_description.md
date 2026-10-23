@@ -30,3 +30,22 @@ Written by claude-haiku-5-5.
 Too many WYDs will get you blocked twin. Tap in. #datingadvice #datestorytime #datenight
 
 🚨 The First Date Blueprint is officially out now! Grab your copy today at UnoAramis.com⁠￼ — link in my bio. Don’t miss the launch special!
+
+## Research
+
+* Verdict: Promo. The reel's 50-idea list is only on screen. The caption mainly advertises a paid product, The First Date Blueprint. The advice itself (send a specific invite, not "WYD") is sound but basic.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already lists this reel with its summary: skip vague texts, send "Would you like to go ____?" with one activity. It also links related text-opener posts.
+
+### Key steps
+
+1. Replace "WYD?" with a specific invite: "Hi beautiful, would you like to go ____?"
+2. Fill the blank with one concrete activity, such as rooftop dinner, mini golf, wine tasting, paddle boarding, pottery class or an aquarium date.
+3. Offer a single option, not a menu, so she only has to say yes or suggest a change.
+
+### Not found
+
+unoaramis.com did not resolve (DNS error). A search found no page tying Uno Aramis to The First Date Blueprint; the matching listings were other sellers' products. I found no public copy of the full 50-idea list, so it only exists in the reel.

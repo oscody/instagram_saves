@@ -63,3 +63,16 @@ Now anyone can build something like this.
 Even if you have never written code before.
 
 #claudecode #aigamedev #aiminecraft #attackontitan #aigames
+
+## Research
+
+* Verdict: Partly valid. The game exists and is playable at the posted URL, with multiplayer. The "full guide" is only sent after a comment, and I found no public copy. The game page doesn't mention Minecraft style or Twilio, and I couldn't check the $31 / one-hour figures.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Titan Siege (attack-on-titancraft) (attack-on-titancraft.netlify.app)](https://attack-on-titancraft.netlify.app): product, in the post, verified, medium confidence. The page is a browser Attack on Titan fan game with a campaign, free roam and multiplayer lobbies, matching the post. It is titled "Titan Siege", and the fetched text didn't mention Minecraft style or Twilio.
+
+### Not found
+
+The "TITAN" guide is sent only after commenting on the post, and I found no public copy. I didn't verify the Twilio relay, the $31 cost or the one-hour build time.

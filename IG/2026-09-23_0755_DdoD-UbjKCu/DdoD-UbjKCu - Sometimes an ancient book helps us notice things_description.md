@@ -32,3 +32,12 @@ We want quick results, but give up on what we start. We get into arguments witho
 This carousel features five Chinese books and modern reflections inspired by them—on preparation, consistency, character, change, and recognizing the influence of others.
 
 Choose one idea and try putting it into practice today: think through your next step, return to something you started, or set aside distractions for a while to focus on what matters.
+
+## Research
+
+* Verdict: Nothing to find. The post is a general self-improvement carousel summarizing five well-known classic Chinese texts. It has no specific tool, link or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No searches were run. The post names only public-domain classics (The Art of War, Tao Te Ching, The Analects, I Ching, Thirty-Six Stratagems), and the vault had no matching notes.

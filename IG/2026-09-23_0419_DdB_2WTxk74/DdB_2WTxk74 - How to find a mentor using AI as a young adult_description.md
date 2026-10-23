@@ -34,3 +34,12 @@ Build yourself up first 🚀
 @danmartell 
 
 #ai #mentor #youngadults
+
+## Research
+
+* Verdict: Partly valid. The post is a cold-outreach method with no tool or downloadable resource. The approach is sensible, but the post never shows how AI is used, and nothing guarantees a reply or a mentor.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No specific resource exists. I did not search the web, because the post is a how-to with no named tool. The only vault match was an unrelated note on NYC engineer communities. The "AI" part is unspecified; it could be used to list nonprofits, find board members, or draft the message.

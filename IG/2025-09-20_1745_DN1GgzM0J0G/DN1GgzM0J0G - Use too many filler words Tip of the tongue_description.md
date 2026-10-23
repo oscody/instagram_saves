@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 Use too many filler words? Tip of the tongue moments? Struggle to articulate your ideas? All can be eased by improving verbal fluency. 
 
 #communicationskills #communication #communicationtips
+
+## Research
+
+* Verdict: Partly valid. The post is a simple self-contained word game with no external resource. Chaining sentences by last word is a plausible verbal fluency exercise, but I did not check the claim that it eases filler words or tip-of-the-tongue moments.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists beyond the post's own steps. I did not search the web, and the vault had no matching notes. I did not check the benefit claims against research.

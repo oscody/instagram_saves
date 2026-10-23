@@ -39,3 +39,32 @@ How does the /goal command work in Claude Code?
 Which projects teach loop engineering?
 
 #ai #claude #aitools #automation #coding
+
+## Research
+
+* Verdict: Valid. Sabrina's public newsletter post contains the six /goal projects and the TASK/WHY/OUTCOME/CONSTRAINTS/VERIFICATION template, so you don't need to comment "FABLE" to get it. Some tools it uses (Apify, ManyChat, a paid Claude Code plan) aren't free.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [6 INSANE Projects to Learn Claude Fable and /goal (sabrina.dev)](https://sabrina.dev/p/6-insane-projects-to-learn-claude-fable-loop-engineering): guide, found by search, verified, high confidence. Opened it. It lists the same six projects (spider sim, dragon game, YouTube visualizer, brand content week, A/B test optimizer, Salt Lake City trip) and the CONSTRAINTS/VERIFICATION template.
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only mentions waiting on a DM reply from sabrina_ramonov about teaching Claude Code. It doesn't hold this resource.
+
+### Key steps
+
+1. Open Claude Code in the terminal so /goal is available.
+2. Write each /goal prompt with five parts: TASK, WHY, OUTCOME, CONSTRAINTS, VERIFICATION.
+3. Make VERIFICATION the finish line, e.g. the spider reaches the top of the stairs at least 8 of 10 times.
+4. Spider: train a spider to climb stairs in Genesis-World, and deliver the code, the trained spider and a video.
+5. Dragon game: build a first-person dragon-flying game, and have Claude test it in the browser with Claude in Chrome.
+6. YouTube visualizer: scrape top creators' videos with over 1M views using Apify, build a dashboard of title concepts, and exclude non-English, music, gaming, media and kids' channels.
+7. Brand content week: install the free Blotato skills plugin, generate a week of posts, and rewrite each until /post-grader scores it above 8/10.
+8. A/B test: run 50/50 ManyChat new-follower DM tests and rewrite the losing message every 4 hours.
+9. Trip: plan a 3-day Salt Lake City itinerary for four friends, capped at $800 each, with every place open on the trip dates.
+
+### Not found
+
+I didn't check the Blotato plugin, Apify or ManyChat pages. I also didn't confirm the "Fable" model naming (one search summary said Fable 5), because it doesn't affect the resource.

@@ -41,3 +41,18 @@ Why?
 Who else loves remote work? 👩‍💻
 
 #remotejobs #remote #career
+
+## Research
+
+* Verdict: Partly valid. The five boards shown are real, public remote job sites. The full 19-board list is only sent after commenting "Remote", and I found no public copy of it.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Remote OK (remoteok.com)](https://remoteok.com): page, found by search, verified, high confidence. Opened it; it is a remote job board, and the post's carousel names it.
+* [Working Nomads (workingnomads.com)](https://www.workingnomads.com): page, found by search, verified, high confidence. Opened it; it lists fully remote jobs worldwide, and the post's carousel names it.
+* [We Work Remotely (weworkremotely.com)](https://weworkremotely.com): page, found by search, not opened, medium confidence. The post names it, but the site returned HTTP 403 when I tried to open it.
+
+### Not found
+
+The full list of 19 boards, which is sent only by DM after commenting "Remote". I did not check Wellfound or Web3 Jobs. The vault only mentions this post in download-retry notes and holds no job-board content.

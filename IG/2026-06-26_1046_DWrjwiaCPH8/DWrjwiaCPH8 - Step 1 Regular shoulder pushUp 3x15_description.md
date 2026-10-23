@@ -36,3 +36,12 @@ Step 4 Side-to-Side Reach 2x15
 Step 5 Seated Knee Tucks 4x10
 
 Follow for more ✅
+
+## Research
+
+* Verdict: Nothing to find. This is a short bodyweight workout reel. The full routine is in the caption, and there is no separate resource to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The on-screen "1300" is not explained, and no program or download is linked. I did not search, and the vault had no matching notes.

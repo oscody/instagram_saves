@@ -29,3 +29,12 @@ Entraînement efficace des animaux 🔥✅🍫
 Enregistre / Partage / Essaie 💪🏿🫡
 
 #fit #motivation #work #explorepage✨ #abs
+
+## Research
+
+* Verdict: Nothing to find. This is a generic ab workout reel with no named resource, program or download. The exercises shown are standard bodyweight moves. I didn't search.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The reel names no exercises and links to nothing. Its implied claim that this routine gives defined abs is unsupported, because abs show through body fat level, not through ab exercises alone.

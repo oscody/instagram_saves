@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Save for later!
+
+## Research
+
+* Verdict: Nothing to find. This is a men's outfit-idea reel with the caption "Save for later!". It names no product, link or resource to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No brand or product names are given in the post, so I did not search for the clothing items.

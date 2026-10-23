@@ -27,3 +27,20 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Mental re-frames that keep me calm no matter how much my life is hitting the fan ft. My temu tattoo (also I shortened it to 4) | #mindset #discipline
+
+## Research
+
+* Verdict: Partly valid. The book is real, but the reel is a short motivational paraphrase. The "stress ages you and shortens your life" claim is loosely supported by stress research, and the "manifesting" framing is not scientifically established.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Breaking the Habit of Being Yourself (Joe Dispenza, Hay House) (books.apple.com)](https://books.apple.com/us/book/id1420570679): product, found by search, not opened, medium confidence. The title and author match the book named in the reel. I only saw the search listing and did not open the page.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. Daily/2026-08-19.md`: Mentions Dispenza or the book, probably the daily note for this save. I didn't open it.
+
+### Not found
+
+I did not open the book page or check the exact chapters the speaker draws on. The reel's own steps are the only source for the reframes.

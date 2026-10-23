@@ -55,3 +55,24 @@ I have shared a lot more in the guide. Comment "Claude" and I'll share it with y
 #claude #ai #tokens #aitools #hacks
 
 (Claude, Claude code, Claude skills, token limit, hacks, ai tools)
+
+## Research
+
+* Verdict: Partly valid. The repo is real and matches the post, and the general token-saving habits are sensible. The tool's own README says its big reduction figures are best-case, and small edits can cost more tokens with it. The "guide" is only sent by comment, and I found no public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [code-review-graph (github.com)](https://github.com/tirth8205/code-review-graph): repo, in the post, verified, high confidence. A local Tree-sitter code graph served over MCP so AI assistants read only the affected files, as slide 4 describes.
+
+### Key steps
+
+1. Install it: pip install code-review-graph (needs Python 3.10+; pipx also works).
+2. Run code-review-graph install to add the MCP server entry to your detected AI coding tools (use --platform to pick one).
+3. In the project, run code-review-graph build, then restart your editor.
+4. Ask the assistant to build or use the code review graph for the project.
+5. Keep the graph current with update, watch mode or the hooks. Use status or detect-changes --brief to check it.
+
+### Not found
+
+The creator's full guide, which is sent only after commenting "Claude". I found no public copy. I did not check the other claims (the 127→32 token example, the model-choice advice and the ChatGPT PDF step).

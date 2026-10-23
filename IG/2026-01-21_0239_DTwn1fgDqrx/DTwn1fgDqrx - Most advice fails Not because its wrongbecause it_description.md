@@ -25,3 +25,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Most advice fails. Not because it’s wrong—because it isn’t yours.
+
+## Research
+
+* Verdict: Nothing to find. The reel is a short opinion clip from a podcast host. It says advice fails when it doesn't fit your context, and it names no tool, repo, guide or product. The vault notes only list the shortcode in a download-retry task.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/_pi todo query.md`: Lists shortcode DTwn1fgDqrx among 19 downloads to retry after the Pi lost Wi-Fi. It has nothing on the post's content.

@@ -57,3 +57,32 @@ Make sure to check your “general” tab in messages on the IG mobile app. Link
 .
 .
 #claudecode #aitools #aideveloper #claudeai #anthropic artificialintelligence codingtools devtools github programming softwaredeveloper techtools aiagents codeautomation 10xdeveloper aicoding techreels learntocode buildinpublic devlife codingskills aiproductivity claudeskills machinelearning futureofcoding
+
+## Research
+
+* Verdict: Partly valid. All five repos exist, but the Prompt Generator is an image-prompt tool (portraits, art, design, video), not a codebase-reading prompt writer as the reel says. The "top 1%" and "10x" claims are hype.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [anthropics/skills (github.com)](https://github.com/anthropics/skills): repo, in the post, verified, high confidence. Anthropic's official Agent Skills repo. Its README installs via /plugin marketplace add anthropics/skills, not by copying into ~/.claude/skills.
+* [VoltAgent/awesome-claude-code-subagents (github.com)](https://github.com/VoltAgent/awesome-claude-code-subagents): repo, in the vault, not opened, high confidence. The vault note and the post both name it as a curated collection of Claude Code subagents. I did not open it myself.
+* [huangserva/skill-prompt-generator (github.com)](https://github.com/huangserva/skill-prompt-generator): repo, in the post, verified, high confidence. The clone and pip install steps match the reel. The README describes AI image prompt generation built on Claude Skills, not reading your codebase.
+* [obra/superpowers (github.com)](https://github.com/obra/superpowers): repo, found by search, not opened, medium confidence. Search results show a skills-based dev methodology plugin for Claude Code, which matches 'Superpowers'. The reel never shows its link, and I did not open the repo.
+* [OthmanAdi/planning-with-files (github.com)](https://github.com/OthmanAdi/planning-with-files): repo, found by search, not opened, medium confidence. Search results describe a Manus-style persistent planning skill that keeps task_plan.md, findings.md and progress.md on disk. This is probably the 'Manus Planning' repo, but the reel doesn't name it.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/article - 10 GitHub Repositories To Master Claude Code.md`: Lists VoltAgent/awesome-claude-code-subagents as a library of ready-made Claude Code subagent roles.
+
+### Key steps
+
+1. Skills: in Claude Code run /plugin marketplace add anthropics/skills, then /plugin install document-skills@anthropic-agent-skills (or example-skills@anthropic-agent-skills).
+2. Subagents: git clone https://github.com/VoltAgent/awesome-claude-code-subagents.git, then copy the agent files you want into ~/.claude/agents/ (this step is my assumption and I did not check it against the README).
+3. Superpowers: per search results, run /plugin install superpowers@claude-plugins-official, then use /superpowers:brainstorm, /superpowers:write-plan and /superpowers:execute-plan.
+4. Manus-style planning: per search results, run npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g. It keeps task_plan.md, findings.md and progress.md on disk.
+5. Prompt Generator: git clone https://github.com/huangserva/skill-prompt-generator.git, cd into it, run pip install -r requirements.txt (Python 3.8+), then open Claude Code in that folder. It is for image prompts.
+
+### Not found
+
+The reel doesn't show the Superpowers and Manus Planning links. The creator sends them by DM after a SKILLS comment. I matched them to public repos by search, so they are likely but not certain. I did not open the VoltAgent, Superpowers or planning-with-files repos.

@@ -34,3 +34,20 @@ Per usual if you want the prompts comment “coach” and I’ll send em your wa
 AI can either completely destroy your ability to learn or multiply it - it just depends on your discipline to actually try and learn things 
 
 #ai #buildwithai #vibecoding
+
+## Research
+
+* Verdict: Unresolved. The prompts are only sent by DM after commenting "coach", and I found no public copy. The general idea (using AI on your own business data to find problems) is plausible, but the post gives no evidence it works.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Comment "coach" on the reel and wait for the creator's DM with the prompts.
+2. Connect your business software to your AI tool.
+3. Run prompt 1: analyze the software data for blind spots and save the problems to a table.
+4. Run prompt 2: find where niche experts discuss those problems.
+5. Ask the AI for examples of people who solved them and how.
+
+### Not found
+
+The actual prompts. They are gated behind a comment/DM, and a web search for the creator and the topic returned nothing from him. I did not check his Instagram profile or any site directly.

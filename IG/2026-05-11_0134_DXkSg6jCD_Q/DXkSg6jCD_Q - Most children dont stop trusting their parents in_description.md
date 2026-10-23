@@ -49,3 +49,16 @@ Follow @tomiwabankole__ and @declare_me for heart-deep conversations.
 
  #GOD #Chtistiantiktok #faithoverfear
 #christianity #godspeed
+
+## Research
+
+* Verdict: Partly valid. The five questions are all in the post and are reasonable, but the "Kids Edition Digital Deck" is only sent after a comment, and I found no public copy. The post's claim about trust fading slowly is general parenting advice with no source.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Only mentions the creator's other post, five questions to ask before marriage (DVrS__-CA0h). It has nothing on this kids post or the deck.
+
+### Not found
+
+The Kids Edition Digital Deck has no public page. One web search found nothing from @tomiwabankole__ or @declare_me. The only similar result was an unrelated product, "{THE AND} Kids Edition", which I did not open and which isn't linked to this creator. You would have to comment TRUST on the post to get the deck.

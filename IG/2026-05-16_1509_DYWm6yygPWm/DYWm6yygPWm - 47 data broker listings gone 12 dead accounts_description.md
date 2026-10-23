@@ -41,3 +41,17 @@ For articles that could not be removed, the strategy shifted to outranking them 
 Most of this work used to live with lawyers and developers. Now it lives in a chat window.
 
 What are your thoughts on this? 🤔💬
+
+## Research
+
+* Verdict: Partly valid. The two tools are real and work as described. The "47 listings, 12 accounts, 3 results in 6 hours" figures come from one X thread that I didn't find or check. The method is plausible, but you still have to send each request and follow up yourself.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [JustDeleteMe (justdeleteme.xyz)](https://justdeleteme.xyz): tool, in the post, verified, high confidence. Directory of account deletion links rated easy, medium, hard or impossible, as the post describes.
+* [Have I Been Pwned (haveibeenpwned.com)](https://haveibeenpwned.com): tool, in the post, verified, high confidence. Breach lookup service for email addresses, as the post describes.
+
+### Not found
+
+The original X thread by "digital ghost" and his exact prompts. I didn't search for them, so the results can't be confirmed.

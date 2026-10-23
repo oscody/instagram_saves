@@ -47,3 +47,20 @@ This is why timing matters. While most people wait, others are already setting u
 If you want to build this properly, you need more than just ideas—you need the exact AI tools and how they work together in a real setup.
 
 DM “YES” now and I’ll send you the full AI tool stack and the simple step-by-step system to set it up and offer it to clients.
+
+## Research
+
+* Verdict: Promo. The post is a lead-generation funnel for a DM-gated "AI tool stack" for selling AI receptionist services. The five prompts are shown in the carousel, but the tool list and setup system are only sent by DM. Income claims are unsupported.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Niche: paste 10 industries into Claude. Ask which spends the most on manual tasks that AI tools under $100/mo could handle, ranked by potential savings, and who the decision maker is.
+2. Offer: use the template 'I help [niche] businesses save money by installing A.I tools that handle [function]'. Ask for 3 tiers: a $2,000 quick-win install, a $5,000 full setup and a $10,000/mo retainer, with deliverables for each.
+3. Cold email: ask for 5 variations for the niche's owners. Each should lead with the cost of their current manual process, offer to cut it by 60–80% with AI, stay under 90 words and sound human.
+4. Objections: list the 5 most common objections from sales calls. Ask for a 2-sentence reframe of each using a specific number or case study.
+5. Onboarding: ask for a step-by-step checklist covering what to get from the client, what to set up on day 1 and what the client sees by day 7.
+
+### Not found
+
+The "full AI tool stack and setup system" is only sent by DM after commenting or messaging "YES". No public copy was searched for or found. I did no web search because the post is a DM-gated promo.

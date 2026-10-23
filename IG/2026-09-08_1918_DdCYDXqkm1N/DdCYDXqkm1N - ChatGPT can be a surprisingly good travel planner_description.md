@@ -39,3 +39,12 @@ The secret is context. Give ChatGPT your destination, dates, budget, travel styl
 Would you use these for your next trip? 👇
 
 #AItravel #TripPlanning #TravelSmart #DigitalNomad
+
+## Research
+
+* Verdict: Valid. The post is a set of ChatGPT prompt templates that is fully described in its own slides. The claim that context improves travel plans is reasonable. No separate public resource exists to link.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The caption mentions 8 prompts but only 5 appear in the slides described. No external page or download was found. I did not search, since the prompts are in the post itself.

@@ -46,3 +46,26 @@ If you build WhatsApp bots, automations, or messaging tools, this is the WhatsAp
 Comment “APP” — GitHub repo and full setup guide in your DMs.
 
 #WhatsAppAPI #WhatsAppAutomation #OpenSource
+
+## Research
+
+* Verdict: Partly valid. OpenWA is a real, MIT-licensed, self-hosted NestJS gateway, and it is public, so no DM is needed. The post leaves out that it is unofficial (whatsapp-web.js/Baileys), carries a real ban risk, and is not a replacement for the official Business API in high-stakes use.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [rmyndharis/OpenWA (github.com)](https://github.com/rmyndharis/OpenWA): repo, found by search, verified, high confidence. README confirms MIT license, NestJS/TypeScript, Docker, multi-session, and a dashboard, matching the post's stack list.
+
+### Key steps
+
+1. Clone the repo: git clone https://github.com/rmyndharis/OpenWA.git && cd OpenWA
+2. Start it with Docker: docker compose -f docker-compose.dev.yml up -d
+3. Get the admin API key: docker exec openwa-api cat /app/data/.api-key
+4. Open the dashboard and API on port 2785. Swagger is at /api/docs, and in production only if ENABLE_SWAGGER=true.
+5. Create a session and scan the QR code with a dedicated WhatsApp number, not your main one.
+6. Choose the engine with ENGINE_TYPE: whatsapp-web.js (default, about 300–500 MB RAM per session) or Baileys (about 30–80 MB).
+7. Set up webhooks, and pace your sends (SEND_PACING_ENABLED), message only opted-in recipients, and warm up new numbers to lower the ban risk.
+
+### Not found
+
+The creator's DM content was not checked. The public repo covers the same material.

@@ -31,3 +31,12 @@ One of my biggest regrets of college is not building more stuff (because I was s
 ESPECIALLY with AI now, there is really no reason you can’t build ANYTHING.
 
 I anticipate a lot of companies will start shifting their interview processes to be more builder focused and revolved around foundational skills rather than how well you can leetcode, so the best time to start building projects is now!
+
+## Research
+
+* Verdict: Nothing to find. The post is a personal opinion about building projects in college. Its two example projects (Audible Recall, an Ataxx game) are the creator's own and I found no public copy. The advice is opinion, so there is nothing to check.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No public listing or repo for "Audible Recall" or the Ataxx project. A web search only returned the unrelated Recall summarizer product. The vault has no notes on the creator or these projects. The claim that the projects got him into Google could not be checked.

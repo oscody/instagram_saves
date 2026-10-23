@@ -31,3 +31,16 @@ Follow @stayslickwithkit for daily advice.
 
 #dating 
 #datingadviceforwomen
+
+## Research
+
+* Verdict: Nothing to find. The reel is a creator's opinion on relationship guardrails, reacting to a podcast clip. It names no tool, guide or document to find. The advice is common-sense opinion, not a checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this reel as 'Guardrails for staying faithful' (@stayslickwithkit), tagged as later-stage advice for commitment, alongside other dating question lists.
+
+### Not found
+
+The podcast the clip came from is not named in the post, and I did not search for it.

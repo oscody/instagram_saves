@@ -35,3 +35,17 @@ Written by claude-haiku-5-5.
 follow me + comment “guide” for the in depth guide i use to build projects insanely fast and win every hackathon i go to
 
 #programmer #vibecoding #hackathon #csmajor
+
+## Research
+
+* Verdict: Unresolved. The "in-depth guide" is only sent by comment ("guide") and no public copy was found. The stack the post describes is plausible and uses real tools, but the claim that it wins every hackathon is just the creator's own boast.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Key steps
+
+1. Checked the vault for the creator, shortcode and v0/hackathon terms: no matches.
+2. Did not search the web: the guide is delivered only by comment, and the post's own steps are already complete.
+
+### Not found
+
+The guide itself (sent via comment "guide" to vardy.mov). No public link was found or searched for.

@@ -35,3 +35,20 @@ Written by claude-haiku-5-5.
 Psycho-cybernetics by Maxwell Maltz (in 60 seconds)
 
 #identityshifting #discipline #psychocybernetics
+
+## Research
+
+* Verdict: Partly valid. The reel summarizes real ideas from Maltz's 1960 book (self-image, goal-seeking, visualization, mental rehearsal). The "60 seconds" list is a loose paraphrase, and the book's science is dated pop psychology. I did not open the book itself.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Psycho-Cybernetics (Maxwell Maltz) – Penguin Random House (penguinrandomhouse.com)](https://www.penguinrandomhouse.com/books/318795/psycho-cybernetics-by-maxwell-maltz-md-fics/): product, found by search, not opened, medium confidence. Search result for the book the reel summarizes; its description matches the self-image and visualization themes, but I did not open the page.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only lists "Psycho-Cybernetics" by name at line 138, with no steps or link.
+
+### Not found
+
+No public copy of the reel's exact 12-point list apart from the reel. I did not open the book or check the chapter-level claims, such as the 15-minute daily rehearsal.

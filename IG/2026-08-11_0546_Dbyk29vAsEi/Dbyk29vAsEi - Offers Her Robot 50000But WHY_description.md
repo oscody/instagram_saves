@@ -26,3 +26,16 @@ Written by claude-haiku-5-5.
 @alicialyttle Offers Her Robot🤖 $50,000…But WHY?
 
 Ground Breaking Technology At @investfestival
+
+## Research
+
+* Verdict: Nothing to find. The reel is a stage skit at Invest Fest by Alicia Lyttle that shows prompting tips. It offers no downloadable resource, and I found no public copy of the prompt or the six-email output.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Alicia Lyttle – site (AI roles for business growth) (alicialyttle.com)](https://alicialyttle.com/creating-ai-roles-for-business-growth/): page, found by search, not opened, low confidence. This is her general AI-prompting content. It does not mention the $50,000 robot skit.
+
+### Not found
+
+The exact skit prompt and the six-email output. The vault has no notes on this post. One web search found nothing matching the $50,000 robot prompt.

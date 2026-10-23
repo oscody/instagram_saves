@@ -28,3 +28,16 @@ Written by claude-haiku-5-5.
 12 month robotics learning plan
 
 #robotics #arduino #clankers
+
+## Research
+
+* Verdict: Nothing to find. The reel is a creator's own 12-month robotics roadmap. It names no linked resource, repo or product, and the post itself already lists every step.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/robotics learning .md`: Only a robotics careers site link from an ad. It is not this roadmap.
+
+### Not found
+
+No public document or link for the roadmap. I did not search the web. The plan looks reasonable but is one creator's opinion.

@@ -31,3 +31,8 @@ Brand credits: Zara, The Essence Vault, Cernucci, ASOS, Bershka, H&M, LFDY, Blan
 📸 CentralCee, Clint419 
 
 Independent styling post; no affiliation or endorsement. Prices and availability may change.
+
+## Research
+
+* Verdict: Nothing to find. This is a men's autumn outfit inspiration carousel. It has no single resource to find, only brand credits and prices that may have changed.
+* Checked: 2026-10-22 by claude-sonnet-5-5

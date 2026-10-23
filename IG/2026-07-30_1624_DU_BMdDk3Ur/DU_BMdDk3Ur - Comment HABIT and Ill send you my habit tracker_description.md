@@ -29,3 +29,12 @@ Stick to the plan bro.
 Your dreams are 12 months of consistency away.
 
 #selfimprovement #discipline #selfgrowth
+
+## Research
+
+* Verdict: Promo. A meme reel that uses a comment-for-a-freebie hook ("HABIT") to send a habit tracker spreadsheet by DM. No public copy of the tracker was searched for or found, and the post makes no claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The habit tracker is only sent after commenting 'HABIT' on the post. No public link is given, and I did not search the web for it. The vault has no matching note.

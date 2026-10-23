@@ -33,3 +33,12 @@ SAVE This Brilliant method to make money with Nano Banana while others focus on 
 Who's gonna try this?
 
 #ai #nanobanana #incomeideas #sidehustle
+
+## Research
+
+* Verdict: Partly valid. The post is a generic side-hustle workflow using Gemini (Nano Banana) and print-on-demand. It has no specific linked resource, and the "brilliant method" claim is unproven, with no sales evidence shown.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No public resource, link or prompt file exists for this post. I did no web search because it's a generic how-to with no named resource. The vault had no matching notes. The post gives no evidence of income, and print-on-demand slogan hoodies are a crowded market, so earnings are uncertain.

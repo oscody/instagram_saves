@@ -25,3 +25,16 @@ Written by claude-haiku-5-5.
 
 🛒 Shop now via the link in our bio! metanexusxr.com
 #XR #VirtualReality #VRGear #TechMarketplace #MetaNexusXR
+
+## Research
+
+* Verdict: Promo. The post advertises the MetaNexusXR online store. The holographic gaming clip is Voxon Photonics footage used as eye-catching visuals, and the site doesn't list Voxon among its brands.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [MetaNexus XR Market (metanexusxr.com)](https://metanexusxr.com): product, in the post, verified, high confidence. The site is an XR marketplace with Link Cables and VR Arena categories, as the caption says. It also has Hologram Displays and Volumetric 3D Displays categories, but no Voxon branding.
+
+### Not found
+
+I only read the first 100,000 of about 147,000 characters of the site's homepage text, so I couldn't rule out Voxon products in the unread part. I didn't check Voxon Photonics' own site. I couldn't confirm that the clip's hologram game is sold through MetaNexus.

@@ -34,3 +34,26 @@ Best Claude Code tutorials?
 Where to find Claude Code resources?
 
 #claude #ai #aitools #learning #claudeai
+
+## Research
+
+* Verdict: Unresolved. The directory is only sent by DM after you follow and comment "HAMMER", and I found no public copy. The vault has nothing on it either.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Day 18 / 30 Days of Claude Code (120+ links in one place) (ayautomate.com)](https://www.ayautomate.com/resources/claude-code-challenge/day-18): page, found by search, not opened, low confidence. A different 120+ Claude Code link list, credited to other authors rather than Sabrina Ramonov, so it is only a possible substitute. I didn't open it.
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Only a task about waiting for Sabrina Ramonov to reply to a DM about teaching Claude Code. It doesn't hold the directory.
+
+### Key steps
+
+1. Follow @sabrina_ramonov on Instagram.
+2. Comment "HAMMER" on the reel.
+3. Wait for the DM that contains the directory link.
+
+### Not found
+
+A public copy of Sabrina Ramonov's 120+ Claude Code directory. I didn't check whether the 120+ items are free or well organized, since I couldn't see the list.

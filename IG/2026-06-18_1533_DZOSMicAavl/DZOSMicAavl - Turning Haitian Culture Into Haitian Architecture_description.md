@@ -37,3 +37,16 @@ Comment ‘RESEARCH’ if you want deeper insights into the Haitin Caribbean sym
 Comment ‘COMMUNITY’ to join the Architectural Enthusiasts group 
 
 #architecture #haiti  #culture
+
+## Research
+
+* Verdict: Unresolved. The "RESEARCH" material is only sent after a comment, and I found no public copy. The lakou concept itself is real, but the specific design rules (such as the four-foot wall inscriptions) have no public source I could find.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Lakou Model (Duke Law and Housing in Haiti) (sites.duke.edu)](https://sites.duke.edu/lawandhousinginhaiti/historical-background/lakou-model): page, found by search, not opened, low confidence. Background on the real lakou courtyard-cluster model that the reel builds on. It does not cover the creator's design proposal.
+
+### Not found
+
+The creator's "Haitian Caribbean symbol system" research, which is sent only after commenting "RESEARCH". I found no public copy and no public source for the "Living Lakou" and "Living Art" designs. The vault has nothing on this post. I did not open the Duke page, so it is unverified.

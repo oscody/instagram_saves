@@ -27,3 +27,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 A faster story is NOT a tenser story #storypacing #pacing #pacinginfiction #writingtips #storytelling
+
+## Research
+
+* Verdict: Nothing to find. The reel is a spoken writing tip about pacing, with no repo, tool, guide or file to find. The claim that pressure, not speed, creates tension is a standard, sound craft principle.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Links this reel as a pacing reference to use when writing the script for a 1-minute story idea. It holds no extra steps.
+
+### Not found
+
+No external resource exists. I did not search the web, and I read only the vault lines given in the prompt.

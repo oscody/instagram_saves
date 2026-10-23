@@ -28,3 +28,12 @@ Send this to your friend who should check out this platform where people team up
 Comment ”startup” and we’ll send you the link!
 
 #startup #startupideas #startuplife #businessowner #founder #businessman #student #college #uni #unilife #businesstips #businessideas #businesslife
+
+## Research
+
+* Verdict: Unresolved. The link is only sent after commenting "startup" on the reel. I found no public page for the platform under the creator's name (_solvearn) or by its description.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The platform's name and URL. They are not in the caption or the transcript, and the vault has nothing on them. Two web searches on the creator's handle and the description found nothing matching. Similar co-founder matching sites turned up, such as Startives and YC's co-founder matching, but nothing ties them to this reel, so I did not list them.

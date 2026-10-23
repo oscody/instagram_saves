@@ -44,3 +44,18 @@ the @apple swift student challenge is also a great way to motivate yourself to d
 
 if you want to learn more about the swift student challenge and possibly participate in the next challengeeee, 
 comment “swift” and i’ll send you the link 🍎✨
+
+## Research
+
+* Verdict: Valid. Karen-Happuch Peprah Henneh (shown as "Karen Havok" in the post) is a real 2026 Swift Student Challenge Distinguished Winner. Her offline flood app is Asuo. The "swift" comment link almost certainly points to Apple's public challenge page.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Swift Student Challenge (Apple Developer) (developer.apple.com)](https://developer.apple.com/swift-student-challenge/): page, found by search, not opened, medium confidence. Official Apple page for the challenge the post tells viewers to comment for; probably the link sent, but I only saw it in search results.
+* [AFROTECH: Karen-Happuch Henneh offline flood safety navigation app (afrotech.com)](https://afrotech.com/karen-happuch-henneh-created-an-offline-flood-safety-navigation-app): page, found by search, not opened, medium confidence. Search summary describes Asuo, her offline flood-navigation app, and her win. The post's 'Havok' looks like a transcription error for Henneh.
+* [Apple Newsroom: AI meets accessibility in this year's Swift Student Challenge (apple.com)](https://www.apple.com/sg/newsroom/2026/05/ai-meets-accessibility-in-this-years-swift-student-challenge/): page, found by search, not opened, medium confidence. May 2026 Apple story that features her among four winners, per the search summary.
+
+### Not found
+
+I did not open any of the pages, so none is marked verified. I did not confirm that she met Tim Cook and John Ternus. The exact link the creator sends after a "swift" comment is unseen. The vault had no matching notes.

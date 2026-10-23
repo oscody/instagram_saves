@@ -28,3 +28,17 @@ such a cozy little restaurant and they have outdoor seating (to enjoy while itâ€
 .
 .
 [vegan nyc, new york vegan, vegan, vegan dinner nyc, vegan happy hour, happy hour nyc, manhattan happy hour, manhattan sushi, vegan sushi nyc]
+
+## Research
+
+* Verdict: Partly valid. Zest in the Lower East Side does list a $6 happy hour from 3:30 to 7pm. Listings say it is not daily, though: the restaurant is closed Mondays and has no Monday happy hour. I did not open the pages, and the menu items in the post are unchecked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Zest Sushi (249 Broome St) - Atly listing (atly.com)](https://www.atly.com/location/ZestSushi): page, found by search, not opened, medium confidence. Search snippet says happy hour 3:30-7pm with $6 items; I did not open the page.
+* [Zest NY - Mapstr listing (mapstr.com)](https://mapstr.com/place/6vweLDLm2Yg/zest-ny-restaurant-import-sushi-asian-drinks): page, found by search, not opened, medium confidence. Search snippet says weekday happy hour is 3:30-7pm and rolls, appetizers and drinks start at $6. It also says there is no happy hour on Monday. Page not opened.
+
+### Not found
+
+Zest's official website and Instagram (@zestnyc) were not checked. Current hours and prices are unconfirmed, and so are the vegetarian items marked in green.

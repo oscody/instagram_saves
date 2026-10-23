@@ -45,3 +45,30 @@ The repo has 12,332 stars on GitHub and was last updated today. Anthropic isn’
 I put together a free setup guide with the exact two terminal commands and the NVIDIA signup link. Comment NVIDIA and I’ll send it over.
 
 #ClaudeCode #AI #FreeAI #DevTools #Coding
+
+## Research
+
+* Verdict: Partly valid. The repo is real and does proxy Claude Code to free providers like NVIDIA NIM. The README has since changed. It now uses an installer and an Admin UI, and the port 8082 and 40 requests/min figures aren't in it. Free limits are set by each provider and can change.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [free-claude-code (github.com)](https://github.com/Alishahryar1/free-claude-code): repo, in the post, verified, high confidence. Opened it. It is a Claude Code proxy by Alishahryar1 that supports NVIDIA NIM, OpenRouter, Ollama and LM Studio, with about 62.6k stars now.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Lists this post and repo as a proxy between the agent and your keys, and advises scanning it with SkillSpector first.
+
+### Key steps
+
+1. Run the one-line install script from the README (macOS/Linux shell, or the Windows PowerShell command) and pick your coding agents.
+2. Start FCC. On Windows or macOS, open the app. On Linux, run `fcc-server` and keep that terminal open. The Admin UI then opens.
+3. Create an API key at build.nvidia.com.
+4. In the Admin UI, go to Providers, paste the NVIDIA NIM key and save.
+5. Keep the default model (nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b) or pick another, then click Apply.
+6. Run `fcc-claude` to start Claude Code through the proxy.
+7. Optional: turn on Proxy Authentication in the Admin UI to protect the local proxy with a bearer token.
+
+### Not found
+
+The creator's setup guide (sent by commenting NVIDIA) wasn't found publicly. I didn't check the NVIDIA free-tier rate limit or the port 8082 claim. The README doesn't state either one. I didn't scan the repo with SkillSpector as your vault note suggests.

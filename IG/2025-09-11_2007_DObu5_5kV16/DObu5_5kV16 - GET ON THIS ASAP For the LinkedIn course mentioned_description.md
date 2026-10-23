@@ -29,3 +29,17 @@ GET ON THIS ASAP!!! For the LinkedIn course mentioned in the video you’ll have
 CERTIFIED AI COURSES DIRECTLY FROM OPENAI 🤯🤯🤯🤯🤯
 
 GAME CHANGER!
+
+## Research
+
+* Verdict: Valid. OpenAI did announce a Jobs Platform and certifications in Sept 2025, with Walmart, John Deere, BCG and Accenture named. The "18 months" and "LinkedIn competitor" framing comes from press coverage rather than a firm date. This is an announcement, so it adds no how-to beyond the post.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Unleash: OpenAI unveils jobs platform and certifications (unleash.ai)](https://www.unleash.ai/artificial-intelligence/openai-unveils-jobs-platform-and-certifications-as-both-disruptor-of-and-solution-for-ai-based-future-of-work/): page, found by search, verified, high confidence. Opened it. It confirms the Jobs Platform, tiered certifications prepared for in ChatGPT Study mode, the named partners, and the 10M-by-2030 goal.
+* [Implicator: OpenAI's jobs push puts pressure on LinkedIn (implicator.ai)](https://www.implicator.ai/openais-jobs-push-puts-new-pressure-on-linkedin-and-on-microsoft/): page, found by search, not opened, medium confidence. Search result only. It covers the LinkedIn competition angle.
+
+### Not found
+
+The OpenAI announcement page returned 403, so I did not read it directly. I could not confirm whether the platform has launched as of Oct 2026. The creator's LinkedIn course on @meglovesdata was not checked.

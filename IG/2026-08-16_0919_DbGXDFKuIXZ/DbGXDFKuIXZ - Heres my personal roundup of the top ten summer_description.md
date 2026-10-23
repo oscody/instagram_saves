@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 Here’s my personal roundup of the top ten summer sweet treats in nyc as of right now 🏃🏻
 
 #nycfood #nyc #nycrestaurants #foodreview #nycfoodie
+
+## Research
+
+* Verdict: Nothing to find. This is a food ranking reel of NYC dessert spots. It has no single resource to find, and the ranking is the creator's personal opinion.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The post's own text names only Koké (black sesame soft serve) and Happy Zoe Vegan Bakery. I did not search for the full list of ten spots, and I did not search the vault.

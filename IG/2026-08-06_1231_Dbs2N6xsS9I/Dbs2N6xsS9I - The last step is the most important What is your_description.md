@@ -48,3 +48,12 @@ Follow to learn how to Hockey Stop
 •
 _
 #rollerblading #beginnerskater #tips #reelsinstagram #viral
+
+## Research
+
+* Verdict: Partly valid. The post is a self-contained how-to, and the soul slide is a real aggressive-inline move. I found no reliable source for the creator's five steps. The search results were low-quality auto-generated pages.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I found no vault notes. I found no public tutorial that matches the creator's steps, and I did not open the creator's profile. The soul slide is an aggressive-skating grind that usually needs a soul plate, and the post presents it as a general stopping method. That is questionable for beginners. Practice on flat ground with pads, and treat it as an advanced stop.

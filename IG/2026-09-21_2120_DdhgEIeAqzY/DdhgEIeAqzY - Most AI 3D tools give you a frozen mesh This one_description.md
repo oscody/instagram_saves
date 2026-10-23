@@ -41,3 +41,25 @@ Open source: spatiaos/procedura
 Follow for more open source project drops.
 
 #3DDesign #CreativeCoding #GenerativeAI #AICoding #Procedural3D
+
+## Research
+
+* Verdict: Valid. The repo exists and matches the post: text or image to editable parametric OpenSCAD with per-part materials and articulation. The current README leads with a different install route (MCP) than the one shown in the video.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [SpatiaOS/Procedura (github.com)](https://github.com/SpatiaOS/Procedura): repo, in the post, verified, high confidence. Opened the repo. It is MIT-licensed and turns a prompt into editable final.scad with materials and USD/URDF motion output.
+
+### Key steps
+
+1. Current README route (MCP): needs Git, curl, Python 3.11+ and a signed-in Codex or Claude Code. Linux x86_64 only.
+2. Run the install script with --agent both (or codex / claude). For an existing clone, run bash scripts/install-mcp.sh --agent both.
+3. Open the agent in ~/.local/share/Procedura and restart it if it was already open.
+4. Ask for a build with an absolute PNG path, or use $procedura (Codex) or /procedura (Claude Code).
+5. API route shown in the video: git clone git@github.com:SpatiaOS/Procedura.git, then bash scripts/install-deps.sh (use --check to inspect, --no-blender to skip Blender).
+6. Copy .env.example to .env, then set OPENAI_BASE_URL plus the key, or GEMINI_API_KEY and GEMINI_BASE_URL. Set PROCEDURA_MODEL to a model id your endpoint serves.
+
+### Not found
+
+I did not check the install-deps.sh or .env details from the video against the repo files. The README page I opened does not list the .env variables. The vault notes returned only matched on "gpt-5.2" and ".env.example" and are unrelated.

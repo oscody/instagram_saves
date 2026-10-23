@@ -50,3 +50,27 @@ Students using the AI version scored significantly higher and every single one s
 After 500 years of static textbooks, this could be the first time learning finally adapts to the student.
 
 🔥Comment “PAPER” and I’ll DM you the link to access it.
+
+## Research
+
+* Verdict: Partly valid. Learn Your Way is a real Google tool and the study matches (60 Chicago students, a randomized trial, higher scores). The post overstates it: it was one small study on one topic, and the "solved education" line is hype. The paper and tool are public, so you don't need the DM.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Learn Your Way (Google Labs tool) (learnyourway.withgoogle.com)](https://learnyourway.withgoogle.com/): tool, found by search, not opened, high confidence. Linked from the Google Research blog post, which I opened. I did not open the tool page itself.
+* [Learn Your Way: Reimagining textbooks with generative AI (Google Research blog) (research.google)](https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/): page, found by search, verified, high confidence. Describes the 60-student Chicago randomized study, with 9% higher immediate scores and 78% vs 67% on the retention test.
+* [Towards an AI-Augmented Textbook (arXiv 2509.13348) (arxiv.org)](https://arxiv.org/abs/2509.13348): paper, found by search, not opened, high confidence. The Google LearnLM team's tech report, linked from the blog post. This is the "PAPER" the creator offers by DM.
+
+### Key steps
+
+1. Open learnyourway.withgoogle.com (Google Labs).
+2. Pick a sample text or, if available, join the waitlist to upload your own PDF.
+3. Set your grade level and interests, such as sports, music or gaming.
+4. Read the rewritten text, which uses examples from your interests.
+5. Switch between the formats: audio lesson, mind map, illustrations and quizzes.
+6. For the evidence, read the arXiv paper 2509.13348.
+
+### Not found
+
+I did not open the tool page. I did not read the full paper, so I only know its results from the blog post.

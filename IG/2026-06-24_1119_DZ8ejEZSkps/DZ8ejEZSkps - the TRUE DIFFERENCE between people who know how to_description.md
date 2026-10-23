@@ -31,3 +31,16 @@ they say THIS IS the true %1 vs the normies
 but the truth is… I think EVERYONE can be part of the 1%… with a little bit of agency.
 
 #ai #aiagents #aiagent #vibecoding
+
+## Research
+
+* Verdict: Partly valid. The Voorhees and Raoul Pal podcast episode exists (recorded June 11, 2026). I couldn't find the "demigods" quote in any source, so the reel's framing is unconfirmed. The advice itself is generic motivation and has no resource behind it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Raoul Pal podcast with Erik Voorhees (self-sovereignty, open-source AI) (podtail.com)](https://podtail.com/podcast/real-vision-crypto/): video, found by search, not opened, medium confidence. Search results describe a Pal and Voorhees episode on Bitcoin, crypto and open-source AI, but I didn't open it or confirm the demigods quote.
+
+### Not found
+
+The exact "demigods within 2 to 5 years" quote and its timestamp in the episode. No vault notes matched.

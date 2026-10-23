@@ -60,3 +60,16 @@ My services:
 ✅ Funding Readiness Score, included with your initial consultation, discovery session to determine exactly how grant ready you are before you apply starting at $197
 
  #menownedbusiness #minoritybusinessowner #minorityownedbusiness #businessgrants
+
+## Research
+
+* Verdict: Promo. The reel is a lead-generation funnel for Koality Funding Solutions' paid services (a $47/month grant list and a $197 consultation). The "MEN ONLY" grant links are only sent after a comment, and I found no public copy of them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Koality Funding Solutions (koalityfundingsolutions.com)](https://www.koalityfundingsolutions.com): product, in the post, not opened, medium confidence. This is the link in the caption. The page title reads 'Grant Writing & Funding Help for Small Businesses', which fits the creator's paid services, but the fetch returned no other content.
+
+### Not found
+
+The five "MEN ONLY" grant links are sent only after a comment or DM, and I found no public list. The site fetch returned only its title, so I could not check pricing or the grant vault. The claim of up to $125,500 in free funding is unverified.

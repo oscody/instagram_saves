@@ -24,3 +24,20 @@ Written by claude-haiku-5-5.
 Professor Richards’ secret to asking questions: Laurie Mulvey
 
 #soc119 #pennstate #pennstateliberalarts #winc
+
+## Research
+
+* Verdict: Nothing to find. This is a short personal-tribute clip from a Penn State course account. The only resource is the World in Conversation center site, which confirms Laurie Mulvey as founding director. The "good facilitation is a science" line is an opinion, not a checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [World in Conversation, Penn State (worldinconversation.psu.edu)](https://worldinconversation.psu.edu): page, in the post, verified, high confidence. The page names Laurie Mulvey as founding director and Richards as co-founder, matching the clip.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/plan - ig_automation pipeline by claude.md`: Only mentions this post as a weak auto-summary example (second sentence was a raw transcript quote). It has nothing on the resource.
+
+### Not found
+
+The site doesn't give Professor Richards's first name or role. I didn't find the clip's own wording on the site.

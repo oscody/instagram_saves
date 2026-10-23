@@ -47,3 +47,25 @@ You don’t need a budget to make something beautiful. You need the tools the ma
 Comment “FREE” — download link and beginner guide in your DMs.
 
 #Animation #StudioGhibli #OpenSource
+
+## Research
+
+* Verdict: Partly valid. OpenToonz is real, free and open source (BSD). But Ghibli did not open-source it: it is based on Toonz, which Ghibli customized, and Dwango started the open-source project. The "download link in DMs" is unnecessary, since the official site is public.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [OpenToonz official site (opentoonz.github.io)](https://opentoonz.github.io/e/index.html): tool, in the post, verified, high confidence. The page describes the Toonz/Ghibli/Dwango history, the New BSD license, and Windows/macOS support.
+* [OpenToonz source code (github.com)](https://github.com/opentoonz/opentoonz): repo, found by search, not opened, high confidence. The official site lists this as the source code repo. I didn't open the repo itself.
+
+### Key steps
+
+1. Open opentoonz.github.io and go to the Download page.
+2. Pick the Windows (64-bit) or macOS (10.14 or later) installer. Linux users build from source or use community packages.
+3. Optional: install the Dwango effects plug-ins from github.com/opentoonz/dwango_opentoonz_plugins.
+4. Windows users who scan paper drawings can use GTS, the scanning tool.
+5. Check the manual and tutorials linked on the site to learn the workflow.
+
+### Not found
+
+I didn't verify the Linux packaging. The official page lists only Windows and macOS downloads, so the claim of Linux support probably means building from source. I didn't see the DM beginner guide, and no public copy of it is needed.

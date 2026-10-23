@@ -37,3 +37,17 @@ The flex was never breaking the safety. It’s that the most powerful model ever
 Comment “SAFETY” — the breakdown of how AI jailbreaks and guardrails actually work, in your DMs. 👇
 
 #AIsafety #ClaudeAI #AInews
+
+## Research
+
+* Verdict: Partly valid. A public Fable 5 prompt file exists in Pliny's CL4R1T4S repo, so the comment-gated "send" is unnecessary. The "jailbreak" framing is disputed: it looks like a system-prompt extraction, and Anthropic reportedly says no bypass was shown.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [CL4R1T4S – ANTHROPIC folder (CLAUDE-FABLE-5.md, Claude-Fable-5.1.md) (github.com)](https://github.com/elder-plinius/CL4R1T4S/tree/main/ANTHROPIC): repo, found by search, verified, medium confidence. Opened the folder listing; it contains CLAUDE-FABLE-5.md and Claude-Fable-5.1.md. I did not open the files or check that they are authentic.
+* [Claude Fable 5 'Liberated' by Pliny: Jailbreak Hype vs Facts (pasqualepillitteri.it)](https://pasqualepillitteri.it/en/news/4730/claude-fable-5-jailbreak-pliny-hype-vs-facts): page, found by search, not opened, low confidence. Appeared in search results only; the fetch failed. A secondary blog on the claim, hype versus fact.
+
+### Not found
+
+I could not open Anthropic's own statement or any primary reporting; the SecurityWeek page returned 403. I did not check the prompt file's contents or authenticity. The reel's second offer ("SAFETY" breakdown) is also comment-gated and has no public copy. The vault has no note on this post's resource.

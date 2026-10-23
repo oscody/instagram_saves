@@ -30,3 +30,16 @@ Open source: agentsloop/awesome-opus-5.5-games
 Follow for more open source project drops.
 
 #AIGameDev #GameDevTok #CodingAgents #AITools
+
+## Research
+
+* Verdict: Unresolved. The repo URL from the post returns 404, and the agentsloop GitHub account also returns 404. Search found no copy. The "300 verified games" claim can't be checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [agentsloop/awesome-opus-5.5-games (github.com)](https://github.com/agentsloop/awesome-opus-5.5-games): repo, in the post, not opened, low confidence. The post names this repo, but GitHub returned 404 for it and for the agentsloop account.
+
+### Not found
+
+The repo, the owner account, and any mirror or mention. It may have been deleted, renamed or made private, or the handle may be misspelled. Not checked: the Wayback Machine, or a GitHub search for similar names.

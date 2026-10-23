@@ -44,3 +44,25 @@ https://www.theforage.com/simulations/johnson-and-johnson/robotics-controls-aozc
 Saved this for later? Open the scenario before task one. It tells you in two minutes whether this is for you.
 
 #robotics #jobsimulation #upskilling #freecourses #medtech
+
+## Research
+
+* Verdict: Partly valid. The free J&J robotics simulation exists on Forage as described (free, 3–4 hours, intermediate, certificate). One detail differs: the post says there is no assessment, but Forage lists an optional one.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Johnson & Johnson Robotics and Controls job simulation (Forage) (theforage.com)](https://www.theforage.com/simulations/johnson-and-johnson/robotics-controls-aozc): page, in the post, verified, high confidence. Page is free, 3-4 hours, intermediate, covers diagnosing and optimizing control code for a robotic surgical arm, offers a certificate, and shows no end date.
+
+### Key steps
+
+1. Open the Forage link and click Start Free Simulation.
+2. Create a Forage account with your email.
+3. Read the intro and scenario first.
+4. Do Task One: diagnose the robotic surgical arm's control code.
+5. Do Task Two: make the design change and write it up.
+6. Optionally do the assessment, then claim the certificate for your resume and LinkedIn.
+
+### Not found
+
+Forage doesn't describe the two tasks in detail, so the task contents are not independently checked. The mention of an accountant in the reel is a personal story and was not checked.

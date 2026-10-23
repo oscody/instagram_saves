@@ -25,3 +25,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 He exposed a Claude hack that will make anyone successful💰
+
+## Research
+
+* Verdict: Partly valid. The post is a simple two-prompt method with no downloadable resource. It works as a visualization and planning exercise, but "make anyone successful" is hype. The output depends on how specific your goals are. I didn't check the creator's profile or search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists. The post gives the full prompts itself. I didn't search the vault beyond the pre-check, which found nothing, and I didn't run any web searches.

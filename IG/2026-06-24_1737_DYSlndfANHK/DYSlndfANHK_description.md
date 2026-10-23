@@ -25,3 +25,22 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: grader.owner.com
+
+## Research
+
+* Verdict: Partly valid. The grader exists and does what the first steps say. The "AI fixes and rebuilds your site" step is not shown on the page. It is most likely a lead-in to Owner's paid website and marketing service.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Owner.com Restaurant Website Grader (grader.owner.com)](https://grader.owner.com): tool, in the post, verified, high confidence. The page is a restaurant website grader that takes a restaurant name and returns an online health score, a site issue list and a competitor comparison, as shown in the reel.
+
+### Key steps
+
+1. Open grader.owner.com.
+2. Type your restaurant's name in the search box.
+3. Read your online health score, the issues found and the competitor comparison.
+
+### Not found
+
+I found no pricing and no page text about the AI rebuilding the website. Owner.com sells this service, so expect a paid offer after the free scan. The post's claim that it can get you to number one on Google is unproven.

@@ -28,3 +28,20 @@ Written by claude-haiku-5-5.
 
 IF YOU WANT TO LOSE THAT STUBBORN FAT ON YOUR LOWER ABS AT 🏠 DO THIS CIRCUIT 2XS DAILY #fitness #reels #explore #fyp #triplethreat🛐
 
+## Research
+
+* Verdict: Partly valid. It's a simple bodyweight ab routine with no downloadable resource. The claim that it removes lower belly fat is overstated, because exercise can't remove fat from one spot.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Lie on the floor holding a shampoo bottle, with your feet together.
+2. Up and over: bring the bottle up and over on each tap cue.
+3. In and outs: keep your feet together, kick them all the way out, and keep your knees straight.
+4. Alternating in and outs: move your legs in and out in turn, right then left.
+5. Finish with 10 leg raises.
+6. Repeat the circuit twice a day, as the caption says.
+
+### Not found
+
+I didn't search. The post is a short demo with no linked resource, and the vault had no notes on it. Nothing was opened to verify.

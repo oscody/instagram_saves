@@ -56,3 +56,12 @@ follow if starting today, you are not hiding behind your art anymore.
 🎆31
 
 #hanabi #animeartist #animecreator #artistadvice #artistgrowth #digitalartist #animecommunity #creatorcareer #createearngrow
+
+## Research
+
+* Verdict: Promo. The advice (show the story, process and person behind your art) is generic and plausible. The post mainly promotes Hanabi, a platform still being built, and I found no public site for it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I found no public page for Hanabi, the "hub for anime creators". One web search and one vault search turned up nothing. I didn't open the createhanabi Instagram account.

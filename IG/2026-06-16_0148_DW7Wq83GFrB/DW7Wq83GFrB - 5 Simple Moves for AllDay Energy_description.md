@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 5 Simple Moves for All-Day Energy!  #exercise #sports #girls #womensfitness
+
+## Research
+
+* Verdict: Partly valid. This is a short home workout reel with no downloadable resource. The claim that standing moves burn belly fat overstates the evidence, because exercise can't reduce fat in one spot. The caption says five moves ("All-Day Energy"), the narration gives four, and the on-screen text is about belly fat.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not search the vault or the web, because the post is a general exercise demo with no named resource. Move one is never named in the narration.

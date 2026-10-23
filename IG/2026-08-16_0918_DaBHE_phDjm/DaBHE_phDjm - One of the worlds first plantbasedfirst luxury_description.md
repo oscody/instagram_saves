@@ -32,3 +32,16 @@ Code: ROMA10 (minimum 2-night stay, offers 10% off) 🤍
 Save this & follow me @itsromab - I’ll be sharing more about the food & personal tips from my stay. 🌿
 
 #vegan #veganfood #vegansofig #plantbased #vegantravel
+
+## Research
+
+* Verdict: Promo. The post promotes a resort with a creator discount code (ROMA10). The resort and its 2 Michelin Keys are real, but the code and the "most vegan-friendly in the world" line are the creator's own claims.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Palmaïa-The House of AïA – MICHELIN Guide listing (guide.michelin.com)](https://guide.michelin.com/us/en/hotels-stays/playa-del-carmen/palmaia-the-house-of-aia-all-inclusive-wellness-resort-12146): product, found by search, not opened, high confidence. Michelin Guide lists the Playa del Carmen resort; search results show Two Michelin Keys and vegan-by-default menus, matching the caption. I did not open the page.
+
+### Not found
+
+I did not open the resort's own site or check that ROMA10 works. Per the caption it gives 10% off a stay of at least 2 nights. I did not confirm the "one of the first plant-based luxury all-inclusives" claim.

@@ -38,3 +38,25 @@ A calm state improves focus and decision-making, while desperation leads to stre
 What you chase emotionally creates tension, but what you allow comes closer. Reality does not change, but how you move within it does.
 
 Post by @thequantumbrief
+
+## Research
+
+* Verdict: Partly valid. Transurfing, excess potential and pendulums are real concepts from Zeland's books. The "quantum physicist" label and the "1993 insight" story are unverified. The ideas are esoteric, not scientific.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Bustle: What is Reality Transurfing (TikTok manifestation) (bustle.com)](https://www.bustle.com/wellness/what-is-reality-transurfing-manifestation-tiktok): page, found by search, not opened, medium confidence. Appeared in search results as an overview of Reality Transurfing; I did not open it.
+* [Reality Transurfing (book series) by Vadim Zeland (book.douban.com)](https://book.douban.com/subject/32762006/): other, found by search, not opened, low confidence. Douban listing returned by search for the book. I did not open it, so I can't confirm it matches the post.
+
+### Key steps
+
+1. Lower the importance of the goal; hold it lightly (the book's remedy for excess potential).
+2. Act calmly and allow the outcome instead of chasing it.
+3. Spot pendulums (collective beliefs and trends) that feed on your attention and emotion.
+4. Don't fight or feed a pendulum; step aside mentally.
+5. Keep a calm, neutral inner state to choose your 'track'.
+
+### Not found
+
+I didn't open the original book or any source. No evidence that Zeland is a quantum physicist (the sources call him pseudonymous) or that the 1993 'quit his job after an insight' story is true. The sources the search returned were mostly secondary summaries, and some were AI-generated notes.

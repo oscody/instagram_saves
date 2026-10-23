@@ -48,3 +48,20 @@ Here are 10 powerful prompts you can copy and use right now.
 Save this post and try them on your next coding project. 👀
 
 #ai #claude #coding #programming #developers
+
+## Research
+
+* Verdict: Partly valid. The advice to give Claude context and treat it as a technical partner is reasonable. The full set of 10 prompts is only sent after a like and a "Code" comment, and I found no public copy. This is engagement bait.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Architecture: "Act as a senior full-stack engineer building a production-ready MVP. Design the system architecture first, then build the simplest scalable version: file structure, database schema, API endpoints, UI architecture, production-ready code."
+2. Codebase audit: "Reverse-engineer the architecture and complete data flow of this codebase. Identify poor architecture decisions, duplicate logic, performance bottlenecks, scalability risks and maintainability problems. Output an architecture breakdown, critical problem areas, refactoring strategies and improved code, without changing existing functionality."
+3. Debugging: "Analyze step by step. Understand what the code actually does, trace the true root cause, explain why it fails and find hidden edge cases. Don't guess. Analyze before changing anything. Output a root cause analysis, failure explanation, edge case analysis and fixed code."
+4. Performance: "Goals: maximum speed, lower memory, better scalability, faster rendering. Identify bottlenecks, inefficient logic, unnecessary rendering, expensive operations and memory leaks. Output an issue breakdown, optimization strategies, improved code and scalability recommendations."
+5. Refactoring: "Act as a senior software architect. Separate concerns, improve modularity, reduce tight coupling and ease long-term maintenance without changing product behavior. Output a new folder structure, a clean architecture breakdown, refactored code and an explanation of the improvements."
+
+### Not found
+
+The full 10 prompts. The creator sends them by DM after a comment, and I did not search the web for a public copy. The steps above are paraphrased from the five prompts shown in the carousel, not the creator's exact wording.

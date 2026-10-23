@@ -42,3 +42,16 @@ Tell me what you call it, Ludi or Loodi? Let me know below.
 #jamaicajamaica
 #jamaicalandwelove
 #jamaicanculture
+
+## Research
+
+* Verdict: Nothing to find. The reel is a short cultural history of Ludi (Ludo) from India to England to Jamaica, with a "Ludi or Loodi?" engagement question. It points to no tool, guide or download.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Lists this reel as good material for an in-game intro and demo video story in a mixed reality Ludi game idea. Also lists related Ludi saves: board makers, Jamaican proverb cards and a Jamaican Ludi game on Steam.
+
+### Not found
+
+I did not check the history claims (India to England to Jamaica). Ludo is widely held to derive from the Indian game Pachisi, so the general claim is plausible.

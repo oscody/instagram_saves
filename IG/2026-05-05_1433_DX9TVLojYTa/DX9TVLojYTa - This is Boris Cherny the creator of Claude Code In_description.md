@@ -58,3 +58,17 @@ What are your thoughts on this? 🤔💬
 ➡️ If you want to keep up with all the AI news, useful tips, and important developments, join 100k+ subscribers reading our free newsletter
 
 #ai #artificialintelligence #technology
+
+## Research
+
+* Verdict: Partly valid. The tips match known Claude Code practices and Boris Cherny's public talks. I couldn't open the original talk the carousel draws from, and no source I opened confirms the full list of 8 tips.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Anthropic's official Claude Code masterclass (write-up with video link) (opinionai.substack.com)](https://opinionai.substack.com/p/anthropics-official-claude-code-masterclass): guide, found by search, verified, low confidence. I opened it. It covers a newer Boris Cherny talk (memory files, parallel agents, verification), not the talk the carousel's 8 tips come from.
+* [Boris Cherny talk video (YouTube live) (youtube.com)](https://www.youtube.com/live/GMIWm5y90xA?si=YxEAHacMAA9Kdpbx): video, found by search, not opened, low confidence. The link comes from the write-up above. I didn't open it, and it appears to be a newer talk than the one the carousel describes.
+
+### Not found
+
+I didn't find the original "Mastering Claude Code in 30 minutes" talk on an official Anthropic page. I opened no source that lists all 8 tips, and I couldn't confirm that tips 1 and 2 (codebase Q&A, git history) come from that talk. The vault has nothing on this post. The only vault match is an unrelated evolving.ai note.

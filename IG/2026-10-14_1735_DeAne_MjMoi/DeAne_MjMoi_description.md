@@ -56,3 +56,30 @@ If you want me to send through the plugin and the walkthrough to get this runnin
 Follow @austin.marchese for more videos like this.
 
 #ai #claudecode #anthropic #productivity #automation
+
+## Research
+
+* Verdict: Valid. The public repo exists and its improve-system skill reviews Claude Code session history as the reel says. Your vault already has a scan and a cleaned local copy, and the scan flagged the full plugin for CLAUDE.md rewrites and telemetry.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [buildpartner-plugin (GitHub) (github.com)](https://github.com/austinmarchese/buildpartner-plugin): repo, in the vault, verified, high confidence. README describes the BuildPartner.ai Claude Code plugin with /buildpartner:improve-system, which reviews sessions and flags outdated config.
+* [BuildPartner setup (buildpartner.ai)](https://www.buildpartner.ai/setup): page, in the vault, not opened, medium confidence. Setup link recorded in the vault note and the post. I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/repo - buildpartner-plugin - improve-system.md`: Repo links, reel summary, your cleaned local /improve-system skill, its four modes, example prompts, and ideas for improving it.
+* Vault: `ZAIHub/claude - SkillSpector scan of buildpartner-plugin.md`: Security scan of v0.13.3. It found silent global CLAUDE.md rewrites, telemetry, and an installer that writes global config.
+
+### Key steps
+
+1. Official install: run `claude plugin marketplace add austinmarchese/buildpartner-plugin`.
+2. Then run `claude plugin install buildpartner@buildpartner`. The first start creates an account and registers an MCP server.
+3. Run `/buildpartner:improve-system` to review sessions, capture learnings, and check for stale config. The README recommends running it weekly.
+4. Safer option: use your own cleaned copy at `~/.claude/skills/improve-system/SKILL.md` and run `/improve-system`.
+5. Your todo still open: check the upstream repo for updates and merge them into your copy.
+
+### Not found
+
+The comment-for-DM \"IMPROVE\" walkthrough was not checked. The public repo appears to hold the plugin itself. I did not open buildpartner.ai/setup.

@@ -48,3 +48,26 @@ more reusable agent workflows.
 And the devs learning this early are going to move insanely fast.
 
 #ClaudeCode #ClaudeAI #Anthropic #AIEngineering #VibeCoding AITools CodingAI SoftwareEngineering TypeScript BuildInPublic OpenSource
+
+## Research
+
+* Verdict: Valid. The public repo mattpocock/skills exists and has the named skills. The "one command" install claim holds, and you don't need to comment to get it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [mattpocock/skills (github.com)](https://github.com/mattpocock/skills): repo, in the vault, verified, high confidence. Opened it. It is Matt Pocock's MIT-licensed skills repo and lists grill-me, tdd, triage and improve-codebase-architecture. The debugging skill is named diagnosing-bugs there, not diagnose.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/repo - mattpocock - skills.md`: Repo link, the X post and a LinkedIn post about the grill-me skill
+* Vault: `ZAIHub/claude - Claude and Codex Skills Index.md`: Links to the repo note under the grill-me skill
+
+### Key steps
+
+1. In Claude Code, run: claude plugin install mattpocock-skills@claude-plugins-official
+2. For other agents, run: npx skills@latest add mattpocock/skills -a <agent>. Leave out -a to pick the agent interactively.
+3. Use only one install method per agent, or every skill is installed twice.
+4. Once per repo, run /setup-matt-pocock-skills. It asks which issue tracker you use, your triage labels and where to save docs.
+5. Run /grill-me before a change, /tdd while building, and /triage and /improve-codebase-architecture as needed.
+6. The Claude Code plugin updates itself. The npx route needs npx skills@latest update.

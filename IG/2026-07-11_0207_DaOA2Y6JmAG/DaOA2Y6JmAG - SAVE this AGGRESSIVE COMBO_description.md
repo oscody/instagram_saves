@@ -25,3 +25,12 @@ Written by claude-haiku-5-5.
 SAVE this AGGRESSIVE COMBO! 🥊
 
 #boxing #shadowboxing #fighting #fight #reels
+
+## Research
+
+* Verdict: Nothing to find. This is a short shadowboxing demo of a combo (slip, uppercut, jab/cross). It links to no resource, and the post has no claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource was linked, so I did no searching. The vault had no notes on this post.

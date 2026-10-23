@@ -43,3 +43,20 @@ Follow for daily tech tips 💻✨
 Follow @ai.expert.vivek for more ❤️
 
 #ai #claudeai #chatgpt #tech #coding
+
+## Research
+
+* Verdict: Partly valid. The prompts are generic templates that work in Claude or any chatbot, and the post shows their text. The "6 prompts" and "learn faster than 90% of people" claims are overstated, since only five prompts appear and nothing backs up the 90% figure.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Cheat sheet: ask Claude to summarize [topic] on one page with bullet points, simple diagrams and examples, readable in 5 minutes.
+2. 20-hour plan: ask for a 20-hour plan on [topic] covering only the most important things, in 10 sessions of 2 hours, with the best resources and a 15-minute review after each session.
+3. Learning ladder: ask Claude to split [topic] into 5 levels from easy to hard, with a clear goal at each step from Level 1 (beginner) to Level 5 (advanced).
+4. Quiz until you break: after learning, ask for 10 questions that get gradually harder, with a score after each answer and an explanation of what you got wrong.
+5. Best resources: ask for the top 5 resources (books, videos, courses or people) to learn [topic] quickly, and why each one is useful for you.
+
+### Not found
+
+I did not search the web. The post is a set of generic prompt templates, and the full prompt text is already in the post. The sixth prompt is not in the description, so it may be missing from the carousel or on a slide that wasn't captured. I found no vault notes on it.

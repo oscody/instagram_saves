@@ -21,3 +21,13 @@ He carried her across the mud. His brother carried her ALL DAY 🧘‍♂️🪷
 
 #claymation #stopmotion #animation
 #zen #lettinggo
+
+## Research
+
+* Verdict: Nothing to find. A claymation short retelling the traditional Zen parable of the two monks and the woman at the river. It is entertainment with no resource to find.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition  ideas by codex.md`: Lists this reel as a pacing reference for a short interactive experience: a small story with a physical action and a clear ending.
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Lists this reel as proof that a 1 minute story with a lesson lands.

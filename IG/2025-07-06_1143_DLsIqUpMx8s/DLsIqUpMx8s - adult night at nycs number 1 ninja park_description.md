@@ -28,3 +28,24 @@ follow @frencht0asty for more fun things do to in nyc 🤸🏽⁣
 ⏰:⁣⁣⁣ fridays 8PM-11PM⁣
 ⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣
 ⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣#frienddate #nycrecs #nycfun #datenightideas #nycdatenight #adultnight #ninjapark #feroxninjapark #brooklynfun #brooklynblogger #thingstodoinnyc #nycactivities #thingstodoinny #funthingstodo
+
+## Research
+
+* Verdict: Partly valid. Ferox Ninja Park's Greenpoint site at 72 Noble St is real and runs an 18+ Adult Night, and third-party listings say it's on Fridays. The official page doesn't show the 8–11PM hours or the $32 price, and the post is from 2025, so those may have changed.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Ferox Athletics / Ferox Ninja Park (Adult Night 18+) (feroxathletics.com)](https://feroxathletics.com/): page, found by search, verified, high confidence. The official site (feroxninjapark.com redirects to it) lists Adult Night (18+) with a Greenpoint booking page and the 72 Noble Street address.
+* [Brooklyn Bridge Parents – unique date night spots in Brooklyn (brooklynbridgeparents.com)](https://brooklynbridgeparents.com/unique-date-night-spots-in-brooklyn/): page, found by search, not opened, medium confidence. The search summary says it describes a Friday-night 18+ party with a DJ and drinks. I didn't open the page.
+
+### Key steps
+
+1. Go to feroxathletics.com and click "Book Adult Night".
+2. Choose the Greenpoint location (72 Noble St, Brooklyn) rather than LIC.
+3. Pick a Friday and check the current time slot and price. The post says 8–11PM and $32.
+4. You must be 18 or older.
+
+### Not found
+
+I couldn't confirm the current $32 price or the 8–11PM hours from the official site. Those details are on the booking page, which I didn't open.

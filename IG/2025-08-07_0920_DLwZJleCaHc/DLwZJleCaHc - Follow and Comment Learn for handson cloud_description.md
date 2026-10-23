@@ -53,3 +53,16 @@ Analytics collection ranges from simple logging to complex real-time streaming p
 Point is there's no single "correct" architecture - it depends on your constraints, scale, budget, and technical requirements.
 
 #systemdesign #cloudcomputing
+
+## Research
+
+* Verdict: Partly valid. The system design points (CDN, load balancer, encoding, auth, analytics) are sound but basic. The link goes to NextWork's general cloud project platform, which has no video streaming project, and the comment-"Learn" call to action is a funnel.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [NextWork (learn.nextwork.org) (nextwork.ai)](https://nextwork.ai/): product, in the post, verified, medium confidence. learn.nextwork.org redirects here. It is a hands-on AWS project platform with one CDN project (Website Delivery with CloudFront) and no video streaming or load balancing project.
+
+### Not found
+
+No dedicated video streaming design guide from the creator. I did not check pricing or the comment-triggered DM content.

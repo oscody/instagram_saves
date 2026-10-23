@@ -32,3 +32,16 @@ Written by claude-haiku-5-5.
 Want to learn directly from 7, 8, and 9-figure entrepreneurs? Check out the School of Mentors on our profile and get started today.
 
 #wealth #entrepreneur #financialfreedom #motivation
+
+## Research
+
+* Verdict: Partly valid. The book is real (Sir Richard Harpin, who sold HomeServe for over £4bn). I couldn't check the nine listed steps against the book. The caption also promotes a paid School of Mentors program.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [How to Make a Billion in Nine Steps – Sir Richard Harpin (Hachette UK) (hachette.co.uk)](https://www.hachette.co.uk/titles/sir-richard-harpin/how-to-make-a-billion-in-nine-steps/9780349446448/): product, found by search, verified, high confidence. The title matches the book named in the post. The page gives the author and topics such as hiring and growth, but it doesn't list the nine steps.
+
+### Not found
+
+The book's chapter list or an excerpt that confirms the nine steps as the post gives them. I also didn't look into the School of Mentors program.

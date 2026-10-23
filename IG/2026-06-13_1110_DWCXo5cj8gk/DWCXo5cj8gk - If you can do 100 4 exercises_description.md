@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 If you can do 100. 4 exercises. 
 
 #abs #core #workout #motivation #explore
+
+## Research
+
+* Verdict: Partly valid. This is a bodyweight workout challenge with no external resource to find. The exercises are ordinary, but the results the voiceover promises are overstated, because 100 reps of any move won't target abs or fat specifically.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate guide, program or product exists beyond the reel. I did not search, and the vault had no matching notes.

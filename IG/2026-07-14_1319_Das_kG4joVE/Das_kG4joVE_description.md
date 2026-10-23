@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 2. Be unexpected: text "What's something random that happened today that made you laugh?" to break the pattern of small talk
 3. Build tension: ask "What were you thinking about before I texted you?"
 4. Master the vibe: it's how you say it, not just what you say. Combine confidence and curiosity to get connection
+
+## Research
+
+* Verdict: Nothing to find. This is a dating-text tips carousel with no external resource. The vault already holds its three text openers, and the post is a duplicate save of others by the same creator.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists this post and two repeat saves by @trending__teen (DZiL2IvDQx1, DbGuJPnjqI4) with the same swaps: rate your day out of 10, something random that made you laugh, what were you thinking about before I texted you.

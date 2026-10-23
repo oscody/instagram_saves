@@ -36,3 +36,26 @@ AI is lazy and even worse lies to you about the work that it does…
 But the fix is stupidly simple you just need to set up this one skill.
 
 #claude #chatgpt #productivity #lazy #work
+
+## Research
+
+* Verdict: Valid. The skill is a real public repo, Leonxlnx/unlazy. It uses a GATES.md ledger and a depth setting, as the post describes. The "comment WORKTREE" offer is not needed, because the repo is public.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Leonxlnx/unlazy (github.com)](https://github.com/Leonxlnx/unlazy): repo, found by search, verified, high confidence. The repo is an anti-laziness skill for Claude Code and Codex. It has a GATES.md acceptance ledger, depth-tree task splitting and parallel leaves, which match the post.
+* [MindStudio: unlazy skill overview (mindstudio.ai)](https://www.mindstudio.ai/blog/unlazy-ai-agent-completion-skill): guide, found by search, not opened, medium confidence. The search snippet describes the gates file and the abandoned-with-reason rule. I did not open the page.
+
+### Key steps
+
+1. Install it with `npx skills add Leonxlnx/unlazy`. Add `-g` for a user-level install. You can also clone the repo into ~/.claude/skills/unlazy.
+2. Invoke it with `/unlazy`, or `$unlazy` in Codex. You can set the depth, for example `/unlazy tree 5 <task>`.
+3. The agent splits the task into a depth tree of leaf tasks. It first writes a GATES.md ledger. Each gate has a CHECK shell command, an EXPECT string and an EVIDENCE line.
+4. Read the commands, then approve them with `node <skill>/scripts/gate-check.mjs --approve GATES.md`. CHECK lines run with your full permissions and are not sandboxed.
+5. Run `--reverify GATES.md` to re-run all the gates. The agent should report only what the evidence supports.
+6. For parallel work, each leaf declares disjoint OWNS: paths and claims them. Use `--jobs N` for concurrent checks. Use separate git worktrees if outputs could collide.
+
+### Not found
+
+The creator's WORKTREE comment guide and prompts were not found. The public repo appears to cover the skill itself.

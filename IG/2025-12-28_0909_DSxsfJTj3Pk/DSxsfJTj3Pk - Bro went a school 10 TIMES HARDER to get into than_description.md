@@ -26,3 +26,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Bro went a school 10 TIMES HARDER to get into than Harvard...and made 10 times MORE money than people will see in their entire lives in one day🤯
+
+## Research
+
+* Verdict: Nothing to find. This is a street interview reel with general life advice and no resource such as a repo, tool or guide. The caption's "10 times more money in one day" claim is hype and I did not check it.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+I did not search for the founder's name or company. The post gives neither, and the caption's earnings and "harder than Harvard" claims are unverified.

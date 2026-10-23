@@ -34,3 +34,28 @@ The release reflects how large platforms are shifting toward AI systems that any
 Follow us (👉@artificialintelligenceee) for everything latest from the AI world.
 
 Source: Google
+
+## Research
+
+* Verdict: Valid. The Google Cloud video exists under that exact title, and a write-up of it matches the post's description. The caption's "Gemini 3" and "quietly shown" are embellishments I couldn't confirm.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [How to build a financial analyst assistant with Vertex AI Studio & Gemini in under 10 minutes (YouTube) (youtube.com)](https://www.youtube.com/watch?v=e8hehBcYU7E): video, found by search, verified, medium confidence. The page title matches the post exactly, but the channel and description didn't load, so I couldn't confirm it's Google Cloud's upload.
+* [StartupHub summary of the video (startuphub.ai)](https://www.startuphub.ai/ai-news/ai-video/2025/googles-vertex-ai-studio-accelerating-ai-development-from-concept-to-production/): page, found by search, verified, medium confidence. Describes the same demo: a PDF earnings report turned into JSON and then a Sankey app in Vertex AI Studio.
+
+### Key steps
+
+1. Open Vertex AI Studio in Express Mode. It needs no Google Cloud account or credit card.
+2. Give Gemini a PDF earnings report and ask it to extract revenue, cost of goods sold and operating expenses as structured JSON.
+3. The first plain prompt gave a hard-to-parse list. Run the /prompt refine command, which adds an agent persona, explicit instructions and an example JSON format.
+4. Generate an API key with one click.
+5. Run the /build command with the refined prompt to generate a web app that shows the data as a Sankey diagram.
+6. Move to a full Google Cloud project when ready for production. Your saved work carries over, and version history lets you revert changes.
+7. Optionally chain steps and add tools such as Google Search, database lookups or custom APIs.
+8. Share read-only links with people who don't use GCP.
+
+### Not found
+
+I couldn't confirm the video's channel, so I haven't verified it's Google Cloud's official upload. I also found no evidence that the demo uses Gemini 3. The vault note listed for this creator is unrelated (it's about paid trading groups).

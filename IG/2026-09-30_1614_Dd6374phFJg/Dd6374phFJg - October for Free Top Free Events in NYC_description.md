@@ -39,3 +39,17 @@ October for Free: Top Free Events in NYC 🎃
 Follow @nyc_forfree for free things to do every day! 
 
 #nycforfree #nycevents #nycfall #halloweennyc #freeinnyc
+
+## Research
+
+* Verdict: Partly valid. This is a list of events, not a single resource. The Open House New York dates match its official site. Pumpkin Point 2026 dates only appear on third-party listings. Many items (Oct 1–18) had already passed by Oct 22, 2026.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [OHNY Weekend 2026 (ohny.org)](https://ohny.org/activity/2026-ohny-weekend): page, found by search, not opened, high confidence. Search result snippet from the official site gives Oct 16–18, 2026, about 300 sites, mostly free and drop-in, some ticketed. I did not open the page.
+* [NYC for Free – Governors Island Pumpkin Point (nycforfree.co)](https://www.nycforfree.co/events/governors-island-pumpkin-point): page, found by search, not opened, medium confidence. The poster's own listing site shows Oct 24 for Pumpkin Point (free). There was no official 2026 Governors Island page in the results.
+
+### Not found
+
+I did not check the Village Halloween Parade, the Dun Dun Diner, Bryant Park Winter Village, the UGG pop-up, Life-Sized Monopoly, Atlantic Antic, LVMH Journées Particulières or the dog costume contests. For anything still ahead, confirm dates and tickets on the official sites. Reserve Governors Island ferry tickets.

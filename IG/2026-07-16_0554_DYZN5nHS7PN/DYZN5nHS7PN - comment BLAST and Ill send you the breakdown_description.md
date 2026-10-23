@@ -49,3 +49,27 @@ the catch: it's a first-pass tool, not the shipping pipeline. you still bring in
 Comment "BLAST" for the full breakdown 👇
 
 #claudecode #gamedev #indiedev #3d #aiengineering devtools
+
+## Research
+
+* Verdict: Valid. The public GitHub repo neilsonnn/image-blaster exists and matches the post: Claude skills that turn one image into a splat environment, GLB props and SFX, using World Labs and fal. The "$1" and "five minutes" figures are the author's claims and I didn't test them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [neilsonnn/image-blaster (github.com)](https://github.com/neilsonnn/image-blaster): repo, found by search, verified, high confidence. README describes an MIT image-to-world Claude skillset using World Labs, fal Hunyuan 3D and ElevenLabs SFX, with outputs of .spz splat, .glb/.obj meshes and .mp3 audio.
+
+### Key steps
+
+1. Install Claude Code (the `claude` CLI).
+2. Get a World Labs API key (platform.worldlabs.ai) and a fal API key (fal.ai). ElevenLabs SFX is listed in the advanced section, so it may need its own key.
+3. git clone https://github.com/neilsonnn/image-blaster && cd image-blaster
+4. Run `claude` in the folder and give it your API keys.
+5. Put your image in the input/ directory.
+6. Tell Claude something like "blast it and confirm each step with me".
+7. Collect the outputs: .spz splat, .glb/.obj props, .mp3 ambient and SFX.
+8. Optional: tune Hunyuan settings (face count, PBR, generation type, polygon type). To edit the React viewer, remove /app from .claudeignore.
+
+### Not found
+
+The Korean forum listing's date (Aug 2026) was seen only in search results and not opened. I did not test the "$1 for ten props" cost claim.

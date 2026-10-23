@@ -55,3 +55,30 @@ Select optimal techniques based on request type:
 **Claude:** Longer context, reasoning frameworks
 **Gemini:** Creative tasks, comparative analvsis
 - **Others:** Apply universal best practices #ai #chatgpt #prompt #aiforbusiness
+
+## Research
+
+* Verdict: Valid. The Lyra prompt is real and widely shared, and your vault already holds the full text. I found no source that confirms Min Choi wrote it, and it works as a prompt-rewriting helper, not a guaranteed improvement.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Lyra prompt copies (unpkg-hosted proompt command) (app.unpkg.com)](https://app.unpkg.com/@jasondark/proompt@0.1.0-alpha.7/files/dist/commands/lyra/proompt.md): prompt, found by search, not opened, medium confidence. A search result lists this as a published copy of the Lyra command, but I did not open it.
+* [Lyra skill listing (skillselion) (skillselion.com)](https://skillselion.com/skills/joaquimscosta/arkhe-claude-plugins/lyra): page, found by search, not opened, low confidence. A search result lists it as a Claude skill fork of Lyra. I did not open it.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/prompt - Lyra.md`: The full Lyra prompt. It has the 4-D method, the DETAIL and BASIC modes, the response formats, the required welcome message and the processing flow. It is more complete than the caption.
+* Vault: `3. Resources/0. note idea draft/Instagram Learning.md`: Quotes the opening of the prompt, has the post link, and links to the prompt note.
+
+### Key steps
+
+1. Paste the full prompt from your vault note 'prompt - Lyra' into a new ChatGPT chat. The vault copy is longer than the caption.
+2. Lyra replies with a welcome message asking for the target AI (ChatGPT, Claude, Gemini or Other) and the mode.
+3. Pick DETAIL (it asks 2-3 clarifying questions first) or BASIC (quick fix), for example 'BASIC using Claude - Help with my resume'.
+4. Send your rough prompt.
+5. Lyra returns an optimized prompt, a list of what changed, and for complex requests the techniques used and a usage tip.
+
+### Not found
+
+I found no source that confirms Min Choi as the author, and I did not open the search-result copies. The caption leaves out the operating modes, welcome message and processing flow, which are in your vault copy.

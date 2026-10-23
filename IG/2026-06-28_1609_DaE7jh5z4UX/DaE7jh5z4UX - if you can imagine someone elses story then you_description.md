@@ -49,3 +49,12 @@ you think this is silly, but it works
 and nothing will train you better to create “worlds out of thin air” than reading stories that require you to do just that 
 
 Don’t believe me, try it
+
+## Research
+
+* Verdict: Partly valid. The post is a motivational claim with no downloadable resource. Mental rehearsal and visualization have some research support, but the claim that your mind adapts the real world to your imagined story rests only on the creator's own experience.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No specific resource to look up. The books shown (The Eye of the World, The Name of the Wind, Oathbringer, The Hobbit) are only examples of fiction to read. I didn't search the web, and I found no vault notes on this post.

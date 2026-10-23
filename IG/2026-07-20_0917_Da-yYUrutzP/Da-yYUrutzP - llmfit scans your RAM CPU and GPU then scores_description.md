@@ -41,3 +41,31 @@ Ships with:
 👉 https://github.com/AlexsJones/llmfit
 
 Who’s checking model fit before downloading today? Drop a 🔥
+
+## Research
+
+* Verdict: Valid. The llmfit repo exists, is open source (MIT) and does what the post says: it scans your hardware and scores models for fit, speed and quality. It also supports MoE models.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [AlexsJones/llmfit (github.com)](https://github.com/AlexsJones/llmfit): repo, in the post, verified, high confidence. I opened the repo. It describes hardware detection (CPU, RAM, GPU) and scoring models for fit, speed, quality and context. It lists MoE and quantization support.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/guide - ig_automation scripts by claude.md`: Only mentions the llmfit link as a test case for the link-finding prompt. It has no usage steps.
+* Vault: `2. Areas/Botstack/Pi/pi todo/plan - ig_automation pipeline by claude.md`: Same: llmfit is listed as a test example, with no tool details.
+
+### Key steps
+
+1. Install it: `brew install AlexsJones/llmfit/llmfit` (macOS/Linux), `winget install --exact --id AlexsJones.llmfit` (Windows), or `uvx llmfit` to run without installing.
+2. Run `llmfit` with no flags to open the interactive TUI. It detects your CPU, RAM and GPU. Press `h` for help and `/` to filter.
+3. Run `llmfit recommend` for suggested models. Add `--json` for machine-readable output.
+4. Run `llmfit fit` for a ranked table of all models.
+5. Run `llmfit info "<model>"` for a fit analysis of one model.
+6. Run `llmfit bench` to measure real tokens/s against a running provider such as Ollama or llama.cpp.
+7. Run `llmfit doctor` for a hardware report you can attach to a bug report.
+
+### Not found
+
+The README mentions MoE support, but I couldn't confirm the post's claim that most other tools treat MoE models as dense. The README says this only about llm-checker. I didn't check the plan view with its context, quantization and target-speed inputs, because the README excerpt I read doesn't describe it.

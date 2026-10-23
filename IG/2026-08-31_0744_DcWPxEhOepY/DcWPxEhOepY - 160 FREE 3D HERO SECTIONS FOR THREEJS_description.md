@@ -36,3 +36,25 @@ Drop them into your site and ship polished 3D experiences without starting from 
 👉 https://github.com/MengTo/threeui
 
 Who’s adding 3D to their stack today? Drop a 🔥
+
+## Research
+
+* Verdict: Valid. The GitHub repo exists and is an MIT-licensed Three.js component library. It lists 164 browse results, which is close to the post's "160+". A "copy prompt" feature isn't mentioned on the repo page.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [ThreeUI Community (MengTo/threeui) (github.com)](https://github.com/MengTo/threeui): repo, in the post, verified, high confidence. Open-source catalog of WebGL/Three.js components (50 parents, 164 browse results, MIT) with an npm package, matching the post.
+
+### Key steps
+
+1. Install: npm install @designcodeio/threeui
+2. Import a component and the styles: import { AtTheHorizon } from "@designcodeio/threeui"; import "@designcodeio/threeui/style.css";
+3. For a smaller bundle, import from a subpath such as @designcodeio/threeui/components/AtTheHorizon.
+4. Some full-document components need files copied from lib-dist/assets/ into your public folder. You can also set the sourceUrl or assetBaseUrl prop.
+5. To browse locally, clone the repo and run npm install, then npm run dev.
+6. Give a component's source to your AI agent and ask it to change the theme, lighting, motion or layout.
+
+### Not found
+
+The repo page doesn't mention a "copy prompt" feature or say how many of the components are hero sections. The Pro and Beta components are not in the community edition.

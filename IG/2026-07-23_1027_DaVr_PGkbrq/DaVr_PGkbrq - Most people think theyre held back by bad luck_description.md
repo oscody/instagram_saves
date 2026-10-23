@@ -63,3 +63,19 @@ Sources:
 1. Jung, 1959 | ISBN: 9780691018333
 2. Kosslyn, 2001 | DOI: 10.1038/35066572
 3. Markus, 1977 | DOI: 10.1037/0022-3514.35.2.63
+
+## Research
+
+* Verdict: Partly valid. I found no Jung text that describes a 10-day wish method, so the attribution looks invented. The general ideas are real: unconscious patterns shape behavior, and self-schema and mental-imagery research exist. I did not open any sources, so this rests on what I know, not on a check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Vault: no notes mention this post or its creator.
+2. Not searched online. The cited sources are a 1959 Jung book (ISBN 9780691018333), Kosslyn 2001 on mental imagery (Nature Reviews Neuroscience) and Markus 1977 on self-schemas. I did not open any of them.
+3. The Jung source is probably a Collected Works volume (I think Aion). I don't know of any 10-day wish ritual in it.
+4. Kosslyn and Markus are modern psychology papers, not Jung. Citing them next to Jung suggests the post is a blend of ideas, not a Jung method.
+
+### Not found
+
+No primary Jung source for a 10-day wish method. I did not open the cited ISBN or DOIs.

@@ -25,3 +25,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The Secret To Being More Productive 📚 Thoughts? 💭
+
+## Research
+
+* Verdict: Partly valid. The post is a general productivity tip with no specific resource to find. The idea that boredom can prompt action is plausible but only loosely supported by research, and it is not a proven fix for procrastination.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+No downloadable resource, link or named tool exists in the post. I did not search the web or the vault, since the post is an opinion-style tip.

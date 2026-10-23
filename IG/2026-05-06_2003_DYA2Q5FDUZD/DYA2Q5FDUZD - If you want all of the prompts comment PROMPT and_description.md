@@ -54,3 +54,24 @@ Let me know if you have any questions!👇
 Follow @Jonathanwordsofwisdom for more! 👀💡
 
 #JWoW #Wonsulting #JobSearchTips #ResumeTips #Career
+
+## Research
+
+* Verdict: Partly valid. The four prompts are fully described in the post, so you can write them yourself. Nothing is public beyond that, since the full set is only sent after a comment. The claims are weak: "90% score" and "10% interview rate" are unverified, and asking Claude for "5 real job links from the last 24 hours" or LinkedIn contacts risks made-up results unless web search is on.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/networking tiktok referrals.md`: Only a TikTok link from the same creator about finding companies with referral bonuses. It has none of these prompts.
+
+### Key steps
+
+1. Prompt 1: "Act as a senior resume writer. Analyze my resume top to bottom, identify my top skills and experiences, and recommend jobs to apply for." For each job, ask for an interview-rate estimate and 5 current job links. Check every link yourself.
+2. Prompt 2: "Act as a recruiter hiring for [role]. Using the attached job description PDF, say whether you'd interview me and why or why not." Ask it to assess skills match, relevant experience and impact, keywords and ATS alignment, and overall fit. Then ask how to get an interview and which resume tweaks to make.
+3. Prompt 3: "Act as a networking strategist. Using the job description PDF, find 5 recruiters, hiring managers or team members to connect with on LinkedIn." For each, ask for a LinkedIn message about the job that explains how your skills fit. Verify each person on LinkedIn, because Claude can invent names.
+4. Prompt 4: "Act as a top 1% job seeker. Create a resume and cover letter for [role] using my skills: [list]." Ask the resume to have a professional summary, core skills, quantified experience bullets, education, and certifications and tools. Ask the cover letter to have a header, a body naming your skills and results, and a closing.
+5. Only use facts that are true for you. Check the output against the real job description before you apply.
+
+### Not found
+
+The creator's full prompt set, which is only sent after commenting PROMPT. I did no web search, so I found no public copy.

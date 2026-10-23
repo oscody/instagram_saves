@@ -34,3 +34,29 @@ Written by claude-haiku-5-5.
 Psycho-Cybernetics | Identity Shifting explained in 13 principles in 60 seconds. 
 
 “You can never outperform your own self-image”
+
+## Research
+
+* Verdict: Partly valid. The ideas come from Maxwell Maltz's 1960 book Psycho-Cybernetics, and the main claim matches it. The "13 principles" and "identity shifting" framing is the creator's own, and the book has no official list of 13. The post's summary lists only 11 points.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Psycho-Cybernetics (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/Psycho-Cybernetics): page, found by search, not opened, medium confidence. The search result is an overview of Maltz's book, which covers self-image, goal-seeking and mistakes as feedback. I did not open the page.
+
+### Already in the vault
+
+* Vault: `ZAIHub/ig repo to review.md`: Only a bare line reading "Psycho-Cybernetics" (line 138). No steps or links.
+
+### Key steps
+
+1. Write down a clear, positive goal. Avoid negative targets.
+2. Visualize the end result, not the effort.
+3. Act as if you are already that person.
+4. Treat mistakes as feedback and correct course.
+5. Rehearse your wins mentally for about 15 minutes a day.
+6. Forgive yourself quickly and move on.
+
+### Not found
+
+The creator's own list of 13 principles, since the video has no public copy beyond the reel. I did not open the book or any source page. Claims like "the subconscious can't tell real from imagined" are popular readings of Maltz, not established science.

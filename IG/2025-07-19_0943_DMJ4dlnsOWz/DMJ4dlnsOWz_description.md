@@ -24,3 +24,16 @@ AI isn’t the future. It’s now. And this free 3-day event will show you how t
 📅 July 25–27 | 💻 100% Online
 🎟 Free to join.
 👉 Reserve your free spot today
+
+## Research
+
+* Verdict: Promo. The post is an ad for a free Mindvalley webinar. The event was real and ran July 25–27, 2025, but it is a lead-generation funnel, and the "10+ hours/week" claim is marketing with no evidence. The event is now over.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Mindvalley AI Summit 2025 help article (mindvalley.helpjuice.com)](https://mindvalley.helpjuice.com/en_US/mindvalley-ai-summit-2025-master-the-new-age-of-ai): page, found by search, not opened, medium confidence. The search snippet describes a free 3-day virtual summit on Zoom, which matches the post's dates and format. I did not open the page.
+
+### Not found
+
+I found no public replay or session material. I did not open any page. Nothing came up for the "Déjà YOU" tagline. Mindvalley appears to run repeat AI summits; one was listed for March 2026.

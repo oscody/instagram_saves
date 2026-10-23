@@ -29,3 +29,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 This is pretty cool, but I especially love the design - super clean
+
+## Research
+
+* Verdict: Valid. foglamp.dev/scan exists and matches the post: one copyable prompt that turns a repo into a shareable interactive map, with no install or account. The page doesn't credit an X user, and it doesn't say where to run the prompt.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Foglamp Scan (foglamp.dev)](https://foglamp.dev/scan): tool, in the post, verified, high confidence. The page offers a 'Copy scan prompt' button that turns a code repo into an interactive, shareable map, with no install or account.
+
+### Not found
+
+The page doesn't say who wrote the prompt, so the post's credit to an X user is unchecked. The page also doesn't say which agents work with it, so the Claude Code/Codex part comes from the post alone. I didn't read the prompt text.

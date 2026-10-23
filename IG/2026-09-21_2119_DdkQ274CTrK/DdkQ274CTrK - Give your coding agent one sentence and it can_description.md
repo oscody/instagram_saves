@@ -40,3 +40,27 @@ Open source: thrixel/build-world
 Follow for more open source project drops.
 
 #AIGameDev #VibeCoding #GameDevTok #ThreeJS
+
+## Research
+
+* Verdict: Valid. The repo thrixel/build-world exists and matches the post: an agent plugin that uses Thrixel for 3D assets and supports Three.js, Roblox, Unity and Unreal. Whether the results are "high-quality" or playable from one sentence wasn't tested.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [thrixel/build-world (github.com)](https://github.com/thrixel/build-world): repo, in the post, verified, high confidence. README describes the Build World plugin linking a coding agent to Thrixel, with Three.js, Unity and other engines, and a submarine game example.
+
+### Key steps
+
+1. Install Claude Code and uv. Check them with `claude --version` and `uv --version`. If a command isn't found, open a new terminal.
+2. Log in to Thrixel (once per machine): `uvx thrixel-mcp@latest login`, then approve the code in your browser.
+3. Add the plugin marketplace: `claude plugin marketplace add thrixel/build-world`.
+4. Install the plugin: `claude plugin install thrixel@thrixel`.
+5. Check the install: `claude plugin list` should show it enabled, and `claude mcp list` should show Connected.
+6. From your projects folder, run `claude --permission-mode auto`.
+7. Type `/thrixel:build-world` followed by the game and engine, for example a submarine exploration game in three.js with coral and fish. The README recommends a top-tier model with high effort.
+8. Refine the game with plain-English follow-up requests. For Codex or Gemini CLI, use the install page at thrixel.com/docs/build-world.
+
+### Not found
+
+The Codex and Gemini CLI install steps weren't checked. The README only points to thrixel.com/docs/build-world, which I didn't open.

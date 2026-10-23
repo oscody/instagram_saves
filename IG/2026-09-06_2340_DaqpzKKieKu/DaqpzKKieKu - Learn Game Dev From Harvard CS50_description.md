@@ -24,3 +24,26 @@ This game dev course is a follow up to Harvard’s well known free CS50 course. 
 Follow for more free coding resources ✅
 
 #code #coding #tech #learntocode #gamedev
+
+## Research
+
+* Verdict: Valid. Harvard's CS50 site hosts a free CS50 Introduction to 2D Game Development course. It has eight weeks and one game per week, starting with Pong, which matches the reel.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [CS50's Introduction to 2D Game Development (cs50.harvard.edu)](https://cs50.harvard.edu/games/): page, found by search, verified, high confidence. Opened the page. It lists 8 weeks, one game each (Pong, Flappy Bird, Breakout, Match 3, Super Mario Bros., Zelda, Angry Birds, Pokémon), and the course is free.
+
+### Key steps
+
+1. Open cs50.harvard.edu/games.
+2. Prerequisite: CS50x or experience in any programming language.
+3. The course uses Lua and the LÖVE 2D framework, so install LÖVE.
+4. Each week, watch the lecture, then use the notes, slides and source code.
+5. Build that week's project.
+6. Games in order: Pong, Flappy Bird, Breakout, Match 3, Super Mario Bros., Legend of Zelda, Angry Birds, Pokémon.
+7. Finish with the final project.
+
+### Not found
+
+Certificate prices were not listed on the page. I did not check the individual week pages for subtitles and transcripts.

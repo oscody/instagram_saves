@@ -31,3 +31,20 @@ Claude can now rebuild your profile like a high-end recruiter. 4 prompts to fix 
 - Optimize existing AI tools with a consistent prompt library
 
 Comment “CLAUDE” to learn prompt engineering for free 🎁
+
+## Research
+
+* Verdict: Partly valid. The four prompts are fully described in the post's own summary, so they're usable as is. The "rebuild your profile like a high-end recruiter" framing is a generic hook. I did no web search and no vault search, so this is unverified against any public copy.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Prompt 1 (resume rewriter): Act as a senior recruiter who screens resumes in 6 seconds. Write a 2-3 sentence summary and rewrite every bullet as XYZ (accomplished X, measured by Y, by doing Z). Add metrics and strong verbs, cut filler, keep to 1 page (2 if 10+ years). Group skills by role, simplify education, remove red flags. Input: resume and job description. Output: full resume, before/after for the 3 weakest bullets, summary of improvements.
+2. Prompt 2 (ATS): Act as an ATS expert (Workday, Greenhouse, Lever). Extract keywords from the job description and work them in naturally. Use a clean format with no tables. Match skills, titles and phrasing to the role. Output: optimized resume, keyword match breakdown, ATS score estimate with fixes.
+3. Prompt 3 (quantifier): Act as a resume strategist. Turn each bullet into measurable impact (revenue, cost savings, growth, time saved, scale). Use 'Achieved X, Result Y, by doing Z' and highlight promotions and ownership. Input: your bullets. Output: before/after for every bullet.
+4. Prompt 4 (cover letter): Act as a recruitment director and write 250-300 words. Use a company-specific opening, reference a recent company move, match 3 skills to the job, include one quantified achievement, propose a 90-day contribution, and close with a clear next step. Input: job description, 3 achievements, why this company. Output: a letter with sections marked for per-company customization.
+5. Treat any metrics Claude produces as drafts. Replace invented numbers with your real ones before sending.
+
+### Not found
+
+No public copy of the full prompts was searched for. The caption says to comment "CLAUDE" for more, so any extra material is probably sent by DM after a comment.

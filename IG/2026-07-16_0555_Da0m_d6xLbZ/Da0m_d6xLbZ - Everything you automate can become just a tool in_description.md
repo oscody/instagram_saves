@@ -24,3 +24,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Everything you automate can become just a tool in a larger augmentation
+
+## Research
+
+* Verdict: Nothing to find. This is an opinion talk with no tool, repo or document to find. Its examples are real history: Engelbart's augmentation work that led to the mouse, and the 1980s IT productivity paradox.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No vault notes matched. I did no web search because the post offers no resource. I did not check the speaker's specific claims beyond general knowledge.

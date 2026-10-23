@@ -30,3 +30,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “narrow" for my free guide.
+
+## Research
+
+* Verdict: Unresolved. The free guide is only sent after commenting "narrow" on the post. I found no public copy and no vault note for it. The chart's advice is general self-help and isn't backed by any source.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "narrow" guide from danielacebak. It is delivered by comment or DM, and one web search turned up nothing public. I did not open the creator's profile or site.

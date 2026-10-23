@@ -34,3 +34,20 @@ Ships with:
 This is what agent swarms look like when they have a real world to exist in.
 
 👉 https://www.hermesagora.com/
+
+## Research
+
+* Verdict: Partly valid. The site exists and matches the post's description, but it is only a pre-release "coming soon" page with an email signup. The caption's "Ships with" wording overstates this, and the "built 100% by agents" claim can't be checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Hermes Agora (hermesagora.com)](https://www.hermesagora.com/): product, in the post, verified, high confidence. The page describes an unofficial fan project that gives Hermes agents a persistent 3D virtual office (designers, library, café). It lists v0.1.0 as coming soon, with no download, GitHub link or named author.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Lists the post as a 3D agent command center idea, to keep for after the competition. It suggests checking compatibility with the Hermes agent already running on the Pi.
+
+### Not found
+
+No public download, repo, docs, requirements or author name. A web search found no independent coverage. The site calls it "unofficial", so it isn't from Nous Research, and nothing confirms it works with the user's Hermes agent on the Pi. The only way in is the early-access email signup.

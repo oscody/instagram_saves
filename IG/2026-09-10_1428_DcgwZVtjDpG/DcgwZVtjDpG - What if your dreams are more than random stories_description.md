@@ -22,3 +22,12 @@ Ancient accounts of “dream inversion” describe people waking from intense dr
 Where does consciousness really go when you sleep? 🌙
 
 #Dreams #DreamScience #Consciousness #Neuroscience #Manifestation
+
+## Research
+
+* Verdict: Not valid. I found no historical record of an ancient "dream inversion" ritual, and the post cites no source. It reads as a vague, manifestation-style engagement post that ends in a "my bio" call to action. I did not search the web, because the post names nothing specific to look up.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No source for the "dream inversion" accounts. The vault check returned no notes mentioning this post or its creator. The "my bio" offer is not described, so I could not check it.

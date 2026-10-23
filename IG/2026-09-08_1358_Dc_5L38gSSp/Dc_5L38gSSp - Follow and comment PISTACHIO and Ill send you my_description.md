@@ -45,3 +45,20 @@ How do I get better answers from ChatGPT?
 How do ChatGPT Projects and Skills work?
 
 #ai #chatgpt #chatgptprompts #aitools #productivity
+
+## Research
+
+* Verdict: Partly valid. The four tips are generic but reasonable. The "PISTACHIO" courses are only sent after a comment and follow, and "smarter than 95%" is hype. A public free-courses list by her exists, but I couldn't confirm it's the same content.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [11 FREE AI Courses with Certificates (Sabrina Ramonov) (sabrina.dev)](https://www.sabrina.dev/p/11-free-ai-courses-with-certificates): page, found by search, verified, medium confidence. Her public Substack list of free AI courses; may resemble what the DM sends, but that isn't confirmed, and some certificates cost money.
+
+### Already in the vault
+
+* Vault: `1. Projects/RohnSecondBrain/Task On my Plate.md`: Task noting you're waiting for Sabrina Ramonov to reply to your Instagram DM about teaching Claude Code; links her profile and a YouTube note.
+
+### Not found
+
+The exact courses sent for the "PISTACHIO" comment (DM only, no public copy found).

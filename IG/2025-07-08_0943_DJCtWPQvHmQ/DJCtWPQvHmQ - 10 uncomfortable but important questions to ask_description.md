@@ -32,3 +32,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 10 uncomfortable but important questions to ask when yall first start dating eachother. Like comment save and share ❤️😩 #relatable #trending #contentcreator #relationships #fyp #dadacontent #lovergirl #relationshiptopics
+
+## Research
+
+* Verdict: Nothing to find. This is a personal dating-advice reel. The question list is already in the post, and there is no external resource to find or check.
+* Checked: 2026-10-23 by claude-sonnet-5-5

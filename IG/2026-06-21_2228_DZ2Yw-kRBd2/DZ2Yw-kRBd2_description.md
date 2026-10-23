@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #blemmyae #blemmyes #mythical #creature #realormyth
+
+## Research
+
+* Verdict: Nothing to find. Entertainment clip about the Blemmyae, a mythical headless people with faces on their chests. It has no resource to find. The claim of a real African tribe or earlier hominids isn't supported; the Blemmyae come from ancient writers such as Pliny and from medieval legend.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No search done, as the post is entertainment with no resource. The vault had no matching notes.

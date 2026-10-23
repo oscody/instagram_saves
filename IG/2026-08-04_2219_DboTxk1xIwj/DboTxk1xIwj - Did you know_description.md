@@ -25,3 +25,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Did you know ?
+
+## Research
+
+* Verdict: Valid. This is a short educational clip with no resource to find. The botany claim is correct: roots show positive gravitropism and shoots show negative gravitropism and positive phototropism. The "no resistance" point is a loose metaphor.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No link, tool or resource is offered in the post. I did not search the vault or the web.

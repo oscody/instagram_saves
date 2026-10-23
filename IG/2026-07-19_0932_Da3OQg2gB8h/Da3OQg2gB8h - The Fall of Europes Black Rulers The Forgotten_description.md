@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 The Fall of Europe’s Black Rulers: The Forgotten Chapter of History PT.1
+
+## Research
+
+* Verdict: Not valid. The reel's claim of a Black ruling class in Europe brought down by Christianity, white women and "wild men" is a fringe pseudo-historical narrative. The images it uses (an iconoclast psalter illustration, a 19th-century painting of hooded processional figures, a medieval manuscript image) don't support it. I did no web search, so this rests on general knowledge.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No vault notes matched. I did not search the web or look for a public source for the series. The reel gives no citations, and the images described are not evidence of the claim.

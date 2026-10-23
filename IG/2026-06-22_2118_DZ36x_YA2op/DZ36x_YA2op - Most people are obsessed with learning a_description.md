@@ -34,3 +34,17 @@ Most people are obsessed with learning a particular skill.
 I’m obsessed with the ability to learn skills.
 
 Comment the word “skill” and I’ll send you the full video.
+
+## Research
+
+* Verdict: Unresolved. The full video is only sent after commenting "skill", and I found no public copy. The method looks like a generic deconstruct-and-practice approach, similar to Josh Kaufman's, but I couldn't confirm it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Josh Terry Plays (TikTok profile) (tiktok.com)](https://www.tiktok.com/@joshterryplays?lang=en): page, found by search, not opened, low confidence. Creator's public profile, which turned up in search results. I did not open it, and it does not hold the video.
+* [The first 20 hours – how to learn anything (Josh Kaufman, TEDxCSU) (youtube.com)](https://www.youtube.com/watch?v=5MgBikgcWnY): video, found by search, not opened, low confidence. Related public framework that also starts by breaking a skill into parts. It is a different author and not the post's video.
+
+### Not found
+
+The YouTube video promised for the comment "skill" was not found publicly. Nothing in the vault mentions the creator.

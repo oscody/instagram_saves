@@ -32,3 +32,18 @@ None of it is technical. It is subtraction. Pick one this week. The prompts abov
 @claudeai @perplexity 
 
 #claudeai #perplexityai #tokenmaxxing #codex
+
+## Research
+
+* Verdict: Partly valid. The three prompts are in the caption and work as written, but they are ordinary prompts. The "free starter guide plus room invite" is only sent after commenting "AI" and is a lead-magnet promo, with no public copy found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Long video: paste the link or transcript into Claude and ask "give me the five things that matter and one thing I should do because of it."
+2. Blank page: tell Claude who the piece is for and what good looks like, then ask "give me a rough first draft I can react to."
+3. Ten tabs: ask Perplexity "answer this and show me the sources."
+
+### Not found
+
+The starter guide and room invite are sent only after commenting "AI". I did not search for a public copy. The vault has no notes on this creator or post.

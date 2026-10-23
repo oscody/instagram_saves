@@ -32,3 +32,12 @@ It's 0.6 version atm.
 Please, support me if you want to see more updates :)
 
 #animation #maya #mocap
+
+## Research
+
+* Verdict: Unresolved. I found no public page, repo or download for fominyu's video mocap tool. The post gives no link, and the claims (local, drag-and-drop, 1–2 cameras, fingers) can't be checked beyond the reel.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The tool's download or project page. Two web searches for "fominyu" returned nothing relevant, and the vault has no mention. The creator's Instagram profile (@fominyu) bio may link to it, but I couldn't open it. It may be unreleased and only a work-in-progress demo, since the caption asks for support for future updates.

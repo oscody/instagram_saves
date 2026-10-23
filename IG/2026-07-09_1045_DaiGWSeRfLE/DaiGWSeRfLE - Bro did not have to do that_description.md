@@ -28,3 +28,11 @@ Bro did not have to do that🙄🤦🏽‍♂️
 
 #mma #boxing #ufc #combat #fighter
 
+## Research
+
+* Verdict: Nothing to find. This is a street fight clip with a joke caption. It links to no resource, and the "tips" are loose commentary on the footage, not a guide.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource to find. I did not search the web or the vault.

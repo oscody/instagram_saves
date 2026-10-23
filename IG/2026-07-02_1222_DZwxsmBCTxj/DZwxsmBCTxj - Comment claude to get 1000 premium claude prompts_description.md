@@ -65,3 +65,20 @@ Procrastination isn’t a time-management problem. It’s an emotional regulatio
 Feeling overwhelmed by a complex subject? Simplify it instantly.
 
 Prompt #4 uses the power of visual imagery and unique metaphors to create "mental shortcuts." Once you anchor a hard concept to a familiar real-world framework, you loc
+
+## Research
+
+* Verdict: Partly valid. The five prompts are described in the post and are ordinary prompt patterns that work. The "1000+ premium prompts" are only sent after a follow and a comment, and I found no public copy. I did not search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Understand anything: ask Claude to explain [topic] as if you were a genius, using advanced analogies, real-world applications, counterexamples and multiple perspectives. Then ask it to test you with expert-level questions.
+2. Master a skill: tell Claude to act as a master of [skill] with 20+ years of experience. Ask it to reverse-engineer how they got there and build a day-by-day plan using only free or low-cost resources.
+3. Fix a mental block: describe your issue (procrastination, burnout, fear). Ask Claude to analyze it like a cognitive scientist, find root causes and behaviour patterns, and design a habit loop to remove it.
+4. Clarity: ask Claude to break [concept] down step by step with metaphors, visual imagery and real-world examples. Then ask for a mental shortcut or framework to remember it.
+5. PhD-level: ask Claude to teach [topic] as if you are preparing for a PhD. Start from first principles, cover the theories and their historical evolution, and list key papers or books.
+
+### Not found
+
+The "1000+ premium Claude prompts" are sent by DM after you comment "claude" and follow the account. I found no public copy and did not search for one. The caption text was cut off partway through prompt #4, and the exact prompt wording appears only on the slides.

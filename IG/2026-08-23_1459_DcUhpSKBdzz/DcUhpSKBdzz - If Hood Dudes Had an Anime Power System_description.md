@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 If Hood Dudes Had an Anime Power System
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit with a fictional "Stain" power system. It has no real resource, claim or steps.
+* Checked: 2026-10-22 by claude-sonnet-5-5

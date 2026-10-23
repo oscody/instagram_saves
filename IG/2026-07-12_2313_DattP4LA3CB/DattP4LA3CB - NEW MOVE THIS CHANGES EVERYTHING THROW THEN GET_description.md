@@ -28,3 +28,11 @@ Written by claude-haiku-5-5.
 NEW MOVE THIS CHANGES EVERYTHING THROW THEN GET OFF THE LINE AND THROW AGAIN!
 #boxinglife #foryoupage #boxingtraining #boxingdrills #explorepage✨
 
+## Research
+
+* Verdict: Nothing to find. This is a short boxing drill demo. It has no linked resource, and the steps are all in the post's own description. The "changes everything" caption is hype.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I didn't search. The post is a demo with no downloadable or linked resource, and the vault had no matching notes.

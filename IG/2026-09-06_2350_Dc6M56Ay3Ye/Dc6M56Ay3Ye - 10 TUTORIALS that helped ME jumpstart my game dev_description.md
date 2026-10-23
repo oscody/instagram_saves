@@ -33,3 +33,16 @@ Written by claude-haiku-5-5.
 10 TUTORIALS that helped ME jumpstart my game dev adventure! YOU CAN DO IT TO! >:)
 
 #games #gamedev #godot #blender #indiegame
+
+## Research
+
+* Verdict: Partly valid. The reel is a plain list of real beginner Godot YouTube tutorials, and ClearCode's Godot 4 intro exists. I couldn't open the other nine videos. Item 10 looks garbled: a GMTK video on "basics of AI" isn't a Godot tutorial.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [The ultimate introduction to Godot 4 (ClearCode) (youtube.com)](https://www.youtube.com/watch?v=nAh_Kx5Zh5Q): video, found by search, not opened, medium confidence. The page title matched, but the channel and length weren't shown. An itch.io project credits ClearCode's tutorial with this link, and a Godot forum thread recommends it to beginners.
+
+### Not found
+
+I found no public links for the other nine videos (Code With Ro, Brackeys x2, Chap.C Games, Shaggy Dev x2, Karto, Game Maker's Toolkit). Search for each title and channel on YouTube. The vault has no note on this post.

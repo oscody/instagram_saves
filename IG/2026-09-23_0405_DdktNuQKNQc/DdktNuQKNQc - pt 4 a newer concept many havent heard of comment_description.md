@@ -30,3 +30,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 pt 4: a newer concept many haven’t heard of (comment “graph” for guide)
+
+## Research
+
+* Verdict: Unresolved. The guide is only sent to people who comment "graph", and I found no public copy. The concept itself (nodes, edges, loops, deterministic nodes) is real and standard in LangGraph-style frameworks.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Graph Multi-Agent Pattern (Strands Agents docs) (vnext-docs-preview.strandsagents.com)](https://vnext-docs-preview.strandsagents.com/docs/user-guide/concepts/multi-agent/graph): guide, found by search, not opened, low confidence. Public doc on the same concept (graphs of agent nodes, DAG or cyclic with feedback loops). It is not the creator's guide and I did not open it.
+
+### Not found
+
+The creator's "graph" guide (DM or comment-gated). No vault note covers it. Vault grep hits for "vardy" or "agent graph" were unrelated notes, such as the LocAgent note.

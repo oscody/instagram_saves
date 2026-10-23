@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Can yall read? 📚🤓 bet you can’t do this !!
+
+## Research
+
+* Verdict: Nothing to find. This is an entertainment challenge reel. Words flash at 360, 450 and 900 wpm, and there is no tool, guide or other resource to find. I did not search.
+* Checked: 2026-10-22 by claude-sonnet-5-5

@@ -50,3 +50,16 @@ They’re going to dominate the next decade.
 🎬 FULL EPISODE available now on @insidethevault
 
 Comment “INSIDERS” and we’ll send you the link to the full conversation. 🔥
+
+## Research
+
+* Verdict: Unresolved. The post promotes a real podcast (Inside The Vault) episode with an automation guest. I couldn't confirm which episode or guest, and the link is sent only by comment/DM. The post's claims are promotional and unverifiable.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Inside The Vault with Ash Cash (podcast listing) (podcastaddict.com)](https://podcastaddict.com/podcast/3238489): page, found by search, not opened, medium confidence. Search results list the show, including ITV #231 'AI Automation is Creating Next Wave of Millionaires' (May 21, 2026), a plausible match. The page returned 403 when opened, so I couldn't confirm the guest.
+
+### Not found
+
+The exact episode and guest (@automations.bae) are unconfirmed. ITV #231 (May 21, 2026) is the likely match, but I couldn't open it. The vault notes only mention the creator's profile link and have nothing on this episode. Searching the Inside The Vault feed on Spotify, Apple Podcasts or YouTube for #231 should find the full episode without commenting "INSIDERS".

@@ -26,3 +26,25 @@ Written by claude-haiku-5-5.
 ## Caption
 
 imagine what people with proprietary data can do
+
+## Research
+
+* Verdict: Valid. The post is a general explainer with no single named resource. The described pipeline (features, matching, camera poses and point cloud, Gaussian splatting) matches the standard COLMAP plus 3D Gaussian Splatting workflow.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [COLMAP (github.com)](https://github.com/colmap/colmap): repo, found by search, verified, medium confidence. Open-source Structure-from-Motion/Multi-View Stereo tool that does the feature matching and camera-pose recovery shown in the reel.
+* [3D Gaussian Splatting (graphdeco-inria) (github.com)](https://github.com/graphdeco-inria/gaussian-splatting): repo, found by search, verified, medium confidence. Reference implementation that trains Gaussian splats from COLMAP SfM output, matching the final step in the post.
+
+### Key steps
+
+1. Capture overlapping images or synced video frames from several cameras.
+2. Run COLMAP (or the repo's convert.py) to detect features, match them across frames, and recover camera poses and a sparse point cloud.
+3. Undistort the images and keep the output in COLMAP format (sparse/0 with cameras, images and points3D).
+4. Train the Gaussian splatting model on that folder with the repo's train script.
+5. View the result in the real-time viewer.
+
+### Not found
+
+The post names no specific creator resource or dataset. The open-source datasets it mentions are not identified, and I did not check the reel's visuals.

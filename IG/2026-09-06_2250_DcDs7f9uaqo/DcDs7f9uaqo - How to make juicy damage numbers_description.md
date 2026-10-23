@@ -36,3 +36,20 @@ How to make juicy damage numbers!
 Made smth small )) been busy catching up with uni assignments 
 
 #gamedev #pixelart #tutorial #code #indiedev
+
+## Research
+
+* Verdict: Partly valid. This is a how-to reel with no downloadable resource. The effects are standard game-feel techniques. The font is probably Bungee (the transcript says "Bungie"), which is free on Google Fonts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Bungee (Google Fonts, SIL OFL) (fontsource.org)](https://fontsource.org/fonts/bungee/about): tool, found by search, not opened, medium confidence. The transcript says 'Bungie from Google Fonts'. Bungee is the Google Font that sounds like that. I only saw it in search results and didn't open the page or check it against the video.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Saves this reel as a polish idea for RTSVR (pop, float, fade, arc, crit, stack), with no extra resource.
+
+### Not found
+
+No public code, project file or written guide from mii_misan. I did not open the reel, so the font match rests on the transcript spelling.

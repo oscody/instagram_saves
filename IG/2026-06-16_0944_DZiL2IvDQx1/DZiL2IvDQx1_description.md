@@ -21,3 +21,16 @@ Written by claude-haiku-5-5.
 3. Be unexpected by asking "What's something random that happened today that made you laugh?" to break the small-talk pattern
 4. Build tension by asking "What were you thinking about before I texted you?" to be flirty and get her emotionally engaged
 5. Master the vibe: it's how you say it, and confidence + curiosity = connection
+
+## Research
+
+* Verdict: Nothing to find. The post is a short list of text-message openers. It has no separate resource to find, and the vault already holds the lines.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Links this post (and two repeat saves) and lists the three swap lines: rate your day out of 10, something random that made you laugh, what were you thinking about before I texted you.
+
+### Not found
+
+No external resource exists. The advice is opinion, not a tested method, so I did not search the web.

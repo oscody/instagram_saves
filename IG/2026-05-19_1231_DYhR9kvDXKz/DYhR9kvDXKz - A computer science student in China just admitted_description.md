@@ -34,3 +34,21 @@ What are your thoughts on this? 🤔💬
 —
 
 ➡️ If you want to keep up with all the AI news, useful tips, and important developments, join 100k+ subscribers reading our free newsletter
+
+## Research
+
+* Verdict: Valid. The ChinaTalk essay by Zilan Qian (Oxford China Policy Lab, May 5, 2026) supports the post's main points. The "100M+ tokens a day for $1" student anecdote isn't in the essay, so it likely comes from other coverage.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [How to Buy Cheap Claude Tokens in China – Zilan Qian, ChinaTalk (chinatalk.media)](https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in): page, found by search, verified, high confidence. Opened it. It covers transfer stations, CISPA's audit of 17 proxies finding model swapping, ID/selfie check workarounds, and the Singapore joke.
+* [Inside China's grey market for banned US AI models – MEDIANAMA (medianama.com)](https://www.medianama.com/2026/07/223-china-transfer-station-economy-explained/): page, found by search, not opened, medium confidence. Secondary coverage of the same transfer-station economy; appeared in search results but I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Mentions this post and the evolving.ai creator, with the summary 'cheap resold API access can log your data or swap the model'.
+
+### Not found
+
+I found no source for the '100M+ tokens a day for about $1' student quote; the essay doesn't mention it. I did not open the secondary articles. The 96–97% discount figure is the post's own. The essay and other reports say about 10% of official price or 70–90% off.

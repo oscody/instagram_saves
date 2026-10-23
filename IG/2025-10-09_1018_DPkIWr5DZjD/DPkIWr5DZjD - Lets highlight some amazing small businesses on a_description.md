@@ -28,3 +28,7 @@ Irie Jerk
 
 #caribbeanfood #nyc #foodreview #trinidad #jamaicanfood #haitianfood
 
+## Research
+
+* Verdict: Nothing to find. This is a food-review reel about a Caribbean food crawl in Brooklyn. It has no resource, tool or claim to check. The caption only lists businesses.
+* Checked: 2026-10-23 by claude-sonnet-5-5

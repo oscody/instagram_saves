@@ -34,3 +34,12 @@ Ask your eldest siblings.
 Somebody was supposed to unite the family.
 
 Nobody did.
+
+## Research
+
+* Verdict: Nothing to find. This is an opinion carousel about family wealth and leadership. It points to no tool, repo, guide or product, and its claim is a general view that can't be checked.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource exists to find. I did not search the vault or the web, and the vault listing showed no matching notes.

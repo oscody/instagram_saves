@@ -24,3 +24,12 @@ What songs am I missing ? 👀
 .
 
 #Djplaylist #Summer26 #Djkid #tourdj #WaveRunnersplaylist
+
+## Research
+
+* Verdict: Nothing to find. This is a DJ's music playlist reel that asks viewers which songs are missing. It has no tool, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The 18-track list is only on screen in the reel. No public copy was searched for.

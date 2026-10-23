@@ -38,3 +38,16 @@ Anybody can be amazing for a night
 Very few can be solid over time
 
 Slow it down… and watch how fast the truth reveals itself
+
+## Research
+
+* Verdict: Nothing to find. The reel is opinion-based dating advice, a seven-date checklist. It has no linked tool, guide or file, and the post already lays out the whole checklist.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists the post with a one-line summary of all seven dates (lunch or picnic, active, dinner, fun date, meet friends, home visit, 3-day trip).
+
+### Not found
+
+No separate resource exists beyond the reel. I did not search the web or open the vault note, because the post is personal advice and the vault summary already matches it.

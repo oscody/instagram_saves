@@ -42,3 +42,17 @@ If a tiny change in how you talk to AI makes it perform better… then maybe the
 
 Swipe to see the 8 exact prompts he used →
 You might never prompt the same way again.
+
+## Research
+
+* Verdict: Partly valid. The prompts come from a real r/ChatGPTPromptGenius post (user EQ4C), which Tom's Guide also covered. All of the evidence is anecdotal and no tests were run, so "smarter answers" is unproven. I did not open the Tom's Guide article or the Reddit thread.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Tom's Guide: 8 unusual prompts that trick ChatGPT into great responses (tomsguide.com)](https://www.tomsguide.com/ai/i-use-chatgpt-every-day-and-these-eight-unusual-prompts-trick-it-into-some-great-responses): page, found by search, not opened, medium confidence. Search snippet says it covers the same eight prompts from the r/ChatGPTPromptGenius post by EQ4C; I did not open it.
+* [Skool: 8 Weird Prompt Tricks That Actually Make AI Think Deeper (skool.com)](https://www.skool.com/how-to-ai-6355/8-weird-prompt-tricks-that-actually-make-ai-think-deeper): page, found by search, not opened, low confidence. Search snippet describes the same role-plus-number idea; I did not open it.
+
+### Not found
+
+I did not find the original Reddit thread URL. I did not open any page, so none of the resources is verified. I did not grep the vault beyond the empty match list given.

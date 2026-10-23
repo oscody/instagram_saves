@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Good luck sis🫣 #google #mockinterview #aiinterview
+
+## Research
+
+* Verdict: Nothing to find. Short POV/skit reel with a caption of "Good luck sis". It names no tool, product or link. The AI mock interview tool on screen isn't identified.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The specific AI mock interview app shown on screen isn't named in the post, and I did not search for it.

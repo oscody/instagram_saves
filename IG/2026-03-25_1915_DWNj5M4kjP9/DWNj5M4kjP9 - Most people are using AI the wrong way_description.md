@@ -47,3 +47,22 @@ Save this 🔖 and start using AI like a system, not a chat.
 Follow @codingknowledge For More ❤️ 
 
 #claude #ai #finance #coding #PromptEngineering
+
+## Research
+
+* Verdict: Partly valid. The prompts are only available by DM after commenting "prompt", and I found no public copy. The post's own summary already gives the structure. The ideas come from Tim Ferriss's 4-Hour Workweek (DEAL, fear-setting). Claims that Claude will "redesign your career" are overstated.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Comment "prompt" on the post to get the full prompt text by DM.
+2. Write each prompt with five sections: ROLE, TASK, STEPS, RULES, OUTPUT.
+3. Give Claude your skills, interests, work history, personality, current role, income model and weekly hours as context.
+4. Run the Hidden Edge prompt: use the 80/20 rule, find rare skill combinations, and rank them by earning potential and lifestyle fit.
+5. Run the Leverage Gaps prompt: apply DEAL (Define, Remove, Automate, Free) and build a plan that frees at least 10 hours a week.
+6. Run the Career Path prompt: sort activities into freedom-building, skill-building or time-for-money trap, do fear-setting, and compare 5-year outcomes.
+7. Run the Wealth Strategy prompt: build a 10-year roadmap and pick one 90-day move.
+
+### Not found
+
+The full prompt text. It is only sent by DM after a comment, and a web search for the prompt names found no public copy. I did not open the creator's profile.

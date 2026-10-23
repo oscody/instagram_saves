@@ -23,3 +23,11 @@ DM me to join my online AI class and Facebook group I’ll teach you some moves.
 
 Understand that my classes are how I feed my family. I’ve decided to take my content more seriously because I want to be home with my daughter. So if you think it’s gatekeeping, cool but if you want to learn a new skill, my DMs are open to everyone.
 
+## Research
+
+* Verdict: Promo. The reel is a family dance clip whose caption promotes the creator's paid online AI class and Facebook group, which you join by DM. It names no public resource.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The class and Facebook group details are only given by DM, so there is no public copy. I did not search, because the post is a promo with no named resource.

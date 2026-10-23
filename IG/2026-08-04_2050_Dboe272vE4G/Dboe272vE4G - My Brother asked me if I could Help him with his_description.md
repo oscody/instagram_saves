@@ -26,3 +26,8 @@ Address: 3932A white plains road
 Tell them Burnhard sent yah! 🫡
 
 Comment below which Juice bar / vegan restaurant me & A$ap Ferg should check out / review next we are all ears‼️⬇️
+
+## Research
+
+* Verdict: Nothing to find. This is a food review reel of a Bronx vegan restaurant (Holy Fruit Juice, 3932A White Plains Road). It has no tool, guide or other resource to look up, and it makes no claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5

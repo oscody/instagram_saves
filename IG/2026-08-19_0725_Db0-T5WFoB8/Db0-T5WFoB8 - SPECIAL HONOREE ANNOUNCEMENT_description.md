@@ -35,3 +35,16 @@ Join us as we honor their legacy of community-building and creative entrepreneur
 🎟️ www.legacy100brunch.com
 
 #Legacy100Brunch #BlackBusinessMonth #SpecialHonoree
+
+## Research
+
+* Verdict: Valid. The Legacy 100 Brunch is a real Carib Biz Network event, and its page lists Michael and Nicole Nicholas of Aunts et Uncles as 2026 honorees. The page is a post-event recap, so the event has already happened. The ticket site in the post didn't load.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Legacy 100 Brunch – Carib Biz Network (caribbiznetwork.com)](https://www.caribbiznetwork.com/legacy100): page, found by search, verified, high confidence. The page lists Michael and Nicole Nicholas, co-founders of Aunts et Uncles, among the 2026 honorees. It reads as a recap and says "See you February 2027".
+
+### Not found
+
+www.legacy100brunch.com didn't resolve (DNS error). I found no public page confirming the August 30, 12:30 PM, Long Island details. The Carib Biz Network page lists info@caribbiznetwork.com for event details and tickets.

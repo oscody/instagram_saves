@@ -37,3 +37,25 @@ Clief Notes is free, link in my bio.
 https://www.skool.com/cliefnotes/about
 
 #shorts #claude #ai #contextengineering #productivity
+
+## Research
+
+* Verdict: Valid. The advice is sound: each message resends the full conversation, so long chats and pasted PDFs use up limits faster. The linked Clief Notes community exists and is free, though it is a general AI-lessons community and not a single guide on this topic.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Clief Notes (Skool community) (skool.com)](https://www.skool.com/cliefnotes/about): page, in the post, verified, high confidence. The page is a free Skool community run by Jake Van Clief with 40+ free lessons on prompts, folder structures and context. This matches the caption's "Clief Notes is free".
+
+### Key steps
+
+1. Start a fresh chat for each task, because every message resends the whole chat history.
+2. Have the AI condense a large document into a one-page summary once.
+3. Save that summary in a Claude project and leave the original PDF out.
+4. When you need an exact figure, open the PDF in its own separate chat.
+5. Write down what the AI needs for the task and what to leave out.
+6. Send simple jobs, such as yes/no classification, to the cheapest model that can handle them.
+
+### Not found
+
+I did not find the specific Claude docs context-window diagram shown in the reel. I did not check which Clief Notes lessons, if any, cover these habits.

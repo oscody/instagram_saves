@@ -36,3 +36,30 @@ Context limits and token bills just got destroyed.
 👉 https://github.com/rtk-ai/rtk
 
 Who’s slashing their Claude costs today? Drop a 🔥
+
+## Research
+
+* Verdict: Partly valid. The rtk repo exists and does what the post says: it compresses shell output for many agents. The "90% cheaper Claude Code" headline is overstated. The repo claims 60-90% savings on bash output only, not on your total bill.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [rtk (Rust Token Killer) (github.com)](https://github.com/rtk-ai/rtk): repo, in the post, verified, high confidence. The repo describes a Rust CLI proxy that compresses command output and has the `rtk gain` dashboard and multi-agent support shown in the post.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Lists the rtk reel as a one-line entry: sits between the agent and the shell and compresses output. It has no install steps.
+
+### Key steps
+
+1. Install: `brew install rtk` (macOS/Linux), `winget install rtk-ai.rtk` (Windows), or use the repo's install.sh script.
+2. Check the install with `rtk gain`. It should show the savings dashboard. Another crate named rtk exists, so a "command not found" error means you may have the wrong one.
+3. Claude Code: run `rtk init -g`, then restart Claude Code.
+4. Other agents: Gemini `rtk init -g --gemini`, Codex `rtk init -g --codex`, Cursor `rtk init -g --agent cursor`, Windsurf `rtk init -g --agent windsurf`.
+5. Test with `git status`. The hook rewrites it to `rtk git status`.
+6. Only Bash tool calls are filtered. For file reads and searches, use `rtk read`, `rtk grep` or `rtk find` directly.
+7. Use `rtk gain --graph` or `--history` for stats, `rtk discover` to find missed savings, and `rtk bypass <cmd>` to run a command unfiltered.
+
+### Not found
+
+I did not check the 130M tokens saved figure on screen. It is one user's own measurement, and the repo says token counts are estimated as bytes/4.

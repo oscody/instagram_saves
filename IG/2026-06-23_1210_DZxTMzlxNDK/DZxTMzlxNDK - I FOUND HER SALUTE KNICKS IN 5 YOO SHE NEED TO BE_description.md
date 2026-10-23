@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I FOUND HER SALUTE @redspunch KNICKS IN 5 !!!!! YOO @realmissnatalienunn SHE NEED TO BE ON BADDIES 😂😂 HAPPY JUNETEETH
+
+## Research
+
+* Verdict: Nothing to find. Entertainment reel about a Knicks parade anecdote and a street fight clip. It has no resource, tool or checkable claim.
+* Checked: 2026-10-22 by claude-sonnet-5-5

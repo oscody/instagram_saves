@@ -23,3 +23,16 @@ Every time I see a mustache, the line, fo I put this 🐈 on your mustache pops 
 🤍Cardigan & scarf patterns by @wickedlyhandmade
 🖤Coat pattern by @stonesparrowcrochet
 🩵🩷💛🖤 Cardigan is freehand.
+
+## Research
+
+* Verdict: Unresolved. The post credits crochet patterns (Burlap Chap, Bone Daddy, plus patterns by @wickedlyhandmade and @stonesparrowcrochet). I couldn't find a public listing for the creator's own patterns. The post makes no claim that needs checking.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Twisted Bleeding Tooth (The Twisted Hatter, Ravelry) (ravelry.com)](https://www.ravelry.com/patterns/library/twisted-bleeding-tooth/people): page, found by search, not opened, low confidence. Another hood pattern attributed to The Twisted Hatter, likely the same designer. It is not Burlap Chap or Bone Daddy, and I did not open it.
+
+### Not found
+
+No listing found for Burlap Chap or Bone Daddy. I also didn't find the @wickedlyhandmade cardigan and scarf patterns or the @stonesparrowcrochet coat pattern. Next step: check the creator's Instagram bio link, Etsy shop or Ravelry store. The vault has no notes on this post.

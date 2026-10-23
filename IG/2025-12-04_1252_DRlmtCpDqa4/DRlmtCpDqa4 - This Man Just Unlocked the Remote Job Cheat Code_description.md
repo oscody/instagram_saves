@@ -27,3 +27,12 @@ This Man Just Unlocked the Remote Job Cheat Code! 🙌
 TikTok : Inwmediagroup ✅
 
 #remotejobs #financialfreedom
+
+## Research
+
+* Verdict: Unresolved. The post says to use niche remote job sites but never names them, and it has no links. The general advice is reasonable, but there is no specific resource to verify.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The niche job sites the man mentions are not named in the transcript or caption. The caption only points to a TikTok account (Inwmediagroup), and I did not search for it. I found no vault notes on this post.

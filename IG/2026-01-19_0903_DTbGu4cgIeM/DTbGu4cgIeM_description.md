@@ -18,3 +18,20 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Learn to start any conversation, sound confident, and connect with anyone – in just 10 minutes a day ✨
+
+## Research
+
+* Verdict: Promo. The reel is an ad for the SmartyMe subscription app. It gives no concrete techniques, and the "10 minutes a day" lessons sit behind a paywall.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [SmartyMe: Daily Micro-Learning (App Store) (apps.apple.com)](https://apps.apple.com/us/app/smartyme-daily-micro-learning/id6736654449): product, found by search, not opened, medium confidence. The search snippet describes a microlearning app with communication and public speaking topics. I did not open the page, and its lessons are listed as 15 minutes, not 10.
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/_pi todo query.md`: Lists this shortcode only in a retry list of failed downloads. It has no content about SmartyMe.
+
+### Not found
+
+I did not open the official SmartyMe site or the App Store page, so the pricing and the exact lesson length are unconfirmed. The search results suggest 15-minute lessons, while the reel says 10. I found no free copy of the 16 lessons.

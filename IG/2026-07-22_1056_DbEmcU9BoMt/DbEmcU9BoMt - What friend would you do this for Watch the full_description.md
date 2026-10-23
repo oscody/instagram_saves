@@ -44,3 +44,12 @@ Grip: @tali.baptiste
 Sound Mixer: @tony_troy246 
 
 Sound Utility: @iamjdego
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit reel. The caption only credits the cast and crew and points to the full episode on YouTube through the creator's bio link. There is no resource or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I didn't search for the YouTube episode. Its link is only in the creator's bio, not in the post.

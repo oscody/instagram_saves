@@ -30,3 +30,16 @@ From the patois-based Mekatelyu language, to kitchens serving up authentic Jamai
 🔗 Read the full story now on our website, link in bio.
 
 #JamaicaTown #Limon #AfroCostaRican #CaribbeanHeritage #JamaicaInCostaRica
+
+## Research
+
+* Verdict: Valid. The full story linked in the bio is on jamaicans.com, and it matches the carousel's points (1872 arrival, land, citizenship, Mekatelyu, food, football). The 1872 Lizzie date and the "fewer than 60,000" speaker figure come from the article alone; I didn't check them elsewhere.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [The Story of Jamaica Town in Limón Costa Rica (jamaicans.com) (jamaicans.com)](https://jamaicans.com/the-story-of-jamaica-town-how-jamaican-immigrants-shaped-limon-costa-rica/): page, found by search, verified, high confidence. I opened it. It covers the 1872 ship Lizzie with 123 passengers, land plots, 1940s citizenship, Mekatelyu, food and football, as in the carousel.
+
+### Not found
+
+The Facebook page "Limón por media calle" (cover image source) wasn't checked. The vault has no note on this post. The only creator mention is an unrelated Ludi game note.

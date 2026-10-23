@@ -49,3 +49,12 @@ The reason this works is because most businesses are still early in adopting A.I
 If you understand how to apply A.I in a simple, results-driven way, you can use the same approach across many different industries.
 
 DM “YES” now and I’ll send you the full playbook.
+
+## Research
+
+* Verdict: Promo. The post is a lead-generation pitch. The "full playbook" is only sent by DM after you comment "YES", and the $5K–$10K per client claim has no evidence behind it. I did not search, per the rules for promo posts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The playbook is only sent by DM (keyword "YES") and has no public copy that I know of. I did not check the vault or the web, because the post is a promo.

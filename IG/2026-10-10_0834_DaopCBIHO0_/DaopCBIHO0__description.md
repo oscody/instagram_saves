@@ -24,3 +24,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Product isn't king. Market availability & distribution are. Think Western Union acquisitions. Water in the desert analogy. Focus on reach, not just quality. #BusinessStrategy #MarketExpansion #Distribution #GrowthHacking #StartupTips #BusinessGrowth #Entrepreneurship #MarketingStrategy #SalesTips
+
+## Research
+
+* Verdict: Partly valid. The post is an opinion clip with no resource to find. "Distribution beats product" is a common business idea, but it's overstated as an absolute. I did not search or verify the Western Union story.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No linked resource. The Western Union buyout anecdote was not checked against any source, and I did not search the vault beyond the listed check, which found nothing.

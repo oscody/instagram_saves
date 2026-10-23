@@ -65,3 +65,25 @@ PHASE 4: Ship
 total: 2 hours from nothing to live
 
 I used @googlegemini and Antigravity for this and I absolutely love it.
+
+## Research
+
+* Verdict: Partly valid. The workflow is sound and the tools exist. The full guide with prompts is only sent by comment and has no public copy. The "2 hours" claim is plausible for a simple site. The post also names two different build tools (Antigravity in the carousel, Bolt.new in the caption).
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Netlify Drop quickstart (docs.netlify.com)](https://docs.netlify.com/start/quickstarts/netlify-drop-quickstart/): guide, found by search, not opened, medium confidence. The official docs for the post's ship step: drag a folder in and get a live URL. I only saw this in search results and did not open the page.
+* [Netlify Drop (app.netlify.com)](https://app.netlify.com/drop): tool, found by search, not opened, medium confidence. The drop page exists, but the fetch returned only its title, so it did not confirm any details.
+
+### Key steps
+
+1. Collect inspiration: browse the Framer marketplace and Dribbble, then screenshot about 3 sites you like and note what you like in each (15 min).
+2. Ask ChatGPT for a minimal portfolio PRD. Give it your resume and the screenshots and ask for structure, features and design direction (15 min).
+3. Paste the PRD into an AI coding tool (Antigravity, Cursor, Claude Code or Bolt.new) to generate a base.
+4. Break big tasks into small ones. Iterate with specific prompts and commit each change to GitHub (about 60 min).
+5. Build the static output, then drag the folder onto app.netlify.com/drop to get a live URL (about 12 min).
+
+### Not found
+
+The full guide with prompts is sent by comment ("Vibe") and I found no public copy. I did not check the creator's profile or site.

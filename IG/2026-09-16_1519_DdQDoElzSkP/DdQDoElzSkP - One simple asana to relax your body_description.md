@@ -26,3 +26,12 @@ Written by claude-haiku-5-5.
 
 “One simple asana to relax your body ✅ 
 #yoga #forest #relaxing #healthy #life
+
+## Research
+
+* Verdict: Not valid. The post is a short yoga clip with no downloadable resource. Its claim of "8 hours of sleep in 10 minutes" is unsupported, and the claimed relief for gastritis and indigestion is not backed by evidence. I did no searching.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No separate resource exists. The vault had no notes on this post. I did not search the web. The pose looks like a supported reclined pose (similar to supta virasana), which can be hard on the knees and ankles. It may be comfortable for relaxing, but it does not replace sleep and is not a treatment for gastritis.

@@ -87,3 +87,27 @@ to structured understanding.
 Comment REPO and I’ll send you the direct GitHub link.
 
 Follow for more.
+
+## Research
+
+* Verdict: Partly valid. Graphify is a real public GitHub tool, and install, --update, hook install and --wiki exist. The "70x fewer tokens" and "$20 plan acts like $100" claims aren't backed by the README page I opened. --watch appears only as a `graphify watch` subcommand.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Graphify (Graphify-Labs/graphify) (github.com)](https://github.com/Graphify-Labs/graphify): repo, found by search, verified, high confidence. README describes a codebase knowledge-graph skill for AI assistants, with install, --update, hook install and --wiki; the 71x figure was not on the page.
+* [Graphify knowledge graph codebase skill (Augment Code) (augmentcode.com)](https://www.augmentcode.com/learn/graphify-knowledge-graph-codebase-skill): guide, found by search, not opened, medium confidence. Third-party explainer of the same tool, seen in search results but not opened.
+
+### Key steps
+
+1. Install the CLI: `uv tool install graphifyy` (double y; or pipx/pip). Needs Python 3.10+.
+2. Run `graphify install` once to register the skill with your assistant (Claude Code).
+3. In the assistant, run `/graphify .` to build the graph. Output goes to graphify-out/ (graph.html, GRAPH_REPORT.md, graph.json).
+4. Re-extract only changed files with `/graphify ./docs --update`.
+5. Run `graphify hook install` to rebuild the graph on commit and branch checkout.
+6. Build a markdown wiki with `/graphify . --wiki`.
+7. Query the graph with `graphify query "how does auth work"`, or run `graphify serve` to expose it over MCP.
+
+### Not found
+
+The 70x token claim: BENCHMARKS.md wasn't checked. The `--watch` flag isn't documented on the README page I opened. The `graphify watch` subcommand has no usage description there.

@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 Part 16 site to watch series and movie like Netflix 
 
 #netflix #reel #modie #tech #movie
+
+## Research
+
+* Verdict: Not valid. The post pushes NetMirror, an unlicensed streaming site that offers Netflix-style content without paying for it. It isn't a legitimate resource, and the post itself says the link changes monthly. Sites like this are known for fake mirror domains, aggressive ads and malware. I didn't search for it or open it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not look for or verify the site. The only address in the post is xtubeflix.com, shown on the last frame. It is not confirmed to be NetMirror's real domain, and since the link rotates it could be a lookalike. The vault had no notes on this post, creator or site.

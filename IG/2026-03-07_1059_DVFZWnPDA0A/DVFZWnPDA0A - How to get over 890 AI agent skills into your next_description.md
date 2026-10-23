@@ -32,3 +32,31 @@ Written by claude-haiku-5-5.
 ## Caption
 
 How to get over 890 AI agent skills into your next project. This is a no-brainer. You have to do this.
+
+## Research
+
+* Verdict: Partly valid. The repo exists and matches, but it has changed since the reel. It now holds about 2,600–2,700 skills (not 890) and has been rebranded and restructured, so the reel's install steps and my-skills/skills folder are probably outdated.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Antigravity Awesome Skills (now AAS Core / Agentic Awesome Skills) (github.com)](https://github.com/sickn33/antigravity-awesome-skills): repo, in the post, verified, high confidence. Opened the repo from the post link. It is a collection of SKILL.md agent skills with an npx/npm exec installer, now at V19.15.0 and MIT-licensed.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. Daily/2026-02-15.md`: Same repo link with a one-line description (800+ agentic skills for Claude Code/Antigravity/Cursor). No install steps.
+* Vault: `ZAIHub/claude - Claude and Codex Skills Index.md`: Index entry that points to the 2026-02-15 daily note.
+
+### Key steps
+
+1. Preview first. The README's current example install command is: npm exec --yes --ignore-scripts --package=agentic-awesome-skills@19.15.0 -- agentic-awesome-skills --release 19.15.0 --path .agents/skills --skills brainstorming,systematic-debugging --dry-run
+2. Check the preview, then run the same command without --dry-run to install.
+3. The install location comes from --path. The README also lists host flags such as --cursor, --gemini and --codex.
+4. For Antigravity, the default target needs a selected set of skills, a filter, or an explicit --all.
+5. Call a skill by name. In Antigravity CLI use /brainstorming <task>. In Cursor use @brainstorming <task>. In Gemini CLI use 'Use brainstorming to ...'.
+6. Open a skill's SKILL.md to see what it does.
+7. Treat bulk-installing thousands of skills with caution. Install only the ones you need and read their SKILL.md first.
+
+### Not found
+
+I read only the first 100,000 of 145,734 characters of the README. I did not see an explicit 'option A' label or the my-skills/skills folder, so I can't confirm the reel's exact steps still apply.

@@ -23,3 +23,17 @@ Across Africa, different cultures have passed down unique creation stories for g
 What do you think about cultural and religious creation accounts. Are they meant to be taken literally or they represent more than just stories. 
 
 #AfricanHistory #AfricanCulture #AfricanStories
+
+## Research
+
+* Verdict: Nothing to find. The post is a cultural carousel retelling African creation stories. It has no tool, repo or downloadable resource, and its caption question is opinion. I did not search the web.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition  ideas by codex.md`: Lists the post as a research lead for story worlds, symbols and origin tales. It notes that any chosen tradition needs its own reliable sources.
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Links the post under IG saves for the competition idea (Maasai, Yoruba, Bakongo, Egyptian, Akan). It also lists related saves: Jamaican proverbs, African fantasy and mythology books, Kirikou, and Blade's West African folklore.
+
+### Not found
+
+I did not check the accuracy of the individual stories. The caption says "18 accounts" but the description mentions only six slides and five traditions. If you use one tradition, find reliable sources for it, as your vault note already says.

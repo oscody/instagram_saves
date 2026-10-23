@@ -22,3 +22,16 @@ Ungatekeeping my most asked about pants 🙅🏾‍♂️
 Can’t tell me I don’t put you on 😉
 
 #wideleg #widelegpants #pleatedpants #ootd #uniqlo
+
+## Research
+
+* Verdict: Partly valid. The #uniqlo tag points to Uniqlo's men's Pleated Wide Pants, but I couldn't open the page. The exact product codes on screen weren't visible to me, so the match isn't confirmed.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Uniqlo US – Men's Pleated Wide Pants (E462429, tall-length listing) (uniqlo.com)](https://www.uniqlo.com/us/en/products/E462429-000/00): product, found by search, not opened, low confidence. The search snippet describes a wide, straight-cut pleated men's pant, which fits the post. I don't know the creator's product codes, and the page timed out when I tried to open it.
+
+### Not found
+
+The product codes shown in the reel, and the creator's exact pants. I couldn't open the Uniqlo page. The post's colours (navy, beige, brown) are unchecked against the listing. The vault has no related notes.

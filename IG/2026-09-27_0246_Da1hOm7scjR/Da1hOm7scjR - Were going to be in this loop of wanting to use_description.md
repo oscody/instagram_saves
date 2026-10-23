@@ -33,3 +33,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 We’re going to be in this loop of wanting to use the newest most expensive model without lighting dollars on fire for the rest of time so might as well get good at it
+
+## Research
+
+* Verdict: Partly valid. The orchestrator/worker pattern is a sound, common way to cut costs. The "full version" is only sent after commenting "token", and I found no public copy. The post's steps already cover the idea.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The full workflow behind the "token" comment-gate. I did not search the web because the post is a pattern explanation with a gated download. The vault has no note on this post or creator.

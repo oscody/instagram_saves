@@ -39,3 +39,27 @@ Follow for more practical AI learning resources.
 #artificialintelligence #computerscience #programming #python #sql 
 
 [learn AI, AI for beginners, computer science students, programming, Python, SQL, machine learning, neural networks, LLMs, generative AI, coding for beginners, tech careers, early career professionals, software engineering, AI engineering]
+
+## Research
+
+* Verdict: Partly valid. Two of the sites are very likely TensorFlow Playground and Lakera's Gandalf, both public and real. The Python dungeon/farm/mine course and the other links are only sent via comment, and I couldn't identify them. Matching the Gandalf and Playground sites to the reel rests on the description, not on seeing the reel.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [TensorFlow Neural Network Playground (playground.tensorflow.org)](https://playground.tensorflow.org): tool, found by search, verified, medium confidence. Opened it: a browser neural network sandbox with learning rate, activation and regularization settings, as in the reel.
+* [Gandalf (Lakera) prompt injection game (gandalf.lakera.ai)](https://gandalf.lakera.ai): product, found by search, not opened, medium confidence. Search results describe an AI guard protecting a password across levels; the URL redirects to play.lakera.ai/agent-breaker, which I opened but which didn't mention Gandalf.
+* [CodeCombat (codecombat.com)](https://codecombat.com): product, found by search, not opened, low confidence. A browser Python game with dungeons, but nothing found about farm or mine games, so it is only a possible match for the Python course.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Already lists this reel (@sylicon.mind) as an AI safety browser game for prompt injection practice, where you get a guard bot to reveal a password. It has no links.
+
+### Key steps
+
+1. Open the TensorFlow Playground and change learning rate, activation, regularization and layers. Watch how the output changes.
+2. Open Gandalf and try prompts that get the guard bot to reveal the password. Move up a level each time you succeed.
+
+### Not found
+
+The Python course with dungeon, farm and mine games was not identified, nor were the SQL or LLM sites from the caption. The full link list is only sent after commenting GAMES, and I found no public copy.

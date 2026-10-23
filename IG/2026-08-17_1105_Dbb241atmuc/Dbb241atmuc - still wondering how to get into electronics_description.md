@@ -28,3 +28,12 @@ then i have the PERFECT resource for you...and it's free! 🙆🏾‍♀️
 Pixel and i added a new page on my website that lists the topics that beginners should know, including the resources that i've used for learning and the supplies that have held me down for the past year!
 
 comment 'learn' below and i'll send you the link!
+
+## Research
+
+* Verdict: Unresolved. The post offers a free "Fundamentals" page on the creator's website, but the link is only sent to people who comment "learn". I couldn't find a public copy of it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I couldn't find the Fundamentals page or confirm the creator's site. Searches for "prettywiredbuilds" returned nothing relevant. My guess at the domain (prettywiredbuilds.com) failed with a certificate error, so I didn't open it. The link is delivered by comment or DM. Nothing in the vault mentions the post.

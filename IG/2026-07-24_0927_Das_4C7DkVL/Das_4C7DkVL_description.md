@@ -23,3 +23,16 @@ Written by claude-haiku-5-5.
 5. Ask: "What's one memory that changed you forever." It opens a personal door without feeling forced.
 6. Ask about something you wish people noticed about you more. It makes them feel seen and valued instantly.
 7. Ask: "When was the last time you truly felt at peace?" It is a deep calm question that invites honesty.
+
+## Research
+
+* Verdict: Nothing to find. The post is a list of seven conversation questions. It has no tool, repo or file to find, and the claims ("instantly builds trust") are generic advice, not testable facts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Lists other saved posts from @trending__teen, such as better text openers, and links them to the user's Hinge problems. This specific post is not covered.
+
+### Not found
+
+No external resource exists. I didn't search the web.

@@ -105,3 +105,16 @@ Seventh: Publish and Index
 6. Paste the new URL into the top bar and click Request Indexing.
 
 Get my full method at compactkeywords.com
+
+## Research
+
+* Verdict: Promo. The free caption steps are a generic SEO workflow, and the "full method" is a $1,199 course. Nothing on the sales page shows that the workflow gets a brand recommended in ChatGPT.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Compact Keywords (Edward Sturm SEO course) (edwardsturm.com)](https://edwardsturm.com/compact-keywords/): product, in the post, verified, high confidence. compactkeywords.com, the link in the post, redirects to this sales page. It is a $1,199 SEO course by Edward Sturm that claims to 'train AI to recommend your brand'.
+
+### Not found
+
+I did not find any independent evidence that this workflow raises ChatGPT brand recommendations. I did not check the Detailed Chrome extension.

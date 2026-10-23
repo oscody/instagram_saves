@@ -76,3 +76,12 @@ The signal becomes clear again.
 That’s when inspired action appears naturally . ⚡
 
 #taich#taich#taichin#qigongh#lymphaticdrainageiareleaseoussystemreset
+
+## Research
+
+* Verdict: Partly valid. The guide is only sent after commenting "Voltage", and I found no public copy. The general claim that Tai Chi and Qigong help stress and balance is reasonable, but the post's list of benefits is broad and has no cited studies.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "Morning Routine Guide" (comment "Voltage") has no public copy that I could find. A web search for the creator's "Find Your Electron" material returned nothing relevant. The vault has no related notes. I did not check the studies the caption alludes to.

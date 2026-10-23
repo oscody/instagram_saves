@@ -461,6 +461,22 @@ Before calling Claude it scans the vault for notes that mention the post's short
 
 On a usage limit it stops with exit code 75, like `describe.py`. It is not part of `run_pipeline.py` yet.
 
+## Track the accounts: `accounts.py` (added 2026-10-23)
+
+Shows which accounts you save the most from and how often their posts hold up. It reads each note's `author`, the
+save date from the folder name, the `## Research` verdict and the topic from `knowledge_library/topics.json`. No
+Claude calls, so rerun it after every pipeline run.
+
+```bash
+python3 accounts.py           # writes knowledge_library/Account index.md and accounts.json
+python3 accounts.py --print   # top 25 accounts in the terminal, no files written
+```
+
+The index has four tables: best sources (3 or more saves, ranked by the share of Valid or Partly valid posts),
+saving more lately (2 or more saves in the last 90 days), mostly promo or not valid (candidates to stop saving
+from), and every account with 2 or more saves. Single save accounts are only in `accounts.json`. Both files are
+gitignored like the rest of `knowledge_library/`, so run it on each machine.
+
 ## Run everything: `run_pipeline.py`
 
 `run_pipeline.py` runs `download.py`, `transcribe.py` and `describe.py` in batches until every post is done. describe runs with its defaults, so Claude writes the titles, summaries and notes, and the Hailo takes over when Claude is at its usage limit. Each batch takes the newest 100 posts that still need a stage through all three stages, one script after another (never at the same time). Finished posts appear early, and hailo-ollama is back between batches instead of being off for hours.

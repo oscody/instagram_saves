@@ -79,3 +79,23 @@ I personally use a Done-For-You system that includes the training, resources, an
 Follow @buildwealthwiththomas  for more content on digital marketing, AI, and online business.
 
 Educational content only. This post reflects my personal experience. Results vary based on individual effort, experience, consistency, implementation, and market conditions. There are no guarantees of incom
+
+## Research
+
+* Verdict: Partly valid. The ten prompts are fully in the caption and work as generic starters. The "business in 24 hours" framing is overstated, and the post also funnels viewers to a "CLASS" comment for a Done-For-You training offer.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Check idea: "Analyze this business idea for demand, competition, and profit potential: [idea]."
+2. Audience: "Help me define a clear, profitable niche for this business idea: [idea]."
+3. Offer: "Create a high-value offer I can sell based on my skills in [skill/industry]."
+4. Name: "Give me 10 strong, brandable business name ideas for a [type of business]."
+5. Plan: "Write a one-page business plan with my audience, income model, and growth path for [idea]."
+6. Sales page: "Write persuasive landing page copy that speaks directly to my target audience: [offer details]."
+7. Content: "Create a 7-day content plan that attracts the right people and turns them into customers."
+8. Email, pricing and launch: use the 5-email welcome sequence, "Help me price my offer...", and "Create a simple 24-hour launch plan... using email and social media." prompts from the caption.
+
+### Not found
+
+The free "CLASS" training is sent only after a comment, and I found no public copy. I didn't search, because the prompts are in the caption. The vault had no matching notes.

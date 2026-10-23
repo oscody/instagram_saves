@@ -40,3 +40,16 @@ I break down:
 Stop funding your dream with debt when you may qualify for funding you never have to repay.
 
 Comment “JOIN” and I’ll send you the link to my community. 💰🏦
+
+## Research
+
+* Verdict: Promo. The reel is a lead-gen pitch for the creator's community. The link is only sent after a "JOIN" comment, and I found no public copy. The claim that grants don't need repaying is true but generic.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Grants.gov (generic public source for federal grants, not the creator's resource) (grants.gov)](https://www.grants.gov): page, found by search, not opened, low confidence. The search summary named it as the main federal grant source. I did not open it, and it is not the community the post offers.
+
+### Not found
+
+The community link is only sent by DM after a "JOIN" comment, and I found no public copy. Searching for the handle "joihunt_esq" returned nothing. The vault has no notes on this creator. I did not check whether the community is free or paid.

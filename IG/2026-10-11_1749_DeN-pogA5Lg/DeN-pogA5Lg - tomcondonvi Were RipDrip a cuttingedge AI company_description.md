@@ -40,3 +40,16 @@ What you get here:
 🔥 A front-row seat at one of the fastest-growing AI companies in the space
 
 If you love building with AI and want to see your work running live in front of thousands of leads every day, fill out the form below and let's talk.
+
+## Research
+
+* Verdict: Partly valid. RipDrip is a real AI DM-setter product, but I found no public job listing. The application form is only linked in the post, and I could not open it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [RipDrip (dm.ripdrip.ai) (dm.ripdrip.ai)](https://dm.ripdrip.ai/): product, found by search, verified, medium confidence. Opened the site, which describes an AI sales clone that runs a creator's DM funnel. This matches the post's company description, but the site has no careers page or Technical Support Engineer listing.
+
+### Not found
+
+The application form linked from the post's caption or bio, and any public job posting for the Technical Support Engineer role. I also did not check the coaches named in the post or the pay, since the post gives no figures.

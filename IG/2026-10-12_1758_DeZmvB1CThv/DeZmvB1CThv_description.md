@@ -47,3 +47,24 @@ And the best part? It’s open-source, and you can even self-host your own promp
 👇 Like this post and comment “Prompt” to get the link!
 
 #AItools #ChatGPT #PromptEngineering #AITips #OpenSource
+
+## Research
+
+* Verdict: Valid. The post matches prompts.chat (formerly Awesome ChatGPT Prompts). Its README calls it the world's largest open-source prompt library. It is free, can be self-hosted, and includes an interactive prompting guide. The link is public, so you don't need to comment.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [prompts.chat (f/prompts.chat) (github.com)](https://github.com/f/prompts.chat): repo, found by search, verified, high confidence. The README says 'world's largest open-source prompt library', supports ChatGPT, Claude and Gemini, offers self-hosting, and includes the free Interactive Book of Prompting.
+
+### Key steps
+
+1. Browse or search prompts on prompts.chat, or download prompts.csv or PROMPTS.md from the repo.
+2. Copy a prompt and edit it for your task.
+3. Paste it into ChatGPT, Claude, Gemini or another model.
+4. Read the free Interactive Book of Prompting to write better prompts.
+5. To self-host, follow the repo's setup wizard. It recommends PostgreSQL, with Neon as a hosted option.
+
+### Not found
+
+I did not open the creator's DM link. The vault had no notes on this. I identified the repo by its description, not from the link the creator sends.

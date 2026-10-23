@@ -32,3 +32,12 @@ And the best part? It costs just a few bucks to make.
 👉 Comment WATERMELON and we’ll DM you the one-pager on how to start your own.
 
 #StreetFoodBusiness #ViralSnacks #FoodEntrepreneur #MexicanSnacks #SmallBusinessIdeas #SideHustleTips #Entrepreneurship
+
+## Research
+
+* Verdict: Unresolved. The one-pager is sent only by DM after commenting WATERMELON, and I found no public copy. The post is also a lead-gen promo for durable.ai, and the "$10 experience, high margins" claim has no figures behind it.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The durable.ai one-pager, and any public page for @fatboichamoy. The vault has nothing on either. One web search turned up only generic watermelon, chamoy and Tajín recipes.

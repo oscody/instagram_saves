@@ -41,3 +41,21 @@ Hashtags :
 
 #falsememory #jiyiguanliju #guanchao #fangtang #baizhong
 animeedit animerecommendation chineseanime scifianime mysteryanime psychologicalanime animeclips animereels animecommunity animelover
+
+## Research
+
+* Verdict: Valid. False Memory (记忆管理局) is a real 2026 Chinese donghua. Studio, plot and release match the caption. The 7-episode count appears on one listing only. I didn't check the 8.7 IMDb rating.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [False Memory trailer / release news (Anitrendz) (anitrendz.com)](https://anitrendz.com/news/2026/06/23/false-memory-reveals-stunning-trailer-august-2-start-date/): page, found by search, verified, high confidence. Confirms Flint Sugar and Studio Tumble, Guan Chao, Burning Stone, Memory Management Bureau, Fang Tang and Bai Chong, and an Aug 2, 2026 Bilibili premiere.
+* [False Memory opening animation (Anitrendz) (anitrendz.com)](https://www.anitrendz.com/news/2026/07/30/false-memory-drops-opening-animation): page, found by search, not opened, medium confidence. Search result only, not opened. It covers the show's opening.
+
+### Key steps
+
+1. Watch on Bilibili, where it premiered Aug 2, 2026 with the first three episodes released together. An official YouTube channel also lists it, with an Aug 4 date.
+
+### Not found
+
+Did not verify the 8.7/10 IMDb rating or the 7-episode count. The 7 episodes figure comes from a single search-result listing.

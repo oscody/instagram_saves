@@ -45,3 +45,12 @@ Get ready to skate, drink, dance, and bring your best Gouyad moves to the rink. 
 Early arrival is highly suggested! Gather your crew, lace up your skates, and let’s make history together.
 
 #SkateAndGouyad #HaitianSkateParty #SummerHeatWeekend #GouyadContest #HaitianCulture RollWithTheCulture MiamiEvents SkateLife HaitianEvents CaribbeanVibes RollerSkating PartyWithPurpose
+
+## Research
+
+* Verdict: Unresolved. The post is an event flyer for a July 24, 2026 Haitian skate party. I found no public listing or ticket page for it. The date has also passed (today is Oct 22, 2026).
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No ticket page, venue or organizer listing for "Skate & Gouyad" turned up in one web search. The venue was still TBA in the post. The vault had no related notes. Only the creator's Instagram (@djeq_theboss1) might hold more details.

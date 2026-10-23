@@ -54,3 +54,20 @@ They help you:
 If you’re applying and not hearing back, this will change your approach.
 
 Comment “PROMPTS” and I’ll share the full doc.
+
+## Research
+
+* Verdict: Partly valid. The prompts are ordinary, sensible job-search prompts, and the post describes them well. The "11 interviews in 5 days" claim can't be checked, and the full doc is only sent after a comment, with no public copy found.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Resume roast: paste your resume and ask Claude to act as a hiring manager at a top company. Have it say what is weak, unclear, likely to get you rejected in 10 seconds, and missing, with no sugarcoating.
+2. JD decoder: paste the job description and your resume. Ask for the top 10 skills and keywords, then a map of each against your resume showing matches, gaps, and exact phrases to add.
+3. Bullet rewriter: rewrite your bullets as 'Accomplished X by doing Y, resulting in Z', tailored to the job description. Ask for realistic metrics where numbers are missing, and check them against what you actually did.
+4. Role-specific prep: paste the job description, resume and skills. Ask for 2 portfolio projects buildable in 2-3 days with a GitHub README, plus 2 free or cheap certifications, each with a resume line and an interview talking point.
+5. Skills gap fixer: paste the job description and resume and say you don't meet every requirement. Ask for the exact gaps, 2-3 micro-projects or certifications you can finish in 2 weeks, and a rewritten summary that positions you as a fast learner.
+
+### Not found
+
+The full prompt doc, which is only sent after commenting PROMPTS. I didn't search the web because the post already gives the prompt content. I found no vault notes on this post or creator.

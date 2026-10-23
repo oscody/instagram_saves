@@ -19,3 +19,12 @@ Written by claude-haiku-5-5.
 
 Weekend vibes provided by yours truly…
 Full Mix in Bio.
+
+## Research
+
+* Verdict: Nothing to find. This is a DJ mix reel (music entertainment). The full mix is only linked in the creator's bio, and the post has no public URL, so I did not search.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The bio link to the full mix (YouTube/SoundCloud) is not in the post text. I did not search for it.

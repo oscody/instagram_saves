@@ -26,3 +26,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Africas youngest BILLIONAIRE 🤯 I interviewed business mogul Iyinoluwa Aboyeji in Nigeria and I asked him how he got RICH! I asked him the secret to scaling his billion dollar companies and the difference in doing business in America versus Nigeria. Lastly, I asked him the best advice he’d give the younger generation today. #wealth #entrepreneur #financialfreedom #motivation
+
+## Research
+
+* Verdict: Partly valid. Iyinoluwa Aboyeji is a real founder who co-founded Andela and Flutterwave, both valued at over $1B. The "Africa's youngest billionaire" caption is overstated, because the companies were valued at $1B+ but his personal net worth isn't reported at that level. I did not open any sources, so this rests on general knowledge.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The vault had no matching notes. I ran no web searches and did not open the reel or any other source, so the claims about Aboyeji's companies and wealth are unverified. This is an interview with no downloadable resource.

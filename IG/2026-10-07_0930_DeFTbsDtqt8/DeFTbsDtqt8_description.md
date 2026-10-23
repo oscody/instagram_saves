@@ -23,3 +23,21 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: dubshowcase.com
+
+## Research
+
+* Verdict: Nothing to find. The post is a Jamaican proverb of the day, a cultural phrase card, with no tool or guide behind it. The proverb is real Patois, roughly "the ghost knows whom to scare". The creator's link goes only to a Linktree of events and social accounts.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Dubshowcase Linktree (linktr.ee)](https://linktr.ee/dubshowcase): page, in the post, verified, high confidence. dubshowcase.com redirects here. It lists the creator's events and social accounts and has nothing on proverbs.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition  ideas by codex.md`: Lists this post as cultural inspiration for an original game with Jamaican ghost imagery.
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Suggests the dubshowcase proverb cards as Patois flavor text for a Ludi mixed reality game, for example on a capture or a roll of six.
+
+### Not found
+
+No standalone public page for this proverb card on dubshowcase's site. I did not search further.

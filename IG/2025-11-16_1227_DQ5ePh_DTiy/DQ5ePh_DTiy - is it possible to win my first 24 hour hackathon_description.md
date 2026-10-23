@@ -28,3 +28,12 @@ is it possible to win my first 24 hour hackathon with my mind?
 Also if you want the code we developed comment “GitHub” and I’ll send it over. 
 
 #engineering #engineeringstudents #hackathon
+
+## Research
+
+* Verdict: Unresolved. The code is only sent by comment ("GitHub") and I found no public copy. The post is a personal hackathon story; its claims (EEG game, 7th of 135 teams) can't be checked.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Not found
+
+The creator's repo for the EEG mind-control Monopoly game. One web search returned only unrelated EEG projects (e.g. PolyCortex MindPong), which I did not treat as matches. The vault has no notes on it.

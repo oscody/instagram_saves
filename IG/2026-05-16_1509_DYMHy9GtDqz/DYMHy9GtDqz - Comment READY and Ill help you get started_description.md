@@ -39,3 +39,16 @@ The real insight is barrier removal. When setup becomes easy, adoption scales fa
 A reminder that simplifying access can unlock entire industries.
 —
 🎯 I share clever product and business ideas from around the world. Follow @dailyideasguy for more.
+
+## Research
+
+* Verdict: Partly valid. The product is probably Heliatek's stick-on solar film (HeliaSol/HeliaFilm), and the no-drilling claim holds. The post never names it, and the "comment READY" offer is only a lead-generation hook with no public resource. I did not open Heliatek's site, so nothing is marked verified.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Heliatek (HeliaSol / HeliaFilm) (heliatek.com)](https://www.heliatek.com/en/): product, found by search, not opened, medium confidence. Search results describe this German (Dresden) firm's organic solar film as glued onto surfaces without drilling or mounting frames.
+
+### Not found
+
+The post doesn't name the product, so Heliatek is my inference from search results. I did not open its pages. The material promised for commenting READY has no public copy.

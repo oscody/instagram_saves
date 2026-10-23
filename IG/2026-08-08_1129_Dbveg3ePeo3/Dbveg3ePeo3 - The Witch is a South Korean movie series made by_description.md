@@ -22,3 +22,17 @@ The Witch is a South Korean movie series made by director Park Hoon-jung, about 
 The Witch: Part 2. The Other One (2022)
 
 #thewitch #마녀 #마녀2 #koreanmovie #actionmovie
+
+## Research
+
+* Verdict: Partly valid. This is a fan reel with no resource to use. The caption's main claim, that Part 3 is not officially confirmed, matches what I found. I couldn't verify its other details (the Tyrant release dates, the two-million ticket figure, or the director's trilogy comments) from sources I opened.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Searched the web for Part 3 news; found no official announcement.
+2. Did not find the vault holding anything on this post.
+
+### Not found
+
+No official source confirming or denying The Witch: Part 3, and no primary source for the director's trilogy statement or the Tyrant details. I did not open any pages. The search results were low quality and I did not check the vault by Grep.

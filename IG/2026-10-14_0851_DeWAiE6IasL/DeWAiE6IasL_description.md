@@ -40,3 +40,22 @@ Follow @tuba.captures for more
 .
 
 #fypシ #explorepage✨ #computervision #threejs #ai
+
+## Research
+
+* Verdict: Unresolved. The reel's code is only given out after commenting "Code", and I found no public copy of the mind-map project. The technique itself (MediaPipe hand tracking with Three.js) is plausible and has public examples.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [threejs-handtracking-101 (github.com)](https://github.com/collidingScopes/threejs-handtracking-101): repo, found by search, not opened, low confidence. A similar MediaPipe + Three.js pinch-gesture demo, not the creator's mind-map project.
+* [Codrops: 3D hand controller with webcam, MediaPipe and Three.js (tympanus.net)](https://tympanus.net/codrops/tag/hand-tracking): guide, found by search, not opened, low confidence. A tutorial on the same stack, listed in search results; I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - competition  ideas by codex.md`: Lists the reel as a webcam hand-controlled spatial graph reference, not an immersive Meta app.
+* Vault: `ZAIHub/search - competition ideas by claude.md`: Proposes a hand-tracked 3D Obsidian vault graph for the Productivity track. Notes it is a new codebase.
+
+### Not found
+
+The creator's project links, which are sent only after a "Code" comment. I did not open the vault notes, and a search for the creator's GitHub or demo found nothing.

@@ -29,3 +29,12 @@ Written by claude-haiku-5-5.
 How I’m building a speed skate system in “Erased” like “Alita: Battle Angel”
 
 #Erased #GameDev #IndieGame #SpeedSkate #AlitaBattleAngel
+
+## Research
+
+* Verdict: Nothing to find. This is a developer's devlog reel about their own game, Erased. It points to no public resource, and the steps are general technique. I found nothing on the web or in the vault.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The post doesn't name the motion capture app. I found no public page, repo or script for Erased or its skate system. The vault has no mention of the creator or the game.

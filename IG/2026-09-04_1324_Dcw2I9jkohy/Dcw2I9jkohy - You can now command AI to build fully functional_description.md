@@ -38,3 +38,27 @@ Comment “AI” to get to get the link 🚀
 Follow @globalaiforce for daily AI updates
 
 #GameDev #Unity3D #IndieDev #ClaudeAI #AITools
+
+## Research
+
+* Verdict: Valid. The post matches IvanMurzak's open-source Unity-MCP: 70+ tools, runtime support, custom C# tools, and Claude and Cursor support. The link is public, so you don't need to comment. "10x speed" is unsupported marketing.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Unity-MCP (IvanMurzak), AI Game Developer (github.com)](https://github.com/IvanMurzak/Unity-MCP): repo, found by search, verified, medium confidence. The README lists 70+ built-in tools, runtime use in compiled games, custom C# tools via attributes, and Claude and Cursor support, which matches the caption. I did not match it to the reel's visuals.
+* [MCP for Unity (CoplayDev) (github.com)](https://github.com/CoplayDev/unity-mcp): repo, found by search, not opened, low confidence. A popular alternative with a similar name, but its README lists 47 tools, so it fits the post less well.
+
+### Key steps
+
+1. Install the plugin: `openupm add com.ivanmurzak.unity.mcp`, or import the .unitypackage installer, or run `npm i -g unity-mcp-cli` then `unity-mcp-cli install-plugin`.
+2. Keep the Unity project path free of spaces.
+3. Pick an MCP-capable agent (Claude Code is recommended; Cursor and others work).
+4. In Unity open Window/AI Game Developer and click Auto-generate skills, or configure MCP manually.
+5. Prompt the agent to create or modify scenes, such as objects, shaders or hierarchy.
+6. For custom actions: mark a class with [AiToolType] and a method with [AiTool], and add Description attributes.
+7. For runtime in a built game: call UnityMcpPluginRuntime.Initialize, register tools with WithToolsFromAssembly, then call Connect. Runtime registers no tools by default.
+
+### Not found
+
+I did not confirm which repo the reel shows. IvanMurzak/Unity-MCP is the best fit by features, and the README header in the frames wasn't checked.

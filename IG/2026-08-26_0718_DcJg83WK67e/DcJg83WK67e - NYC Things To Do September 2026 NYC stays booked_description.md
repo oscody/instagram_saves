@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 NYC Things To Do September 2026! NYC stays booked and busy. Save this for things happening around the city this September 🍂🗽
 
 #nyc #nycthingstodo #newyorkcity #thingstodonyc
+
+## Research
+
+* Verdict: Nothing to find. The reel is a month-long list of NYC events with no single link or resource. The list is from September 2026, which has already ended, so it has no use now. I did no web search and found no vault notes on it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not check the individual event dates or details. The vault search returned no notes on the post or its creator.

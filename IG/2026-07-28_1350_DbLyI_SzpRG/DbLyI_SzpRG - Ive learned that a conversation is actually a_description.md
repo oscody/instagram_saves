@@ -35,3 +35,16 @@ By now, we should be comfortable enough in the conversations for me to start lig
 These questions are still great even when I'm not approaching someone romantically. 
 
 Save this post to never stress about what to ask your crush in conversations again.
+
+## Research
+
+* Verdict: Partly valid. The post is a simple conversation framework with no external resource. The staged order is common advice, but it rests on the creator's personal experience and has no research behind it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - dating tips - instagram saves.md`: Already has this post under 'Interview mode', with all five stages and their example questions, plus related conversation-starter notes.
+
+### Not found
+
+No separate resource exists. I did not search the web, because the post and the vault note already hold the full content.

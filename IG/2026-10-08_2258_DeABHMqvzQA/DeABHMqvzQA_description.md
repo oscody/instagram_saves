@@ -29,3 +29,8 @@ Who took the Abu Dhabi Riddim? Produced by @trackstarr
 8 Bounce & Shake- @blakrynomuzic 
 9.Naa Chubble Nobody - @munga4evahonorable 
 10. Birthday - @jahvillani
+
+## Research
+
+* Verdict: Nothing to find. This is a music playlist reel: a DJ's list of 10 dancehall tracks on the Abu Dhabi Riddim. It has no tool, guide or other resource to look up. I did no searching.
+* Checked: 2026-10-22 by claude-sonnet-5-5

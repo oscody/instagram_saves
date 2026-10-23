@@ -23,3 +23,12 @@ Trying VEGAN FOOD at HAAM Caribbean Plant Cuisine!
 COMMENT “YUM” or LINK IN BIO for the free stuff!
 
 #fyp #veganfoodlovers #veganfoodspot #williamsburg #nycfoodie
+
+## Research
+
+* Verdict: Nothing to find. This is a restaurant review reel (food, with a giveaway prompt in the caption). It has no tool, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "free stuff" offer is only available by commenting "YUM" or through the creator's link in bio. I did not search for it.

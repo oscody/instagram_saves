@@ -30,3 +30,16 @@ Apply using the links on the slides or at bandana.com/b/wcnyc
 #careersuccess #careerservices #gotocollege #internship #myfirstjob #workforcedevelopment
 #careertraining #youthprograms #adulteducation #jobposting #jobpostings
 #nycjobs #jobopenings #jobsearch #hiringnow
+
+## Research
+
+* Verdict: Partly valid. The post is a weekly NYC job roundup that points to bandana.com/b/wcnyc. I couldn't open that page, so I couldn't check the listings. The Aug 21-28 listings were time-limited and are likely stale now.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Bandana board: Workers Club NYC (bandana.com)](https://bandana.com/b/wcnyc): page, in the post, not opened, low confidence. This is the link in the post's caption and source. WebFetch refused bandana.com, and a search found no page for it.
+
+### Not found
+
+I couldn't open bandana.com/b/wcnyc, so the individual listings (NY State Police trooper, security officer trainee, Bronx EOC programs) and their pay figures are unchecked. The original carousel slides are the only place the links are given. The repost's source account @workersclubnyc has no public copy that I found. I also found no tie between "Workers Club NYC" and Workers Club of America in Rockville Centre.

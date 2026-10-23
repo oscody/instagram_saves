@@ -27,3 +27,12 @@ Shoes - @asos_man
 Glasses - @officialbelvoir 
 
 Details in bio for all styling/sourcing enquiries 📲
+
+## Research
+
+* Verdict: Nothing to find. This is a men's outfit reel. The caption only credits brands (Daily Paper, ASOS, Boohoo Man, Zara Man, Belvoir). It has no single resource, guide or claim to check.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The "details in bio" styling and sourcing enquiries are a service offered by the creator. I did not search for them.

@@ -45,3 +45,24 @@ Claude Code now makes up 4% of all public GitHub commits.
 This CLAUDE.md template turns AI from a chatbot into a fleet of senior engineers working in parallel on your project.
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Partly valid. The template exists publicly and matches the slides. The attribution to Boris Cherny looks secondhand: it appears to be a community file built from his posts, and I found no source from him.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Boris Cherny's CLAUDE.md (gist by hqman) (gist.github.com)](https://gist.github.com/hqman/e29cb6386c539d795767e8c3fd2c959b): page, found by search, verified, medium confidence. Its headings match the carousel exactly: Plan Node Default, Subagent Strategy, Self-Improvement Loop, Verification Before Done, Demand Elegance, Autonomous Bug Fixing, Task Management, Core Principles. The gist has no author byline tying it to Cherny.
+* [Claude Code creator workflow CLAUDE.md (MindWired AI deep dive) (mindwiredai.com)](https://mindwiredai.com/2026/03/25/claude-code-creator-workflow-claudemd/): guide, found by search, not opened, low confidence. A secondary blog post that treats the file as Cherny's. I only saw it in search results and did not open it.
+
+### Key steps
+
+1. Copy the gist's contents into a CLAUDE.md at your project root, or into ~/.claude/CLAUDE.md to apply it everywhere.
+2. Create a tasks/ folder with todo.md and lessons.md. The template tells Claude to write plans and lessons there.
+3. After each correction, tell Claude: "Update your CLAUDE.md so you don't make that mistake again." The template itself routes lessons to tasks/lessons.md.
+4. Edit the file to fit your project. Treat it as a starting point, not an official Anthropic file.
+
+### Not found
+
+I found no first-party post from Boris Cherny publishing this exact file. I did not check the caption's other claims: 10–15 parallel sessions, no SQL in 6 months, and 4% of GitHub commits. The vault has no note on this resource.

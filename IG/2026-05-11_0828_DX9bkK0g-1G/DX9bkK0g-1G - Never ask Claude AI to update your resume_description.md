@@ -53,3 +53,21 @@ And started building something I couldn’t be laid off from.
 If you don’t want to wait until a layoff forces your hand, follow @layup.digital. You are exactly who I help. 
 
 #careertransition #AItools #layoff #over40 #jobsearch
+
+## Research
+
+* Verdict: Partly valid. The post is a short prompt list with a coaching pitch. The prompts are reasonable reflective questions, but "never ask Claude to update your resume" is overstated, and the post gives no evidence for the claims. The post says five questions but lists them as six points, because point 1 is just the warning.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Key steps
+
+1. Give Claude your work history or resume as context.
+2. Ask: "Based on this experience, what problems am I uniquely qualified to solve?"
+3. Ask: "What industries outside my current one would value these specific skills?"
+4. Ask: "What does my career trajectory say about the type of leader I am?"
+5. Ask: "Where is the gap between how I describe myself and how the market sees me?"
+6. Ask: "What would I need to add or shift to be seen as a consultant, not a candidate?"
+
+### Not found
+
+I did not search the web or the vault, because the post is a short prompt list and the caption already contains all of it. The vault listing found no related notes. I did not check the creator's @layup.digital profile or any paid offer.

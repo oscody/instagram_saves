@@ -62,3 +62,20 @@ Here are the brief descriptions of the tools names above. More detail can be fou
 
 Hope this helps.
 We’re building and scaling a venture studio and documenting the whole thing as we go :)
+
+## Research
+
+* Verdict: Partly valid. The tools are real, well-known products, but the full list and playbook is sent only after a comment, so the post works as lead-gen. The "months to days" claim is generic. I couldn't verify BuildThisNow.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Namelix (namelix.com)](https://namelix.com/): tool, in the vault, not opened, high confidence. The vault's AI Tools note already lists Namelix, which the post names for AI brand names.
+
+### Already in the vault
+
+* Vault: `4. Archives/AI/Learning - AI Tools.md`: Has the Namelix link only; none of the other tools from this post.
+
+### Not found
+
+The playbook is sent by comment ("STARTUP") and I found no public copy. A search for BuildThisNow returned nothing matching. I did not open the sites for the other tools (Deepsite, Lovable, Supabase, Lemon Squeezy, PostHog, Manychat, Beehiiv, n8n, Expo, Vercel, Clerk, Figma).

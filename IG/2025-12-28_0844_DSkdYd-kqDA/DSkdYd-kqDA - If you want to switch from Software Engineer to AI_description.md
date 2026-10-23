@@ -37,3 +37,16 @@ AI engineers build cars people actually use.
 Follow @codewithharshad for dev and AI content 
 
 #ai #softwareEngineer #coding
+
+## Research
+
+* Verdict: Partly valid. The AI-engineering vs ML-engineering split is a widely accepted idea, but the "no math needed" and "75% is existing skills" figures are the creator's own claims with no source. The guide he mentions isn't publicly findable.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/AI Engineer Roadmap.md`: The user's own AI Engineer roadmap note. I only saw it listed in the vault index and did not open it.
+
+### Not found
+
+The "guide" from the caption is not linked in the post. One web search for the creator's name found nothing from codewithharshad. It is probably handed out through his profile, a comment or a DM. I did not open his profile.

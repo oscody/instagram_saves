@@ -56,3 +56,17 @@ The question is not whether AI works.
 The question is whether the economics justify the trillions being invested into it.
 
 Comment “YOUTUBE” and I’ll send you the episode.
+
+## Research
+
+* Verdict: Unresolved. The episode is sent only after a comment ("YOUTUBE"), and I found no public copy. The underlying story (Burry calling the Nvidia–xAI GPU financing "fugazi") is reported, but only by secondary sources I did not open.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Michael Burry Calls Nvidia-xAI GPU Deal Fugazi (aiweekly.co)](https://aiweekly.co/alerts/michael-burry-calls-nvidia-xai-gpu-deal-fugazi): page, found by search, not opened, low confidence. The search snippet describes the Nvidia–xAI deal routed through Apollo and Athene that the post's diagram traces. I did not open the page.
+* [Futuriom: Is Michael Burry right about the Nvidia-xAI deal? (futuriom.com)](https://www.futuriom.com/articles/news/is-michael-burry-right-about-the-nvidia-xai-deal/2026/06): page, found by search, not opened, low confidence. The search snippet says it covers Burry's pension-risk argument about the same deal. I did not open the page.
+
+### Not found
+
+The episode of THE PROFIT DOOR REVIEW. Searches for it and for Nicole Purvy returned nothing, and the post says it is sent by DM after a "YOUTUBE" comment. I did not check Burry's original post or any Apollo or Athene filings. The $2.3 trillion figure is unverified.

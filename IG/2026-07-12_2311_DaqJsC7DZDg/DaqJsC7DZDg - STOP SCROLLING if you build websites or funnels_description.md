@@ -40,3 +40,12 @@ I've put all the secrets from this series into a step-by-step guide. 👇
 App building workshop this Saturday. Comment CLAUDE to get tickets. 🎟️
 
 #AI #WebsiteDesign #TechHacks #DigitalMarketing #AItools #Entrepreneur #SaaS #WebDevelopment #FunnelHacks #SecretTech #AIEmpire #ClaudeAI #WebsiteBuilder #CodeSecrets #MarketingTips
+
+## Research
+
+* Verdict: Unresolved. The prompt isn't shown in the post. The creator gives it out only after a comment ("Clod"), and I found no public copy. The claim of copying "the exact code" of any site is also overstated: an AI can scrape a site's front-end HTML, CSS and JS, but it can't get server-side code or funnel logic. Copying a site this way can also breach copyright and the platforms' terms.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The prompt and the step-by-step guide. They are gated behind a comment, and I did not search the web for a public copy. I searched the vault for the creator and series name and found nothing.

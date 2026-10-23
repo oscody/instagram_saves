@@ -29,3 +29,22 @@ Get Jupi Hydration 👇
 https://amzn.to/4sA422w
 
 #womenover40 #antiage #usahealth #healthtips #unitedstates
+
+## Research
+
+* Verdict: Promo. The reel is a simple spice tea recipe with an affiliate link for Jupi Hydration. Its health claims (killing intestinal worms, clearing cystic acne) have no good evidence behind them.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Jupi Hydration (Amazon affiliate link) (amzn.to)](https://amzn.to/4sA422w): product, in the post, not opened, low confidence. The link is in the post caption. I did not open it, so I can't say what product it leads to.
+
+### Key steps
+
+1. Add whole cloves, chopped limes, a cinnamon stick, a few slices of fresh ginger and a pinch of turmeric to boiling water.
+2. Simmer for 10 minutes.
+3. Strain into a mug and drink.
+
+### Not found
+
+I did not search the web or open the affiliate link. The vault has no notes on this post. The recipe is ordinary and harmless for most people, but nothing here supports the claims that it kills worms, clears cystic acne or reduces bloating.

@@ -26,3 +26,12 @@ Written by claude-haiku-5-5.
 The one where I cold-emailed my way to my dream 6-figure tax free job.
 
 #ambitiousgirl #fyp #globalleader
+
+## Research
+
+* Verdict: Nothing to find. This is a personal career-story reel with general advice about cold emailing. It has no specific resource, link, or downloadable material, and the vault has no notes on it.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I didn't search the web. The creator's story about Qatar Energy can't be checked, and it is one person's account.

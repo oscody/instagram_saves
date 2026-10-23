@@ -33,3 +33,29 @@ Written by claude-haiku-5-5.
 ## Caption
 
 How to create an AI Agent team with Openclaw and Hermes using the supervisor builder stack on my laptop powered by @snapdragonofficial #ai #tech #sponsoredbysnapdragon #snapdragonxseries
+
+## Research
+
+* Verdict: Partly valid. OpenClaw and Hermes Agent are real, and people do run them side by side. The reel is a Snapdragon-sponsored demo, and its "snap" guide goes out only by comment, so I found no public copy. I couldn't confirm the supervisor/builder setup or details like "CloudHub" (probably ClawHub).
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Hermes Agent (Nous Research) (github.com)](https://github.com/NousResearch/hermes-agent): repo, found by search, not opened, high confidence. The OpenClaw docs comparison page links this repo as the Hermes source; I did not open the repo itself.
+* [OpenClaw and Hermes Agent comparison (docs.openclaw.ai)](https://docs.openclaw.ai/start/why-openclaw/openclaw-and-hermes-agent): page, found by search, verified, medium confidence. I opened it. It compares the two projects but gives no install steps and doesn't describe a supervisor/executor setup.
+
+### Already in the vault
+
+* Vault: `ZAIHub/search - claudex-loop - similar ai agent workflows.md`: Lists this reel as a weaker match for Claudex Loop. It says the reel is about scheduled and parallel assistant tasks, not code review.
+
+### Key steps
+
+1. Install OpenClaw, pick a model and connect Telegram.
+2. Pick skills (the reel says "CloudHub"; probably ClawHub) for email, scheduling and research.
+3. Install Hermes Agent from github.com/NousResearch/hermes-agent and set its model.
+4. Have OpenClaw plan and delegate to Hermes, and have Hermes save finished tasks as skills.
+5. Schedule a daily 9am inbox and calendar briefing to Telegram.
+
+### Not found
+
+The "snap" beginner guide is sent only by comment, and I found no public copy. I did not find the OpenClaw install docs or confirm the "CloudHub" name or the model choices (GPT 5.5, Sonnet 4.6).

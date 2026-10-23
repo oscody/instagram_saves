@@ -29,3 +29,8 @@ Semiconductor engineering is a great example. As AI infrastructure expands, so d
 Which career do you think will be hardest for AI to replace? 
 
 #ai #technology #careers #engineering #robotics
+
+## Research
+
+* Verdict: Nothing to find. The post is a general opinion carousel about careers tied to hardware that AI may struggle to replace. It links to no tool, guide or other resource, and its claim is a loose prediction.
+* Checked: 2026-10-22 by claude-sonnet-5-5

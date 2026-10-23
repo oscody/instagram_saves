@@ -25,3 +25,7 @@ Written by claude-haiku-5-5.
 
 Bleach taught me so much about life #bleachanime #bleachmanga #zanpakuto #animes #selfimprovement
 
+## Research
+
+* Verdict: Nothing to find. This is a motivational talk that uses Bleach as an example. It points to no tool, repo, product or download. The advice is to name your goal specifically.
+* Checked: 2026-10-22 by claude-sonnet-5-5

@@ -27,3 +27,16 @@ Written by claude-haiku-5-5.
 
 they mapped the soul better than anyone 🤯 #philosophy #history #africa
 
+## Research
+
+* Verdict: Partly valid. Okra (kra), sunsum and mogya are real Akan concepts, but scholars don't describe them as "three separate souls". Gyekye and Wiredu treat the person as okra, sunsum, body and more, with mogya (mother's blood line) and ntoro (father's spirit line) as kinship components. "Moga" is a misspelling of mogya.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Akan Philosophy of the Person (Stanford Encyclopedia of Philosophy) (plato.stanford.edu)](https://plato.stanford.edu/eNtRIeS/akan-person/): page, found by search, not opened, medium confidence. Appeared in search results as the standard scholarly account of okra, sunsum and mogya. I did not open it.
+* [Kra (mythology) – Wikipedia (en.wikipedia.org)](https://en.wikipedia.org/wiki/Kra_(mythology)): page, found by search, not opened, medium confidence. Search results describe the kra as the soul of divine origin from Nyame. I did not open the page.
+
+### Not found
+
+The reel names no source. I did not open the pages above, so the scholarly claims come from search snippets. Nothing in the vault matched.

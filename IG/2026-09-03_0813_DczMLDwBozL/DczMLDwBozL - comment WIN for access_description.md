@@ -24,3 +24,12 @@ Written by claude-haiku-5-5.
 comment WIN for access
 
 #SubmitTember
+
+## Research
+
+* Verdict: Unresolved. The app is only given out after commenting WIN. I found no public copy, app name or source for the "$21B closing in September" figure.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+The app's name and link. The post doesn't name it, and my vault and web searches (creator handle, #SubmitTember) found nothing. The "$21B closing in September" figure and the 1st/15th/30th deadline pattern are unchecked. The creator's profile wasn't opened.

@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 They made this for us millennials who watched anime in 80s & 90s #nerd #anime #manga #comics #sekiro
+
+## Research
+
+* Verdict: Nothing to find. This is a reaction video to an anime trailer, so it has no resource, how-to or checkable claim. The caption's line about millennials is the creator's opinion.
+* Checked: 2026-10-22 by claude-sonnet-5-5

@@ -36,3 +36,16 @@ Shoutout to @mavgpt for the original video and the prompt 🙌🏻
 Follow @justyn.ai for more!
 
 #ai #chatgpt
+
+## Research
+
+* Verdict: Partly valid. The exact prompt is only sent by comment, and I found no public copy. The trend is real and similar public prompts exist, but the scores come from pattern recognition, not measurement.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [Facial Aesthetics Analysis Report (God of Prompt) (godofprompt.ai)](https://godofprompt.ai/prompt-library/facial-aesthetics-analysis-report): prompt, found by search, not opened, low confidence. I opened it. It is a similar facial aesthetics report prompt (contour, metrics, grooming advice, harmony score), but it takes a text description instead of a selfie, so I can't tie it to the creator's prompt.
+
+### Not found
+
+The creator's actual prompt (sent by comment or DM) and anything from @mavgpt's original video. I found no public copy.

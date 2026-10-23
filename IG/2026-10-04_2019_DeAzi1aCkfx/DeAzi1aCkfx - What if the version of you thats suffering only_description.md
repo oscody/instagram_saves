@@ -33,3 +33,12 @@ Maybe it’s “Which version of me am I continuously observing?”
 Save this for the next time your mind starts pulling you backward.
 
 quantum physics, quantum mechanics, consciousness, reality, human psychology, observation effect, alternate realities, quantum theory, future technology, philosophy, existence, mind
+
+## Research
+
+* Verdict: Not valid. The post is a motivational quantum-flavored meme with no resource. Its claim, that observing a suffering self makes it exist, misuses the quantum "observer effect". In physics, observation means a physical interaction with a system. It doesn't mean conscious attention creating reality.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+No resource to find. I did not search. The vault had no matching notes.

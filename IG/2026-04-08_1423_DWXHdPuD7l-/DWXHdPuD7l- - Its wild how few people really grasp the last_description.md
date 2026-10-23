@@ -27,3 +27,12 @@ Written by claude-haiku-5-5.
 It's wild how few people really grasp the last three years of progress. 
 
 #ai #claudecode
+
+## Research
+
+* Verdict: Nothing to find. The reel is an opinion talk with a hand-drawn diagram. It names no specific repo, guide or product beyond Codex and Claude Code, so there is nothing to look up. The claim that CLI agents can replace most custom agents is a judgment call, not something a source can confirm.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Not found
+
+I did not search the web or the vault. The vault pre-check found no notes on this post or its creator.

@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Source
 
 * Link: tidalforcevr.com
+
+## Research
+
+* Verdict: Promo. The reel advertises a commercial free-roam VR venue in NYC. It makes no claim to check and has no how-to.
+* Checked: 2026-10-23 by claude-sonnet-5-5
+
+### Resources
+
+* [Tidal Force VR (tidalforcevr.com)](https://tidalforcevr.com): product, in the post, verified, high confidence. The site is a free-roam VR venue in NYC with group play for 2–6 players and larger events, matching the group-VR promo.

@@ -46,3 +46,28 @@ How it works:
 Go try it today, it’s genius!
 
 #claudeai #figma #vibecoding #ai #cursor
+
+## Research
+
+* Verdict: Valid. The "LLM Council" is a real, public Claude skill with the same five advisors, anonymous peer review and chairman. The creator's exact guide is gated behind a comment, but a public copy exists. The Stanford claim about AI agreeing too much was not verified.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [tenfoldmarc/llm-council-skill (github.com)](https://github.com/tenfoldmarc/llm-council-skill): repo, found by search, verified, medium confidence. Opened it. It is a Claude Code skill with the same five advisors, anonymous peer review and chairman verdict as the post. I can't confirm it is the creator's exact guide.
+* [automatorsplus/llm-council-skill (github.com)](https://github.com/automatorsplus/llm-council-skill): repo, found by search, not opened, low confidence. Appeared in search results as another packaging of the same idea. I did not open it.
+
+### Key steps
+
+1. Install: git clone the repo into ~/.claude/skills/llm-council, or create that folder and put SKILL.md in it, then restart Claude Code.
+2. Run `claude` in Terminal.
+3. Start your question with a trigger phrase such as 'council this', 'run the council', 'pressure-test this' or 'war room this'. Add plenty of context.
+4. The skill scans your workspace (CLAUDE.md, memory files) and frames a neutral version of the question.
+5. It runs five advisors in parallel: Contrarian, First Principles, Expansionist, Outsider, Executor.
+6. It anonymizes their answers and has them peer-review each other.
+7. The chairman gives the points of agreement and conflict, blind spots, a recommendation and one next step.
+8. You also get an HTML report and a markdown transcript. A run takes about 4 minutes.
+
+### Not found
+
+The creator's own 'STANFORD' guide is sent only after a comment, and I found no public copy of it. The Stanford study the projects cite was not verified. The vault has no note on this post. One vault note, 'Openclaw hub skills', lists a different 'LLM Council' skill for multi-CLI planning.

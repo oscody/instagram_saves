@@ -36,3 +36,26 @@ Written by claude-haiku-5-5.
 Compass is a free Obsidian vault that turns journaling, habits, and planning into one nightly routine. More like this → gittrend.io
 
 #obsidian #journaling #productivity #opensource #notetaking #habits #pkm #github
+
+## Research
+
+* Verdict: Valid. The public GitHub repo exists and matches the post: a free Obsidian vault with journaling, habits, planning, ten bundled plugins, Life OS and Setup.md. The README is public, so no comment or DM is needed. It describes itself as a development candidate, not an accepted public release.
+* Checked: 2026-10-22 by claude-sonnet-5-5
+
+### Resources
+
+* [AgriciDaniel/compass (github.com)](https://github.com/AgriciDaniel/compass): repo, in the post, verified, high confidence. The README quick start matches the post's steps. It also names the ten plugins, Life OS and 00 Dashboards/Setup.md, and uses the MIT license (guide prose is CC BY 4.0).
+
+### Already in the vault
+
+* Vault: `2. Areas/Botstack/Pi/pi todo/search video watch.md`: Only mentions the creator gittrend.io, in a note about a different post (the watch skill). It has nothing on Compass.
+
+### Key steps
+
+1. Download the zip from Releases or clone the repo. The repo root is the vault. It needs Obsidian 1.13.1 or newer.
+2. In Obsidian, choose 'Open folder as vault'.
+3. Click 'Turn off' on the Restricted mode prompt, then run 'Reload app without saving'. This loads the plugins and opens Life OS.
+4. Open '00 Dashboards/Setup.md' and work through its checklist.
+5. Each night, press Ctrl/Cmd+Shift+D for today's note and Ctrl/Cmd+Shift+Q for the questions.
+6. Answer 1 to 10 and write one line under '## Journal'.
+7. Delete the notes tagged 'example' when Setup tells you to.
