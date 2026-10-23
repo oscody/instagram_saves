@@ -19,6 +19,8 @@ knowledge_library/*
 !knowledge_library/topics.json
 !knowledge_library/topics/
 !knowledge_library/groupings/
+!knowledge_library/Account index.md
+!knowledge_library/accounts.json
 ig_automation/playbook/__pycache__/
 ig_automation/playbook/tests/__pycache__/
 ig_automation/playback/__pycache__/
