@@ -1,0 +1,2551 @@
+{
+ "DeAne_MjMoi": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Jo\u00e3o Queiros (ai.joaoqueiros.com)",
+    "who_url": "https://www.ai.joaoqueiros.com",
+    "post_url": "https://www.ai.joaoqueiros.com/blog/self-improving-claude-code-build-framework",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.04701860000000001,
+  "model": "claude-sonnet-5-5"
+ },
+ "DegASWXxIDY": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "MJ Jaindl (AI-Proof Substack) \u2013 Never Hit Claude's Usage Limits",
+    "who_url": "https://jaindl.substack.com",
+    "post_url": "https://jaindl.substack.com/p/never-hit-claudes-usage-limits",
+    "posted": "2026-05-09"
+   },
+   {
+    "platform": "Blog",
+    "who": "DataLLM Lab \u2013 Claude Haiku 5.5 API Routing",
+    "who_url": "https://www.datallmlab.com",
+    "post_url": "https://www.datallmlab.com/blog/claude-haiku-5-5-api-routing.html",
+    "posted": "2026-10-12"
+   },
+   {
+    "platform": "Blog",
+    "who": "eesel AI \u2013 Claude Haiku 5.5 pricing (last edited date)",
+    "who_url": "https://www.eesel.ai/blog",
+    "post_url": "https://www.eesel.ai/blog/claude-haiku-5-5-pricing",
+    "posted": "2026-10-09"
+   },
+   {
+    "platform": "Other",
+    "who": "Anthropic \u2013 Claude Haiku 5.5 model docs (maker's page, no date seen)",
+    "who_url": "https://platform.claude.com",
+    "post_url": "https://platform.claude.com/docs/ja/models/haiku-5-5/overview",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.04906429999999999,
+  "model": "claude-sonnet-5-5"
+ },
+ "Debf2CdhWCE": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "SkillsLLM (HeyCubit/effortless listing)",
+    "who_url": "https://skillsllm.com",
+    "post_url": "https://skillsllm.com/skill/effortless",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0384926,
+  "model": "claude-sonnet-5-5"
+ },
+ "DefIicBgCiv": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Wmedia (wmedia.es)",
+    "who_url": "https://wmedia.es",
+    "post_url": "https://wmedia.es/es/tips/claude-code-doctor-revision-completa",
+    "posted": "2026-07-12"
+   },
+   {
+    "platform": "Blog",
+    "who": "Classmethod (dev.classmethod.jp)",
+    "who_url": "https://dev.classmethod.jp",
+    "post_url": "https://dev.classmethod.jp/en/articles/20260710-cc-updates-v2-1-206/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "ClaudeKit",
+    "who_url": "https://claudekit.io",
+    "post_url": "https://claudekit.io/en/updates/claude-code-2-1-206/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "The Prompt Shelf",
+    "who_url": "https://thepromptshelf.dev",
+    "post_url": "https://thepromptshelf.dev/blog/claude-code-doctor-checkup-command-guide-2026/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "claudeissues.com (GitHub issue mirror)",
+    "who_url": "https://claudeissues.com",
+    "post_url": "https://claudeissues.com/issue/76276-docs-doctor-docs-omit-checked-in-claude-md-trimming-of-codebase-derivable-conten",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Implicator.ai",
+    "who_url": "https://www.implicator.ai",
+    "post_url": "https://www.implicator.ai/anthropic-claude-code-skill-doctor-context-audit/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "OpenClaw Database (video roundup)",
+    "who_url": "https://openclawdatabase.com",
+    "post_url": "https://openclawdatabase.com/news/videos/2026-10-09-claude-code-less-context-system-prompt-cut-doctor-audit-skills/",
+    "posted": "2026-10-09"
+   }
+  ],
+  "cost_usd": 0.0324746,
+  "model": "claude-sonnet-5-5"
+ },
+ "Deb3ZCdgFjW": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Telnyx (ClawdTalk / OpenClaw phone calls)",
+    "who_url": "https://telnyx.com",
+    "post_url": "https://telnyx.com/resources/openclaw-phone-calls",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Deepgram (DeepClaw)",
+    "who_url": "https://deepgram.com",
+    "post_url": "https://deepgram.com/learn/voice-is-now-a-first-class-citizen-in-openclaw",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "SignalWire",
+    "who_url": "https://signalwire.com",
+    "post_url": "https://signalwire.com/blogs/developers/signalwire-claude-code-skill",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "fast.io",
+    "who_url": "https://fast.io",
+    "post_url": "https://fast.io/resources/best-openclaw-skills-ai-receptionist-phone-answering-automation/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "mcp.directory (phone-calls skill, Bland AI)",
+    "who_url": "https://mcp.directory",
+    "post_url": "https://mcp.directory/skills/phone-calls",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "claudskills.com (Ops Voice skill, Bland AI)",
+    "who_url": "https://claudskills.com",
+    "post_url": "https://claudskills.com/skills/ops-voice/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0448922,
+  "model": "claude-sonnet-5-5"
+ },
+ "DeNy_grv_AM": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "The AI Leverage (beehiiv)",
+    "who_url": "https://theaileverage.beehiiv.com",
+    "post_url": "https://theaileverage.beehiiv.com/p/agent-reach-give-your-ai-agent-free-internet-access",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/ai-news/article/2026-10-04-agent-reach-launches-on-github-open-source-cli-grants-ai-agents-zero-fee-internet-access-across-majo",
+    "posted": "2026-10-04"
+   },
+   {
+    "platform": "Blog",
+    "who": "Just Being Resourceful",
+    "who_url": "https://justbeingresourceful.com",
+    "post_url": "https://justbeingresourceful.com/2026/10/16/5-claude-code-plugins-and-skills-to-install-step-by-step/",
+    "posted": "2026-10-16"
+   },
+   {
+    "platform": "Blog",
+    "who": "Level Up Coding (gitconnected)",
+    "who_url": "https://levelup.gitconnected.com",
+    "post_url": "https://levelup.gitconnected.com/the-ai-tool-that-promises-1-6-billion-free-claude-tokens-and-why-you-shouldnt-touch-it-a63c687f7d91",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Viblo",
+    "who_url": "https://viblo.asia",
+    "post_url": "https://viblo.asia/p/omniroute-la-gi-ai-gateway-291-providers-so-voi-9router-thi-sao-k74a9pOk4eO",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0755421,
+  "model": "claude-sonnet-5-5"
+ },
+ "DeUTTa3thQ4": {
+  "posts": [],
+  "cost_usd": 0.0391173,
+  "model": "claude-sonnet-5-5"
+ },
+ "DeRM7RVjZLw": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "SkillsLLM (skill directory listing)",
+    "who_url": "https://skillsllm.com",
+    "post_url": "https://skillsllm.com/skill/agricidaniel-compass",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.03807,
+  "model": "claude-sonnet-5-5"
+ },
+ "DcmuyLFJtCp": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "arXiv (Jake Van Clief & David McDermott, paper)",
+    "who_url": "https://arxiv.org/",
+    "post_url": "https://arxiv.org/abs/2603.16021",
+    "posted": "2026-03-17"
+   },
+   {
+    "platform": "Other",
+    "who": "RinDig (GitHub, maker repo)",
+    "who_url": "https://github.com/RinDig",
+    "post_url": "https://github.com/RinDig/Interpretable-Context-Methodology",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "RinDig (GitHub, icm-architect skill)",
+    "who_url": "https://github.com/RinDig",
+    "post_url": "https://github.com/RinDig/icm-architect",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Skool: cliefnotes community",
+    "who_url": "https://www.skool.com/cliefnotes",
+    "post_url": "https://www.skool.com/cliefnotes/sharing-my-notes-on-jakes-method-icm",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Skool: cliefnotes community",
+    "who_url": "https://www.skool.com/cliefnotes",
+    "post_url": "https://www.skool.com/cliefnotes/a-living-icm-system-folder-structure-as-interface?p=409fec54",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "AI Tinkerers Columbus (talk listing)",
+    "who_url": "https://columbus.aitinkerers.org/",
+    "post_url": "https://columbus.aitinkerers.org/talks/rsvp__HgYuH0-pAY",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.043683700000000006,
+  "model": "claude-sonnet-5-5"
+ },
+ "DePtyBoAOPd": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Vercel Changelog (Andrew Qu) \u2013 maker announcement of skills CLI and skills.sh",
+    "who_url": "https://vercel.com/changelog",
+    "post_url": "https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem",
+    "posted": "2026-01-20"
+   },
+   {
+    "platform": "Blog",
+    "who": "Webreactiva \u2013 Qu\u00e9 es skills.sh y c\u00f3mo usar el CLI npx skills",
+    "who_url": "https://www.webreactiva.com",
+    "post_url": "https://www.webreactiva.com/blog/skills-sh",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Daniel Vaughan \u2013 Codex CLI and Vercel Skills CLI guide",
+    "who_url": "https://codex.danielvaughan.com",
+    "post_url": "https://codex.danielvaughan.com/2026/05/31/codex-cli-vercel-skills-cli-npx-skills-open-agent-skills-ecosystem/",
+    "posted": "2026-05-31"
+   },
+   {
+    "platform": "Blog",
+    "who": "Creative Tim \u2013 What are AI agent skills (mentions skills.sh / find-skills)",
+    "who_url": "https://creative-tim.com/blog",
+    "post_url": "https://creative-tim.com/blog/ai-agent/what-are-ai-agent-skills-a-practical-guide-to-skillmd",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0487098,
+  "model": "claude-sonnet-5-5"
+ },
+ "Dd15NcHvlNl": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Pasquale Pillitteri",
+    "who_url": "https://pasqualepillitteri.it",
+    "post_url": "https://pasqualepillitteri.it/fr/news/18130/utiliser-claude-api-prompt-audit-opus-5-5",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0251549,
+  "model": "claude-sonnet-5-5"
+ },
+ "Dd35zfeq9bR": {
+  "posts": [],
+  "cost_usd": 0.0427816,
+  "model": "claude-sonnet-5-5"
+ },
+ "DdZnbGqMfqO": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Chris Lema",
+    "who_url": "https://chrislema.com",
+    "post_url": "https://chrislema.com/how-to-use-claude-code-skills",
+    "posted": "2026-04-13"
+   },
+   {
+    "platform": "Blog",
+    "who": "Analytics Vidhya",
+    "who_url": "https://www.analyticsvidhya.com",
+    "post_url": "https://www.analyticsvidhya.com/blog/2026/08/best-claude-marketing-skills",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/ai-news/article/2026-09-10-corey-haines-releases-marketingskills-specialized-marketing-capabilities-for-claude-code-and-ai-agen",
+    "posted": "2026-09-10"
+   },
+   {
+    "platform": "Blog",
+    "who": "AI EngineerGuide",
+    "who_url": "https://aiengineerguide.com",
+    "post_url": "https://aiengineerguide.com/til/marketing-skills-for-claude-code/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Width.ai",
+    "who_url": "https://www.width.ai",
+    "post_url": "https://www.width.ai/post/claude-skills-for-marketing",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Lessie AI",
+    "who_url": "https://lessie.ai",
+    "post_url": "https://lessie.ai/blog/claude-skills-for-marketing",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "TripleDart",
+    "who_url": "https://www.tripledart.com",
+    "post_url": "https://www.tripledart.com/playbooks/corey-haines-claude-skills-marketing",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "CSDN (aicoding)",
+    "who_url": "https://aicoding.csdn.net",
+    "post_url": "https://aicoding.csdn.net/6a5dd62910ee7a33f28f48a8.html",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/ai-news/article/2026-10-06-corey-haines-launches-marketing-skills-repository-for-claude-code-and-autonomous-ai-agents",
+    "posted": "2026-10-06"
+   }
+  ],
+  "cost_usd": 0.046892,
+  "model": "claude-sonnet-5-5"
+ },
+ "DcT55p0Rnhn": {
+  "posts": [],
+  "cost_usd": 0.0375894,
+  "model": "claude-sonnet-5-5"
+ },
+ "DdmSyAMN5hm": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Medium (VTS blog)",
+    "who_url": "https://medium.com/vts-blog",
+    "post_url": "https://medium.com/vts-blog/the-claude-code-setup-step-youre-probably-skipping-c5b85d8a43a1",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards AI",
+    "who_url": "https://pub.towardsai.net",
+    "post_url": "https://pub.towardsai.net/claude-code-is-a-mess-until-you-install-this-official-plugin-f94e7cac723f",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "unimon.co.th",
+    "who_url": "https://unimon.co.th",
+    "post_url": "https://unimon.co.th/en/blog/claude-code-official-plugins",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "hashout.jp",
+    "who_url": "https://hashout.jp",
+    "post_url": "https://hashout.jp/?p=248",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "origami.sa",
+    "who_url": "https://origami.sa",
+    "post_url": "https://origami.sa/fr/blog/claude-code-setup-official-guide/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Aident AI",
+    "who_url": "https://aident.ai",
+    "post_url": "https://aident.ai/blog/use-claude-code-setup-plugin-safely",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "DEV Community (creeta)",
+    "who_url": "https://dev.to/creeta",
+    "post_url": "https://dev.to/creeta/react-detection-playwright-mcp-payments-security-subagent-2fk",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Zenn (shirochan)",
+    "who_url": "https://zenn.dev/shirochan",
+    "post_url": "https://zenn.dev/shirochan/articles/1a9c4b51f4ef7b",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Claude Directory",
+    "who_url": "https://claudedirectory.org",
+    "post_url": "https://claudedirectory.org/plugins/claude-code-setup",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0464122,
+  "model": "claude-sonnet-5-5"
+ },
+ "DaojVuSNKno": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "OpenAI Developer Community",
+    "who_url": "https://community.openai.com",
+    "post_url": "https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "GIGAZINE",
+    "who_url": "https://www.gigazine.net",
+    "post_url": "https://www.gigazine.net/gsc_news/en/20260331-claude-code-codex-plugin",
+    "posted": "2026-03-31"
+   },
+   {
+    "platform": "Blog",
+    "who": "Daniel Vaughan (codex.danielvaughan.com)",
+    "who_url": "https://codex.danielvaughan.com",
+    "post_url": "https://codex.danielvaughan.com/2026/03/31/codex-plugin-cc-cross-model-bridge/",
+    "posted": "2026-03-31"
+   },
+   {
+    "platform": "Blog",
+    "who": "azukiazusa.dev",
+    "who_url": "https://azukiazusa.dev",
+    "post_url": "https://azukiazusa.dev/en/blog/claude-code-codex-plugin",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Zenn (zenchaine)",
+    "who_url": "https://zenn.dev/zenchaine",
+    "post_url": "https://zenn.dev/zenchaine/articles/codex-plugin-for-claude-code?locale=en",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Valletta Software",
+    "who_url": "https://vallettasoftware.com",
+    "post_url": "https://vallettasoftware.com/blog/post/run-gpt-5-6-in-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Wavect",
+    "who_url": "https://wavect.io",
+    "post_url": "https://wavect.io/blog/claude-code-gpt-5-6-sol-cliproxyapi/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0496213,
+  "model": "claude-sonnet-5-5"
+ },
+ "DdWt-Y6x2Y9": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Christopher Penn",
+    "who_url": "https://www.christopherspenn.com/",
+    "post_url": "https://www.christopherspenn.com/2026/02/master-your-ai-workflow-the-export-command-you-need-to-know/",
+    "posted": "2026-02"
+   }
+  ],
+  "cost_usd": 0.0415478,
+  "model": "claude-sonnet-5-5"
+ },
+ "Dcwk8hBGDvv": {
+  "posts": [
+   {
+    "platform": "LinkedIn",
+    "who": "Marcin Duchi\u0144ski",
+    "who_url": "https://pl.linkedin.com/in/marcinduchinski",
+    "post_url": "https://pl.linkedin.com/in/marcinduchinski",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Jitendra Zaa",
+    "who_url": "https://www.jitendrazaa.com",
+    "post_url": "https://www.jitendrazaa.com/blog/others/tips/10-claude-code-tips-from-the-creator-boris-cherny-february/",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Push to Prod (Substack)",
+    "who_url": "https://getpushtoprod.substack.com",
+    "post_url": "https://getpushtoprod.substack.com/p/how-the-creator-of-claude-code-actually",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Why AI Man (Substack)",
+    "who_url": "https://whyaiman.substack.com",
+    "post_url": "https://whyaiman.substack.com/p/tips-for-working-with-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Joe Njenga (Medium)",
+    "who_url": "https://medium.com/@joe.njenga",
+    "post_url": "https://medium.com/@joe.njenga/boris-cherny-claude-code-creator-shares-these-22-tips-youre-probably-using-it-wrong-1b570aedefbe",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MadAppGang",
+    "who_url": "https://madappgang.com",
+    "post_url": "https://madappgang.com/blog/claude-code-tips-from-its-creator-boris-cherny/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Alireza Rezvani (Medium)",
+    "who_url": "https://alirezarezvani.medium.com",
+    "post_url": "https://alirezarezvani.medium.com/i-took-boris-cherny-the-creator-of-claude-code-at-his-word-here-is-what-4-days-of-following-his-1b660da12400",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.048237,
+  "model": "claude-sonnet-5-5"
+ },
+ "DZcdGxvTLno": {
+  "posts": [
+   {
+    "platform": "X",
+    "who": "@godofprompt",
+    "who_url": "https://x.com/godofprompt",
+    "post_url": "https://x.com/godofprompt/status/2061722755280810476",
+    "posted": "2026-06-02"
+   },
+   {
+    "platform": "Blog",
+    "who": "blockchain.news",
+    "who_url": "https://blockchain.news",
+    "post_url": "https://blockchain.news/ainews/claude-prompt-canary-hack-prevents-context-rot",
+    "posted": "2026-06-02"
+   },
+   {
+    "platform": "Blog",
+    "who": "AgentsRoom",
+    "who_url": "https://agentsroom.dev",
+    "post_url": "https://agentsroom.dev/blog/canary-trick-detect-ai-agent-degradation",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "claudeskills.info (context-canary skill by juliusbrussee)",
+    "who_url": "https://claudeskills.info",
+    "post_url": "https://claudeskills.info/ja/skills/juliusbrussee/skills/context-canary/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.030848900000000002,
+  "model": "claude-sonnet-5-5"
+ },
+ "DcgvcNGsEa1": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "Vercel (via createwith.com)",
+    "who_url": "https://www.createwith.com/tool/vercel",
+    "post_url": "https://www.createwith.com/tool/vercel/updates/vercel-skill-packs-bundle-agent-capabilities-into-shareable-collections",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Vercel (via createwith.com)",
+    "who_url": "https://www.createwith.com/tool/vercel",
+    "post_url": "https://www.createwith.com/tool/vercel/updates/skillssh-adds-cli-tools-and-improves-discoverability",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "releases.sh",
+    "who_url": "https://releases.sh",
+    "post_url": "https://releases.sh/release/rel_ABuLSN0f514zSvRVLy9K--the-skills-sh-api-is-now-available",
+    "posted": "2026-06-05"
+   },
+   {
+    "platform": "Blog",
+    "who": "ecosistemastartup.com",
+    "who_url": "https://ecosistemastartup.com",
+    "post_url": "https://ecosistemastartup.com/vercel-skills-sh-alcanza-1-millon-de-agent-skills/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Classmethod",
+    "who_url": "https://dev.classmethod.jp",
+    "post_url": "https://dev.classmethod.jp/articles/varcel-labs-skills/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "tilnote.io",
+    "who_url": "https://tilnote.io",
+    "post_url": "https://tilnote.io/pages/697ab6202e41a092b884940f",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "learnaiwithmariah.com",
+    "who_url": "https://learnaiwithmariah.com",
+    "post_url": "https://learnaiwithmariah.com/guides/claude-skills-marketplace/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "maketocreate.com",
+    "who_url": "https://maketocreate.com",
+    "post_url": "https://maketocreate.com/claude-skills-marketplace-skills-sh-shipping-your-own-skill/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Skillselion on DEV Community",
+    "who_url": "https://dev.to/skillselion",
+    "post_url": "https://dev.to/skillselion",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards AI",
+    "who_url": "https://pub.towardsai.net",
+    "post_url": "https://pub.towardsai.net/the-claude-skills-nobody-is-talking-about-and-how-to-install-them-in-2-minutes-800c1a5fe5fd",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.06280250000000001,
+  "model": "claude-sonnet-5-5"
+ },
+ "Dc84Z0-iY5s": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/zh/ai-news/2026-04-17",
+    "posted": "2026-04-17"
+   },
+   {
+    "platform": "Blog",
+    "who": "claude-codex.fr",
+    "who_url": "https://claude-codex.fr",
+    "post_url": "https://claude-codex.fr/en/content/karpathy-claude-md-analyse/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Dometrain AI workshop",
+    "who_url": "https://ai-workshop.dometrain.com",
+    "post_url": "https://ai-workshop.dometrain.com/docs/getting-started/first-steps/claude-skills/andrej-karpathy-skills",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "MoltChat wiki",
+    "who_url": "https://moltchat-agent-commons.onrender.com",
+    "post_url": "https://moltchat-agent-commons.onrender.com/wiki/Andrej_Karpathy_coding_guidelines_(CLAUDE.md)",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "ClaudeKit",
+    "who_url": "https://claudekit.io",
+    "post_url": "https://claudekit.io/en/tools/andrej-karpathy-skills/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0571328,
+  "model": "claude-sonnet-5-5"
+ },
+ "DcVSyBvvthb": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai",
+    "post_url": "https://www.mindstudio.ai/blog/unlazy-ai-agent-completion-skill",
+    "posted": "2026-08-26"
+   },
+   {
+    "platform": "Blog",
+    "who": "SSD Nodes Learn",
+    "who_url": "https://www.ssdnodes.com/learn",
+    "post_url": "https://www.ssdnodes.com/learn/unlazy-skill-depth-tree-method",
+    "posted": "2026-10-11"
+   },
+   {
+    "platform": "YouTube",
+    "who": "Unknown channel (video: GitHub's #1 Trending Author's New Claude Skill Is Insane)",
+    "who_url": "https://www.youtube.com/watch?v=c47uqR7XB_c",
+    "post_url": "https://www.youtube.com/watch?v=c47uqR7XB_c",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "SkillsLLM (catalog listing)",
+    "who_url": "https://skillsllm.com",
+    "post_url": "https://skillsllm.com/skill/unlazy",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.037619,
+  "model": "claude-sonnet-5-5"
+ },
+ "DcqQO4Kp4f9": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "arXiv (authors Russell, Rajendhran, Pham, Iyyer, Wieting)",
+    "who_url": "https://arxiv.org/",
+    "post_url": "https://arxiv.org/abs/2604.03136",
+    "posted": "2026-04-03"
+   },
+   {
+    "platform": "Newsletter",
+    "who": "AI Weekly",
+    "who_url": "https://aiweekly.co",
+    "post_url": "https://aiweekly.co/alerts/storyscope-ai-fiction-over-explains-its-themes-77-of-the-time",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "AI Weekly (French edition)",
+    "who_url": "https://aiweekly.co/fr",
+    "post_url": "https://aiweekly.co/fr/alerts/storyscope-umd-google-deepmind-la-fiction-ia-se-trahit-par-sa-structure",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Dramatica Blog",
+    "who_url": "https://dramatica.com/blog",
+    "post_url": "https://dramatica.com/blog/the-ai-tells-are-in-the-story",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Antoine Buteau",
+    "who_url": "https://www.antoinebuteau.com",
+    "post_url": "https://www.antoinebuteau.com/ai-fiction-has-a-plot-fingerprint/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Hugging Face Papers mirror",
+    "who_url": "https://huggingface-gw-kz.just-ai.com",
+    "post_url": "https://huggingface-gw-kz.just-ai.com/papers/2604.03136",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0456646,
+  "model": "claude-sonnet-5-5"
+ },
+ "Dcq4KBuJEMQ": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "S\u00e9bastien Dubois (dsebastien.net)",
+    "who_url": "https://www.dsebastien.net/",
+    "post_url": "https://www.dsebastien.net/nvidia-skillspector/",
+    "posted": "2026-06-17"
+   },
+   {
+    "platform": "Blog",
+    "who": "Help Net Security",
+    "who_url": "https://www.helpnetsecurity.com/",
+    "post_url": "https://www.helpnetsecurity.com/2026/08/03/skillspector-open-source-agent-skill-security-scanner/",
+    "posted": "2026-08-03"
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards Data Science",
+    "who_url": "https://towardsdatascience.com/",
+    "post_url": "https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector",
+    "posted": ""
+   },
+   {
+    "platform": "LinkedIn",
+    "who": "Paterne Chokki",
+    "who_url": "https://be.linkedin.com/in/paternechokki",
+    "post_url": "https://be.linkedin.com/in/paternechokki",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.049319600000000005,
+  "model": "claude-sonnet-5-5"
+ },
+ "Db1USzsMNnZ": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "BestHub (Geek Labs)",
+    "who_url": "https://www.besthub.dev",
+    "post_url": "https://www.besthub.dev/articles/how-a-single-watch-command-lets-claude-actually-see-video-f4fdf78f9fa9",
+    "posted": "2026-07-26"
+   },
+   {
+    "platform": "Blog",
+    "who": "slakhyani20 (Medium)",
+    "who_url": "https://medium.com/@slakhyani20",
+    "post_url": "https://medium.com/@slakhyani20/claude-can-finally-watch-videos-bc022d2441d7",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards AI",
+    "who_url": "https://pub.towardsai.net",
+    "post_url": "https://pub.towardsai.net/claude-couldnt-watch-videos-one-developer-fixed-that-with-a-clever-trick-here-s-how-it-works-76e6cc17c0db",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "CSDN (AI Coding)",
+    "who_url": "https://aicoding.csdn.net",
+    "post_url": "https://aicoding.csdn.net/6a544db710ee7a33f28cdfb0.html",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "OSRepos",
+    "who_url": "https://osrepos.com",
+    "post_url": "https://osrepos.com/repo/bradautomates-claude-video",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Instagit",
+    "who_url": "https://instagit.com/bradautomates.md",
+    "post_url": "https://instagit.com/bradautomates/claude-video/what-happens-when-a-video-processed-by-bradautomates-claude-video-exceeds-the-10-minute-frame-coverage-limit.md",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Telegram GithubRe",
+    "who_url": "https://t.me/s/GithubRe",
+    "post_url": "https://t.me/s/GithubRe/4291",
+    "posted": ""
+   },
+   {
+    "platform": "YouTube",
+    "who": "Video Highlight summary (\"5 Open Source Repos That Fix 95% of Claude Code's Problems\")",
+    "who_url": "https://videohighlight.com",
+    "post_url": "https://videohighlight.com/v/IRPEfl2BD_c",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0533767,
+  "model": "claude-sonnet-5-5"
+ },
+ "DbwmInXHFgH": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Tembo",
+    "who_url": "https://www.tembo.io",
+    "post_url": "https://www.tembo.io/blog/mastering-claude-code-tips",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "whyaiman (Substack)",
+    "who_url": "https://whyaiman.substack.com",
+    "post_url": "https://whyaiman.substack.com/p/tips-for-working-with-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "heyuan110",
+    "who_url": "https://www.heyuan110.com",
+    "post_url": "https://www.heyuan110.com/posts/ai/2026-02-25-claude-code-setup-guide/",
+    "posted": "2026-02-25"
+   }
+  ],
+  "cost_usd": 0.0281608,
+  "model": "claude-sonnet-5-5"
+ },
+ "DbzLnfRnJwd": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "AlphaSignal",
+    "who_url": "https://alphasignal.ai",
+    "post_url": "https://alphasignal.ai/news/codex-router-merges-deepseek-and-kimi-into-openai-s-picker-at-89x-lower-cost",
+    "posted": "2026-08-21"
+   },
+   {
+    "platform": "Blog",
+    "who": "Opper AI",
+    "who_url": "https://opper.ai/blog",
+    "post_url": "https://opper.ai/blog/codex-router",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "gittrend.io",
+    "who_url": "https://gittrend.io",
+    "post_url": "https://gittrend.io/repo/duolahypercho/codex-router",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.048359599999999996,
+  "model": "claude-sonnet-5-5"
+ },
+ "DbQ9SdYqoNk": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "\u0414\u0435\u043d\u0438\u0441 (denis-19) on Habr",
+    "who_url": "https://habr.com/ru/users/denis-19/",
+    "post_url": "https://habr.com/ru/posts/1000774",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0439189,
+  "model": "claude-sonnet-5-5"
+ },
+ "Da6Jl_jSEqW": {
+  "posts": [],
+  "cost_usd": 0.037079,
+  "model": "claude-sonnet-5-5"
+ },
+ "Dax3y2AjzNP": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Sabrina Ramonov (sabrina.dev)",
+    "who_url": "https://sabrina.dev",
+    "post_url": "https://sabrina.dev/p/6-insane-projects-to-learn-claude-fable-loop-engineering",
+    "posted": "2026-07-11"
+   }
+  ],
+  "cost_usd": 0.0282562,
+  "model": "claude-sonnet-5-5"
+ },
+ "DbWSx9QnNzs": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "mer.vin",
+    "who_url": "https://mer.vin",
+    "post_url": "https://mer.vin/2026/05/turn-a-400-page-book-into-a-claude-code-skill-book-to-skill-guide/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "The Menon Lab",
+    "who_url": "https://themenonlab.blog",
+    "post_url": "https://themenonlab.blog/blog/book-to-skill-technical-books-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Product Hunt",
+    "who_url": "https://www.producthunt.com/products/book-to-skill",
+    "post_url": "https://www.producthunt.com/p/book-to-skill/book-to-skill",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Webreactiva",
+    "who_url": "https://www.webreactiva.com",
+    "post_url": "https://www.webreactiva.com/blog/book-to-skill",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "PyShine",
+    "who_url": "https://pyshine.com",
+    "post_url": "https://pyshine.com/Book-to-Skill-Convert-Book-PDFs-to-Claude-Code-Skills/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Nicolas Deville (notes)",
+    "who_url": "https://notes.nicolasdeville.com",
+    "post_url": "https://notes.nicolasdeville.com/github/book-to-skill/",
+    "posted": ""
+   },
+   {
+    "platform": "LinkedIn",
+    "who": "mer.vin (LinkedIn version)",
+    "who_url": "https://mer.vin",
+    "post_url": "https://mer.vin/linkedin/turn-a-400-page-book-into-a-claude-code-skill-book-to-skill-guide-linkedin/",
+    "posted": ""
+   },
+   {
+    "platform": "YouTube",
+    "who": "Unknown (Portuguese walkthrough, via Video Highlight)",
+    "who_url": "https://videohighlight.com/v/fngCoTyJoV4",
+    "post_url": "https://videohighlight.com/v/fngCoTyJoV4",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0468058,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYtCoIJxH8M": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Yuval Avidani (yuv.ai)",
+    "who_url": "https://yuv.ai",
+    "post_url": "https://yuv.ai/blog/gitnexus",
+    "posted": "2026-03-09"
+   },
+   {
+    "platform": "Blog",
+    "who": "Dr. Prahlad G. Menon (The Menon Lab)",
+    "who_url": "https://themenonlab.blog",
+    "post_url": "https://themenonlab.blog/blog/gitnexus-pre-computed-dependency-intelligence-ai-agents",
+    "posted": "2026-04-04"
+   },
+   {
+    "platform": "Blog",
+    "who": "Jimmy Song (jimmysong.io)",
+    "who_url": "https://jimmysong.io",
+    "post_url": "https://jimmysong.io/ai/gitnexus",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0463206,
+  "model": "claude-sonnet-5-5"
+ },
+ "DaAbZf9lYh2": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Mervin Praison (mer.vin)",
+    "who_url": "https://mer.vin",
+    "post_url": "https://mer.vin/2026/06/ai-agent-loops-explained-claude-goal-gpt-self-check-and-mira-telegram-skills/",
+    "posted": "2026-06-22"
+   },
+   {
+    "platform": "LinkedIn",
+    "who": "Mervin Praison (mer.vin LinkedIn version)",
+    "who_url": "https://mer.vin",
+    "post_url": "https://mer.vin/linkedin/ai-agent-loops-explained-claude-goal-gpt-self-check-and-mira-telegram-skills-linkedin/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "YouMind (x-viral-articles)",
+    "who_url": "https://youmind.com",
+    "post_url": "https://youmind.com/ar/landing/x-viral-articles/mastering-ai-loops-claude-mira",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "BestHub",
+    "who_url": "https://www.besthub.dev",
+    "post_url": "https://www.besthub.dev/articles/mastering-ai-loop-mechanisms-how-claude-gpt-and-mira-enable-truly-effective-automation-b71b547a80b7",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "t3n",
+    "who_url": "https://t3n.de",
+    "post_url": "https://t3n.de/news/loop-engineering-ki-automatisierung-anleitung-1754302/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "ZURB Radar",
+    "who_url": "https://radar.zurb.com",
+    "post_url": "https://radar.zurb.com/article/your-pm-team-stopped-prompting-now-theyre-building-loops",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.033604999999999996,
+  "model": "claude-sonnet-5-5"
+ },
+ "DZpmi8hklz6": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Bright Coding (prompts.brightcoding.dev)",
+    "who_url": "https://prompts.brightcoding.dev",
+    "post_url": "https://prompts.brightcoding.dev/blog/stop-gluing-ai-tools-together-mission-control-unifies-your-agent-fleet",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "ai-bot.cn",
+    "who_url": "https://ai-bot.cn",
+    "post_url": "https://ai-bot.cn/skillclaw/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Hermes Atlas (SkillClaw listing)",
+    "who_url": "https://hermesatlas.com",
+    "post_url": "https://hermesatlas.com/projects/AMAP-ML/SkillClaw",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Hermes Atlas (mission-control listing)",
+    "who_url": "https://hermesatlas.com",
+    "post_url": "https://hermesatlas.com/projects/builderz-labs/mission-control",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.059289,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYijb3ighQ5": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "GitHub Blog (Den Delimarsky) \u2013 maker's announcement",
+    "who_url": "https://github.blog/",
+    "post_url": "https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/",
+    "posted": "2025-09-02"
+   },
+   {
+    "platform": "Blog",
+    "who": "Visual Studio Magazine",
+    "who_url": "https://visualstudiomagazine.com/",
+    "post_url": "https://visualstudiomagazine.com/articles/2025/09/03/github-open-sources-kit-for-spec-driven-ai-development.aspx",
+    "posted": "2025-09-03"
+   },
+   {
+    "platform": "Blog",
+    "who": "Microsoft Developer Blog",
+    "who_url": "https://developer.microsoft.com/blog",
+    "post_url": "https://developer.microsoft.com/blog/spec-driven-development-spec-kit/",
+    "posted": "2025-09-15"
+   },
+   {
+    "platform": "Other",
+    "who": "PyTorch Korea discussion forum (GeekNews-style post)",
+    "who_url": "https://discuss.pytorch.kr/",
+    "post_url": "https://discuss.pytorch.kr/t/github-spec-driven-development-spec-kit/7675",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "SSOJet",
+    "who_url": "https://ssojet.com/blog",
+    "post_url": "https://ssojet.com/blog/best-spec-driven-development-tools",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0649159,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYm4szxuVAX": {
+  "posts": [
+   {
+    "platform": "X",
+    "who": "Thariq (@trq212)",
+    "who_url": "https://x.com/trq212",
+    "post_url": "https://x.com/trq212/status/2056415973125796184",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "mer.vin (Mervin Praison)",
+    "who_url": "https://mer.vin",
+    "post_url": "https://mer.vin/2026/05/implementation-notes-prompt-track-agent-decisions-whilst-shipping-a-spec/",
+    "posted": "2026-05-19"
+   },
+   {
+    "platform": "Blog",
+    "who": "ABMedia (\u93c8\u65b0\u805e), Elponcrab",
+    "who_url": "https://abmedia.io",
+    "post_url": "https://abmedia.io/thariq-anthropic-claude-code-prompt-implementation-notes-may-2026",
+    "posted": "2026-05-19"
+   }
+  ],
+  "cost_usd": 0.0337787,
+  "model": "claude-sonnet-5-5"
+ },
+ "DZHuK9wODiW": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "Google AI Developers Forum (Chat Exporter community tool post)",
+    "who_url": "https://discuss.ai.google.dev/",
+    "post_url": "https://discuss.ai.google.dev/t/community-tool-chat-exporter-export-ai-studio-conversations-to-markdown-pdf-and-json-local-only/138329",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Indie Hackers (ChatGPT Markdown Exporter product page)",
+    "who_url": "https://www.indiehackers.com/",
+    "post_url": "https://www.indiehackers.com/product/chatgpt-markdown-exporter",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Fast.io (Claude Exporter guide)",
+    "who_url": "https://fast.io/",
+    "post_url": "https://fast.io/resources/claude-exporter-conversation-export-guide/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.061434300000000004,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYxHCH_sxyi": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "Natural20 (beehiiv)",
+    "who_url": "https://natural20.beehiiv.com",
+    "post_url": "https://natural20.beehiiv.com/p/the-openclaw-killer-is-here",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Vibe Stack Lab (Substack)",
+    "who_url": "https://vibestacklab.substack.com",
+    "post_url": "https://vibestacklab.substack.com/p/the-30-hermes-stack-that-makes-claude",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Growwstacks",
+    "who_url": "https://growwstacks.com",
+    "post_url": "https://growwstacks.com/blog/hermes-agent-claude-os-integration/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Fast.io",
+    "who_url": "https://fast.io",
+    "post_url": "https://fast.io/resources/hermes-agent-vs-claude-code/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "jaehong (WikiDocs)",
+    "who_url": "https://wikidocs.net/blog/@jaehong/",
+    "post_url": "https://wikidocs.net/blog/@jaehong/9407/",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Video Highlight (summary of a YouTube video, '7 Hermes uses you must try')",
+    "who_url": "https://videohighlight.com",
+    "post_url": "https://videohighlight.com/v/6BHh8BoKim4",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0452925,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYPoAGsTTeN": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "EveryDev.ai (Awesome Claude listing)",
+    "who_url": "https://www.everydev.ai",
+    "post_url": "https://www.everydev.ai/tools/awesome-claude",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.038701200000000005,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYRPGf0ujs4": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "GMO Recruit Group engineer blog (the personal ai os i didnt have to build)",
+    "who_url": "https://recruit.group.gmo/engineer/jisedai",
+    "post_url": "https://recruit.group.gmo/engineer/jisedai/blog/the-personal-ai-os-i-didnt-have-to-build/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Never Code Alone",
+    "who_url": "https://nevercodealone.de",
+    "post_url": "https://nevercodealone.de/vibe-coding/vibe-coding-modelle/gsd-get-shit-done-framework-claude-code-2026",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Hora de Codar",
+    "who_url": "https://horadecodar.com.br",
+    "post_url": "https://horadecodar.com.br/get-shit-done-comparativo/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Hora de Codar",
+    "who_url": "https://horadecodar.com.br",
+    "post_url": "https://horadecodar.com.br/?p=44090",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Semgrep events (Daniel Miessler talk on Personal AI Infrastructure)",
+    "who_url": "https://semgrep.dev/events",
+    "post_url": "https://semgrep.dev/events/building-your-personal-ai-infrastructure-with-daniel-miessler",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0426244,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYQCEK5OMrh": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/zh/ai-news/article/2026-04-30-matt-pocock-releases-skills-repository-a-glimpse-into-the-claude-directory-and-modern-engineering",
+    "posted": "2026-04-30"
+   },
+   {
+    "platform": "Blog",
+    "who": "Implicator.ai",
+    "who_url": "https://www.implicator.ai",
+    "post_url": "https://www.implicator.ai/matt-pocock-skills-repo-jumps-past-45k-stars-with-reusable-ai-instructions/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "DEV Community (gentic_news)",
+    "who_url": "https://dev.to/gentic_news",
+    "post_url": "https://dev.to/gentic_news/matt-pocock-open-sources-agents-skill-directory-for-claude-code-13o8",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "mer.vin",
+    "who_url": "https://mer.vin",
+    "post_url": "https://mer.vin/news/mattpocock-skills-the-skill-pack-topping-github-trending/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Joe Njenga (Medium)",
+    "who_url": "https://medium.com/@joe.njenga",
+    "post_url": "https://medium.com/@joe.njenga/i-tried-claude-code-matt-pocock-agent-skills-and-my-workflow-just-levelled-up-dea0f5267469",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/zh/ai-news/article/2026-05-14-matt-pocock-releases-skills-repository-engineering-workflows-sourced-from-personal-claude-directory",
+    "posted": "2026-05-14"
+   },
+   {
+    "platform": "Blog",
+    "who": "yimtheppariyapol (DEV Community)",
+    "who_url": "https://dev.to/yimtheppariyapol",
+    "post_url": "https://dev.to/yimtheppariyapol/mattpocockskills-review-a-real-engineers-claude-160k-stars-4d3f",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "tosea.ai",
+    "who_url": "https://tosea.ai",
+    "post_url": "https://tosea.ai/blog/matt-pocock-skills-claude-code-guide",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.049310299999999994,
+  "model": "claude-sonnet-5-5"
+ },
+ "DYAGJr9Rf-X": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "Anthropic (Claude blog) \u2013 Equipping agents for the real world with Agent Skills",
+    "who_url": "https://claude.com/blog",
+    "post_url": "https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Anthropic (Claude blog) \u2013 Skills explained",
+    "who_url": "https://claude.com/blog",
+    "post_url": "https://claude.com/blog/skills-explained",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "AI Engineer \u2013 Barry Zhang & Mahesh Murag (Anthropic), Don't Build Agents, Build Skills Instead",
+    "who_url": "https://ai.engineer",
+    "post_url": "https://ai.engineer/talks/agent-skills",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "arXiv \u2013 X. Li (multi-agent compiled into single agent with skills)",
+    "who_url": "https://arxiv.org",
+    "post_url": "https://arxiv.org/abs/2601.04748",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards AI",
+    "who_url": "https://pub.towardsai.net",
+    "post_url": "https://pub.towardsai.net/the-next-programming-language-might-be-a-folder-of-skills-de884e732104",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Verdent guides",
+    "who_url": "https://verdent.ai",
+    "post_url": "https://verdent.ai/guides/claude-skills-vs-agents-subagents",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Moveworks Community",
+    "who_url": "https://community.moveworks.com",
+    "post_url": "https://community.moveworks.com/agent-builder-archive-119/the-industry-finally-agrees-stop-building-agents-3059",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "yuvkesh (blog)",
+    "who_url": "https://yuvkesh.onrender.com",
+    "post_url": "https://yuvkesh.onrender.com/blog/ai-agents-vs-skills/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0475985,
+  "model": "claude-sonnet-5-5"
+ },
+ "DX9TVLojYTa": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "Opinion AI",
+    "who_url": "https://opinionai.substack.com",
+    "post_url": "https://opinionai.substack.com/p/anthropics-official-claude-code-masterclass",
+    "posted": "2026-08-15"
+   }
+  ],
+  "cost_usd": 0.0493199,
+  "model": "claude-sonnet-5-5"
+ },
+ "DXxcwjWDDgo": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Daniel Vaughan (codex.danielvaughan.com)",
+    "who_url": "https://codex.danielvaughan.com/",
+    "post_url": "https://codex.danielvaughan.com/2026/04/16/codex-proactive-memory-thread-automations-self-directing-agents/",
+    "posted": "2026-04-16"
+   },
+   {
+    "platform": "Blog",
+    "who": "Daniel Vaughan (codex.danielvaughan.com)",
+    "who_url": "https://codex.danielvaughan.com/",
+    "post_url": "https://codex.danielvaughan.com/2026/04/17/thread-automations-vs-claude-code-routines/",
+    "posted": "2026-04-17"
+   },
+   {
+    "platform": "Blog",
+    "who": "Daniel Vaughan (codex.danielvaughan.com)",
+    "who_url": "https://codex.danielvaughan.com/",
+    "post_url": "https://codex.danielvaughan.com/2026/05/15/codex-proactive-teammate-thread-automations-scheduled-monitoring-durable-views/",
+    "posted": "2026-05-15"
+   },
+   {
+    "platform": "Other",
+    "who": "OpenAI Developers (Codex docs: Automations)",
+    "who_url": "https://developers.openai.com/codex",
+    "post_url": "https://developers.openai.com/codex/app/automations",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "eastondev.com",
+    "who_url": "https://eastondev.com/",
+    "post_url": "https://eastondev.com/blog/en/posts/ai/20260813-codex-automations-long-running-tasks/",
+    "posted": "2026-08-13"
+   }
+  ],
+  "cost_usd": 0.045573100000000005,
+  "model": "claude-sonnet-5-5"
+ },
+ "DXphQ19gTeo": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/zh/ai-news/article/2026-03-31-claude-code-best-practices-essential-guide-for-optimizing-ai-driven-development-workflows",
+    "posted": "2026-03-31"
+   },
+   {
+    "platform": "Blog",
+    "who": "ai-bot.cn",
+    "who_url": "https://ai-bot.cn",
+    "post_url": "https://ai-bot.cn/claude-code-best-practice/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "CSDN (AI Coding)",
+    "who_url": "https://aicoding.csdn.net",
+    "post_url": "https://aicoding.csdn.net/6a75d86210ee7a33f297cb6a.html",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Agentpedia",
+    "who_url": "https://agentpedia.codes",
+    "post_url": "https://agentpedia.codes/pt/blog/claude-code-best-practice-guide",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Tenten Skills Atlas",
+    "who_url": "https://skills.tenten.co",
+    "post_url": "https://skills.tenten.co/original-html/skills-atlas-claude-code-best-practice.html",
+    "posted": "2026-05-30"
+   }
+  ],
+  "cost_usd": 0.0442689,
+  "model": "claude-sonnet-5-5"
+ },
+ "DXmWHzIExeq": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "Ali's Newsletter",
+    "who_url": "https://alis-newsletter-c5d7e0.beehiiv.com",
+    "post_url": "https://alis-newsletter-c5d7e0.beehiiv.com/p/free-claude-code-a-simple-way-to-access-powerful-ai",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "The AI Leverage",
+    "who_url": "https://theaileverage.beehiiv.com",
+    "post_url": "https://theaileverage.beehiiv.com/p/free-claude-code-quick-setup-guide",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Better Stack Community",
+    "who_url": "https://betterstack.com/community/",
+    "post_url": "https://betterstack.com/community/guides/ai/free-claude-code-proxy/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "The Menon Lab",
+    "who_url": "https://themenonlab.blog",
+    "post_url": "https://themenonlab.blog/blog/free-claude-code-nvidia-nim-proxy-zero-api-fees",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai/blog/",
+    "post_url": "https://www.mindstudio.ai/blog/free-claude-code-fcc-proxy/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Coding Nexus (Medium)",
+    "who_url": "https://medium.com/coding-nexus",
+    "post_url": "https://medium.com/coding-nexus/free-claude-code-run-claude-code-without-an-api-key-using-nvidia-43764cfa8a90",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/zh/ai-news/article/2026-08-26-free-claude-code-and-opencode-access-new-github-project-offers-13-billion-tokens-for-developers",
+    "posted": "2026-08-26"
+   },
+   {
+    "platform": "Other",
+    "who": "Trendshift (aggregates X posts)",
+    "who_url": "https://trendshift.io",
+    "post_url": "https://trendshift.io/repositories/22971",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.06603400000000001,
+  "model": "claude-sonnet-5-5"
+ },
+ "DXtMAUfDSjZ": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Augment Code",
+    "who_url": "https://www.augmentcode.com",
+    "post_url": "https://www.augmentcode.com/learn/claude-mem-46k-stars-persistent-memory-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Augment Code",
+    "who_url": "https://www.augmentcode.com",
+    "post_url": "https://www.augmentcode.com/learn/claude-mem-persistent-memory-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Emelia",
+    "who_url": "https://emelia.io",
+    "post_url": "https://emelia.io/hub/persistent-memory-claude-code-claude-mem",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "silenceper",
+    "who_url": "https://silenceper.com",
+    "post_url": "https://silenceper.com/tags/agent/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.042517,
+  "model": "claude-sonnet-5-5"
+ },
+ "DXR9bVXAcce": {
+  "posts": [],
+  "cost_usd": 0.0370146,
+  "model": "claude-sonnet-5-5"
+ },
+ "DW9RfOcFhM6": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai/blog",
+    "post_url": "https://www.mindstudio.ai/blog/graphify-claude-code-knowledge-graph-large-codebase-70x",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Medium (@n913239)",
+    "who_url": "https://medium.com/@n913239",
+    "post_url": "https://medium.com/@n913239/let-claude-see-your-project-first-turning-a-codebase-into-a-knowledge-graph-with-graphify-9142daf79d8f",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "bluearch (Substack)",
+    "who_url": "https://bluearch.substack.com",
+    "post_url": "https://bluearch.substack.com/p/graph-your-codebase-shrink-your-bill",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "RoboRhythms",
+    "who_url": "https://www.roborhythms.com",
+    "post_url": "https://www.roborhythms.com/graphify-review/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Medium (@pankaj_pandey)",
+    "who_url": "https://medium.com/@pankaj_pandey",
+    "post_url": "https://medium.com/@pankaj_pandey/graphify-navigate-our-codebase-by-structure-not-similarity-eb773c4e9871",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "GoPenAI",
+    "who_url": "https://blog.gopenai.com",
+    "post_url": "https://blog.gopenai.com/graphify-build-a-knowledge-graph-from-your-entire-codebase-without-sending-your-code-to-anyone-1b6924474b50",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards AI",
+    "who_url": "https://pub.towardsai.net",
+    "post_url": "https://pub.towardsai.net/i-ran-this-open-source-ai-tool-on-a-messy-codebase-and-got-71x-fewer-tokens-here-is-exactly-what-71cd233e33f7",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Emelia",
+    "who_url": "https://emelia.io/hub",
+    "post_url": "https://emelia.io/hub/knowledge-graph-graphify-guide",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Stork.ai",
+    "who_url": "https://www.stork.ai/blog",
+    "post_url": "https://www.stork.ai/blog/fix-claudes-biggest-flaw-now",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "ClaudeLog",
+    "who_url": "https://claudelog.com",
+    "post_url": "https://claudelog.com/claude-code-mcps/graphify",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "dev.co",
+    "who_url": "https://dev.co",
+    "post_url": "https://dev.co/ai/rag/graphify",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Augment Code",
+    "who_url": "https://www.augmentcode.com/learn",
+    "post_url": "https://www.augmentcode.com/learn/graphify-knowledge-graph-skill-ai-coding-assistants",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0545504,
+  "model": "claude-sonnet-5-5"
+ },
+ "DWwq0ZxFWvI": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Nimbleway",
+    "who_url": "https://www.nimbleway.com/blog",
+    "post_url": "https://www.nimbleway.com/blog/we-took-karpathys-llm-wiki-and-wired-it-to-the-live-web",
+    "posted": "2026-04-07"
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Implicator.ai",
+    "who_url": "https://implicator.ai",
+    "post_url": "https://implicator.ai/karpathys-llm-wiki-got-16-million-views-the-code-isnt-the-point-2/",
+    "posted": "2026-04-14"
+   },
+   {
+    "platform": "Blog",
+    "who": "DenserAI",
+    "who_url": "https://denser.ai/blog/",
+    "post_url": "https://denser.ai/blog/llm-wiki-karpathy-knowledge-base/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Pebblous",
+    "who_url": "https://blog.pebblous.ai",
+    "post_url": "https://blog.pebblous.ai/report/karpathy-llm-wiki/en/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Towards AI",
+    "who_url": "https://pub.towardsai.net",
+    "post_url": "https://pub.towardsai.net/andrej-karpathy-killed-rag-or-did-he-the-llm-wiki-pattern-7824d876e790",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Codersera",
+    "who_url": "https://codersera.com/blog/",
+    "post_url": "https://codersera.com/blog/karpathy-llm-knowledge-base-second-brain/amp/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "AI Builder Club",
+    "who_url": "https://www.aibuilderclub.com/blog",
+    "post_url": "https://www.aibuilderclub.com/blog/karpathy-llm-wiki",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai/blog",
+    "post_url": "https://www.mindstudio.ai/blog/andrej-karpathy-llm-wiki-obsidian-ai-second-brain",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Tony Demol (Medium)",
+    "who_url": "https://medium.com/@tony.demol",
+    "post_url": "https://medium.com/@tony.demol/karpathys-llm-wiki-with-a-single-brain-975df9c84be6",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Techstrong.ai",
+    "who_url": "https://techstrong.ai",
+    "post_url": "https://techstrong.ai/features/wiring-karpathys-llm-wiki-to-the-live-web/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0488578,
+  "model": "claude-sonnet-5-5"
+ },
+ "DXEqf1ckwfb": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai",
+    "post_url": "https://mindstudio.ai/blog/superpowers-plugin-vs-claude-code-ultra-plan",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai",
+    "post_url": "https://www.mindstudio.ai/blog/5-claude-code-skills-cut-token-costs-70-percent-benchmarked",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Level Up Coding (Medium)",
+    "who_url": "https://levelup.gitconnected.com",
+    "post_url": "https://levelup.gitconnected.com/someone-built-memory-for-claude-code-and-people-are-actually-using-it-9f657be0f193",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Level Up Coding (Medium)",
+    "who_url": "https://levelup.gitconnected.com",
+    "post_url": "https://levelup.gitconnected.com/this-plugin-makes-claude-code-work-for-hours-without-going-off-the-rails-f176e474b284",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Trevor Lasn",
+    "who_url": "https://trevorlasn.com",
+    "post_url": "https://trevorlasn.com/blog/superpowers-claude-code-skills",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Composio",
+    "who_url": "https://composio.dev",
+    "post_url": "https://composio.dev/blog/top-claude-code-plugins",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Computing for Geeks",
+    "who_url": "https://computingforgeeks.com",
+    "post_url": "https://computingforgeeks.com/reduce-claude-code-token-usage-tools/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Hora de Codar",
+    "who_url": "https://horadecodar.com.br",
+    "post_url": "https://horadecodar.com.br/superpowers-claude-code/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.06393090000000001,
+  "model": "claude-sonnet-5-5"
+ },
+ "DWz_6NTD6qc": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Web Reactiva (Dani Primo)",
+    "who_url": "https://www.webreactiva.com",
+    "post_url": "https://www.webreactiva.com/blog/skills-addy-osmani",
+    "posted": "2026-04-10"
+   },
+   {
+    "platform": "LinkedIn",
+    "who": "Andrew (ua.linkedin.com/in/andrew-ua)",
+    "who_url": "https://ua.linkedin.com/in/andrew-ua",
+    "post_url": "https://ua.linkedin.com/in/andrew-ua",
+    "posted": ""
+   },
+   {
+    "platform": "LinkedIn",
+    "who": "Maksym Osadchuk",
+    "who_url": "https://ua.linkedin.com/in/maksym-osadchuk",
+    "post_url": "https://ua.linkedin.com/in/maksym-osadchuk",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Jimmy Song (project page)",
+    "who_url": "https://jimmysong.io",
+    "post_url": "https://jimmysong.io/ai/addyosmani-agent-skills/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "tproger",
+    "who_url": "https://tproger.ru",
+    "post_url": "https://tproger.ru/news/addy-osmani-zawil-senior-inzhenernuyu-disciplinu-v-skilly-dlya-ai-a",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "DEV Community (yimtheppariyapol)",
+    "who_url": "https://dev.to/yimtheppariyapol",
+    "post_url": "https://dev.to/yimtheppariyapol/addy-osmani-agent-skills-review-24-production-skills-726k-stars-22em",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "AIToolly",
+    "who_url": "https://aitoolly.com",
+    "post_url": "https://aitoolly.com/de/ai-news/article/2026-09-19-addy-osmani-introduces-agent-skills-production-grade-engineering-capabilities-for-ai-coding-agents",
+    "posted": "2026-09-19"
+   }
+  ],
+  "cost_usd": 0.055195600000000004,
+  "model": "claude-sonnet-5-5"
+ },
+ "DWC_I1IDURZ": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "OpenAI (Ryan Lopopolo), maker's original post",
+    "who_url": "https://openai.com",
+    "post_url": "https://openai.com/index/harness-engineering/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Anthropic Engineering (maker's post)",
+    "who_url": "https://www.anthropic.com/engineering",
+    "post_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Addy Osmani",
+    "who_url": "https://addyosmani.com",
+    "post_url": "https://addyosmani.com/blog/agent-harness-engineering/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "InfoQ Japan",
+    "who_url": "https://www.infoq.com/jp/",
+    "post_url": "https://www.infoq.com/jp/news/2026/03/openai-harness-engineering-codex/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "yage.ai (harness engineering survey)",
+    "who_url": "https://yage.ai",
+    "post_url": "https://yage.ai/share/harness-engineering-survey-en-20260312.html",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Let's Data Science",
+    "who_url": "https://letsdatascience.com",
+    "post_url": "https://letsdatascience.com/news/openai-introduces-harness-engineering-for-automated-developm-703d90b6",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Ken Huang (Agentic AI, Substack)",
+    "who_url": "https://kenhuangus.substack.com",
+    "post_url": "https://kenhuangus.substack.com/p/from-software-engineering-to-harness",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Pinyu Labs (Substack)",
+    "who_url": "https://pinyulabs.substack.com",
+    "post_url": "https://pinyulabs.substack.com/p/agent-harness-engineering-the-missing",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "O'Reilly Radar",
+    "who_url": "https://www.oreilly.com/radar/",
+    "post_url": "https://www.oreilly.com/radar/agent-harness-engineering/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Arize (glossary)",
+    "who_url": "https://arize.com",
+    "post_url": "https://arize.com/glossary/harness-engineering/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0490539,
+  "model": "claude-sonnet-5-5"
+ },
+ "DW1st4HDp9K": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "safishamsi (maker, GitHub repo)",
+    "who_url": "https://github.com/safishamsi",
+    "post_url": "https://github.com/safishamsi/graphify",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Analytics Vidhya",
+    "who_url": "https://www.analyticsvidhya.com/",
+    "post_url": "https://www.analyticsvidhya.com/blog/2026/04/graphify-guide/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Emelia",
+    "who_url": "https://emelia.io/",
+    "post_url": "https://emelia.io/hub/knowledge-graph-graphify-guide",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MindStudio",
+    "who_url": "https://www.mindstudio.ai/",
+    "post_url": "https://www.mindstudio.ai/blog/graphify-claude-code-knowledge-graph-large-codebase-70x",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Augment Code",
+    "who_url": "https://www.augmentcode.com/",
+    "post_url": "https://www.augmentcode.com/learn/graphify-knowledge-graphs-ai-coding",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0623284,
+  "model": "claude-sonnet-5-5"
+ },
+ "DV6CXPQkt_l": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "yangphago",
+    "who_url": "https://yangphago.oopy.io",
+    "post_url": "https://yangphago.oopy.io/7cf645f7-e62f-48c6-9a93-57042171177a",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "tilnote.io",
+    "who_url": "https://tilnote.io",
+    "post_url": "https://tilnote.io/pages/696db2d265a2e4dd63f35cc7",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "tilnote.io",
+    "who_url": "https://tilnote.io",
+    "post_url": "https://tilnote.io/pages/69733f20e7ed1c12a562b649",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "gitcode.csdn.net",
+    "who_url": "https://gitcode.csdn.net",
+    "post_url": "https://gitcode.csdn.net/69c6505754b52172bc64f9d0.html",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0537332,
+  "model": "claude-sonnet-5-5"
+ },
+ "DVRu6GlDNHO": {
+  "posts": [],
+  "cost_usd": 0.04339609999999999,
+  "model": "claude-sonnet-5-5"
+ },
+ "DV8qasfDWXx": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "InfoQ",
+    "who_url": "https://infoq.com",
+    "post_url": "https://infoq.com/news/2026/01/claude-code-creator-workflow/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "VentureBeat",
+    "who_url": "https://venturebeat.com",
+    "post_url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "devby.io",
+    "who_url": "https://devby.io",
+    "post_url": "https://devby.io/en/news/claude-code-creator-demonstrates-vibe-coding-setting-the-community-buzzing",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Push to Prod (Substack)",
+    "who_url": "https://getpushtoprod.substack.com",
+    "post_url": "https://getpushtoprod.substack.com/p/how-the-creator-of-claude-code-actually",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Kara Ozieminski (Substack)",
+    "who_url": "https://karozieminski.substack.com",
+    "post_url": "https://karozieminski.substack.com/p/boris-cherny-claude-code-workflow",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "whyaiman (Substack)",
+    "who_url": "https://whyaiman.substack.com",
+    "post_url": "https://whyaiman.substack.com/p/tips-for-working-with-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MadAppGang",
+    "who_url": "https://madappgang.com",
+    "post_url": "https://madappgang.com/blog/claude-code-tips-from-its-creator-boris-cherny/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Joe Njenga (Medium)",
+    "who_url": "https://medium.com/@joe.njenga",
+    "post_url": "https://medium.com/@joe.njenga/boris-cherny-claude-code-creator-shares-these-22-tips-youre-probably-using-it-wrong-1b570aedefbe",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "onmyway133 blog (GitHub)",
+    "who_url": "https://github.com/onmyway133/blog",
+    "post_url": "https://github.com/onmyway133/blog/issues/1026",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Jitendra Zaa",
+    "who_url": "https://www.jitendrazaa.com",
+    "post_url": "https://www.jitendrazaa.com/blog/others/tips/10-claude-code-tips-from-the-creator-boris-cherny-february/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Plain English (Medium)",
+    "who_url": "https://ai.plainenglish.io",
+    "post_url": "https://ai.plainenglish.io/the-file-that-made-the-creator-of-claude-code-go-viral-e01b039e5602",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "wikidocs (jaehong)",
+    "who_url": "https://wikidocs.net/blog/@jaehong",
+    "post_url": "https://wikidocs.net/blog/@jaehong/8587/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0537394,
+  "model": "claude-sonnet-5-5"
+ },
+ "DVFZWnPDA0A": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "\u5c0f\u864eAI\u751f\u6d3b (Juejin)",
+    "who_url": "https://juejin.cn/",
+    "post_url": "https://juejin.cn/post/7598574507347050531",
+    "posted": "2026-01-25"
+   },
+   {
+    "platform": "Other",
+    "who": "denis-19 (Habr)",
+    "who_url": "https://habr.com/ru/users/denis-19/",
+    "post_url": "https://habr.com/ru/posts/1000774",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0478618,
+  "model": "claude-sonnet-5-5"
+ },
+ "DRrzloXD26X": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Google Developers Blog (maker announcement)",
+    "who_url": "https://developers.googleblog.com/",
+    "post_url": "https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/",
+    "posted": "2025-11-13"
+   },
+   {
+    "platform": "Blog",
+    "who": "AlternativeTo",
+    "who_url": "https://alternativeto.net/",
+    "post_url": "https://alternativeto.net/news/2025/11/google-launches-code-wiki-a-continuously-updated-and-gemini-powered-documentation-platform/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "InfoQ",
+    "who_url": "https://www.infoq.com/",
+    "post_url": "https://www.infoq.com/news/2025/11/google-code-wiki",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "DevOps.com",
+    "who_url": "https://devops.com/",
+    "post_url": "https://devops.com/google-code-wiki-aims-to-solve-documentations-oldest-problem/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "HackerNoon",
+    "who_url": "https://hackernoon.com/",
+    "post_url": "https://hackernoon.com/googles-new-tool-wants-to-end-the-most-annoying-part-of-coding?source=rss",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "Learn with Talha (Substack)",
+    "who_url": "https://learnwithtalha.substack.com/",
+    "post_url": "https://learnwithtalha.substack.com/p/googles-new-code-wiki-solves-softwares",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "WWWhatsnew",
+    "who_url": "https://wwwhatsnew.com/",
+    "post_url": "https://wwwhatsnew.com/2025/11/14/google-presenta-code-wiki-una-nueva-forma-de-comprender-el-codigo-fuente/",
+    "posted": "2025-11-14"
+   },
+   {
+    "platform": "Blog",
+    "who": "It's FOSS",
+    "who_url": "https://itsfoss.com/",
+    "post_url": "https://itsfoss.com/news/google-code-wiki/",
+    "posted": ""
+   },
+   {
+    "platform": "YouTube",
+    "who": "Video \"Gemini Code Wiki: Google's AI That Understands Your Code! (Fully Free)\" (seen via a Chaindesk summary page; channel name not shown)",
+    "who_url": "https://www.chaindesk.ai/tools/youtube-summarizer/gemini-code-wiki-googles-ai-that-understands-your-code-fully-free-X7iwxc_MRAg",
+    "post_url": "https://www.chaindesk.ai/tools/youtube-summarizer/gemini-code-wiki-googles-ai-that-understands-your-code-fully-free-X7iwxc_MRAg",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.049339400000000005,
+  "model": "claude-sonnet-5-5"
+ },
+ "DVHiGM5DJRn": {
+  "posts": [
+   {
+    "platform": "Other",
+    "who": "Slashdot",
+    "who_url": "https://developers.slashdot.org",
+    "post_url": "https://developers.slashdot.org/story/26/01/06/2239243/creator-of-claude-code-reveals-his-workflow",
+    "posted": "2026-01-06"
+   },
+   {
+    "platform": "Blog",
+    "who": "VentureBeat",
+    "who_url": "https://venturebeat.com",
+    "post_url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "InfoQ",
+    "who_url": "https://infoq.com",
+    "post_url": "https://infoq.com/news/2026/01/claude-code-creator-workflow/",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "getpushtoprod (Substack)",
+    "who_url": "https://getpushtoprod.substack.com",
+    "post_url": "https://getpushtoprod.substack.com/p/how-the-creator-of-claude-code-actually",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "whyaiman (Substack)",
+    "who_url": "https://whyaiman.substack.com",
+    "post_url": "https://whyaiman.substack.com/p/tips-for-working-with-claude-code",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "K\u00e1ro Zieminski (Substack)",
+    "who_url": "https://karozieminski.substack.com",
+    "post_url": "https://karozieminski.substack.com/p/boris-cherny-claude-code-workflow",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "rub1cc (Medium)",
+    "who_url": "https://medium.com/@rub1cc",
+    "post_url": "https://medium.com/@rub1cc/how-claude-codes-creator-uses-it-10-best-practices-from-the-team-e43be312836f",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Joe Njenga (Medium)",
+    "who_url": "https://medium.com/@joe.njenga",
+    "post_url": "https://medium.com/@joe.njenga/boris-cherny-claude-code-creator-shares-these-22-tips-youre-probably-using-it-wrong-1b570aedefbe",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Alireza Rezvani (Medium)",
+    "who_url": "https://alirezarezvani.medium.com",
+    "post_url": "https://alirezarezvani.medium.com/i-took-boris-cherny-the-creator-of-claude-code-at-his-word-here-is-what-4-days-of-following-his-1b660da12400",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "MadAppGang",
+    "who_url": "https://madappgang.com",
+    "post_url": "https://madappgang.com/blog/claude-code-tips-from-its-creator-boris-cherny/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Jitendra Zaa",
+    "who_url": "https://www.jitendrazaa.com",
+    "post_url": "https://www.jitendrazaa.com/blog/others/tips/10-claude-code-tips-from-the-creator-boris-cherny-february/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "jaehong (Wikidocs)",
+    "who_url": "https://wikidocs.net/blog/@jaehong",
+    "post_url": "https://wikidocs.net/blog/@jaehong/8587/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "DevBy",
+    "who_url": "https://devby.io",
+    "post_url": "https://devby.io/en/news/claude-code-creator-demonstrates-vibe-coding-setting-the-community-buzzing",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "SKZL-AI (GitHub)",
+    "who_url": "https://github.com/SKZL-AI",
+    "post_url": "https://github.com/SKZL-AI/boris-cherny-claude-code-playbook",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0868963,
+  "model": "claude-sonnet-5-5"
+ },
+ "DRzfEfTktX1": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "vincanger (Wasp) on DEV Community",
+    "who_url": "https://dev.to/wasp",
+    "post_url": "https://dev.to/wasp/a-structured-workflow-for-vibe-coding-full-stack-apps-352l",
+    "posted": "2025-04-16"
+   },
+   {
+    "platform": "Blog",
+    "who": "ITNext (Medium)",
+    "who_url": "https://itnext.io/",
+    "post_url": "https://itnext.io/a-structured-workflow-for-vibe-coding-full-stack-apps-e276b7822d86",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Devin Rosario on DEV Community",
+    "who_url": "https://dev.to/devin-rosario",
+    "post_url": "https://dev.to/devin-rosario/a-structured-workflow-for-vibe-coding-full-stack-apps-44kb",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.05347770000000001,
+  "model": "claude-sonnet-5-5"
+ },
+ "DRNMKZSiUPS": {
+  "posts": [
+   {
+    "platform": "Blog",
+    "who": "Unite.ai",
+    "who_url": "https://www.unite.ai",
+    "post_url": "https://www.unite.ai/co/google-unveils-gemini-3-pro-with-benchmark-breaking-performance/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Outlook Business",
+    "who_url": "https://www.outlookbusiness.com",
+    "post_url": "https://www.outlookbusiness.com/artificial-intelligence/google-drops-gemini-3-claims-model-beats-gpt-claude-on-major-benchmarks",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Neowin forum",
+    "who_url": "https://www.neowin.net",
+    "post_url": "https://www.neowin.net/forum/topic/1461329-google-unveils-gemini-3-ai-model-and-ai-first-ide-called-antigravity/",
+    "posted": ""
+   },
+   {
+    "platform": "Newsletter",
+    "who": "leodev (beehiiv)",
+    "who_url": "https://leodev.beehiiv.com",
+    "post_url": "https://leodev.beehiiv.com/p/gemini-3-dropped-but-you-can-t-actually-use-it",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Chrome Unboxed",
+    "who_url": "https://chromeunboxed.com",
+    "post_url": "https://chromeunboxed.com/google-officially-launches-gemini-3-vibe-coding-deep-think-and-a-new-era-for-agents/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "The New Stack",
+    "who_url": "https://thenewstack.io",
+    "post_url": "https://thenewstack.io/hands-on-with-antigravity-googles-newest-ai-coding-experiment/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "InfoWorld (Serdar Yegulalp)",
+    "who_url": "https://www.infoworld.com",
+    "post_url": "https://www.infoworld.com/article/4096113/a-first-look-at-googles-new-antigravity-ide.html",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Tecnoblog",
+    "who_url": "https://tecnoblog.net",
+    "post_url": "https://tecnoblog.net/noticias/google-lanca-antigravity-editor-de-codigo-todo-baseado-em-ia/",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Fabian Frank Werner (DEV Community)",
+    "who_url": "https://dev.to/fabianfrankwerner",
+    "post_url": "https://dev.to/fabianfrankwerner/an-honest-review-of-google-antigravity-4g6f",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "thedevmind (DEV Community)",
+    "who_url": "https://dev.to/thedevmind",
+    "post_url": "https://dev.to/thedevmind/google-antigravity-review-the-free-agent-first-ide-that-might-kill-vs-code-4lb9",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "SmartScope",
+    "who_url": "https://smartscope.blog",
+    "post_url": "https://smartscope.blog/en/generative-ai/google-gemini/antigravity-review/",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.0517542,
+  "model": "claude-sonnet-5-5"
+ },
+ "DNQRv7Is9Z5": {
+  "posts": [
+   {
+    "platform": "Newsletter",
+    "who": "Productive Matters (Substack)",
+    "who_url": "https://productivematters.substack.com",
+    "post_url": "https://productivematters.substack.com/p/deep-dive-into-recall-ai",
+    "posted": ""
+   },
+   {
+    "platform": "Blog",
+    "who": "Hypertools",
+    "who_url": "https://hypertools.so",
+    "post_url": "https://hypertools.so/tool/recall",
+    "posted": ""
+   },
+   {
+    "platform": "Other",
+    "who": "Recall (maker) \u2013 Chrome Web Store listing",
+    "who_url": "https://chrome.google.com/webstore/detail/recall-browser-extension/ldbooahljamnocpaahaidnmlgfklbben",
+    "post_url": "https://chrome.google.com/webstore/detail/recall-browser-extension/ldbooahljamnocpaahaidnmlgfklbben",
+    "posted": ""
+   }
+  ],
+  "cost_usd": 0.06063210000000001,
+  "model": "claude-sonnet-5-5"
+ }
+}

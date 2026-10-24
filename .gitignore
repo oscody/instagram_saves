@@ -25,8 +25,15 @@ ig_automation/playbook/__pycache__/
 ig_automation/playbook/tests/__pycache__/
 ig_automation/playback/__pycache__/
 
-# Interest feed: digests, history, caches, search results and logs stay local.
-interest_feed/output/
+# Interest feed: digests, caches, backtests, seen list and logs stay local.
+# Tracked: the paid who-posted and creator search results, the findings reports, and the live history used for scoring.
+interest_feed/output/*
+!interest_feed/output/who_posted.json
+!interest_feed/output/who_posted.md
+!interest_feed/output/provenance.md
+!interest_feed/output/history.jsonl
+!interest_feed/output/creators.json
+!interest_feed/output/creators.md
 
 # Python bytecode caches, in every folder.
 __pycache__/

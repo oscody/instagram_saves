@@ -1,0 +1,134 @@
+{
+ "sabrina_ramonov": {
+  "name": "Sabrina Ramonov",
+  "channels": [
+   {
+    "platform": "Newsletter",
+    "url": "https://www.sabrina.dev",
+    "evidence": "Substack titled 'Sabrina Ramonov \ud83c\udf44', tagline 'Teach 10 million people AI for free', matching the Instagram bio's mission; free resources link at sabrina.dev/p/free appeared in a press release.",
+    "feed": "https://www.sabrina.dev/feed"
+   },
+   {
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/channel/UCiGWNa6QK6CiKPvv5-YPv8g",
+    "evidence": "Linked from the Instagram bio of @sabrina_ramonov.",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiGWNa6QK6CiKPvv5-YPv8g"
+   },
+   {
+    "platform": "Other",
+    "url": "https://www.threads.net/@sabrina_ramonov",
+    "evidence": "Threads profile linked from the Instagram profile, same handle.",
+    "feed": ""
+   },
+   {
+    "platform": "Blog or website",
+    "url": "https://blotato.com/about",
+    "evidence": "Blotato's About page names Sabrina Ramonov as founder. It is her product site, not a personal blog.",
+    "feed": "https://blotato.com/rss.xml"
+   }
+  ],
+  "cost_usd": 0.0582113
+ },
+ "godofprompt": {
+  "name": "God of Prompt",
+  "channels": [
+   {
+    "platform": "Blog or website",
+    "url": "https://godofprompt.ai",
+    "evidence": "Official site's documentation page links to the Instagram account @godofprompt, so it belongs to the same brand.",
+    "feed": "https://godofprompt.ai/feed"
+   },
+   {
+    "platform": "X",
+    "url": "https://x.com/godofprompt",
+    "evidence": "Listed on godofprompt.ai/documentation next to the Instagram link @godofprompt.",
+    "feed": ""
+   },
+   {
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@god-of-prompt",
+    "evidence": "Listed on godofprompt.ai/documentation next to the Instagram link @godofprompt.",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UChv0QUGAwUnt3Ayu_BdP6kw"
+   },
+   {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/company/god-of-prompt/",
+    "evidence": "Listed on godofprompt.ai/documentation next to the Instagram link @godofprompt. This is a company page.",
+    "feed": ""
+   }
+  ],
+  "cost_usd": 0.0312252
+ },
+ "michellescomputer": {
+  "name": "Michelle Lawson (Michelle's Computer)",
+  "channels": [
+   {
+    "platform": "Blog or website",
+    "url": "https://michellescomputer.com",
+    "evidence": "Linked from the Instagram bio. The site is owned by Michelle Lawson, and the Instagram contact email is on the same domain.",
+    "feed": ""
+   },
+   {
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@michellescomputer",
+    "evidence": "Same handle. CreatorDB's page for @michellescomputer lists it next to the Instagram account. I didn't open TikTok itself.",
+    "feed": ""
+   }
+  ],
+  "cost_usd": 0.0560052
+ },
+ "vee_daily19": {
+  "name": "Veeraj Gadda",
+  "channels": [
+   {
+    "platform": "Newsletter",
+    "url": "https://veedaily19.substack.com",
+    "evidence": "Linked from the Instagram bio (veedaily19.substack.com). The Substack handle matches vee_daily19, and the author is credited as Veeraj Kantilal Gadda. The Instagram profile is named Veeraj Gadda.",
+    "feed": "https://veedaily19.substack.com/feed"
+   },
+   {
+    "platform": "Other",
+    "url": "https://www.threads.com/@vee_daily19",
+    "evidence": "Threads profile linked from the Instagram bio, with the same handle (vee_daily19). I didn't open it. I only saw the link on the Instagram page.",
+    "feed": ""
+   }
+  ],
+  "cost_usd": 0.049513
+ },
+ "justyn.ai": {
+  "name": "Justyn Berkovits",
+  "channels": [
+   {
+    "platform": "Blog or website",
+    "url": "https://justyn.ai",
+    "evidence": "Instagram bio links to justyn.ai/masterclass; site links back to instagram.com/justyn.ai",
+    "feed": ""
+   },
+   {
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@justyn.ai",
+    "evidence": "Linked from justyn.ai, same handle",
+    "feed": ""
+   },
+   {
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@justynca",
+    "evidence": "Linked from justyn.ai site alongside Instagram",
+    "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfxlsyfg7wZDTp6ykHAsBCQ"
+   },
+   {
+    "platform": "Other",
+    "url": "https://threads.com/@justyn.ai",
+    "evidence": "Threads account linked in the Instagram bio",
+    "feed": ""
+   },
+   {
+    "platform": "Other",
+    "url": "https://www.skool.com/the-ai-dojo/about",
+    "evidence": "The AI Dojo community, linked from justyn.ai",
+    "feed": ""
+   }
+  ],
+  "cost_usd": 0.046279
+ }
+}
