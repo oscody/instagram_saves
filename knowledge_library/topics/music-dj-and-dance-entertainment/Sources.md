@@ -39,7 +39,6 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **Breaking down Princess's lyric: negative concord and allusion** — flu_dot_com (DcLhn2-MZEg). [Instagram](https://www.instagram.com/p/DcLhn2-MZEg/) · [Local note](../../../IG/2026-08-23_1506_DcLhn2-MZEg/DcLhn2-MZEg%20-%20Our%20royal%20packed%20an%20entire%20English%20lesson%20into%20two_description.md).
 - **Are You a Real Bouyon Fan? Song Quiz** — xocosounds (DeFqDz7BJcs). [Instagram](https://www.instagram.com/p/DeFqDz7BJcs/) · [Local note](../../../IG/2026-10-08_2251_DeFqDz7BJcs/DeFqDz7BJcs_description.md).
 - **Live Online Afro Dance Classes Announcement** — angelkaba (DbW1KA3ts5k). [Instagram](https://www.instagram.com/p/DbW1KA3ts5k/) · [Local note](../../../IG/2026-07-31_2327_DbW1KA3ts5k/DbW1KA3ts5k%20-%20No%20More%20Im%20on%20vacation%20Im%20too%20tired%20to%20drive%20I_description.md).
-- **Switch up e style** — kxng_zidii (DeQe_C5A2vp). [Instagram](https://www.instagram.com/p/DeQe_C5A2vp/) · [Local note](../../../IG/2026-10-15_0815_DeQe_C5A2vp/DeQe_C5A2vp_description.md).
 - **Organizing a Rekordbox DJ library with Claude** — djhallaaaa (DcfRe70MqjF). [Instagram](https://www.instagram.com/p/DcfRe70MqjF/) · [Local note](../../../IG/2026-08-28_0745_DcfRe70MqjF/DcfRe70MqjF%20-%20I%20organized%20my%20entire%20DJ%20library%20in%20under%20an%20hour_description.md).
 
 ## Preparation for a future skill

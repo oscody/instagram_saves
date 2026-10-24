@@ -29,6 +29,8 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **Bare minimum skincare routine with product picks** — kwadwo.7 (DVeAP4pgtlk). [Instagram](https://www.instagram.com/p/DVeAP4pgtlk/) · [Local note](../../../IG/2026-05-11_1450_DVeAP4pgtlk/DVeAP4pgtlk%20-%20I%20like%20to%20call%20this%20one%20the%20bare%20minimum%20routine_description.md).
 - **Technique pour rentrer un t-shirt** — greginmotion8 (DZVYUZPIJdy). [Instagram](https://www.instagram.com/p/DZVYUZPIJdy/) · [Local note](../../../IG/2026-06-23_0739_DZVYUZPIJdy/DZVYUZPIJdy%20-%20La%20technique%20de%20rentr%C3%A9e%20de%20tshirt%20que%20personne%20ne_description.md).
 - **Cutting My Hair, Changing My Identity** — alyssaachanel (DaqCv7uRwlo). [Instagram](https://www.instagram.com/p/DaqCv7uRwlo/) · [Local note](../../../IG/2026-07-31_0808_DaqCv7uRwlo/DaqCv7uRwlo%20-%20ep%207%20so%20I%20did%20a%20thing_description.md).
+- **Coral Drift outfit order announcement** — purevibez868592 (DYS5MM5Pcpd). [Instagram](https://www.instagram.com/p/DYS5MM5Pcpd/) · [Local note](../../../IG/2026-05-14_0439_DYS5MM5Pcpd/DYS5MM5Pcpd%20-%20Coral%20Drift_description.md).
+- **Switch up e style** — kxng_zidii (DeQe_C5A2vp). [Instagram](https://www.instagram.com/p/DeQe_C5A2vp/) · [Local note](../../../IG/2026-10-15_0815_DeQe_C5A2vp/DeQe_C5A2vp_description.md).
 
 ## Preparation for a future skill
 

@@ -11,12 +11,9 @@ Security review, testing, and operational readiness for applications.
 Grouping preserves all sources, including overlapping or conflicting advice. The playbook stage will compare their methods and evidence.
 
 - **7 pre-launch checks for AI-built apps** — earlystartupdays (DbX9V9bE2XH). [Instagram](https://www.instagram.com/p/DbX9V9bE2XH/) · [Local note](../../../IG/2026-07-29_1601_DbX9V9bE2XH/DbX9V9bE2XH%20-%20AI%20has%20made%20building%20apps%20easier%20than%20ever_description.md).
-- **10 Claude prompts for better coding** — getintoai (DcRAbRtmNxt). [Instagram](https://www.instagram.com/p/DcRAbRtmNxt/) · [Local note](../../../IG/2026-09-08_1810_DcRAbRtmNxt/DcRAbRtmNxt%20-%20Like%20this%20post%20comment%20Code%20and%20well%20send%20you%20all_description.md).
-- **11 Claude prompts for engineering work** — stics.ai (DY4gcNRkseO). [Instagram](https://www.instagram.com/p/DY4gcNRkseO/) · [Local note](../../../IG/2026-05-29_1033_DY4gcNRkseO/DY4gcNRkseO%20-%20Stop%20using%20AI%20like%20a%20basic%20chatbot_description.md).
 - **Skit on exposed app data and access control** — itsnextwork (DNPpuMlu9Y6). [Instagram](https://www.instagram.com/p/DNPpuMlu9Y6/) · [Local note](../../../IG/2025-08-17_1445_DNPpuMlu9Y6/DNPpuMlu9Y6%20-%20Follow%20Commnt%20I%20want%20in%20for%20handson%20tech%20projects_description.md).
 - **Don't post API keys on GitHub** — collide.io (DPb9W1sD02j). [Instagram](https://www.instagram.com/p/DPb9W1sD02j/) · [Local note](../../../IG/2025-11-04_0752_DPb9W1sD02j/DPb9W1sD02j%20-%20tons%20of%20api%20keys%20are%20exposed%20on%20github%20dont%20post_description.md).
 - **Why AI agents shouldn't deploy on Vercel** — sina.growthtech (DZ5R87lTGMS). [Instagram](https://www.instagram.com/p/DZ5R87lTGMS/) · [Local note](../../../IG/2026-06-22_1533_DZ5R87lTGMS/DZ5R87lTGMS%20-%20if%20youre%20building%20an%20AI%20AGENT%20or%20APIBASED%20PRODUCT_description.md).
-- **Eight Claude Code tips from Boris Cherny's talk** — evolvingfrontier (Dcwk8hBGDvv). [Instagram](https://www.instagram.com/p/Dcwk8hBGDvv/) · [Local note](../../../IG/2026-09-08_1956_Dcwk8hBGDvv/Dcwk8hBGDvv%20-%20Comment%20Claude%20and%20well%20send%20you%20the%20course%20link_description.md).
 
 ## Preparation for a future skill
 

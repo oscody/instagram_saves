@@ -12,7 +12,6 @@ Books, videos, project repositories, portfolios, hackathons, free services, and 
 
 Grouping preserves all sources, including overlapping or conflicting advice. The playbook stage will compare their methods and evidence.
 
-- **A Builder's Guide to the World: Four-Level Reading List** — michellescomputer (DXGA53HjSKu). [Instagram](https://www.instagram.com/p/DXGA53HjSKu/) · [Local note](../../../IG/2026-04-14_0518_DXGA53HjSKu/DXGA53HjSKu%20-%20what%20level%20are%20you%20on_description.md).
 - **Coding is logic building, not syntax** — techpantiwithdev (DZalExDujId). [Instagram](https://www.instagram.com/p/DZalExDujId/) · [Local note](../../../IG/2026-08-15_0838_DZalExDujId/DZalExDujId%20-%20People%20think%20coding%20is%20about%20memorizing%20syntax_description.md).
 - **Build Your Own Next repo promo** — the_codingsloth (DY5JN3dBvRS). [Instagram](https://www.instagram.com/p/DY5JN3dBvRS/) · [Local note](../../../IG/2026-06-07_1549_DY5JN3dBvRS/DY5JN3dBvRS%20-%20Comment%20BUILD%20and%20Ill%20send%20you%20the%20repo_description.md).
 - **Coding skill is logic, not talent** — vitthalcodes (DYUjKs3ot7c). [Instagram](https://www.instagram.com/p/DYUjKs3ot7c/) · [Local note](../../../IG/2026-07-10_0247_DYUjKs3ot7c/DYUjKs3ot7c%20-%20Coding%20becomes%20easy%20when%20your%20logic%20becomes%20strong_description.md).

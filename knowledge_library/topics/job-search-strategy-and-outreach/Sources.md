@@ -29,6 +29,8 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **3 hacks for more job interviews** — diane.maximum.wage (DSn6fg0jPkQ). [Instagram](https://www.instagram.com/p/DSn6fg0jPkQ/) · [Local note](../../../IG/2026-01-22_2335_DSn6fg0jPkQ/DSn6fg0jPkQ_description.md).
 - **Getting hired without applying: follow the money** — jonathanwordsofwisdom (DeRx8yhs7-K). [Instagram](https://www.instagram.com/p/DeRx8yhs7-K/) · [Local note](../../../IG/2026-10-03_0018_DeRx8yhs7-K/DeRx8yhs7-K%20-%20Comment%20TOBI%20for%20the%20full%20interview_description.md).
 - **Remote work and Africa: earn Western, live African** — authentic_african (DZc1g_GCmrl). [Instagram](https://www.instagram.com/p/DZc1g_GCmrl/) · [Local note](../../../IG/2026-06-18_1531_DZc1g_GCmrl/DZc1g_GCmrl%20-%20Remote%20work%20and%20Africa%20the%20fastest%20path%20to%20the_description.md).
+- **Vibe-coding referral outreach by LinkedIn archetype** — angus.sewell (DeNjir4xlrG). [Instagram](https://www.instagram.com/p/DeNjir4xlrG/) · [Local note](../../../IG/2026-10-07_2040_DeNjir4xlrG/DeNjir4xlrG_description.md).
+- **Three LinkedIn voice note outreach scripts** — sherrysundays (DTKz-pjDiYt). [Instagram](https://www.instagram.com/p/DTKz-pjDiYt/) · [Local note](../../../IG/2026-01-27_0803_DTKz-pjDiYt/DTKz-pjDiYt%20-%20Steal%20these%20scripts%20Seriously_description.md).
 
 ## Preparation for a future skill
 

@@ -1,5 +1,5 @@
 {
-  "grouping": "2026-10-17_1837",
+  "grouping": "2026-10-24_reviewed",
   "built_at": "2026-10-17T22:40:16+00:00",
   "source_fingerprint": "a3106cb17ac2b22f90000b1d8ca497c3786000ccedb63c21f0a3366934e5f7f4",
   "posts": 1039,
@@ -31,9 +31,7 @@
         "Dc6j2_Si2RH",
         "DdA7WSEuhvn",
         "DcR3FzAT1DA",
-        "DVM-Ri7DMCz",
         "Dc_0CDsBolu",
-        "DM_Bq9lNzFD",
         "DWHwebRjkrD",
         "DZa3I_Ugpdl",
         "DbE0KgJjps7",
@@ -80,13 +78,8 @@
       "sources": [
         "DL4463iME7P",
         "DdB_2WTxk74",
-        "DeNjir4xlrG",
-        "DUnfseBDEZc",
-        "DasDVHuOJc1",
-        "DTKz-pjDiYt",
         "Da6KuOsTei5",
         "DavZiqvqfAk",
-        "DYVizuWqVGw",
         "DaP1uClMGLn"
       ]
     },
@@ -116,7 +109,9 @@
         "DRvQpD8jP_V",
         "DSn6fg0jPkQ",
         "DeRx8yhs7-K",
-        "DZc1g_GCmrl"
+        "DZc1g_GCmrl",
+        "DeNjir4xlrG",
+        "DTKz-pjDiYt"
       ]
     },
     {
@@ -139,9 +134,7 @@
         "DRf0wDKDVeL",
         "DSqm-khksu7",
         "DLP058ps8k7",
-        "DQ7-nOfjDgK",
         "DaEwa6Wgamk",
-        "DM8W-XSJbuY",
         "DOBj78ojfOX",
         "DNWC_iFx2WY",
         "DdUldWgvctY",
@@ -183,7 +176,6 @@
         "Tracking applications"
       ],
       "sources": [
-        "DOLKfq9AmlA",
         "DW5bfmLt4bS",
         "DWRlN5mAOq4",
         "DX-dCyRDDBT",
@@ -226,15 +218,10 @@
         "Negotiating an offer"
       ],
       "sources": [
-        "DWwLNehlmoy",
-        "DOLKfq9AmlA",
-        "DW5bfmLt4bS",
-        "DasDVHuOJc1",
         "DV6ofKNk73t",
         "DToE52PiELc",
         "DV7brEXjkxe",
         "DT23suDEm40",
-        "DRU4JAhEYZE",
         "DUyJ4sNGU4s",
         "DWG6Z2cDVd6",
         "DXSSbR0k0vU",
@@ -254,7 +241,6 @@
       ],
       "sources": [
         "DObu5_5kV16",
-        "DXW-ZRfEYXu",
         "DbRpu01gzLI",
         "Db-54v5IBSj",
         "DchcCBYHNcL",
@@ -296,7 +282,6 @@
         "DMaAkRozjvl",
         "DasDVHuOJc1",
         "DeFw7dhk--N",
-        "DVM-Ri7DMCz",
         "DaGBMj_tEgF",
         "DSSL_b2E3i4",
         "DX9bkK0g-1G",
@@ -318,10 +303,8 @@
         "DQuTYGaj3e4",
         "DYfFvYzGWzy",
         "DcrlxqNjRaP",
-        "DWfZjq8FABo",
         "DWhAWEfFpY2",
         "DdkLb4LJsHh",
-        "DTO0tTFkV-h",
         "DcVbSdemPCg",
         "DU_BMdDk3Ur",
         "DU-wUGRjstB",
@@ -342,7 +325,6 @@
       "sources": [
         "DSG9HLWAqaV",
         "DSIUd1cEeVG",
-        "DXGA53HjSKu",
         "DWqeKskFPDu",
         "DQXKN1kEogd",
         "DWRJJu6Em_E",
@@ -362,7 +344,6 @@
         "Finding hackathons"
       ],
       "sources": [
-        "DXGA53HjSKu",
         "DZalExDujId",
         "DY5JN3dBvRS",
         "DYUjKs3ot7c",
@@ -410,14 +391,12 @@
         "Da-3ccGq7wF",
         "DafpByARJkf",
         "Dd6374phFJg",
-        "DTj1aukAFfc",
         "DbhUm2eMgMf",
         "DcJg83WK67e",
         "DM0MfDaM5yC",
         "DbeAdKopp01",
         "DceBtOuOFG7",
         "DMsbv3zRjr7",
-        "DV1YpDHALPx",
         "DRf805_gWCj",
         "DMypP68vNC4",
         "DaQvbjamSzL",
@@ -429,7 +408,6 @@
         "DbtFtVGxY0y",
         "DdRMMh2DnOn",
         "DLkVrJcx9Bj",
-        "DaloyJJJccw",
         "Da24F2lRpHb",
         "DaLu4uIJu6s",
         "DZ_BimsvN0P",
@@ -447,16 +425,16 @@
       ],
       "sources": [
         "DZK-6ZlthtJ",
-        "DblSF1Ygckt",
         "DKSsGNbRa-8",
         "Db0-T5WFoB8",
         "DUEQHIqFYh3",
-        "DYS5MM5Pcpd",
         "DbLa8oyOYTR",
         "DZsdBA5hfwR",
         "DeDtLWoM8Qo",
         "DMJ4dlnsOWz",
-        "DPolqFUDBWH"
+        "DPolqFUDBWH",
+        "DTj1aukAFfc",
+        "DV1YpDHALPx"
       ]
     },
     {
@@ -518,7 +496,6 @@
         "DWz_6NTD6qc",
         "DbzLnfRnJwd",
         "DZcdGxvTLno",
-        "DchcCBYHNcL",
         "DefIicBgCiv",
         "DXEqf1ckwfb",
         "DXtMAUfDSjZ",
@@ -538,7 +515,6 @@
         "DVHiGM5DJRn",
         "DaAbZf9lYh2",
         "DaojVuSNKno",
-        "DdlrfKiNiVE",
         "Dax3y2AjzNP",
         "DcVSyBvvthb",
         "DRNMKZSiUPS",
@@ -555,7 +531,6 @@
         "DV8qasfDWXx",
         "DRzfEfTktX1",
         "DXR9bVXAcce",
-        "DUIi82oDMsq",
         "Da1hOm7scjR",
         "DegASWXxIDY",
         "DbwmInXHFgH"
@@ -573,8 +548,6 @@
         "DWwq0ZxFWvI",
         "DbWSx9QnNzs",
         "DcqQO4Kp4f9",
-        "DWhAWEfFpY2",
-        "DasDVHuOJc1",
         "DYxHCH_sxyi",
         "DW9RfOcFhM6",
         "Db1USzsMNnZ",
@@ -593,7 +566,9 @@
         "DVFZWnPDA0A",
         "DVRu6GlDNHO",
         "DYQCEK5OMrh",
-        "DcmuyLFJtCp"
+        "DcmuyLFJtCp",
+        "DawXrcisz6U",
+        "DNQRv7Is9Z5"
       ]
     },
     {
@@ -644,7 +619,6 @@
         "DWm2b_qDGPL",
         "Dcyd8TyiO95",
         "DWjqTRHkuQt",
-        "Dc_5L38gSSp",
         "DeWuGEKDTJi",
         "DXhIODkDqq2",
         "DdCAgAOmHv9",
@@ -655,7 +629,8 @@
         "DW4D0s6D0e4",
         "DalUVOBjD00",
         "DXmmuz3AOQC",
-        "DYXWNTERFhZ"
+        "DYXWNTERFhZ",
+        "DM_Bq9lNzFD"
       ]
     },
     {
@@ -670,7 +645,6 @@
         "DWTw4T4EtjV",
         "DeF0y--HLPy",
         "DchcCBYHNcL",
-        "DawXrcisz6U",
         "Dd15NcHvlNl",
         "DeXQK2FMABm",
         "DYUs45olymB",
@@ -681,7 +655,8 @@
         "Dbyk29vAsEi",
         "DT0FzYejJze",
         "DYWFueGtPOP",
-        "DeZmvB1CThv"
+        "DeZmvB1CThv",
+        "Dc_5L38gSSp"
       ]
     },
     {
@@ -695,8 +670,6 @@
       ],
       "sources": [
         "DWwLNehlmoy",
-        "DObu5_5kV16",
-        "DXW-ZRfEYXu",
         "DQ4VKAzDk9A",
         "DWamEmgjLll",
         "DQo4EhBjekq",
@@ -721,7 +694,8 @@
         "DZbYzyqxVei",
         "DbDK03zmHXz",
         "DcWZnsRon-e",
-        "DdIxX0lkzy2"
+        "DdIxX0lkzy2",
+        "DXviLgnO06z"
       ]
     },
     {
@@ -733,11 +707,9 @@
         "Choosing startup tools"
       ],
       "sources": [
-        "DWNj5M4kjP9",
         "Da5MlgRtrA_",
         "DUYXyB8gKq5",
         "DWSY_aSD7E8",
-        "DWjDs5BjO8i",
         "DeFevq3lA22",
         "DWfZjq8FABo",
         "DeaB6f8D5y7",
@@ -750,16 +722,15 @@
         "Da01AJnh_hI",
         "DPJn0O5jFZ4",
         "DVRcoi4DDeH",
-        "DYsS2e_iNY2",
         "DavZiqvqfAk",
-        "DZ-z-ctCCUD",
         "DZ5q90LPEEQ",
         "Db6j5c9zeP8",
         "DM1Bf5FB8qK",
         "DYMHy9GtDqz",
         "DL-Lq16NM4D",
         "DbXHIDaSrk4",
-        "DLnWPmhMK6U"
+        "DLnWPmhMK6U",
+        "DM8W-XSJbuY"
       ]
     },
     {
@@ -833,17 +804,10 @@
         "Da5MlgRtrA_",
         "DP2S6SngSsa",
         "DaIhx6_tNkk",
-        "DbORY7-OLjT",
-        "DYt4twgAEcs",
         "DaOM2YjIM9f",
         "DbJXaZWjzg6",
-        "DWS-ypWtEaG",
         "DaTz3e3MNCL",
-        "DWhAWEfFpY2",
         "DYejISHDQlD",
-        "DasDVHuOJc1",
-        "Dd35zfeq9bR",
-        "DNQRv7Is9Z5",
         "DTstqdKjAjb",
         "Db9IiDuhgYO",
         "Dd_wgFKicUx",
@@ -893,17 +857,13 @@
       "sources": [
         "DXGA53HjSKu",
         "DX3NdIfMfj7",
-        "Da6KuOsTei5",
         "DYfGyy-Oh7V",
         "DbCLmmhq8nZ",
-        "DZYJzwCxvhN",
-        "DWH0YSdCDu0",
         "DXZjCPEijJv",
         "DY48LieCGCn",
         "Db-123LR0e0",
         "DN_Nfu5jM4C",
         "DYPxWu7jEaC",
-        "DXxIG8RxJQ9",
         "DV4RwQyDH0S",
         "DX_zVmesUoR",
         "DYxZ-R1CCKb",
@@ -937,13 +897,13 @@
         "DZSFwawMCd5",
         "DZy5O6yEXoF",
         "DeeldAQiJFb",
-        "DaYNQBsDm_b",
         "DehwDoto77t",
         "DbLqfsZCELb",
         "DZOBSPYkkly",
         "DZSzM8wSEPd",
         "DY43KOtDAJW",
-        "DeCbLK-jJlu"
+        "DeCbLK-jJlu",
+        "DXxIG8RxJQ9"
       ]
     },
     {
@@ -986,7 +946,6 @@
         "Dal20RAObsn",
         "DcMsITix39I",
         "DUDvV3hACsQ",
-        "DXviLgnO06z",
         "DaVr_PGkbrq",
         "DbgnXQ2Mddo",
         "DZtJTQKPEt3",
@@ -1003,7 +962,8 @@
         "Dau5CWtiTOw",
         "DcgwZVtjDpG",
         "DYDYioYS7um",
-        "DeIKzf5zImN"
+        "DeIKzf5zImN",
+        "DaYNQBsDm_b"
       ]
     },
     {
@@ -1016,11 +976,8 @@
       "sources": [
         "DNoFCxvgAg7",
         "DTiTH1MjkZM",
-        "DWhAWEfFpY2",
-        "DXviLgnO06z",
         "DTEtct8jam1",
         "DVM-Ri7DMCz",
-        "DTO0tTFkV-h",
         "DavCDRVtap8",
         "DeYw_o-DGMq",
         "DZ0ExQPxbv7",
@@ -1041,7 +998,9 @@
         "DaqEkhVtmbe",
         "DeWr8XPjXTJ",
         "DUJVdNBkfXB",
-        "DYu3grfvL4l"
+        "DYu3grfvL4l",
+        "DZYJzwCxvhN",
+        "DWH0YSdCDu0"
       ]
     },
     {
@@ -1134,7 +1093,9 @@
         "DUajWr7iUFV",
         "DVeAP4pgtlk",
         "DZVYUZPIJdy",
-        "DaqCv7uRwlo"
+        "DaqCv7uRwlo",
+        "DYS5MM5Pcpd",
+        "DeQe_C5A2vp"
       ]
     },
     {
@@ -1174,7 +1135,6 @@
         "DcLhn2-MZEg",
         "DeFqDz7BJcs",
         "DbW1KA3ts5k",
-        "DeQe_C5A2vp",
         "DcfRe70MqjF"
       ]
     },
@@ -1215,7 +1175,6 @@
         "DbKa7zAFG-b",
         "DbzJ_jImYtU",
         "Daz5rXbz2w3",
-        "DWS-ypWtEaG",
         "DYNZcOgIcZg",
         "DcNdErjopNG",
         "DZab0c7EfB1",
@@ -1274,7 +1233,8 @@
         "DYnDHlfpRFt",
         "DcuTCNYiD0a",
         "DbEmcU9BoMt",
-        "DcUhpSKBdzz"
+        "DcUhpSKBdzz",
+        "DTD7Y-HEbRc"
       ]
     },
     {
@@ -1296,7 +1256,6 @@
         "DeR8ZyWxve0",
         "DSez3SLgFqH",
         "DYXIrpRSUJu",
-        "DeQWc1eObzI",
         "DL6eFxZzAvJ",
         "DXc8_2FkV4D",
         "Dc0gvxKCRf9",
@@ -1342,7 +1301,6 @@
         "DddNPtGGayH",
         "DdyQEqMGb2U",
         "Dc8cexPGcVa",
-        "DbbnVSfSM6n",
         "DcbS44-DNJD",
         "DZiMW8cz_Jf",
         "DeaOQ2bD9Zl",
@@ -1440,7 +1398,13 @@
         "DeMiEoaP-8i",
         "DQr72bNgCTc",
         "Dbu2kBzBcf8",
-        "Dc6M56Ay3Ye"
+        "Dc6M56Ay3Ye",
+        "DYt4twgAEcs",
+        "DeZfbS8P3hN",
+        "DdWuWKLNzGt",
+        "Dd0j_P5FQKt",
+        "Dc7etjGTTCY",
+        "DdnU882Cy0W"
       ]
     },
     {
@@ -1505,10 +1469,6 @@
       ],
       "sources": [
         "DcLWqIOjNIN",
-        "DeZfbS8P3hN",
-        "DdWuWKLNzGt",
-        "Dd0j_P5FQKt",
-        "Dc7etjGTTCY",
         "DORVpt-Ei6s",
         "DOlDgY_AlYR",
         "DOnn2qEguJV",
@@ -1517,7 +1477,6 @@
         "Dc_-aVjka22",
         "DdMmHXGzV8z",
         "Dc9td67iHx6",
-        "DMc5D0Kgu5N",
         "DeIG6hAHI8I",
         "DbK9hWPiNoO"
       ]
@@ -1531,9 +1490,7 @@
       ],
       "sources": [
         "DcRAbRtmNxt",
-        "Dcwk8hBGDvv",
         "DY4gcNRkseO",
-        "DX9TVLojYTa",
         "DcUy9rhR0Uo",
         "DOyIg5kjYUA",
         "DSFKsvSDel4",
@@ -1567,12 +1524,9 @@
       ],
       "sources": [
         "DbX9V9bE2XH",
-        "DcRAbRtmNxt",
-        "DY4gcNRkseO",
         "DNPpuMlu9Y6",
         "DPb9W1sD02j",
-        "DZ5R87lTGMS",
-        "Dcwk8hBGDvv"
+        "DZ5R87lTGMS"
       ]
     },
     {
@@ -1619,7 +1573,8 @@
         "DWG4_F_iYcp",
         "DOqn5PcDB4T",
         "Da0m_d6xLbZ",
-        "DYhR9kvDXKz"
+        "DYhR9kvDXKz",
+        "DUIi82oDMsq"
       ]
     },
     {
@@ -1631,21 +1586,16 @@
       ],
       "sources": [
         "Dd6AUptM9lT",
-        "DPAYGrAjS8e",
         "Ddl-hfiAnWK",
         "DTXYoXagIRw",
         "DZvvaM1g-TB",
         "DQn0KKbCZGi",
         "DNWYb3DtS3T",
         "DTbGu4cgIeM",
-        "DWamEmgjLll",
         "DcrFYPLJ4cI",
         "DSViUPrDJV-",
         "DR_KZVcjLOT",
-        "DTkIJHWjQcz",
-        "DYXIrpRSUJu",
         "Db_YE1ctDqS",
-        "DbCLmmhq8nZ",
         "DeET_LNFrz5",
         "DaqJsC7DZDg",
         "DeSf5MxNp-j",
@@ -1658,10 +1608,8 @@
         "DX31YpWgBAZ",
         "Deh4GM9tIO-",
         "DbebJdSiO3n",
-        "DTD7Y-HEbRc",
-        "Db_p3j0p1kb",
         "Dc6IQTPk_bu",
-        "DdnU882Cy0W"
+        "DQ7-nOfjDgK"
       ]
     },
     {
@@ -1675,7 +1623,6 @@
         "DcFv-oUICV7",
         "DdsODaiMTft",
         "DXmf23jkRO5",
-        "DVM-Ri7DMCz",
         "DeQgHc-NPSt",
         "DdctyCXTIbY",
         "DY5lKEaK7TA",
@@ -1698,7 +1645,6 @@
         "Db_3NnSoZcX",
         "DdCYDXqkm1N",
         "DcWJqAexob4",
-        "Dax3y2AjzNP",
         "DaBHE_phDjm",
         "DZY2XEjNX7d",
         "DayzvgiupM8",
@@ -1708,7 +1654,8 @@
         "DMQN5s-MFyh",
         "DbCJAr7JkQr",
         "Dai57IPS9DW",
-        "DeA1Dr2EwYx"
+        "DeA1Dr2EwYx",
+        "DaloyJJJccw"
       ]
     },
     {
@@ -1719,12 +1666,12 @@
         "Reviewing personal finances"
       ],
       "sources": [
-        "DVM-Ri7DMCz",
         "DZncvjclncO",
         "DeHsTcHEzG4",
         "DdKdgRJkQt8",
         "DZtXQV6t5k9",
-        "DZhOsNGjp1o"
+        "DZhOsNGjp1o",
+        "DPAYGrAjS8e"
       ]
     },
     {
@@ -1738,7 +1685,6 @@
         "DahjAYBmZVP",
         "DcqQO4Kp4f9",
         "DYGZPqUM3-7",
-        "DTstqdKjAjb",
         "DYfGV9BhCZ9",
         "DYXX9klBI0c",
         "DZFoX8eR4FO",
@@ -1759,7 +1705,6 @@
       ],
       "sources": [
         "DbB0Kdzionn",
-        "DTO0tTFkV-h",
         "DOm3thwDaYj",
         "DZRDP6Qkoot",
         "DbwNVECDdbV",
@@ -1797,8 +1742,12 @@
       "sources": [
         "DczTSErsB45",
         "DLXU_AosTQE",
-        "DTpo0U4ADcI"
+        "DTpo0U4ADcI",
+        "DblSF1Ygckt",
+        "Db_p3j0p1kb"
       ]
     }
-  ]
+  ],
+  "reviewed_from": "2026-10-17_1837",
+  "reviewed_at": "2026-10-24"
 }

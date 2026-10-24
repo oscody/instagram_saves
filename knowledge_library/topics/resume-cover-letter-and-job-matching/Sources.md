@@ -12,7 +12,6 @@ Resume tailoring and review, cover letters, job matching, application tracking, 
 
 Grouping preserves all sources, including overlapping or conflicting advice. The playbook stage will compare their methods and evidence.
 
-- **4 websites to find remote jobs** — simplydigital.gr (DOLKfq9AmlA). [Instagram](https://www.instagram.com/p/DOLKfq9AmlA/) · [Local note](../../../IG/2025-09-04_1418_DOLKfq9AmlA/DOLKfq9AmlA%20-%204%20websites%20to%20job%20your%20loveremotely_description.md).
 - **Career Ops: Claude Code job search tool** — chase.h.ai (DW5bfmLt4bS). [Instagram](https://www.instagram.com/p/DW5bfmLt4bS/) · [Local note](../../../IG/2026-04-10_1255_DW5bfmLt4bS/DW5bfmLt4bS%20-%20Comment%20agent%20for%20my%20Claude%20code%20guides_description.md).
 - **Using Claude to find matching job postings** — mypersonalmentors (DWRlN5mAOq4). [Instagram](https://www.instagram.com/p/DWRlN5mAOq4/) · [Local note](../../../IG/2026-04-04_1557_DWRlN5mAOq4/DWRlN5mAOq4%20-%20How%20they%20landed%20100K%20job%20offers_description.md).
 - **Standout AI agent for startup job access** — standout.work (DX-dCyRDDBT). [Instagram](https://www.instagram.com/p/DX-dCyRDDBT/) · [Local note](../../../IG/2026-06-22_1618_DX-dCyRDDBT/DX-dCyRDDBT_description.md).

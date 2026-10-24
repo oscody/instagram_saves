@@ -27,6 +27,7 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **P99 CONF talk on low-latency LLM inference** — scylla_db (DOqn5PcDB4T). [Instagram](https://www.instagram.com/p/DOqn5PcDB4T/) · [Local note](../../../IG/2025-10-02_1544_DOqn5PcDB4T/DOqn5PcDB4T_description.md).
 - **Augment people, don't just automate them** — lostandlucky (Da0m_d6xLbZ). [Instagram](https://www.instagram.com/p/Da0m_d6xLbZ/) · [Local note](../../../IG/2026-07-16_0555_Da0m_d6xLbZ/Da0m_d6xLbZ%20-%20Everything%20you%20automate%20can%20become%20just%20a%20tool%20in_description.md).
 - **Chinese students' grey-market GPT and Claude access** — evolving.ai (DYhR9kvDXKz). [Instagram](https://www.instagram.com/p/DYhR9kvDXKz/) · [Local note](../../../IG/2026-05-19_1231_DYhR9kvDXKz/DYhR9kvDXKz%20-%20A%20computer%20science%20student%20in%20China%20just%20admitted_description.md).
+- **Kimi K2.5: Visual Coding, Agent Swarm, Visual Edit** — theaifield (DUIi82oDMsq). [Instagram](https://www.instagram.com/p/DUIi82oDMsq/) · [Local note](../../../IG/2026-01-30_0815_DUIi82oDMsq/DUIi82oDMsq%20-%20just%20dropped%20something%20WILD_description.md).
 
 ## Preparation for a future skill
 

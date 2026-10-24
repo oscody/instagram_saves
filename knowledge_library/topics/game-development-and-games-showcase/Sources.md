@@ -47,6 +47,12 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **Wireless VR setup and game clips showcase** — vrcave (DQr72bNgCTc). [Instagram](https://www.instagram.com/p/DQr72bNgCTc/) · [Local note](../../../IG/2026-01-08_0735_DQr72bNgCTc/DQr72bNgCTc_description.md).
 - **Top 5 Free Asset Websites for Game Development** — dev.uniquegames (Dbu2kBzBcf8). [Instagram](https://www.instagram.com/p/Dbu2kBzBcf8/) · [Local note](../../../IG/2026-09-08_1356_Dbu2kBzBcf8/Dbu2kBzBcf8%20-%20Top%205%20Free%20Asset%20Websites%20for%20Game%20Development_description.md).
 - **10 game dev tutorials for beginners** — nomoremicrotransationsstudios (Dc6M56Ay3Ye). [Instagram](https://www.instagram.com/p/Dc6M56Ay3Ye/) · [Local note](../../../IG/2026-09-06_2350_Dc6M56Ay3Ye/Dc6M56Ay3Ye%20-%2010%20TUTORIALS%20that%20helped%20ME%20jumpstart%20my%20game%20dev_description.md).
+- **Take-Two CEO: AI builds assets, not hits** — evolving.ai (DYt4twgAEcs). [Instagram](https://www.instagram.com/p/DYt4twgAEcs/) · [Local note](../../../IG/2026-05-24_1824_DYt4twgAEcs/DYt4twgAEcs%20-%20CEO%20of%20TakeTwo%20Strauss%20Zelnick%20who%20owns%20GTA%20just_description.md).
+- **Claude-built Minecraft-style Attack on Titan game** — nick_saraev (DeZfbS8P3hN). [Instagram](https://www.instagram.com/p/DeZfbS8P3hN/) · [Local note](../../../IG/2026-10-12_1630_DeZfbS8P3hN/DeZfbS8P3hN_description.md).
+- **Pokémon world turned into room-scale AR** — ae.t.he.r (DdWuWKLNzGt). [Instagram](https://www.instagram.com/p/DdWuWKLNzGt/) · [Local note](../../../IG/2026-09-16_1448_DdWuWKLNzGt/DdWuWKLNzGt%20-%20Imagine%20burning%20through%20all%20your%20AI%20tokens%20just%20to_description.md).
+- **AI-generated playable game clones showcase** — chatgptricks (Dd0j_P5FQKt). [Instagram](https://www.instagram.com/p/Dd0j_P5FQKt/) · [Local note](../../../IG/2026-09-30_2015_Dd0j_P5FQKt/Dd0j_P5FQKt%20-%20AI%20can%20build%20video%20games%20now_description.md).
+- **ChatGPT-6 Astra builds explorable Hidden Leaf Village** — sina.growthtech (Dc7etjGTTCY). [Instagram](https://www.instagram.com/p/Dc7etjGTTCY/) · [Local note](../../../IG/2026-09-06_1352_Dc7etjGTTCY/Dc7etjGTTCY%20-%20ChatGPT6%20Astra%20built%20out%20the%20Hidden%20Leaf%20Village_description.md).
+- **Shader and VFX showcase for Unity and Godot** — fabrizio_espindola (DdnU882Cy0W). [Instagram](https://www.instagram.com/p/DdnU882Cy0W/) · [Local note](../../../IG/2026-10-01_1254_DdnU882Cy0W/DdnU882Cy0W%20-%20These%20shaders%20and%20VFX%20are%20available%20in%20The%20Shaders_description.md).
 
 ## Preparation for a future skill
 

@@ -13,8 +13,6 @@ Prompts for learning, strategic analysis, daily planning, and self-reflection.
 Grouping preserves all sources, including overlapping or conflicting advice. The playbook stage will compare their methods and evidence.
 
 - **Claude Prompts to Learn Anything for Free** — coders_section (DWwLNehlmoy). [Instagram](https://www.instagram.com/p/DWwLNehlmoy/) · [Local note](../../../IG/2026-04-06_1819_DWwLNehlmoy/DWwLNehlmoy%20-%20Want%20to%20learn%20anything%20faster%20without%20spending_description.md).
-- **OpenAI's planned jobs platform and how to prepare** — akanundrum (DObu5_5kV16). [Instagram](https://www.instagram.com/p/DObu5_5kV16/) · [Local note](../../../IG/2025-09-11_2007_DObu5_5kV16/DObu5_5kV16%20-%20GET%20ON%20THIS%20ASAP%20For%20the%20LinkedIn%20course%20mentioned_description.md).
-- **Switching from ChatGPT to Claude: three steps** — kingketo (DXW-ZRfEYXu). [Instagram](https://www.instagram.com/p/DXW-ZRfEYXu/) · [Local note](../../../IG/2026-05-03_0739_DXW-ZRfEYXu/DXW-ZRfEYXu%20-%20Thinking%20is%20switching%20to%20Claude_description.md).
 - **Google's Learn Your Way AI study tool** — ninjaaitools (DQ4VKAzDk9A). [Instagram](https://www.instagram.com/p/DQ4VKAzDk9A/) · [Local note](../../../IG/2025-12-10_1247_DQ4VKAzDk9A/DQ4VKAzDk9A%20-%20Comment%20Textbook%20and%20Ill%20send%20you%20the%20link%20plus%20my_description.md).
 - **Three websites: study tool, photo location, free apps** — leelockedin (DWamEmgjLll). [Instagram](https://www.instagram.com/p/DWamEmgjLll/) · [Local note](../../../IG/2026-03-29_0932_DWamEmgjLll/DWamEmgjLll%20-%20FINALLY%20something%20useful%20from%20them_description.md).
 - **Google's Learn Your Way personalized textbooks** — drcintas (DQo4EhBjekq). [Instagram](https://www.instagram.com/p/DQo4EhBjekq/) · [Local note](../../../IG/2025-12-09_0934_DQo4EhBjekq/DQo4EhBjekq%20-%20Google%20just%20solved%20one%20of%20the%20oldest%20problems%20in_description.md).
@@ -40,6 +38,7 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **Nietzsche's Herd Mentality and Three Claude Prompts** — thinkgpt_ai (DbDK03zmHXz). [Instagram](https://www.instagram.com/p/DbDK03zmHXz/) · [Local note](../../../IG/2026-07-21_1533_DbDK03zmHXz/DbDK03zmHXz%20-%20Nietzsche%20believed%20most%20people%20never%20actually_description.md).
 - **Using AI-built simulations to learn complex topics** — beyondthebuildpodcast (DcWZnsRon-e). [Instagram](https://www.instagram.com/p/DcWZnsRon-e/) · [Local note](../../../IG/2026-09-06_2354_DcWZnsRon-e/DcWZnsRon-e%20-%20One%20of%20the%20smartest%20uses%20of%20AI%20for%20learning%20is_description.md).
 - **ChatGPT Prompts for Birth-Date Self-Reflection** — gptprompts.ai (DdIxX0lkzy2). [Instagram](https://www.instagram.com/p/DdIxX0lkzy2/) · [Local note](../../../IG/2026-09-12_1057_DdIxX0lkzy2/DdIxX0lkzy2%20-%20Comment%20Prompt%20to%20get%201K%20Premium%20Prompts_description.md).
+- **Claude prompt hack for goals and daily schedule** — realmelaninking (DXviLgnO06z). [Instagram](https://www.instagram.com/p/DXviLgnO06z/) · [Local note](../../../IG/2026-05-04_0357_DXviLgnO06z/DXviLgnO06z%20-%20He%20exposed%20a%20Claude%20hack%20that%20will%20make%20anyone_description.md).
 
 ## Preparation for a future skill
 

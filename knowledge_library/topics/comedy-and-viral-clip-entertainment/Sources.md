@@ -20,6 +20,7 @@ Grouping preserves all sources, including overlapping or conflicting advice. The
 - **Rooftop skit: hood dudes as anime characters** — geebreezy._ (DcuTCNYiD0a). [Instagram](https://www.instagram.com/p/DcuTCNYiD0a/) · [Local note](../../../IG/2026-09-03_1038_DcuTCNYiD0a/DcuTCNYiD0a%20-%20If%20Hood%20Dudes%20Acted%20Like%20Anime%20Characters_description.md).
 - **Friend on a date with toxic ex skit** — hampton_ (DbEmcU9BoMt). [Instagram](https://www.instagram.com/p/DbEmcU9BoMt/) · [Local note](../../../IG/2026-07-22_1056_DbEmcU9BoMt/DbEmcU9BoMt%20-%20What%20friend%20would%20you%20do%20this%20for%20Watch%20the%20full_description.md).
 - **If Hood Dudes Had an Anime Power System** — 301odawgclips (DcUhpSKBdzz). [Instagram](https://www.instagram.com/p/DcUhpSKBdzz/) · [Local note](../../../IG/2026-08-23_1459_DcUhpSKBdzz/DcUhpSKBdzz%20-%20If%20Hood%20Dudes%20Had%20an%20Anime%20Power%20System_description.md).
+- **Proud dad shares daughter dancing in kitchen** — wavegodphotography (DTD7Y-HEbRc). [Instagram](https://www.instagram.com/p/DTD7Y-HEbRc/) · [Local note](../../../IG/2026-01-05_2018_DTD7Y-HEbRc/DTD7Y-HEbRc%20-%20Im%20just%20being%20a%20proud%20dad%20Im%20her%20biggest%20fan%20Zahra_description.md).
 
 ## Preparation for a future skill
 
