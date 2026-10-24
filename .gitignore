@@ -25,5 +25,9 @@ ig_automation/playbook/__pycache__/
 ig_automation/playbook/tests/__pycache__/
 ig_automation/playback/__pycache__/
 
-# Interest feed: digests, seen items and logs stay local.
+# Interest feed: digests, history, caches, search results and logs stay local.
 interest_feed/output/
+
+# Python bytecode caches, in every folder.
+__pycache__/
+*.pyc

@@ -4,25 +4,108 @@
   {
    "slug": "coding-agents",
    "name": "Coding agent configuration and workflows",
-   "per_week": 3,
-   "library_topics": ["coding-agent-configuration-and-workflows"],
-   "search": ["Claude Code", "Codex", "CLAUDE.md", "AGENTS.md", "hooks", "subagents", "plan mode", "spec driven development", "agent loops", "model routing"],
-   "avoid": ["comment for the link", "course promo", "star count list with no repo", "free Claude proxy"]
+   "per_week": 5,
+   "library_topics": [
+    "coding-agent-configuration-and-workflows"
+   ],
+   "search": [
+    "Claude Code",
+    "Codex",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "hooks",
+    "subagents",
+    "plan mode",
+    "spec driven development",
+    "agent loops",
+    "model routing"
+   ],
+   "avoid": [
+    "comment for the link",
+    "course promo",
+    "star count list with no repo",
+    "free Claude proxy"
+   ]
   },
   {
    "slug": "agent-skills",
    "name": "Agent skills, memory and knowledge libraries",
-   "per_week": 2,
-   "library_topics": ["agent-skills-memory-and-knowledge-libraries"],
-   "search": ["agent skills", "SKILL.md", "skills.sh", "MCP servers", "LLM wiki", "knowledge graph", "agent memory", "context engineering", "skill security"],
-   "avoid": ["million skills claim", "giant skill dump", "AI employee stack with no steps"]
+   "per_week": 4,
+   "library_topics": [
+    "agent-skills-memory-and-knowledge-libraries"
+   ],
+   "search": [
+    "agent skills",
+    "SKILL.md",
+    "skills.sh",
+    "MCP servers",
+    "LLM wiki",
+    "knowledge graph",
+    "agent memory",
+    "context engineering",
+    "skill security"
+   ],
+   "avoid": [
+    "million skills claim",
+    "giant skill dump",
+    "AI employee stack with no steps"
+   ]
   }
  ],
  "sources": {
-  "github_search": ["claude code", "claude code skill", "claude code plugin", "codex", "agent skills", "agent memory", "mcp server", "llm wiki", "knowledge graph agent"],
-  "show_hn": ["claude", "codex", "agent", "skill", "mcp"],
-  "hackernews": ["claude code", "agent skills", "codex cli", "CLAUDE.md"],
-  "reddit": ["ClaudeCode", "ClaudeAI"],
-  "github_releases": ["anthropics/claude-code", "openai/codex", "github/spec-kit", "NVIDIA/SkillSpector"]
+  "awesome_list": [
+   "hesreallyhim/awesome-claude-code",
+   "VoltAgent/awesome-agent-skills",
+   "ComposioHQ/awesome-claude-skills",
+   "VoltAgent/awesome-claude-code-subagents"
+  ],
+  "hn_github": [
+   "github.com"
+  ],
+  "page_links": [
+   "https://code.claude.com/docs/llms.txt | https://code.claude.com/docs/en/"
+  ],
+  "feeds": [
+   "https://simonwillison.net/atom/everything/"
+  ],
+  "github_trending": [
+   "",
+   "python",
+   "typescript"
+  ],
+  "github_search": [
+   "claude code",
+   "claude code skill",
+   "claude code plugin",
+   "codex",
+   "agent skills",
+   "agent memory",
+   "mcp server",
+   "llm wiki",
+   "knowledge graph agent"
+  ],
+  "show_hn": [
+   "claude",
+   "codex",
+   "agent",
+   "skill",
+   "mcp"
+  ],
+  "hackernews": [
+   "claude code",
+   "agent skills",
+   "codex cli",
+   "CLAUDE.md"
+  ],
+  "reddit": [
+   "ClaudeCode",
+   "ClaudeAI"
+  ],
+  "github_releases": [
+   "anthropics/claude-code",
+   "openai/codex",
+   "github/spec-kit",
+   "NVIDIA/SkillSpector"
+  ]
  }
 }
