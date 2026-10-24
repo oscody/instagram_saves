@@ -13,6 +13,7 @@ Runs on the Mac and on the Pi. It needs only Python 3 and the logged in Claude C
 """
 
 import argparse
+import email.utils
 import gzip
 import html
 import json
@@ -50,6 +51,7 @@ USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
 FETCH_TIMEOUT = 30
 SNIPPET_CHARS = 400
 MAX_ITEMS = 300
+PER_SOURCE_MAX = 30  # newest items kept from any one source per run
 SEARCH_REPOS_PER_QUERY = 5
 SEEN_KEEP_DAYS = 60
 ARCHIVE_PAUSE = 4  # seconds between Wayback Machine requests; faster gets HTTP 429
@@ -62,6 +64,7 @@ GITHUB_PAUSE = 7  # seconds between searches; GitHub allows 10 a minute without 
 REDDIT_PAUSE = 5  # seconds between subreddits; back to back requests get HTTP 429
 PRERELEASE_RE = re.compile(r"-(alpha|beta|rc)\b", re.I)
 ATOM = "{http://www.w3.org/2005/Atom}"
+CONTENT = "{http://purl.org/rss/1.0/modules/content/}"
 
 CLAUDE_TIMEOUT = 600
 CLAUDE_LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|out of extra usage|hit your limit", re.I)
@@ -160,9 +163,30 @@ def parse_time(value: str):
         return None
 
 
+def content_links(raw: str) -> list:
+    """Links inside a post's body, so a post about a repo also matches that repo."""
+    return sorted(set(re.findall(r'href="(https?://[^"]+)"', raw or "") + re.findall(r"\((https?://[^)\s]+)\)", raw or "")))
+
+
 def atom_items(url: str, source: str) -> list:
+    """Entries of an Atom or RSS 2.0 feed."""
     root = ET.fromstring(get(url))
     items = []
+    for entry in root.iter("item"):  # RSS 2.0
+        raw = (entry.findtext(f"{CONTENT}encoded") or "") + (entry.findtext("description") or "")
+        try:
+            published = email.utils.parsedate_to_datetime(entry.findtext("pubDate") or "").isoformat()
+        except (TypeError, ValueError):
+            published = ""
+        items.append({
+            "id": entry.findtext("guid") or entry.findtext("link") or "",
+            "source": source,
+            "title": plain(entry.findtext("title") or ""),
+            "url": (entry.findtext("link") or "").strip(),
+            "published": published,
+            "snippet": plain(raw),
+            "links": content_links(raw),
+        })
     for entry in root.iter(f"{ATOM}entry"):
         link = entry.find(f"{ATOM}link")
         body = entry.find(f"{ATOM}content")
@@ -175,6 +199,7 @@ def atom_items(url: str, source: str) -> list:
             "url": link.get("href") if link is not None else "",
             "published": entry.findtext(f"{ATOM}updated") or entry.findtext(f"{ATOM}published") or "",
             "snippet": plain(body.text if body is not None else ""),
+            "links": content_links(body.text if body is not None else ""),
         })
     return items
 
@@ -407,7 +432,8 @@ def show_hn(query: str, since, until) -> list:
     } for hit in data.get("hits", [])]
 
 
-BACKDATABLE = {"github_search", "github_trending", "hackernews", "show_hn", "awesome_list", "hn_github", "page_links"}  # sources that can search a past window, for --as-of
+BACKDATABLE = {"github_search", "github_trending", "hackernews", "show_hn", "awesome_list", "hn_github", "page_links",
+               "feeds"}  # feeds only reach back as far as their last entries  # sources that can search a past window, for --as-of
 
 FETCHERS = {
     "github_releases": github_releases,
@@ -441,6 +467,7 @@ def fetch_all(sources: dict, since, until, backtest: bool = False) -> list:
                 logger.warning(f"  ✗ {kind} {name}: {error}")
                 continue
             fresh = [i for i in found if i["id"] not in ids and since <= (parse_time(i["published"]) or since) <= until]
+            fresh = sorted(fresh, key=lambda i: i["published"], reverse=True)[:PER_SOURCE_MAX]  # busy feeds cannot crowd out the rest
             ids.update(i["id"] for i in fresh)
             items += fresh
             logger.info(f"  {kind} {name}: {len(fresh)} new this window")
@@ -632,7 +659,8 @@ def log_history(path: Path, run_date: str, items: list, chosen: dict) -> None:
     """Every item looked at in this run, picked or not, for score.py."""
     picked = {p["id"]: slug for slug, picks in chosen.items() for p in picks}
     entry = {"run_date": run_date, "items": [{
-        "key": link_key(i["url"]), "url": i["url"], "title": i["title"], "source": i["source"],
+        "key": link_key(i["url"]), "url": i["url"],
+        "keys": sorted({link_key(i["url"])} | {link_key(u) for u in i.get("links", [])}), "title": i["title"], "source": i["source"],
         "update": bool(i.get("update")), "picked": i["id"] in picked, "topic": picked.get(i["id"], ""),
     } for i in items]}
     path.parent.mkdir(parents=True, exist_ok=True)

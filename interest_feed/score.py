@@ -141,8 +141,9 @@ def score_week(run: dict, runs: list, saves: list, labels: dict, profile: dict, 
     end = date.fromisoformat(run["run_date"])
     start = end - timedelta(days=7)
     earlier = [r for r in runs if r["run_date"] <= run["run_date"]]
-    picked = {i["key"]: r["run_date"] for r in earlier for i in r["items"] if i["picked"] and not i["update"]}
-    seen = {i["key"]: i["title"] for r in earlier for i in r["items"] if not i["update"]}
+    picked = {k: r["run_date"] for r in earlier for i in r["items"] if i["picked"] and not i["update"]
+              for k in i.get("keys") or [i["key"]]}
+    seen = {k: i["title"] for r in earlier for i in r["items"] if not i["update"] for k in i.get("keys") or [i["key"]]}
     slugs = {t["slug"] for t in profile["topics"]}
     earlier_keys = set().union(set(), *(s["keys"] for s in saves if s["date"] < start.isoformat()))
 
