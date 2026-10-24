@@ -475,7 +475,7 @@ python3 accounts.py --print   # top 25 accounts in the terminal, no files writte
 The index has four tables: best sources (3 or more saves, ranked by the share of Valid or Partly valid posts),
 saving more lately (2 or more saves in the last 90 days), mostly promo or not valid (candidates to stop saving
 from), and every account with 2 or more saves. Single save accounts are only in `accounts.json`. Both files are
-gitignored like the rest of `knowledge_library/`, so run it on each machine.
+tracked in git (see `.gitignore`), so the Pi gets them on pull.
 
 ## Run everything: `run_pipeline.py`
 

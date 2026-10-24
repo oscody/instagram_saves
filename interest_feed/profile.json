@@ -1,0 +1,28 @@
+{
+ "note": "Focus topics and sources, from the vault note 'claude - Focus topics - coding agents and agent skills' (2026-10-23). library_topics are the knowledge_library topic slugs whose Valid saves teach the filter your taste.",
+ "topics": [
+  {
+   "slug": "coding-agents",
+   "name": "Coding agent configuration and workflows",
+   "per_week": 3,
+   "library_topics": ["coding-agent-configuration-and-workflows"],
+   "search": ["Claude Code", "Codex", "CLAUDE.md", "AGENTS.md", "hooks", "subagents", "plan mode", "spec driven development", "agent loops", "model routing"],
+   "avoid": ["comment for the link", "course promo", "star count list with no repo", "free Claude proxy"]
+  },
+  {
+   "slug": "agent-skills",
+   "name": "Agent skills, memory and knowledge libraries",
+   "per_week": 2,
+   "library_topics": ["agent-skills-memory-and-knowledge-libraries"],
+   "search": ["agent skills", "SKILL.md", "skills.sh", "MCP servers", "LLM wiki", "knowledge graph", "agent memory", "context engineering", "skill security"],
+   "avoid": ["million skills claim", "giant skill dump", "AI employee stack with no steps"]
+  }
+ ],
+ "sources": {
+  "github_search": ["claude code", "claude code skill", "claude code plugin", "codex", "agent skills", "agent memory", "mcp server", "llm wiki", "knowledge graph agent"],
+  "show_hn": ["claude", "codex", "agent", "skill", "mcp"],
+  "hackernews": ["claude code", "agent skills", "codex cli", "CLAUDE.md"],
+  "reddit": ["ClaudeCode", "ClaudeAI"],
+  "github_releases": ["anthropics/claude-code", "openai/codex", "github/spec-kit", "NVIDIA/SkillSpector"]
+ }
+}

@@ -24,3 +24,6 @@ knowledge_library/*
 ig_automation/playbook/__pycache__/
 ig_automation/playbook/tests/__pycache__/
 ig_automation/playback/__pycache__/
+
+# Interest feed: digests, seen items and logs stay local.
+interest_feed/output/
