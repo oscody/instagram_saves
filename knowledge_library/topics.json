@@ -1,7 +1,7 @@
 {
   "grouping": "2026-10-24_reviewed",
   "built_at": "2026-10-17T22:40:16+00:00",
-  "source_fingerprint": "a3106cb17ac2b22f90000b1d8ca497c3786000ccedb63c21f0a3366934e5f7f4",
+  "source_fingerprint": "b6fcdb9fa03b4f0df0c64d452f09abc67640d05ca1e99dc845027687e1aaf326",
   "posts": 1039,
   "grouping_prompt_hash": "ddd88cba055b61db0f0334b128f70f9dfec5b8952b241d29b7da71b0f4553994",
   "model": "gpt-6-astra (fallback claude-sonnet-5-5 for 10 of 18 calls)",
@@ -1749,5 +1749,7 @@
     }
   ],
   "reviewed_from": "2026-10-17_1837",
-  "reviewed_at": "2026-10-24"
+  "reviewed_at": "2026-10-24",
+  "previous_source_fingerprint": "a3106cb17ac2b22f90000b1d8ca497c3786000ccedb63c21f0a3366934e5f7f4",
+  "fingerprint_note": "2026-10-24: re-stamped after the 2026-10-23 research sections were added; same 1039 post ids, placements unchanged"
 }

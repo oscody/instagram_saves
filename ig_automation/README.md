@@ -566,6 +566,7 @@ A systemd user timer runs one short batch every 2 hours from 8 am to 10 pm, each
 * Pause: `systemctl --user disable --now ig-pipeline.timer`. `output/PAUSED` is an additional guard that makes any timer or manual pipeline invocation exit without work. To resume, remove `output/PAUSED` and run `systemctl --user enable --now ig-pipeline.timer`.
 * Runs that finished today share `output/pipeline.log`; a log from an earlier day, or a run that was cut off, is still moved to `pipeline-<date>-part<N>.log`.
 * A batch that downloads nothing because of the cap or the quiet hours logs `made no progress, stopping`. That is expected.
+* **Alerts and restarts (added 2026-10-27):** `run_pipeline.py` sends a `[IG saves]` message to the Hermes Telegram chat when a run ends logged out (with the steps to fix it; nothing restarts until you do), in a block cooldown (it resumes by itself when `until` passes), crashed, or when the last run never finished (power cut or kill; the run that notices it is the restart). Each alert is sent once, and again every 24 hours while the stop lasts; the first normal batch afterwards sends `Running again`. The last alert is kept in `output/pipeline_health.json` (`last_alert`). A pause, a `STOP` file, a rest or a `made no progress` stop sends nothing. A crashed or failed run is started again by systemd after 15 minutes (`Restart=on-failure`, at most 3 times in 6 hours), and `ig-pipeline-failed.service` sends a message each time the service fails. The 2 hour timer keeps going either way.
 
 ## Troubleshooting
 

@@ -17,6 +17,10 @@ A failed export is logged as a warning; the batch carries on with the posts alre
 Stop cleanly after the current batch by creating output/STOP (it is removed on exit).
 output/PAUSED keeps scheduled and manual runs stopped until it is removed.
 
+Stops that need attention go to the Hermes chat as alerts: a logout, a block cooldown, a crash, and a
+last run that never finished. Each is sent once, and again every ALERT_REPEAT_HOURS while it lasts. The
+first normal batch afterwards sends one "running again" message. A pause or STOP file sends nothing.
+
 By default it starts itself in the background and returns: it refuses to start if another
 run_pipeline.py is running, checks that the export file is valid JSON, moves the last run's
 output/pipeline.log to pipeline-<date>-part<N>.log, and notes in the new log when the last run
@@ -56,6 +60,8 @@ LOCK_FILE = HERE / "output" / "pipeline.lock"
 HEALTH_FILE = HERE / "output" / "pipeline_health.json"
 FINISH_LINE = "Pipeline ran"
 BATCH_LINE = "=== Batch"
+ALERT_PREFIX = "[IG saves]"
+ALERT_REPEAT_HOURS = 24  # a stop that is still in place is reported again after this long
 
 
 def parse_args() -> argparse.Namespace:
@@ -187,6 +193,8 @@ def start_background(argv: list[str]) -> int:
             logger.info(f"Last run's log moved to {dest.name}")
             if not finished:
                 logger.warning(f"The last run ended without its finish line (power cut or killed?), see {dest.name}")
+                alert(f"unfinished:{dest.name}", "The last run ended without finishing (power cut or killed?). "
+                      f"Started again now. Old log: output/{dest.name}")
         logger.info(f"Starting: {pi_status()}")
         logger.removeHandler(file_log)
         file_log.close()
@@ -269,6 +277,60 @@ def save_health_state(state: dict) -> None:
     tmp = HEALTH_FILE.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(state, indent=2) + "\n")
     tmp.replace(HEALTH_FILE)
+
+
+def alert(key: str, text: str) -> None:
+    """Report a stop or failure to the Hermes chat, once per key and again daily while it lasts."""
+    from status_report import send_hermes
+
+    state = load_health_state()
+    last = state.get("last_alert") or {}
+    if last.get("key") == key and not last.get("resolved"):
+        try:
+            if datetime.now(timezone.utc) - datetime.fromisoformat(last["at"]) < timedelta(hours=ALERT_REPEAT_HOURS):
+                return
+        except (KeyError, ValueError, TypeError):
+            pass
+    sent, error = send_hermes(f"{ALERT_PREFIX} {text}")
+    if not sent:
+        logger.error(f"Could not send the alert to Hermes: {error}")
+        return
+    logger.info(f"Alert sent to Hermes: {text}")
+    state = load_health_state()
+    state["last_alert"] = {"key": key, "at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "text": text}
+    save_health_state(state)
+
+
+def resolve_alert() -> None:
+    """After an alert, say once that the pipeline finished a batch normally again."""
+    from status_report import send_hermes
+
+    state = load_health_state()
+    last = state.get("last_alert")
+    if not last or last.get("resolved"):
+        return
+    sent, error = send_hermes(f"{ALERT_PREFIX} Running again: a batch finished normally.")
+    if not sent:
+        logger.error(f"Could not send the running again message to Hermes: {error}")
+        return
+    last["resolved"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    save_health_state(state)
+
+
+def stop_alert() -> tuple[str, str] | None:
+    """Key and text of the alert for an Instagram stop that is in place now, or None."""
+    if LOGGED_OUT_FILE.exists():
+        reason = LOGGED_OUT_FILE.read_text(errors="replace").strip().splitlines()[0:1]
+        reason = reason[0] if reason else "no reason recorded"
+        return (f"logged_out:{reason}",
+                f"Stopped: Instagram logged the session out ({reason}). Nothing runs until you fix it: "
+                "log in to instagram.com in Firefox, close Firefox, run tests/download_test.py, "
+                "then delete output/LOGGED_OUT.")
+    if until := blocked_until():
+        return (f"blocked:{until.isoformat()}",
+                f"Paused: posts kept failing, so Instagram is probably refusing the account. No Instagram "
+                f"requests until {until:%a %b %-d %-I:%M %p}; it starts again by itself after that.")
+    return None
 
 
 def next_regular_timer_start(now: datetime | None = None) -> datetime:
@@ -369,6 +431,7 @@ def main() -> int:
     batch_no = 0
     # Qwen posts count as work left only while upgrades are on.
     work = ("download", "transcribe", "describe") + (("qwen",) if args.upgrade_batch else ())
+    crash = None
     try:
         while True:
             if PAUSED_FILE.exists():
@@ -426,9 +489,23 @@ def main() -> int:
             if all(after[k] >= before[k] for k in work):
                 logger.warning(f"Batch {batch_no} made no progress, stopping: {after}")
                 break
+    except Exception as e:
+        crash = e
+        raise
     finally:
         STOP_FILE.unlink(missing_ok=True)
         logger.info(f"{FINISH_LINE} {batch_no} batches in {(time.monotonic() - run_started) / 3600:.1f} h")
+        try:
+            if crash is not None:
+                alert(f"crash:{type(crash).__name__}:{crash}",
+                      f"Crashed: {type(crash).__name__}: {str(crash)[:300]}. systemd starts it again in 15 "
+                      "minutes. Log: output/pipeline.log")
+            elif stop := stop_alert():
+                alert(*stop)
+            elif batch_no:
+                resolve_alert()
+        except Exception:
+            logger.exception("Could not send the Hermes alert")
         try:
             from status_report import post_daily_status, write_daily_status
 

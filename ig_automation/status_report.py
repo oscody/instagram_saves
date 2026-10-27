@@ -152,24 +152,29 @@ def write_daily_status() -> tuple[Path, str]:
     return REPORT_FILE, snapshot
 
 
-def post_daily_status(snapshot: str) -> bool:
-    """Post the newest status snapshot to Hermes, without resending the accumulated local history."""
-    health = read_json(HEALTH_FILE, {})
-    today = datetime.now().astimezone().strftime("%Y-%m-%d")
-    attempted_at = datetime.now().astimezone().isoformat(timespec="seconds")
+def send_hermes(text: str) -> tuple[bool, str | None]:
+    """Send text to the Hermes chat; returns whether it was sent and the error if not."""
     try:
         result = subprocess.run(
             [HERMES_SEND, "send", "--to", HERMES_STATUS_TARGET, "--quiet"],
             capture_output=True,
             text=True,
-            input=snapshot,
+            input=text,
             timeout=45,
         )
-        success = result.returncode == 0
-        error = None if success else (result.stderr or result.stdout or f"hermes send exited with code {result.returncode}").strip()
     except (OSError, subprocess.TimeoutExpired) as exc:
-        success = False
-        error = str(exc)
+        return False, str(exc)
+    if result.returncode == 0:
+        return True, None
+    return False, (result.stderr or result.stdout or f"hermes send exited with code {result.returncode}").strip()
+
+
+def post_daily_status(snapshot: str) -> bool:
+    """Post the newest status snapshot to Hermes, without resending the accumulated local history."""
+    health = read_json(HEALTH_FILE, {})
+    today = datetime.now().astimezone().strftime("%Y-%m-%d")
+    attempted_at = datetime.now().astimezone().isoformat(timespec="seconds")
+    success, error = send_hermes(snapshot)
 
     health["last_status_post_attempt"] = attempted_at
     health["last_status_post_result"] = "sent" if success else "failed"
