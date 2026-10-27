@@ -218,10 +218,30 @@ All three scripts get the folder from one helper, `post_dir()` in `download.py`.
 * **Captions:** the share in the chat often has no caption. For reels yt-dlp writes an info file whose `description` is the real caption; for photos and carousels the media info has it. Either fills an empty `caption` (added 2026-10-14). The file names are chosen before that, so posts with no caption in the chat are still named by shortcode only.
 * **Photos and carousels:** no yt-dlp. The script asks Instagram's API for the post's media and saves the largest version of each image, or video slide, in slide order. A `/p/` link that turns out to be a video is handled like a reel. The record's `type` is corrected from the API.
 * **After each post:** `files` lists the files written, `downloaded` becomes `true` and `error` becomes `false`, and `iambogle.json` is saved, so an interrupted run keeps its progress.
-* **On failure:** `downloaded` stays `false` and `error` gets the reason, for example `HTTP 400 on /media/.../info/` for a deleted or private post. Later runs skip it unless you pass `--retry-failed`. A failed post leaves no empty folder.
+* **On failure:** `downloaded` stays `false` and `error` gets the reason, for example `HTTP 400 on /media/.../info/` for a deleted or private post. Later runs skip it unless you pass `--retry-failed`. A failed post leaves no empty folder. A single failure can be a dead post; failures in a row are a block (see the next points).
 * **Stop on logout (added 2026-10-14):** an error that can mean Instagram sent the request to its login page or a challenge (`Exceeded 30 redirects`, `Failed to parse JSON`, login required, checkpoint, HTTP 401, 403 or 429) triggers one check of the session (a media info request that does not follow redirects). If the session is logged out, the post gets no error, the run stops with exit code 77, and `output/LOGGED_OUT` is written with the reason. No download (and no chat read by `run_pipeline.py`) starts while that file exists. To start again: log in to instagram.com in Firefox, close Firefox, run `tests/download_test.py`, then delete `output/LOGGED_OUT`. If the session is fine, only that post gets the error. Before this, the 2026-10-08 block failed about 960 posts over 5 hours.
+* **Stop on a failure streak (added 2026-10-27):** when `--max-fail-streak` posts (2) fail in a row, with no download between them, Instagram is most likely refusing the account, whatever the error says. The run stops with exit code 78 and writes `output/BLOCKED`, a JSON file with `until` (now plus `--block-hours`, 24) and `reason`. The posts in the streak get their `error` cleared, so they are tried again after the cooldown. No download and no chat read starts until `until` has passed; then the file removes itself on the next run. To end a cooldown early, delete the file. Network errors do not count toward the streak. See [The 2026-10-16 block](#the-2026-10-16-block).
 * **Network drops:** an error like `Failed to resolve 'www.instagram.com'` leaves the post untouched (the next run tries it again) and waits up to 10 minutes for the network. If it does not come back, the run stops.
-* **Pacing (added 2026-10-14):** 20 to 60 seconds between posts (was 5 to 12), at most `--daily-cap` posts (75) tried in any 24 hours across all runs, and none during `--quiet-hours` (11 pm to 8 am). Every try is logged in `output/download_attempts.json`, which the cap counts. At the cap the downloader records the first available slot in `output/download_cap_retry.json`. The pipeline schedules a one shot systemd retry for that slot when it is earlier than the next regular timer run; if the time falls in quiet hours, it moves the retry to the next allowed hour. The regular two hour timer remains a fallback. Instagram does not publish its limits, so these numbers are a cautious guess after the 2026-10-08 block.
+* **Pacing (added 2026-10-14, changed 2026-10-27):** 20 to 60 seconds between posts (was 5 to 12), at most `--daily-cap` posts tried in any 24 hours across all runs, and none during `--quiet-hours` (11 pm to 8 am). Every try is logged in `output/download_attempts.json`, which the cap counts. At the cap the downloader records the first available slot in `output/download_cap_retry.json`. The pipeline schedules a one shot systemd retry for that slot when it is earlier than the next regular timer run; if the time falls in quiet hours, it moves the retry to the next allowed hour. The regular two hour timer remains a fallback. Instagram does not publish its limits, so these numbers are a cautious guess after the 2026-10-08 block.
+* **Daily cap varies (added 2026-10-27):** each day uses its own cap, picked at random between 60% and 100% of `--daily-cap` (40), so 24 to 40 posts. The pick is seeded by the date, so it stays the same all day. The log shows `Today's cap: N posts in 24 h`. Before this the cap was a flat 75, and the account hit it every day at the same times.
+
+### The 2026-10-16 block
+
+What happened, from `output/pipeline.log`:
+
+* 08:11 to 16:23: normal runs, 37 downloads, no failures, the 75 a day cap reached nearly every run.
+* 18:08: after 6 good reels, two posts in a row failed with HTTP 400 (one reel through yt-dlp, one carousel through the media info API).
+* 20:07: all 10 posts of the batch failed with HTTP 400, one after another.
+* 22:04: the media info API redirected to the login page. `LOGGED_OUT` was written and the timer was paused.
+
+Why it was a block and not dead posts: about 75 posts in a row worked and then every post failed, on both download routes (yt-dlp and the API) at once, and the session was logged out two hours later. The same happened on 2026-10-08.
+
+What made it worse, and what changed on 2026-10-27:
+
+* HTTP 400 was not one of the `LOGIN_SIGNS`, so it never triggered the session check and was saved as a dead post. The run kept sending requests to an account Instagram was already refusing, and 12 good posts were marked failed. Fix: the failure streak stop above. The 12 posts had their errors cleared (backup: `output/iambogle.backup-before-block-reset-2026-10-27.json`).
+* The volume looked like a bot: 75 posts every day, every 2 hours, 8 am to 10 pm. Fix: the cap is now 24 to 40 and changes each day, and the timer runs with `--rest` (rest days and skipped runs, see [Timer](#timer-added-2026-10-14)). This part is a guess; Instagram does not say what it flags.
+* Not changed, worth watching: the chat export sends the browser session to the Android app API (`i.instagram.com`, app User-Agent), while downloads use the website with a Firefox User-Agent. One session seen as both an app and a browser may add to the risk. It runs at most every 6 hours.
+* yt-dlp was updated from 2026.08.19 to 2026.10.26 on 2026-10-27. It was not the cause (the API failed the same way), but its Instagram support changes often.
 
 ### Options
 
@@ -234,7 +254,9 @@ All three scripts get the folder from one helper, `post_dir()` in `download.py`.
 | `--json PATH` | Export file to read and update. Default: `output/iambogle.json` |
 | `--ig-dir DIR` | Folder for the post folders. Default: `../IG` |
 | `--min-sleep`, `--max-sleep` | Pause between posts, in seconds. Default: 20 and 60 |
-| `--daily-cap N` | Most posts tried in any 24 hours, counting every run. `0` turns it off. Default: 75 |
+| `--daily-cap N` | Most posts tried in any 24 hours, counting every run. Each day uses a random cap between 60% and 100% of it. `0` turns it off. Default: 40 (was 75 until 2026-10-27) |
+| `--max-fail-streak N` | Stop and write `output/BLOCKED` after N posts in a row fail. `0` turns it off. Default: 2 |
+| `--block-hours H` | How long `output/BLOCKED` stops every Instagram request. Default: 24 |
 | `--quiet-hours START-END` | Local hours with no downloads. Empty (`""`) turns it off. Default: `23-8` |
 
 ## Transcribe the reels: `transcribe.py`
@@ -508,8 +530,8 @@ Each stage runs with `IG_PIPELINE=1` set, which tells `describe.py` its output a
   * If only upgrades are left and Claude is at its limit, the batch makes no progress and the runner stops. Start it again later.
   * `describe.py` exits with code 75 when Claude hit its limit; that is how the runner knows.
   * The pipeline log shows `describe.py --limit 20 --upgrade finished ...`, `Upgrade skipped this batch: ...` or `Upgrade stopped: ...`, and the `Pending:` line counts `qwen` (posts still by Qwen). Details for each post are in the same log, under each `=== describe.py` line.
-* **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off), `--export-every HOURS` (default 6).
-* **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. Since 2026-10-14 it reads the chat only when the last export (`exported_at`) is at least `--export-every` hours old (6), because reading it every batch looked like a bot. `--no-export` turns it off. Nothing is read while `output/LOGGED_OUT` exists; the runner stops instead. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
+* **Options:** `--batch N` (posts per stage per batch, default 100), `--foreground`, `--rest` (see [Timer](#timer-added-2026-10-14)), `--max-batches N`, `--upgrade-batch N` (Qwen posts upgraded per batch, default 20, `0` turns upgrades off), `--export-every HOURS` (default 6).
+* **Export:** each batch starts with `export_chat_links.py --backfill-pages 50`, so posts shared since the last batch go into that batch, and the older history comes in 50 pages per batch. Since 2026-10-14 it reads the chat only when the last export (`exported_at`) is at least `--export-every` hours old (6), because reading it every batch looked like a bot. `--no-export` turns it off. Nothing is read while `output/LOGGED_OUT` exists, or while `output/BLOCKED` holds a cooldown; the runner stops instead. A failed export does not stop the batch, but the log shows `EXPORT FAILED: no new posts from the chat this batch` with the error above it (added 2026-10-08, after the export failed quietly for a day).
 
 ## Watch the saves: `play_saves.py` (added 2026-10-14)
 
@@ -534,7 +556,10 @@ Keys (from `saves_log.lua`): `l` like, `n` or `→` next post, `p` or `←` prev
 
 ## Timer (added 2026-10-14)
 
-A systemd user timer runs one short batch every 2 hours from 8 am to 10 pm, each up to 20 minutes late at random: `run_pipeline.py --batch 10 --max-batches 1`. With the daily cap that is about 75 downloads a day, so the backlog of about 1,300 posts takes about 18 days. Lingering is on, so it runs without a login.
+A systemd user timer runs one short batch every 2 hours from 8 am to 10 pm, each up to 20 minutes late at random: `run_pipeline.py --batch 10 --max-batches 1 --rest`. Lingering is on, so it runs without a login.
+
+* **Rest (added 2026-10-27):** with `--rest`, about 1 day in 7 is a rest day (picked from the date, so it holds all day) and about 1 run in 4 is skipped at random. A resting run logs `Resting, no Instagram requests: ...` and sends nothing to Instagram, not even a chat read. Runs by hand leave `--rest` off.
+* **Speed:** with the 24 to 40 cap and rest days that is about 27 downloads a day, so the backlog of about 1,230 posts (2026-10-27) takes about 6 to 7 weeks. Before 2026-10-27 it was about 75 a day, which got the account blocked.
 
 * Units: `~/.config/systemd/user/ig-pipeline.timer` and `ig-pipeline.service` (`Type=forking`, because the runner starts itself in the background; `PATH` includes `~/.local/bin` for `claude`).
 * Check: `systemctl --user list-timers ig-pipeline.timer`, and `tail -f output/pipeline.log`
@@ -563,5 +588,6 @@ then `python3 -u playbook/build_playbook.py --stage playbook` to build from thos
 * **hailo-ollama not running after describe:** start it with `sudo systemctl start hailo-ollama`. describe always tries to, so check its log for the error.
 * **Empty captions (found 2026-10-08):** shares in the new DM format (`xma_clip`, `xma_media_share`) often carry no caption, and 538 posts were saved with `null`. That crashed describe on 13 posts (`'NoneType' object has no attribute 'strip'`). Fixed: the exporter saves a missing caption as `""` and turns old `null` captions into `""` when it loads the file, and describe treats `null` as empty. The caption itself is still missing: for reels Instagram has it (yt-dlp returned it for all 3 checked), while the 2 photo posts checked really had none. Fetching it in `download.py` is a todo. The 13 failed posts were described again on 2026-10-14.
 * **Many downloads fail with `Failed to resolve 'www.instagram.com'`:** the Pi lost its network (Wi-Fi dropped from about 16:45 to 16:50 on 2026-10-08 and 19 posts failed). The posts are fine. `download.py` skips posts with an error and the pipeline does not retry them, so run `download.py --retry-failed --shortcode ...` for them while the pipeline is stopped (two processes must never write `iambogle.json` at once).
-* **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped.
+* **A post keeps failing with `HTTP 400`:** it was deleted or made private. It stays in the file with its `error` set and is skipped. If several posts fail with HTTP 400 in a row, it is a block, not dead posts; see [The 2026-10-16 block](#the-2026-10-16-block).
+* **`output/BLOCKED` exists:** posts kept failing, so every Instagram request waits until the `until` time in the file. Let it run out. If the login was lost too, `output/LOGGED_OUT` says so. Check by hand with `tests/download_test.py` before deleting either file early.
 * **`Message types with no links extracted`:** the chat contains a share format the script does not recognize yet. Those messages are skipped, so the script needs updating to handle them. Exception: `xma_clip` messages here are reels that were deleted ("Message unavailable", no URL), about 157 in the iambogle chat, so there is nothing to recover.

@@ -29,6 +29,7 @@ import fcntl
 import json
 import logging
 import os
+import random
 import subprocess
 import sys
 import time
@@ -36,7 +37,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from describe import CLAUDE_LIMIT_EXIT, needs_description, written_by_hailo
-from download import CAP_RETRY_FILE, DEFAULT_JSON, IG_DIR, LOGGED_OUT_EXIT, LOGGED_OUT_FILE, needs_download
+from download import (BLOCKED_EXIT, BLOCKED_FILE, CAP_RETRY_FILE, DEFAULT_JSON, IG_DIR, LOGGED_OUT_EXIT,
+                      LOGGED_OUT_FILE, blocked_until, needs_download)
 from transcribe import needs_transcript
 
 logging.basicConfig(
@@ -80,9 +82,28 @@ def parse_args() -> argparse.Namespace:
         help="Read the chat only when the last export is at least this many hours old. 0 reads it every batch. Default: 6",
     )
     parser.add_argument(
+        "--rest",
+        action="store_true",
+        help="Skip some runs on purpose, so the account does not hit Instagram on a fixed schedule: about 1 day in 7 "
+        "is a rest day and about 1 run in 4 is skipped. The timer passes it; runs by hand usually leave it off.",
+    )
+    parser.add_argument(
         "--foreground", action="store_true", help="Run in this terminal instead of starting in the background."
     )
     return parser.parse_args()
+
+
+REST_DAY_CHANCE = 0.15
+SKIP_RUN_CHANCE = 0.25
+
+
+def rest_reason(now: datetime) -> str | None:
+    """Why this run should leave Instagram alone, or None. A rest day stays the same all day."""
+    if random.Random(f"rest-{now:%Y-%m-%d}").random() < REST_DAY_CHANCE:
+        return f"{now:%a %b %-d} is a rest day"
+    if random.random() < SKIP_RUN_CHANCE:
+        return "this run was picked at random to be skipped"
+    return None
 
 
 def pending() -> dict:
@@ -290,7 +311,7 @@ def schedule_cap_retry() -> None:
     now = datetime.now().astimezone()
     if retry.tzinfo is None:
         retry = retry.astimezone()
-    if retry <= now or LOGGED_OUT_FILE.exists():
+    if retry <= now or LOGGED_OUT_FILE.exists() or BLOCKED_FILE.exists():
         CAP_RETRY_FILE.unlink(missing_ok=True)
         cancel_cap_retry()
         return
@@ -363,6 +384,12 @@ def main() -> int:
             if LOGGED_OUT_FILE.exists():
                 logger.error(f"Logged out of Instagram, stopping: {LOGGED_OUT_FILE.read_text().strip()}")
                 break
+            if until := blocked_until():
+                logger.error(f"Instagram cooldown until {until:%a %b %-d %H:%M}, stopping: see {BLOCKED_FILE}")
+                break
+            if args.rest and batch_no == 0 and (reason := rest_reason(datetime.now())):
+                logger.info(f"Resting, no Instagram requests: {reason}")
+                break
             # Export first, so a restart with an empty backlog still picks up new posts. Reading the chat every
             # batch looked like a bot, so it waits --export-every hours between reads.
             if not args.no_export:
@@ -384,6 +411,8 @@ def main() -> int:
                     code = run_stage(script, args.batch)
                     if script == "download.py" and code == LOGGED_OUT_EXIT:
                         logger.error(f"  LOGGED OUT: Instagram logged the session out, see {LOGGED_OUT_FILE}")
+                    if script == "download.py" and code == BLOCKED_EXIT:
+                        logger.error(f"  BLOCKED: posts kept failing, Instagram requests stop for a while, see {BLOCKED_FILE}")
                     if script == "describe.py" and code == CLAUDE_LIMIT_EXIT:
                         describe_hit_limit = True
                         logger.info("  Claude hit its usage limit during describe, the Hailo did the rest")

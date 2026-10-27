@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 from describe import needs_description, written_by_hailo
-from download import DEFAULT_JSON, IG_DIR, LOGGED_OUT_FILE, needs_download
+from download import BLOCKED_FILE, DEFAULT_JSON, IG_DIR, LOGGED_OUT_FILE, blocked_until, needs_download
 from transcribe import needs_transcript
 
 HERE = Path(__file__).resolve().parent
@@ -42,6 +42,8 @@ def next_run_window(now: datetime) -> str:
     """Mirror ig-pipeline.timer: even hours from 08:00 through 22:00, plus up to 20 min."""
     if (OUTPUT_DIR / "PAUSED").exists():
         return "Paused (output/PAUSED)"
+    if until := blocked_until():
+        return f"Cooldown until {until.strftime('%a %b %-d, %-I:%M %p %Z')} (output/BLOCKED)"
     candidates = []
     for day_offset in (0, 1):
         day = (now + timedelta(days=day_offset)).date()
@@ -97,6 +99,12 @@ def write_daily_status() -> tuple[Path, str]:
     if LOGGED_OUT_FILE.exists():
         reason = LOGGED_OUT_FILE.read_text(errors="replace").strip()
         flags.append(f"Instagram login expired or challenged: {reason or 'see output/LOGGED_OUT'}")
+    if blocked_until():
+        try:
+            reason = json.loads(BLOCKED_FILE.read_text()).get("reason")
+        except (OSError, ValueError, AttributeError):
+            reason = None
+        flags.append(f"Instagram is likely blocking the account, downloads are cooling down: {reason or 'see output/BLOCKED'}")
     if sync_result == "failed":
         flags.append(f"Latest chat sync attempt failed: {sync_error or 'see pipeline.log'}")
     for message, count in repeated:

@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Download the media of the posts in an export file into one folder per post.
 
-Paced so Instagram does not flag the account (it blocked it on 2026-10-08): at most --daily-cap posts in any
-24 hours, 20 to 60 seconds between posts, none during --quiet-hours. When Instagram logs the session out it
-writes output/LOGGED_OUT and stops; no download starts again until that file is deleted.
+Paced so Instagram does not flag the account (it blocked it on 2026-10-08 and again on 2026-10-16): at most
+--daily-cap posts in any 24 hours (each day picks a lower cap at random, down to 60% of it), 20 to 60 seconds
+between posts, none during --quiet-hours. When Instagram logs the session out it writes output/LOGGED_OUT and
+stops; no download starts again until that file is deleted. When --max-fail-streak posts in a row fail, Instagram
+is most likely blocking the account (on 2026-10-16 every post failed with HTTP 400 for four hours before the
+logout), so it writes output/BLOCKED and no download or chat read starts for --block-hours.
 """
 
 import argparse
@@ -46,6 +49,8 @@ IG_DIR = Path(__file__).resolve().parent.parent / "IG"
 TITLE_MAX_CHARS = 50
 LOGGED_OUT_FILE = OUTPUT_DIR / "LOGGED_OUT"
 LOGGED_OUT_EXIT = 77  # tells run_pipeline.py to stop everything
+BLOCKED_FILE = OUTPUT_DIR / "BLOCKED"  # JSON {"until": ..., "reason": ...}; removed by itself once "until" passes
+BLOCKED_EXIT = 78  # tells run_pipeline.py to stop everything until the cooldown ends
 ATTEMPTS_FILE = OUTPUT_DIR / "download_attempts.json"  # when each post was tried, for the daily cap
 CAP_RETRY_FILE = OUTPUT_DIR / "download_cap_retry.json"
 NETWORK_WAIT = 600  # longest wait for the network to come back, in seconds
@@ -109,8 +114,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--daily-cap",
         type=int,
-        default=75,
-        help="Most posts tried in any 24 hours, counting every run. 0 turns the cap off. Default: 75",
+        default=40,
+        help="Most posts tried in any 24 hours, counting every run. Each day uses a random cap between 60%% and "
+        "100%% of it, so the volume is not the same every day. 0 turns the cap off. Default: 40",
+    )
+    parser.add_argument(
+        "--max-fail-streak",
+        type=int,
+        default=2,
+        help="Stop and write output/BLOCKED after this many posts in a row fail. 0 turns it off. Default: 2",
+    )
+    parser.add_argument(
+        "--block-hours",
+        type=float,
+        default=24.0,
+        help="How long output/BLOCKED keeps every Instagram request stopped. Default: 24",
     )
     parser.add_argument(
         "--quiet-hours",
@@ -177,6 +195,38 @@ def in_quiet_hours(spec: str, now: datetime) -> bool:
     start, end = (int(part) for part in spec.split("-"))
     hour = now.hour
     return start <= hour < end if start < end else hour >= start or hour < end
+
+
+def blocked_until() -> datetime | None:
+    """End of the cooldown in output/BLOCKED, or None when there is none. An expired cooldown is removed."""
+    try:
+        until = datetime.fromisoformat(json.loads(BLOCKED_FILE.read_text())["until"])
+    except FileNotFoundError:
+        return None
+    except (OSError, ValueError, KeyError, TypeError):
+        # An unreadable file still blocks, for one more cooldown counted from its last change.
+        until = datetime.fromtimestamp(BLOCKED_FILE.stat().st_mtime).astimezone() + timedelta(hours=24)
+    if until.tzinfo is None:
+        until = until.astimezone()
+    if until <= datetime.now().astimezone():
+        BLOCKED_FILE.unlink(missing_ok=True)
+        return None
+    return until
+
+
+def mark_blocked(reason: str, hours: float) -> datetime:
+    until = (datetime.now().astimezone() + timedelta(hours=hours)).replace(microsecond=0)
+    tmp = BLOCKED_FILE.with_suffix(".tmp")
+    tmp.write_text(json.dumps({"until": until.isoformat(), "reason": reason}, indent=2) + "\n")
+    tmp.replace(BLOCKED_FILE)
+    return until
+
+
+def cap_for_today(daily_cap: int, today: datetime) -> int:
+    """Between 60% and 100% of --daily-cap, the same all day, so the daily volume changes from day to day."""
+    if not daily_cap:
+        return 0
+    return max(1, round(daily_cap * random.Random(f"cap-{today:%Y-%m-%d}").uniform(0.6, 1.0)))
 
 
 def recent_attempts() -> list:
@@ -478,6 +528,12 @@ def main() -> int:
     if LOGGED_OUT_FILE.exists():
         logger.error(f"Not downloading: {LOGGED_OUT_FILE} exists. {LOGGED_OUT_FILE.read_text().strip()}")
         return LOGGED_OUT_EXIT
+    if until := blocked_until():
+        logger.error(f"Not downloading: {BLOCKED_FILE} keeps Instagram requests stopped until {until:%a %b %-d %H:%M}")
+        return BLOCKED_EXIT
+    daily_cap = cap_for_today(args.daily_cap, datetime.now())
+    if daily_cap:
+        logger.info(f"Today's cap: {daily_cap} posts in 24 h")
 
     cookies = load_firefox_cookies(args.firefox_profile)
     logger.info("✓ Firefox cookies loaded")
@@ -485,14 +541,15 @@ def main() -> int:
 
     done = failed = 0
     code = 0
+    streak = []  # posts that failed in a row, with no success between them
     for index, record in enumerate(todo, start=1):
         if in_quiet_hours(args.quiet_hours, datetime.now()):
             logger.info(f"Quiet hours ({args.quiet_hours}), stopping; the rest waits for the next run")
             break
-        if args.daily_cap and len(recent_attempts()) >= args.daily_cap:
+        if daily_cap and len(recent_attempts()) >= daily_cap:
             next_slot = datetime.fromtimestamp(min(recent_attempts()) + 24 * 3600).astimezone()
             retry_at = save_cap_retry(next_slot, args.quiet_hours)
-            logger.info(f"Daily cap reached ({args.daily_cap} posts in 24 h), next slot at {next_slot:%a %H:%M}")
+            logger.info(f"Daily cap reached ({daily_cap} posts in 24 h), next slot at {next_slot:%a %H:%M}")
             if retry_at != next_slot:
                 logger.info(f"Quiet hours apply, retry scheduled for {retry_at:%a %H:%M}")
             break
@@ -503,6 +560,7 @@ def main() -> int:
         try:
             download_post(record, args.ig_dir, cookies, args.firefox_profile)
             done += 1
+            streak = []
             logger.info(f"  ✓ {len(record['files'])} files in {post_dir(args.ig_dir, record)}")
         except Exception as exc:  # noqa: BLE001
             error = short_error(exc)
@@ -530,6 +588,19 @@ def main() -> int:
             record["downloaded"] = False
             record["error"] = error
             logger.warning(f"  ✗ {error}")
+            streak.append(record)
+            if args.max_fail_streak and len(streak) >= args.max_fail_streak:
+                # Posts rarely break one after another, so this is Instagram refusing the account. The posts are
+                # most likely fine: clear their errors so they are tried again after the cooldown.
+                for bad in streak:
+                    bad["error"] = False
+                failed -= len(streak)
+                reason = f"{len(streak)} posts in a row failed, the last with: {error}"
+                until = mark_blocked(reason, args.block_hours)
+                logger.error(f"Instagram is most likely blocking the account ({reason}). "
+                             f"Stopping until {until:%a %b %-d %H:%M}, wrote {BLOCKED_FILE}")
+                code = BLOCKED_EXIT
+                break
         finally:
             save(data, args.json)
 
