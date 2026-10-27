@@ -12,6 +12,7 @@ Successful map/reduce calls are cached by their complete inputs and model settin
 """
 
 import argparse
+import difflib
 import fcntl
 import hashlib
 import json
@@ -22,6 +23,7 @@ import signal
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime, timezone
 from urllib.parse import quote
 
@@ -229,6 +231,67 @@ def validate(result, expected):
                          f"missing={sorted(missing)}, included_and_excluded={sorted(used & excluded)}")
 
 
+# Result fields that hold source IDs (or topic slugs, for consolidation).
+ID_FIELDS = {"primary_source", "related_sources", "source", "sources_a", "sources_b",
+             "sources", "members"}
+
+
+def fix_source_ids(value, expected):
+    """Replace IDs that differ from one expected ID by letter case or a garbled copy.
+
+    Instagram shortcodes are case-sensitive and models sometimes change one letter's case.
+    Only ID fields are touched, so titles and names that resemble an ID are left alone.
+    Returns the (wrong, right) pairs that were replaced.
+    """
+    if not isinstance(expected, (set, frozenset)):
+        return []
+    by_fold = {}
+    for sid in expected:
+        if isinstance(sid, str):
+            by_fold.setdefault(sid.casefold(), []).append(sid)
+    fixes = []
+
+    def fix(sid):
+        matches = by_fold.get(sid.casefold(), []) if isinstance(sid, str) else []
+        if sid in expected or len(matches) != 1:
+            return sid
+        fixes.append((sid, matches[0]))
+        return matches[0]
+
+    def walk(node, fix):
+        if isinstance(node, list):
+            for item in node:
+                walk(item, fix)
+        elif isinstance(node, dict):
+            for key, item in node.items():
+                if key in ID_FIELDS and isinstance(item, list):
+                    node[key] = [fix(sid) for sid in item]
+                elif key in ID_FIELDS:
+                    node[key] = fix(item)
+                else:
+                    walk(item, fix)
+    walk(value, fix)
+
+    # A garbled copy of an ID (a few letters changed) leaves that ID missing. Swap it back
+    # only when the unknown ID and the missing ID are each other's sole close match.
+    used = set()
+    walk(value, lambda sid: used.add(sid) or sid)
+    unknown = {sid for sid in used - expected if isinstance(sid, str)}
+    missing = {sid for sid in expected - used if isinstance(sid, str)}
+
+    def close(a, b):
+        return difflib.SequenceMatcher(None, a.casefold(), b.casefold()).ratio() >= 0.7
+    near = {}
+    for sid in unknown:
+        matches = [m for m in missing if close(sid, m)]
+        if len(matches) == 1 and sum(close(u, matches[0]) for u in unknown) == 1:
+            near[sid] = matches[0]
+    for wrong, right in near.items():
+        fixes.append((wrong, right))
+    walk(value, lambda sid: near.get(sid, sid))
+    return fixes
+
+
 def validate_topics(result, expected):
     validate_shape(result, TOPIC_SCHEMA)
     slugs, names, covered = set(), set(), set()
@@ -361,11 +424,51 @@ def cleanup_parts(drafts, budget):
     return parts
 
 
+def join_parts(drafts):
+    """Combine cleaned parts in code, for when they are too large for one final call.
+
+    Literal duplicate entries are dropped. A source excluded in one part but used in
+    another counts as used. Overlaps between parts are not merged.
+    """
+    result = {"entries": [], "contradictions": [], "excluded": []}
+    seen = set()
+    for draft in drafts:
+        for entry in draft["entries"]:
+            key = tuple(" ".join(text.casefold().split()) for text in
+                        [entry["title"], *entry["steps"], entry["limitations"]])
+            if key not in seen:
+                seen.add(key)
+                result["entries"].append(entry)
+        result["contradictions"].extend(draft["contradictions"])
+    used = {sid for entry in result["entries"]
+            for sid in [entry["primary_source"], *entry["related_sources"]]}
+    excluded = set()
+    for draft in drafts:
+        for item in draft["excluded"]:
+            if item["source"] not in used | excluded:
+                excluded.add(item["source"])
+                result["excluded"].append(item)
+    return result
+
+
 def clean_up(model, drafts, expected, budget, state, output):
     """Merge drafts in parts, then merge the parts, until one final cleanup call fits."""
     level = 1
+    limit = getattr(getattr(model, "args", None), "reduce_bytes", None)
     while True:
         parts = cleanup_parts(drafts, budget)
+        # Parts that can no longer be combined and are too large for one final call
+        # are joined in code instead.
+        if (len(parts) > 1 and len(parts) == len(drafts) and limit
+                and len(dump(drafts).encode()) > limit):
+            state["phase"] = "join cleaned parts"
+            write_json(output / "status.json", state)
+            model.log(f"Cleanup: {len(drafts)} parts are too large for one final call; "
+                      "joining them without a model call (overlaps between parts stay).")
+            result = join_parts(drafts)
+            validate(result, expected)
+            validate_cleanup(result, drafts)
+            return result
         # One part, or parts that can no longer be combined: the final call takes them all
         # (model.run still refuses prompts over --reduce-bytes).
         if len(parts) == 1 or len(parts) == len(drafts):
@@ -456,6 +559,14 @@ def validate_cleanup(result, drafts):
             if not any(a <= final_a and b <= final_b for final_a, final_b in final_pairs):
                 raise ValueError(f"Final cleanup lost a contradiction: {conflict['topic']}")
 
+
+# Text that means a call failed on the connection rather than on the request itself.
+NETWORK_RE = re.compile(r"EAI_AGAIN|ENOTFOUND|ECONNRESET|ECONNREFUSED|ETIMEDOUT|EPIPE|"
+                        r"can't reach the API|connection (error|reset|refused)|"
+                        r"name resolution|network|socket hang up|overloaded|\b5(00|02|03|04|29)\b",
+                        re.I)
+# Waits before each retry of a network failure: about 7.5 minutes in total.
+NETWORK_RETRY_WAITS = (30, 60, 120, 240)
 
 # Text that means Codex ran out of allowance rather than hit a one-off error.
 LIMIT_RE = re.compile(r"(usage|session|rate)[ _-]?limit|quota|too many requests|\b429\b|"
@@ -589,8 +700,8 @@ class Model:
             if self.codex_blocked:
                 raise RuntimeError("Codex skipped: usage limit reached earlier in this run")
             self.log(f"Calling {model} ({effort}): {key[:12]}, {len(expected)} sources")
-            result = self.call_codex(job, prompt, raw, model, effort)
-            check(result, expected)
+            result = self.checked(self.call_codex(job, prompt, raw, model, effort),
+                                  expected, check, key)
         except (RuntimeError, ValueError, OSError, subprocess.TimeoutExpired) as error:
             if not fallback:
                 raise
@@ -607,8 +718,8 @@ class Model:
                             f"{str(error).splitlines()[0][:160]}; this call only")
             self.check_cap()
             try:
-                result = self.call_claude(job, prompt, schema, key, fallback, fallback_effort)
-                check(result, expected)
+                result = self.checked(self.call_claude(job, prompt, schema, key, fallback,
+                                                       fallback_effort), expected, check, key)
             except (RuntimeError, ValueError, OSError, subprocess.TimeoutExpired) as second:
                 hint = ("" if not self.claude_limit(second) else
                         " Both models are at their usage limits. Finished calls are cached; rerun "
@@ -625,6 +736,13 @@ class Model:
                      f"${self.fallback_cost:.2f} this run, ${self.total_spend:.2f} in total"
                      + (f" of ${self.cost_cap:.2f} cap" if self.cost_cap else ""))
             self.check_cap()
+        return result
+
+    def checked(self, result, expected, check, key):
+        """Correct slips in copied source IDs, then validate."""
+        for wrong, right in fix_source_ids(result, expected):
+            self.log(f"Fixed source ID in {key[:12]}: {wrong} -> {right}")
+        check(result, expected)
         return result
 
     @staticmethod
@@ -701,16 +819,27 @@ class Model:
         command = [self.claude, "-p", "--safe-mode", "--model", fallback,
                    "--effort", fallback_effort, "--tools", "", "--no-session-persistence",
                    "--output-format", "json", "--json-schema", json.dumps(schema)]
-        code = self.spawn(command, prompt, job, "claude_response.json", "claude_stderr.log")
-        try:
-            reply = json.loads((job / "claude_response.json").read_text())
-        except ValueError:
-            reply = {}
-        self.fallback_cost += float(reply.get("total_cost_usd") or 0)
-        write_json(self.spend_file, {"total_usd": round(self.total_spend, 4), "updated_at": now()})
-        if code or reply.get("is_error"):
-            raise RuntimeError(f"Fallback call failed (exit {code}): "
-                               f"{str(reply.get('result') or 'no output')[:200]}")
+        # A dropped connection should not end a long build, so network failures are retried.
+        for wait in (*NETWORK_RETRY_WAITS, None):
+            code = self.spawn(command, prompt, job, "claude_response.json", "claude_stderr.log")
+            try:
+                reply = json.loads((job / "claude_response.json").read_text())
+            except ValueError:
+                reply = {}
+            self.fallback_cost += float(reply.get("total_cost_usd") or 0)
+            write_json(self.spend_file, {"total_usd": round(self.total_spend, 4),
+                                         "updated_at": now()})
+            if not (code or reply.get("is_error")):
+                break
+            message = str(reply.get("result") or "no output")
+            try:
+                stderr = (job / "claude_stderr.log").read_text(errors="replace")
+            except OSError:
+                stderr = ""
+            if wait is None or not NETWORK_RE.search(message + "\n" + stderr):
+                raise RuntimeError(f"Fallback call failed (exit {code}): {message[:200]}")
+            self.log(f"Network error on {key[:12]}; retrying in {wait}s: {message[:120]}")
+            time.sleep(wait)
         result = reply.get("structured_output")
         if result is None:
             result = json.loads(reply.get("result") or "")

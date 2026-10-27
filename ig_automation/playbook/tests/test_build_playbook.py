@@ -321,6 +321,11 @@ if mode == "fail_limit":
 if mode == "fail":
     sys.stderr.write("boom")
     sys.exit(1)
+if mode == "net_once" and not pathlib.Path({str(log)!r} + ".down").exists():
+    pathlib.Path({str(log)!r} + ".down").write_text("down")
+    print(json.dumps({{"is_error": True, "total_cost_usd": 0,
+                      "result": "API Error: Can't reach the API server (EAI_AGAIN)"}}))
+    sys.exit(1)
 if mode == "bad":      # returns sources that do not exist
     result = {{"entries": [], "contradictions": [], "excluded": []}}
 else:
@@ -328,6 +333,8 @@ else:
         else sys.argv[sys.argv.index("--json-schema") + 1]
     schema = json.loads(pathlib.Path(schema_arg).read_text() if schema_arg.endswith(".json") else schema_arg)
     result = answer(prompt, schema)
+if mode == "case":     # the model changes one ID's letter case
+    result = json.loads(json.dumps(result).replace('"abc"', '"ABC"'))
 if "--output-last-message" in sys.argv:
     pathlib.Path(sys.argv[sys.argv.index("--output-last-message") + 1]).write_text(json.dumps(result))
 else:
@@ -383,6 +390,52 @@ else:
             with self.assertRaisesRegex(RuntimeError, "also failed"):
                 bp.build(self.args)
         self.assertEqual(self.status()["status"], "failed")
+
+    def test_id_with_wrong_letter_case_is_corrected(self):
+        self.fake_pair(codex="fail", claude="case")
+        with patch.object(bp, "ROOT", self.root):
+            bp.build(self.args)
+        self.assertEqual(self.status()["status"], "complete")
+        self.assertIn("Fixed source ID", (self.output / "build.log").read_text())
+        self.assertIn("https://www.instagram.com/p/abc/",
+                      (self.output / "Instagram playbook.md").read_text())
+
+    def test_case_fix_needs_one_match_and_skips_non_id_fields(self):
+        result = draft(["ABC"])
+        result["entries"][0]["title"] = "ABC"
+        self.assertEqual(bp.fix_source_ids(result, {"abc"}), [("ABC", "abc")])
+        self.assertEqual(result["entries"][0]["primary_source"], "abc")
+        self.assertEqual(result["entries"][0]["title"], "ABC")
+        ambiguous = draft(["ABC"])
+        self.assertEqual(bp.fix_source_ids(ambiguous, {"abc", "aBc"}), [])
+
+    def test_garbled_id_is_restored_only_when_unambiguous(self):
+        result = draft(["DaGIKtPki6B"])
+        result["excluded"] = [{"source": "DWjQBJbmDBjQ", "reason": "Promo."}]
+        expected = {"DaGIKtPki6B", "DWJUbQmDBjQ"}
+        self.assertEqual(bp.fix_source_ids(result, expected), [("DWjQBJbmDBjQ", "DWJUbQmDBjQ")])
+        bp.validate(result, expected)
+        unrelated = draft(["DaGIKtPki6B"])
+        unrelated["excluded"] = [{"source": "zzzzzzzzzzz", "reason": "Promo."}]
+        self.assertEqual(bp.fix_source_ids(unrelated, expected), [])
+        two_close = draft(["DaGIKtPki6B"])
+        two_close["excluded"] = [{"source": "DWjQBJbmDBjQ", "reason": "Promo."}]
+        self.assertEqual(bp.fix_source_ids(two_close, expected | {"DWJUbQmDBJQ"}), [])
+
+    def test_network_failure_is_retried_then_continues(self):
+        self.fake_pair(codex="fail", claude="net_once")
+        with patch.object(bp, "ROOT", self.root), patch.object(bp, "NETWORK_RETRY_WAITS", (0, 0)):
+            bp.build(self.args)
+        self.assertEqual(self.status()["status"], "complete")
+        self.assertEqual(self.calls("claude"), self.calls("codex") + 1)   # one retry
+        self.assertIn("Network error", (self.output / "build.log").read_text())
+
+    def test_other_claude_failures_are_not_retried(self):
+        self.fake_pair(codex="fail", claude="fail")
+        with patch.object(bp, "ROOT", self.root), patch.object(bp, "NETWORK_RETRY_WAITS", (0, 0)):
+            with self.assertRaisesRegex(RuntimeError, "also failed"):
+                bp.build(self.args)
+        self.assertEqual(self.calls("claude"), 1)
 
     def test_no_fallback_stops_on_codex_failure(self):
         self.fake_pair(codex="fail")
@@ -589,6 +642,30 @@ else:
         calls.clear()       # drafts that never fit together go straight to the final call
         bp.clean_up(Fake(), drafts, {"a", "b", "c", "d"}, 10, state, self.output)
         self.assertEqual([(p == bp.FINAL_PHASE, n) for p, n, _ in calls], [(True, 4)])
+
+    def test_parts_too_large_for_final_call_are_joined_in_code(self):
+        drafts = [draft(["a"]), draft(["b", "c"]), draft(["a"])]   # third repeats the first
+        drafts[1]["entries"][0]["title"] = "Another method"
+        drafts[1]["excluded"] = [{"source": "a", "reason": "Covered elsewhere."}]
+        drafts[2]["excluded"] = [{"source": "d", "reason": "No method."}]
+        calls = []
+
+        class Fake:
+            args = argparse.Namespace(reduce_bytes=10)
+
+            def run(self, *call):
+                calls.append(call)
+
+            def log(self, message):
+                pass
+        self.output.mkdir()
+        state = {}
+        result = bp.clean_up(Fake(), drafts, {"a", "b", "c", "d"}, 10, state, self.output)
+        self.assertEqual(calls, [])
+        self.assertEqual(state["phase"], "join cleaned parts")
+        self.assertEqual(len(result["entries"]), 2)          # literal duplicate dropped
+        self.assertEqual(result["excluded"], [{"source": "d", "reason": "No method."}])
+        bp.validate(result, {"a", "b", "c", "d"})
 
     def test_fallback_cap_counts_spend_across_runs_until_reset(self):
         self.fake_pair(codex="fail_limit")
