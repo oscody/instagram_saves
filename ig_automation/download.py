@@ -65,6 +65,8 @@ LOGIN_SIGNS = (
 NETWORK_SIGNS = (
     "failed to resolve", "nameresolutionerror", "temporary failure in name resolution", "max retries exceeded",
     "connection reset", "connection aborted", "network is unreachable", "timed out", "read timed out",
+    # curl (yt-dlp's transport) words it differently: (6) DNS, (7) no connection, (28) timeout
+    "could not resolve host", "couldn't resolve host", "curl: (6)", "curl: (7)", "curl: (28)",
 )
 SHORTCODE_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
 

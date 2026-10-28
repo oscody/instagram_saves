@@ -4,15 +4,20 @@ url: "https://instagram.com/p/DfAYKU-EwIK/"
 type: "Carousel"
 author: "askgpts"
 shared: "Oct 27, 2026, 05:55 PM"
-described_by: "qwen2.5-1.5b-instruct (hailo)"
-described_at: "2026-10-27"
+described_by: "claude-haiku-5-5"
+described_at: "2026-10-28"
 ---
 
-# Meet Dossier: A Free, Open-Source Job Search Assistant
+# Dossier: free open-source AI job search tool
 
-Dossier is a free, open-source AI job search assistant that helps users find and apply to jobs across various platforms. It uses their professional profile information to build applications using real data from LinkedIn, Indeed, and other sources.
+A carousel announcing Dossier, a free, open-source AI job search tool that a developer built for his wife, with a list of its features. It describes the tool's capabilities and points to the GitHub repo.
 
-Written by qwen2.5-1.5b-instruct (hailo).
+Written by claude-haiku-5-5.
+
+## Source
+
+* Link: AienTech/dossier
+* How to get it: comment 'DOSSIER' on the post to get the official link sent by DM
 
 ## Caption
 
