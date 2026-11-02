@@ -323,9 +323,12 @@ def needs_download(record: dict, ig_dir: Path, retry_failed: bool) -> bool:
 def run(cmd: list) -> None:
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
-        lines = [l for l in (result.stderr or result.stdout).splitlines() if l.strip()]
-        errors = [l for l in lines if "ERROR" in l] or lines
-        raise RuntimeError(errors[-1].strip() if errors else f"{cmd[0]} exited with code {result.returncode}")
+        lines = [l.strip() for l in (result.stderr or result.stdout).splitlines() if l.strip()]
+        # A bare "ERROR:" line says nothing (yt-dlp prints one when the connection drops mid-download), so the
+        # message keeps the last ERROR line that has text, or else the last few lines of output.
+        errors = [l for l in lines if "ERROR" in l and l.rstrip(":").strip() not in ("ERROR", "")]
+        detail = errors[-1] if errors else " | ".join(lines[-3:])
+        raise RuntimeError(detail or f"{cmd[0]} exited with code {result.returncode}")
 
 
 def download_video(record: dict, folder: Path, base: str, firefox_profile: str) -> list:
@@ -571,8 +574,13 @@ def main() -> int:
             if folder.is_dir() and not any(folder.iterdir()):
                 folder.rmdir()  # a failed download leaves no empty folder behind
             if kind == "network":
-                # The post was never really tried, so it gets no error and the next run tries it again.
+                # The post was never really tried, so it gets no error and the next run tries it again. Posts that
+                # failed just before the outage most likely failed because of it too, so they stop counting.
                 logger.warning(f"  ✗ network: {error}")
+                for bad in streak:
+                    bad["error"] = False
+                failed -= len(streak)
+                streak = []
                 if not wait_for_network(NETWORK_WAIT):
                     logger.error(f"No network for {NETWORK_WAIT // 60} min, stopping")
                     code = 1
@@ -597,6 +605,16 @@ def main() -> int:
                 for bad in streak:
                     bad["error"] = False
                 failed -= len(streak)
+                if not network_up():
+                    # The Wi-Fi dropped (2026-10-27 and 2026-10-30 this paused the pipeline for a day with no
+                    # block at all): these were network failures, so they do not count. Wait, then carry on.
+                    logger.warning(f"{len(streak)} posts in a row failed, but the Pi is offline: not a block")
+                    streak = []
+                    if not wait_for_network(NETWORK_WAIT):
+                        logger.error(f"No network for {NETWORK_WAIT // 60} min, stopping")
+                        code = 1
+                        break
+                    continue
                 reason = f"{len(streak)} posts in a row failed, the last with: {error}"
                 until = mark_blocked(reason, args.block_hours)
                 logger.error(f"Instagram is most likely blocking the account ({reason}). "
