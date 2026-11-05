@@ -5,22 +5,27 @@ type: "Carousel"
 author: "hasantoxr"
 shared: "Mar 29, 2026, 07:21 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five Claude prompts for job interviews and outreach
+# Six Claude prompts for job searching
 
-A six-slide carousel with five copy-paste Claude prompts covering resume matching, recruiter outreach, STAR interview answers, interviewer research, and thank-you emails. The post says the prompts led to 6 interviews in 7 days.
+A nine-slide carousel presenting six Claude prompts for the job search: resume matching, recruiter outreach, interview answers, company research, thank-you emails and offer negotiation. It claims these helped the author land six interviews in seven days.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Resume Mirror: paste your resume and the job description into Claude, then ask it to score your resume against the JD (0-100), list the keywords you're missing that an ATS would filter out, and rewrite your bullet points to match the JD's language. Ask it to be blunt.
-2. Recruiter Hook: give Claude the company, the role, a 2-3 sentence background, and one recent headline about the company, then ask for a cold recruiter message. Rules: under 80 words, open with the company rather than yourself, give one specific reason for wanting this company, and end with a soft call to action.
-3. STAR Machine: tell Claude the company and role, paste 5 experiences from your career, and specify the interviewer level (senior manager, VP, or peer). For each likely behavioral question (failure, leading a team, handling conflict), match your best experience to it in STAR format, then write 2 follow-up answers for deeper probing.
-4. Intel Brief: give Claude the interviewer's name, title, and company, plus their LinkedIn details and the company's latest earnings or news. Ask for 3 questions that show deep research, their likely priorities based on their role, what not to say given the company's current challenges, and one genuine compliment to open with.
-5. Follow-up thank-you email: give Claude the role, the interviewer's name, one thing you bonded over, and one question you could have answered better. Rules: under 120 words, reference something specific from the conversation, add one new thought you didn't mention in the interview, and don't say 'thank you for your time' in the first line.
+1. Resume Mirror: paste your resume and the job description into the prompt, ask for a 0-100 match score, a list of missing ATS keywords, and bullet points rewritten to match the JD's language, and ask for blunt feedback.
+2. Recruiter Hook: write a cold recruiter message under 80 words, using 2-3 sentences of your background and one recent company headline.
+3. Recruiter Hook rules: open with the company rather than yourself, give one specific reason you want this company, and end with a soft call to action instead of 'let me know if you have time'.
+4. STAR Machine: list 5 career experiences and have Claude match your best one to each likely behavioral question (failure, leading a team, handling conflict) in STAR format.
+5. STAR Machine: then ask for 2 follow-up answers in case the interviewer probes deeper, and state the interviewer's level (senior manager, VP or peer).
+6. Intel Brief: before an interview, give the interviewer's name, title, LinkedIn details and the company's latest earnings or news, then ask for 3 research-based questions, their likely priorities, what not to say given the company's challenges, and a genuine opening compliment.
+7. Follow-Up Email: write a post-interview thank-you email under 120 words that references a specific point from the conversation and adds one new insight you did not mention in the interview.
+8. Follow-Up Email: do not open the first line with 'thank you for your time'.
+9. Offer Negotiator: give the offer, your market research range and any real or potential competing offer, then ask for a negotiation email that expresses excitement first, anchors high without being offensive, uses market data rather than personal need as justification, and offers alternatives such as PTO, a signing bonus or a review date.
+10. Offer Negotiator: keep the tone confident but collaborative, not desperate.
 
 ## Caption
 

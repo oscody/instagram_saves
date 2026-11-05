@@ -5,31 +5,28 @@ type: "Carousel"
 author: "divyannshisharma"
 shared: "Jul 09, 2026, 12:43 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Self-improving AI system with Claude Managed Agents
 
-A swipe carousel that presents Claude Managed Agents as the infrastructure around a model for building self-improving AI agents. It covers the agent's building blocks, how secrets are handled, and a live demo.
+A 10-slide carousel on Claude Managed Agents: why agents are hard to run in production, the infrastructure and building blocks the service provides, how secrets are handled, and a live demo of an agent analyzing a grocery dataset and building a reorder prediction tool.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Model capability is rising fast, but building an agent that gets the most out of a model is hard, and the system around the model is the hard part.
-2. Claude Managed Agents supplies the infrastructure: sandboxing, credential proxy, permission policies, automatic context management, error recovery and checkpointing, and session tracing.
-3. You decide what the agent should do; the managed infrastructure handles how.
-4. Step 1, define the agent: set its system prompt, model, skills, tools and permissions.
-5. Step 2, configure the environment: set a network allowlist and preinstalled packages, which define what the agent can access.
-6. Step 3, run a session: load it with files, GitHub repos and layered credentials.
-7. Step 4, handle events: the agent communicates its actions, and you steer it with additional events or stop it whenever you want.
-8. For secrets, store environment variables in a vault. The agent sees only an opaque placeholder, which is swapped for the real credential on egress to the authorized domain, and secrets stay encrypted throughout.
-9. Live demo: an agent analysed order tables in the Claude console and built a reorder prediction simulator. The post says the agent took minutes.
-10. To start, use Claude Code, run an example from the terminal, or grab a cookbook and copy a working example.
+1. Define the agent: set a system prompt, model, skills, tools and permissions.
+2. Configure the environment: set a network allowlist and preinstalled packages, which define what the agent can access.
+3. Run a session: load it with files and GitHub repos, and layer in credentials.
+4. Handle events: the agent communicates its actions, and you steer it with additional events or stop it whenever you want.
+5. Store secrets in vaults: the agent only sees an opaque placeholder, and the real credential is swapped in on egress to an authorized domain, so the secret value is never handed over and stays encrypted.
+6. Use session tracing and Ask Claude in Console to observe what the agent is doing.
+7. To start, type /claude-api in Claude Code, run `ant beta:agents create` in a terminal, or copy a working example from a cookbook.
 
 ## Source
 
-* How to get it: comment "SEND" on the post to receive the link
+* How to get it: Comment "SEND" on the post; the author says they will send the link
 
 ## Caption
 

@@ -5,29 +5,29 @@ type: "Carousel"
 author: "godofprompt"
 shared: "Oct 04, 2026, 09:49 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# AI prompt optimizer prompt for rewriting requests
+# Lyra prompt optimizer: 4-step rewrite method
 
-The carousel shares a "prompt optimizer" system prompt (Lyra) that turns a rough request into a clear, complete prompt. The slides show its 4-step method and its two operating modes, and it's meant to be pasted as a first message in ChatGPT, Claude, or Gemini.
+The post shares a system prompt for an AI prompt optimizer called Lyra, shown across slides as prompt.md text. It turns a rough request into a complete prompt through four steps (Deconstruct, Diagnose, Develop, Deliver) and offers a Detail or Basic mode.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Paste the optimizer prompt as your first message in ChatGPT, Claude, or Gemini.
-2. Share your rough prompt and pick a mode: detail or basic.
-3. Deconstruct: extract the core intent, key entities, and context; identify output requirements and constraints; map what's provided versus what's missing.
-4. Diagnose: audit the request for clarity gaps and ambiguity; check specificity and completeness; assess structure and complexity needs.
-5. Develop: pick a technique to fit the request type (creative: multi-perspective plus tone emphasis; technical: constraint-based plus precision focus; educational: few-shot examples plus clear structure; complex: chain-of-thought plus systematic frameworks), then assign an expert role and enhance context and logical structure.
-6. Deliver: construct the optimized prompt, format it based on complexity, and provide implementation guidance.
-7. Detail mode: gather context with smart defaults, ask 2-3 targeted clarifying questions, then give a comprehensive optimization.
-8. Basic mode: quickly fix the primary issues, apply core techniques only, and deliver a ready-to-use prompt.
+1. Paste the optimizer prompt as the first message in ChatGPT, Claude, or Gemini, then share your rough prompt and pick a mode (Detail or Basic).
+2. Deconstruct: extract the core intent, key entities and context; identify output requirements and constraints; map what is provided versus what is missing.
+3. Diagnose: audit the request for clarity gaps and ambiguity; check specificity and completeness; assess structure and complexity needs.
+4. Develop: pick a technique by request type (creative: multi-perspective plus tone emphasis; technical: constraint-based plus precision focus; educational: few-shot examples plus clear structure; complex: chain-of-thought plus systematic frameworks), assign an expert role, and enhance context with logical structure.
+5. Deliver: construct the optimized prompt, format it by complexity, and provide implementation guidance.
+6. Mode choice: Detail mode gathers context with smart defaults, asks 2-3 targeted clarifying questions, and gives a comprehensive optimization; Basic mode gives a quick fix of primary issues with core techniques only.
+7. Auto-detect: simple tasks go to Basic and complex or professional tasks go to Detail, with the user informed and able to override the choice.
+8. Response format: each answer returns the optimized prompt plus what changed, key improvements, techniques applied, and a usage tip.
 
 ## Source
 
-* How to get it: Comment "prompting" to receive the full guide
+* How to get it: Comment "prompting" on the post to receive the full guide
 
 ## Caption
 

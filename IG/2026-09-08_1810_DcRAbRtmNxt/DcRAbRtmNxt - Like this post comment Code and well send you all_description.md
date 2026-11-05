@@ -5,31 +5,32 @@ type: "Carousel"
 author: "getintoai"
 shared: "Sep 08, 2026, 06:10 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # 10 Claude prompts for better coding
 
-A carousel that urges developers to treat Claude as a technical partner rather than a junior developer, with copy-ready prompts for architecture, codebase audits, debugging, performance and refactoring. The slides show five of the ten prompts.
+A carousel that argues developers should give Claude rich context and a senior-engineer role instead of simple commands like "write the code." It shows ten example prompts, each assigning Claude a specific role and listing the analysis and deliverables it should produce.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Architecture from scratch: ask Claude to act as a senior full-stack engineer building a production-ready MVP, design the system architecture first, then build the simplest scalable version, covering file structure, database schema, API endpoints, UI architecture and production-ready code.
-2. Codebase audit: ask Claude to reverse-engineer the architecture and complete data flow of an unfamiliar codebase before judging it.
-3. Audit findings: have it identify poor architecture decisions, duplicate logic, performance bottlenecks, scalability risks and maintainability problems.
-4. Audit output: request an architecture breakdown, critical problem areas, refactoring strategies and improved production-grade code, without changing existing functionality.
-5. Debugging: ask Claude to analyze step by step, understand what the code actually does, trace the true root cause, explain why the failure occurs and find hidden edge cases.
-6. Debugging output: request a root cause analysis, failure explanation, edge case analysis and fixed production-ready code, and tell it not to guess and to analyze before changing anything.
-7. Performance: set goals of maximum speed, lower memory usage, better scalability, faster rendering and cleaner execution, then have Claude identify bottlenecks, inefficient logic, unnecessary rendering, expensive operations and memory leaks.
-8. Performance output: request a performance issue breakdown, optimization strategies, improved code and scalability recommendations.
-9. Refactoring: ask Claude to act as a senior software architect separating concerns, improving modularity, reducing tight coupling, increasing scalability and easing long-term maintenance, while not changing product behavior.
-10. Refactoring output: request a new folder structure, a clean architecture breakdown, refactored production-grade code and an explanation of the architectural improvements.
+1. Assign Claude a senior role for the task, such as senior full-stack engineer, senior architect, or technical lead.
+2. For a new startup MVP, ask for the system architecture first, then the simplest scalable version, including file structure, database schema, API endpoints, UI architecture and production-ready code.
+3. For an unfamiliar codebase, ask Claude to reverse-engineer the architecture and data flow first, then identify poor architecture decisions, duplicate logic, performance bottlenecks, scalability risks and maintainability problems.
+4. For a production bug, ask Claude to understand what the code actually does, trace the true root cause, explain why the failure occurs, find hidden edge cases and recommend the most robust fix, and to analyze carefully before changing anything.
+5. For performance work, state the goals (speed, lower memory use, scalability, faster rendering, cleaner execution), have Claude identify bottlenecks, inefficient logic, unnecessary rendering, expensive operations and memory leaks, then provide optimization strategies and improved code.
+6. For messy code, ask Claude to separate concerns, improve modularity, reduce tight coupling and increase scalability without changing product behavior, and to deliver a new folder structure, architecture breakdown and refactored code.
+7. For backend design, ask Claude to design the system architecture first, then the minimum implementation that can scale later, covering component structure, data flow, API design, database schema, caching strategy and implementation code.
+8. For frontend work, ask Claude to build reusable, accessible components while handling loading states, empty states, edge cases and responsive design, and to provide component architecture, props/API design, usage examples and best practices.
+9. Before writing code, have Claude ask clarifying questions, challenge weak decisions, identify scaling risks, suggest better approaches and prioritize simplicity, then provide technical decisions, trade-off analysis, a recommended architecture and an implementation plan.
+10. For security, have Claude inspect the system for vulnerabilities, authentication flaws, API weaknesses, injection risks, sensitive data exposure and infrastructure risks, then provide a vulnerability report with severity levels, attack scenarios and secure fixes.
+11. For deployment, have Claude design the deployment architecture, configure CI/CD, set up monitoring and logging, and reduce downtime risks, then provide infrastructure architecture, deployment workflow, CI/CD pipeline, Docker/Kubernetes setup, monitoring strategy and a production checklist.
 
 ## Source
 
-* How to get it: The caption says the full set of prompts is sent after you like the post and comment "Code".
+* How to get it: Like the post and comment "Code" to receive all the prompts
 
 ## Caption
 

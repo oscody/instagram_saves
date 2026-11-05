@@ -5,33 +5,33 @@ type: "Carousel"
 author: "datasciencebrain"
 shared: "Sep 22, 2026, 08:02 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Repairing stale agent memories: a 20-file guide
+# Repairing stale memories in a RAG agent
 
-A carousel promoting a written project guide for a memory agent that tracks when facts were true versus when they were believed, and detects and repairs stale facts. The slides show the guide's cover, table of contents, mental model, architecture diagram, and setup commands.
+A carousel that presents a project for an agent whose stored facts go stale over time, using two time axes, closed validity windows, zero-model-call detectors and a human review gate, built on free Groq models and SQLite. The visible slides cover the mental model, architecture, config and early modules; the rest of the guide is behind a subscriber paywall.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Store each memory as an interval with a belief attached, keeping valid time (when the fact was true) separate from transaction time (when the system believed it).
-2. Never delete a memory. Close its validity window instead.
-3. Classify every change as one of four operations: born (opens, no end), replaced (closes where its successor opens), ages (stays open, belief weakens, flagged), or ends (closes, nothing succeeds it).
-4. Run two paths into one writer: an arrival path that extracts, classifies and applies policy when the user speaks, and a timed sweep that finds stale facts when nobody has said anything.
-5. Make the repair module the only file that changes rows, so every rule and audit entry lives in one place.
-6. Detect stale facts with SQL and file reads, so a sweep with no drift makes no model calls.
-7. Send low-confidence repairs to a human review inbox instead of applying them automatically.
-8. Build bottom-up, with config and clock first, then store, embed and recall, cache and LLM calls, extract, classify, policy and repair, detect, propose and sweep, graph nodes, and finally the demo, CLI and inbox.
-9. Verify that the sqlite-vec extension loads before writing a schema around it.
-10. Create the project with uv, add the listed dependencies, and put the Groq API key in a .env file as GROQ_API_KEY.
-11. Inject a clock object so tests can run with a frozen time.
-12. Write the success criterion for an ablation before running it, then measure which mechanisms actually changed answers.
+1. Store each memory as an interval with a belief attached, not as an overwritable value.
+2. Track two time axes: valid time (when the fact was true in the world) and transaction time (when the system believed it).
+3. Never delete a memory; when a fact is replaced, close its validity window exactly where its successor opens.
+4. Close an ended fact with no successor, and keep an aging fact open while weakening its confidence and flagging it.
+5. Use one far-future sentinel date instead of NULL for open intervals, so the vector index can filter with simple comparisons.
+6. Route every write through a single module, with arrival events from user messages and a timer-driven sweep for silent decay.
+7. Read the time only in one clock module and inject a frozen clock, so staleness over months can be tested in one session.
+8. Give each kind of fact its own half-life (for example 3650 days for stable, 180 for slow, 30 for fast) and use the same threshold for the flag and the sweep.
+9. Apply repairs automatically only above a high confidence threshold, require a higher bar for retiring rows than for adding them, and always send stable facts to a human.
+10. Keep detectors free of model calls by using SQL and a single file read, so an always-on sweep costs nothing.
+11. Use a larger completion-token budget for reasoning models, since low limits leave no room for the JSON output.
+12. Write the success criterion of an ablation before the run, and report mechanisms that show no effect.
 
 ## Source
 
-* How to get it: The full guide PDF is shared only with Instagram subscribers via the subscribe button on the profile (paid membership). Not sent by comment or DM.
+* How to get it: Full guide is a paid PDF for Instagram subscribers, accessed via the subscribe button on the profile
 
 ## Caption
 

@@ -5,26 +5,26 @@ type: "Carousel"
 author: "kekoamac"
 shared: "Apr 01, 2026, 03:48 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 64 Industries to Install AI For
+# 64 boring industries that will pay for AI
 
-A six-slide carousel that lists 64 everyday industries, from law firms and dental practices to plumbing companies and tattoo studios, that it claims will pay $5K–$10K to have AI installed. It argues that businesses should apply simple AI to existing problems like missed inquiries and slow follow-ups.
+A carousel listing 64 "boring" industries, from law firms and dental practices to plumbers and payroll companies, which the author says will pay people to install pre-built AI tools. The caption frames AI around existing problems such as missed inquiries, slow follow-ups and repetitive admin.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Apply AI to problems that already exist, such as missed inquiries, slow follow-ups, repetitive admin work and inefficient systems, rather than building something new.
-2. Use pre-built AI tools that automate communication, handle routine tasks and make operations more efficient.
-3. Skip coding from scratch and complicated setups; keep the system simple and results-driven.
-4. Aim for businesses that are still early in adopting AI, since they already need better systems.
+1. Apply AI to problems that already exist instead of building something new.
+2. Look for recurring issues such as missed inquiries, slow follow-ups, repetitive admin work and inefficient systems.
+3. Use pre-built AI tools that automate communication and handle routine tasks, rather than complex custom tools.
+4. Keep setups simple and results-driven so they run in the background and improve how operations run.
 5. Use the same approach across many different industries.
 
 ## Source
 
-* How to get it: Send a DM with the keyword "YES"
+* How to get it: Sent by DM: comment or message the keyword "YES" to the account to receive the playbook (not included in this post).
 
 ## Caption
 

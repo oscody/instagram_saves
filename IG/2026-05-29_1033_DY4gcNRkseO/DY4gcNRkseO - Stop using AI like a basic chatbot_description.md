@@ -5,24 +5,29 @@ type: "Carousel"
 author: "stics.ai"
 shared: "May 29, 2026, 10:33 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 11 Claude prompts for engineering work
+# 11 Claude prompts for engineering roles
 
-A carousel arguing that Claude works better when given a role, context, constraints and expected output, with copy-paste prompts for building an MVP, auditing a codebase, debugging production issues, optimizing performance and refactoring. Only the first five of the promised 11 prompts appear in these slides.
+An 11-slide carousel of copy-paste Claude prompts that each assign an engineering role, project context, constraints and expected deliverables for tasks such as MVP design, codebase audits, debugging, performance, security and deployment.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Give Claude a senior role (such as senior full-stack engineer, debugging engineer, performance engineer or software architect) and the context of the project.
-2. For a new MVP, have Claude design the full system architecture first, then build the most minimal but scalable version, covering system architecture, file structure, database schema, API endpoints, UI architecture and production-ready code.
-3. For an existing codebase, have Claude reverse-engineer the architecture and data flow first, then identify bad architecture decisions, duplicate logic, performance bottlenecks, scalability risks and maintainability issues.
-4. For the codebase audit, ask for a clean architecture breakdown, critical problem areas, refactoring strategies and improved code, with the rule not to change functionality.
-5. For production bugs, have Claude analyze the code step by step, understand what it actually does, trace the real root cause, explain why the failure happens, identify hidden edge cases and propose the most robust fix, without guessing.
-6. For performance, state the goals (maximum speed, lower memory usage, better scalability, faster rendering, cleaner execution), then have Claude identify bottlenecks, inefficient logic, unnecessary rendering, expensive operations and memory leaks before proposing optimization strategies.
-7. For refactoring, set the mission to separate concerns, increase modularity, reduce tight coupling, improve scalability and ease long-term maintenance, while not changing product behavior, and ask for a new folder structure and an explanation of the architectural improvements.
+1. Give Claude a specific senior role, such as senior full-stack engineer, debugging engineer, performance engineer, software architect, systems architect, technical lead, security engineer or DevOps engineer.
+2. State the context, such as a production startup MVP, an unfamiliar codebase, a live outage, or an app used by millions of users.
+3. Set constraints, such as 'do not change functionality', 'do not guess', 'think deeply before making changes', or 'ask clarifying questions before writing code'.
+4. Specify the expected output, such as system architecture, file structure, database schema, API endpoints, UI architecture, root cause analysis, severity levels, a folder structure, a CI/CD pipeline or a deployment checklist.
+5. For a new MVP, ask for the full architecture first, then the minimal but scalable implementation.
+6. For a codebase audit, ask Claude to reverse-engineer the architecture and data flow, then identify bad decisions, duplicate logic, bottlenecks, scalability risks and maintainability issues.
+7. For debugging, ask Claude to understand what the code does, trace the root cause, explain why the failure happens, identify hidden edge cases and propose a fix.
+8. For performance, name the goals (speed, memory, scalability, rendering, execution) and ask for bottlenecks, inefficient logic, unnecessary rendering, expensive operations and memory leaks, plus optimization strategies.
+9. For refactoring, ask for separation of concerns, modularity and lower coupling while keeping product behavior unchanged, and request a new folder structure and an explanation of the changes.
+10. For frontend work, ask for reusable components with loading, empty, edge-case, responsive and accessibility handling, plus props/API design and usage examples.
+11. For security, ask Claude to inspect for vulnerabilities, authentication flaws, API weaknesses, injection risks, sensitive data exposure and infrastructure risks, then produce a severity-rated report with attack scenarios and fixes.
+12. For deployment, ask for infrastructure architecture, CI/CD setup, Docker/Kubernetes setup, monitoring and logging, and a production deployment checklist.
 
 ## Caption
 

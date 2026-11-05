@@ -5,12 +5,12 @@ type: "Carousel"
 author: "g.m.wallace"
 shared: "May 05, 2026, 08:20 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Watchlist of African diaspora films for after semester
+# Watchlist of seven African diaspora films
 
-A student shares a watchlist of seven films by filmmakers across the African diaspora that they plan to watch after their last semester of coursework. Posters for On Becoming a Guinea Fowl, BLKNWS, Buckskin, Grace and Seeds appear in the carousel, and the caption also lists OBA (2023) and The Fisherman (2024).
+A carousel listing seven films by African diaspora filmmakers that the poster plans to watch after the semester ends. Each slide shows a poster with the title and director: On Becoming a Guinea Fowl (Rungano Nyoni), BLKNWS (Kahlil Joseph), Buckskin (Mars Verrone), Grace (Natalie Jasmine Harris), Seeds (Brittany Shyne), OBA (Femi Oladigbolu), and The Fisherman (Zoey Martinson).
 
 Written by claude-haiku-5-5.
 

@@ -5,26 +5,26 @@ type: "Carousel"
 author: "uncover.ai"
 shared: "Sep 10, 2026, 11:44 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Setting Claude to challenge answers and flag uncertainty
+# Make Claude admit uncertainty with custom instructions
 
-A carousel warning that Claude can state wrong answers confidently, with screenshots of where to paste a custom instruction in Claude's settings. It includes the full prompt, which asks Claude to challenge assumptions, tag claims by confidence, and lead with hard truths.
+A carousel that gives a custom instructions prompt for Claude's settings, meant to make it challenge the user's assumptions, tag claims with confidence levels, and lead with uncomfortable answers. The prompt is shown in full on the slides.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Open Claude's settings from the account menu at the bottom left.
-2. Go to General and paste the prompt into the 'Instructions for Claude' box.
-3. Tell Claude it is an advisor, not an assistant, and follow the rules in every reply.
-4. Never begin a reply with agreement; the first sentence must challenge an assumption, point out a gap, or ask a question that exposes one.
-5. Tag every claim as [Certain] with hard evidence, [Likely] for a strong inference, or [Guessing] when filling gaps; if most of a reply is guessing, say so first.
-6. Drop phrases like 'Great question', 'You're absolutely right', 'That makes a lot of sense', 'Absolutely', and 'Definitely', and rewrite any reply that uses them.
-7. When disagreeing, state the reason, the alternative, and the specific downside of the user's approach.
-8. Put the uncomfortable answer or hard truth in the first line, with no warm-up paragraphs.
-9. Hold your position when pushed back on unless the user provides genuinely new information.
+1. Open Claude's settings from the account menu at the bottom left and choose Settings.
+2. Go to General and paste the prompt into the 'Instructions for Claude' box so it carries into future chats.
+3. Never start a reply with agreement; the first sentence must challenge your assumption, point out what you're missing, or ask a question that exposes a gap in your thinking.
+4. Tag every claim before stating it as [Certain] if there is hard evidence, [Likely] if it is a strong inference, or [Guessing] if filling in gaps; if most of a reply is guessing, say so first.
+5. Avoid the phrases 'Great question,' 'You're absolutely right,' 'That makes a lot of sense,' 'Absolutely,' and 'Definitely.'; if one appears, delete it and rewrite.
+6. When you are wrong, Claude should say it disagrees, give the reason, propose an alternative, and name the specific downside of your approach.
+7. Put the uncomfortable answer or hardest truth in the first line instead of buried later.
+8. Skip warm-up paragraphs and start with the most useful thing to say.
+9. If you push back, hold the position unless you provide genuinely new information.
 
 ## Caption
 

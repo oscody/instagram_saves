@@ -5,23 +5,22 @@ type: "Carousel"
 author: "quantumdigest"
 shared: "Jun 28, 2026, 11:44 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Vadim Zeland's Reality Transurfing: Lowering Importance
+# Vadim Zeland's Reality Transurfing: a 3-step method
 
-A six-slide carousel about Vadim Zeland, a Russian quantum physicist who in 1993 developed Reality Transurfing, the idea that reality is infinite parallel tracks you move between by changing your inner state. It covers his claims about excess potential and "pendulum" problems, with illustrations.
+A carousel introducing Vadim Zeland and his Reality Transurfing idea that reality consists of parallel tracks and that inner state determines which one you experience. It presents his "no big deal" approach to goals, the excess potential and pendulum concepts, and a three-step method.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Treat what you want as 'no big deal' rather than urgent or life-or-death.
-2. Lower the importance you give a goal, since high importance creates excess potential that pushes it away.
-3. Don't chase desperately; let things come by acting calmly and allowing them.
-4. Treat problems as pendulums that feed on your emotional reactions and attention.
-5. Stop feeding a problem: step aside mentally instead of fighting or engaging with it.
-6. Aim for a calm, neutral inner state, which the post says improves focus and decision-making.
+1. Lower the importance of a desire: treat it as a "nice to have" rather than a "must have" to release pressure.
+2. Act as if the desire is already arranged, going through the day as if the universe has already handled it.
+3. When obstacles appear, mentally step sideways into a parallel reality where they don't exist.
+4. When a problem appears, don't fight it or give it attention; step aside mentally and stop feeding it energy.
+5. Avoid pretending not to care while secretly being attached, avoid using the approach as another way to force results, and take action from relaxation rather than desperation.
 
 ## Caption
 

@@ -5,22 +5,22 @@ type: "Carousel"
 author: "stics.ai"
 shared: "Mar 27, 2026, 04:15 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Five LLM prompts for job search and interviews
 
-A six-slide carousel that presents five ChatGPT, Claude or Gemini prompts for job seekers: resume tailoring, cover letters, LinkedIn profile rewrites, a networking post and interview question prep. Each slide shows the prompt text with a sample output.
+The carousel presents five prompt templates for using ChatGPT, Claude, or Gemini in a job search: resume tailoring, cover letters, LinkedIn profile rewrites, a networking post, and interview question prep. Each slide shows the prompt text with bracketed placeholders and a sample output.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Resume tailoring: paste your current resume and the job description, then ask the model to work exact JD keywords into the resume, quantify achievements, keep it to one page in bullet format, and summarize the top 3-5 matches. Ask for the full revised resume plus a list of changes.
-2. Cover letter: paste the job description, your 3-5 key experiences and resume summary, then ask for three paragraphs: a hook about the company, quantified proof of fit, and a strong interview call to action, in a confident, professional tone.
-3. LinkedIn profile: paste your current headline and About section, your experience and your target role, then ask for a first-person, keyword-rich headline and About section that ends with a subtle call to action, plus three banner ideas.
-4. Networking post: name the achievement and target audience, then ask for a LinkedIn post with a hook in the first line, a short story with lessons, a closing question to drive comments, and 3-5 relevant hashtags.
-5. Interview prep: paste the job description and the company and role, then ask for 15 likely questions (5 technical, 5 behavioral, 5 company or role-specific), each with why it is asked and a suggested answer framework.
+1. Resume tailor: paste your current resume and the job description, then ask the LLM to work in exact JD keywords, quantify achievements where possible, keep the resume to one page in bullet format, and add a summary of your top 3-5 matches. Ask for the full revised resume plus a list of changes.
+2. Cover letter: paste the job description, your 3-5 key experiences, and your resume summary. Ask for a three-paragraph letter with a hook about the specific company, a fit section backed by quantified stories, and a strong interview call to action, in a confident, professional tone.
+3. LinkedIn profile: paste your current About section and headline, your experience, and a target role. Ask for a first-person, engaging, keyword-rich headline and About section that ends with a subtle call to action, plus three banner ideas.
+4. Networking post: fill in a recent achievement and a target audience. Ask for a LinkedIn post with a hook in the first line, a short story with lessons, a closing question to drive comments, and 3-5 relevant hashtags.
+5. Interview prep: paste the job description and the company and role. Ask for 15 likely interview questions (5 technical, 5 behavioral, 5 company/role-specific), each with why it is asked and a suggested answer framework.
 
 ## Caption
 

@@ -5,21 +5,21 @@ type: "Carousel"
 author: "wealthy.setup"
 shared: "Aug 14, 2026, 12:23 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Shadow Study Technique: read, recall, fill gaps
+# Shadow Study Technique: three-step memory method
 
-The carousel presents the Shadow Study Technique, a three-step study method meant to replace re-reading with active recall. It argues that studying until material feels familiar builds recognition rather than memory.
+The carousel contrasts re-reading, which it says builds recognition rather than memory, with the "Shadow Study Technique," a closed-book retrieval method. It also includes claims about Japan and study benchmarks that the post does not source.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Step 1: Read only the headings and subheadings of what you need to learn. No highlighting and no notes, just a clean read of the structure.
-2. Step 2: Close the book and write from memory what each section means. Expect to feel wrong or second-guess yourself, since that feeling means the mechanism is working.
-3. Step 3: Reopen the text and fill the gaps in what you wrote. The gaps show where your understanding breaks down, and they become targets to study.
-4. Rule: Study until you can reproduce the material without looking, not until it looks familiar.
+1. Step 1: Read only the headings and subheadings of the material, with no highlighting and no notes.
+2. Step 2: Close the book and write from memory what each section means. Expect to feel wrong or second-guess yourself; the post says this means the method is working.
+3. Step 3: Reopen the text and fill the gaps in what you wrote. Treat each gap as a target to focus on.
+4. Repeat the cycle until you can reproduce the material without looking.
 
 ## Caption
 

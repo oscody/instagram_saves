@@ -5,26 +5,26 @@ type: "Carousel"
 author: "gptprompts.ai"
 shared: "Jul 02, 2026, 12:22 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five Claude prompts for learning faster
+# Five Claude prompts for learning complex topics
 
-A six-slide carousel that presents five prompts for Claude aimed at understanding topics, learning skills, overcoming mental blocks and getting deeper explanations. The caption also offers a larger prompt collection through a comment-keyword giveaway.
+A seven-slide carousel with five fill-in-the-blank Claude prompts for understanding concepts, learning skills, overcoming procrastination, and remembering hard ideas. The prompts are shown in full on the slides.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Understand anything like a genius: ask Claude to explain a topic as if you were a genius, using advanced analogies, real-world applications, counterexamples and multiple perspectives, then test your understanding with expert-level questions.
-2. Master any skill for free: ask Claude to assume it is a master of the skill with 20+ years of experience, reverse-engineer the process that got them there, and build a day-by-day plan using only free or low-cost resources.
-3. Fix mental blocks: describe a personal issue such as procrastination, burnout or fear, ask Claude to analyze it like a cognitive scientist, identify root causes and behavioural patterns, and design a habit loop to eliminate it.
-4. Turn confusion into clarity: ask Claude to break a complex concept down step by step using metaphors, visual imagery and real-world examples, then create a mental shortcut or framework you can use to remember it.
-5. Get a PhD-level breakdown: ask Claude to teach a topic as if you are preparing for a PhD, starting from first principles, explaining all theories with their historical evolution, and listing key papers or books to go further.
+1. Understand anything like a genius: ask Claude to explain a topic using advanced analogies, real-world applications, counterexamples and multiple perspectives, then test your understanding with expert-level questions.
+2. Master any skill for free: ask Claude to act as a master with 20+ years of experience, reverse-engineer the process that got them there, and build a day-by-day plan using only free or low-cost resources.
+3. Fix mental blocks: name a personal issue such as procrastination, burnout or fear, ask Claude to analyze it like a cognitive scientist, identify root causes and behavioural patterns, and design a habit loop to eliminate it.
+4. Turn confusion into clarity: name a concept you don't understand, ask for a step-by-step breakdown using metaphors, visual imagery and real-world examples, then ask for a mental shortcut or framework to remember it.
+5. Get a PhD-level breakdown: ask Claude to teach a topic as if you were preparing for a PhD, starting from first principles, explaining all theories with their historical evolution, and listing key papers and books to go further.
 
 ## Source
 
-* How to get it: Comment "claude" on the post to receive the 1000+ premium Claude prompts (the post says they are sent this way)
+* How to get it: Sent by comment: comment "claude" to get the 1000+ prompts
 
 ## Caption
 

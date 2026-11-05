@@ -5,22 +5,24 @@ type: "Carousel"
 author: "coders_section"
 shared: "Apr 06, 2026, 06:19 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Claude Prompts to Learn Anything for Free
+# 7 Claude prompts for learning anything free
 
-A carousel of Claude prompt templates for learning, with bracketed placeholders to fill in. The cover says seven prompts, but the carousel shows five.
+A seven-slide carousel with fill-in-the-blank Claude prompts for learning, studying, interview prep, and finding free resources. Each slide gives one prompt with bracketed placeholders.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Roadmap: give Claude your skill, weekly hours, goal and timeframe, and ask for a week-by-week roadmap using only free resources (YouTube channels, free courses, documentation, practice projects). Ask for what to study, what to build or practise, how you'll know you understand it, and the 3 most common beginner mistakes.
-2. Simple explanations: ask Claude to explain a complex topic as if you are 12, starting with a real-world analogy for the core idea. Then ask for three layers (basic, intermediate, slightly advanced) so you can stop at the depth you need, plus 3 questions to test your understanding and a suggestion of what to learn next.
-3. Interview prep: give the job title, company name, a brief company description and the job description. Ask for the 10 most likely interview questions, grouped into behavioural, technical and culture fit, with a bullet outline of a strong answer for each, plus 3 smart questions to ask the interviewer.
-4. Book or course summary: name the book or course and ask for its 10 most actionable lessons, each explained in 3–4 sentences with one concrete thing to do today. Then ask who gets the most value from it and what to read or study next.
-5. Learn from mistakes: paste your attempt and ask Claude what you got wrong and why. Ask it to explain the underlying principle you misunderstood, not just give the correct version, then ask for 3 similar practice exercises to reinforce it.
+1. Build a roadmap: give the skill, weekly hours, goal and timeframe, and ask for a week-by-week plan using only free resources, with what to study, what to build or practise, how you'll know you understood it, and the 3 most common beginner mistakes.
+2. Explain like you're 12: ask for a simple real-world analogy first, then the explanation in three layers (basic, intermediate, slightly advanced), then 3 questions to check understanding and what to learn next.
+3. Personalised interview quiz: give the job title, company, what the company does and the job description, and ask for the 10 most likely questions (behavioural, technical, culture fit) with a bullet outline of a strong answer for each, plus 3 smart questions to ask the interviewer.
+4. Summarise a book or course: ask for the 10 most actionable lessons, each in 3-4 sentences with one concrete thing to do today, plus who gets the most value and what to study next.
+5. Learn from mistakes: paste your attempt and ask what you got wrong and why, with the underlying concept explained rather than just the corrected version, then 3 similar practice exercises to do right away.
+6. Find free resources: ask for the best completely free options on a topic (YouTube channels with beginner playlists, free courses, legally free books or PDFs, Reddit or Discord communities, free practice tools), ranked in order of use with one sentence each.
+7. Simulate a tutor: ask for a Socratic tutor who first asks what you already know and what confuses you, guides you step by step with questions and gentle corrections, and after more than two stuck attempts explains the concept directly and then re-tests you with a slightly different question.
 
 ## Caption
 

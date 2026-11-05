@@ -5,25 +5,25 @@ type: "Carousel"
 author: "steel_people_"
 shared: "Oct 30, 2026, 07:24 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-11-01"
+described_at: "2026-11-03"
 ---
 
-# Six self-study topics to learn in a month
+# Six self-study topics to start in a month
 
-A carousel introduces six self-study topics: game theory, cognitive biases, history of philosophy, why some countries grow rich, art history, and statistics. Each topic pairs a book or lecture series with a short daily habit.
+A carousel presenting six self-study topics, each paired with a book or lecture series and a daily reading or viewing habit, framed as a one-month plan. The slides also ask readers to pick one topic and start.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Choose the topic that interests you most.
-2. Game theory: watch one of Professor Ben Polak's 24 YouTube lectures a day. Over a month, this covers the prisoner's dilemma, Nash equilibrium, and high-pressure bargaining.
-3. Cognitive biases: read Daniel Kahneman's Thinking, Fast and Slow and focus on one bias each day, such as anchoring, survivorship bias, or confirmation bias. Look for it in the news, in chats, and in your own decisions.
-4. History of philosophy: read one or two chapters of Nigel Warburton's A Little History of Philosophy a day (40 short chapters, about 10 minutes each). Jot down one idea that resonates with you.
-5. Why some countries grow rich: read Why Nations Fail. Alongside it, visit Our World in Data and compare charts across countries.
-6. Art history: read 20 pages a day of Ernst Gombrich's The Story of Art. Each evening, look up one painting from the chapter on Google Arts & Culture and examine it up close.
-7. Statistics: start with Darrell Huff's How to Lie with Statistics. Learn how the mean differs from the median, why correlation doesn't imply causation, and how to interpret any headline that says a study found something.
-8. Make it a regular habit rather than trying to master everything within a month.
+1. Pick the one topic that interests you most.
+2. Game theory: watch one of Professor Ben Polak's 24 lectures on YouTube each day; within a month, cover the prisoner's dilemma, Nash equilibrium and high-pressure bargaining.
+3. Cognitive biases: read Daniel Kahneman's Thinking, Fast and Slow and focus on one bias each day (anchoring, survivorship bias or confirmation bias); look for it in the news, in chats and in your own decisions.
+4. History of philosophy: read one or two chapters a day of Nigel Warburton's A Little History of Philosophy (40 short chapters, about 10 minutes each) and jot down one idea that resonates with you.
+5. Why some countries grow rich and others don't: read Why Nations Fail; alongside it, compare charts across countries on Our World in Data.
+6. Art history: read 20 pages a day of Ernst Gombrich's The Story of Art; each evening, look up one painting from the chapter on Google Arts & Culture to examine it up close.
+7. Statistics and probability: start with Darrell Huff's How to Lie with Statistics; learn how misleading graphs and cherry-picked samples work, how the mean differs from the median, why correlation doesn't imply causation, and how to read headlines that say 'a study found'.
+8. You don't have to master everything in a month; what matters is starting and making learning a regular habit.
 
 ## Caption
 

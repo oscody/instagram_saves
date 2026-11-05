@@ -5,22 +5,29 @@ type: "Carousel"
 author: "handlytech"
 shared: "Jul 24, 2026, 10:48 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 12 Free AI Websites for Creators
+# 12 free AI websites for video, images, design
 
-A carousel introducing free AI websites for video, images, design, voice and research. The slides cover five of the twelve tools: Wan 2.2 Animate, Playground, Google AI Studio, VibeVoice and Omni Video Factory.
+A 14-slide carousel listing 12 AI tools for video, image generation and editing, design, voice, and research. Each tool gets a title slide with a one-line description, a few bullet points, and a screenshot.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Wan 2.2 Animate: upload an image, add a motion clip, then generate the result to make a photo move like a video.
-2. Playground: use it to create AI visuals for product images, social posts, designs and AI graphics.
-3. Google AI Studio: use Google AI models for free to create, test, build and explore ideas.
-4. VibeVoice: paste your script, choose the voices, then generate the result to turn text into realistic audio.
-5. Omni Video Factory: write the idea, add an image if needed, then generate the video (text or image to video).
+1. Wan2.2 Animate: upload an image, add a motion clip, generate the result to make a photo move like a video.
+2. Playground: create AI visuals for product images, social posts, designs, and AI graphics.
+3. Google AI Studio: use Google AI models for free to create, test, build, and explore ideas.
+4. VibeVoice: paste your script, choose the voices, generate the result to turn text into realistic audio.
+5. Omni Video Factory: write the idea, add an image if needed, generate the video.
+6. Finegrain Image Enhancer: upload your photo, sharpen details, clean the image to fix blurry or low-quality images.
+7. Cosmos3 Nano (NVIDIA): type your idea, choose image or video mode, generate the result.
+8. Arena AI: type one prompt, see multiple model answers side by side, pick the best one.
+9. DeepAI: one site with tools to generate images, edit photos, and create videos.
+10. DesignArena AI: one dashboard for images, videos, voice, and websites.
+11. Pinokio: install it, choose the app, start creating locally on your own computer.
+12. LTX 2: upload one image, type the speech, generate a talking video with audio.
 
 ## Source
 

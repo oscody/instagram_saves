@@ -5,26 +5,28 @@ type: "Carousel"
 author: "benkellyone"
 shared: "Jul 01, 2026, 08:54 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Buying a small business with little money down
+# Buying a first small business with little money down
 
-A six-slide carousel in which a former J.P. Morgan banker says wealthy clients bought boring businesses from retiring owners with government-backed loans, and outlines his three-step approach. The final slides advertise a DM offer, which is left out here.
+A 12-slide carousel in which a former J.P. Morgan banker lays out how he says he bought small businesses with little or no money of his own, using an SBA 7(a) loan. It ends with a prompt to DM "SMB" for a chat.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Find a deal on smbmarket.com with $150k–$500k in annual cash flow, a retiring owner (60+), 10+ years of operating history, recurring revenue or repeat customers, and a team already in place.
-2. Favor boring industries such as accounting, HVAC, and trucking.
-3. Request 3 years of tax returns and financial statements.
-4. Calculate SDE (Seller's Discretionary Earnings), which is the true owner cash flow.
-5. Confirm the asking price is 2x–4x SDE.
-6. Check customer concentration: no single client should be 30%+ of revenue.
-7. Ask why the owner is selling. If the numbers don't work, look for a different deal.
-8. Use an SBA 7(a) loan, which covers 90% of the purchase price, so you need 10% down.
-9. Cover the 10% down by finding an investor for 15–20% equity, using a seller note (the seller finances part of the deal), or combining both.
+1. Find a deal on smbmarket.com with $150k-$500k annual cash flow, a retiring owner (60+), 10+ years of operating history, recurring revenue or repeat customers, and a team already in place; boring industries such as accounting, HVAC, and trucking are favored.
+2. Request 3 years of tax returns and financial statements.
+3. Calculate the SDE (Seller's Discretionary Earnings) as the true owner cash flow.
+4. Confirm the asking price is 2x-4x SDE.
+5. Check for customer concentration: no single client should be 30%+ of revenue.
+6. Ask why the owner is selling; if the numbers don't work, look for a different deal.
+7. Get creative financing: an SBA 7(a) loan covers 90% of the purchase price and you need 10% down, which can come from an investor for 15-20% equity, a seller note, or a combination of both.
+8. Apply for an SBA 7(a) loan with a 680+ credit score (600+ can work), $20k-$30k+ in liquid assets, relevant management or operational experience, and a solid business plan.
+9. Once financing is approved, complete due diligence (verify the books, talk to key employees, visit the business), negotiate final terms with the seller, sign the purchase agreement, and the business is yours when funding hits.
+10. The process from first offer to close typically takes 60-90 days.
+11. Hire a general manager for $60k-$100k/year to handle daily operations, employees, and customers while you oversee strategy, finances, and growth and stay at your W-2 job.
 
 ## Source
 

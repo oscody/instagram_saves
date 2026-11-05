@@ -5,28 +5,32 @@ type: "Carousel"
 author: "codewithharshad"
 shared: "Dec 19, 2025, 09:11 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Structured vibe coding workflow for full-stack apps
 
-A six-slide carousel arguing that random prompting in AI coding tools leads to broken code, and that a structured workflow works better. It covers choosing between IDE tools and web builders, the principle of structure over speed, and the first step of starting from a defined foundation.
+A carousel arguing that random prompting in AI coding tools breaks down, and that a structured workflow works better. It splits the workflow into a developer path (IDE tools) and a path for designers and UI-first builders (web-based builders).
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Don't prompt at random; structure the work first, because random prompts lead to spaghetti code, half-working features and lost context.
-2. Pick your path: use IDE tools (Cursor, Windsurf, Claude Code) for full control and existing codebase integration, or web builders (Figma Make, v0, Lovable, Bolt.new) for no setup and building from prompts.
-3. Follow the core principle of structure over speed.
-4. Build vertical slices, one complete feature end to end, then iterate, instead of building all database models, then all APIs, then all UI.
-5. Go from simple to complex.
-6. Phase 1 for developers using IDE tools and code: start with a foundation. Don't let AI guess your stack. Pick a solid UI component library (shadcn, Tremor), a boilerplate or starter, and a batteries-included full-stack framework, since AI builds better when constraints and rules are already set.
+1. Core principle: structure over speed.
+2. Choose your path: IDE tools (Cursor, Windsurf, Claude Code) for developers who want full control and an existing codebase; web-based builders (Figma Make, V0, Lovable, Bolt.new) for non-coders who want no setup and instant preview.
+3. Developer path, step 1: start with a foundation. Pick a UI component library (e.g. shadcn, Tremor), a boilerplate or starter, and a batteries-included full-stack framework so AI works within set constraints.
+4. Developer path, step 2: define /rules before writing anything. Set naming, folder structure, auth patterns and DB conventions; in Cursor, a /rules directory becomes the project's memory.
+5. Developer path, step 3: start with a PRD, not code. Ask AI to describe the app in detail (flows, edge cases, entities, UX), then generate a step-by-step plan.
+6. Developer path, step 4: build in vertical slices. Build one small, complete feature at a time (DB, then server, then UI, then polish) instead of all backend, then all frontend, then styling.
+7. Developer path, step 5: review and clean up constantly. AI writes fast but sloppy, so check security, return types, schema stability and error handling early.
+8. Developer path, step 6: after every slice, tell AI to document the feature it just built, since AI forgets context and docs keep you and the AI consistent.
+9. Builder path, step 1: design the prompt first. Lock the UI structure, define screens, and create flows visually, since the layout becomes the prompt; use ChatGPT or Claude to refine the prompt.
+10. Builder path, step 2: add logic in small chunks. Start with simple flows (form to save, list to fetch, auth to redirect) and don't dump big logic at once.
+11. Builder path, step 3: validate manually. Check validation, error states, edge cases and DB constraints that builders often skip; test like a user and fix as you go.
 
 ## Source
 
-* Link: public-apis/public-apis
-* How to get it: Comment "Vibe" on the post to receive the complete guide
+* How to get it: comment 'vibe' to receive the complete guide (the post says it will be sent by DM)
 
 ## Caption
 

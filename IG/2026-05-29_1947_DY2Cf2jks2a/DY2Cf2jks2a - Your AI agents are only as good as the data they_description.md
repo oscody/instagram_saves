@@ -6,23 +6,29 @@ author: "vyzual.ai"
 shared: "May 29, 2026, 07:47 PM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Audit of five scraping frameworks' deployment friction
+# Audit of five scraping frameworks before deploying
 
-A six-slide carousel that audits Crawl4AI, Firecrawl, Scrapy, Playwright and Crawlee, giving each a verdict on self-hosting, timeouts, issue-queue health, anti-bot claims and global config side effects. It ends by urging readers to check a repo's issues and config files before adopting it.
+A carousel reviewing five scraping and crawling repos (Crawl4AI, Firecrawl, Scrapy, Playwright, Crawlee) with notes on deployment friction, hidden limits and issue-queue health. It closes by urging readers to audit the actual codebase before deploying open-source automation.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Before trusting a repository's README, check its open issue queue.
-2. Before trusting a repository's README, check its configuration files (for example Docker compose files, .env templates and config modules).
+1. Read the open issue queue and the configuration files, not only the README, before integrating a crawler framework.
+2. Check Docker compose files and .env templates for required API keys before assuming a tool is zero-key.
+3. Search the code for hardcoded timeouts (the post cites a 60000 ms PAGE_TIMEOUT in Crawl4AI) that can kill large jobs.
+4. Compare the self-hosting requirements (Docker, Redis, Postgres, .env) with the hosted API option before choosing to self-host.
+5. Confirm that the framework's native features (such as Scrapy's downloader middleware rescheduling requests) cover your redirect and retry needs.
+6. Check whether the code mutates global process settings, such as Node.js EventEmitter.defaultMaxListeners in Crawlee's configuration.
+7. Verify that bot-protection claims in the README are backed by the code, and check for known Cloudflare or HTTP 429 issues.
+8. Check browser binary and runtime requirements (Playwright needs Node 18+ and native browser downloads) for restricted CI environments.
 
 ## Source
 
-* Link: github.com/unclecode/crawl4ai, github.com/firecrawl/firecrawl, github.com/scrapy/scrapy, github.com/microsoft/playwright, github.com/apify/crawlee
+* Link: https://github.com/unclecode/crawl4ai, https://github.com/firecrawl/firecrawl, https://github.com/scrapy/scrapy, https://github.com/microsoft/playwright, https://github.com/apify/crawlee
 
 ## Caption
 

@@ -5,21 +5,23 @@ type: "Carousel"
 author: "recklesscorpio"
 shared: "Jul 23, 2026, 10:27 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Barbault's Basket and Scorpio's July 2026 Shift
+# Barbault's Basket: Scorpio July 2026 Breakdown
 
-A Scorpio-focused carousel explaining Barbault's Basket, a July 2026 planetary pattern of supportive angles and one opposition, and how it may pressure home, routine, shared money and career for Scorpio Sun or rising.
+A 10-slide carousel explaining "Barbault's Basket," a July 2026 planetary pattern (Jupiter in Leo, Uranus in Gemini, Neptune in Aries, Pluto in Aquarius), and how it may touch a Scorpio's home, routine, money, career and love life. The caption frames it as the start of a longer chapter rather than a single day of change.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Treat the basket as a longer window for breakthroughs, not a one-day miracle.
-2. Look at buried family roles, control patterns and old resentment, and build safety that doesn't depend on performing.
-3. Replace chaotic work habits with clear priorities, protected energy and repeatable routines.
-4. Audit shared money agreements, diversify, and build reserves, with flexibility and transparency over gambling on a cosmic promise.
+1. Home and roots: build safety you don't have to perform for.
+2. Routine: replace intensity with clear priorities, protected energy and repeatable habits.
+3. Money: audit agreements, diversify and build reserves.
+4. Career: let visibility rest on a home base and daily systems that can support it.
+5. Love: aim for truth, trust and reciprocity, and notice control, secrecy or emotional debt.
+6. Timing: treat this period as a beginning and choose the next structure, not as a deadline.
 
 ## Caption
 

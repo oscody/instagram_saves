@@ -5,24 +5,24 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Oct 08, 2026, 09:33 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Finding every photo of yourself with ChatGPT
+# Finding every photo of yourself online with ChatGPT
 
-A six-slide carousel that presents a three-prompt ChatGPT workflow for finding online photos of yourself and requesting takedowns. The caption says AI can't reliably find every photo, and it notes that Google has its own removal tools.
+A seven-slide carousel with three ChatGPT prompts for finding photos of yourself online and requesting their removal. The caption says ChatGPT is not a facial-recognition search engine and that no single prompt will find every photo.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
 1. Upload a selfie to ChatGPT and ask it to list the specific features that make you recognisable.
-2. Turn on agent mode by tapping the "+" next to the message box, because otherwise it cannot browse.
-3. Ask ChatGPT to reverse-image search your selfie across the top tools and give a link to each place you appear.
-4. If agent mode gets blocked, search PimEyes and Google Lens yourself, upload the same selfie, and run it by hand.
-5. Paste the results back into ChatGPT and ask for custom removal requests for each site, referencing that site's own privacy or takedown policy.
-6. For Google, search "Google results about you", open its removal tool, and submit any page still showing your image next to your personal details.
-7. Expect no single prompt to find every photo of you online.
+2. Turn on agent mode (via the + next to the message box), then paste a prompt asking it to reverse image search your face across the top tools and give a link to each place you appear.
+3. If agent mode gets blocked or returns less than expected, search for PimEyes and Google Lens yourself, upload the same selfie, and run the searches by hand.
+4. Paste those results back into ChatGPT and run the takedown prompt on them.
+5. Ask ChatGPT to write a separate removal request for each site, referencing that site's own privacy or takedown policy.
+6. For any Google Search page still showing your image next to your personal details, use Google's 'Google results about you' removal tool and submit the page.
+7. Google reviews these requests, and the post says most come back approved within days.
 
 ## Caption
 

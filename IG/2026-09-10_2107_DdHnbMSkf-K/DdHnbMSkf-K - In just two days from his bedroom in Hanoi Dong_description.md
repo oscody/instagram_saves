@@ -5,12 +5,12 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Sep 10, 2026, 09:07 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Flappy Bird's developer who deleted his hit
+# Flappy Bird's Creator Deleted His Viral Hit
 
-A six-slide carousel telling the story of Dong Nguyen, who built Flappy Bird in two days in Hanoi, watched it go viral and earn about $50,000 a day from ads, then removed it at its peak. It is a narrative history, not a how-to.
+A 15-slide carousel tells the story of Dong Nguyen's Flappy Bird, from its quick build in Hanoi and viral rise to the backlash, the pressure on him and his family, and his decision to remove the game at its peak.
 
 Written by claude-haiku-5-5.
 

@@ -5,32 +5,35 @@ type: "Carousel"
 author: "michellescomputer"
 shared: "Dec 04, 2025, 12:52 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# AI engineer starter roadmap in seven sections
+# AI engineer roadmap in eight sections
 
-A carousel that walks through a seven-section roadmap for becoming an AI engineer, covering the role, coding setup, calling AI model APIs, open source models, embeddings and vector databases, RAG, and agents. It ends with a comment-to-get offer for a free plan, which is not part of the steps.
+A carousel laying out a roadmap to becoming an AI engineer, shown as eight numbered sections on a terminal-style screen. It covers the role, technical foundations, using model APIs, open source models, embeddings, RAG, agents and building projects.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Understand the role: an AI engineer builds software that uses AI models through APIs, turns model responses into product features, and focuses on solving user problems.
-2. Know the three skills: understand what AI models do, be able to call models through APIs, and build features where the output is useful. Product thinking matters.
-3. Search for 'AI engineer job description' and read three postings to spot patterns in responsibilities.
-4. Choose one coding path: frontend with JavaScript/TypeScript, backend with Python, or full stack if you can do both. Pick one language and master it; Python is recommended first.
-5. Set up a basic coding environment: VS Code for editing, Python or JavaScript, a browser for testing, and a free hosting service such as Render or Vercel. Optional AI-assisted tools mentioned are Windsurf, Cursor and Warp.
-6. Learn Python for free by watching the full Python course by Programming with Mosh on YouTube.
-7. Section 3: call a model through an API by sending it text, getting text back, and plugging that output into your application. Try a question in the OpenAI playground first, then connect the API to your code. Draw the input and output flow on paper and write an example input and expected output.
-8. Section 4: run an open source model locally, such as with Llama, and download models from Hugging Face. Compare how model size affects speed by timing the response of a small model.
-9. Section 5: embeddings convert text into vectors; compare them with similarity scores; store the vectors in a vector database.
-10. Section 6: RAG (retrieval augmented generation). Split your documents into small chunks, turn each chunk into an embedding, store the embeddings in a vector database. When a user asks, retrieve the relevant chunks and send them to the model along with the question. Start with a small clean data set.
-11. Section 7: agents read a goal, plan steps, use tools, and update state until the task is complete. Choose between building an agent from scratch with a model or using a framework. A starter project is reading a web page and writing a one-line summary.
+1. Understand the role: an AI engineer builds software that uses AI systems, works with models and APIs without necessarily building the models yourself, turns AI responses into product features, and focuses on using AI to solve user problems.
+2. Know the three skills: understand what AI models do, be able to call models through APIs, and build features or products where the AI output becomes useful. Strong product thinking matters.
+3. Search "AI engineer job description", read three postings, and note the patterns in responsibilities.
+4. Choose one coding path (frontend with JavaScript/TypeScript, backend with Python, or full stack if you can do both), pick the language to learn first, and master it. Python is recommended first.
+5. Set up a basic coding environment: VS Code for editing, Python or JavaScript for coding, a browser for testing, and a free hosting service like Render or Vercel. AI coding tools such as Windsurf, Cursor, or Warp are optional extras.
+6. Call a model through an API: go to the OpenAI playground, type a question, press submit, and see how the AI responds. Then run sample code from the docs and print the output to your terminal. Start with text, since it is cheaper.
+7. Draw a simple diagram on paper: Input (your message or data) → Model (the API that processes it) → Output (the response you use in your product). Write an example input and output. Decide the output format you want and clarify it in your code via prompt engineering.
+8. Work with open source models: install Ollama, run a small model like llama3, ask it a simple question, and observe the response time. Use Hugging Face for model downloads and learn how model size affects speed.
+9. Learn embeddings and vector databases: embeddings convert text into vectors, vectors let you compare meanings with similarity scores, and you store the vectors in a database built for this purpose.
+10. Build a RAG system: split your documents into small chunks, turn each chunk into an embedding, store the embeddings in a vector database, search for the most similar chunks when a user asks a question, and send those chunks to the model along with the question. Start with one source of truth, since one clean dataset is easier to debug than ten messy ones.
+11. Learn AI agents: agents complete multi-step tasks by reading goals, calling tools, and updating state until the task is complete. Either build agents from scratch with Model Context Protocol (defining tools, routes, and messages yourself), or use tools like LangChain or n8n to connect steps and focus on workflow design.
+12. Try starter agent tasks: read a web page and write a three-line summary, take a long note and extract action items, or read a to-do list and group tasks by priority.
+13. Build projects and get your hands dirty: a RAG app that answers questions from medical guidelines or government health information, a RAG app for school information using course policies or rubrics, or an agent that organizes your email.
+14. Create a GitHub repo for each project with a clear README covering a short description, setup steps, and a screenshot, so recruiters and collaborators can follow it.
 
 ## Source
 
-* Link: platform.openai.com/playground
+* How to get it: comment "future u" (the caption's offer for a plan, not part of the steps)
 
 ## Caption
 

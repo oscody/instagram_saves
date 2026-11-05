@@ -5,21 +5,14 @@ type: "Carousel"
 author: "sagetaoist"
 shared: "Jul 24, 2026, 10:52 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Best Manhwa From Each Generation
+# Best manhwa from each generation slideshow
 
-A carousel recommending manhwa grouped into "Old Gen," "Current Gen," and "New Gen," with each group shown as a grid of titled cover art. The caption also explains how manhwa, manhua, and manga differ by country of origin and print style.
+A slideshow of manhwa titles grouped into Old Gen, Current Gen, New Gen, and Next Gen, with a cover and title for each. The caption defines manhwa as South Korean comics and contrasts them with manhua (Chinese) and manga (Japanese).
 
 Written by claude-haiku-5-5.
-
-## What it teaches
-
-1. Manhwa are comics from South Korea, usually published in full color, though some are black and white.
-2. Manhua are comics from China and often follow a similar format to manhwa.
-3. Manga are comics from Japan and are traditionally published in black and white.
-4. Identify a work's origin by its country, since calling a manhua a manhwa is incorrect.
 
 ## Caption
 

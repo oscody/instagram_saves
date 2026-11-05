@@ -5,22 +5,23 @@ type: "Carousel"
 author: "codingknowledge"
 shared: "Mar 24, 2026, 05:36 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 5 Claude prompts to learn faster
+# Six Claude prompts for learning faster
 
-A carousel with a cover claiming Claude can help you learn anything faster, followed by numbered prompt cards for studying a topic. The cover promises six prompts, but the slides show five.
+A carousel presenting six Claude prompts for learning a topic quickly, each with a fill-in [topic] placeholder. The prompts cover a 20-hour learning plan, a one-page cheat sheet, self-quizzing, a difficulty ladder, resource finding, and the Feynman technique.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Learn anything in 20 hours: ask Claude for a 20-hour plan focused on the 20% of the topic that drives 80% of results, split into ten two-hour sessions with the best resources and a 15-minute review at the end of each.
-2. Create a one-page cheat sheet: ask Claude to summarize the key concepts of a topic on a single page using bullet points, diagrams and examples so you can review it in 5 minutes.
-3. Quiz me until I break: after studying a topic, ask for 10 progressively harder questions, have Claude grade each answer and explain what you missed.
-4. Build a learning ladder: ask Claude to break a topic into 5 levels of difficulty and show how to go from Level 1 (beginner) to Level 5 (advanced), with a clear milestone at each step.
-5. Find the best learning resources: ask Claude for the top 5 resources (books, videos, courses, or people) for learning a topic fast, with an explanation of why each is worth your time.
+1. Learn a topic fast: ask Claude for a 20-hour plan focused on the 20% of material that drives 80% of results, split into 10 two-hour sessions with a 15-minute review at the end of each.
+2. Create a one-page cheat sheet: ask Claude to summarize the key concepts of the topic on a single page with bullet points, diagrams, and examples so it can be reviewed in 5 minutes.
+3. Quiz yourself after studying: tell Claude what you just studied and ask for 10 progressively harder questions, then have it grade each answer and explain what you missed.
+4. Build a learning ladder: ask Claude to break the topic into 5 difficulty levels from beginner to advanced, with a clear milestone at each step.
+5. Find the best resources: ask Claude for the top 5 resources (books, videos, courses, or people) for learning the topic fast, with an explanation of why each is worth your time.
+6. Use the Feynman technique: ask Claude to explain the topic in the simplest terms, then re-explain it back to it, have it point out gaps and re-teach them, and repeat until you can explain it clearly on your own.
 
 ## Caption
 

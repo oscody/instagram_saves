@@ -69,7 +69,7 @@ LLM_INPUT_LIMITS = {"caption": 1000, "transcript": 1800, "on screen text": 1000}
 HAILO_LLM_NAME = "qwen2.5-1.5b-instruct (hailo)"
 
 CLAUDE_TIMEOUT = 300  # seconds per post
-CLAUDE_MAX_IMAGES = 6  # a long carousel only sends its first slides
+CLAUDE_MAX_IMAGES = 20  # every slide (Instagram allows at most 20); was 6 until 2026-11-03, which dropped later slides
 CLAUDE_INPUT_LIMITS = {"caption": 4000, "transcript": 12000, "on screen text": 4000}
 CLAUDE_SYSTEM = (
     "You write notes on saved Instagram posts for a personal archive. "

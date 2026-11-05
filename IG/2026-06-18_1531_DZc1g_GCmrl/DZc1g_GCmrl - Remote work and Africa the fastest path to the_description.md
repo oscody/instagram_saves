@@ -5,28 +5,29 @@ type: "Carousel"
 author: "authentic_african"
 shared: "Jun 18, 2026, 03:31 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Remote work and Africa: earn Western, live African
+# Remote work from Africa: keep income, relocate
 
-A carousel arguing that diaspora professionals can keep a Western salary while living in African cities for a lower cost of living. It covers the challenges of remote work from Africa and compares four cities on infrastructure, cost, and time zone.
+The carousel argues that keeping a Western remote salary while living in an African city can cut living costs and works as a bridge to building a life on the continent. It also lists the infrastructure, employer, tax, power and time-zone challenges to check, and the cities it recommends.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Confirm your employer allows international remote work, and settle the details with HR before you move.
-2. Get tax advice from a US-qualified international tax advisor before you move, since citizenship and residency affect what you owe.
-3. Plan power and connectivity backup (power bank, UPS, mobile data) before you settle in a city.
-4. Plan your core working hours around the time-zone overlap with your team.
-5. Choose a city by its strengths: Kigali for infrastructure, Cape Town for lifestyle and co-working, Nairobi for the tech network, Casablanca or Rabat for EU/UK hours.
-6. Treat remote work as a bridge: keep your income, build relationships, learn the market from the inside, and create options before making long-term commitments.
-7. Run a 60–90 day trial before committing fully to the move.
+1. Compare what your current salary buys at home with what the same salary buys in an African city such as Nairobi, Accra, Kigali or Cape Town.
+2. Check infrastructure before choosing a city: fibre internet, backup mobile data, power backup (power bank, UPS) and co-working spaces.
+3. Ask your employer whether international remote work is allowed, and have that conversation with HR before you move.
+4. Get tax advice before you move, because US citizens may still owe US tax on worldwide income and some African countries may tax you if you become a resident.
+5. Plan your core working hours around time-zone overlap with your team (US Eastern, UK or EU).
+6. Pick a city by your priority: Kigali for infrastructure, Cape Town for lifestyle and community, Nairobi for the tech ecosystem, Casablanca or Rabat for EU/UK hours.
+7. Keep your income and do not leave your career behind; treat remote work as a bridge while you build relationships and learn the local market.
+8. Validate the move with a trial period (the post suggests 60–90 days) before committing long term.
 
 ## Source
 
-* How to get it: Comment the word "move" (the post's closing call to action)
+* How to get it: comment MOVE
 
 ## Caption
 

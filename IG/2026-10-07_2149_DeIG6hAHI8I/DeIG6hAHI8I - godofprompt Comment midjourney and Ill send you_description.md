@@ -5,26 +5,24 @@ type: "Carousel"
 author: "godofprompt"
 shared: "Oct 07, 2026, 09:49 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Blueprint prompt for vintage technical drawings
+# Blueprint-style image prompt template with five examples
 
-A carousel that shares a reusable image prompt for drawing any subject as a vintage blue blueprint, with examples of an armored exosuit, cyborg head, telescope and motorcycle. The prompt text is shown on slide 2.
+The carousel shares a fixed text prompt that asks an image generator to draw a subject as a vintage industrial patent blueprint, with five example images (exosuit, cyborg head, telescope, motorcycle, diving suit). The caption offers a Midjourney guide to anyone who comments a keyword.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Start the prompt with: "A blueprint schematic of a [subject], drawn in the style of early 20th-century industrial patents."
-2. Add the rendering style: "Rendered in crisp blue ink with white technical lines,"
-3. Add the detail elements: "featuring exploded views, angular labels, and stamped diagram codes."
-4. Change only the [subject] to switch the image; the rest of the style stays the same.
-5. For a view-specific result, describe the view in the prompt, such as "front and back views of a full suit, drawn in white lines on deep blue" or "a full side view with the engine and frame laid out in technical detail."
+1. Start with the base prompt: "A blueprint schematic of a [subject], drawn in the style of early 20th-century industrial patents. Rendered in crisp blue ink with white technical lines, featuring exploded views, angular labels, and stamped diagram codes."
+2. Replace [subject] with your idea; the post says the style wording stays the same.
+3. Optionally add a view or detail line to shape the drawing, as the examples do: front and back views, a cutaway profile with gears and wiring, a long barrel with measurement lines, a full side view with engine and frame laid out, or front and back views with callout boxes and detail sketches.
 
 ## Source
 
-* How to get it: The full guide is sent by commenting "midjourney" on the post; the prompt itself is shown in the slides.
+* How to get it: Comment "midjourney" on the post to receive the Midjourney Mastery Guide (offered in the caption, not part of the steps)
 
 ## Caption
 

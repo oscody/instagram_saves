@@ -5,26 +5,26 @@ type: "Carousel"
 author: "careerwithhina"
 shared: "Apr 08, 2026, 02:20 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five Claude prompts for job applications
+# Five Claude prompts for job hunting
 
-Hina Arora presents five Claude prompts she says helped her land 11 interviews in 5 days, each shown as a screenshot of the prompt text. The prompts cover resume review, job description matching, bullet rewriting, role-specific prep and closing skill gaps.
+Hina Arora presents five Claude prompts she says helped her land 11 interviews in 5 days, each shown as a screenshot of the prompt text. The carousel covers resume review, matching a resume to a job description, rewriting bullets, generating a role-specific plan, and closing skill gaps.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Resume roast (before applying): paste your resume and ask Claude to analyze it as a hiring manager at a top company, pointing out what is weak, unclear, likely to get you rejected in 10 seconds, and completely missing, without sugarcoating.
-2. JD decoder (when you find a role you want): paste the job description and your resume, have Claude extract the top 10 skills and keywords the employer cares about, then map each one against your resume to show matches, gaps, and exact phrases to add for ATS and recruiter scans.
-3. Bullet rewriter: rewrite your experience and project bullets with the X-Y-Z formula (Accomplished X by doing Y, which resulted in Z), tailored to the target job description, and if numbers are missing, have Claude suggest realistic metrics based on the work.
-4. Role-specific resume generator (2 weeks before the interview): paste the job description, your resume and your current skills, then ask for 2 portfolio projects buildable in 2-3 days and hosted on GitHub with a proper README, plus the top 2 free or affordable certifications, with the exact resume line and interview talking point for each.
-5. Skills gap fixer (when you're underqualified): paste the job description and resume, state that you don't meet every requirement, have Claude identify the exact gaps and suggest 2-3 micro-projects or certifications you can complete in 2 weeks, and rewrite your resume summary to position you as a fast learner closing those gaps.
+1. Resume roast before applying: paste your resume and ask Claude to analyze it as a hiring manager at a top company, listing what is weak, unclear, what could get you rejected in 10 seconds, and what is missing, without sugarcoating.
+2. JD decoder when you find a role: paste the job description and your resume, have Claude extract the top 10 skills and keywords the employer cares about, then map each against your resume to show matches, gaps, and exact phrases to add for ATS and a recruiter's quick scan.
+3. Bullet rewriter: have Claude rewrite your experience and project bullets with the formula 'Accomplished X by doing Y, which resulted in Z', tailored to the role, and if numbers are missing, suggest realistic metrics based on the work.
+4. Role-specific resume generator: with the job description, resume, and your skill list, ask for a 2-week action plan with 2 portfolio projects you can build in 2-3 days and host on GitHub with a README, the top 2 free or affordable certifications, which are fastest and most valuable, and for each one the exact resume line and key interview talking point.
+5. Skills gap fixer when underqualified: paste the job description and resume, state that you don't meet every requirement, have Claude identify the exact gaps, suggest 2-3 micro-projects or certifications you can finish in 2 weeks, and rewrite your summary to position you as a fast learner closing those gaps.
 
 ## Source
 
-* How to get it: comment PROMPTS
+* How to get it: Comment "PROMPTS" on the post to receive the full doc
 
 ## Caption
 

@@ -5,24 +5,24 @@ type: "Carousel"
 author: "airesearches"
 shared: "May 18, 2026, 05:29 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Seven prompts for Claude's ADHD Executive Function Mode
+# Seven Claude prompts for ADHD-style focus
 
-The carousel claims Claude has a feature called "ADHD Executive Function Mode" that can finish a week's work in 4 hours. It lists seven prompts said to access it.
+A nine-slide carousel presenting seven prompts it calls "ADHD Executive Function Mode" for Claude, with a claim that they can finish a week's work in 4 hours. Each slide gives one named prompt with placeholders like [Task] or [Project].
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Task Paralysis Shatterer: replace [Task] and ask Claude to break it into "Ridiculously Small" steps that each take under 1 minute, give the first step, and say exactly where to put your hands to begin.
-2. Dopamine Menu Architect: when feeling under-stimulated, ask for a "Dopamine Menu" with 5-minute Appetizers (quick movement), 20-minute Entrees (deep work), and 10-minute Sides (creative play).
-3. Body Doubling Simulator: ask Claude to act as a virtual body double for the next 30 minutes, tell it what you're working on, and have it check in every 10 minutes for a status update.
-4. Context-Switching Guide: after finishing [Task A] and before starting [Task B], ask for a 3-minute "Mental Palate Cleanser" routine to transition between the two types of energy.
-5. Interest-Based Filter: for a boring administrative task, name it and your current hyper-fixation, then ask for a "Quest" structure where finishing the task unlocks a reward.
-6. Time-Blindness Auditor: for a project you think takes 20 minutes but usually takes 2 hours, ask Claude to "Time-Map" it by identifying the 3 hidden sub-tasks you always forget, so you can set a realistic deadline.
-7. Executive Function Externalizer: dump everything you're worried about into the prompt as "Open Loops," ask Claude to sort them into "Now," "Later," and "Trash," and write a 1-sentence "Actionable Next Step" for only the "Now" items.
+1. Task paralysis: paste the stuck task into the prompt in place of [Task], and ask for it to be broken into steps under 1 minute each, with the first step and where to put your hands.
+2. Low stimulation: ask for a 'Dopamine Menu' with 5-minute quick-movement 'Appetizers', 20-minute deep-work 'Entrees', and 10-minute creative 'Sides'.
+3. Focus check-ins: ask Claude to act as a virtual body double for 30 minutes, state the work you're doing, and check in every 10 minutes for a status update.
+4. Switching tasks: after finishing [Task A], ask for a 3-minute 'Mental Palate Cleanser' routine to transition into [Task B].
+5. Boring admin tasks: name the task and a current interest, then ask for a 'Quest' structure where finishing the task unlocks a reward.
+6. Time underestimation: state the expected time for [Project] and the usual actual time, then ask Claude to identify 3 hidden sub-tasks to plan a realistic deadline.
+7. Mental clutter: dump every worry into the prompt, ask Claude to sort items into 'Now', 'Later', and 'Trash', and write a one-sentence next step for each 'Now' item only.
 
 ## Caption
 

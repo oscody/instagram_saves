@@ -6,12 +6,12 @@ author: "culturecustodian"
 shared: "May 27, 2026, 11:29 AM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
 # Nigerian Indie Game Developers Spotlight
 
-A carousel showcasing video games made by Nigerian indie studios, prompted by a Twitter thread questioning whether local developers make games. It features titles including Legends of Orisha: Blood and Water, Adventurers, Taste of Wazobia and Tribulation, and cites Nigeria's 46 million gamers and an estimated $300 million annual industry.
+A carousel from culturecustodian that spotlights indie games by Nigerian developers, citing a Twitter thread and claims of 46 million Nigerian gamers and a nearly $300 million industry. It showcases five titles with gameplay clips: Legends of Orisha: Blood and Water, Adventurers, Taste of Wazobia, Tribulation, Beyond Service, and Otite.
 
 Written by claude-haiku-5-5.
 

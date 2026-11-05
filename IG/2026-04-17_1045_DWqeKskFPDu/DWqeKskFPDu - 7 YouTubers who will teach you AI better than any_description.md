@@ -5,12 +5,12 @@ type: "Carousel"
 author: "hasantoxr"
 shared: "Apr 17, 2026, 10:45 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 7 YouTubers to Learn AI in 2026
+# Seven YouTube channels for learning AI in 2026
 
-A carousel recommending YouTube channels for learning AI, with a one-line profile and a channel screenshot for each creator. The slides profile Andrej Karpathy, Dave Ebbelaar, Tina Huang, Sam Witteveen and Jeff Su, and the cover also shows NetworkChuck, though the caption promises seven.
+A nine-slide carousel recommending seven YouTube channels for learning AI, each with a short description and a screenshot of its channel page. The channels are Andrej Karpathy, Dave Ebbelaar, Tina Huang, Sam Witteveen, Jeff Su, NetworkChuck, and Futurepedia.
 
 Written by claude-haiku-5-5.
 

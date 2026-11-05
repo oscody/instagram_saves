@@ -5,12 +5,12 @@ type: "Carousel"
 author: "whatrosemaryreads"
 shared: "May 27, 2026, 11:28 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Fantasy and sci-fi books inspired by African myth
+# Fantasy & Sci-Fi Inspired by African Myth
 
-A six-slide carousel from @whatrosemaryreads for Africa Day that lists fantasy and sci-fi books inspired by African myth, folklore, history and culture. Each slide shows book covers with a short description of the series, such as Tomi Adeyemi's Legacy of Orisha, Ayana Gray's Beasts trilogy and Namina Forna's The Gilded Ones.
+A 14-slide carousel for Africa Day listing fantasy and sci-fi books inspired by African myth, folklore and history, each with a short description. It ends by asking readers to suggest more titles in the comments.
 
 Written by claude-haiku-5-5.
 

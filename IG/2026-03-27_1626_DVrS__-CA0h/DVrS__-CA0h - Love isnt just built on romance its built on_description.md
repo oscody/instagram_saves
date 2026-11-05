@@ -5,27 +5,26 @@ type: "Carousel"
 author: "tomiwabankole__"
 shared: "Mar 27, 2026, 04:26 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five healthy questions to ask before marriage
+# Five uncomfortable but healthy questions for couples
 
-A six-slide carousel listing five uncomfortable but healthy questions to ask a partner on your next call, framed around healing old wounds before marriage. It also promotes a card game for the same kind of conversations.
+A seven-slide carousel with the headline "5 uncomfortable but healthy questions to ask on your next call," one question per slide, ending with a promotion for a courtship toolkit and card deck bundle.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Ask these questions in a safe and loving way, starting now rather than after marriage.
-2. Ask: What is the hardest truth about yourself you want me to know, but fear I may not accept?
-3. Ask: What pain from childhood do you fear might show up in our marriage if left unhealed?
-4. Ask: Is there a part of your past you're still learning to forgive yourself for, and how can I walk with you through it?
-5. Ask: If I ever wound you deeply, what would healing look like for you beyond just hearing 'I'm sorry'?
-6. Ask: What did you long for in your family growing up that you never received, and how can we build it into our future home?
+1. Ask your partner: What is the hardest truth about yourself you want me to know, but fear I may not accept?
+2. Ask your partner: What pain from childhood do you fear might show up in our marriage if left unhealed?
+3. Ask your partner: Is there a part of your past you're still learning to forgive yourself for, and how can I walk with you through it?
+4. Ask your partner: If I ever wound you deeply, what would healing look like for you beyond just hearing 'I'm sorry'?
+5. Ask your partner: What did you long for in your family growing up that you never received, and how can we build it into our future home?
 
 ## Source
 
-* How to get it: Comment "Soft" to receive the Card Game (offer in the caption)
+* How to get it: The card deck/bundle is sent by comment: comment "Soft" (caption) or "Gentle" (final slide); the post gives both keywords, and the link is sent by DM.
 
 ## Caption
 

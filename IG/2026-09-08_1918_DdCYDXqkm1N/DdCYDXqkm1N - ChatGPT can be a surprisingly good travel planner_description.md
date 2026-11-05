@@ -5,28 +5,26 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Sep 08, 2026, 07:18 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# ChatGPT Travel Planning Prompts for Trip Planning
+# 8 ChatGPT prompts for trip planning
 
-A carousel of ChatGPT travel prompts with blanks for destination, duration and budget. The slides shown cover five prompts: dream trip planner, budget traveler, perfect itinerary creator, local secrets explorer and luxury on a budget.
+A carousel of eight fill-in-the-blank ChatGPT prompts for planning a trip, covering the full itinerary, budget, local spots, food, luxury on a budget, where to stay, and backup plans. The caption says the key is giving ChatGPT context such as destination, dates, budget, travel style and what to avoid.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Add context to every prompt: destination, dates or duration, total budget, travel style and anything you want to avoid.
-2. Dream trip planner: open with "Act as a premium travel advisor, local guide, and trip planner", fill in destination, duration and budget, then ask for flights, best areas to stay, accommodation, local transport, attractions, food, unique experiences, approximate costs, money-saving options and backup plans.
-3. Dream trip planner: finish by asking for a practical day-by-day itinerary and where spending more is worth it versus where to save.
-4. Budget traveler: open with "Act as an expert budget travel planner", add origin, destination, duration and a total budget cap, then ask for best-value flights, affordable places to stay, cheap local transport, low-cost attractions, food strategies, free activities and areas where tourists commonly overspend.
-5. Budget traveler: ask for a realistic daily budget and ways to save that do not make the trip feel cheap or inconvenient.
-6. Perfect itinerary creator: open with "Act as a professional travel consultant", give destination and duration, then ask for the best time to visit each attraction, travel time between stops, transport options, approximate costs, food recommendations, hidden gems, rest periods and backup options.
-7. Perfect itinerary creator: ask that each day stay balanced so you can see a lot without the schedule becoming exhausting or unrealistic.
-8. Local secrets explorer: open by asking the AI to act like a well-connected local who has lived in the destination for more than 20 years, then ask it to skip obvious tourist traps and show hidden gems, underrated restaurants, local cafes, neighborhoods, markets, cultural experiences, nightlife and activities most visitors never discover.
-9. Local secrets explorer: ask for recommendations organized by area, with why each is worth visiting and the best time of day to go.
-10. Luxury on a budget: open with "Act as a luxury travel consultant who specializes in making limited budgets feel premium", give destination and total budget, then ask for smarter hotel choices, better neighborhoods, strategic upgrades, memorable restaurants, premium-looking experiences and cheaper alternatives to overpriced tourist options.
-11. Luxury on a budget: ask exactly where spending extra creates the biggest improvement and where paying more is unnecessary.
+1. Give ChatGPT context first: destination, dates, budget, travel style, and what you want to avoid.
+2. Dream trip planner: ask for a complete plan covering flights, areas to stay, accommodation, local transport, attractions, food, unique experiences, approximate costs, money-saving options and backup plans, organized day by day, and say where spending more is worth it and where to save.
+3. Budget traveler: set a total trip budget and ask for best-value flights, affordable stays and transport, low-cost or free activities, areas tourists overspend in, a realistic daily budget, and ways to save without the trip feeling cheap.
+4. Perfect itinerary creator: ask for a detailed day-by-day plan with the best time to visit each attraction, realistic travel times between stops, transport options, approximate costs, food picks, hidden gems, rest periods and backup options, kept balanced so it is not exhausting.
+5. Local secrets explorer: ask the model to act as a long-time local and list hidden gems, underrated restaurants, cafes, neighborhoods, nightlife and experiences most visitors miss, grouped by area with the best time of day to go.
+6. Luxury on a budget: state your total budget and ask for smarter hotel choices, better neighborhoods, strategic upgrades, memorable restaurants, premium-feeling experiences and cheaper alternatives to overpriced tourist options, plus where extra spending makes the biggest difference.
+7. Food and cafe guide: ask for must-try local dishes, breakfast spots, cafes, street food, lunch places, restaurants, desserts, markets and food neighborhoods, built into a day-by-day food route with approximate prices, reservation advice and a focus on genuinely local places.
+8. Stay and area matcher: ask for neighborhoods compared on budget, safety, walkability, nightlife, food, atmosphere, public transport, airport access and distance from attractions, then ranked with trade-offs and a recommended area and accommodation type for your trip.
+9. Travel backup planner: for each risk (bad weather, canceled activities, delayed flights, closed attractions, transport problems, overspending, tourist scams, lost reservations, itinerary changes), ask for the fastest practical fix, a backup activity or route, and what to prepare before the trip.
 
 ## Caption
 

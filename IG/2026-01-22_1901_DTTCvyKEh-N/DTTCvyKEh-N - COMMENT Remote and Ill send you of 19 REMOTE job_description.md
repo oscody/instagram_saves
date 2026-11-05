@@ -5,18 +5,18 @@ type: "Carousel"
 author: "advicewithjean"
 shared: "Jan 22, 2026, 07:01 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Remote job boards to browse (sent via comment)
+# Carousel of remote job boards beyond LinkedIn
 
-A carousel promoting remote job sites, showing Wellfound, Working Nomads, #Web3 Jobs, RemoteOK and We Work Remotely with a short description of each. The caption offers a fuller list of 19 boards to anyone who comments "Remote", and adds a short motivational note about remote work.
+A 19-slide carousel naming remote job sites (Wellfound, Working Nomads, RemoteOK, We Work Remotely, FlexJobs and others), each with a short description and a screenshot, plus a caption about why the author enjoys remote work.
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* How to get it: Comment "Remote" on the post to receive the list of 19 remote job boards
+* How to get it: Comment "Remote" to receive the list of 19 remote job boards (sent by comment, not in the post)
 
 ## Caption
 

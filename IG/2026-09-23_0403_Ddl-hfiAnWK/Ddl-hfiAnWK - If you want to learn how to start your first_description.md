@@ -5,25 +5,26 @@ type: "Carousel"
 author: "thealexanderlari"
 shared: "Sep 23, 2026, 04:03 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Write-offs for a faceless AI Instagram brand
+# Faceless AI Instagram brand and tax write-offs
 
-A carousel that opens with claims about a new law, a permanent 20% business deduction, and a "one person AI business" pitch, then lists write-offs for a faceless Instagram brand. It promises five write-offs but only covers two: equipment and home office.
+A 12-slide carousel promoting a one-person, faceless AI Instagram brand and listing five tax write-offs the author says it allows. The full breakdown is offered only to people who message a keyword.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Equipment: the laptop and phone you already use to run the brand can count as business equipment and be written off.
-2. Equipment upgrades: under Section 179, the full cost of an upgrade can be deducted in the same year.
-3. Home office: part of your rent or mortgage, utilities and electricity can be deducted, based on the space you use for work.
-4. Simplified home office option: the IRS allows $5 per square foot, up to 300 sq ft.
+1. Equipment: the laptop and phone you already use to run the brand can count as business equipment and be written off; if you upgrade, the post says Section 179 lets you deduct the full cost in the same year.
+2. Home office: the part of rent or mortgage, utilities and electricity tied to the space used for work can be deducted; the post says the IRS simplified option is $5 per square foot, up to 300 sq ft.
+3. Phone bill: write off the business-use part of your phone bill; the post says a separate line used only for the business is 100% deductible.
+4. Internet: write off the portion of home internet used for work, or all of it if it is a dedicated line.
+5. Software and tools: subscriptions used to run the brand (the post names ChatGPT, Canva, a scheduler and any AI tools) and guides or resources bought to improve at it can be written off.
 
 ## Source
 
-* How to get it: Follow the account and DM the word READY to receive the breakdown
+* How to get it: Follow the account and send a direct message with the keyword "READY" to receive the full breakdown
 
 ## Caption
 

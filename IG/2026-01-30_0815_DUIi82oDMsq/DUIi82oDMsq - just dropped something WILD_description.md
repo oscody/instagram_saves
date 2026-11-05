@@ -6,23 +6,24 @@ author: "theaifield"
 shared: "Jan 30, 2026, 08:15 AM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Kimi K2.5: Visual Coding, Agent Swarm, Visual Edit
+# Kimi K2.5 Feature Overview: Coding, Agents, Office
 
-A six-slide promo for Moonshot's Kimi K2.5 model, citing benchmark claims, lower cost, and features such as visual coding, Agent Swarm, and Office Agent. The later slides show a website recreated from a screenshot and a visual edit made on a generated page.
+A carousel showcasing Kimi K2.5's features: visual coding that recreates uploaded screenshots, videos and images as websites, Agent Swarm running parallel sub-agents, and Office Agent creating PPT, Word and Excel files. It ends with a comment-to-get-access offer.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Visual coding: upload a website screenshot (the caption says up to 100MB) or images and videos (slides say 50+ files) and Kimi rebuilds it as a site with UX design and animations.
-2. Open the generated site in the Preview pane to review it.
-3. Visual edit: click the pencil (edit) icon in the top bar of the preview.
-4. Circle the area of the page you want to change.
-5. Describe the change in plain language in the box that appears (e.g., 'Change the plate color to a red one'), then send it.
-6. Agent Swarm: from the Create Subagent prompt, pick a role such as 'Arxiv Researcher' or 'Technical Architect' to set up agents that work in parallel.
+1. Open the website preview in Kimi and click the edit (pen) icon in the top bar.
+2. Circle the area of the preview you want to change.
+3. Describe the change in plain language in the chat, for example "Change the plate color to a red one."
+
+## Source
+
+* How to get it: Comment "KIMI" on the post to receive the membership link (offer, not a guide).
 
 ## Caption
 

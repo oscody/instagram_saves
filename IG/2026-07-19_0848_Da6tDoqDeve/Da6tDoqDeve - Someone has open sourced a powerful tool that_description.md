@@ -5,24 +5,25 @@ type: "Carousel"
 author: "technology"
 shared: "Jul 19, 2026, 08:48 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Open-source tool turns phone videos into 3D worlds
+# Phone videos to 3D worlds with depth-anything.cpp
 
-The carousel presents a free, open-source tool that builds navigable 3D point clouds from ordinary phone videos on a home GPU, using ByteDance's Depth Anything 3. It includes screenshots of the depth-anything.cpp studio, a tweet from Richard Palethorpe showing reconstructions and noting rough, blocky results, and a GitHub pull request.
+The carousel presents depth-anything.cpp, a free, open-source tool that turns a phone video of a space into a navigable 3D point cloud on a home GPU, built on ByteDance's Depth Anything 3 with SLAM techniques. It shows demo scenes and a developer's comments that the results are still rough and voxel-like, with some far-away depth being low confidence.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Record a video walking around a space with a phone.
-2. The tool reads depth from each frame.
-3. It stitches the frames into a 3D point cloud that you can move through.
+1. Record a phone video walking around a space.
+2. The tool estimates depth from each video frame using Depth Anything 3.
+3. SLAM techniques track camera movement across frames.
+4. The frames are stitched into a 3D point cloud that can be moved through like a game, running on a home GPU.
 
 ## Source
 
-* Link: mudler/depth-anything.cpp
+* Link: github.com/mudler/depth-anything.cpp
 
 ## Caption
 

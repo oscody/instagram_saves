@@ -5,25 +5,27 @@ type: "Carousel"
 author: "power.ai"
 shared: "Jul 01, 2026, 12:59 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Why AI Loops Beat Single Prompts
+# AI loops: goal-driven plan, execute, verify, repeat
 
-A six-slide carousel arguing that giving AI a goal and letting it run a repeating plan-execute-verify-refine cycle beats the ask, review, fix, repeat prompting style. It covers what a loop is, which steps matter most, and when a loop is worth building instead of a single prompt.
+A carousel explaining AI loops, where you give an AI a goal once and it plans, executes, verifies, and iterates until a stop condition is met. It includes a cost breakdown, a checklist for when loops are worth building, and a copy-paste self-checking prompt template.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Give the AI a clear goal and the constraints once, instead of prompting it at every step.
-2. Run the cycle: discover what needs doing, plan how to do it, execute the work, verify the result against the goal, then iterate by feeding the result back in and repeating.
-3. Make verification a real gate, such as a test, a metric, or a strict rubric, so the AI does not just approve its own work.
-4. Score the output against each criterion, fix the weakest point first, and repeat until it passes. For code, a clean lint and no type errors can serve as the check.
-5. Keep state or memory of what has already been tried, so each pass builds on the last instead of restarting from zero.
-6. Set a stop condition with a success standard and a hard iteration limit, so the loop does not run endlessly.
-7. Expect cost to grow with each pass, because the expanding context is resent every iteration.
-8. Only build a loop when the task repeats regularly, bad output can be rejected automatically, the agent can finish end to end without constant intervention, and success is objective. Otherwise a single well-structured prompt is the better tool.
+1. Define a clear goal and a strict way to verify it (a test, metric, or rubric) before starting.
+2. Run the cycle: Discover what needs doing, Plan how to do it, Execute the work, Verify against the goal, then Iterate by feeding the result back in and repeating.
+3. Keep state/memory of what was already tried so each pass builds on the last instead of restarting from zero.
+4. Set a stop condition with a hard iteration limit, so the loop does not run endlessly.
+5. Only build a loop if the task repeats regularly, success can be judged automatically, and the agent can finish end to end without constant human help; otherwise a single well-structured prompt is better.
+6. Track cost per accepted change rather than tokens or runs; if about half of outputs are rejected, the loop stops saving time.
+7. Build order: get one manual run reliable, save it as a reusable skill/instructions, wrap it in a loop with a verification gate and stop condition, then schedule it.
+8. Self-checking prompt template: write the task and strict success criteria, then each turn PLAN the single next step, DO the work, VERIFY by scoring each criterion 1-10 and listing weaknesses, and DECIDE: print FINAL if every criterion is 8+, otherwise ITERATING and fix the weakest point first.
+9. Rules from the template: never call it done until every criterion is 8 or higher, each pass must fix the weakest score from the last verify, and make reasonable assumptions and note them instead of asking questions.
+10. Coding example spec: each iteration runs the test suite, picks the highest-impact failure, makes the smallest fix, and re-runs tests, lint, and type checks; stop when verification passes or after 8 iterations, then summarize what changed and what still fails.
 
 ## Caption
 

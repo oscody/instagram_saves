@@ -6,18 +6,18 @@ author: "jamaicansdotcom"
 shared: "Sep 24, 2025, 06:41 PM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Jamaica Town: Jamaican legacy in Limón, Costa Rica
+# Jamaica Town in Limón, Costa Rica: history and culture
 
-A Jamaicans.com carousel on Jamaica Town in Limón, Costa Rica. It covers the 1872 arrival of Jamaican railroad workers, the land they were given, their later citizenship, and the Mekatelyu language, Jamaican food and football ties that remain in the community.
+A Jamaicans.com carousel and caption on Jamaica Town in Limón, Costa Rica, covering how Jamaican workers arrived to build the railroad in 1872, how many stayed, and how the community's language, food, and civic life have lasted. The post promotes a full story on the website via the link in bio.
 
 Written by claude-haiku-5-5.
 
 ## Caption
 
-In today's 'the story of' feature we're looking at Limón, Costa Rica where the Jamaican spirit is alive and well 🇨🇷🇯🇲.
+In today's 'the story of' feature we're looking at Limón, Costa Rica where the Jamaican spirit is alive and well 🇨🇷🇯🇲. 
 
 From the patois-based Mekatelyu language, to kitchens serving up authentic Jamaican cuisine —Jamaica Town is a living legacy to the Jamaican immigrants who came to build railroads and the thousands more who followed bringing skills, talent and culture.
 

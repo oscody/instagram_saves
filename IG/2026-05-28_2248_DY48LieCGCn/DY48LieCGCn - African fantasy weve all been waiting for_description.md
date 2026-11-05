@@ -6,12 +6,12 @@ author: "nwe"
 shared: "May 28, 2026, 10:48 PM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
 # African fantasy we've all been waiting for
 
-An promotional carousel for Songs of the Sahara, a hand-drawn, hand-painted African fantasy graphic novel trilogy by Cameroonian creator Eposi Litumbe, inspired by pre-colonial West African kingdoms and myths. It shows character art, comic panels from the book, and a note that the Kickstarter campaign is nearing its deadline.
+A carousel promoting Songs of the Sahara, a hand-drawn graphic novel inspired by pre-colonial West African kingdoms and folklore, created by Cameroonian creator Eposi Litumbe. It urges viewers to pre-order during the final days of its Kickstarter campaign.
 
 Written by claude-haiku-5-5.
 

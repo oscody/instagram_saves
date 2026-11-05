@@ -5,14 +5,21 @@ type: "Carousel"
 author: "quasar_questt"
 shared: "Oct 04, 2026, 08:19 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Your attention and the versions of you
+# Which Version of You Do You Observe?
 
-A six-slide carousel with quantum-physics imagery argues that the suffering version of you persists partly because you keep returning to it with attention. It contrasts that with other possible selves, such as the one building, exploring, or taking risks.
+A carousel arguing that the suffering version of you (regret, fear, failure) keeps occupying your reality because you repeatedly give it attention, while other versions that build, explore, and take risks also exist as possibilities. It loosely links this to quantum measurement ideas and ends with a daily prompt.
 
 Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Notice when your mind keeps returning to a regret, fear, failure, or version of yourself you want to escape.
+2. Recognize that each time you give that version your attention, it takes up more space in your experience.
+3. Reframe the question from "How do I become someone else?" to "Which version of me am I continuously observing?"
+4. Today, try observing the accomplished version of yourself that has already made it.
 
 ## Caption
 

@@ -6,12 +6,12 @@ author: "chopdaily"
 shared: "Jul 03, 2026, 01:09 PM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
 # Victony's recent songs since "Soweto"
 
-Chop Daily lists eight Victony tracks released since his 2023 hit "Soweto," with "Slick" called his new release. Slides show featured artists for some songs, including Olamide on "Skido" and Asake on "Stubborn."
+A carousel from chop daily listing Victony tracks released since his 2023 hit "Soweto," with his new single "Slick" highlighted. Each slide shows a music video clip with the song title and featured artists on screen.
 
 Written by claude-haiku-5-5.
 
@@ -25,7 +25,7 @@ Skido
 Stubborn
 Everything
 Jaga Jaga
-My Darling
+My Darling 
 Soweto
 
 ## Research

@@ -5,12 +5,12 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Oct 29, 2026, 04:15 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-30"
+described_at: "2026-11-03"
 ---
 
-# TIME's Best Inventions of 2026 Carousel
+# TIME's Best Inventions of 2026 picks
 
-A six-slide carousel announcing TIME's Best Inventions of 2026 list, with short write-ups on 1X NEO, Analogue 3D, NASA's Nancy Grace Roman Space Telescope, Biolino Shine and LEGO Smart Play. The caption also names Apple's foldable iPhone, Samsung's Galaxy S26 Ultra and WeWard's Walking Mode, and ends by asking followers for their thoughts on the picks.
+A 17-slide carousel showing a selection of products from TIME's Best Inventions of 2026 list, including the 1X NEO robot, Analogue 3D, Biolino Shine, Joby's air taxi and the Brick app blocker. The caption asks readers for their thoughts on the picks.
 
 Written by claude-haiku-5-5.
 

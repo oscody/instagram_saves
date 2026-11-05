@@ -5,26 +5,26 @@ type: "Carousel"
 author: "godofprompt"
 shared: "Oct 07, 2026, 09:43 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Five Claude prompts for a learning system
 
-A six-slide carousel that presents five Claude prompt templates for building a learning and retention system, covering system design, active reading, learning sprints, teach-back checks, and long-term review.
+A carousel presenting five Claude prompts meant to turn reading and studying into long-term retention. The final slide gates the full guide behind a comment.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Build a retention system: ask Claude to act as a learning acceleration expert trained in spaced repetition, active recall, and deliberate practice, and to build a full system (not a reading list) from your subject and timeline.
-2. Turn reading into retention: give Claude your reading list, weekly time, current method, and main challenge (retention, focus, or finishing), then ask for an active-reading protocol with marginalia, a chapter summary habit, a spaced repetition schedule, and how to apply knowledge within 48 hours.
-3. Design a learning sprint: state your subject, timeframe, current level, target level, and weekly time, then ask for weekly milestones, daily learning blocks, one priority resource, a project that proves you learned it, and an accountability check-in.
-4. Teach it back to catch gaps: use the Feynman technique on your subject, practice writing explanations, identify gaps before you think you have them, and do a weekly 'explain it to a beginner' session.
-5. Make it stick long term: ask for a spaced repetition schedule, a note-taking system, a weekly review ritual, ways to connect new knowledge to what you already know, and the one habit that separates people who retain from those who forget.
+1. Set Claude up as a learning expert trained in spaced repetition, active recall, and deliberate practice, then give it your subject and timeline so it builds a full learning system instead of a reading list.
+2. For a book or topic, give Claude your reading list, weekly time, current method, and main challenge (retention, focus, or finishing) to get an active-reading protocol with marginalia, chapter summaries, a spaced repetition schedule, and a plan to apply knowledge within 48 hours.
+3. For a skill, give Claude your subject, timeframe, current level, target level, and weekly time to get weekly milestones, daily learning blocks, one priority resource, a project that proves you learned it, and an accountability check-in.
+4. Use the Feynman technique: explain your subject in writing to expose gaps before you think you have them, and practice explaining it to a beginner each week.
+5. To make knowledge last, give Claude what you need to retain and the timeline for using it to get a spaced repetition schedule, a note-taking system, a weekly review ritual, and ways to connect new knowledge to what you already know.
 
 ## Source
 
-* How to get it: comment 'claude' to receive the full guide
+* How to get it: Comment "claude" on the post to receive the full guide (called the Claude Mastery Guide in the post)
 
 ## Caption
 

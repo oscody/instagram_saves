@@ -5,23 +5,24 @@ type: "Carousel"
 author: "theaifield"
 shared: "Jun 29, 2026, 06:33 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five Claude prompts for learning faster
+# Six Claude prompts for learning faster
 
-A carousel presenting AI prompts for learning, framed around a claimed Harvard study on using AI as a learning partner rather than an answer machine. Each slide gives one prompt with a template in brackets for the topic.
+A carousel that presents a Harvard study on AI as a learning partner and lists six Claude prompts for studying a topic. Each slide gives one prompt with a short explanation, using [topic] as a placeholder.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Plan a fast start: ask for a 20-hour plan focused on the 20% of concepts that produce 80% of results, split into 10 sessions of 2 hours, with the best resources and a 15-minute review at the end of each session.
-2. Condense material: ask for the main concepts of a topic on one page, using bullet points, diagrams and examples so it can be reviewed in 5 minutes.
-3. Test understanding: tell the AI you have just studied a topic and ask for 10 increasingly difficult questions, then get a score after each answer and an explanation of what you got wrong.
-4. Track progress: ask for 5 difficulty levels from beginner to advanced, with a clear goal at each stage.
-5. Choose resources: ask for the 5 best books, videos, courses or experts for learning the topic quickly, with an explanation of why each one deserves your time.
-6. Guiding principle from the caption: the best prompts do not ask AI to do the work for you; they ask it to help you think through the work yourself.
+1. Overall rule: use AI as a learning partner that makes you think, not as an answer machine; the best prompts help you work through the material yourself.
+2. Learn anything in 20 hours: ask for a 20-hour plan focused on the 20% of concepts that produce 80% of results, split into 10 two-hour sessions with the best resources and a 15-minute review at the end of each session.
+3. Create a one-page study sheet: ask for the main concepts of the topic on one page, using bullet points, diagrams and examples so it can be reviewed in 5 minutes.
+4. Test yourself until you master it: after studying, ask for 10 increasingly difficult questions, then get a score and an explanation of what you got wrong after each answer.
+5. Create a learning ladder: ask for the topic broken into 5 difficulty levels from beginner to advanced, with a clear goal at each stage.
+6. Find the best resources: ask for the 5 best books, videos, courses or experts for the topic and an explanation of why each one deserves your time.
+7. Use the Feynman technique: ask for a simple explanation of the topic, then explain it back in your own words, have your mistakes pointed out and the gaps re-taught, and repeat until you can explain it on your own.
 
 ## Caption
 

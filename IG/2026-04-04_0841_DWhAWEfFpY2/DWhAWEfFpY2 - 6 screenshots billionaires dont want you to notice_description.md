@@ -5,37 +5,38 @@ type: "Carousel"
 author: "businesstips.in"
 shared: "Apr 04, 2026, 08:41 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Six productivity and work frameworks carousel
+# Six productivity and work-habit frameworks carousel
 
-A six-image carousel that opens with a cover and then covers productivity methods, Dan Koe's anti-vision and fundamentals ideas, the P.A.R.A. note-organizing method, Steve Jobs' sales rules, and a plan to finish eight hours of work in four.
+A six-slide carousel of productivity, focus, planning, and sales frameworks, framed in the caption as things billionaires don't want people to notice. The slides credit Mark Twain, Dan Koe, Colby Kultgen, Steve Jobs (via Haris Halkic), and tulkit.co.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Pomodoro: list your tasks, set a 25-min timer, focus and work, take a 5-min break, repeat 4 times, then take a longer break.
-2. 3/3/3: spend 3 hours on one important project, complete 3 shorter urgent tasks or meetings, and do 3 maintenance tasks.
-3. Eisenhower matrix: do urgent and important tasks, schedule important but not urgent ones, delegate urgent but not important ones, eliminate the rest.
-4. Eat the frog: do your hardest task first, ideally first thing in the morning; if you have two frogs, eat the biggest one first.
-5. Seinfeld strategy: set a goal, mark a calendar each day you work on it, keep the streak going, and never miss two days in a row.
-6. Time blocking: identify what needs doing, group similar activities, assign time slots, plot the blocks on a calendar, stick to the schedule, take breaks between blocks, and make changes if needed.
-7. Anti-vision: spend 30 minutes writing what you want to avoid, then use that discomfort to define the opposite as your vision.
-8. Disappear for six months: cut distractions such as social media and draining relationships, and focus on systems that match your vision without seeking outside validation.
-9. Master the fundamentals: repeat foundational actions such as daily writing or exercise, since small actions compound over time.
-10. Embrace trial and error: treat your life as an experiment, adjust constantly, and learn from failures over the long term.
-11. P.A.R.A. method: capture and organize ideas in a system you can search, sort them into Projects, Areas, Resources and Archive, regularly review and distill them, and use them to create new content.
-12. Steve Jobs' sales rules: create a unique value proposition, focus on benefits not features, keep the message simple, tell a compelling story, know your audience, create an experience not just a product, don't be afraid to polarize, and persist through rejection.
-13. Block out your day: focus on one task per block, group similar activities, and stick to the schedule.
-14. Set artificial deadlines: break tasks into smaller steps and give each a tight deadline.
-15. Find your ideal work style: experiment with different approaches and tailor your routine to your strengths.
-16. Turn off notifications, clear your workspace and set healthy boundaries, since none of the above works if you are constantly distracted.
-
-## Source
-
-* Link: tulkit.co
+1. Pomodoro: list tasks, set a 25-minute timer, focus and work, take a 5-minute break, repeat 4 times, then take a longer break.
+2. 3/3/3 method: spend 3 hours on one important project, complete 3 shorter urgent tasks or meetings, and do 3 maintenance tasks.
+3. Eisenhower matrix: urgent and important = do it; not urgent but important = schedule it; urgent but not important = delegate it; neither = eliminate it.
+4. Eat the frog: do your hardest task first, so the rest feels easier.
+5. Seinfeld strategy: set a goal, mark a calendar each day you do it, keep the streak going, and never miss two days in a row.
+6. Time blocking: identify what needs doing, group similar activities, assign time slots, plot blocks on a calendar, stick to the schedule, take breaks between blocks, and adjust when needed.
+7. Create an anti-vision: spend 30 minutes writing everything you want to avoid, then define your vision as the opposite.
+8. Disappear for six months: cut distractions such as social media, toxic relationships, and energy-draining habits, and focus on systems and routines that match your vision without seeking external validation.
+9. Master the fundamentals: repeat basic actions like daily writing or consistent exercise, since small actions compound over time.
+10. Embrace trial and error: treat your life as a project, experiment and adjust, and learn from failures over the long term.
+11. PARA method: capture ideas and information in tools that are easy to review, organize them with tags or folders so they are easy to find, distill them by regularly summarizing, and express them by using them to create content or make decisions.
+12. PARA categories: Projects (tasks with a goal and deadline), Areas (ongoing maintenance), Resources (thematic interests), and Archive (past information you keep but do not currently use).
+13. Review your second brain weekly, keep the system flexible, and reflect on stored information to apply it in your life and work.
+14. Steve Jobs' sales rules: create a unique value proposition, focus on benefits rather than features, keep your message simple, tell a compelling story, and know your audience.
+15. Create an experience, not just a product: focus on the whole customer journey, and don't be afraid to confidently highlight strengths and show people what they want.
+16. Persistence in sales: treat rejection as a learning opportunity, adjust your approach, and keep pushing toward your vision.
+17. Block out your day: focus on one task per dedicated block, group similar activities, and stick to the schedule to build momentum.
+18. Set artificial deadlines: break tasks into smaller steps and give each a tight deadline to force focus.
+19. Find your ideal work style: experiment with different approaches and tailor your routine to your strengths.
+20. Eliminate distractions: turn off notifications, clear your workspace, and set healthy boundaries.
+21. Flow state: flow appears where something you care about, something long-term, something you are good at, and something challenging overlap.
 
 ## Caption
 

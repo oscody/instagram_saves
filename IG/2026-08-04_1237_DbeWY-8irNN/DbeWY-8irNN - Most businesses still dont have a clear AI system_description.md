@@ -5,26 +5,30 @@ type: "Carousel"
 author: "kekoamac"
 shared: "Aug 04, 2026, 12:37 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
-# Claude prompts for an AI receptionist offer
+# 7 Claude prompts for an AI receptionist system
 
-A carousel of Claude prompts for finding a niche, pricing and writing an offer, cold emailing, handling objections and onboarding clients for an AI receptionist setup. The cover mentions 7 prompts, but only these 5 are shown.
+A ten-slide carousel listing seven Claude prompts for finding a niche, building an offer, writing outreach, handling objections, onboarding clients, spotting upsells, and reviewing pipeline numbers. It also names Apollo.io and Helios AI as the two tools for lead outreach and inbound AI voice calls.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Prompt 1, niche domination: paste 10 industries into Claude and ask which spends the most on manual tasks that AI tools under $100/mo could handle, ranked by potential savings, and who the decision maker is.
-2. Prompt 2, offer builder: fill in a niche and a function in the template 'I help [niche] businesses save money by installing A.I tools that handle [function]', then ask for a 3-tier offer: a $2,000 quick-win install, a $5,000 full setup and a $10,000/mo retainer, with what is delivered at each level.
-3. Prompt 3, cold email machine: ask for 5 cold email variations for a niche's business owners that lead with the cost of their current manual process, offer to cut it by 60–80% using AI, stay under 90 words each and sound like a real person.
-4. Prompt 4, objection destroyer: list the 5 most common objections heard on sales calls and ask for a 2-sentence response to each that reframes it using a specific number or case study.
-5. Prompt 5, onboarding playbook: ask for a step-by-step client onboarding checklist for installing a tool for a niche business, covering what to get from the client, what to set up on day 1 and what the client sees by day 7.
+1. Prompt Claude with 10 industries and ask which spends the most on manual tasks that sub-$100/mo AI tools could handle, ranked by potential savings, with the decision maker named.
+2. Prompt Claude with a niche and function to build a 3-tier offer: $2,000 quick-win install, $5,000 full setup, and $10,000/mo retainer, listing what is delivered at each level.
+3. Prompt Claude for 5 cold email variations to the niche's business owners, each under 90 words, leading with the cost of their current manual process and offering a 60–80% cut using AI.
+4. Prompt Claude with the 5 most common sales-call objections and ask for a 2-sentence reframe of each using a specific number or case study.
+5. Prompt Claude for a step-by-step client onboarding checklist for a tool install: what to get from the client, what to set up on day 1, and what the client sees by day 7.
+6. After installing a tool for a client, prompt Claude for 3 other AI tools to offer based on their business type, with the cost of each and what it replaces.
+7. Each week, paste leads generated, calls booked, deals closed, revenue, and installs completed, then ask Claude to find where money is leaking and what to focus on next week.
+8. Run the lead side on Apollo.io (scrape leads, send cold emails, book calls) and the inbound side on Helios AI (AI voice agent that handles calls for clients).
 
 ## Source
 
-* How to get it: The full AI tool stack and setup system are sent by DM after commenting or DMing the keyword "YES"
+* Link: Apollo.io, theheliosai.com
+* How to get it: The full AI tool stack and setup playbook is not in the post; the post says to DM the keyword "YES" to get it.
 
 ## Caption
 

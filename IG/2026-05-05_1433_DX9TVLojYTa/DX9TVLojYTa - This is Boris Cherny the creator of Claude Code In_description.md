@@ -6,25 +6,25 @@ author: "evolving.ai"
 shared: "May 05, 2026, 02:33 PM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# 8 Tips to Master Claude Code
+# Boris Cherny's 8 tips for mastering Claude Code
 
-A carousel that shares eight tips from Claude Code creator Boris Cherny on getting more out of Claude Code, drawn from a talk he gave. Slides cover codebase Q&A, git history, CLAUDE.md, planning, and feedback loops.
+A carousel by Evolving AI summarizing talk by Boris Cherny, creator of Claude Code, on eight practices for getting more out of it. Each slide gives one tip with a short explanation and stills from the talk.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Start with codebase Q&A: ask Claude questions about the project so it explores the code on its own.
-2. Ask about git history to understand why changes were made, not just what changed. Claude can trace who introduced code and which commits or GitHub issues it links to.
-3. Add a CLAUDE.md file to the project root so its context loads at the start of every session. Check the shared file into source control and keep a CLAUDE.local.md, which is not checked in, for personal notes.
-4. Plan before coding: ask Claude to brainstorm an approach and get your approval before it writes code.
-5. Enable feedback loops by giving Claude a way to check its own work, such as unit tests or screenshots, so it can iterate.
-6. Use /memory to see which memory files are pulled into a session and to edit them.
-7. Automate with the SDK by piping things like logs, git status, or Sentry data into Claude. Treat it like a Unix utility: give it a prompt and get JSON back.
-8. Run multiple Claude sessions in parallel using git worktrees or tmux, with separate checkouts of the same repo.
+1. Start with codebase Q&A: ask Claude questions about your codebase so it explores the files itself, which Anthropic uses for new-hire technical onboarding.
+2. Ask about git history to understand the why behind changes, such as who introduced arguments and which GitHub issues the commits link to.
+3. Create a CLAUDE.md file in the project root to store architecture notes, style rules, and key build commands; it is read at the start of every session. CLAUDE.md is checked into source control to share with the team, while CLAUDE.local.md is not checked in and is for you alone.
+4. Plan before coding: ask Claude to brainstorm and make a plan, then approve the approach before it executes or writes code.
+5. Enable feedback loops by giving Claude a way to check its own work, such as unit tests, screenshots, or visual output, so it can iterate and fix mistakes.
+6. Run /memory to see which memory files Claude pulls into a session, and edit them to correct wrong context or add project-specific rules.
+7. Automate with the Claude Code SDK by piping logs, git status, or Sentry data into Claude, treating it like a Unix utility that outputs JSON or streaming JSON.
+8. Scale with multiple Claude instances in parallel, using separate checkouts in terminal tabs, git worktrees for branch isolation, or SSH and tmux sessions, with each instance working on a different part of the codebase.
 
 ## Caption
 
@@ -52,7 +52,7 @@ Here are the 8 tips:
 
 These tips will change the way you use Claude forever.
 
-What are your thoughts on this? 🤔💬
+What are your thoughts on this? 🤔💬 
 —
 
 ➡️ If you want to keep up with all the AI news, useful tips, and important developments, join 100k+ subscribers reading our free newsletter

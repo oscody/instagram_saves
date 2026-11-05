@@ -5,26 +5,24 @@ type: "Carousel"
 author: "graystonetrading"
 shared: "Oct 04, 2026, 08:20 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# ChatGPT Money Making Mode: Five Income Prompts
+# Seven ChatGPT prompts for finding side hustles
 
-A six-slide carousel with a cover claiming ChatGPT has a hidden "Money Making Mode," followed by five prompts for finding income ideas based on your skills, background, time and budget.
+A nine-slide carousel presenting seven ChatGPT prompts, framed as a hidden "money making mode," for identifying ways to earn income from your skills, experience and interests. The final slide promotes a free live masterclass.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Prompt 1, Hidden Income Finder: ask the AI to act as a career and business advisor, question you about skills, experience, hobbies, interests, personality, education, time, financial goals and resources, then list at least 15 realistic ways to earn, ranked by strengths fit, start speed, earning potential, startup cost and long-term growth, with reasons each fits you.
-2. Prompt 2, Personal Money Blueprint: have the AI learn your strengths, weaknesses, interests, lifestyle, available time, budget, working style and income goals before suggesting ideas, then recommend the best-matching opportunities and explain why.
-3. Prompt 3, Skills to Income: paste your current skills and ask for every realistic income route (freelancing, employment, consulting, digital products, online business, local services, teaching, content creation), with first steps, required improvements and potential challenges for each.
-4. Prompt 4, Income Opportunity Scanner: paste your background and ask for overlooked opportunities across online, offline, part-time, full-time and scalable options, ranked by difficulty, startup cost, earning potential, competition and profile match.
-5. Prompt 5, Side Hustle Adviser: state your weekly hours, budget and experience, ask for side hustles that fit your schedule compared by startup cost, learning curve, income potential, flexibility and scalability, and end with the three strongest recommendations and why.
-
-## Source
-
-* How to get it: Message 'CLASS' by DM to receive the link (the post says this is for a free live masterclass)
+1. Hidden Income Finder: tell ChatGPT to act as your career and business advisor, answer its questions about your skills, experience, hobbies, personality, education, time, goals and resources, then ask for at least 15 realistic ways to earn money ranked by strengths fit, start speed, earning potential, startup cost and long-term growth, with reasons each fits you.
+2. Personal Money Blueprint: have ChatGPT learn about your strengths, weaknesses, interests, lifestyle, available time, budget, working style and income goals before it suggests ideas, then recommend the best-matching options and explain why.
+3. Skills to Income: paste your current skills and ask for every realistic way to earn from them (freelancing, employment, consulting, digital products, online business, local services, teaching, content creation), with first steps, required improvements and challenges for each.
+4. Income Opportunity Scanner: paste your background and ask for overlooked online, offline, part-time, full-time and scalable options, ranked by difficulty, startup cost, earning potential, competition and fit with your profile.
+5. Side Hustle Adviser: give your weekly hours, budget and experience, then compare suitable side hustles by startup cost, learning curve, income potential, flexibility and scalability, ending with the three strongest and why.
+6. Career Advantage Finder: paste your experience, achievements, education, interests and strengths, then ask where you have an advantage over others and which careers, freelance services or businesses that advantage could be valuable in.
+7. Market Fit Analyser: paste your knowledge, skills, interests and experience, then ask for problems people or businesses will pay to solve, how your abilities match them, practical ways to offer value, prioritised where your skills and market demand overlap.
 
 ## Caption
 

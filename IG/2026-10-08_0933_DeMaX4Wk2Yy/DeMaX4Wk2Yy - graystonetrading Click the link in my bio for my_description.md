@@ -5,14 +5,22 @@ type: "Carousel"
 author: "graystonetrading"
 shared: "Oct 08, 2026, 09:33 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Job replacement claims and free trading masterclass
+# Five-step options trading system outline
 
-The six slides cite Reid Hoffman's prediction that the 9-5 job will be dead by 2034 and claim that analyst, agency, retail and media roles are being replaced by automation. The post ends by directing viewers to the link in the bio for a free live masterclass on options trading.
+A trading account's carousel that uses a Reid Hoffman and LinkedIn intro to argue jobs are being replaced, then outlines a claimed options-based system with a 40k/month profit claim. The last slide promotes a free live masterclass.
 
 Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Open an option trading account.
+2. Find a strong ETF to profit from.
+3. Start using the 'boring 5-step system' (the post does not list that system's individual steps).
+4. Repeat it Monday to Friday.
+5. Stack your profit, then scale your account.
 
 ## Caption
 

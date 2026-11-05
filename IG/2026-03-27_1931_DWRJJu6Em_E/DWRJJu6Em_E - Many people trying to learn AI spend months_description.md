@@ -5,19 +5,18 @@ type: "Carousel"
 author: "codingknowledge"
 shared: "Mar 27, 2026, 07:31 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 10 GitHub Repos to Learn In-Depth AI Engineering
+# 10 GitHub repos to learn in-depth AI engineering
 
-A carousel announcing 10 GitHub repositories for learning AI engineering. Five are shown on screen: 100 Days of ML Code, Awesome Artificial Intelligence, Microsoft Gen AI For Beginners, Awesome LLM Apps, and Awesome MCP Servers.
+A carousel presenting 10 GitHub repositories for learning AI engineering, including Awesome LLM Apps, Awesome MCP Servers, AI Agents for Beginners, Microsoft Gen AI for Beginners, RAG Techniques, Awesome Artificial Intelligence, and LLM built from scratch by Sebastian Raschka. The full list is sent by DM after commenting "ai".
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* Link: 100 Days of ML Code; Awesome Artificial Intelligence; Microsoft Gen AI For Beginners; Awesome LLM Apps; Awesome MCP Servers
-* How to get it: Comment "AI" to receive the complete list of 10 repos
+* How to get it: Comment "ai", full list sent by DM
 
 ## Caption
 

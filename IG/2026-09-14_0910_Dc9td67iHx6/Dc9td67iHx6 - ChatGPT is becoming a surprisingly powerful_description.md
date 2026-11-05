@@ -5,28 +5,30 @@ type: "Carousel"
 author: "katsina__blog"
 shared: "Sep 14, 2026, 09:10 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 7 ChatGPT Prompts for Professional-Looking Photo Edits
+# 7 ChatGPT prompts for photo transformations
 
-A carousel of ChatGPT photo-editing prompts for turning your own photos into cinematic portraits, headshots, travel shots, outfit changes and luxury editorials. Five prompts appear on the slides, and the caption says the full set of seven is sent on request.
+A carousel of seven ChatGPT photo-editing prompts (cinematic portrait, headshot, travel, outfit, luxury editorial, location change, golden hour), with a sample photo of a man in a black polo shirt on a sofa as the intro slide.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Upload your own photo and state exactly what to keep, such as face, facial structure, proportions, hairstyle, skin tone and identity.
-2. Then describe the target look in detail: lighting, environment, textures, composition, shadows, depth and overall style.
-3. Cinematic portrait: place yourself in [scene] with realistic directional lighting, natural shadows, subtle depth of field, detailed clothing, believable skin texture and film-style color grading, so it feels like a professionally photographed movie still.
-4. Professional headshot: keep facial structure, skin tone, hairstyle and identity, then ask for flattering studio lighting, a clean background, realistic skin detail, sharp focus, natural expression and premium portrait composition.
-5. Travel photography shot: place yourself in [destination] and match the scene's lighting, weather, shadows, perspective, atmosphere and colors while keeping your face and identity unchanged, with clothing and positioning that feel physically connected to the environment.
-6. Outfit transformation: keep your face, hairstyle, body proportions, pose and background, replace your clothing with [outfit], and ask for believable fabric texture, folds, shadows, seams and lighting so it looks like you wore it when the photo was taken.
-7. Luxury editorial look: place yourself in [luxury setting] wearing [style/outfit], with elegant lighting, premium composition, realistic textures, subtle background blur, tasteful color grading and a confident natural pose, kept sophisticated rather than overly retouched.
+1. Tell ChatGPT first what to keep unchanged, such as face, proportions, hairstyle, skin tone, and identity.
+2. Then describe the target look: lighting, environment, textures, composition, shadows, depth, and color grading.
+3. Cinematic portrait: use the prompt 'Rework my uploaded photo into a high-end cinematic portrait...' with [scene] filled in, asking for directional lighting, natural shadows, subtle depth of field, detailed clothing, believable skin texture, and film-style color grading.
+4. Professional headshot: ask for a polished headshot for LinkedIn, a company profile, or personal branding, with studio lighting, a clean background, sharp focus, natural expression, and premium portrait composition.
+5. Travel photography shot: place yourself in [destination] and match the scene's lighting, weather, shadows, perspective, atmosphere, and colors, with clothing and positioning that feel physically connected to the environment.
+6. Outfit transformation: keep face, hairstyle, body proportions, pose, and background, replace clothing with [outfit], and ask for believable fabric texture, folds, shadows, and seams.
+7. Luxury editorial look: place yourself in [luxury setting] wearing [style/outfit] with elegant lighting, premium composition, realistic textures, subtle background blur, and tasteful color grading, without an overly retouched look.
+8. Change the environment: keep yourself recognizable, relocate to [location], and rebuild the surroundings to match perspective, lighting direction, shadows, reflections, color temperature, and depth.
+9. Golden-hour photoshoot: convert the photo into a golden-hour portrait in [location] with soft sunset light, warm highlights, directional shadows, and lighting that interacts naturally with the face, clothing, and surroundings.
 
 ## Source
 
-* How to get it: Comment "PHOTO" on the post to receive the prompts by DM
+* How to get it: The full prompt text is on the slides; the caption says comment "PHOTO" to get the prompts sent.
 
 ## Caption
 

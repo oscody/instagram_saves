@@ -5,14 +5,18 @@ type: "Carousel"
 author: "manifestingblisss"
 shared: "Sep 10, 2026, 02:28 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Ancient "dream inversion" accounts and dream identity
+# Dream inversion claims and a Vagus Reset offer
 
-A six-slide carousel that describes claimed ancient accounts of a "dream inversion" ritual, in which people supposedly lived years inside a dream in one night and woke with new identities or languages. It ends by asking where consciousness goes during sleep and links to a "my bio" call to action.
+A 12-slide carousel presenting "dream inversion" accounts, said to come from ancient manuscripts, of people living years inside a dream and waking with altered identities. It links this to modern claims about REM sleep and time perception, then promotes a free 14-page PDF called "The Vagus Reset."
 
 Written by claude-haiku-5-5.
+
+## Source
+
+* How to get it: Download link in the account's bio (no URL written in the post)
 
 ## Caption
 

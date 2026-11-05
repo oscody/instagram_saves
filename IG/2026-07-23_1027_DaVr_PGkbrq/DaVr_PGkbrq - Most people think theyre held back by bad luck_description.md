@@ -5,20 +5,23 @@ type: "Carousel"
 author: "motiv.mindsets"
 shared: "Jul 23, 2026, 10:27 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Carl Jung's Method for Making Wishes Come True
+# Carl Jung's 10-day wish method
 
-The carousel presents a Carl Jung-attributed approach to wishes, framed as a 10-day practice that works even for skeptics. It argues that desires take hold through a clearly stated wish and a present-tense identity, not through positive thinking.
+A 14-slide carousel presenting a 10-day method, attributed to Carl Jung, for turning a wish into action by clarifying it, writing it in identity terms, rehearsing it through the senses, and acting it out in small ways. It cites Jung and three sources (Jung 1959, Kosslyn 2001, Markus 1977) without giving links.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Practice the method for 10 days.
-2. Name the wish clearly by asking: "What would I want if I stopped pretending I didn't?" Choose what is true, not what sounds realistic or what impresses others.
-3. Write the wish in the present tense as an identity statement, for example "I live calmly. My body feels grounded. My mind feels clear." rather than "I want peace."
+1. Step 1: Name the wish clearly by asking, "What would I want if I stopped pretending I didn't?" Choose what is true, not what sounds realistic or impresses others.
+2. Step 2: Write the wish in the present tense as a statement of identity, for example "I live calmly. My body feels grounded. My mind feels clear." rather than "I want peace."
+3. Step 3: Every morning for 2 minutes, imagine that life in sensory detail (how you breathe, how you move, how your body feels), not as fantasy.
+4. Step 4: For 10 days, act slightly like that version of you, not perfectly but symbolically: speak slower, choose differently, and set one boundary.
+5. When acting new feels awkward, keep going; the post treats awkwardness as the nervous system rewiring, not as failure.
+6. Watch for the shift around day 10, when micro-decisions start matching the wish.
 
 ## Caption
 

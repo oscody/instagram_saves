@@ -5,23 +5,23 @@ type: "Carousel"
 author: "steel_people_"
 shared: "Sep 23, 2026, 07:55 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five Chinese books on self-awareness and strategy
+# Five Chinese books and modern life lessons
 
-A six-slide carousel presents five ancient Chinese books (Sun Tzu's The Art of War, Tao Te Ching, The Analects, I Ching, and The Thirty-Six Stratagems), each with a short modern reflection on preparation, persistence, character, change, and the influence of others. The caption closes by suggesting one idea to put into practice that day.
+A seven-slide carousel pairs five ancient Chinese books (Sun Tzu's The Art of War, Tao Te Ching, The Analects, I Ching, and The Thirty-Six Stratagems) with short modern reflections on preparation, persistence, character, change, and outside influence. The closing slide is a follow prompt.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Prepare the mind before acting: choose your battlefield and your approach before you commit (Sun Tzu).
-2. Persist steadily rather than pushing hard and quitting; consistency beats intense effort that fades (Lao Tzu).
-3. Watch your daily repetitions, since they shape you, and act the same way when no one is watching (Confucius).
-4. Choose your direction on purpose, because drifting on autopilot lets the current decide for you (I Ching).
-5. Look inward and notice when outside distractions or influences are steering you (Thirty-Six Stratagems).
-6. Practice one idea today: think through your next step, return to something you started, or set aside distractions to focus on what matters.
+1. Preparation: settle your approach before acting, since wars are won in the mind first (Sun Tzu). Don't react out of fear, and choose your battlefield instead of entering without a plan.
+2. Persistence: steady, patient effort beats forceful rushing, and consistency outlasts intense effort that fades quickly (Tao Te Ching). Rigidity is what breaks first.
+3. Character: notice what you repeat every day, especially when no one is watching, since that shapes you (Analects). Your true character is who you are when alone, not your performance for others.
+4. Change: nothing stays still, and living on autopilot lets the current carry you. Choose your direction, or someone else will choose it for you (I Ching).
+5. Outside influence: others may use distraction, such as screens and noise, to keep you from looking within yourself. Notice this so you don't fall into it unaware (Thirty-Six Stratagems).
+6. Practice: pick one of these ideas and apply it today by thinking through your next step, returning to something you started, or setting distractions aside for a while to focus on what matters.
 
 ## Caption
 

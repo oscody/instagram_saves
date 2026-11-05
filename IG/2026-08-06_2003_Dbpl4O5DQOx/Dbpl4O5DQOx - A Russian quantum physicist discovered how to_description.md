@@ -5,22 +5,24 @@ type: "Carousel"
 author: "quantumdigest"
 shared: "Aug 06, 2026, 08:03 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
-# Vadim Zeland's Reality Transurfing: Letting Go
+# Vadim Zeland's Reality Transurfing: 3-Step Method
 
-A carousel about Vadim Zeland's Reality Transurfing idea that reality is a set of parallel tracks you move between by changing your inner state. It argues that treating goals as high-stakes creates resistance, while a calm, "no big deal" attitude and not feeding problems let things come closer.
+The carousel presents Vadim Zeland's Reality Transurfing idea that reality consists of parallel tracks and that your inner state determines which one you experience. It frames a "no big deal" attitude toward goals as a way to reduce resistance.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Treat a goal as "no big deal" and lower its importance: heavy "must have" becomes light "nice to have".
-2. Avoid desperation and urgency about what you want, since high importance creates "excess potential" that brings resistance and obstacles.
-3. Act from a calm, neutral, peaceful state, because calm focus and decisions work better than stress.
-4. Don't fight or give energy to problems: step aside mentally instead of engaging, so the problem (a "pendulum") loses its energy.
-5. Focus on allowing what you want rather than chasing it.
+1. Lower the importance of a desire: treat it as "nice to have" rather than "must have."
+2. Act as if it is already arranged, moving through your day assuming the outcome has been handled.
+3. When obstacles appear, mentally step sideways into a parallel reality where they don't exist.
+4. Don't feed problems with attention or emotional reactions; step aside mentally instead of fighting them.
+5. Avoid pretending you don't care while secretly being attached; be genuinely at peace.
+6. Don't use this approach as another technique to force results; actually let go.
+7. Keep taking action, but let it come from relaxation rather than desperation.
 
 ## Caption
 

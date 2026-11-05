@@ -5,27 +5,29 @@ type: "Carousel"
 author: "divyannshisharma"
 shared: "Jul 02, 2026, 05:00 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Claude Code watches any video via /watch
+# Claude Code skill to watch videos
 
-A six-slide carousel showing how to let Claude Code analyze a video by pulling both its transcript and screenshots, using a free skill. It walks through the example of a 45-minute Y Combinator lecture and a use case for breaking down viral hooks.
+An 18-slide carousel introducing a free Claude Code skill, /watch, which gives Claude frames and transcripts from a video. It covers installation, cost, and two use cases: breaking down viral hooks and analyzing one segment.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Install the free video skill in Claude Code by adding its marketplace and entering the marketplace source.
-2. Find the video you want and copy its link (the example is a 45-minute Y Combinator lecture on YouTube).
-3. In Claude Code, type /watch followed by the video link, and optionally a question.
-4. The skill takes the transcript from the video's captions, or transcribes the audio if there are no captions.
-5. The skill also captures screenshots from the video so Claude can see on-screen graphs, charts and text, and can reference moments at specific timestamps.
-6. To analyze a viral hook, ask Claude to explain the hook frame by frame, checking for elements such as authority, pattern interrupt, visual-audio mismatch, payoff and zooming in on one moment.
+1. Copy the link of the video you want Claude to watch (the example is a 45-minute YouTube lecture).
+2. In Claude Code, run /plugin marketplace add bradautomates/claude-video, then /plugin install watch@claude-video.
+3. For Codex or other generic skills, run git clone https://github.com/bradautomates/claude-video.git ~/.codex/skills/watch. For claude.ai, download watch.skill from the README and add it under Settings → Capabilities → Skills.
+4. Run /watch:watch followed by the video URL or file path, with an optional question.
+5. To analyze only part of a video, add --start and --end times (the example uses --start 00:35 --end 01:38).
+6. The skill pulls the video's captions when they exist. If a video has no captions, it transcribes the audio with Whisper, which needs an API key only in that case, according to the README.
+7. For a viral video, paste its link and ask Claude to explain why the hook worked. Claude breaks it down by authority, pattern interrupt, visual and audio mismatch, and payoff.
 
 ## Source
 
-* How to get it: Comment "SEND" on the post to receive the link
+* Link: https://github.com/bradautomates/claude-video
+* How to get it: Caption asks readers to comment "SEND" for the link; the repo is also written on slides 8 and 9.
 
 ## Caption
 

@@ -5,23 +5,22 @@ type: "Carousel"
 author: "explainedfact"
 shared: "Jul 23, 2026, 10:25 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Five bizarre habits to sharpen thinking
+# 5 Bizarre Habits to Make You Smarter
 
-A carousel presenting five unusual daily habits meant to make thinking more flexible and creative, with a caption noting these habits may help break repetitive thinking and expose biases rather than instantly making someone a genius.
+A seven-slide carousel presenting five habits said to sharpen thinking, each with a suggested practice and the effect the post claims it has. The caption adds that the habits won't make someone a genius instantly but may help break repetitive thinking and expose biases.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Reverse learning: read the last chapter of a book first, so your brain creates mystery gaps that force active problem-solving instead of passive absorption.
-2. Sensory deprivation thinking: spend 20 minutes daily in complete darkness with earplugs to let your brain enter theta waves, where breakthrough ideas appear.
-3. Pattern interruption: write with your non-dominant hand for 10 minutes daily to form new neural pathways and break mental loops.
-4. Strategic confusion: learn something completely unrelated to your field every week (e.g. medieval poetry, then quantum physics) so your brain connects unlikely ideas.
-5. Argument reversal: defend the opposite of what you believe for 15 minutes daily to understand complexity beyond your biases.
-6. Caption suggestion: also try reading a conclusion first, learning an unfamiliar subject, and spending quiet time reflecting without distractions.
+1. Reverse learning: read the last chapter of a book first, since the post says this creates mystery gaps that force active problem-solving instead of passive absorption.
+2. Sensory deprivation thinking: spend 20 minutes daily in complete darkness with earplugs, which the post says brings the brain into theta waves where breakthrough ideas appear.
+3. Pattern interruption: write with your non-dominant hand for 10 minutes daily, which the post says forms new neural pathways that sharpen dominant-hand thinking.
+4. Strategic confusion: learn something completely unrelated to your field every week (for example, medieval poetry then quantum physics), which the post says helps the brain connect unlikely ideas.
+5. Argument reversal: defend the opposite of what you believe for 15 minutes daily, which the post says helps you understand complexity beyond your biases.
 
 ## Caption
 

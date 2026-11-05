@@ -5,14 +5,18 @@ type: "Carousel"
 author: "explainingthecaribbean"
 shared: "Jun 18, 2026, 07:37 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Caribbean Tech Potential and Future Caribbean Buildathon
+# Future Caribbean agentic AI buildathon promotion
 
-A six-slide carousel promoting Future Caribbean, a global open-source agentic AI buildathon. It argues that the Caribbean has the talent, market scale and capital to build billion-dollar tech companies, and that agentic AI lets small teams build what once needed massive scale.
+A 15-slide promotional carousel for Future Caribbean, a global open-source agentic AI buildathon aimed at Caribbean founders, builders and investors. It covers the region's scale and talent, the buildathon's 40 teams over 21 days, prizes, and an application close date of July 3rd, 2026.
 
 Written by claude-haiku-5-5.
+
+## Source
+
+* Link: www.futurecaribbean.com
 
 ## Caption
 

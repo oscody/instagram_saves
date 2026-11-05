@@ -5,24 +5,18 @@ type: "Carousel"
 author: "graystonetrading"
 shared: "Oct 12, 2026, 02:40 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
-# AI skill Wang says matters: vibe-coding
+# AI skill claims and a free masterclass
 
-A six-slide carousel claiming a young AI billionaire says one skill matters now, which it names as vibe-coding (telling AI what to build in plain English). It mostly frames the idea with motivational claims and ends with an offer to join a free live masterclass by messaging a keyword.
+A 12-slide carousel that uses stories about young AI figures (Alexandr Wang, a "vibe-coding" teen) to argue that clearly describing what you want to build is the key AI skill. It ends by promoting a free live masterclass and a cash-flow system it does not explain.
 
 Written by claude-haiku-5-5.
 
-## What it teaches
-
-1. Focus on the skill underneath AI tools: how clearly you think and tell AI what to build, not which tools you use.
-2. Vibe-coding means describing what you want to build to AI in plain English, and the AI writes the code.
-3. Practise this regularly; the post cites 10,000 hours of AI-tool practice as 3 hours a day for 9 years.
-
 ## Source
 
-* How to get it: Comment or message the keyword "CLASS" to receive the link to the free live masterclass
+* How to get it: Comment "CLASS" on the post to receive the registration link
 
 ## Caption
 

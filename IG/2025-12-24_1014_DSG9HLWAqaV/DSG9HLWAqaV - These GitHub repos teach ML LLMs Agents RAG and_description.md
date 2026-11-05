@@ -5,18 +5,18 @@ type: "Carousel"
 author: "developers_in"
 shared: "Dec 24, 2025, 10:14 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# 10 GitHub Repos to Learn ML and AI
+# 10 GitHub repos for ML and AI learning
 
-A carousel recommends GitHub repositories for ML, LLMs, AI agents and RAG, with short notes on five of them: Microsoft's Machine Learning for Beginners, Learn PyTorch for Deep Learning, AI Agents for Beginners, the Prompt Engineering Guide and the LLM Course.
+A carousel that lists 10 GitHub repos covering ML, PyTorch, LLMs, AI agents, prompt engineering, RAG, ML system design and MLOps, with a short description of each. The full repo links are only sent by DM after commenting "repo".
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* How to get it: Comment 'repo' to get the list of all repo links sent by DM
+* How to get it: Comment 'repo' on the post; the list of GitHub repo links is sent by DM
 
 ## Caption
 

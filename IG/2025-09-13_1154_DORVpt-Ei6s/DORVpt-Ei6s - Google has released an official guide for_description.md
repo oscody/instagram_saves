@@ -5,25 +5,35 @@ type: "Carousel"
 author: "artificialintelligenceupdater"
 shared: "Sep 13, 2025, 11:54 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Google's Gemini 2.5 Flash Image prompting guide
+# Gemini 2.5 Flash "Nano Banana" prompting guide
 
-A six-slide carousel summarizing Google's guide for prompting Gemini 2.5 Flash Image ("Nano Banana"). It lists the model's capabilities and gives a fill-in template with an example prompt and output for photorealistic scenes, stickers, text in images, and product photography.
+A carousel summarizing Google's prompting guide for Gemini 2.5 Flash Image ("Nano Banana"). It lists the model's capabilities, gives fill-in-the-blank prompt templates with example prompts and outputs for generation and editing, and ends with best practices.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Describe the image in narrative sentences, thinking like a photographer: name the shot type, subject, action or expression, environment, lighting, mood, camera or lens details, and key textures.
-2. For photorealistic images, state the aspect ratio and mention camera angles, lens types (for example an 85mm portrait lens for a soft, blurred background), and lighting.
-3. For stylized illustrations and stickers, be explicit about the style, the subject's key characteristics, the color palette, line style and shading style, and state that the background must be white if you need one.
-4. For accurate text in images, put the exact text in quotes, describe the font style, and set the overall design and color scheme.
-5. For product shots, specify the product, background surface, lighting setup and its purpose, camera angle, the key detail to keep sharp, and the aspect ratio.
-6. For editing, provide an input image and a text prompt to add, remove, or modify elements, change the style, or adjust colors.
-7. For composition or style transfer, use multiple input images to compose a new scene or move the style from one image to another.
-8. Refine results over several conversational turns, making small adjustments each time.
+1. Know the model's modes: text-to-image, image plus text editing, multi-image composition and style transfer, iterative refinement over several turns, and text rendering.
+2. For photorealistic scenes, think like a photographer: name the shot type, subject, action or expression, environment, lighting, mood, camera or lens details, key textures, and aspect ratio.
+3. For stickers, icons, or assets, state the style explicitly, specify line style and shading, and request a white background if you need one.
+4. For accurate text in images, state the exact text in quotes, describe the font style, and set the overall design and color scheme.
+5. For product photography, describe the product and background surface, the lighting setup and its purpose, the camera angle, and the key detail to keep sharp.
+6. For minimalist backgrounds meant for overlaid text, describe the subject's position in the frame, a vast empty canvas for negative space, and soft lighting.
+7. For sequential art, describe the art style, the foreground character and action, the background setting, any caption or dialogue text, the mood, and the aspect ratio.
+8. To add or remove elements in an existing image, say which image you are using, whether to add, remove, or modify the element, and how the change should blend with lighting and scene.
+9. To edit one part of an image only, name the specific element to change and explicitly say to keep everything else the same, including style, lighting, and composition.
+10. For style transfer, provide a photo, name the artist or art style, and say to preserve the original composition while describing the stylistic elements to apply.
+11. For combining images, give each input a clear reference (for example, the dress from the first image and the woman from the second), describe the final scene, and ask for lighting and shadows to match the setting.
+12. Be hyper-specific, describing details rather than vague terms like 'fantasy armor'.
+13. If character features drift after many edits, start a new conversation with a detailed description.
+14. Give the purpose of the image, for example the brand and style, rather than only the object.
+15. Iterate with small follow-up changes instead of expecting a perfect first result.
+16. Describe what should be in the scene positively instead of saying what to exclude (for example, 'an empty, deserted street with no signs of traffic' rather than 'no cars').
+17. When editing, the model generally keeps the input aspect ratio; if it does not, state 'Do not change the input aspect ratio.' If you need a specific ratio for a new image, provide a reference image with those dimensions.
+18. Use photographic and cinematic terms such as wide-angle shot, macro shot, low-angle perspective, 85mm portrait lens, and Dutch angle to control composition.
 
 ## Caption
 

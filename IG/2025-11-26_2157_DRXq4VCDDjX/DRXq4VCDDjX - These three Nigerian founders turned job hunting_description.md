@@ -5,12 +5,12 @@ type: "Carousel"
 author: "founded"
 shared: "Nov 26, 2025, 09:57 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Nigerian founders behind the "Tinder for jobs" app
+# Nigerian founders behind Sorce, the swipe-to-apply job app
 
-A six-slide Founded carousel profiles three Nigerian founders of Sorce, an AI app that automates job applications and is dubbed the "Tinder for jobs." It covers the app's reported 500,000 users, its YC application, and how investor Sam Parr publicly backed founder Dada.
+A 12-slide news-style profile of three Nigerian founders behind Sorce, an AI job app where users swipe to apply. It traces their path from a viral post by investor Sam Parr and a YC application to 500,000 users and interviews at companies like OpenAI and Nvidia.
 
 Written by claude-haiku-5-5.
 

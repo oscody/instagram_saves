@@ -5,24 +5,24 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Sep 12, 2026, 10:55 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Five ChatGPT prompts for personal finance
 
-A carousel of five ChatGPT prompts for reviewing finances: a money audit, a wealth plan, cash flow optimization, money leak detection, and debt repayment. Each prompt has a [PASTE YOUR DETAILS] placeholder for your own numbers.
+A carousel of five ChatGPT prompts for reviewing personal finances: a money audit, a wealth plan, cash flow optimization, money leak detection, and a debt repayment strategy. Each prompt has a [PASTE YOUR DETAILS] placeholder.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
 1. Give ChatGPT real numbers, goals, timelines, interest rates and expenses instead of vague estimates.
-2. Money audit: ask ChatGPT to act as your personal CFO, analyze income, expenses, debts, savings, investments and goals, identify money leaks, missed opportunities and financial mistakes, then create the simplest plan to improve your finances.
-3. Wealth plan: paste your current financial situation and ask for a roadmap to build wealth that prioritizes increasing income, reducing unnecessary expenses, building savings, managing debt, investing wisely and long-term security.
-4. Cash flow optimization: paste your monthly income and expenses and ask which expenses to cut, keep and automate, and where your money should go each month.
-5. Money leaks: paste your spending history and ask for every unnecessary expense, subscription, impulse purchase, lifestyle increase and hidden leak, ranked by annual cost, with the changes that save the most money with the least lifestyle impact.
-6. Debt destroyer: paste your debts and ask for the smartest repayment strategy based on income, cash flow, interest rates and financial goals, with the logic explained and the most efficient path to becoming debt-free.
-7. Treat the results as a starting point for financial decisions, not a replacement for professional advice.
+2. Money audit: ask it to act as a personal CFO, analyze your income, expenses, debts, savings, investments and goals, then identify money leaks, missed opportunities and financial mistakes and suggest the simplest improvement plan.
+3. Wealth plan: share your current financial situation and ask for a roadmap that prioritizes increasing income, reducing unnecessary expenses, building savings, managing debt, investing wisely and long-term security.
+4. Cash flow optimization: share monthly income and expenses and ask what to cut, what to keep, what to automate, and where money should go each month.
+5. Money leaks: paste your spending history and ask it to rank unnecessary expenses, subscriptions, impulse purchases and lifestyle increases by annual cost, and identify the changes that save the most with the least lifestyle impact.
+6. Debt destroyer: list your debts and ask for a repayment strategy based on income, cash flow, interest rates and goals, with the logic explained and a path to becoming debt-free as efficiently as possible.
+7. Treat the results as a starting point for financial decisions, not as a replacement for professional advice.
 
 ## Caption
 

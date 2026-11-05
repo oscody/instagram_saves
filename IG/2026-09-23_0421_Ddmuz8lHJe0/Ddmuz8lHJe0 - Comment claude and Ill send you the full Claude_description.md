@@ -5,29 +5,28 @@ type: "Carousel"
 author: "godofprompt"
 shared: "Sep 23, 2026, 04:21 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Claude prompts to replace five separate apps
+# Nine Claude prompts for one all-in-one assistant
 
-A nine-slide carousel of Claude prompts meant to cover planning, research, learning, decisions, clearer thinking, writing and weekly reviews in one chat instead of switching between apps.
+A nine-slide carousel that opens with a claim about an MIT study finding people with AI work 40% faster, then shows a copy-paste prompt template for each of nine everyday tasks, such as planning the day, researching, learning, deciding, and reviewing the week.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Plan the day: ask Claude to act as an executive productivity coach, give it your goals, tasks, meetings and deadlines, then ask for your top 3 priorities, a structured schedule, tasks that can be automated or delegated, and the highest-impact activities for today.
-2. Research a topic: ask Claude to act as a professional research analyst and cover key information, current trends, important statistics, main companies or market players, and opportunities and risks in the sector.
-3. Learn a concept fast: ask Claude to act as an expert teacher and explain the topic with a simple explanation, key principles, practical examples, common mistakes, and a brief summary for quick recall.
-4. Make a decision: describe the situation and ask Claude to analyse pros and cons, potential risks, long-term implications and alternative options, then recommend the most rational option.
-5. Clean up unstructured thinking: paste your rough thoughts and ask Claude to clarify the main idea, organise it logically, identify missing parts and suggest improvements.
-6. Fix your writing: paste your text and ask Claude to improve it so it is clearer, more concise, more persuasive and more professional while keeping the original meaning.
-7. Review your week: share what went well, what to improve and what you learned, ask Claude to identify patterns, then set better goals for next week.
-8. Save the prompts as a set and use them in one Claude chat instead of switching between apps.
+1. Plan the day: start a prompt by asking Claude to act as an executive productivity coach, then give your goals, tasks, meetings and deadlines. Ask it to identify your top 3 priorities, suggest a structured schedule, flag tasks that can be automated or delegated, and recommend the highest-impact activities for today.
+2. Research anything: ask Claude to act as a professional research analyst on a topic, and have it cover key information, current trends, important statistics, main companies or market players, and opportunities and risks in the sector.
+3. Learn anything fast: ask Claude to act as an expert teacher and explain a concept in simple terms, then cover key principles, practical examples, common mistakes, and a brief summary for quick recall.
+4. Make the decision: describe the situation and ask Claude to analyse pros and cons, potential risks, long-term implications and alternative options, then recommend the most rational option.
+5. Clean up your thinking: paste a rough idea or unstructured thoughts and ask Claude to clarify the main idea, organize it logically, identify missing parts, and suggest improvements.
+6. Fix your writing: paste your text and ask Claude to make it clearer, more persuasive, more concise and more professional while keeping the original meaning.
+7. Review your week: share what went well, what did not go well and what you learned, then ask Claude to identify patterns, suggest improvements and set better goals for next week.
 
 ## Source
 
-* How to get it: Comment "claude" on the post to receive the full Claude Mastery Guide
+* How to get it: Comment "claude" on the post to receive the full Claude Mastery Guide (sent by comment or DM; keyword: claude)
 
 ## Caption
 

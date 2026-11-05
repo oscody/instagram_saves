@@ -5,12 +5,12 @@ type: "Carousel"
 author: "web_development_legend"
 shared: "Apr 08, 2026, 06:03 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # GitHub Repos That Make You Dangerous
 
-A six-slide carousel listing five GitHub repositories for learning: Papers We Love, Awesome Distributed Systems, Free for Dev, Project-Based Learning, and OSSU Computer Science. Each slide gives a short description and the repo link.
+A carousel listing five GitHub repositories with a short description and link for each: Papers We Love, Awesome Distributed Systems, Free for Dev, Project-Based Learning, and OSSU Computer Science. The last slide is a profile promo.
 
 Written by claude-haiku-5-5.
 

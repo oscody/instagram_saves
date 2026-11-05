@@ -5,27 +5,27 @@ type: "Carousel"
 author: "benkellyone"
 shared: "Jul 26, 2026, 06:33 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Buying Retiring Boomers' Businesses With SBA Loans
+# Buying boring businesses with SBA 7(a) loans
 
-A six-slide carousel claiming the U.S. government backs SBA loans that let ordinary Americans buy small businesses from retiring owners with little money down. It is built around the author's own example of buying a business with an SBA loan, investor equity and a hired manager.
+A ten-slide carousel by Ben Kelly describing how he says he bought existing small businesses from retiring owners using SBA 7(a) loans, seller financing, and investor equity. It includes his examples (an oil change shop, an accounting firm, a nail salon) and names HVAC, accounting firms, and pest control as industries he would start with.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Look for a boring, already profitable business whose owner is retiring.
-2. Apply for an SBA 7(a) loan, which the post says can cover up to 90% of the price, since the government repays 75% of a failed loan to the bank.
-3. Cover the 10% down payment with an investor or the seller.
-4. Have a 680+ credit score and some management experience.
-5. Hire a general manager, paid by the business, to handle staff, customers and daily operations.
-6. Review the numbers monthly; the post says done this way it takes about 20 hours a week.
+1. Look for an already profitable, boring small business, such as HVAC, accounting firms, or pest control, whose owner is retiring.
+2. Ask a bank for an SBA 7(a) loan; the government backs it, so the bank can lend up to about 90% of the purchase price.
+3. Show your W-2s and tax returns to qualify. The post says you need a credit score of 680+ and some management experience.
+4. Cover the 10% down payment with an investor's equity or with seller financing.
+5. After closing, hire a general manager paid by the business to handle staff, customers, and daily operations.
+6. Stay in the owner role by reviewing the numbers monthly; the post estimates about 20 hours a week on your end.
 
 ## Source
 
-* How to get it: DM the keyword "SMB" to the author
+* How to get it: Full steps are offered only by DM: send the keyword "SMB" to the account.
 
 ## Caption
 

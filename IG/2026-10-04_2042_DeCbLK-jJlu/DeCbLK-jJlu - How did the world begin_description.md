@@ -5,12 +5,12 @@ type: "Carousel"
 author: "photoshopian_benasay"
 shared: "Oct 04, 2026, 08:42 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# African creation stories from several cultures
+# 18 African Creation Stories Explained
 
-A six-slide carousel retelling creation accounts from the Maasai, Yoruba, Bakongo, Ancient Egyptian and Akan traditions. The caption asks readers whether cultural and religious creation accounts should be read literally or as more than stories.
+A carousel of 18 African creation accounts, each with a short summary of how a people explained the beginning of the world and humanity, from Ancient Egypt and the Maasai to the Dogon and Bamana. The caption asks followers whether they read such accounts literally or as more than stories, and the last slide asks which story they find most believable.
 
 Written by claude-haiku-5-5.
 

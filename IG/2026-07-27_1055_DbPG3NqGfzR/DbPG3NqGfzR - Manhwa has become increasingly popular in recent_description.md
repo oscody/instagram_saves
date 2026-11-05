@@ -5,12 +5,12 @@ type: "Carousel"
 author: "editsz.ex"
 shared: "Jul 27, 2026, 10:55 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Manhwa, Manhua, Manga Differences and Recommendations
+# Manhwa vs manhua vs manga and series picks
 
-A carousel that explains how manhwa, manhua and manga differ by country and format, then shows five recommended series with chapter counts and status: Shadow Slave (3112 chapters, ongoing), Reverend Insanity (2334, unfinished), Lord of the Mysteries (2528, completed), Dao of the Bizarre Immortal (1024, completed) and Pursuit of the Truth (1481, completed).
+The carousel opens with a short explainer on manhwa, manhua and manga, then shows 14 recommended series with their chapter counts and status (ongoing, unfinished or completed). Each series gets a title card and several illustrations.
 
 Written by claude-haiku-5-5.
 
@@ -19,8 +19,7 @@ Written by claude-haiku-5-5.
 1. Manhwa are comics from South Korea, usually published in full color, though some are black and white.
 2. Manhua are comics from China and often follow a similar format to manhwa.
 3. Manga are comics from Japan and are traditionally published in black and white.
-4. Identify a work's origin by its country, since each of these comes from a different country and culture.
-5. Label a title by its origin: a Chinese work such as Magic Emperor is a manhua, not a manhwa.
+4. Knowing these differences helps identify where each work comes from, so a manhua should not be called a manhwa.
 
 ## Caption
 

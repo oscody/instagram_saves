@@ -5,12 +5,12 @@ type: "Carousel"
 author: "kicks.force.shop"
 shared: "Oct 15, 2026, 08:13 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Six autumn fits on a budget
+# Six budget autumn men's outfits under £200
 
-A six-slide carousel of men's autumn outfits, each shown with item brands and prices and an outfit total, from a chilled fit (£146.72) to a hypebeast look (£183.99). The caption says every look comes in under £200 and asks viewers to say which one they'd wear.
+A carousel showing six men's autumn outfits (Date Night, Chilled Fit, Minimalist, Lads Night Out, Hypebeast, Soho Kid), each with item-by-item brand names and prices and an outfit total under £200. The caption asks viewers which look they would wear and to save the post for outfit inspiration.
 
 Written by claude-haiku-5-5.
 

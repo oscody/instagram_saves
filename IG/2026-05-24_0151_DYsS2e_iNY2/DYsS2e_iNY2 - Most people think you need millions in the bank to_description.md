@@ -5,26 +5,31 @@ type: "Carousel"
 author: "benkellyone"
 shared: "May 24, 2026, 01:51 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Buying a business with other people's money
+# Buying boring businesses with other people's money
 
-A carousel by Ben Kelly about buying small, established businesses with borrowed money. It walks through a seven-part breakdown, with a $1M business example financed by an SBA loan plus an investor's equity.
+A seven-part carousel by Ben Kelly that lays out how to buy an existing, unglamorous business using an SBA loan and investor equity instead of your own cash. It also covers evaluating the deal and running the business afterward with a general manager.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Find a business worth buying: look on smbmarket.com for businesses with $150k-$500k in annual cash flow, a retiring owner (60+), 10+ years of operating history, recurring revenue or repeat customers, and a team already in place. Boring industries such as accounting, HVAC and trucking are the focus.
-2. Evaluate the deal: request 3 years of tax returns and financial statements, calculate the SDE (Seller's Discretionary Earnings) as the true owner cash flow, and confirm the asking price is 2x-4x SDE.
-3. Check that no single customer makes up 30%+ of revenue, and ask why the owner is selling. If the numbers don't work, look for a different deal.
-4. Structure the financing: an SBA 7(a) loan covers 90% of the purchase price, and you need 10% down.
-5. Bring in a private investor for the down payment in exchange for equity. The example is a $1M business making $400k/year, with a $900K SBA loan, a $100K investor for 15% equity, and $7,916/mo left for the buyer.
+1. Lenders base loans on business performance and assets, and private investors fund deals in exchange for equity in a profitable business, so position yourself as a safe bet and act as the deal maker connecting the right people.
+2. Find a business on smbmarket.com with $150k-$500k in annual cash flow, a retiring owner aged 60+, 10+ years of operating history, recurring revenue or repeat customers, and a team already in place. Look in boring industries such as accounting, HVAC and trucking.
+3. Request 3 years of tax returns and financial statements, and calculate the SDE (Seller's Discretionary Earnings) as the true owner cash flow.
+4. Confirm the asking price is 2x-4x SDE, and check that no single customer is 30%+ of revenue. Ask why the owner is selling. If the numbers don't work, move on to a different deal.
+5. Structure the financing: an SBA 7(a) loan covers 90% of the purchase price and you need 10% down. Cover the 10% with an investor offering 15-20% equity, a seller note where the seller finances part of the deal, or a combination of both.
+6. Qualify for the SBA loan: a 680+ credit score is ideal though 600+ can work, keep $20k-$30k+ in liquid assets, show relevant management or operational experience (corporate career counts), and prepare a solid business plan with help from your lender.
+7. Close the deal: complete due diligence (verify the books, talk to key employees, visit the business), negotiate final terms with the seller, sign the purchase agreement, and the business is yours when funding is delivered. The process typically takes 60-90 days from first offer.
+8. Hire a general manager at $60k-$100k per year to handle daily operations, employees and customers, while you oversee strategy, finances and growth. This lets you keep your W-2 job while the business runs.
+9. Repeat the process. The post claims one business can replace a salary, two can give financial freedom, and three can build generational wealth.
 
 ## Source
 
 * Link: smbmarket.com
+* How to get it: Comment "guide" on the post to receive the free training (sent by comment, not a link in the post)
 
 ## Caption
 

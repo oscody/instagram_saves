@@ -5,18 +5,19 @@ type: "Carousel"
 author: "coding_cosmos"
 shared: "Apr 01, 2026, 03:52 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # GitHub Repos That Make You Dangerous
 
-A carousel showing five GitHub repositories, each with a README screenshot and a short tagline about its focus: papers, distributed systems, free dev tools, project-based learning, and a computer science path.
+A five-slide carousel naming five GitHub repositories with one-line descriptions: Papers We Love, Awesome Distributed Systems, Free for Dev, Project-Based Learning, and OSSU Computer Science. The final slide says the full list with clickable links and "hidden gems" is sent by DM after commenting DANGEROUS.
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* How to get it: Comment DANGEROUS on the post to get the links
+* Link: github.com/papers-we-love/papers-we-love, github.com/theanalyst/awesome-distributed-systems, github.com/ripienaar/free-for-dev, github.com/practical-tutorials/project-based-learning, github.com/ossu/computer-science
+* How to get it: Full list (with clickable links and extra 'hidden gems') sent by DM after commenting DANGEROUS
 
 ## Caption
 

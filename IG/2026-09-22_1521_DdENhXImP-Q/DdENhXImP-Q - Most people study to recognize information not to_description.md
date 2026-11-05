@@ -5,23 +5,24 @@ type: "Carousel"
 author: "passionateincome"
 shared: "Sep 22, 2026, 03:21 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Active recall study method carousel
 
-A six-slide carousel about active recall, arguing that rereading creates a false sense of learning. Its cover headline claims Japan banned a study method, but the caption and slides never mention Japan or a ban.
+An eight-slide carousel arguing that rereading until material feels familiar creates an illusion of learning, and that retrieving answers from memory before checking them works better. The cover headline about Japan banning a study method is not explained or supported anywhere in the slides.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Read only the headings and subheadings, without the explanations, then close the book.
-2. From memory, write down what you think each section is about, even if your answer is wrong.
+1. Read only the headings and subheadings of a section, without reading the explanation yet, then close the book.
+2. From memory, write down what you think each section is about, even if the answer is wrong.
 3. Open the book and compare your answers with the material.
-4. Fill in what you missed, correct what you got wrong, and note what you never thought of.
-5. Repeat the process.
-6. Expect struggle: having to search your memory is where the learning happens, so difficulty is not a sign you are failing.
+4. Fill in what you missed, correct what you got wrong, and notice what you never thought of.
+5. Check, correct, and repeat the cycle.
+6. Treat the struggle to retrieve information as part of the learning, not a sign of failure.
+7. Stop studying just until the page looks familiar; read less and recall more.
 
 ## Caption
 

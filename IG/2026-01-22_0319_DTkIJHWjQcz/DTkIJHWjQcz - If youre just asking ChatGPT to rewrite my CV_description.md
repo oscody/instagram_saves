@@ -5,22 +5,28 @@ type: "Carousel"
 author: "chinyere_agbasiere"
 shared: "Jan 22, 2026, 03:19 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Four ChatGPT prompts for better CV rewriting
+# 10 Better ChatGPT Prompts for Your CV
 
-A six-slide carousel arguing that vague requests like "rewrite my CV" give generic results, and showing four more specific prompts for improving a CV. Each slide pairs a bad prompt with a suggested replacement.
+The carousel argues that vague requests like "rewrite my CV" give generic results, and that specific prompts produce better CV rewrites. Each slide pairs a bad prompt with a more specific prompt for one CV task.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Avoid vague prompts such as "rewrite my CV" or "make this better"; name the specific task and the quality you want.
-2. Turn experience into results, not duties: ask for bullet points showing results, impact and measurable outcomes, using action verbs and staying ATS-friendly.
-3. Match your CV to a specific job: ask the AI to compare your CV with the job description and highlight the relevant skills and keywords recruiters search for.
-4. Fix weak bullet points: ask for rewrites that sound confident, clear and professional without exaggerating your experience.
-5. Create a strong professional summary: ask for a 3–4 line summary for a specific job role with a set number of years of experience, focused on value rather than personality traits.
+1. Give specific instructions instead of vague ones, because clear direction produces better output.
+2. Turn experience into results, not duties: ask for bullet points showing results, impact and measurable outcomes, with action verbs and ATS-friendly wording.
+3. Match the CV to a specific job: paste the job description and ask for the relevant skills and keywords recruiters search for.
+4. Fix weak bullet points: ask for them to sound confident, clear and professional without exaggerating your experience.
+5. Write a profile summary: request a 3-4 line summary for a named role and years of experience, focused on value rather than personality traits.
+6. Remove filler: ask to remove generic phrases and make the CV concise and easy to scan in about 10 seconds.
+7. Make the CV remote-friendly: ask it to highlight remote work skills such as communication, independence, time management and tool usage.
+8. Optimise for ATS: ask to improve formatting, keywords and structure without changing your experience.
+9. Explain employment gaps: ask for a professional, positive explanation on the CV that does not sound defensive.
+10. Tailor one CV for several roles: ask for versions for each named role using the same experience with a different emphasis.
+11. Keep the tone human: ask for a clear, professional tone that sounds confident but not robotic or exaggerated.
 
 ## Caption
 

@@ -5,26 +5,27 @@ type: "Carousel"
 author: "viral.coder"
 shared: "Oct 08, 2026, 09:36 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
-# Five Claude prompts for learning skills faster
+# Six Claude prompts for learning any skill fast
 
-A six-slide carousel presenting five Claude prompt templates, introduced as a "infinite private tutor" mode that can teach any skill. Each slide gives one numbered prompt with bracketed placeholders.
+A seven-slide carousel presenting six named prompts for using Claude as a tutor, each with a bracketed placeholder for the skill or topic. The caption says the full set is sent by DM when you comment "Claude".
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Learning Curve Destroyer: Tell Claude it is a teacher with only a fixed number of hours and will never see you again. Set the objective as being functional in the skill before time runs out. Ban theory without practical use and generic lists. Ask for three things: what to learn first, what to ignore, and the one exercise that matters most. Then have it teach only the first step and wait for your response.
-2. Real Mistake Simulator: Tell Claude not to explain the concept. Put you in a realistic situation where you would use it and would likely make a mistake, then wait for your response. When you err, have it ask one question that helps you find where your reasoning broke, not the answer. Give the answer only after at least two tries, then repeat with a new situation until you answer without hesitation.
-3. Impossible Language Translator: Paste confusing content and ask Claude to first name the one core idea that makes the rest fall into place. Have it explain only that idea using an everyday analogy and no technical terms. Then have it ask three questions that only someone who understood would answer, one at a time, and not move on until all three are passed.
-4. Personal Path Architect: Give Claude your real goal, the specific result you need, the deadline, and what you already know. Ask for a 7-day learning path where each day has one task under 45 minutes, a clear criterion for whether it was done correctly, and what to avoid that day. If the path does not lead to the goal, have Claude rebuild it.
-5. Hidden Gap Detector: State that you think you already master the skill and ask Claude to prove you wrong. Have it ask five questions that seem simple but expose gaps, one at a time, waiting for each answer. After each answer, have it explain what it reveals about what is still missing in your foundation, and to be direct if your answers are shallow.
+1. Learning Curve Destroyer: tell Claude it is a teacher with only 4 hours and no future contact, name the skill, and ask for three things: what to learn first, what to ignore, and one exercise that gives the most advantage. Then have it teach only the first step and wait for your reply.
+2. Real Mistake Simulator: ask Claude not to explain the concept, but to place you in a realistic situation where you would likely make a mistake and wait for your response. When you err, get one question that makes you find where your reasoning broke. Get the answer only after at least two tries, then repeat with a new situation until you answer without hesitation.
+3. Impossible Language Translator: paste the confusing content and ask for the one core idea that makes the rest fall into place. Have it explained only that idea, using an everyday analogy and no technical terms. Answer three questions one at a time, and do not move on until all three are passed.
+4. Personal Path Architect: state your real goal, the specific result, the deadline, and what you already know. Ask for a 7-day learning path where each day has one task under 45 minutes, a clear criterion for success, and what to avoid that day. If the path does not reach the goal, have it rebuilt until it does.
+5. Hidden Gap Detector: say you already master the skill and ask Claude to prove you wrong. Answer five questions that seem simple, one at a time. After each answer, identify what it reveals is still missing in your foundation, and ask for blunt feedback if your answers are shallow.
+6. Forced Feynman Method: after studying a topic, explain it as if to a 10-year-old while Claude waits. Have it stop you at any jargon you cannot define, skipped step, or oversimplification that becomes wrong. At the end, ask what those mistakes reveal about what is still not solid in your understanding.
 
 ## Source
 
-* How to get it: Comment 'Claude' to get all prompts in DM
+* How to get it: Comment 'Claude' to get all prompts sent by DM
 
 ## Caption
 

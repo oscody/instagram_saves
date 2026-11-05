@@ -5,12 +5,12 @@ type: "Carousel"
 author: "tonjakjohnson"
 shared: "Oct 11, 2026, 05:38 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
-# Dark Star: magical HBCU horror novel promo
+# DARK STAR: magical HBCU horror novel promo
 
-An animated carousel promoting the indie horror-fantasy novel DARK STAR by Tonja K. Johnson, described as a magical HBCU story set in a reverse sundown town, with a death cult that hunts colonizers, Hoodoo magic, haints, boo hags, and an all-Black main cast. The final slide shows the book cover and asks readers to add it to Goodreads and StoryGraph.
+A carousel by author Tonja K. Johnson promoting her indie ebook DARK STAR, a magical HBCU horror story set in a reverse sundown town, with a Hoodoo magic system, haints, boo hags, and an all-Black main cast. The slides show animated character art, a book cover, and a Goodreads "Want to Read" page marked not yet published.
 
 Written by claude-haiku-5-5.
 

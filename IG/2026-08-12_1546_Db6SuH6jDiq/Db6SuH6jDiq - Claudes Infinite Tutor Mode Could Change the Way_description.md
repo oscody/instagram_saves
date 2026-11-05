@@ -5,22 +5,23 @@ type: "Carousel"
 author: "theaifield"
 shared: "Aug 12, 2026, 03:46 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Claude Infinite Tutor Mode: Five Prompts
+# Claude Infinite Personal Tutor Prompts
 
-A carousel that presents five prompts for using Claude as a personal tutor, with a cover claiming it can teach any skill from zero in 4 hours. Each slide gives one prompt with bracketed placeholders for the skill, goal or content.
+A carousel about Claude's "Infinite Personal Tutor" mode, presenting six copy-ready prompts with bracketed placeholders for the skill, concept, goal or topic. The caption describes the tutor as guiding learners step by step instead of just giving answers.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Prompt 1 (Learning curve destroyer): Tell Claude it is a teacher with only 4 hours and who will never see you again, with the goal of making you functional in your skill before time runs out. Ask it to skip theory without practical use and lists, and to tell you what to learn first, what to ignore, and which single exercise puts you ahead.
-2. Prompt 2 (Real error simulator): Tell Claude not to explain the concept. Put you in a real situation where you would have to use it and would likely make a mistake. When you err, have it ask a question that makes you find where your reasoning breaks, not give the answer. Give the answer only after at least two attempts, and repeat until you get it right without hesitation.
-3. Prompt 3 (Impossible language translator): Paste confusing content and ask Claude to first name the one sentence that, once understood, makes the rest make sense. Have it explain only that sentence using an everyday analogy with no technical terms, then ask you 3 questions. Do not move on until you pass all three.
-4. Prompt 4 (Personal learning path architect): State your real goal, the specific result you want and the deadline, plus what you already know. Ask for a 7-day learning path where each day has one task under 45 minutes, a clear criterion for whether you did it correctly, and what not to do that day. Ask for a rebuild if the path does not reach the goal.
-5. Prompt 5 (Hidden gap detector): Say you think you already master the skill and ask Claude to prove you wrong. Request 5 questions that seem simple but expose the gaps of someone who has not gone deep. For each of your answers, have it say what the answer reveals is still missing, and to tell you directly if you are being shallow.
+1. Prompt 1 (Learning Curve Destroyer): tell Claude it is a teacher with only 4 hours and will never see you again, and name the skill. Ask for no theory without practical use and no lists. Ask it to name what to learn first, what to ignore, and one exercise that puts you ahead.
+2. Prompt 2 (Real Error Simulator): tell Claude not to explain the concept. Put you in a real situation where you would likely make a mistake. When you err, have it ask a question that shows where your reasoning breaks instead of giving the answer. Only reveal the answer after at least two tries, and repeat until you get it right without hesitation.
+3. Prompt 3 (Impossible Language Translator): paste the confusing content. Ask for the one sentence that, once understood, makes the rest make sense. Have it explain only that sentence, using an everyday analogy with no technical terms. Then answer its 3 questions, and do not continue until you pass all three.
+4. Prompt 4 (Personal Learning Path Architect): state your real goal, the specific result you want, the deadline, and what you already know. Ask for a 7-day path where each day has one task under 45 minutes, a clear criterion for doing it right, and what not to do that day. If the path does not reach the goal, have it rebuild the path.
+5. Prompt 5 (Hidden Gap Detector): say you think you already master the skill and ask Claude to prove you wrong. Have it ask 5 simple-looking questions. After each answer, have it say what your answer reveals is missing from your foundation. Ask it to be direct if your understanding is shallow.
+6. Prompt 6 (Forced Feynman Method): say which topic you just studied and explain it as if to a 10-year-old. Ask Claude to stop you each time you use jargon you don't understand, skip a reasoning step, or oversimplify to the point of being wrong. At the end, have it state what those mistakes reveal about what is still unsolid.
 
 ## Caption
 

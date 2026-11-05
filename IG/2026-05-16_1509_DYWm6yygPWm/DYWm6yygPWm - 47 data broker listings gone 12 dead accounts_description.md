@@ -5,28 +5,29 @@ type: "Carousel"
 author: "evolving.ai"
 shared: "May 16, 2026, 03:09 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Wiping your digital footprint with Claude
+# Wiping your digital footprint with Claude prompts
 
-A carousel retelling a user's X thread about spending about six hours with Claude to remove data broker listings, delete dead accounts and suppress search results. It includes the prompts he says he used.
+A carousel relaying an X thread in which a user says he spent about six hours with Claude removing data broker listings, deleting old accounts, and suppressing search results. The slides walk through the steps and prompts he describes.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
 1. Search your name, email address and phone number on Google and screenshot everything that comes up.
-2. Paste those results into Claude and ask it to sort them into data brokers, social media, old accounts and articles, arranged in deletion priority order.
-3. For data broker sites such as Spokeo, BeenVerified, Whitepages and MyLife, ask Claude to write a CCPA opt-out request with your info and legal references, then send it.
-4. Pick the worst old accounts on justdeleteme.xyz and ask Claude for the full deletion process, not just deactivation, and how to make sure the data is completely erased.
-5. If you are in Turkey, ask Claude for a KVKK Article 7 deletion request; if you are in Europe, use GDPR. Include identity verification language and a 30-day response period.
-6. Check breaches on haveibeenpwned.com and rank them by risk to decide whether to change passwords, enable 2FA or delete the account.
-7. For articles that cannot be removed, outrank them by publishing new content.
+2. Ask Claude to categorize those results as data brokers, social media, old accounts or articles, and arrange them in deletion priority order.
+3. For data broker sites such as Spokeo, BeenVerified, Whitepages and MyLife, ask Claude to write a CCPA opt-out request with your name, email and address, legal references and a professional tone, then send it.
+4. For old forums, apps and tools, go to justdeleteme.xyz, pick the worst ones, and ask Claude for the full deletion process (not just deactivation) and how to make sure the data is completely erased.
+5. If you are in Turkey, ask Claude for a KVKK Article 7 deletion request with identity verification language and a 30-day response period; if you are in Europe, ask for a GDPR deletion request.
+6. For articles that cannot be deleted, ask Claude for five content angles using your name and profession, targeting the same keywords as the bad result, so that new content outranks it (the post says this takes 2-3 months).
+7. Check your email at haveibeenpwned.com, then ask Claude to rank the breaches you appear in by current risk to decide between a password change, 2FA setup, or account deletion.
+8. To prevent future leaks, use SimpleLogin to create a disposable email alias for each new registration and delete an alias if it leaks, and use Brave or Firefox, which block trackers by default.
 
 ## Source
 
-* Link: justdeleteme.xyz, haveibeenpwned.com
+* Link: haveibeenpwned.com
 
 ## Caption
 

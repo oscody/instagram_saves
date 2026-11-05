@@ -5,28 +5,31 @@ type: "Carousel"
 author: "okaashish"
 shared: "Apr 18, 2026, 10:43 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Cutting Claude token usage with five habits
+# 7 Hacks to Cut Claude Token Usage
 
-A carousel on why people run out of Claude tokens early, covering terse-output prompting, a code-structure repo, model choice by task, and converting PDFs before sharing them with Claude.
+The carousel lists seven hacks for using fewer Claude tokens, covering shorter prompts, a code-mapping repo, model choice, PDF handling, session timing, compact summaries and peak hours. It ends with an offer for a fuller guide sent by comment.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Keep inputs clean: remove extra words, avoid repeating context, and be specific, since every message carries past context.
-2. Share only the key points or summaries of long material instead of full data, to get the same task done with fewer tokens.
-3. Use a standing instruction to make Claude answer tersely: drop filler words and articles, give direct answers, use short sentences, run tools first, and skip narrating. The slide shows 127 tokens reduced to 32 for the same async answer.
-4. Give Claude a structured map of a code project (the code-review-graph tool) so it reads the structure rather than every line of the codebase again and again.
+1. Give cleaner, shorter inputs: remove extra words, avoid repeating context, and be specific.
+2. Share only the important parts of data, such as summaries or key points, instead of the full data.
+3. Caveman method: tell Claude to remove filler words (no 'the', 'is', 'am', 'are'), give direct answers in short 3-6 word sentences, run tools first, show the result, then stop without narrating.
+4. For code projects, use a code-review-graph tool so Claude sees a structured map of the code instead of re-reading the whole codebase.
 5. Match the model to the task: Sonnet for code implementation, data analysis, general questions and document summaries; Opus for complex architecture decisions, critical bug diagnosis and nuanced writing; Haiku for quick answers, non-logical tasks and simple daily tasks.
-6. Do not upload PDFs straight to Claude: upload the PDF to ChatGPT, ask it to strip filler and extract the core info as condensed plain text with key points, then paste that output into Claude.
+6. Don't upload PDFs directly to Claude: upload the PDF to ChatGPT, prompt it to remove filler and extract the core info as condensed plain text with key points, copy the output and paste it into Claude.
+7. Session timing: your 5-hour window starts with your first message, so send a basic message (e.g. 'hey') 2-3 hours before you need Claude to start the window early.
+8. Compact skill: create a skill so that saying 'COMPACT' summarizes the conversation into 5-7 bullet points with critical context, decisions and code snippets, formatted for pasting into a new chat.
+9. Avoid peak hours, which burn tokens faster: weekdays 5am-11am PT (1pm-7pm GMT). Prefer weekends, weekday evenings, and late night or early morning.
 
 ## Source
 
 * Link: github.com/tirth8205/code-review-graph
-* How to get it: The full guide is sent by comment: comment "Claude" on the post
+* How to get it: Comment "Claude" on the post to get the full guide
 
 ## Caption
 

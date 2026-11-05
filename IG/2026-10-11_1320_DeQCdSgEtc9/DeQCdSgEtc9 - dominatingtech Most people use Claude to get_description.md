@@ -5,25 +5,23 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Oct 11, 2026, 01:20 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
 # Six Prompts to Turn Claude into a Tutor
 
-The carousel presents prompts for using Claude as a personal tutor that guides learning instead of giving answers. Five prompt slides are shown, though the caption refers to six.
+A carousel of six prompts meant to make Claude guide learning step by step, quizzing and correcting you instead of just giving answers. The last slide is a follow prompt and is not part of the teaching.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Time-box the session: tell Claude it has only a set time with you and must make you functional in one specific skill, with no theory lacking practical use and no generic lists.
-2. Ask for three things up front: what to learn first, what to ignore, and the one exercise that would help most. Then have it teach only the first step and wait for your response.
-3. Practice in simulated real situations: have Claude put you in a realistic scenario where you would likely make a mistake, then wait for your answer.
-4. When you err, have Claude ask one question that exposes where your reasoning breaks rather than giving the answer. Only reveal the answer after at least two attempts, then repeat with a new scenario until you get it right without hesitation.
-5. For confusing material, paste the content and have Claude first name the one core idea, explain only that idea with an everyday analogy and no technical terms, then ask three questions one at a time.
-6. Do not move on until you answer all three correctly.
-7. Build a learning path: state your real goal, the specific result, the deadline, and what you already know. Ask for a 7-day plan where each day has one task under 45 minutes, a clear success criterion, and what to skip that day. Have Claude rebuild the plan until it reaches the goal.
-8. Test whether you already know a skill: ask Claude to pose five simple-seeming questions one at a time, have it explain after each answer what gaps remain, and ask it to be blunt if your answers are shallow.
+1. Learning Curve Destroyer: state that Claude is a teacher with only a fixed time (e.g. 4 hours) and that the goal is to make you functional in a skill; ask it for the first thing to learn, what to ignore, and one exercise to do; have it teach only the first step and wait for your reply.
+2. Real Error Simulator: ask for a realistic situation where you would likely make a mistake instead of an explanation; when you err, get a single question that shows where your reasoning breaks; get the answer only after at least two attempts, and repeat with new situations until you answer without hesitation.
+3. Impossible Language Translator: paste confusing content, have Claude name the one core idea first, explain only that idea with an everyday analogy and no technical terms, then ask three questions one at a time and move on only after you pass all three.
+4. Personal Learning Path Architect: state your real goal, the specific result, and the deadline, plus what you already know; ask for a 7-day path where each day has one task under 45 minutes, a clear success criterion, and what to skip; if the path does not reach the goal, have it rebuilt.
+5. Hidden Gap Detector: say you think you already master the skill and ask Claude to challenge you with five simple-looking questions, one at a time; after each answer, have it state what the answer reveals is missing, and ask it to be direct if you are being shallow.
+6. Forced Feynman Method: after studying a topic, explain it as if to a 10-year-old while Claude stops you at any jargon you cannot define, skipped step, or oversimplification; at the end, have it say what those mistakes show about what is still not solid.
 
 ## Caption
 

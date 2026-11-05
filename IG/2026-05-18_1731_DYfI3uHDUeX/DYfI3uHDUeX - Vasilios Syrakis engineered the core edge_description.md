@@ -5,20 +5,21 @@ type: "Carousel"
 author: "series"
 shared: "May 18, 2026, 05:31 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Atlassian engineer's edge infrastructure: Envoy and sidecars
+# Atlassian laid-off engineer's edge infrastructure breakdown
 
-A news-style carousel reporting that Atlassian laid off senior engineer Vasilios Syrakis, who then posted a 38-minute YouTube video on the edge infrastructure he built there. It explains two technical terms from that video, Envoy and the sidecar pattern, in plain English.
+A news-style carousel from @series about Atlassian laying off systems engineer Vasilios Syrakis, who then posted a 38-minute video on the edge infrastructure he built. Slides summarize four technologies it describes: Envoy, sidecars, DynamoDB with SQS, and Packer with SaltStack.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Use Envoy, a free and open-source proxy, instead of enterprise load balancers: it is built to scale, handles the same traffic, and costs much less.
-2. Use the sidecar pattern for shared concerns such as auth, logging and rate limits, instead of having each team build them separately.
-3. Put the sidecar's pieces (service directory, server load balancer, circuit breaker and throttling, service routing) beside each service so one system covers everything.
+1. Use Envoy proxy instead of enterprise load balancers: it is free, open-source and built to scale, and can carry the same traffic at much lower cost.
+2. Put shared concerns such as auth, logging and rate limits in a sidecar alongside each service, so one system covers all services instead of each team building its own.
+3. For bursts of thousands of requests, use DynamoDB + SQS for async provisioning: requests wait in queues so the platform does not slow down.
+4. Automate VM deployments with Packer + SaltStack so infrastructure is defined as code and servers deploy in minutes instead of by manual setup across regions.
 
 ## Caption
 

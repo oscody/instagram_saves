@@ -5,22 +5,21 @@ type: "Carousel"
 author: "editsz.ex"
 shared: "Aug 14, 2026, 08:04 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Manhwa Old Age vs Prime Comparisons
+# Manhwa, manhua, manga: telling them apart
 
-A six-slide carousel that pairs each character's old age with their prime, labeled 1 to 6: Superhuman Era, The Reincarnation of the Veteran Soldier, Villain to Kill, Lookism, Becoming the Cheon Clan's Mad Dog, and Manager Kim. The caption also explains how manhwa, manhua, and manga differ by country and color style.
+An 8-slide carousel pairs "old age" and "his/her prime" panels from eight manhwa, with a caption that defines manhwa and contrasts it with manhua and manga.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
 1. Manhwa are comics from South Korea, usually published in full color, though some are black and white.
-2. Manhua are comics from China and often follow a format similar to manhwa.
+2. Manhua are comics from China and often follow a similar format to manhwa.
 3. Manga are comics from Japan and are traditionally published in black and white.
-4. Identify a work's origin by its country, because manhwa, manhua, and manga come from different countries and cultures.
-5. Do not call a work a manhwa if it is a manhua (for example, Magic Emperor is a manhua).
+4. Identify a work by its country of origin: for example, Magic Emperor is a manhua, so calling it a manhwa would be incorrect.
 
 ## Caption
 

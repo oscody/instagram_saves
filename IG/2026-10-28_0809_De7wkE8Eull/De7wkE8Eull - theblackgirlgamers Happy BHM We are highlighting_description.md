@@ -6,18 +6,18 @@ author: "theblackgirlgamers"
 shared: "Oct 28, 2026, 08:09 AM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-30"
+described_at: "2026-11-03"
 ---
 
-# Black Developers' Games for Black History Month
+# Black-Made Games for Black History Month
 
-A Black History Month carousel introducing six games made by Black developers, from indie titles to what it calls the first video game studio in Central Africa. Each slide lists the year, platforms, genre and a short description of the game.
+A Black History Month carousel showcasing six games made by Black developers across the globe, including Toss Down, Aurion: Legacy of the Kori-Odan, Circuit Chakula, Gravity's Edge, DropShot, and Virago: Twisted Reality. Each slide gives the year, platforms, genres, and a short description of the game.
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* How to get it: comment 'games' to receive a direct link to the article by DM
+* How to get it: Comment "games" to get a direct link to the article
 
 ## Caption
 

@@ -5,19 +5,18 @@ type: "Carousel"
 author: "michellescomputer"
 shared: "Feb 13, 2026, 12:29 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Virtual hackathons to submit to this month
 
-A six-slide carousel listing virtual hackathons, with slides naming events such as Colosseum Eternal, Built with Opus 4.6, the Reddit Games GameMaker hackathon and Apple's Swift Student Challenge, along with their dates, deadlines and prizes. The caption says all of them are virtual.
+A carousel listing several hackathons with dates and prizes: Colosseum Eternal (no deadline, crypto products), Built with Opus 4.6 (a Claude Code hackathon, Feb 10-16), the Reddit Games Hackathon with GameMaker prizes (ends Feb 12), Apple's Swift Student Challenge (submissions Feb 6-28, 2026), DeveloperWeek Hackathon (online Feb 2-20, $9,000 in prizes), and Hack Club Blueprint for teens ages 13 to 18 (ends March 31, 2026).
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* Link: https://developer.apple.com/swift-student-challenge
-* How to get it: comment "build" to receive the links (sent by the account)
+* How to get it: Comment "build" to receive the links
 
 ## Caption
 

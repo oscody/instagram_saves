@@ -5,14 +5,23 @@ type: "Carousel"
 author: "graystonetrading"
 shared: "Oct 09, 2026, 02:57 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-14"
+described_at: "2026-11-03"
 ---
 
-# Purported 1983 CIA file on simulation and consciousness
+# Claimed 1983 CIA file: consciousness and "patterning" steps
 
-A six-slide carousel that presents a purported 1983 CIA classified file claiming the universe is a hologram that consciousness can control, with the "page 25" method teased but not shown. It ends by directing viewers to the bio link for a free live masterclass.
+A 13-slide carousel presents a claimed 1983 CIA "classified file" saying the universe is a hologram that consciousness can control, then lists a five-step procedure from that file. It ends by pitching a paid live masterclass through the bio link.
 
 Written by claude-haiku-5-5.
+
+## What it teaches
+
+1. Patterning (the mechanism named in the file): hold one clear picture of what you want and project it into the field as something already settled, not as a wish.
+2. Step 1, silence the left brain: lie down with binaural audio or deep humming so both hemispheres are synchronised, with the body at the threshold of sleep and the mind still alert.
+3. Step 2, build the energy balloon: draw energy from the top of the head, down through the body and back up until it surrounds you, vibrating in coherence with the earth's field at 7 to 7.5 Hz.
+4. Step 3, expand awareness past the body: this is the threshold where the mind starts interacting with the field.
+5. Step 4, project the pattern with total conviction that it is already established.
+6. Step 5, release it and come back: the answer arrives days later, whole, with no explanation.
 
 ## Caption
 

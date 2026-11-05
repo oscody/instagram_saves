@@ -5,22 +5,33 @@ type: "Carousel"
 author: "codewithharshad"
 shared: "Dec 28, 2025, 08:44 AM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
 # Switching from Software Engineer to AI Engineer
 
-A six-slide carousel comparing Software Engineer and AI Engineer roles, with salary and job-opening charts. It contrasts AI engineering with ML engineering and shows the three layers of the AI engineering stack.
+An 18-slide carousel that contrasts AI engineering with ML engineering, explains the three-layer AI stack, and lays out a phased learning path for software engineers moving into AI work.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. AI engineering means building real products with existing models, not training models.
-2. ML engineering covers training models, tuning weights, working on datasets, and heavy math and research; AI engineering covers using existing models, building products, and optimizing cost, speed and UX.
-3. No ML or math background is needed to make the switch.
-4. Existing software engineering skills carry over: APIs, backend, frontend, databases and system design make up most of the work (the post says about 75%).
-5. The AI engineering stack has three layers: application, model and infrastructure. Software engineers mostly work in the application layer.
+1. AI engineering means building products with existing models, not training models; ML engineering covers training, tuning weights, datasets, and heavy math.
+2. Use your software engineering skills (APIs, backend, frontend, databases, system design) as the base, since most AI engineering work is software engineering.
+3. Understand the three layers of the AI stack: application, model, and infrastructure. Software engineers mostly work in the application layer.
+4. In the application layer, focus on prompt engineering, evaluation, and AI interfaces (chat, web, agents). Tools mentioned: Streamlit, Gradio, Vercel AI SDK.
+5. In the model interaction layer, use models from OpenAI, Claude, or open-source sources through their APIs, and learn token control, latency handling, and cost optimization.
+6. Leave infrastructure (GPUs, scaling, monitoring, deployment) for later and learn it on the job.
+7. Phase 1 (weeks 1-4): learn Python basics, APIs and JSON, Git and GitHub, and clean code habits. No ML yet.
+8. Phase 2 (weeks 5-8): learn prompt engineering, structuring role, instructions and examples, the OpenAI API, Hugging Face basics, and token and cost control.
+9. Phase 3: learn LangChain, RAG, vector databases, AI agents, and the Model Context Protocol (MCP).
+10. RAG process: convert data to embeddings, store them in a vector database, retrieve relevant chunks, then feed them into the model.
+11. Production skills for AI systems: prompt versioning, evaluation pipelines, monitoring hallucinations, CI/CD for AI, and cost and latency tracking.
+12. Build and ship portfolio projects such as chat with PDFs (RAG), chat with databases (text to SQL), an AI email automation agent, or an internal company chatbot, and document everything.
+
+## Source
+
+* How to get it: Resources are offered by comment: comment 'AI'
 
 ## Caption
 

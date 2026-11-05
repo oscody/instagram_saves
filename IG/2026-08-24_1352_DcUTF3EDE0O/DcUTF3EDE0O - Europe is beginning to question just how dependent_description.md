@@ -5,23 +5,24 @@ type: "Carousel"
 author: "theaifield"
 shared: "Aug 24, 2026, 01:52 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Privacy alternatives to Big Tech services
+# Alternatives to Big Tech services in Europe
 
-A six-slide carousel that opens with the claim that European countries are moving away from American Big Tech, then names privacy-focused alternatives to Gmail, Google Search, Google Drive, Chrome, WhatsApp and iMessage. The caption also mentions LibreOffice, Organic Maps and OsmAnd.
+A nine-slide carousel on Europe moving away from American Big Tech, with a privacy-focused alternative suggested for Gmail, Google Search, Google Drive, Chrome, WhatsApp and iMessage, Microsoft Office, and Google Maps. The final slide is a newsletter promotion.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Replace Gmail: Gmail processes email content for features and security, so try Proton Mail (based in Switzerland, end-to-end encryption available, free tier) and start by moving your most sensitive emails there first.
-2. Replace Google Search: search results can feed Google's advertising and personalization, so try DuckDuckGo by setting Browser Settings → Search Engine → DuckDuckGo.
-3. Replace Google Drive: cloud files with major US providers can fall under US legal requirements, so use Proton Drive for encrypted cloud storage or keep highly sensitive files locally on an encrypted drive, and use cloud storage more selectively.
-4. Replace Chrome: try Brave or Firefox, which offer stronger privacy controls and tracker blocking; download one, import your bookmarks, then switch over.
-5. Replace WhatsApp and iMessage: both are operated by US companies and subject to US law, so try Signal (open source, end-to-end encrypted, free, collects very little user data) and move your most sensitive conversations there.
-6. Replace Microsoft Office with LibreOffice and Google Maps with Organic Maps or OsmAnd (named in the on-screen text and caption; no detailed steps shown in the slides).
+1. Gmail: try Proton Mail (Swiss-based, end-to-end encryption available, free tier) and start by moving your most sensitive emails there first.
+2. Google Search: in browser settings, go to Search Engine and choose DuckDuckGo.
+3. Google Drive: use Proton Drive for encrypted cloud storage, or keep highly sensitive files locally on an encrypted drive, and use cloud storage more selectively.
+4. Chrome: download Brave or Firefox, import your bookmarks, then switch over.
+5. WhatsApp and iMessage: try Signal (open source, end-to-end encrypted, free) and move your most sensitive conversations there.
+6. Microsoft Office: for documents that stay primarily on your own machine, use LibreOffice, which works offline and supports common Word, Excel, and PowerPoint formats.
+7. Google Maps: try Organic Maps or OsmAnd, which both use OpenStreetMap data and support offline navigation.
 
 ## Caption
 

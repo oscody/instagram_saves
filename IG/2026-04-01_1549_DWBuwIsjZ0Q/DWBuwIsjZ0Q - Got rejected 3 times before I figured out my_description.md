@@ -5,26 +5,32 @@ type: "Carousel"
 author: "anubhavhingg"
 shared: "Apr 01, 2026, 03:49 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# AI prompts to fix each resume section
+# Resume prompts for Claude or Gemini by section
 
-A carousel of AI prompts for improving a resume section by section, shown as slides for the summary, bullet points, keywords, career changes and a full-resume audit. The post promotes a fuller set of 12 prompts that is sent on request.
+A carousel of copy-paste AI prompts for fixing a resume one section at a time, including summary, bullet points, ATS keywords, layout and a hiring-manager review. The full set is sent by comment, not shown in the post.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
-1. Summary: paste your current professional summary and fill in the job title and industry, then ask for a more concise, engaging rewrite that fits the role and reflects your strengths, skills and years of experience.
-2. Work experience: paste the bullet points for one past role and ask for them to focus on measurable accomplishments instead of generic responsibilities, using strong action verbs and numbers or metrics wherever possible.
-3. Keywords: paste the job description and ask for relevant keywords and phrases from the posting to be added naturally, so the resume passes ATS filters and still reads well to human recruiters.
-4. Career change: name your previous field and the new field, then ask for the summary and key achievements to highlight transferable skills and make the case for fit without direct experience.
-5. Full resume audit: ask for feedback on where the resume is too vague, too wordy or lacks impact, plus notes on tone, structure, and how to better emphasize leadership, results or innovation.
+1. Give your resume to Claude or Gemini and ask for feedback on each section.
+2. Rewrite the summary: fill in the job title and industry, then ask for a concise, engaging summary that reflects your strengths, skills and years of experience.
+3. Rework past role bullets around measurable results: use strong action verbs and include numbers or metrics wherever possible.
+4. Paste the target job description and add its relevant keywords and phrases to the resume in a natural way, so it passes ATS filters and still reads well to recruiters.
+5. If you are changing careers, rewrite the summary and key achievements to highlight transferable skills from your previous field.
+6. Ask for an audit of the whole resume that flags vague, wordy or low-impact lines, with feedback on tone, structure, leadership, results and innovation.
+7. Write a short headline and subheadline that state the role you want, your value proposition and what makes you stand out.
+8. Ask for help writing a technical skills section: what to list and how to format it, based on your experience.
+9. Restructure work history to match a target job description, aligning language and phrasing with its core skills and qualifications.
+10. Ask for a layout that puts your most recent experience and key skills first, de-emphasizes older roles, and can be scanned in under 10 seconds.
+11. Ask the AI to act as a hiring manager for your industry or role, then list what would make it invite you to interview and what to change, cut or add.
 
 ## Source
 
-* How to get it: Comment "Guide" to receive the full set of prompts (sent by the account, not included in the post)
+* How to get it: Comment "Guide" on the post; the full prompts are sent by comment, not shown in the carousel
 
 ## Caption
 

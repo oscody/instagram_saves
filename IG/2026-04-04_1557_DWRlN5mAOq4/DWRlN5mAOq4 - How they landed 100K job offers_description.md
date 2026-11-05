@@ -5,28 +5,29 @@ type: "Carousel"
 author: "mypersonalmentors"
 shared: "Apr 04, 2026, 03:57 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Using Claude to find matching job postings
+# Using Claude to find tailored job postings
 
-A six-slide carousel showing Claude with web search and connectors finding 20 job openings matched to an uploaded resume, with a sample job posting and a note on reaching out to the hiring manager. The full prompt and templates are offered by comment only.
+A carousel showing how to use Claude with web search and a job-scraping connector to pull job matches from a resume, then reach out to the hiring manager with a cold email template. The full prompt and templates are offered by comment.
 
 Written by claude-haiku-5-5.
 
 ## What it teaches
 
 1. Open Claude, click + then Connectors, add Apify, and enable Web search.
-2. Upload your resume to Claude.
-3. Paste this prompt: "Analyze my resume and find 20 job opening that match my skills and experience. Search across job boards and company websites."
-4. Review the list Claude builds from job boards, company pages and LinkedIn, which shows job title, company, location, salary range, skills required and apply link.
-5. Don't stop at Apply: go to the company page and find the hiring manager.
-6. Use Apollo to find the hiring manager's email.
-7. Send a cold email to the hiring manager, and do it Monday AM.
+2. Upload your resume and paste this prompt: "Analyze my resume and find 20 job opening that match my skills and experience. Search across job boards and company websites."
+3. Review the results: Claude lists job matches with job title, company, location, salary range, skills required, and an apply link.
+4. Don't stop at the Apply button. Open the company page and find the hiring manager.
+5. Find the hiring manager's email using Hunter.io or Apollo.io.
+6. Ask for a referral first, then find their email, then send a cold email.
+7. Use a cold email template that introduces your skills, mentions something specific about the company, asks for a 15-minute coffee chat, and asks the recipient to pass it to HR if they are busy.
+8. Send the email on Monday at 9 AM.
 
 ## Source
 
-* How to get it: Comment "CLAUDE" on the post to receive the exact prompt and templates
+* How to get it: Full prompt and templates are sent when you comment "CLAUDE"
 
 ## Caption
 

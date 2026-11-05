@@ -5,12 +5,12 @@ type: "Carousel"
 author: "theaifield"
 shared: "Oct 28, 2026, 12:19 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-28"
+described_at: "2026-11-03"
 ---
 
-# 21 AI Takeaways from Greg Isenberg's SF Trip
+# Greg Isenberg's 21 AI takeaways from San Francisco
 
-A six-slide carousel recapping Greg Isenberg's reported 48 hours in San Francisco with AI founders and executives, through 21 numbered observations. The points cover data brokers selling to AI labs, agent harnesses, SaaS value shifting to data, robotics deployment, agent cybersecurity and insurance, and startup distribution.
+The carousel relays 21 observations attributed to Greg Isenberg from 48 hours in San Francisco with AI founders and executives, covering data brokers, AI agents, legacy SaaS, startup retention, distribution, and cybersecurity. The final slides promote a free AI newsletter.
 
 Written by claude-haiku-5-5.
 

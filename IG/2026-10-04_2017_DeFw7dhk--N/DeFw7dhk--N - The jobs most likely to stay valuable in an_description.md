@@ -5,12 +5,12 @@ type: "Carousel"
 author: "dominatingtech"
 shared: "Oct 04, 2026, 08:17 PM"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-08"
+described_at: "2026-11-03"
 ---
 
-# Tech jobs that will still exist with AI
+# Tech jobs that will still exist
 
-A carousel that presents tech careers tied to physical hardware and hands-on work, such as embedded systems, robotics, electrical, cybersecurity, and network engineering, each with a one-line description. The caption asks which career followers think AI will find hardest to replace.
+A nine-slide carousel arguing that physical, hands-on tech jobs may stay valuable as AI grows. Each slide names one role (embedded systems, robotics, cybersecurity, electrical, network, field service, semiconductor engineer) with a one-line description, and the caption asks which career viewers think AI will find hardest to replace.
 
 Written by claude-haiku-5-5.
 

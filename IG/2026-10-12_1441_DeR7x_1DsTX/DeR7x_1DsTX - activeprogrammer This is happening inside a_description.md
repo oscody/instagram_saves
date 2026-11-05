@@ -6,12 +6,12 @@ author: "activeprogrammer"
 shared: "Oct 12, 2026, 02:41 PM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Games and 3D worlds running in a browser
+# Five games and 3D worlds running in browsers
 
-A six-slide carousel showing five examples of games and 3D worlds running in a browser tab: a Skate 3 fan project, a 3D creek scene, an endless code-generated city, a Fortnite demo, and a GTA V demo. The caption notes that the Skate 3 project needs your own converted game files, the Fortnite demo still stutters, and the unofficial GTA V project reportedly went offline shortly after launch.
+A carousel showing five examples of games and 3D worlds running inside a web browser: a Skate 3 fan project, a "Cozy Creek" 3D scene, the GigaCity endless city, a Fortnite demo, and a GTA V project. The caption notes that the Skate 3 project uses your own converted game files, the Fortnite demo still stutters, and the GTA V project reportedly went offline shortly after launch.
 
 Written by claude-haiku-5-5.
 

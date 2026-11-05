@@ -6,23 +6,22 @@ author: "marmaladecollective"
 shared: "Sep 01, 2026, 11:38 AM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
 # African sci-fi films you should know
 
-A Marmalade carousel listing African science fiction films, with a short description of each: Atlantics, Bam Bam, Neptune Frost, Iwaju and Pumzi. It points readers to a full guide in the link in bio.
+A carousel introducing seven African science fiction films: Atlantics, Bam Bam, Neptune Frost, Iwaju, Pumzi, The Last Angel of History and Afronauts, each with a short description of its story and background. It closes with a call to read more at marmaladecollective.com.
 
 Written by claude-haiku-5-5.
 
 ## Source
 
-* Link: marmaladecollectivecom
-* How to get it: full guide via link in bio
+* Link: marmaladecollective.com
 
 ## Caption
 
-Science fiction has spent decades imagining a future with barely any Black or African people in it. These 7 films push back, blending mythology, technology and history into something that feels both ancient and brand new.
+Science fiction has spent decades imagining a future with barely any Black or African people in it. These 7 films push back, blending mythology, technology and history into something that feels both ancient and brand new. 
 
 Read the full guide in the link in bio🔗
 

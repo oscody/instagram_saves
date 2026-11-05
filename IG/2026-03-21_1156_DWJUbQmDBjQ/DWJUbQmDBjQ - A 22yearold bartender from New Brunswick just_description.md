@@ -6,14 +6,18 @@ author: "theaifield"
 shared: "Mar 21, 2026, 11:56 AM"
 transcribed_by: "groq whisper-large-v3-turbo"
 described_by: "claude-haiku-5-5"
-described_at: "2026-10-15"
+described_at: "2026-11-03"
 ---
 
-# Bartender's likeness licensed for AI series
+# Higgsfield AI licenses bartender's likeness for Arena Zero
 
-A news-style carousel saying Higgsfield AI licensed the likeness of a 22-year-old New Brunswick bartender for over $1M to star in "Arena Zero," presented as the first full-length AI series. It shows a real set photo, subtitled AI-generated clips, and ends by asking for opinions; the post is tagged #higgsfieldpartner.
+A sponsored post (#higgsfieldpartner) saying Higgsfield AI licensed the likeness of a 22-year-old New Brunswick bartender, Adil, for over $1M to star in Arena Zero, which it calls the first full-length AI TV series. The slides show clips from the show and point to higgsfield.ai/series for episode one.
 
 Written by claude-haiku-5-5.
+
+## Source
+
+* Link: higgsfield.ai/series
 
 ## Caption
 
