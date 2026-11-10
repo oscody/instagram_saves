@@ -1,5 +1,5 @@
 {
- "note": "Focus topics and sources, from the vault note 'claude - Focus topics - coding agents and agent skills' (2026-10-23). library_topics are the knowledge_library topic slugs whose Valid saves teach the filter your taste.",
+ "note": "Focus topics and sources, from the vault note 'Focus topics - coding agents and agent skills by claude' (2026-10-23). library_topics are the knowledge_library topic slugs whose Valid saves teach the filter your taste.",
  "topics": [
   {
    "slug": "coding-agents",

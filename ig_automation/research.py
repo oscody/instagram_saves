@@ -29,7 +29,8 @@ RESULTS_FILE = OUTPUT_DIR / "research.json"
 LOG_FILE = OUTPUT_DIR / "pipeline.log"
 TOPICS_FILE = HERE.parent / "knowledge_library" / "topics.json"
 # First folder that exists is the vault. IG_VAULT or --vault overrides it.
-VAULT_GUESSES = [Path.home() / "Dev/obsidian/Bogle", Path.home() / "Work/obsidian/Bogle", Path.home() / "obsidian/Bogle"]
+VAULT_GUESSES = [Path.home() / "Dev/obsidian/Bogle", Path.home() / "Work/obsidian/Bogle", Path.home() / "obsidian/Bogle",
+                 Path.home() / "Work/2025Secondbrain"]  # last one is the Pi
 # Library notes list every post, so a match there says nothing about the post.
 VAULT_SKIP_DIRS = {"Vault knowledge library", "Media"}
 
@@ -228,6 +229,8 @@ def load_vault(vault: Path) -> dict:
 def vault_hints(note_text: str, shortcode: str, vault_texts: dict) -> list:
     """Vault notes that mention the post, its creator or a link from it, as (path, reason), best first."""
     author = front_value(note_text, "author").lower()
+    if author in ("null", "none", "unknown"):  # notes with no author say author: null
+        author = ""
     domains = set()
     for url in re.findall(r"(?:https?://)?(?:www\.)?([a-z0-9-]+(?:\.[a-z0-9-]+)+)(/[^\s)\]]*)?", note_text.lower()):
         host = url[0]

@@ -42,9 +42,10 @@ IG_DIR = HERE.parent / "IG"
 TOPICS_FILE = HERE.parent / "knowledge_library" / "topics.json"
 TASTE_PER_TOPIC = 15
 
-VAULT_GUESSES = [Path.home() / "Dev/obsidian/Bogle", Path.home() / "Work/obsidian/Bogle", Path.home() / "obsidian/Bogle"]
+VAULT_GUESSES = [Path.home() / "Dev/obsidian/Bogle", Path.home() / "Work/obsidian/Bogle", Path.home() / "obsidian/Bogle",
+                 Path.home() / "Work/2025Secondbrain"]  # last one is the Pi
 VAULT_DIGEST_DIR = Path("ZAIHub/Interest digest")
-FOCUS_NOTE = "claude - Focus topics - coding agents and agent skills"
+FOCUS_NOTE = "Focus topics - coding agents and agent skills by claude"
 
 USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
               "Chrome/130 Safari/537.36")  # Reddit refuses non browser agents

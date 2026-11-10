@@ -466,7 +466,7 @@ Posts that already have a Research section are skipped unless `--redo`. `describ
 
 ### How it finds vault notes
 
-Before calling Claude it scans the vault for notes that mention the post's shortcode, its creator's handle or a link from the post, and lists up to 8 of them in the prompt. Claude can also Read and Grep the vault itself (`--add-dir`). The vault is `--vault`, else `IG_VAULT`, else the first of `~/Dev/obsidian/Bogle`, `~/Work/obsidian/Bogle`, `~/obsidian/Bogle` that exists. With no vault it skips that step. Notes in `Vault knowledge library` are ignored, since they list every post.
+Before calling Claude it scans the vault for notes that mention the post's shortcode, its creator's handle or a link from the post, and lists up to 8 of them in the prompt. Claude can also Read and Grep the vault itself (`--add-dir`). The vault is `--vault`, else `IG_VAULT`, else the first of `~/Dev/obsidian/Bogle`, `~/Work/obsidian/Bogle`, `~/obsidian/Bogle`, `~/Work/2025Secondbrain` (the Pi) that exists. With no vault it skips that step. Notes in `Vault knowledge library` are ignored, since they list every post.
 
 ### Options
 
