@@ -12,6 +12,7 @@ transcript and the on screen text (on the Pi), those are sent too; on the Mac co
 """
 
 import argparse
+import fcntl
 import json
 import logging
 import os
@@ -22,11 +23,15 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
+import dead_ends
+
 HERE = Path(__file__).resolve().parent
 IG_DIR = HERE.parent / "IG"
 OUTPUT_DIR = HERE / "output"
 RESULTS_FILE = OUTPUT_DIR / "research.json"
 LOG_FILE = OUTPUT_DIR / "pipeline.log"
+# Held while posts are researched, so a run by hand and the pipeline's research step never overlap.
+LOCK_FILE = OUTPUT_DIR / "research.lock"
 TOPICS_FILE = HERE.parent / "knowledge_library" / "topics.json"
 # First folder that exists is the vault. IG_VAULT or --vault overrides it.
 VAULT_GUESSES = [Path.home() / "Dev/obsidian/Bogle", Path.home() / "Work/obsidian/Bogle", Path.home() / "obsidian/Bogle",
@@ -45,6 +50,7 @@ HEADING = "## Research"
 RESEARCH_RE = re.compile(r"^## Research\n.*?(?=^## |\Z)", re.M | re.S)
 INPUT_LIMITS = {"note": 8000, "transcript": 12000, "on screen text": 4000}
 MAX_VAULT_HINTS = 8
+MAX_IG_POSTS = 8  # saved posts listed under "Already in IG saves"
 EXCERPT_CONTEXT = 3  # lines kept above and below each match in a vault note
 EXCERPT_CHARS = 1500  # per vault note
 # A bare site name with no path matches hundreds of vault notes, so it is not a hint.
@@ -61,6 +67,7 @@ CLAUDE_SYSTEM = (
     "(repo, guide, tool, prompt, product, paper, event or page), check whether the post's main claim holds up, "
     "and pull out the key steps needed to use the resource. "
     "Check the user's Obsidian vault first: it may already hold the resource, the link or the steps. Then search the web. "
+    "Also check the user's other saved posts for the same resource or something that does the same job. "
     "Never invent links. Only report a URL you saw in the post, in a vault note, in search results, or opened with WebFetch, "
     "and say how you found it. Mark a resource verified only after you opened it and it matched the post "
     "(same names, features, author or visuals). "
@@ -76,6 +83,10 @@ CLAUDE_ASK = (
     "3. If the vault does not already have the resource, search: the creator's public profile and site, GitHub, "
     "and the web, using distinctive names and on screen text.\n"
     "4. Open the best candidate with WebFetch and confirm it matches the post.\n"
+    "4b. Saved posts: Grep the IG folder above (only files named *_description.md, and not this post's own folder) "
+    "for the resource's distinctive names. List posts that are the same resource (same) and posts about a different "
+    "tool or guide that does the same job (similar). Use the shortcode from each note's front matter. "
+    "Skip this step for nothing_to_find posts, and leave out posts that only share a broad topic.\n"
     "5. Steps: up to 8 key steps or prompts from the resource itself, needed to get and use it. "
     "If the resource adds nothing beyond the post's own steps, leave steps empty."
 )
@@ -119,10 +130,23 @@ CLAUDE_SCHEMA = json.dumps({
                 "required": ["path", "covers"],
             },
         },
+        "ig_posts": {
+            "type": "array",
+            "description": "Other saved posts with the same resource or a close alternative.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "shortcode": {"type": "string"},
+                    "relation": {"type": "string", "enum": ["same", "similar"]},
+                    "why": {"type": "string", "description": "What it shares with this post, in one sentence."},
+                },
+                "required": ["shortcode", "relation", "why"],
+            },
+        },
         "steps": {"type": "array", "items": {"type": "string"}},
         "not_found": {"type": ["string", "null"], "description": "What could not be found or checked, else null."},
     },
-    "required": ["verdict", "verdict_reason", "resources", "vault_notes", "steps", "not_found"],
+    "required": ["verdict", "verdict_reason", "resources", "vault_notes", "ig_posts", "steps", "not_found"],
 })
 VERDICT_LABELS = {
     "valid": "Valid",
@@ -267,7 +291,7 @@ def vault_excerpt(vault: Path, path: str, why: str, note_text: str, shortcode: s
     return "\n".join(lines[n] for n in keep)[:EXCERPT_CHARS]
 
 
-def claude_prompt(note_text: str, extra: dict, hints: list, vault, shortcode: str = "") -> str:
+def claude_prompt(note_text: str, extra: dict, hints: list, vault, shortcode: str = "", folder_name: str = "") -> str:
     parts = {"note": note_text, **extra}
     body = "\n\n".join(f"{name.upper()}:\n{text.strip()[:INPUT_LIMITS[name]]}" for name, text in parts.items() if text.strip())
     if vault:
@@ -278,7 +302,9 @@ def claude_prompt(note_text: str, extra: dict, hints: list, vault, shortcode: st
                       f"lines (read the whole note when the lines suggest it holds the resource):\n{listed}")
     else:
         vault_part = "VAULT: not available on this machine; skip step 2."
-    return f"{body}\n\n{vault_part}\n\n{CLAUDE_ASK}"
+    ig_part = (f"IG FOLDER (the user's other saved posts, one folder each): {IG_DIR}\nThis post: {shortcode}, "
+               f"folder {folder_name}.")
+    return f"{body}\n\n{vault_part}\n\n{ig_part}\n\n{CLAUDE_ASK}"
 
 
 def ask_claude(prompt: str, folder: Path, vault, model: str, timeout: int) -> dict:
@@ -295,6 +321,7 @@ def ask_claude(prompt: str, folder: Path, vault, model: str, timeout: int) -> di
     ]
     if vault:
         cmd += ["--add-dir", str(vault)]
+    cmd += ["--add-dir", str(IG_DIR)]  # the other saved posts, for ig_posts
     out = subprocess.run(cmd, cwd=folder, capture_output=True, text=True, timeout=timeout)
     try:
         result = json.loads(out.stdout)
@@ -316,6 +343,55 @@ def ask_claude(prompt: str, folder: Path, vault, model: str, timeout: int) -> di
     return answer
 
 
+# ---------------------------------------------------------------- other saved posts
+
+
+def link_key(url: str) -> str:
+    """One id per link, so https://www.github.com/Owner/Repo/ and github.com/owner/repo.git match."""
+    url = url.strip().lower().split("#")[0].split("?")[0]
+    url = re.sub(r"^https?://", "", url).removeprefix("www.").rstrip("/").removesuffix(".git")
+    parts = url.split("/")
+    if parts[0] == "github.com" and len(parts) > 3:  # a file or branch inside a repo is the repo
+        url = "/".join(parts[:3])
+    return url
+
+
+def saved_posts(ig_dir: Path) -> dict:
+    """shortcode -> (title, note path) for every saved post note, archive left out."""
+    posts = {}
+    for note in post_notes(ig_dir):
+        text = note.read_text(encoding="utf-8", errors="ignore")
+        title = next((line[2:].strip() for line in text.splitlines() if line.startswith("# ")), note.parent.name)
+        posts[shortcode_of(note)] = (title, note)
+    return posts
+
+
+def same_resource_posts(answer: dict, shortcode: str, results: dict) -> list:
+    """Other researched posts whose resources include one of this post's links (found in code, not by Claude)."""
+    mine = {link_key(r["url"]): r["name"] for r in answer["resources"] if r.get("url")}
+    mine = {k: v for k, v in mine.items() if k and k not in GENERIC_HOSTS and "/" in k}  # a bare site is too broad
+    found = []
+    for code, other in results.items():
+        if code == shortcode or not isinstance(other, dict):
+            continue
+        shared = [mine[k] for r in other.get("resources") or [] if (k := link_key(r.get("url") or "")) in mine]
+        if shared:
+            found.append({"shortcode": code, "relation": "same", "why": f"Same link: {shared[0]}."})
+    return found
+
+
+def merge_ig_posts(answer: dict, shortcode: str, results: dict, posts: dict) -> list:
+    """Claude's matches plus the ones found in code, real saved posts only, same before similar."""
+    merged = {}
+    for item in same_resource_posts(answer, shortcode, results) + (answer.get("ig_posts") or []):
+        code = item["shortcode"].strip()
+        if code == shortcode or code not in posts:  # never this post, never an invented shortcode
+            continue
+        if code not in merged or (item["relation"] == "same" and merged[code]["relation"] != "same"):
+            merged[code] = {**item, "shortcode": code}
+    return sorted(merged.values(), key=lambda i: (i["relation"] != "same", i["shortcode"]))[:MAX_IG_POSTS]
+
+
 # ---------------------------------------------------------------- results
 
 
@@ -324,7 +400,7 @@ def link_label(resource: dict) -> str:
     return f"[{resource['name']} ({host})]({resource['url']})" if host else f"{resource['name']}: {resource['url']}"
 
 
-def render_section(answer: dict, checked: str) -> str:
+def render_section(answer: dict, checked: str, posts: dict | None = None) -> str:
     """The `## Research` section for one post."""
     lines = [
         HEADING, "",
@@ -343,6 +419,14 @@ def render_section(answer: dict, checked: str) -> str:
         lines += ["### Already in the vault", ""]
         lines += [f"* Vault: `{v['path']}`: {' '.join(v['covers'].split())}" for v in answer["vault_notes"]]
         lines.append("")
+    if answer.get("ig_posts"):
+        lines += ["### Already in IG saves", ""]
+        for item in answer["ig_posts"]:
+            title = (posts or {}).get(item["shortcode"], (item["shortcode"], None))[0]
+            label = "Same" if item["relation"] == "same" else "Similar"
+            lines.append(f"* {label}: Web: [{title} (instagram.com)](https://instagram.com/p/{item['shortcode']}/) "
+                         f"(`{item['shortcode']}`). {' '.join(item['why'].split())}")
+        lines.append("")
     if answer["steps"]:
         lines += ["### Key steps", ""]
         lines += [f"{n}. {' '.join(step.split())}" for n, step in enumerate(answer["steps"], 1)]
@@ -350,6 +434,14 @@ def render_section(answer: dict, checked: str) -> str:
     if answer.get("not_found"):
         lines += ["### Not found", "", " ".join(answer["not_found"].split()), ""]
     return "\n".join(lines)
+
+
+def track_dead_end(shortcode: str, result: dict) -> None:
+    """Add a failed or Unresolved post to output/dead_ends.json, or resolve its entry. Never stops research."""
+    try:
+        dead_ends.update_from_research(shortcode, result)
+    except Exception as exc:  # noqa: BLE001
+        logger.warning(f"  Could not update the dead ends list for {shortcode}: {exc}")
 
 
 def load_results() -> dict:
@@ -373,6 +465,13 @@ def main() -> int:
         file_log = logging.FileHandler(LOG_FILE, encoding="utf-8")
         file_log.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s", "%Y-%m-%d %H:%M:%S"))
         logger.addHandler(file_log)
+    if not args.dry_run:
+        lock = LOCK_FILE.open("a")  # released when the process ends
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            logger.info("Another research.py run is going; leaving these posts to it")
+            return 0
     vault = find_vault(args.vault)
     logger.info(f"=== research.py (model {args.model}, vault {vault or 'none'}{', limit ' + str(args.limit) if args.limit else ''})")
 
@@ -390,6 +489,7 @@ def main() -> int:
 
     vault_texts = load_vault(vault) if vault else {}
     results = load_results()
+    posts = saved_posts(args.ig_dir)
     done = failed = 0
     cost = 0.0
     for note in notes:
@@ -401,7 +501,8 @@ def main() -> int:
             for path, why in hints:
                 print(f"    vault: {path} ({why})")
             continue
-        prompt = claude_prompt(RESEARCH_RE.sub("", text), extra_text(note.parent), hints, vault, shortcode)
+        prompt = claude_prompt(RESEARCH_RE.sub("", text), extra_text(note.parent), hints, vault, shortcode,
+                               note.parent.name)
         try:
             answer = ask_claude(prompt, note.parent, vault, args.model, args.timeout)
         except ClaudeLimit as exc:
@@ -412,17 +513,21 @@ def main() -> int:
             failed += 1
             results[shortcode] = {"error": str(exc)[:300], "checked_at": datetime.now().strftime("%Y-%m-%d")}
             save_results(results)
+            track_dead_end(shortcode, results[shortcode])
             logger.warning(f"  ✗ {shortcode} {str(exc)[:200]}")
             continue
         checked = datetime.now().strftime("%Y-%m-%d")
-        note.write_text(with_research(note.read_text(encoding="utf-8"), render_section(answer, checked)), encoding="utf-8")
+        answer["ig_posts"] = merge_ig_posts(answer, shortcode, results, posts)
+        note.write_text(with_research(note.read_text(encoding="utf-8"), render_section(answer, checked, posts)),
+                        encoding="utf-8")
         results[shortcode] = {**answer, "checked_at": checked, "note": str(note.relative_to(args.ig_dir))}
         save_results(results)
+        track_dead_end(shortcode, results[shortcode])
         done += 1
         cost += answer.get("cost_usd") or 0
         found = sum(r["verified"] for r in answer["resources"])
         logger.info(f"  {shortcode}: {VERDICT_LABELS[answer['verdict']]}, {found} verified of {len(answer['resources'])} "
-                    f"resources, {len(answer['vault_notes'])} vault notes (${answer.get('cost_usd') or 0:.3f})")
+                    f"resources, {len(answer['vault_notes'])} vault notes, {len(answer['ig_posts'])} saved posts (${answer.get('cost_usd') or 0:.3f})")
     if not args.dry_run:
         logger.info(f"Done. Researched: {done} | Failed: {failed} | Cost reported by Claude: ${cost:.2f}")
     return 0 if failed == 0 else 1

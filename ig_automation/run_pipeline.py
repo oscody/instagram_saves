@@ -9,6 +9,14 @@ After describe, each batch also upgrades up to --upgrade-batch posts that Qwen d
 Claude (describe.py --upgrade). Upgrades pause while Claude is at its usage limit, and start again
 once a later describe step gets through Claude without hitting it.
 
+At the end of every run, dead_ends.py syncs output/dead_ends.json: posts a stage or research could not
+finish, in two lists (comment to get it, and other). See dead_ends.py.
+
+After the batches, each run also researches up to --research-batch described posts (research.py:
+the real tool or link behind each post, written as a Research section in its note). Research makes no
+Instagram requests, so it runs on rest days and during a block too. It is skipped while Claude is at its
+usage limit, and research.py's own lock keeps it from overlapping a research run started by hand.
+
 Each batch starts with export_chat_links.py, so posts shared in the chat since the last run are
 picked up (newest first, so they go into that batch). It reads every new message, then at most
 --backfill-pages pages of older history, so the rest of the chat comes in a slice per batch.
@@ -43,6 +51,7 @@ from pathlib import Path
 from describe import CLAUDE_LIMIT_EXIT, needs_description, written_by_hailo
 from download import (BLOCKED_EXIT, BLOCKED_FILE, CAP_RETRY_FILE, DEFAULT_JSON, IG_DIR, LOGGED_OUT_EXIT,
                       LOGGED_OUT_FILE, blocked_until, needs_download)
+from research import CLAUDE_LIMIT_EXIT as RESEARCH_LIMIT_EXIT, existing_research, post_notes
 from transcribe import needs_transcript
 
 logging.basicConfig(
@@ -94,6 +103,13 @@ def parse_args() -> argparse.Namespace:
         "is a rest day and about 1 run in 4 is skipped. The timer passes it; runs by hand usually leave it off.",
     )
     parser.add_argument(
+        "--research-batch",
+        type=int,
+        default=5,
+        help="Described posts to research (research.py) once per run, after the batches. It makes no Instagram "
+        "requests, so it also runs on rest days and during a block. 0 turns it off. Default: 5",
+    )
+    parser.add_argument(
         "--foreground", action="store_true", help="Run in this terminal instead of starting in the background."
     )
     return parser.parse_args()
@@ -121,6 +137,24 @@ def pending() -> dict:
         "qwen": sum(written_by_hailo(r) for r in links),
         "errors": sum(bool(r.get("error")) for r in links),
     }
+
+
+def research_pending() -> int:
+    """Described posts whose note has no Research section yet."""
+    return sum(not existing_research(n.read_text(encoding="utf-8")) for n in post_notes(IG_DIR))
+
+
+def research(batch: int, claude_limited: bool) -> None:
+    """Research up to batch described posts. Skipped while Claude is at its usage limit."""
+    left = research_pending()
+    if not left:
+        return
+    if claude_limited:
+        logger.info(f"  Research skipped this run: Claude is at its usage limit ({left} posts waiting)")
+        return
+    logger.info(f"Research: {left} posts waiting, up to {batch} this run")
+    if run_stage("research.py", batch) == RESEARCH_LIMIT_EXIT:
+        logger.info("  Research stopped: Claude is at its usage limit")
 
 
 def pi_status() -> str:
@@ -432,6 +466,7 @@ def main() -> int:
     # Qwen posts count as work left only while upgrades are on.
     work = ("download", "transcribe", "describe") + (("qwen",) if args.upgrade_batch else ())
     crash = None
+    claude_limited = False
     try:
         while True:
             if PAUSED_FILE.exists():
@@ -477,7 +512,7 @@ def main() -> int:
                     if script == "download.py" and code == BLOCKED_EXIT:
                         logger.error(f"  BLOCKED: posts kept failing, Instagram requests stop for a while, see {BLOCKED_FILE}")
                     if script == "describe.py" and code == CLAUDE_LIMIT_EXIT:
-                        describe_hit_limit = True
+                        describe_hit_limit = claude_limited = True
                         logger.info("  Claude hit its usage limit during describe, the Hailo did the rest")
             # Each batch tries again, so upgrades start again on their own once the limit resets.
             if args.upgrade_batch and pending()["qwen"]:
@@ -489,6 +524,9 @@ def main() -> int:
             if all(after[k] >= before[k] for k in work):
                 logger.warning(f"Batch {batch_no} made no progress, stopping: {after}")
                 break
+        # After the Instagram work, whatever stopped it (rest, block, logout, nothing left).
+        if args.research_batch and not PAUSED_FILE.exists() and not STOP_FILE.exists():
+            research(args.research_batch, claude_limited)
     except Exception as e:
         crash = e
         raise
@@ -506,6 +544,13 @@ def main() -> int:
                 resolve_alert()
         except Exception:
             logger.exception("Could not send the Hermes alert")
+        try:
+            import dead_ends
+
+            changes = dead_ends.sync()
+            logger.info(f"Dead ends list synced ({dead_ends.DEAD_ENDS_FILE.name}): {changes}, open {dead_ends.summary()}")
+        except Exception:
+            logger.exception("Could not sync the dead ends list")
         try:
             from status_report import post_daily_status, write_daily_status
 

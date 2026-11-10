@@ -459,10 +459,15 @@ A `## Research` section at the end of the note, and the same result in `output/r
 * **Verdict:** Valid, Partly valid, Not valid, Promo, Unresolved (should exist but was not found) or Nothing to find (entertainment or personal)
 * **Resources:** each link with its kind, how it was found (in the post, in the vault, by search), whether it was opened and matched, confidence and evidence
 * **Already in the vault:** vault notes that already cover it
+* **Already in IG saves** (added 2026-11-10): other saved posts with the same resource (`Same`) or a different tool that does the same job (`Similar`). Same links are found in code from `research.json` (a repo link anywhere inside the repo counts as the repo); Claude also Greps the other `_description.md` notes for the tool's name and for alternatives. Every shortcode is checked against the real post folders, so none are invented. At most 8 are listed
 * **Key steps:** up to 8 steps or prompts from the resource itself
 * **Not found:** what could not be found, for example material only sent by DM
 
 Posts that already have a Research section are skipped unless `--redo`. `describe.py` keeps the section when it writes a note again.
+
+Only one `research.py` runs at a time (`output/research.lock`). A second run, by hand or from the pipeline, logs `Another research.py run is going` and exits.
+
+In the pipeline (added 2026-11-10): `run_pipeline.py` runs `research.py --limit 5` once per run, after the Instagram batches (`--research-batch N`, `0` turns it off). It makes no Instagram requests, so it also runs on rest days, skipped runs and during a block. It is skipped while Claude is at its usage limit. The status report shows how many described posts are not researched yet.
 
 ### How it finds vault notes
 
@@ -498,6 +503,40 @@ The index has four tables: best sources (3 or more saves, ranked by the share of
 saving more lately (2 or more saves in the last 90 days), mostly promo or not valid (candidates to stop saving
 from), and every account with 2 or more saves. Single save accounts are only in `accounts.json`. Both files are
 tracked in git (see `.gitignore`), so the Pi gets them on pull.
+
+## Dead ends: `dead_ends.py` (added 2026-11-10)
+
+Posts the pipeline could not finish go into one JSON array, `output/dead_ends.json` (tracked in git, like `research.json`). Plan and reasons: the vault note `ZAIHub/Vault knowledge library/Plan - IG dead ends process by claude`.
+
+Two lists share the file, told apart by `list`:
+
+* `comment_to_get`: the creator only sends the resource after a comment or DM. `keyword` holds the word to comment (pulled from the caption, then the transcript and on screen text; fancy bold letters are turned back into plain ones). Statuses: `queued`, `commented_waiting`, `received`, `needs_you` (keyword unclear, or automation failed), `closed`, `resolved`.
+* `other`: a stage failed (`download_failed`, `transcribe_failed`, `describe_failed`, or `gone` for a deleted or private post), research failed (`research_failed`), or research found nothing: `not_found`, `unnamed`, `thin_input`, `paywalled`, `link_in_bio`, `in_comments`. Statuses: `open`, `retrying`, `needs_you`, `closed`, `resolved`.
+
+Each entry is one post and stage, with `reason`, `focus` (in a Focus topic), `covered_by` (saved posts research found with the same or a similar resource), `next_retry` (research types that may go public later: 3 days, then 20), `attempts` and `history`.
+
+How entries get there:
+
+* `research.py` updates the list right after each post.
+* `run_pipeline.py` runs `dead_ends.sync()` at the end of every run. It reads the export file (stage errors) and `research.json` (verdicts), with no network calls.
+* By hand: `python3 dead_ends.py` (sync and counts) or `python3 dead_ends.py --list` (each open entry).
+
+Rules: statuses set by you or by later automation (`commented_waiting`, `received`, `needs_you`, `closed`) are never overwritten. When a stage later works or research finds the resource, the entry becomes `resolved` (unless closed). A resolved entry that fails again opens again. Nothing is deleted, so `history` keeps every change. A lock (`output/dead_ends.lock`) keeps research and the pipeline from writing at the same time.
+
+The Telegram status has a `### Dead ends` section (`dead_ends_section()` in `status_report.py`):
+
+```
+### Dead ends
+
+* Comment to get it: 70 open (56 queued, 14 need you); 0 received so far
+* Other: 38 open (23 not found, 5 unnamed, 4 link in bio, 2 thin input, 2 paywalled, 1 in comments, 1 gone)
+* Need you: 14 | In Focus topics: 4
+* Today: 108 added, 0 resolved | Retries: next on 2026-11-13 (30 posts)
+```
+
+**Vault lists** (added 2026-11-10): every sync rebuilds two vault notes in `ZAIHub/Vault knowledge library/`: `IG dead ends - comment to get it` (grouped by status) and `IG dead ends - other` (grouped by type), Focus topics first, then everything else. Each post has a checkbox and a `Link:` line. Before rebuilding, the sync reads your answers: a link after `Link:` makes the entry `received` (kept in `received_link`), a ticked box with no link makes it `closed`. A note is only rewritten when its content changed. The vault is `IG_VAULT`, else the first of the same folders `research.py` checks.
+
+Not built yet: the automatic comments and the retries.
 
 ## Run everything: `run_pipeline.py`
 

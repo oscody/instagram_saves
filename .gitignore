@@ -7,6 +7,7 @@ ig_automation/tests/__pycache__/
 # ig_automation output stays local, except the research results (paid Claude runs).
 ig_automation/output/*
 !ig_automation/output/research.json
+!ig_automation/output/dead_ends.json
 # Post folders: only the .md notes are tracked; media, transcripts and the rest stay out (since 2026-10-14).
 IG/*
 !IG/*/

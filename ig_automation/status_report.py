@@ -21,6 +21,57 @@ HERMES_SEND = os.environ.get("HERMES_SEND_BIN", "/home/homepi/.local/bin/hermes"
 HERMES_STATUS_TARGET = os.environ.get("HERMES_STATUS_TARGET", "telegram")
 
 
+def research_waiting() -> int | str:
+    """Described posts with no Research section, or "unknown" if the notes cannot be read."""
+    try:
+        from research import existing_research, post_notes
+
+        return sum(not existing_research(n.read_text(encoding="utf-8")) for n in post_notes(IG_DIR))
+    except Exception:  # noqa: BLE001 - the report must still be written
+        return "unknown"
+
+
+def dead_ends_section() -> list[str]:
+    """The Dead ends part of the status message (output/dead_ends.json), ending with a blank line."""
+    try:
+        from collections import Counter
+
+        from dead_ends import OPEN, load
+
+        entries = load()
+    except Exception:  # noqa: BLE001 - the report must still be written
+        return ["### Dead ends", "", "* Could not read output/dead_ends.json", ""]
+    open_entries = [e for e in entries if e["status"] in OPEN]
+    gated = Counter(e["status"] for e in open_entries if e["list"] == "comment_to_get")
+    other = Counter(e["type"] for e in open_entries if e["list"] == "other")
+    needs_you = sum(e["status"] == "needs_you" for e in open_entries)
+    focus = sum(bool(e.get("focus")) for e in open_entries)
+    today = datetime.now().date().isoformat()
+    added_today = sum(e.get("added_at", "").startswith(today) for e in entries)
+    resolved_today = sum(e["status"] == "resolved" and e.get("updated_at", "").startswith(today) for e in entries)
+    received = sum(e["status"] == "received" for e in entries)
+    retry_dates = sorted(e["next_retry"] for e in open_entries if e.get("next_retry"))
+    retries_due = sum(d <= today for d in retry_dates)
+    labels = {"queued": "queued", "commented_waiting": "commented, waiting for the DM", "needs_you": "need you"}
+    gated_part = ", ".join(f"{n} {labels.get(k, k)}" for k, n in gated.most_common()) or "none"
+    other_part = ", ".join(f"{n} {k.replace('_', ' ')}" for k, n in other.most_common()) or "none"
+    if retries_due:
+        retry_part = f"{retries_due} due now"
+    elif retry_dates:
+        retry_part = f"next on {retry_dates[0]} ({retry_dates.count(retry_dates[0])} posts)"
+    else:
+        retry_part = "none scheduled"
+    return [
+        "### Dead ends",
+        "",
+        f"* Comment to get it: {sum(gated.values())} open ({gated_part}); {received} received so far",
+        f"* Other: {sum(other.values())} open ({other_part})",
+        f"* Need you: {needs_you} | In Focus topics: {focus}",
+        f"* Today: {added_today} added, {resolved_today} resolved | Retries: {retry_part}",
+        "",
+    ]
+
+
 def read_json(path: Path, fallback: dict) -> dict:
     try:
         return json.loads(path.read_text())
@@ -127,9 +178,11 @@ def write_daily_status() -> tuple[Path, str]:
         "",
         f"* Completed: {len(completed)} total, {len(completed_today)} completed today",
         f"* Backlog: {len(pending_download)} to download, {len(pending_transcribe)} to transcribe, {len(pending_describe)} to describe, {len(pending_upgrade)} Qwen descriptions eligible for Claude upgrade",
+        f"* Research: {research_waiting()} described posts not researched yet",
         f"* Failed: {len(failed)}",
         f"* Chat history scan: {history} ({scan.get('oldest_us') and 'oldest messages covered' or 'scan starting point not recorded'})",
         "",
+        *dead_ends_section(),
         "### Chat sync",
         "",
         f"* Last successful chat sync: {local_timestamp(sync_success)}{sync_label}",
