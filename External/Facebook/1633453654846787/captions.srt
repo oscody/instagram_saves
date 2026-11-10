@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,641
+That if you come to this Get
+Hub Repo here, you can find a
+
+2
+00:00:02,641 --> 00:00:06,161
+curated list of papers and
+articles on real-life use cases
+
+3
+00:00:06,161 --> 00:00:08,641
+of data science and machine
+learning. So, not only can you
+
+4
+00:00:08,641 --> 00:00:10,641
+find out what people are
+actually using machine learning
+
+5
+00:00:10,641 --> 00:00:13,361
+for but you can find out how
+they did it. So, for example,
+
+6
+00:00:13,361 --> 00:00:15,841
+if I want to read more about
+model forecasting, I can read
+
+7
+00:00:15,841 --> 00:00:18,801
+more about how actual companies
+are using forecasting like
+
+8
+00:00:18,801 --> 00:00:22,001
+Uber, Google, and DoorDash and
+the best part is all these are
+
+9
+00:00:22,001 --> 00:00:24,321
+free to access. Make sure you
+drop a follow for more free
+
+10
+00:00:24,321 --> 00:00:27,441
+coding resources.

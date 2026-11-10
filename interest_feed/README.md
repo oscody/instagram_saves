@@ -4,7 +4,7 @@ A weekly scout for the Focus topics: it checks free sources, keeps only what you
 Instagram, and writes a short digest. It also measures itself against what you actually save.
 
 Plan and findings live in the vault: `ZAIHub/Vault knowledge library/claude - Deeper version of the information gathering system.md`.
-Focus topics: `ZAIHub/Vault knowledge library/claude - Focus topics - coding agents and agent skills.md`.
+Focus topics: `ZAIHub/Vault knowledge library/Focus topics - coding agents and agent skills by claude.md`.
 
 Needs only Python 3 and the logged in Claude CLI. No packages. Runs on the Mac and on the Pi.
 

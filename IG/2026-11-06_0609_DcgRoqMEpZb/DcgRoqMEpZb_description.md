@@ -18,6 +18,7 @@ Written by claude-haiku-5-5.
 ## Source
 
 * How to get it: Comment 'SEARCH' on the post; the creator says they will send the repo.
+* Identified source (2026-11-10): Agent Reach, https://github.com/Panniantong/Agent-Reach (MIT). Matches the 13+ platform claim, free use, YouTube transcripts, Reddit and Twitter reading. The README shown in frame 3 is a different project (Voicebox).
 
 ## Caption
 
