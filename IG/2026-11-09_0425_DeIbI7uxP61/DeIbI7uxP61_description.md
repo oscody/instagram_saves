@@ -25,3 +25,19 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Please try this method out. I know yall won’t regret it. It’s motion. #careeradvice #careertips #jobsearch
+
+## Research
+
+* Verdict: Valid. This is a built-in LinkedIn search technique, not a downloadable resource. It works as described: search "city + hiring", filter to Posts, sort by Latest. The creator's claim that it led to an AWS role is anecdotal and I couldn't check it.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. In LinkedIn search, type your city plus "hiring" (e.g. "seattle hiring").
+2. Tap the "Posts" filter.
+3. Tap "Sort by" and choose "Latest".
+4. Check daily and contact the recruiters or hiring managers who posted.
+
+### Not found
+
+I did not search the web. The technique uses only LinkedIn's own search. The vault and the other saved posts have no matching note. I did not verify the creator's AWS job story.

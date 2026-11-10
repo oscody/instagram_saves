@@ -50,3 +50,25 @@ It’s to reduce friction, make starting easier, and build a system that helps y
 Follow @coderss_world for more ChatGPT prompts, AI productivity tricks, useful tools, and smart ways to use AI. 🤖🌍
 
 #ChatGPT #Productivity #AIPrompts #AITools #ADHD
+
+## Research
+
+* Verdict: Partly valid. The six prompts are in the post itself and work in any ChatGPT chat. The cover slide claims ChatGPT has a feature called "ADHD Focus Mode" that gets a week's work done in 4 hours. The caption admits there is no such feature, so the cover claim is clickbait.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Seven Claude prompts for ADHD-style focus (instagram.com)](https://instagram.com/p/DYfFvYzGWzy/) (`DYfFvYzGWzy`). Same template reworked for Claude: 'ADHD Executive Function Mode' with the same dopamine menu (appetizers, entrees, sides), body double and task-breakdown prompts, and the same 'week's work in 4 hours' hook.
+
+### Key steps
+
+1. Replace [TASK] in 'I'm stuck staring at [TASK]'. Ask for tiny steps under a minute each, one step at a time, and tell it to wait until you finish before giving the next.
+2. Dopamine menu: ask for 5-minute appetizers (quick, energizing), 20-minute main courses (focused work) and 10-minute sides (creative breaks).
+3. Body double: ask ChatGPT to act as your accountability partner for 30 minutes and set a goal for the session. Have it guide short work intervals, and report back after each one so it can assess progress and pick the next action.
+4. Context switch: from [TASK A] to [TASK B], ask for a 3-minute reset that closes the first task, clears distractions and starts the second, one action at a time.
+5. Boring task: give the [TASK] and your [INTERESTS]. Ask for a simple game with a mission, milestones, points and a reward, without making the task more complicated.
+6. Time-blindness check: give your own time estimate for [PROJECT]. Ask for subtasks with realistic times, three steps you might overlook (setup, interruptions, review) and a practical deadline.
+
+### Not found
+
+No official 'ADHD Focus Mode' exists. The post's caption says so, and I did not search the web for one. The exact prompt wording is partly garbled in the OCR, so the steps paraphrase the post's own description.

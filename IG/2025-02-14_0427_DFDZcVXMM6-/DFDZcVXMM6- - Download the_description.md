@@ -44,3 +44,19 @@ Comment or DM the word READY, and I’ll support you with monetizing your skills
 💸💰💕
 
 #monetize #ChatGPTForCareers #jobsearch #resumetips #careercoach #careerdevelopment
+
+## Research
+
+* Verdict: Partly valid. The three prompts are fully given in the reel and work as ordinary brainstorming prompts in ChatGPT. The "24-Hour Monetization Method" download and coaching offer are a lead-magnet promo, and I couldn't find a public copy.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Prompt 1: "Using my resume, what are 3 entrepreneurial, freelance, or side hustle opportunities I can pursue using my top skills and experience?" Paste your résumé with it.
+2. Prompt 2: "How can I create a service, product, or content that solves [X problem] and generates income?"
+3. Prompt 3: "What are potential income streams or businesses I can build around [top 3 passions or interests]?"
+4. Bonus: for the ideas you get back, ask "What are the first 3 steps in making this idea profitable?"
+
+### Not found
+
+The "24-Hour Monetization Method" PDF from thee.coachkris. It is only sent through the link in her bio or after a MONETIZE comment, and one web search found no public copy. I didn't check her bio link. Nothing in the vault or in other saved posts mentions it.

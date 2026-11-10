@@ -22,3 +22,8 @@ mom: if your friends jumped off a bridge, would you? me: _______ !
 Brazil 🇧🇷 owes me NOTHING !
 
 #paragliding #brazil
+
+## Research
+
+* Verdict: Nothing to find. This is a travel joke reel with a tandem flight over a Brazilian beach. It has no resource, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

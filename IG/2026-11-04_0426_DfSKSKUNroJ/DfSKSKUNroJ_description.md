@@ -30,3 +30,32 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment CONNECT and I will send you the Full Guide
+
+## Research
+
+* Verdict: Partly valid. All five tools are real and work with Claude, but the "full guide" is only sent by comment and has no public copy. The "don't use Claude before adding these" framing is hype, since they are optional.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Firecrawl in Claude.ai (official docs) (docs.firecrawl.dev)](https://docs.firecrawl.dev/developer-guides/mcp-setup-guides/claude-ai): guide, found by search, verified, high confidence. Opened it. It covers adding the native Firecrawl connector in Claude.ai, matching item 2.
+* [Composio connect guide for PostHog MCP in Claude (composio.dev)](https://composio.dev/toolkits/posthog_mcp/framework/claude-cowork): guide, found by search, not opened, medium confidence. Search result only, not opened. Describes connecting PostHog (and via Composio, other apps) to Claude.
+* [Claude connectors overview (official) (claude.com)](https://claude.com/docs/connectors/overview): page, found by search, not opened, medium confidence. Search result only, not opened. Official page on adding connectors in Claude.
+
+### Already in IG saves
+
+* Same: Web: [Audit of five scraping frameworks before deploying (instagram.com)](https://instagram.com/p/DY2Cf2jks2a/) (`DY2Cf2jks2a`). Covers Firecrawl and Playwright as scraping tools for agents.
+* Same: Web: [Two app habits: session replays and review prompts (instagram.com)](https://instagram.com/p/DcUy9rhR0Uo/) (`DcUy9rhR0Uo`). Covers PostHog session replays, with a verified docs link.
+* Similar: Web: [Five Claude Code plugins for better website design (instagram.com)](https://instagram.com/p/DcWQCQdN28T/) (`DcWQCQdN28T`). Lists Playwright CLI as a Claude plugin for letting Claude open and test websites.
+
+### Key steps
+
+1. Perplexity: in Claude Code, a third-party guide gives the hosted MCP URL https://api.perplexity.ai/mcp. It needs a Perplexity API key, which is billed by usage. I did not verify this.
+2. Firecrawl: open the Firecrawl connector in Claude.ai, sign in, pick a team and approve access. Then in a chat open + > Connectors and enable it.
+3. Playwright: in Claude Code run `claude mcp add playwright npx @playwright/mcp@latest` (from a third-party guide, not opened).
+4. PostHog and Composio: in Claude Desktop go to Customize > Connectors > + and add https://connect.composio.dev/mcp (from a search summary, not opened). Then link each app at connect.composio.dev and authorize your PostHog account.
+5. If a connector shows as connected but Claude ignores it, re-enable it from the + menu in the chat.
+
+### Not found
+
+The creator's "Full Guide" (sent after commenting CONNECT) has no public copy that I found. I did not open the Perplexity, Playwright or Composio setup pages, so their commands come from search summaries.

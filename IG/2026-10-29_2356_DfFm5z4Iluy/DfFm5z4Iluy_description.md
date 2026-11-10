@@ -24,3 +24,8 @@ Styleeee Dem 🤧‼️🤣
 Pure Love Mi Gi Gyal @vybzkartel 
 
 #dlegends #styledem #vybzkartel #dancehall #neostyle
+
+## Research
+
+* Verdict: Nothing to find. This is a dance clip set to a Vybz Kartel track. It has no tool, guide or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

@@ -49,3 +49,27 @@ For most of these, book a ticket in advance! Check out nycforfree.co/free-museum
 - @BankofAmerica Museums on Us: June 7-8 (10+ museums for cardholders)
 
 #nycforfree #nycmuseums #nyc #visitnyc
+
+## Research
+
+* Verdict: Partly valid. The nycforfree.co/free-museums list exists and matches the post's theme. The post's June 2025 dates are out of date, and the page doesn't confirm every detail (for example Museum Mile, or the Guggenheim days).
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [NYC for Free – Free & PWYW Museums (nycforfree.co)](https://nycforfree.co/free-museums): page, in the post, verified, high confidence. Opened it. It lists free and pay-what-you-wish NYC museums with days and hours, including MoMA, the Met, Guggenheim and Bank of America Museums on Us.
+
+### Already in IG saves
+
+* Similar: Web: [Free NYC Events for October (instagram.com)](https://instagram.com/p/Dd6374phFJg/) (`Dd6374phFJg`). Same creator (nyc_forfree), a monthly list of free NYC events for October.
+
+### Key steps
+
+1. Open nycforfree.co/free-museums for the current list of free and pay-what-you-wish museums.
+2. Book a free ticket in advance for most free-night programs.
+3. Bank of America cardholders get free entry on the first weekend of each month through Museums on Us.
+4. Before you go, check each museum's own site. The page lists the Guggenheim PWYW on Tue and Sun, but the post says Mon and Sat.
+
+### Not found
+
+The page didn't mention Museum Mile (June 10). The post's June 2025 dates have passed. Guggenheim PWYW days differ between the post and the page.

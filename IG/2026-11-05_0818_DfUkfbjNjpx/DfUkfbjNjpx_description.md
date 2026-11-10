@@ -52,3 +52,26 @@ You still bring the idea, build the business and show up for the meetings. This 
 The skill pack is free. Save this for the startup idea you keep putting off.
 
 #Claude #aitips #aitools #ai #claudeai
+
+## Research
+
+* Verdict: Partly valid. The free MIT repo exists with 11 skills matching the post. The claims are overstated: it doesn't raise money for you. Competitor Scout only mines App Store reviews, and The Closer sends emails only after you approve each batch.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Jakeschincariol/seed-skill (github.com)](https://github.com/Jakeschincariol/seed-skill): repo, found by search, verified, high confidence. README lists 11 skills including Competitor Scout, Investor Finder, Business Planner, Pitch Deck Designer, The Closer and Market Sizer, with the 'install skill' paste method.
+
+### Key steps
+
+1. Paste https://github.com/Jakeschincariol/seed-skill into Claude and say 'install skill'. Or in Claude Code run /plugin marketplace add Jakeschincariol/seed-skill, then /plugin install seed-skill@seed-skill.
+2. Or copy the folders for plain commands: cp -r seed-skill/seed-* ~/.claude/skills/
+3. Requires Python 3.8+. For SEC investor searches, set sec_user_agent in seed/config.json or the SEC_USER_AGENT env var.
+4. Optional: connect Gmail and Google Calendar in Claude and set their send tools to 'Needs approval'.
+5. Story and numbers: /seed-scout, /seed-market, /seed-model, /seed-plan, /seed-deck.
+6. The raise: /seed-investors, /seed-closer (sends nothing until you approve each batch), /seed-coach.
+7. After a yes: /seed-terms and /seed-dataroom. Ongoing: /seed-updates. Outputs are saved in a seed/ folder.
+
+### Not found
+
+The creator's comment/DM setup was not checked. The repo is public, so it isn't needed.

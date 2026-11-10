@@ -26,3 +26,16 @@ getcasanova.ai Struggling with dating apps? 😮‍💨
 
 🔥 Want instant charisma in every message? 
 👇 Tap to install Casanova AI – free to try.
+
+## Research
+
+* Verdict: Promo. The reel is a paid-style ad for the CasanovaAI keyboard app. The "tons of replies" claim is an anecdote with no evidence. Your vault already marks it as skip.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/dating/search - Hinge chats and IG saves review.md`: Lists this reel (@getcasanova.ai) as an ad to skip, because your reply.py setup already does the same job with your real facts.
+
+### Not found
+
+I did not open the app's site or store listing. The post only names getcasanova.ai and gives no direct link. No other saved posts mention it.

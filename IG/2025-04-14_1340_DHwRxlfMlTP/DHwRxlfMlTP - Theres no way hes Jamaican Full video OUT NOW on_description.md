@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 There’s no way he’s Jamaican 🇯🇲 😂😭 Full video OUT NOW! on YouTube (Jesse Saah) @isdatmarcus @trishacartier
+
+## Research
+
+* Verdict: Nothing to find. Comedy skit ("Hinge in real life") by Jesse Saah. It has no resource or claim to check. The full video is on his YouTube channel.
+* Checked: 2026-11-10 by claude-sonnet-5-5

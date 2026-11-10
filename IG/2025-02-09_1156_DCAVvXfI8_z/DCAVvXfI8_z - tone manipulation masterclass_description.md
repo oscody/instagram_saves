@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 tone manipulation masterclass
+
+## Research
+
+* Verdict: Nothing to find. This is a clip of a man bragging about pressuring women on dates. It has no resource, tool or guide. The "tone manipulation" claim is a boast about coercive behaviour, not a technique to follow.
+* Checked: 2026-11-10 by claude-sonnet-5-5

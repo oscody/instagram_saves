@@ -24,3 +24,12 @@ Let the nerd arc begin
 Episode 1 drops tomorrow
 
 #enginnering #robotics
+
+## Research
+
+* Verdict: Nothing to find. The post announces a creator's upcoming video series. It names no resource, link or steps, and episode 1 isn't linked. A web search found no public page for the series.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The series "Making Robotics Make Sense" has no public page that I could find. Only the creator's Instagram account (jordainewisdom) is likely to have the episodes, and I didn't check it. The vault and the other saved posts have nothing on it.

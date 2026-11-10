@@ -59,3 +59,20 @@ Queens Night Market- Every Saturday Starting April 12
 #newyorkspring  #nycexperience 
 #nycexplore #thingstodoinnyc #thingstodonyc #explorenyc  #nycactivities #diyworkshop  #mysecretnyc #prettycitynewyork #springactivities #cherryblossoms #nycspring #foodfestival #themet #springinnyc #cherryblossomseason 
 #discoverny #discovernyc #travelnyc #nycguide #nyctravelguide #hiddengems #nybucketlist #thingstodoinnyc #discoverny #discovernyc #newyorkbucketlist  #travelandexplore #videosofnewyork
+
+## Research
+
+* Verdict: Partly valid. The post is a list of spring 2025 NYC events, and the Met rooftop claim checks out. The list has no single resource or link, and every event has now passed. The caption's Easter parade date (April 10) conflicts with the slide (April 20).
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [The Met Roof Garden Commission: Jennie C. Jones, Ensemble (Apr 15–Oct 19, 2025) (artssummary.com)](https://artssummary.com/2025/04/18/the-roof-garden-commission-jennie-c-jones-ensemble-at-the-met-fifth-avenue-april-15-through-october-19-2025/): page, found by search, not opened, medium confidence. Search results confirm the Met rooftop commission by Jennie C. Jones opened April 15, 2025, matching the caption. I did not open the page.
+
+### Already in IG saves
+
+* Similar: Web: [NYC Things To Do September 2026 (instagram.com)](https://instagram.com/p/DcJg83WK67e/) (`DcJg83WK67e`). Another saved NYC monthly events list (September 2026) that also mentions Queens Night Market.
+
+### Not found
+
+The post gives no links. I did not check the other events (Frick reopening, NYBG Van Gogh show, Tulip Day, the night markets). The Easter parade date differs between caption (April 10) and slide (April 20). The Easter parade is normally held on Easter Sunday, which was April 20, 2025, so April 10 is probably a typo. All events were in spring 2025 and are over.

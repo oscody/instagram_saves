@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 We've restocked with a $20 sale now, discover our best selling mirror now ✨
+
+## Research
+
+* Verdict: Promo. This is a meme reel used as an ad for a cloud-shaped LED tulip mirror. The creator and shop are not named, so no product page could be identified.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The shop or brand is not named in the post (author is null), so I did not search for the product page or check the $20 sale price.

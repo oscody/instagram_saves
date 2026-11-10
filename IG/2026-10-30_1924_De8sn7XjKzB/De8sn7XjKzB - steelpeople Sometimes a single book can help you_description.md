@@ -34,3 +34,27 @@ This collection introduces six topics you can start with. Choose the one that in
 You don’t have to master everything in a month. What matters is getting started and making learning a regular habit.
 
 Save this post so you can find the books and lectures later. Which topic will you start with? Comment with the number 👇
+
+## Research
+
+* Verdict: Valid. The post is a reading and lecture list of well-known real works, and the one concrete claim I checked holds: Ben Polak's Yale Game Theory course (ECON 159) is free online. I did not check the other five books.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Yale ECON 159 Game Theory (Ben Polak), Open Yale Courses, Lecture 1 (oyc.yale.edu)](https://oyc.yale.edu/node/992): page, found by search, verified, high confidence. The page is Ben Polak's ECON 159 Lecture 1 'Introduction: Five First Lessons'. It has a transcript and audio, and the video is on YouTube according to search results. The lecture count was not shown on the page.
+* [Game Theory with Ben Polak (YouTube playlist) (youtube.com)](https://www.youtube.com/playlist?list=PL6EF60E1027E1A10B): video, found by search, not opened, medium confidence. A blog cited this playlist ID in search results. I did not open it.
+
+### Key steps
+
+1. Pick one of the six topics.
+2. Game theory: watch one Ben Polak lecture a day (Yale ECON 159).
+3. Cognitive biases: read Thinking, Fast and Slow and spot one bias a day.
+4. Philosophy: read 1–2 chapters of Warburton's A Little History of Philosophy daily and note one idea.
+5. Economics: read Why Nations Fail and compare country charts on Our World in Data.
+6. Art: read 20 pages of Gombrich's The Story of Art daily and view one painting on Google Arts & Culture.
+7. Statistics: read Huff's How to Lie with Statistics.
+
+### Not found
+
+I did not open the YouTube playlist or check the books. The 'two Nobel laureates' line for Why Nations Fail was not checked either. Nothing in the vault or the other saved posts matches.

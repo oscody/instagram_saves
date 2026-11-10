@@ -122,3 +122,12 @@ Written by claude-haiku-5-5.
 48. What they need more of in your relationship.
 49. What they are afraid to tell you.
 50. What kind of life they want to build with you.
+
+## Research
+
+* Verdict: Nothing to find. The reel is a list of 50 questions about a partner. The full list is already in the caption, and there is no tool, link or download to find.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/dating/search - dating tips - instagram saves.md`: Lists this creator's other question reels (50 deep questions on a date, 50 questions that reveal everything) and similar question lists from other creators, grouped under trust building, deep questions and compatibility screening.

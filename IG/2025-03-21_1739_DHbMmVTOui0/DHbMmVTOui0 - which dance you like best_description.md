@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 which dance you like best ? 💬
+
+## Research
+
+* Verdict: Nothing to find. Entertainment reel comparing East African dance styles. It has no resource, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

@@ -31,3 +31,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 8 things you must keep PRIVATE | 19s of social psychology to become UNTOUCHABLE
+
+## Research
+
+* Verdict: Nothing to find. This is a short self-help reel of general advice (eight things to keep private). It names no tool, repo, guide or product. The "social psychology" claim is opinion, not a checkable resource.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+No resource to find. The vault and the web were not searched, because the post is general advice with nothing to look up.

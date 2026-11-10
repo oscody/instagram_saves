@@ -24,3 +24,12 @@ Credit: ‘Duality Duel’- @danielbbeaty
 Follow @BlackFolksRock, For More Content Like This!
 
 #BlackFolksRock #BFR #BlackExcellence #BlackPower #BlackCulture #SupportBlackArtists #CommunityLove #RepresentationMatters #CelebrateDiversity #Inspiration #Empowerment #CulturalHeritage #Unity #CreativeExpression #Storytelling #SocialMediaImpact #BlackVoices #ArtAndCulture #TogetherWeRise #InclusionMatters
+
+## Research
+
+* Verdict: Nothing to find. This is a spoken word poem clip, "Duality Duel" by Daniel Beaty, reposted by a content account. It has no tool, guide or link to find. The transcript matches a poem about a "nerd" and a "nigger" voice inside one Black man, which fits the caption's theme.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+I did not search for the original performance or a published text of the poem. The post is entertainment, so I stopped early as instructed.

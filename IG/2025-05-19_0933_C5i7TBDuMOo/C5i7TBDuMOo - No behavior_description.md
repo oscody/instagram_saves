@@ -17,3 +17,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 No behavior 🎶🎶🎶🇯🇲
+
+## Research
+
+* Verdict: Nothing to find. Personal carnival photo with a "No behavior" caption. It has no resource, claim or how-to.
+* Checked: 2026-11-10 by claude-sonnet-5-5

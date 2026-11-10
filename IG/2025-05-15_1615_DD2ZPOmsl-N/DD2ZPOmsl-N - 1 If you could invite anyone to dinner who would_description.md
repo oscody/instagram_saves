@@ -48,3 +48,8 @@ Most importantly, remember to listen to understand, and ask curious questions wh
 Do you have a go-to question when getting to know people better? I’d love to hear!
 
 @emmasilverman1
+
+## Research
+
+* Verdict: Nothing to find. The post is a list of ten conversation questions from the caption. It has no tool, repo or product to look up.
+* Checked: 2026-11-10 by claude-sonnet-5-5

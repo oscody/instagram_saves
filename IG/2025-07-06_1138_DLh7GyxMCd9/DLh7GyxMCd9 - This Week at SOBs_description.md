@@ -37,3 +37,8 @@ This Week at SOB’s 🔊🔊🔊
 Grab your tickets at sobs.com! Link in bio💿
 
 #sobsnyc #sobs #nyc #thisweek #concert #party
+
+## Research
+
+* Verdict: Nothing to find. This is a weekly event listing from a New York venue for July 3–5, 2025. The events are past, and the post has no resource or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

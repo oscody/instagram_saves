@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 You asked for it, so I’ll do my best to keep up 😂 Here’s part 1 of fictional characters I didn’t know were Scorpios! I’ve got some great Scorpios in my life, so no grievances over here 🤷🏾‍♀️♏️ #Scorpio #ScorpioSeason
+
+## Research
+
+* Verdict: Nothing to find. Entertainment reel about fictional characters' zodiac signs. It has no resource to find, so I stopped without searching.
+* Checked: 2026-11-10 by claude-sonnet-5-5

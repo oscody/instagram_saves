@@ -52,3 +52,23 @@ AI finds the demand. It can’t promise income. That’s why prompt 7 tests the 
 Save this and run prompt 1 tonight.
 
 #chatgpt
+
+## Research
+
+* Verdict: Partly valid. The seven prompts are fully printed on the slides, so you don't need the DM guide. The "money-making mode" framing is hype, but the post admits that AI can't promise income.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Turn on Deep Research: in ChatGPT, open the tools menu in the message box and pick Deep research. Claude has Research and Gemini has Deep Research.
+2. 1 Map your money (normal chat): have the AI interview you one question at a time, up to 12 questions. Then list 15 ways to make money and score each 1–5 on fit, demand, earning potential, speed to first dollar and cost to start. Show a table with the best 3 on top.
+3. 2 Find the demand (Deep Research): search Reddit, forums, Upwork and LinkedIn posts from the last 6 months. Count only posts where someone would pay, pays or hired someone. Give 20 examples in a table, then name the 3 most common problems.
+4. 3 Check real prices (Deep Research): pull real prices for your service and country. Split them into hourly, per project and retainer, show low, typical and premium with sources, and say where to start.
+5. 4 Find the gap (Deep Research): read the 1–3 star reviews of the 5 most popular competitors. List the 10 repeated complaints with quotes, links and counts. Pick the 3 you could fix.
+6. 5 Build the offer (normal chat): turn the best idea into one offer with the audience, result, inclusions, delivery time and a guarantee. Add basic, standard and premium prices and a one-page sales message in buyers' own words.
+7. 6 Find first buyers (Deep Research): find communities, rank them by activity, check their self-promotion rules, give the top 5 and write 3 conversation-starting messages.
+8. 7 Test it in 7 days (normal chat): get a day-by-day plan with target numbers for a yes (replies, calls, deposits) and a point to drop the idea and try idea #2.
+
+### Not found
+
+The DM guide ("GPT Mastery guide", sent after commenting GPT56) has no public copy that I could find. I didn't search for one, because the slides already show the prompts. A few slide words are garbled by OCR, so check the wording against the slides.

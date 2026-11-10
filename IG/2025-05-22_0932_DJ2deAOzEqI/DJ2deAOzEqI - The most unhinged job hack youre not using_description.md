@@ -37,3 +37,23 @@ Just proven resumes that got the job.
 Oh—and if you’re lazy, I got you.
 
 Comment #ResumeShare and I'll send you the link
+
+## Research
+
+* Verdict: Partly valid. The tool is real: Wonsulting's free Resume Share, a reviewed database of resumes that got interviews. "Resimature" in the transcript looks like a mis-transcription. The Google-search trick is vague because the post never shows the query.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Wonsulting Resume Share (wonsulting.com)](https://www.wonsulting.com/resume-share): tool, found by search, verified, medium confidence. The caption's #ResumeShare matches the page name. The page describes a free database of reviewed resumes that led to interviews at top companies. I did not confirm the creator's tie to Wonsulting.
+
+### Key steps
+
+1. Open the Resume Share page on wonsulting.com and click through to View Successful Resumes (app.wonsulting.com).
+2. Browse by job function and see which companies each person got interviews at.
+3. Study how achievements are phrased and how the resume is structured for your target role.
+4. To contribute, upload your resume with the job function, the companies and proof of the interviews. The team reviews it before publishing.
+
+### Not found
+
+The exact Google query shown in the post, and any site named "Resimature". The post's link is only sent by comment, but a public page exists.

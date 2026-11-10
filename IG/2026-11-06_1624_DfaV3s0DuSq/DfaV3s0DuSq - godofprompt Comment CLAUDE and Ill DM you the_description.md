@@ -47,3 +47,35 @@ Here’s how that turns into a side income:
 6 brands is $3,000 a month. All 7 prompts are in the slides. Save this post so you have them when you start.
 
 You’ll need the Claude desktop app with the Blender connector, and Blender 5.1 or newer (free).
+
+## Research
+
+* Verdict: Partly valid. The Claude Blender connector is real and official, and the seven prompts are on the slides. The post's version requirement (5.1+) is stricter than Anthropic's docs (4.2+). The $500/month income pitch is a sales claim with no evidence. The "Claude Mastery Guide" is only sent by DM.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Using the Blender connector in Claude (Claude Academy tutorial) (academy.claude.com)](https://academy.claude.com/tutorials/using-the-blender-connector-in-claude): guide, found by search, verified, high confidence. Opened it. It documents the official Blender connector in Claude Desktop, with the BlenderMCP add-on and MCP server start, matching the post's setup.
+* [Anthropic funds Blender, ships Claude connector (DigitalProduction) (digitalproduction.com)](https://digitalproduction.com/2026/04/30/anthropic-funds-blender-ships-claude-connector/): page, found by search, not opened, medium confidence. Search result only (not opened). It reports the April 2026 launch of the connector.
+* [Claude Mastery Guide (godofprompt) (instagram.com)](https://instagram.com/p/DfaV3s0DuSq/): other, in the post, not opened, low confidence. Offered only by comment 'CLAUDE' and DM. No public copy was found.
+
+### Already in IG saves
+
+* Similar: Web: [Blender robot model built with Opus 5.5 (instagram.com)](https://instagram.com/p/Ddp8_uQGW5-/) (`Ddp8_uQGW5-`). Uses the Claude Blender connector with the MCP add-on server running.
+* Similar: Web: [StableGen: free AI Blender add-on for characters (instagram.com)](https://instagram.com/p/DfRyL3-Gd8N/) (`DfRyL3-Gd8N`). Comment-BLENDER offer on a Blender workflow (matched only by its Blender topic).
+* Similar: Web: [Seven prompts for a brand game with Claude (instagram.com)](https://instagram.com/p/DfgALTjDsSG/) (`DfgALTjDsSG`). Same creator (godofprompt) and the same 'comment CLAUDE' offer, with seven Claude prompts for a Three.js brand game and a pitch.
+
+### Key steps
+
+1. Install Claude Desktop. Go to Customize > Connectors, search for Blender, and select Add.
+2. Install Blender (Anthropic says 4.2 or later; the post says 5.1 or later). Drag the install link from the Blender MCP Server page into Blender and allow the 'lab' extension repository.
+3. In Blender, go to Edit > Preferences > Add-ons > BlenderMCP and start the MCP server. Do this each session.
+4. Prompt 1: have Claude list and clear the scene, then set cm units, 1080x1350, 30 fps, and build a white curved backdrop, a key light, a backlight and a camera.
+5. Prompt 2: upload one product photo with its real height and have Claude build the model. Render front and three-quarter views and compare them to the photo.
+6. Prompt 3: set the materials and label, round the edges, add a contact shadow, and render a frame to check for anything that looks fake.
+7. Prompt 4: make a 6-second looping turntable spin, render MP4 with Eevee at 30 fps, and check frames 1, 90 and 180 first.
+8. Prompts 5-7: put the product in an ad scene (8-second push-in), write a DM pitch to the brand, then fix flaws one at a time and run the checklist (file under 100 MB).
+
+### Not found
+
+The "Claude Mastery Guide" is DM-only, and I found no public copy. I did not confirm that Blender 5.1 is required; the docs say 4.2 or later. I did not check the $500/month income claim.

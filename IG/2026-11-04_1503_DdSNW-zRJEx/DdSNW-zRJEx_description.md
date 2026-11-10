@@ -27,3 +27,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #dating #relationships
+
+## Research
+
+* Verdict: Nothing to find. This is a short dating-advice reel, most likely a joke. The "rules" contradict each other, for example calling back after a voicemail and using only "hot" as a compliment. The books on the desk look like props, and the caption has only hashtags and no link. I did not search.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/dating/search - dating tips - instagram saves.md`: Lists other @liddellfitness saves and marks his game-playing advice as 'skip' because it conflicts with what you want. I did not open the note; this comes from the lines you passed in.
+
+### Not found
+
+No resource to find. I did not check whether the books on screen ("The Manual", "The Value of Others") exist, because they look like props.

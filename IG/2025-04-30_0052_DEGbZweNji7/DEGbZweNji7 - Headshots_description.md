@@ -20,3 +20,8 @@ Headshots
 @gmebailey 
 
 Hair - @barbersimz
+
+## Research
+
+* Verdict: Nothing to find. The post is a photo carousel of headshots that credits a photographer and a hair stylist. It has no resource, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

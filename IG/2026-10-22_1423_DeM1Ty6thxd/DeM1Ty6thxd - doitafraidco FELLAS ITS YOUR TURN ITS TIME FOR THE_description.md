@@ -58,3 +58,12 @@ Come ready to LOOK GOOD WHILE DOING IT! 🔥
 START BEFORE YOU’RE READY. DO IT AFRAID.✨️
 
 #BostonEvents #DoItAfraid #MensFitCheck #FitCheck #BostonMen MensStyle Networking ExplorePage
+
+## Research
+
+* Verdict: Promo. The post advertises a men's fit check at the Do It Afraid event (Nov 14, 2026, Norwood MA). It has no downloadable resource. The style tips are general.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+Did not search. The post is an event promo with no resource. Ticket link not in the post text; the caption only says to grab tickets.

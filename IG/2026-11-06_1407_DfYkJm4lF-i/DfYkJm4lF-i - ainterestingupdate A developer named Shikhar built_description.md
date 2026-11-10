@@ -45,3 +45,20 @@ Are we entering an era where anyone can build entire video games with AI? 👀
 Follow: @ainterestingupdate
 
 #ArtificialIntelligence #AI #Gaming #ClaudeAI
+
+## Research
+
+* Verdict: Partly valid. The game page exists, but only a title screen ("grinding ink") loaded for me. I found no public source to confirm the 24-hour claim or the tool chain. The workflow comes only from Shikhar's X thread, which I didn't open.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Sumiro (playable game) (xikhar.github.io)](https://xikhar.github.io/sumiro): page, in the post, not opened, medium confidence. The URL in the post opens a page titled 'Sumiro' with the tagline 'grinding ink', but no game details or workflow loaded in the fetch.
+
+### Already in IG saves
+
+* Same: Web: [AI workflow for making a 3D browser game (instagram.com)](https://instagram.com/p/DfaMh4djNc1/) (`DfaMh4djNc1`). Same link: Sumiro (playable game).
+
+### Not found
+
+Shikhar's original X thread (@xikhar) was not found. The Sumiro page showed no game content or workflow when fetched, so the tools used and the 24-hour claim are unconfirmed.

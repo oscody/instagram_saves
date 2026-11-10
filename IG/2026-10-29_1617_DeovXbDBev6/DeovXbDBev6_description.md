@@ -53,3 +53,16 @@ Want to turn a career’s worth of expertise into something that runs without yo
 Follow @layup.digital — you’re exactly who I help.
 
 #midcareer #firstbusiness #buildwithai
+
+## Research
+
+* Verdict: Partly valid. The post is a short list of five reflective prompts, all in the caption, with a coaching pitch attached. The prompts are reasonable. "Never ask Claude to update your résumé" is overstated, and no public resource sits behind the post.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Same: Web: [Five AI questions to ask instead of resume updates (instagram.com)](https://instagram.com/p/DX9bkK0g-1G/) (`DX9bkK0g-1G`). Same creator (layup.digital) and the same 'Never ask Claude to update your resume' hook with five questions to ask instead.
+
+### Not found
+
+No separate guide, repo or product exists. The caption holds the full content. I did not check the creator's profile or any paid offer.

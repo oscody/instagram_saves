@@ -35,3 +35,12 @@ Virago: Twisted Reality - @viragogame⁠
 🗨️Comment "games" and we'll send you a direct link to the article⁠
 ⁠
 ✍🏾 : Maven @bm0r3natural
+
+## Research
+
+* Verdict: Valid. The article the post points to is public on the Black Girl Gamers site and lists all six games. No comment or DM is needed.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Games Created by Black Developers? Don't Worry, We Got You | Black Girl Gamers (theblackgirlgamers.com)](https://www.theblackgirlgamers.com/?p=958): page, found by search, verified, high confidence. Opened it. The title matches the slide text and it lists TossDown, Aurion, Circuit Chakula, Gravity's Edge, Dropshot and Virago with their developers.

@@ -29,3 +29,16 @@ Host 🎤: @nicolejglass
 BTS 🎥: @labloom83 
 
 #AffirmationsForBlackMen #SafeSpaces #CommunityHealing
+
+## Research
+
+* Verdict: Nothing to find. The post is an interview teaser clip. It makes a personal argument and offers no tool or guide. The full interview is promised on the creator's site, but the page I opened showed no interview content.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Affirmations for Black Men website (affirmationsforblackmen.com)](https://affirmationsforblackmen.com): page, in the post, not opened, low confidence. The post names this site as the home of the full Part One interview, but the fetched page returned only a title with no interview listing.
+
+### Not found
+
+The full Part One interview with @professor.odi was not visible on the site page I fetched. Part Two is said to be on the account's Instagram, Facebook or TikTok.

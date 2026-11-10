@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Wah dem do to wi?💀
+
+## Research
+
+* Verdict: Nothing to find. Entertainment reaction video to AI-generated country/animal fusion images. No resource, tool or claim to verify.
+* Checked: 2026-11-10 by claude-sonnet-5-5

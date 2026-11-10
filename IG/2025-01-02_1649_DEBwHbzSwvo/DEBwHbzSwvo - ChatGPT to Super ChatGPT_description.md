@@ -28,3 +28,22 @@ Written by claude-haiku-5-5.
 ## Caption
 
 ChatGPT to Super ChatGPT!! 🤯🤯😲😲
+
+## Research
+
+* Verdict: Partly valid. The post teaches a prompt-writing formula, not a downloadable resource. The structure is sound and matches common prompt-engineering advice, but "we've been using ChatGPT wrong" is clickbait. The on-screen text also lists the seven elements with Format repeated, while the speaker's spoken list differs slightly.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Persona: tell the AI who to be (e.g. a digital marketing strategist).
+2. Task: state what to produce (e.g. a marketing plan).
+3. Constraints: list your limits (no time, no team, no budget).
+4. Conditions: say how the output should feel (creative, unconventional).
+5. Goal: state the target and timeline (launch a brand; ready in two weeks instead of three months).
+6. Format: specify the layout (e.g. a table of activities).
+7. Reasoning: ask for the reason behind each suggested activity.
+
+### Not found
+
+No separate public resource exists. The post is a self-contained formula, and I did not search the web. No other saved post or vault note covers it.

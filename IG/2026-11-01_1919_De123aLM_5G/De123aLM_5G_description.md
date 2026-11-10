@@ -28,3 +28,12 @@ the ADHD ritual method is 66 rituals rebuilt from what ancients did for thousand
 it opens on 1 november, day of the dead, with a ritual we do all together.
 
 comment “PIZZA” to join waitlist 🍕
+
+## Research
+
+* Verdict: Promo. The post is a waitlist ad for a paid "ADHD ritual method" program, reached by commenting "PIZZA". I found no public copy of it. The historical claims are loosely based on real revolts, but the post gives no sources and its slide text is garbled.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+I found no public page for "The ADHD Ritual Method" by oumnia.boualam. A web search returned only unrelated ADHD ritual articles. The waitlist link goes through a comment or DM on Instagram. I did not check the historical claims (Jamaica 1760, Haiti, the 1835 malê revolt in Brazil) against sources.

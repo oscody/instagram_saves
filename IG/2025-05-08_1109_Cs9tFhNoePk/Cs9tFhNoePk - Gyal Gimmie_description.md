@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 @popcaanmusic - Gyal Gimmie🇯🇲👑🔥
+
+## Research
+
+* Verdict: Nothing to find. This is a crowd-filmed concert clip with lyric captions from Popcaan's song "Gyal Gimmie". It is music and entertainment, with no resource, claim or steps to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

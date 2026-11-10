@@ -26,3 +26,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 how to catch waves when you’re surfing ⭐️ save this for your next session #surfergirl #surflife
+
+## Research
+
+* Verdict: Nothing to find. This is a surf technique tip reel with no linked resource. The advice (paddle toward the whitewater, drive down the face on green waves) is ordinary surf coaching, and I didn't check it against outside sources.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [How to duck dive under breaking waves (instagram.com)](https://instagram.com/p/DesgD_1ytdF/) (`DesgD_1ytdF`). Another surf technique reel (duck diving under whitewater), same general topic of surf tips.
+
+### Not found
+
+No vault note or external resource exists for this post. I did not search the web, because it is a how-to reel with no linked material.

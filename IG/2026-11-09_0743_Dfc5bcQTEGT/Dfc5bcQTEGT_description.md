@@ -41,3 +41,25 @@ https://tinyurl.com/SPIRAL-AZURE
 Checked 6 November 2026.
 
 #AI #freecertificate #microsoft #careergrowth #upskilling
+
+## Research
+
+* Verdict: Partly valid. The free Microsoft Azure AI Essentials Professional Certificate on LinkedIn Learning exists and is earned by passing a free on-demand assessment. I found no public source for the 90-minute limit, 70% pass mark, three attempts with no reset, "free through 2027" or "never expires".
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Microsoft Essentials Professional Certificate process overview (learn.microsoft.com)](https://learn.microsoft.com/en-us/credentials/support/microsoft-essentials-professional-certificate-process-overview): page, found by search, verified, high confidence. Opened it. It lists the Microsoft Azure AI Essentials Professional Certificate and says finishing the LinkedIn Learning path unlocks a free, on-demand assessment on LinkedIn.
+* [Microsoft Azure AI Essentials Professional Certificate by Microsoft and LinkedIn (LinkedIn Learning path) (linkedin.com)](https://www.linkedin.com/learning/paths/microsoft-azure-ai-essentials-professional-certificate-by-microsoft-and-linkedin): guide, found by search, not opened, medium confidence. Found only as a mirrored copy in search results, with a matching title. I did not open the LinkedIn URL, which I derived from that mirror.
+
+### Key steps
+
+1. Log in to LinkedIn and open LinkedIn Learning.
+2. Search for "Microsoft Azure AI Essentials Professional Certificate" and start the path (about 3.5 hours of video).
+3. Complete the videos and the knowledge checks.
+4. Finishing the path unlocks the free on-demand assessment on LinkedIn.
+5. Pass the assessment to earn the certificate. The post says 90 minutes, 70% to pass and three attempts, but I could not confirm that.
+
+### Not found
+
+I did not open the tinyurl link (tinyurl.com/SPIRAL-AZURE) or the LinkedIn course page. I found no public source for the 90-minute limit, the 70% pass mark, the three attempts with no reset, "free through 2027" or "does not expire". The post says these come from a Microsoft help page on the exam, and I did not find that page.

@@ -78,3 +78,8 @@ Written by claude-haiku-5-5.
 .
 .
 #nyctodo #nycthingstodo #nycpopup #timeoutnewyork #donyc #thrillist #nycgo #mysecretnyc #ny1pic #cbsnewyork #abc7ny #yesny #allinnyc #teampixel #itstimefornyc
+
+## Research
+
+* Verdict: Nothing to find. A weekly NYC events roundup for June 24–29, 2025. The events have passed, and the full list is already in the caption. There is no single resource to look up.
+* Checked: 2026-11-10 by claude-sonnet-5-5

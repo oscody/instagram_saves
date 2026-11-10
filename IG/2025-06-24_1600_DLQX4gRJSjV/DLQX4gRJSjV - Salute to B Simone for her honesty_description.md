@@ -39,3 +39,20 @@ What B is doing—being vulnerable, transparent, and real—takes courage. 💪�
 📲 Swipe left to hear the gems she dropped when I interviewed her—and if you want to learn the 9 foundational steps to lasting wealth, my wife and I wrote a book called The Abundance Formula that breaks it all down. Comment “Formula” and I’ll send you the link 🔗 
 
 📥 Comment “B Simone” and I’ll send you the interview link directly.
+
+## Research
+
+* Verdict: Promo. The post is mostly a comment-for-link promo for Ash Cash's book and an interview. The mindset advice comes from the B Simone interview and is general self-help, not a checkable claim.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [The Abundance Formula: 9 Proven Steps to Build Black Family Wealth (Ash Cash & Amina Phelps) (empoweredway.gumroad.com)](https://empoweredway.gumroad.com/l/TheAbundanceFormula): product, found by search, not opened, medium confidence. Search results show the book by Ash Cash and Amina Phelps with a 9-step checklist. This matches the caption's wife-and-husband book, but I did not open the page.
+
+### Already in the vault
+
+* Vault: `4. Archives/Evernote/nians notebook/Online business.md`: Only lists the creator's Instagram profile link (iamashcash). It has no book or interview content.
+
+### Not found
+
+The B Simone interview link is only sent by DM after a comment, and I found no public copy. I did not open the book page, so the full 9-step list is unchecked.

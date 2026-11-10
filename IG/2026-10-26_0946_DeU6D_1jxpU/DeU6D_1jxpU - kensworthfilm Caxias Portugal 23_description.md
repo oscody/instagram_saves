@@ -17,3 +17,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 kensworth.film Caxias, Portugal 🇵🇹 ‘23
+
+## Research
+
+* Verdict: Nothing to find. Photo carousel of film photography from Caxias, Portugal with only a caption; no tool, guide or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

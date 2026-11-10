@@ -32,3 +32,32 @@ If you’re looking for a job, preparing for a job interview, creating a resume,
 #jobhunting #hiredgirlsummer
 
 📌 @linkedin @adobe @readymag @chatgpt @flexjobs
+
+## Research
+
+* Verdict: Partly valid. The post is a list of real job-search tools, and the vault already has most of them. Its claim that Google's Interview Warmup is free matches 2022 sources. Google's current page now points to Gemini Live for interview practice, so the tool may have been replaced. The post also names no specific links, and "WeWork Remotely" is really We Work Remotely.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Google Interview Warmup (Grow with Google) (grow.google)](https://grow.google/interview-warmup): tool, found by search, not opened, medium confidence. Search results from 2022 and later describe it as a free AI practice tool; when opened, the page now only covers Gemini Live interview practice.
+* [Levels.fyi (levels.fyi)](https://www.levels.fyi/): tool, in the vault, not opened, high confidence. Link is already in the user's vault notes, and the post names it for offer negotiation and salary comparison.
+* [We Work Remotely (weworkremotely.com)](https://weworkremotely.com/): tool, in the vault, not opened, high confidence. Link is in a vault note; this is the 'WeWork remotely' the voiceover names.
+* [Remote.co (remote.co)](https://remote.co/remote-jobs/developer/): tool, in the vault, not opened, high confidence. The on-screen text 'Remoteco' matches the Remote.co links in the vault notes.
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/remote jobs.md`: Remote job boards including Remote.co
+* Vault: `4. Archives/Evernote/Career Job/Resume career Job  Job  jobs  Volunteer  jobs Africa  jobs china  interesting companies  job search sites  job Find  Job Work.md`: We Work Remotely, FlexJobs and Remote.co links
+* Vault: `2. Areas/Career Development/job description/2024-12-23 .md`: levels.fyi comparison link
+* Vault: `3. Resources/0. note idea draft/Job Hunt 03-17--21-25.md`: levels.fyi/jobs link
+* Vault: `4. Archives/Evernote/Career Job/Job Hunt -- quick links.md`: Remote.co developer job links
+
+### Already in IG saves
+
+* Same: Web: [Networking with peers for job applications (instagram.com)](https://instagram.com/p/DF8VmM0oB9h/) (`DF8VmM0oB9h`). Also recommends Google's Interview Warmup tool for practicing interview answers.
+* Same: Web: [Machine learning pay and free Amazon resource (instagram.com)](https://instagram.com/p/DQXKN1kEogd/) (`DQXKN1kEogd`). Shows levels.fyi salary data.
+
+### Not found
+
+The post gives no links. I could not confirm that Interview Warmup is still live: the Grow with Google page redirected to content about Gemini Live. I did not open the Levels.fyi, Remote.co or We Work Remotely pages, and I did not look up ReadyMag, Canva, Adobe Portfolio or FlexJobs.

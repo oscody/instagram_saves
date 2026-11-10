@@ -25,3 +25,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Quantum Jump!!! #didyouknow #undercurrent #scienceexplained #quantumjump
+
+## Research
+
+* Verdict: Partly valid. The science claims are broadly supported: motor imagery gives a small benefit, mainly when paired with physical practice. The post names no specific study or resource. "Quantum jumping" itself is a pop-self-help label with no quantum physics behind it, and the post says as much.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Physical practice, mental practice or both: a systematic review with meta-analysis (revistas.uma.es)](https://revistas.uma.es/index.php/JPEHM/en/article/view/17875): paper, found by search, not opened, medium confidence. Search-result snippet only: mental practice complements physical practice but doesn't replace it. This fits the post's claim that rehearsal plus real action works. I didn't open the full paper.
+
+### Not found
+
+The post cites no specific study or resource. I didn't open the paper above, and I didn't check the predictive-processing or neuroplasticity claims individually.

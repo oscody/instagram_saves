@@ -28,3 +28,8 @@ Written by claude-haiku-5-5.
 When you submit a resume, you’re basically relying on luck. The better way to get a job is to find ways of demonstrating the value you’re able to bring a potential employer so that companies start chasing you.
 
 #college #collegeadvice #jobhunting #careeradvice #professor
+
+## Research
+
+* Verdict: Nothing to find. This is general career advice from a professor (inbound vs. outbound job hunting). It names no tool, repo or product. The advice is opinion, not a checkable claim.
+* Checked: 2026-11-10 by claude-sonnet-5-5

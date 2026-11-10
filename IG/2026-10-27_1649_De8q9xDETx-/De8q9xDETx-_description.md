@@ -33,3 +33,24 @@ Written by claude-haiku-5-5.
 This free pack gives your AI coding agent 74 game-dev skills and loads the right one for your engine. More like this → gittrend.io
 
 #gamedev #aiagents #godot #unity #opensource #gamedevelopment #coding #github
+
+## Research
+
+* Verdict: Valid. The repo exists and matches the post: a router plus game-dev skills, Apache-2.0, with the same install commands. The repo now says 77 skills, not 74, so the count has grown since the reel.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [gamedev-skills/awesome-gamedev-agent-skills (github.com)](https://github.com/gamedev-skills/awesome-gamedev-agent-skills): repo, in the post, verified, high confidence. The README matches the post: a router that detects the engine from project.godot or *.uproject, the npx skills and claude plugin install commands, and Apache-2.0. It lists 77 skills across 12 engines.
+
+### Already in IG saves
+
+* Similar: Web: [Open-sourced Three.js game dev skills for isometric RPGs (instagram.com)](https://instagram.com/p/DbORY7-OLjT/) (`DbORY7-OLjT`). Open-sourced Three.js game-dev skills for agents, a narrower pack that does a similar job.
+
+### Key steps
+
+1. Needs Node.js 22.20 or later for the npx route.
+2. Run: npx skills add gamedev-skills/awesome-gamedev-agent-skills (add --list to preview, -a <agent> to target one tool, -g for global).
+3. Or in Claude Code: claude plugin marketplace add gamedev-skills/awesome-gamedev-agent-skills, then claude plugin install gamedev@awesome-gamedev-agent-skills.
+4. For one engine only: install router@awesome-gamedev-agent-skills plus the engine bundle, e.g. godot@awesome-gamedev-agent-skills.
+5. Describe your game task in plain language. The router detects the engine from project files and loads only the matching skills.

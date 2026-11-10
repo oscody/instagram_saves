@@ -35,3 +35,30 @@ https://circuitdigest.com/news/a-maker-turned-a-4-toy-robot-into-an-ai-companion
 Link in bio 🔗
 
 #CircuitDigest #Robotics #AI #EdgeAI #LLM
+
+## Research
+
+* Verdict: Valid. The article and the open-source repo both exist and match the post's details: Silverlit toy, FT232H over WebUSB, Qwen3.5-0.8B reflex model, and the dataset and model on Hugging Face.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [beasaltfish/bot-reborn (github.com)](https://github.com/beasaltfish/bot-reborn): repo, in the post, verified, high confidence. The article names the repo; the opened README covers the phone body, toy car wiring, reflex model and ESP32 body.
+* [CircuitDigest article (circuitdigest.com)](https://circuitdigest.com/news/a-maker-turned-a-4-toy-robot-into-an-ai-companion-for-a-kid-and-a-tiny-0-8b-model-makes-it-stop-in-200-ms): page, in the post, verified, high confidence. Link from the post; the content matches the caption.
+* [robot-simple-commands dataset (huggingface.co)](https://huggingface.co/datasets/beasaltfish/robot-simple-commands): other, found by search, not opened, medium confidence. Linked in the repo README; I did not open the page itself.
+* [robot-simple-commands-qwen3.5-0.8b model (huggingface.co)](https://huggingface.co/beasaltfish/robot-simple-commands-qwen3.5-0.8b): other, found by search, not opened, medium confidence. Linked in the repo README as the reflex model; I did not open the page itself.
+
+### Key steps
+
+1. Wire the toy: cut the PCB trace to the controller and solder four wires to the two motor driver chips' inputs. Never connect straight to the coil, or the FT232H pin can burn out. See docs/hardware.md (watch the D6/D7 warning).
+2. Connect the wires to an FT232H USB-to-GPIO board and plug it into the Android phone.
+3. On a computer on the same Wi-Fi, clone the repo and run `npm install`.
+4. Run `server/models/fetch.sh` once to download the wake-word and VAD models.
+5. Run `npm start`. In the admin page, create a character, choose the body type, and set a provider and API key for each layer (ears, mind, voice, optional reflex).
+6. Enable the Chrome flag for insecure origins so USB and the mic work on the admin address.
+7. Scan the character's QR code with the phone, which becomes the face, mic and speaker.
+8. Optional: add the fine-tuned reflex model (beasaltfish/robot-simple-commands-qwen3.5-0.8b) for fast stop/turn commands. Test without hardware first using the 'Dry run' body or http://localhost:8787/sim/.
+
+### Not found
+
+I did not open the Hugging Face pages themselves. The article gave no URLs for them, so I took the links from the GitHub README.

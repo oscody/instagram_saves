@@ -26,3 +26,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 👁️
+
+## Research
+
+* Verdict: Partly valid. Jing, Qi, Shen and the kidney-Jing link are real traditional Chinese medicine concepts. The "transmute horny energy" framing and the karmic or self-sabotage reading of dark circles are the creator's own spin. The only offer is a free tarot read and meditation, given after you comment "ascend".
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Transmuting sexual energy into money energy (instagram.com)](https://instagram.com/p/DdWqz25sC5h/) (`DdWqz25sC5h`). Also teaches transmuting sexual energy into other energy, in the Taoist jing-qi-shen style.
+
+### Not found
+
+No specific resource is named. The tarot read and custom guided meditation are only sent after commenting "ascend", and I found no public copy. I did no web search, because the post names nothing to look up.

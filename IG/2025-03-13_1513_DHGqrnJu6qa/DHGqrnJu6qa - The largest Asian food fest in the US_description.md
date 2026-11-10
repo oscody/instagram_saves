@@ -45,3 +45,17 @@ Who would you take?
 
 Follow for more @purplehighways 
 #asianfoodfestival #dreamfestfooddrive #americandream #familyfun #foodvendorsnj #japanesefood #asianfoodfest #newjerseyfoodfest
+
+## Research
+
+* Verdict: Promo. The post is an influencer promo with a discount code for a real, past event (Mar 28-30, 2025). The festival is real, and the $12 GA and $45 VIP prices match later coverage.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Dream Asia Food Fest NJ (2026 edition coverage, Meadowlands Media) (meadowlandsmedia.com)](https://meadowlandsmedia.com/dream-asia-food-festival-returns-to-american-dream-this-weekend-includes-performances-foods-and-more-celebrating-asian-culture/): page, found by search, verified, medium confidence. Opened it: same venue (Lot 26, American Dream) and same $12 GA / $45 VIP pricing, but it covers the March 2026 edition, not the 2025 one in the post.
+* [Official ticket page (dreamasiafest.com/nj2026) (dreamasiafest.com)](https://dreamasiafest.com/nj2026): page, found by search, not opened, low confidence. Link given in the Meadowlands article; I did not open it, and it is for the 2026 edition.
+
+### Not found
+
+I found no official page for the 2025 edition that I could open; the potluckasianamerica.org listing returned 404. The 2025 event has passed, and the SHWETHA10 code could not be checked.

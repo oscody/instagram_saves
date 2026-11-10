@@ -55,3 +55,16 @@ The Maker in Hudson
 .
 .
 #travelandexplore #thingstodoinnyc #nycrecs #travelnyc #nyctraveltips #nycbucketlist #explorenyc #nycexplored #discoverny #discovernyc #travelnyc #nycguide  #explorenyc #newyorkbucketlist  #wintergetaway #videosofnewyork  #nyhotels  #discoverny #travelnyc #nycguide #nyctravelguide #hiddengems #nybucketlist #discovernyc #thingstodoinnyc #travelandexplore #nyhiking  #nyccreatives #coolhotels #uniquedestinations #uniquehotels #catskillsmountains #discoverusa
+
+## Research
+
+* Verdict: Partly valid. The post is a list of real upstate NY stays, but it names no single resource or links. I checked only Eastwind. The "winter" and "gems" framing is the creator's opinion, and the list includes big resorts like Turning Stone Casino and Gurney's Montauk.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Eastwind Hotels (Oliverea, Windham, Lake Placid) (eastwindhotels.com)](https://www.eastwindhotels.com): product, found by search, verified, medium confidence. The site lists Catskills cabins in Oliverea Valley and Windham, matching the post's #5 'Eastwind Hotels' and the caption's 'East wind Oliverea'.
+
+### Not found
+
+The post gives no links, only names. I did not check the other ~19 properties (Unique Escapes domes, Hemlock Neversink, Mohonk and others) or their prices and winter availability. The vault has no relevant note; one passing "Catskills" mention is unrelated.

@@ -25,3 +25,25 @@ Written by claude-haiku-5-5.
 ## Caption
 
 AI Automation eBook for Startups Link in Bio!
+
+## Research
+
+* Verdict: Partly valid. It's a simple prompt tip with no external resource. Using ChatGPT to match a resume to a job's keywords is reasonable. "Talent acquisition AI bot keywords" is vague, though, and ChatGPT has no access to the keyword lists real screening systems use. The caption also ends with an eBook promo.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Claude vs OpenAI vs Gemini resume test (instagram.com)](https://instagram.com/p/DSSj_hjkqbv/) (`DSSj_hjkqbv`). Uses AI to write resumes with keywords pulled from real job postings, which is the better version of this tip.
+* Similar: Web: [Claude for a recruiter job search (instagram.com)](https://instagram.com/p/DWY-ysgFY-N/) (`DWY-ysgFY-N`). Gives Claude your resume to match jobs and find skill gaps.
+* Similar: Web: [Dossier: free open-source AI job search tool (instagram.com)](https://instagram.com/p/DfAYKU-EwIK/) (`DfAYKU-EwIK`). Dossier is an open-source AI tool that tailors resumes to job descriptions.
+
+### Key steps
+
+1. Paste your full resume into ChatGPT.
+2. Prompt: "Rewrite this resume utilizing talent acquisition AI bot keywords for [specific job title]."
+3. Better: also paste the actual job description and ask it to mirror the keywords from that posting.
+4. Check the output for invented claims, and keep it accurate and readable by a human.
+
+### Not found
+
+No public resource exists. The post only gives a prompt, and the eBook in the caption is in the creator's bio link, which I didn't check.

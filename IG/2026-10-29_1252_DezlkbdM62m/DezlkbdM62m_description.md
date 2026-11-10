@@ -18,3 +18,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Need a guide?
+
+## Research
+
+* Verdict: Unresolved. The reel shows a homemade actuator and a "$60 vs $1,000" claim, but no source, name or link. The caption "Need a guide?" suggests the guide is sent after a comment or DM. I found no public copy from ibionic.ai.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Berkeley Humanoid Lite – actuator build guide (possible similar DIY actuator) (berkeley-humanoid-lite.gitbook.io)](https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/building-the-actuator): guide, found by search, not opened, low confidence. It is a public build guide for a 3D-printed DIY actuator, but its cost is about $136–188 per unit, not $60, and nothing ties it to the reel.
+* [Berkeley Humanoid Lite repo (github.com)](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite): repo, found by search, not opened, low confidence. The Hackaday article links to it as the home of the open design files. It is not confirmed as the reel's source.
+
+### Not found
+
+I couldn't find the actual guide or any ibionic.ai page. The vault has no notes on it, and no other saved post covers it. The $60 vs $1,000 claim is unverified. Public DIY actuators cost about $40–$190, and a Circuit Cellar article cites about $500 for the commercial comparison, not $1,000.

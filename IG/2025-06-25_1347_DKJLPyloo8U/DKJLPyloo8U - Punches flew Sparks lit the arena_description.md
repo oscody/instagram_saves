@@ -26,3 +26,12 @@ Some called it a glitch, others called it the future.
 Either way, robot combat just leveled up.
 
 #robotik #humanoidrobot #UnitreeRobotics #AIInnovation #TechBattle #ufcfightnight
+
+## Research
+
+* Verdict: Nothing to find. This is a news or entertainment clip of Unitree humanoid robots boxing. It links to no tool, repo or guide, so I did no searching.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+I did not check the "world's first" claim or the event details.

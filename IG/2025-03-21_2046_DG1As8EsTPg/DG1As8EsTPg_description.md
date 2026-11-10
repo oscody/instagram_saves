@@ -28,3 +28,16 @@ Need new ideas for fun and interesting leisure in NYC? Try unique painting techn
 ✔️ Romantic dates
 
 Book your time now at shotofart.com/city/new-york
+
+## Research
+
+* Verdict: Promo. This is an ad for a paid painting studio in NYC. It has no resource to extract beyond the booking page named in the caption.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Shot of Art Studio NYC booking page (shotofart.com)](https://shotofart.com/city/new-york): product, in the post, not opened, medium confidence. The URL comes from the post caption. I did not open it, because the post is a promo.
+
+### Not found
+
+I did not search the vault, the web or the other saved posts, because this is a plain ad with nothing else to find.

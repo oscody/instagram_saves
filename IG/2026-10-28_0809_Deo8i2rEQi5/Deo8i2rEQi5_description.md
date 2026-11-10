@@ -64,3 +64,29 @@ So your work keeps moving.
 And nothing important gets dropped.
 
 #claudecode #claudemods #claude #aiagent #aicoding
+
+## Research
+
+* Verdict: Valid. The auto-handoff repo exists and matches the post. It writes a brief and starts a fresh session. "You Should Know" is only confirmed by one secondary write-up. The "comment MODS" setup is a lead-in, since the repo is public.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [claude-auto-handoff (github.com)](https://github.com/alexknowshtml/claude-auto-handoff): repo, in the post, verified, high confidence. Opened the repo. It is a Claude Code mod that writes a Haiku handoff brief near the context limit, runs /clear, and seeds a fresh session with the brief.
+* [Watcher Side Agents (describes the built-in 'You Should Know' mod) (agentpatterns.ai)](https://agentpatterns.ai/patterns/agent-design/watcher-side-agents/): page, found by search, not opened, low confidence. The search summary says this page describes the built-in mod, enabled with /plugin enable cc-plugin-you-should-know@builtin. I did not open the page and found no Anthropic doc for it.
+
+### Key steps
+
+1. Needs a Claude Code build that supports mods (function-hook plugins).
+2. Clone: git clone https://github.com/alexknowshtml/claude-auto-handoff.git ~/claude-auto-handoff
+3. Load for one session: claude --plugin-dir ~/claude-auto-handoff
+4. To load it in every session, set CLAUDE_CODE_PLUGIN_DIRS to that folder, in your shell or in the env block of ~/.claude/settings.json.
+5. The mod checks context size each turn. Past the threshold (default 160k tokens) it has Haiku write a brief to ~/.claude/state/auto-handoff/<session-id>.md, runs /clear, and points the new session at the brief.
+6. Change threshold, maxConsecutiveHandoffs, ignoreFiles and viewer under auto-handoff in /config. The post shows about 80k, so you may want a lower threshold.
+7. Edit your copies of brief.md and instructions.md in ~/.claude/auto-handoff/ so git pull doesn't overwrite them.
+8. Test with AUTO_HANDOFF_TOKENS to set the threshold for one run. Use AUTO_HANDOFF_DISABLE=1 to turn the mod off.
+9. For 'You Should Know', one secondary source gives: /plugin enable cc-plugin-you-should-know@builtin. This is unconfirmed.
+
+### Not found
+
+I found no official Anthropic documentation for the built-in "You Should Know" mod, only one secondary write-up that I did not open. I did not check the creator's DM/comment setup, but the repo is public.

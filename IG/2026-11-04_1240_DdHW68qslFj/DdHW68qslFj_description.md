@@ -31,3 +31,12 @@ Written by claude-haiku-5-5.
 Attract financial abundance into your life as a man.
 3 super powers and things you see within 90 to 180 days. Semen retention.
 #moneytips #manifestation #financialeducation #moneymatters #businesscoach
+
+## Research
+
+* Verdict: Not valid. The reel is a coach's opinion about semen retention, not a resource. It makes health and wealth claims with no evidence, and its physics claim ("energy is neither created nor destroyed") doesn't apply to semen. Studies don't show that abstaining raises success or attracts money.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+No downloadable resource exists; I didn't search the web. The vault and the other saved posts have nothing on this creator or topic. I judged the claims from general knowledge, not from a source I opened.

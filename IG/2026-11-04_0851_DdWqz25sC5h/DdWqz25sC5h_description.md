@@ -27,3 +27,17 @@ Written by claude-haiku-5-5.
 
 Energy can be transmuted. The secret to alchemy 
 #moneytips #manifestation #financialeducation #moneymatters #neuroscience
+
+## Research
+
+* Verdict: Not valid. This is a spiritual/self-help practice with no public resource. The claim that breath-holding and pineal focus turn sexual energy into money has no scientific support. The creator ("Adebu") promotes his own teaching.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Redirecting sexual energy into goals and creativity (instagram.com)](https://instagram.com/p/DZ-hE0LxvG3/) (`DZ-hE0LxvG3`). Same idea of redirecting sexual energy into goals and creativity.
+* Similar: Web: [Chinese medicine Jing, Qi, Shen and eye signs (instagram.com)](https://instagram.com/p/DbvghzspydP/) (`DbvghzspydP`). Taoist jing-to-qi-to-shen transmutation of sexual energy.
+
+### Not found
+
+The creator's separate videos for steps 1 and 2 and any public course were not searched. No vault notes matched.

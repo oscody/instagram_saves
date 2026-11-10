@@ -46,3 +46,17 @@ Pocono Manor, PA 18349
 Comment any questions you have below!🥂
 
 #poconos #poconositinerary #poconossnowtubing #snowtubing #dinnerpoconos #travelideas #weekendgetaway
+
+## Research
+
+* Verdict: Partly valid. The Swiftwater hotel exists at the stated address and listings mention indoor and outdoor heated pools. The "as low as $170 per night" claim didn't match the rates I found (about $399–485). I did not open the other three venues.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [The Swiftwater (official site) (theswiftwater.com)](https://www.theswiftwater.com/llms.txt): page, found by search, not opened, medium confidence. Search results list this as the hotel's official site page, with the address in the caption; I did not open it.
+* [The Swiftwater on Hotels.com (hotels.com)](https://www.hotels.com/ho3210813792): page, found by search, not opened, medium confidence. Search results show the same hotel at the same address, with indoor and outdoor heated pools.
+
+### Not found
+
+I opened no pages, so nothing is marked verified. I did not check Camelback snow tubing prices, Desaki, or Double Cut Steakhouse. The $170 per night rate may be an off-peak or promo rate, and I couldn't confirm it.

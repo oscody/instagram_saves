@@ -37,3 +37,34 @@ Twice a week I let one skill read it. It tells me what I’m doing wrong, which 
 Comment IMPROVE and I’ll send you the full walkthrough.
  
 #claude #claudecode #aiautomation #claudeai #productivity
+
+## Research
+
+* Verdict: Valid. The BuildPartner plugin is public on GitHub, and its improve-system skill does what the reel describes. The vault already has a security scan and a cleaned copy of the skill.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [buildpartner-plugin (GitHub) (github.com)](https://github.com/austinmarchese/buildpartner-plugin): repo, in the vault, verified, high confidence. Opened the repo. It lists the /buildpartner:improve-system skill, which reviews sessions and captures learnings, with a weekly run recommended.
+* [BuildPartner setup (buildpartner.ai)](https://www.buildpartner.ai/setup): page, in the vault, not opened, medium confidence. Setup link taken from the vault note on the earlier reel. I did not open it.
+
+### Already in the vault
+
+* Vault: `ZAIHub/repo - buildpartner-plugin - improve-system.md`: Repo and setup links, summary of the skill, and a cleaned local copy of improve-system with no branding or telemetry, saving to ZAIHub/Improve System/.
+* Vault: `ZAIHub/claude - SkillSpector scan of buildpartner-plugin.md`: Security scan of the plugin. It rewrites the global CLAUDE.md, sends telemetry without opt-in, and the installer writes global config.
+
+### Already in IG saves
+
+* Same: Web: [Auto-improving Claude system using conversation history (instagram.com)](https://instagram.com/p/DeAne_MjMoi/) (`DeAne_MjMoi`). Same link: buildpartner-plugin (GitHub).
+
+### Key steps
+
+1. Add the marketplace: claude plugin marketplace add austinmarchese/buildpartner-plugin
+2. Install the plugin: claude plugin install buildpartner@buildpartner
+3. Restart Claude Code. On first start it creates an account, opens a dashboard and registers an MCP server.
+4. Run /buildpartner:improve-system about twice a week. It reads your session history and reports mistakes, missing context, skills worth building and repeated tasks to automate.
+5. Safer option: use the cleaned copy of the skill already at ~/.claude/skills/improve-system/SKILL.md, because the full plugin rewrites ~/.claude/CLAUDE.md and sends telemetry.
+
+### Not found
+
+I did not open buildpartner.ai/setup. The reel's comment-only walkthrough is not needed, because the repo is public.

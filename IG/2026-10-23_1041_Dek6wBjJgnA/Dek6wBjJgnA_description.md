@@ -32,3 +32,33 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “agent” to get access to all my Claude code guides
+
+## Research
+
+* Verdict: Valid. The reel summarizes a real essay by Felix Rieseberg (Anthropic). The four types and the depth prompt match the original. The "lead engineer" title was not checked.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [How to be more ambitious: a tutorial for humans with models (Felix Rieseberg) (felixrieseberg.com)](https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/): guide, found by search, verified, high confidence. Opened it: it covers speed, altitude, depth and range, and the depth prompt matches the reel's four items and 'rewrite my prompt to ask for exactly that'.
+* [Mejba Ahmed summary: How to Be More Ambitious With AI (mejba.me)](https://www.mejba.me/blog/be-more-ambitious-with-ai): page, found by search, verified, medium confidence. Secondary write-up that credits Rieseberg's essay and adds extra prompts for altitude and range.
+
+### Already in IG saves
+
+* Same: Web: [Felix Rieseberg's prompt for deeper AI results (instagram.com)](https://instagram.com/p/Dep_z2oEnAj/) (`Dep_z2oEnAj`). Same link: How to be more ambitious: a tutorial for humans with models (Felix Rieseberg).
+* Same: Web: [Four kinds of ambition for AI prompting (instagram.com)](https://instagram.com/p/Dey0nCDJT8w/) (`Dey0nCDJT8w`). Same link: How to be more ambitious: a tutorial for humans with models (Felix Rieseberg).
+
+### Key steps
+
+1. Append the prompt to any prompt you already use: "I want a deeper version of this task, not a bigger one."
+2. "Before rewriting it: (1) say what a top professional in this field would do here that I'm not asking for;"
+3. "(2) name the rawest material they would start from instead of what has already been digested for me;"
+4. "(3) name the specific methods and tools they would use;"
+5. "(4) say what, other than you or me, would show the result is right."
+6. "Then rewrite my prompt to ask for exactly that."
+7. Run the rewritten prompt. Give the model code execution and an outside check, such as tests or a validator, so it doesn't grade itself.
+8. For altitude, ask for the outcome behind the task. For range, restate the task as verbs and ask how experts from several other fields would approach it.
+
+### Not found
+
+I did not check Rieseberg's exact job title. The essay's altitude and range prompts were only read via the summary. The 'agent' comment-for-guides offer is private and was not checked.

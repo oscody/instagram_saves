@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 🔹️🤣🤣🤣🤣🤣🤣
 
 Credit: @keighbabii @bonnickthedragon
+
+## Research
+
+* Verdict: Nothing to find. Comedy reel reacting to a joke comment. There is no resource, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `4. Archives/Evernote/nians notebook/radio Webistes to use(radio).md`: Only matches the creator ragashanti: a list of radio sites, including ragashanti.com/tambourine-radio. It is unrelated to this reel.

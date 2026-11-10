@@ -43,3 +43,22 @@ Greg Isenberg reportedly spent 48 hours in San Francisco with top AI founders. H
 21. In an increasingly crowded AI market, capturing attention may become one of the biggest competitive advantages.
 
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates straight to your inbox.
+
+## Research
+
+* Verdict: Partly valid. The 21 observations come from a real X post by Greg Isenberg dated 14 Oct 2026. They are his anecdotes and guesses, with no named sources, and the carousel is a repost that ends in a newsletter promo.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Greg Isenberg X post: 21 observations from 48 hours in San Francisco (x.com)](https://x.com/gregisenberg/status/2110414696037716372): page, found by search, not opened, medium confidence. FourWeekMBA embeds and cites this post, dated 14 Oct 2026. I did not open X directly.
+* [FourWeekMBA: Isenberg hears AI labs pay data brokers $2M a week (fourweekmba.com)](https://fourweekmba.com/ai-isenberg-hears-ai-labs-pay-data-brokers-2m-a-week-for-data/): page, found by search, verified, high confidence. Opened it. It paraphrases the same 21 observations and notes they rest on his account alone, with no names or deals.
+
+### Already in the vault
+
+* Vault: `ZAIHub/dating/search - Hinge chats and IG saves review.md`: Mentions @theaifield in another context (Claude Tinder automation). Nothing on this post.
+* Vault: `ZAIHub/search - skillspector - similar ai safety workflows.md`: Lists @theaifield's privacy alternatives post. Nothing on this post.
+
+### Not found
+
+I did not open the X post directly. Nothing backs the $2M-a-week data broker figure: Isenberg names no broker, lab or deal. No other saved post covers Isenberg.

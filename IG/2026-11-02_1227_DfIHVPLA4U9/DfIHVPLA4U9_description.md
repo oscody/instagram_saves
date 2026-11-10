@@ -26,3 +26,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Prove me wrong. Three rounds. Ten dead bugs. Fifteen glute bridges. Twenty mountain climbers. Thirty second side plank, fifteen a side. Come back to this post when you finish and drop your time. Comments are the scoreboard. I’ll be watching.
+
+## Research
+
+* Verdict: Nothing to find. This is a short bodyweight workout the post spells out in full. No separate resource exists. The "next time you smoke" line suggests it's a substitute activity for cravings, not a medical claim.
+* Checked: 2026-11-10 by claude-sonnet-5-5

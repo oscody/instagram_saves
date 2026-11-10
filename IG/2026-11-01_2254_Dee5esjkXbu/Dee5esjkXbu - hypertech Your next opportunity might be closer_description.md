@@ -57,3 +57,21 @@ Always verify eligibility, deadlines, requirements, and application details thro
 📤 Share this with someone looking for their next opportunity.
 
 #ChatGPT #AI #JobSearch #Scholarships #AITools
+
+## Research
+
+* Verdict: Valid. The resource is the seven prompts in the carousel, and your vault already holds them in full. The claim is modest and fair: it says to verify everything on official sources.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [hypertech carousel: 7 prompts for jobs, scholarships and grants (instagram.com)](https://www.instagram.com/p/Dee5esjkXbu/): prompt, in the post, verified, high confidence. The vault note holds all seven prompts, matching the post's description and on-screen headings. I did not open the Instagram page itself.
+
+### Already in the vault
+
+* Vault: `ZAIHub/agents/prompts - 7 find jobs scholarships and grants.md`: All 7 prompts written out in full, with notes to upload the CV first, paste the job description for the ATS prompt, and use web search for the scout prompt.
+* Vault: `ZAIHub/agents/Scholarships and funding by Claude.md`: Linked follow-up note on scholarships and funding, with a mention of this post and creator.
+
+### Already in IG saves
+
+* Similar: Web: [Seven ChatGPT prompts for jobs and funding (instagram.com)](https://instagram.com/p/DeUramcDIsu/) (`DeUramcDIsu`). A passionateincome post, whose description also begins 'Your next opportunity might be…'. It may repeat the same prompts; I matched it by caption only and did not open it.

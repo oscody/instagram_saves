@@ -24,3 +24,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I’d been wanting to do this for so long and when I mentioned it to @fomajc he said he could make it happen 🥹
+
+## Research
+
+* Verdict: Nothing to find. Personal clip of a woman trying a hanging rig obstacle with a coach's spoken cues. No tool, product or downloadable resource is involved.
+* Checked: 2026-11-10 by claude-sonnet-5-5

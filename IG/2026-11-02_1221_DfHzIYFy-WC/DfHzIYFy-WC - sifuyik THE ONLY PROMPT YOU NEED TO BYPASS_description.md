@@ -25,3 +25,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 sifuyik THE ONLY PROMPT YOU NEED TO BYPASS AI-DETECTION IN YOUR WRITING
+
+## Research
+
+* Verdict: Partly valid. The workflow is a real, doable ChatGPT custom-instructions setup, and the post's steps are all there is to it. The claim that it bypasses AI detection is overstated, because style rules don't reliably beat detectors and detectors give false positives.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Making Claude text sound less AI-generated (instagram.com)](https://instagram.com/p/DYGZPqUM3-7/) (`DYGZPqUM3-7`). Also puts a 'more human' prompt into Claude's personal preferences to avoid AI-detection; the prompt is gated behind a comment.
+
+### Not found
+
+The post is a self-contained prompt workflow with no external resource, so I did not run web searches. I did not test whether the result beats any AI detector. The exact prompt text is only partly legible from the on-screen OCR.

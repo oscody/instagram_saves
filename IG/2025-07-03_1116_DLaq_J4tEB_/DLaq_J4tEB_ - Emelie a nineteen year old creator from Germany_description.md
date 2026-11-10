@@ -26,3 +26,16 @@ Because the suit costs about €9,000 and is hard to obtain outside Europe, Emel
 ➡️ Want to stay ahead in the world of AI? Grab your coffee, relax, and let our newsletter deliver the biggest updates and trends straight to your inbox.
 
 Don’t miss out! click the link in our bio and subscribe for free today!
+
+## Research
+
+* Verdict: Unresolved. I couldn't find the creator's video or any coverage of Emelie, and the suit is never named. The only suit I found that matches the description is the Exopulse Mollii Suit, and that is a guess.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Exopulse Mollii Suit (Ottobock user story) (ottobock.com)](https://www.ottobock.com/en-gb/user-stories/marissa-exopulse-mollii-suit): product, found by search, not opened, low confidence. A wearable electrode suit for spasticity and mobility. It fits the post's description, but no source links it to Emelie. I saw it only in search results and did not open the page.
+
+### Not found
+
+I found no public source for Emelie / @emelieetr, the 34M-view video, the €9,000 crowdfunding, or the suit's brand. The post doesn't name the suit. The vault notes that mention the creator (theaifield) are unrelated to this post. No other saved post covers this. The Mollii suit is mainly marketed to reduce spasticity, so "enabling walking" may be overstated.

@@ -39,3 +39,18 @@ Tag a food festival lover👇🏽
 
 —————————
 #nycfoodies #dragonfest #outdoorfestival #nycfestivals #nycfestival
+
+## Research
+
+* Verdict: Valid. Dragon Fest NYC 2025 was a real festival. Search results match the post's July 20 Panda Day and October dates. The season has since ended, so the dates are only historical.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Secret NYC: Dragon Fest NYC 2025 (secretnyc.co)](https://secretnyc.co/dragon-fest-nyc-2025/): page, found by search, not opened, medium confidence. Search snippet lists 2025 dates including the 7/20 Panda Day at 7th Ave and 56th-57th St, which matches the post. I did not open the page.
+* [Potluck Asian America: Dragon Fest NYC (potluckasianamerica.org)](https://potluckasianamerica.org/event/food-festival-dragon-fest-nyc/): page, found by search, not opened, medium confidence. Snippet shows a season running to Oct 12, 2025, with Oct 5 on 6th Ave and Oct 12 on Broadway at 81st-82nd St, as in the post. I did not open the page.
+* [Dragon Fest official site (dragonfests.com)](https://dragonfests.com): page, found by search, not opened, low confidence. A search summary named dragonfests.com as the official source. The post also points to @dragonfests. I did not open the site.
+
+### Not found
+
+I did not open any of the pages. The sources disagree on some dates. For example, Secret NYC lists an Astor Place Panda Day on 4/13, while the post says 5/24. The 2025 season is over, so I did not check the later dates.

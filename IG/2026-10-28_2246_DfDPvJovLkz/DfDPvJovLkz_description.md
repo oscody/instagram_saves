@@ -44,3 +44,22 @@ Healthy As A Motha (HAAM)
 .
 .
 [vegan, vegan food nyc, vegan food brooklyn, vegan restaurant nyc, vegan restaurant brooklyn, williamsburg restaurants, vegan dinner new york city, cute restaurants new york, where to eat nyc, good restaurants nyc, dembow, salsa, merengue, bachata, best restaurants nyc, must try restaurants nyc, Caribbean food nyc, vegan mofongo nyc, dominican restaurant]
+
+## Research
+
+* Verdict: Valid. HAAM is a real plant-based Dominican and Trinidadian restaurant at 234 Union Ave, Williamsburg, as the post says. I couldn't confirm it is still open or check the chef's home garden.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [HAAM (Healthy As A Motha) – Time Out listing (timeout.com)](https://www.timeout.com/newyork/restaurants/haam-caribbean-plant-cuisine): page, found by search, verified, high confidence. Opened it: it lists the plant-based Caribbean restaurant at 234 Union Ave, Brooklyn 11211, matching the post's address.
+* [Healthy As A Motha website (healthyasamotha.com)](https://healthyasamotha.com): page, found by search, not opened, medium confidence. The search results and the Time Out page give this as the restaurant's site. I did not open it.
+
+### Already in IG saves
+
+* Same: Web: [Plant-based Caribbean restaurant review in Williamsburg (instagram.com)](https://instagram.com/p/DYTf4XmtZeJ/) (`DYTf4XmtZeJ`). Same link: HAAM (Healthy As A Motha) – Time Out listing.
+* Same: Web: [Healthy As A Motha NYC Vegan Caribbean Tasting (instagram.com)](https://instagram.com/p/De0NRU3Jalk/) (`De0NRU3Jalk`). Another review of Healthy As A Motha, with jerk salmon fettuccine and curry roti, plus a comment-for-deals offer.
+
+### Not found
+
+I didn't open the restaurant's own site, so hours, the current menu and whether it is still open are unconfirmed. Sources disagree on hours. I found nothing on the chef's home garden.

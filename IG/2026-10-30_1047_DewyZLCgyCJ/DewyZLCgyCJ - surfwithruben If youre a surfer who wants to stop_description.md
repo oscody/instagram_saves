@@ -42,3 +42,16 @@ I'm going to personally show you what to actually train, the mistake keeping mos
 Click the link below to register and secure your spot for Saturday, 31 October 2026 at 3:00 pm CET 🌊
 
 https://ruben-webinar-registration.replit.app/
+
+## Research
+
+* Verdict: Promo. The post is a funnel for a free live webinar (31 Oct 2026, 3pm CET) that has already passed. The registration page is an empty shell, so I couldn't check the "90-day blueprint" or the "hundreds of surfers" claims. The free workshop probably leads to a paid program, but I couldn't confirm that.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Ruben webinar registration page (ruben-webinar-registration.replit.app)](https://ruben-webinar-registration.replit.app/): page, in the post, not opened, low confidence. The page opened but showed only the title 'Ruben Webinar Registration'. No date, content or price was visible.
+
+### Not found
+
+There is no public copy of the workshop content or the 90-day blueprint. The webinar date has passed and no replay was found. The registration page showed no details. I didn't search further.

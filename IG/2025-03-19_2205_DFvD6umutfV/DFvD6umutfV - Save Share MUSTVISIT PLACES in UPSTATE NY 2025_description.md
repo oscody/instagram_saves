@@ -28,3 +28,8 @@ Save & Share! MUST-VISIT PLACES in UPSTATE NY 2025 🏔️🌊
 7️⃣ High Falls Gorge – Easy family-friendly waterfall hike! 🌊 (Wilmington, NY)
 
 Tag your adventure crew! 🏕️✨ Follow @purplehighways for more! #UpstateNY #NYHiking #NatureLovers #upstateparks  #newyorkupstate #whitemountain #daytripideany #nydaytrip
+
+## Research
+
+* Verdict: Nothing to find. This is a travel list of seven well-known upstate New York places, with no single resource, guide or download to find. I didn't search, so I haven't checked the individual claims (for example, that Awosting Falls is a 1-mile hike).
+* Checked: 2026-11-10 by claude-sonnet-5-5

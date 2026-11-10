@@ -29,3 +29,26 @@ Written by claude-haiku-5-5.
 adding your devices to the Claude Code mobile app is probably the greatest unlock I've had all year. sure other things have been more intelligent or impactful, but I can always access my computer after this change
 
 #greenscreen #claude #ai #aiagent #anthropic
+
+## Research
+
+* Verdict: Partly valid. The official docs confirm `claude remote-control` server mode, which stays running in a plain terminal and serves multiple sessions. The creator's details are off in two ways. The command is `claude remote-control`, not "Cloud RC". The "SSH tunnel" description is wrong: the docs say it makes outbound HTTPS requests only and opens no inbound ports. I did not check whether a short alias exists.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Claude Code Remote Control docs (server mode) (code.claude.com)](https://code.claude.com/docs/en/remote-control): guide, found by search, verified, high confidence. I opened the page. It describes `claude remote-control` server mode that keeps running in the terminal and works with the Claude mobile app. It also lists requirements, flags and limits.
+
+### Key steps
+
+1. Requires a claude.ai Pro, Max, Team or Enterprise plan. API keys are not supported. On Team and Enterprise, an Owner must first turn on the Remote Control toggle in admin settings.
+2. Run `claude` once and use `/login` to sign in with your claude.ai account.
+3. In a normal terminal (not inside a Claude session), cd to your project and run `claude remote-control`. Optional: `--name "My Project"`.
+4. Leave the process running. It prints a session URL. Press spacebar to show a QR code.
+5. Optional flags: `--spawn same-dir|worktree` sets how sessions are created. `--capacity N` sets the maximum concurrent sessions (default 32).
+6. Open the Claude mobile app or claude.ai/code and pick your machine to start or continue sessions.
+7. To keep it always on, run it inside tmux or screen, or start it from a login or boot script (the docs don't cover boot scripts). If the process stops, the machine goes offline until you restart it.
+
+### Not found
+
+The creator's startup script is not public. I did not check for a short `claude rc` alias. The docs give no per-machine device list beyond what the post shows.

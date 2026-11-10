@@ -43,3 +43,16 @@ Hasta que un día te haces una pregunta demasiado simple como para ignorarla:
 Algunas preguntas no cambian tu vida cuando se responden.
 
 Cambian cuando te das cuenta de que has pasado años evitando hacerlas.
+
+## Research
+
+* Verdict: Partly valid. The five questions are useful self-reflection prompts, but I know of no Jung source saying he asked them of every new patient. The "MAP" material is a comment-for-reward lead magnet with no public copy.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Carl Jung's 10-day wish method (instagram.com)](https://instagram.com/p/DaVr_PGkbrq/) (`DaVr_PGkbrq`). Another carousel that attributes a self-development method to Carl Jung. It also has no primary Jung source.
+
+### Not found
+
+I did not search the web. The "MAP" 30-day discipline and productivity material is sent only after a comment, and I found no public copy. I found no source for the claim that Jung asked these five questions of every new patient. The post's own steps already cover how to use the questions.

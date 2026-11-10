@@ -33,3 +33,19 @@ Chat GPT is only as good as you make it. Don’t just ask for generic help, prom
 🔗 comment PROMPT and I’ll send you the link to my free guide of 50 Chat GPT prompts to help your job search that I wrote and use myself. 
 
 #jobsearchtips #careeradvice #resumetips
+
+## Research
+
+* Verdict: Unresolved. The three prompts are in the post and work as written. The creator's free 50-prompt guide is only sent after a comment, and I found no public copy.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Prompt 1: Act as a picky hiring manager and tell me why you'd reject my resume for this role.
+2. Prompt 2: Evaluate my resume for clarity and suggest ways to make it more readable in 6 seconds.
+3. Prompt 3: Adapt my resume for a leadership role without removing technical hands-on details.
+4. Paste your resume and the job description first, then repeat and refine the prompts.
+
+### Not found
+
+The creator's "50 ChatGPT prompts" guide (realisticrecruiting) is sent after a comment of PROMPT, and a web search found no public copy. Other free 50-prompt packs exist, but none is tied to this creator.

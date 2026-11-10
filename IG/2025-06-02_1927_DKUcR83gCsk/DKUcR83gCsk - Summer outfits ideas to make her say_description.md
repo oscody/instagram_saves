@@ -22,3 +22,8 @@ Summer outfits ideas to make her say…⁣⁣
 ⁣⁣Idées de tenues d’été pour la faire dire…⁣⁣
 ⁣⁣
 ⁣#femalegaze #summerstyle #fashioninspo
+
+## Research
+
+* Verdict: Nothing to find. This is a men's summer outfit inspiration reel. It shows three outfits and links to no product, guide or tool. The audio is an unrelated song.
+* Checked: 2026-11-10 by claude-sonnet-5-5

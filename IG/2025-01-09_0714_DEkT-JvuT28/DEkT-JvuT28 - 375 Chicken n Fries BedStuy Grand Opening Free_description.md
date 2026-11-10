@@ -30,3 +30,8 @@ Don’t miss the grand opening of the newest 375 Chicken ‘N Fries location!
 📍1292 Fulton St. Brooklyn, NY 11216
 
 #nycforfree #375chicken #bedstuy #brooklyn #grandopening #halal #halalfood
+
+## Research
+
+* Verdict: Nothing to find. This is a local food promo for a one-day grand opening (free sliders on Jan 10, 2025). There is no resource to find, and the offer has expired.
+* Checked: 2026-11-10 by claude-sonnet-5-5

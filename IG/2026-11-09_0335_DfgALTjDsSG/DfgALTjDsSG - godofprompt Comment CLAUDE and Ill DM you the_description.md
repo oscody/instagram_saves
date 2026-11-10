@@ -40,3 +40,29 @@ You don’t need to go that far to get paid. Brands want small games people play
 The 7 prompts in this post take you from one idea to a game you can play in the chat, then make it look good, fix what breaks, and pitch it to a brand for $800.
 
 Save this so you have the prompts when you start.
+
+## Research
+
+* Verdict: Partly valid. The seven prompts are written out in the carousel, so they are usable as they stand. The Claude Mastery Guide is only sent by DM after a comment, and I found no public copy. The $800 pitch and "$3,200" figure are unsupported income claims.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Same: Web: [Five Claude prompts for a learning system (instagram.com)](https://instagram.com/p/DdxHbXvHEL_/) (`DdxHbXvHEL_`). godofprompt post offering the same Claude Mastery Guide by comment.
+* Same: Web: [Blender 3D product videos with Claude (instagram.com)](https://instagram.com/p/DfaV3s0DuSq/) (`DfaV3s0DuSq`). Another godofprompt carousel with the same seven prompts and the same comment-CLAUDE Claude Mastery Guide offer.
+* Similar: Web: [Awesome Opus 5.5 Games: curated AI-built game repo (instagram.com)](https://instagram.com/p/Dd5rZgdjpzJ/) (`Dd5rZgdjpzJ`). Repo of AI-built playable games, including racing games, to use as examples.
+* Similar: Web: [AI workflow for making a 3D browser game (instagram.com)](https://instagram.com/p/DfaMh4djNc1/) (`DfaMh4djNc1`). Workflow for building a 3D browser game (Sumiro) with Claude and other AI tools.
+
+### Key steps
+
+1. Prompt 1: ask for 5 small browser game ideas (about 2 minutes, replayable) with goal, controls, why it's fun and how the brand appears. Have Claude pick the best one.
+2. Prompt 2: build it as one HTML page in Three.js with arrow-key and touch controls, a score, a restart button, low-poly style and brand colors. Draw everything in code, with no image files.
+3. Prompt 3: add feel without changing the rules: a delayed follow camera, speed that builds up, screen shake, confetti, and forgiving collisions. Claude explains each change in one line.
+4. Prompt 4: set the scene (for example a desert canyon at sunset) with fog, random trees and rocks kept off the path, and slowly changing light. Keep it to 200 objects or fewer.
+5. Prompt 5: add 3 levels, a start screen, a timer, a saved best score, and an end screen with Play again and Share. Share copies the score text and link, with a fallback that shows the text.
+6. Prompt 6: describe a bug as a player would. Ask Claude to find the cause, fix only that, and give 5 things to test.
+7. Prompt 7: publish to get a link, then write a pitch under 80 words offering a mini-game with a discount-code prize, delivered in a week for $800. Prepare a reply to 'why would people play it?'
+
+### Not found
+
+The Claude Mastery Guide is sent by DM only, and I found no public copy. I did not check the claims about the racing game built in about 2 weeks or the $800 sale price.

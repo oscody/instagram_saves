@@ -52,3 +52,18 @@ Design 5 original mental models that simplify how I make decisions, evaluate peo
 
 Prompt:
 Imagine a version of me that’s operating 10 years ahead using Weliton DeOliveira’s mindset. What would that person already know how to do, think, and unlearn? Based on that, create a training blueprint that upgrades my thinking in a way that makes me impossible to replace.
+
+## Research
+
+* Verdict: Partly valid. The post is just seven generic prompts in the caption. Nothing gets "installed" into ChatGPT, so the "mind" claim is clickbait. The prompts still work as ordinary self-development prompts.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Paste each prompt from the caption into ChatGPT one at a time.
+2. Give ChatGPT context about your life, goals and job first. Prompts 3 and 7 depend on it ('where I am in life').
+3. In prompt 7, replace 'Weliton DeOliveira's mindset' with a person or mindset you actually want to model, or drop it. It looks like the creator's own name or a plug.
+
+### Not found
+
+No public resource beyond the caption prompts. I did not search the web because the post is only a prompt list. No other saved post or vault note matched.

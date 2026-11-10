@@ -34,3 +34,25 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment “Superset” for the setup guide
+
+## Research
+
+* Verdict: Partly valid. Superset is real (now renamed Paradev), and the tips are plausible workflow advice. The creator's "setup guide" is only sent by comment, and the 400k auto-compact figure and the "better than 99%" claim rest on personal anecdote.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Superset (now Paradev) – open-source worktree-based agent desktop app (github.com)](https://github.com/superset-sh/superset): repo, found by search, verified, high confidence. Repo page describes a desktop app that runs Claude Code and other CLI agents in parallel, each in its own git worktree, and says it was formerly named Superset.
+* [Superset vs Orca comparison (paradev.com)](https://paradev.com/compare/superset-vs-orca): page, found by search, not opened, medium confidence. The old superset.sh comparison URL redirected here; I did not open the page itself. It covers the two tools the post names.
+
+### Key steps
+
+1. Install Git (gh CLI optional) and download the desktop app from the GitHub releases page (macOS primary, Linux experimental, no Windows).
+2. Add or clone a repo and create a workspace; each workspace gets its own git worktree and branch.
+3. Optional CLI: curl -fsSL https://paradev.com/cli/install.sh | sh, or brew install paradevai/tap/superset.
+4. Run Claude Code in each workspace's terminal, with the same permission mode in every window.
+5. Per the post: have each agent keep handoff.md, set auto-compact near 400k tokens, and keep overnight decisions in decisions.md.
+
+### Not found
+
+The creator's "SUPERSET" setup guide (sent by comment or DM) has no public copy that I found. I did not check Orca's own site. The auto-compact and token-saving numbers come from the creator and I could not verify them.

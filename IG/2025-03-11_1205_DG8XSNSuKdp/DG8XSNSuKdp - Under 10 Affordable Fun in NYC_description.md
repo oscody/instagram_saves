@@ -38,3 +38,17 @@ Under $10: Affordable Fun in NYC 🎡✨
 
 Follow @purplehighways for more! 🚀
 #newyorkthingstodo #newyorkfun #cheapfunactivities #budget fun #newyorkcity
+
+## Research
+
+* Verdict: Partly valid. The places are real and mostly cheap or free, but some details look stale. Search results put Vessel admission at about $13.50–14 on resale sites, not $10. Free Thursday tickets are limited, and I could not confirm the post's "NYC residents" condition.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [The Battery FAQ (SeaGlass Carousel) (thebattery.org)](https://www.thebattery.org/faq/): page, found by search, not opened, medium confidence. Search snippet from the official Battery site lists tickets at $6 and says hours vary by season. I did not open the page.
+* [Vessel NYC tickets (Tripster listing) (tripster.com)](https://www.tripster.com/detail/vessel-new-york?product=8687): page, found by search, not opened, low confidence. A third-party seller lists admission from about $14, higher than the post's $10. I did not open it, and it is not the official site.
+
+### Not found
+
+I did not open any page. I did not check Pier 35 Swings, the Roosevelt Island Tram fare ($2.90) or Untermyer Gardens hours. I could not confirm the Vessel's official price or the Thursday free-entry rule. Check the official Hudson Yards site before going.

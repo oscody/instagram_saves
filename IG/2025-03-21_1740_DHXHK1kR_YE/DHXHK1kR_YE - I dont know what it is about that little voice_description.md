@@ -42,3 +42,8 @@ Catch me live on the Millennial Boomer Tour! 🎤
 🎟 Get your tickets now: tmurph.komi.io or hit the link in my bio!
 
 #tmurph #Parenting #MomLife #Motherhood #ParentingTips #Parenthood #ParentingHacks #DadLife #FamilyTime #reels #explorepage
+
+## Research
+
+* Verdict: Nothing to find. This is a stand-up comedy clip by tmurph about his son's changing voice. The only link is a ticket page for his tour, which is a promo tag and not a resource.
+* Checked: 2026-11-10 by claude-sonnet-5-5

@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Ready for Road with @yardmascarnival  Thanks to @socaislands my carnival concierge group that organized my carnival trip #Feteisha #Jamaica #Jamaicacarnival #carnival #yardmas #vibes #energy #ilovecarnival #costume
+
+## Research
+
+* Verdict: Nothing to find. Personal carnival trip mirror selfies with song lyrics as audio. No resource, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

@@ -28,3 +28,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment ready and I’ll send it to you 💯
+
+## Research
+
+* Verdict: Promo. This is a comment-gated lead-magnet for an unnamed "manifesting abundance" method, wrapped in Scorpio astrology. The post names no public resource, and the wealth claim has no support.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The "ready" material is only sent to commenters, and the post gives no public copy. I did not search, because the post is a promo with no named resource. The claims of 5,000 people helped and that star sign decides wealth are unverified.

@@ -22,3 +22,8 @@ Written by claude-haiku-5-5.
 3. Expect that once results drop, the task needed to get them will start to feel like something to hate.
 4. Focus on the game itself as the constant, since it does not depend on outcomes.
 5. Let go of the result and enjoy the activity for what it is, which the speaker says makes life more fun.
+
+## Research
+
+* Verdict: Nothing to find. A motivational talking-head reel about enjoying the work for its own sake. It names no tool, repo, product or guide to look up.
+* Checked: 2026-11-10 by claude-sonnet-5-5

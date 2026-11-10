@@ -29,3 +29,30 @@ Written by claude-haiku-5-5.
 Our next newsletter drops tomorrow — don’t miss out. Make sure you’re on the list.
 
 #networking #nyc #newyork #viral #blackexcellence #discoverpage #motivation #jobseeking #jobhunting #explorepage #nycevents #career #nycity #professionaldevelopment #network #levelupinnyc
+
+## Research
+
+* Verdict: Promo. The reel promotes the LEVELUP in NYC newsletter, which is real and free to subscribe to. The three events were dated April 2025 and have passed. The caption says "four" events but the reel lists three.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [LEVELUP in NYC newsletter (levelupinnyc.com)](https://www.levelupinnyc.com): page, in the post, verified, high confidence. Site is a weekly NYC networking and career events newsletter with a Subscribe link, events calendar and job board, matching the reel.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Founder Fellowship VHNYC.md`: Only a Visible Hands VHNYC program link that came from a LEVELUP newsletter issue (12-18-25). It has no notes on the newsletter itself.
+
+### Already in IG saves
+
+* Same: Web: [4 must-attend NYC networking events for Black professionals (instagram.com)](https://instagram.com/p/DFdU9qzPthN/) (`DFdU9qzPthN`). Also mentions levelupinnyc and its NYC event recommendations.
+
+### Key steps
+
+1. Go to www.levelupinnyc.com and use the Subscribe link (/subscribe), or use the link in the creator's bio.
+2. Optionally follow @LEVELUPinNYC on Instagram.
+3. Check the Events calendar and Job Board on the site.
+
+### Not found
+
+The reel's April 2025 events (Tech 'N' Turnt, NSBE NYC mixer, Well-Read Sistas speed-friending) were not checked. The reel's own transcript is almost empty.

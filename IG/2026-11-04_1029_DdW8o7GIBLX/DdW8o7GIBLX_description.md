@@ -34,3 +34,8 @@ Maybe it’s:
 Who taught you what to believe about it?
 
 BLACK MAGIC PART 3 🧿
+
+## Research
+
+* Verdict: Nothing to find. This is an opinion reel about belief, magic and colonial labelling of spiritual practices. It points to no resource, tool or download. Its history claims (Obeah criminalised in the Caribbean, colonial witchcraft laws in Africa) are broadly accurate, but I didn't check them.
+* Checked: 2026-11-10 by claude-sonnet-5-5

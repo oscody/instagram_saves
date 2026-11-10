@@ -38,3 +38,25 @@ Ships with:
 • `npx bla-agents harden .` MIT. For your own builds
 
 👉 https://github.com/qybaihe/bla
+
+## Research
+
+* Verdict: Partly valid. The repo exists, is MIT licensed, and the harden command matches the post. The effectiveness figures (14/14 benchmarks, token amplification) are the author's own numbers and cover only his test fixtures. They don't cover tools like Ghidra or Frida.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [BLA (qybaihe/bla) (github.com)](https://github.com/qybaihe/bla): repo, in the post, verified, high confidence. README describes a Counter-REA defense CLI/MCP, npm bla-agents, MIT, `npx bla-agents harden .`, and 14 benchmark targets, all as in the post.
+
+### Key steps
+
+1. Use Node.js ^22.23.4 or >=24.0.0.
+2. In your project or release directory, run `npx bla-agents harden .`. It runs audit, protect and verify.
+3. Optional: run `npx bla-agents setup` to register BLA with Claude Code, Cursor or Codex, then ask the agent to harden your software against REA.
+4. Optional: add `blaVitePlugin` from `bla-agents/bundler` to your Vite config.
+5. Run `npx bla-agents benchmark` to reproduce the 14-target showcase locally.
+6. Use it on your own builds only.
+
+### Not found
+
+I did not run the tool or check the benchmark figures independently. The README says the amplification numbers (about 639x tokens) are internal estimates. The vault notes that matched only share the creator and don't cover BLA.

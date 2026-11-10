@@ -27,3 +27,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 10/10 Fashion Pickups You Need This Fall/Winter
+
+## Research
+
+* Verdict: Nothing to find. This is a general men's fashion tips reel. It lists clothing types and shops but has no single resource, repo, or product to verify.
+* Checked: 2026-11-10 by claude-sonnet-5-5

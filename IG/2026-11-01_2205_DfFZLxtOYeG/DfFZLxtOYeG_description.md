@@ -80,3 +80,32 @@ Not just theory. Actual implementation.
 Stop waiting for the perfect opportunity. Start building the skills that create opportunities.
 
 #ClaudeAI #DigitalProducts #FacelessBusiness #AIBusiness #DigitalMarketing
+
+## Research
+
+* Verdict: Partly valid. The full prompt is in the caption and works as a planning prompt. The post also promotes a paid "1%" community challenge, and AI-generated plans don't guarantee income (the caption admits this).
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Claude faceless digital business prompt (caption text) (instagram.com)](https://instagram.com/reel/DfFZLxtOYeG/): prompt, in the post, verified, high confidence. The full prompt text is in the post caption; no external site is needed.
+
+### Already in IG saves
+
+* Similar: Web: [Faceless AI Instagram brand and tax write-offs (instagram.com)](https://instagram.com/p/Ddl-hfiAnWK/) (`Ddl-hfiAnWK`). Also promotes a faceless AI Instagram brand, with the details gated behind a keyword DM.
+
+### Key steps
+
+1. Open Claude and paste: "I'm a complete beginner looking to build a faceless digital product business using AI. I have a limited budget and 1–2 hours per day. Act as an experienced digital business strategist and help me:"
+2. 1) Identify 5 profitable niches with problems people are actively trying to solve.
+3. 2) Choose a digital product I can create using Claude and Canva.
+4. 3) Build a 30-day action plan to launch my first product.
+5. 4) Create a faceless Instagram and TikTok content strategy to attract buyers organically.
+6. 5) Design a simple sales funnel that turns viewers into customers.
+7. 6) Show me how to automate repetitive tasks using free tools.
+8. 7) Create a realistic roadmap towards £10K/month, including sales targets, conversion rates and potential challenges.
+9. End with: "Ask me questions about my skills and interests before creating the plan." Then answer Claude's questions.
+
+### Not found
+
+The "1%" Circle challenge content is only available by commenting "1%" and is paid or gated. I did not search for a public copy.

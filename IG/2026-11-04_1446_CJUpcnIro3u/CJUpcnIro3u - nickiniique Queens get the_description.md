@@ -20,3 +20,8 @@ nickiniique Queens get the 💵💸
 #🧱
 
 #queens #newyork
+
+## Research
+
+* Verdict: Nothing to find. A personal-style photo carousel with a short caption. It names no tool, guide, product or other resource.
+* Checked: 2026-11-10 by claude-sonnet-5-5

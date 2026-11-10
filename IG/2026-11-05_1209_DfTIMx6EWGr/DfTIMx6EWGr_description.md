@@ -45,3 +45,12 @@ Real confidence isn't about convincing a woman you're worth dating.
 It's about being comfortable enough with yourself to enjoy the banter without needing her approval.
 
 That's how you create playful chemistry and genuine attraction.
+
+## Research
+
+* Verdict: Promo. The reel is a lead-magnet for a free book that is sent only after you comment "FLIRTING". The banter advice is common dating-coach opinion, not something that can be checked, and I found no public copy of the book.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The book "The Psychology of Building Tension in a Conversation and Keeping Her in It" is delivered only after a comment or DM, and I did not search for a public copy. The vault and the other saved posts have no matching note.

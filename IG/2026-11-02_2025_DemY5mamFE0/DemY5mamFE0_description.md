@@ -22,3 +22,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Comment 'UNETHICAL' and I'll send it over.
+
+## Research
+
+* Verdict: Unresolved. The post offers a list of "unethical" GitHub projects, but only through a comment keyword. It names no specific repos, so there is nothing public to check. The on-screen examples are generic (an AI model list and a GitHub profile, "EitherOrNot").
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The list is sent only after commenting 'UNETHICAL' on the reel, and no public copy was searched or found. The post names no repos. The tools it describes (video downloaders, subscription bypasses, streaming aggregators) are likely piracy or terms-of-service-breaking tools, so I did not try to identify them. Other saved nateherkai posts (DcgRoqMEpZb, DZ2wiBNF6DU, Dax-38bjV8R, DfLO6vHsmHq) cover different topics.

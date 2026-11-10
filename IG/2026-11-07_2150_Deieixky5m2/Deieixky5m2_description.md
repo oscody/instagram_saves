@@ -39,3 +39,12 @@ She doesn’t need another man asking about her five-year plan.
 ⏩ Send this to a friend who dates like he’s hiring an assistant.
 
 #seduction
+
+## Research
+
+* Verdict: Unresolved. The "Art of Flirting" guide is only sent after commenting VIBE, and I found no public copy. The tip itself (ask opinion or imagination questions instead of factual ones) is general advice and is already fully described in the post.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The "Art of Flirting" guide (30 techniques) by marta_dating is delivered by comment/DM only. A web search found no public copy. The 70/30 "Seduction Math" figure is the coach's own heuristic, not backed by a study I could find. I did not check her profile page.

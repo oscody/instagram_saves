@@ -36,3 +36,23 @@ Download The Ultimate AI Prompt Library (Link is in Bio) and let ChatGPT & Claud
 Follow @callme.wisdomhunter for more.
 
 Thanks a lot for giving your valuable time and reading this post.
+
+## Research
+
+* Verdict: Promo. The ten prompts are generic templates written out in the post, so there is nothing separate to find. The "forbidden" framing is hype. The caption and last slide push a "prompt library" and a $47 "Claude OS" early-access product that are sold through the bio link.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Mind Reader Protocol: ask Claude to analyze your communication patterns in this conversation, including your thinking style, decision-making approach and blindspots.
+2. 80/20 Hack: I want to master [skill] in record time. Give me an unconventional learning approach that focuses on the vital 20% that delivers 80% of results.
+3. Extreme Devil's Advocate: challenge every assumption about [topic], push back hard on my logic, identify cognitive biases, and propose radically different perspectives.
+4. Deep Psychology Decoder: analyze the psychological mechanics behind my approach to [situation/problem] and what subconscious patterns might be driving my behavior.
+5. Wisdom Extraction Tool: for [topic], distill 5 profound insights most people overlook or never realize.
+6. Expert Panel Simulator: analyze my [idea/problem] from the perspective of 5 world-class experts in different fields.
+7. Contrarian Position Builder: build a compelling argument against my strongly held belief about [topic], using logic, evidence and perspective shifts.
+8. Pattern Interruption: I'm stuck in [recurring problem]. Create an unconventional intervention that disrupts my established patterns and forces new thinking.
+
+### Not found
+
+The paid "Ultimate AI Prompt Library" and "Claude OS" ($47) are only reachable through the bio link. I did not search for them or check the "100K+ tested prompts" claim. The prompt wording for items 6 and 7 is paraphrased from the post's summary because the on-screen text was garbled.

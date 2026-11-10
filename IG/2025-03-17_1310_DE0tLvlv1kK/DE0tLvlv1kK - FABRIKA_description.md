@@ -29,3 +29,16 @@ You have to check them out! Also, make sure to try their new menu that just laun
 Jackson Heights, NY 11372
 
 #fabrika #queens #latinfood #latinfusion #nyc #nyfoodie #foodie #nyceats #steak #sushi #explorepage #explore #fyp #latinrestaurant
+
+## Research
+
+* Verdict: Partly valid. Fabrika exists at the address in the post, but I found no menu, official site or independent review to back the 10/10 claim. The post is a personal opinion, and it also looks like a creator collaboration.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Fabrika, 80-24 Northern Blvd, Jackson Heights (listing) (whereyoueat.com)](https://whereyoueat.com/Fabrika-Restaurant-25270.html): page, found by search, verified, medium confidence. The page lists Fabrika at 80-24 Northern Blvd, NY 11372, but gives no cuisine or menu. Its hours and open status are unreliable.
+
+### Not found
+
+There is no official website and no menu. The Instagram account @fabrikany was not checked. Aggregator listings disagree on hours, phone and open status. An NYC health inspection on Aug 1, 2025 reportedly passed with conditions (82/100). I saw that only in a search summary and did not open the record. Call 929-999-1611 before going.

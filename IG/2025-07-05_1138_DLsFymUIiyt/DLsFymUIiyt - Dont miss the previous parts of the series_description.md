@@ -46,3 +46,12 @@ You can support the animations through the link in my profile.
 ❗️This video contains original 3D animation and voiceover by @umutswimlab. It may not be used or shared without permission or proper credit.
 
 #swimming
+
+## Research
+
+* Verdict: Nothing to find. This is an educational animation with no downloadable resource. The tips are all in the post. The vault and the other saved posts have nothing from this creator. I did not check the swimming claims against outside sources.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The caption says the animations can be supported through a link in the creator's profile. That link is not in the post and I did not look for it.

@@ -18,3 +18,12 @@ Written by claude-haiku-5-5.
 ## Caption
 
 webcomics_app 💛Your favorite comics for free🎉
+
+## Research
+
+* Verdict: Promo. The reel is a story recap that ends with an ad for the WebComics app. It has no how-to or checkable claim. I didn't search, and the series title isn't given in the post.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The post never names the manhwa, so the source series wasn't identified. I didn't search for the app or the series.

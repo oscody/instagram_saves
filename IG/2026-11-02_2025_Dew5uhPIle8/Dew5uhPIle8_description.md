@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #datingtips
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit that uses basketball slang to retell a dating anecdote. It points to no resource, tool or guide.
+* Checked: 2026-11-10 by claude-sonnet-5-5

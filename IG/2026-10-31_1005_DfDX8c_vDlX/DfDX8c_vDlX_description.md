@@ -79,3 +79,25 @@ Fellowships & grants 🌍
 48. USDA Rural Business Grants — USA
 49. SBA STEP — USA
 50. Soroptimist Live Your Dream Awards — International
+
+## Research
+
+* Verdict: Partly valid. The caption is a real list of well-known US programs, but it has no links and no details. Many of the programs are income-based, limited to women, or have set deadlines, and Fulbright is listed twice (#2 and #43). "Improve your financial life" overstates what it offers.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/agents/Grants and funding by Claude.md`: Links this reel. It already screens SBIR, Amber Grant, Tory Burch, Section 8, SNAP and Medicaid against your profile: women-only or fee programs are ruled out, and income-based aid is probably not a fit.
+* Vault: `ZAIHub/agents/Scholarships and funding by Claude.md`: Links this reel for the education, scholarship and fellowship items.
+
+### Already in IG saves
+
+* Similar: Web: [Free grants and scholarships closing in August (instagram.com)](https://instagram.com/p/DNZAU2iyVjz/) (`DNZAU2iyVjz`). Comment-gated 'FULL list' of grants that names some of the same programs.
+* Similar: Web: [Grants for first-time Black-owned businesses (instagram.com)](https://instagram.com/p/DZP6RBuAI8V/) (`DZP6RBuAI8V`). Grant or funding list that names some of the same programs.
+* Similar: Web: [10 Grants You Can Apply for Monthly (instagram.com)](https://instagram.com/p/DZlZjoANR51/) (`DZlZjoANR51`). Another '100k business funding with grants' list covering similar business grants.
+* Similar: Web: [4 Monthly Grants You Should Be Applying For (instagram.com)](https://instagram.com/p/DabofZoNu_m/) (`DabofZoNu_m`). Grant list that also names Amber Grant or similar programs (the post is gated behind a comment).
+* Similar: Web: [20 grant sites for African and global funding (instagram.com)](https://instagram.com/p/Dd_B-SBDEwW/) (`Dd_B-SBDEwW`). '20 grant sites' directories, a way to find the same kinds of programs.
+
+### Not found
+
+I did not open any of the 50 programs' official pages, so nothing is verified. The post gives no links and no full list outside the caption.

@@ -1,0 +1,2664 @@
+[
+ {
+  "shortcode": "DdWt-Y6x2Y9",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The two prompts (the audit prompt that builds my_questions.txt with a REPEATS column, and the repeat-finder prompt). They are sent only via a \"time\" comment or DM. I did not check the creator's Instagram profile or any link in bio.",
+  "keyword": "time",
+  "focus": true,
+  "url": "https://instagram.com/reel/DdWt-Y6x2Y9/",
+  "author": "angus.sewell",
+  "title": "Export AI data and skillify repeated tasks",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DawXrcisz6U",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "I found no public copy of the creator's skill file. Searches on bytesofbree and the skill's behavior returned only generic session-end skills. I did not check the creator's Instagram profile, which may offer the file by comment or DM.",
+  "keyword": null,
+  "focus": true,
+  "url": "https://instagram.com/reel/DawXrcisz6U/",
+  "author": "bytesofbree",
+  "title": "A Claude skill that updates your other skills",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYMsOCuNr-z",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The creator's actual setup, prompts or files. A web search on the creator's handle and topic returned only generic blog posts. The post may share material only through comments or DMs, but nothing in the post says so.",
+  "keyword": null,
+  "focus": true,
+  "url": "https://instagram.com/reel/DYMsOCuNr-z/",
+  "author": "metakaihos",
+  "title": "Claude, Obsidian et NotebookLM : second cerveau",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DXR9bVXAcce",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "A public copy of Sabrina Ramonov's 120+ Claude Code directory. I didn't check whether the 120+ items are free or well organized, since I couldn't see the list.",
+  "keyword": "HAMMER",
+  "focus": true,
+  "url": "https://instagram.com/reel/DXR9bVXAcce/",
+  "author": "sabrina_ramonov",
+  "title": "120+ Claude Code resource directory giveaway",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeWr8XPjXTJ",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The four book titles and their links. The saved note only describes the slides in general terms, and the links are sent after a \"RESET\" comment on the post. I didn't search the web, because no titles or other distinctive names were available. To resolve it, open the carousel and read the covers.",
+  "keyword": "RESET",
+  "focus": false,
+  "url": "https://instagram.com/p/DeWr8XPjXTJ/",
+  "author": "booksopedia_",
+  "title": "4 Dangerous Books To Desexualize Your Mind",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DecEOALjiQc",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The guide itself. It is delivered by comment/DM (\"PHYSICAL\") on brochbuilds' post. No vault note mentions the creator or the post, and one web search found no public repo or page.",
+  "keyword": "PHYSICAL",
+  "focus": false,
+  "url": "https://instagram.com/reel/DecEOALjiQc/",
+  "author": "brochbuilds",
+  "title": "Raspberry Pi physical AI demos with Claude Code",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeWAiE6IasL",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's project links, which are sent only after a \"Code\" comment. I did not open the vault notes, and a search for the creator's GitHub or demo found nothing.",
+  "keyword": "Code",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeWAiE6IasL/",
+  "author": "tuba.captures",
+  "title": "Interactive mind-map topologies with hand tracking",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeVb_ChOmlZ",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "No public copy of the build guide, BOMs or schematics. A web search for the creator and project names returned nothing relevant, and the vault has no notes on this post or creator. I did not check the $35, $40 and $60 parts costs.",
+  "keyword": "SENSE",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeVb_ChOmlZ/",
+  "author": "1nska",
+  "title": "Six defense-sensing engineering builds for your desk",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeXsLq8O2Cy",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The exact prompt text. It is gated behind a comment and follow, and I ran no web search for it. The vault has no note on this post. The vault notes listed for @avigrondin cover Claude chat privacy, not this prompt.",
+  "keyword": "FACE",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeXsLq8O2Cy/",
+  "author": "avigrondin",
+  "title": "Claude facial analysis selfie prompt demo",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeKt1PGNhou",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The actual prompts. They are gated behind a comment/DM, and a web search for the creator and the topic returned nothing from him. I did not check his Instagram profile or any site directly.",
+  "keyword": "coach",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeKt1PGNhou/",
+  "author": "angus.sewell",
+  "title": "Using AI to find business blind spots and fixes",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeSf5MxNp-j",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The link is sent only by comment or DM, and no public copy turned up. I did not check the creator's Instagram profile, bio link or site directly. Treat the tool with caution: copying sites and software can raise copyright and terms-of-service problems, and comment-for-link funnels often lead to lead capture or paid offers.",
+  "keyword": "GHOST",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeSf5MxNp-j/",
+  "author": "realrobertgutierrez",
+  "title": "Free \"Ghost agents\" AI tool announcement",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeVIz_uS06F",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The DM-gated link. The vault has no notes on this creator or post. One web search found nothing public about it.",
+  "keyword": "RESUME",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeVIz_uS06F/",
+  "author": "nocodealex",
+  "title": "Seven-Claude resume review panel in Claude",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeNjir4xlrG",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The creator's prompt for analyzing LinkedIn connections, and the name of the sales data tool. Both were probably shared by comment or DM, and I found no public copy.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeNjir4xlrG/",
+  "author": "angus.sewell",
+  "title": "Vibe-coding referral outreach by LinkedIn archetype",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DdMmHXGzV8z",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The winkguys workflow itself (sent only via an \"AI\" comment/DM), and any public documentation of a Claude MCP connection to Artlist or Seedance. I didn't open the pages above, so none is verified.",
+  "keyword": "AI",
+  "focus": false,
+  "url": "https://instagram.com/reel/DdMmHXGzV8z/",
+  "author": "winkguys",
+  "title": "Arcane-style animation workflow using Claude",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dd_wgFKicUx",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The six video titles and links. They are only in the DM guide, and the one web search I ran found nothing relevant. I didn't open the vault's \"Sabrina Ramonov Youtube\" note. The videos may be other creators' uploads rather than hers.",
+  "keyword": "GUIDE",
+  "focus": false,
+  "url": "https://instagram.com/reel/Dd_wgFKicUx/",
+  "author": "sabrina_ramonov",
+  "title": "Six videos to watch instead of brain rot",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeRx8yhs7-K",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The full Tobi interview with Jonathan (the DM or comment-gated item) has no public copy that I could find. The Savvy Wallet podcast episode 226 with Tobi Oluwole is a different interview. I did not open it, so I can't say whether it covers this advice.",
+  "keyword": "TOBI",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeRx8yhs7-K/",
+  "author": "jonathanwordsofwisdom",
+  "title": "Getting hired without applying: follow the money",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeBDbMhRHva",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "No build guide, parts list or files for the V2 goggles turned up in the vault or in one web search. The creator's profile and other posts were not checked, so a guide may be in his bio link or sent by comment or DM. For comparison, the commercial Form Smart Swim 2 Pro AR goggles exist, but they are a different product.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeBDbMhRHva/",
+  "author": "sammyjbuilds",
+  "title": "DIY AR swim goggles version 2 showcase",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DcrFYPLJ4cI",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "There is no public Neurosynth product page, repo or waitlist link. Access is probably through a comment or DM on the creator's Instagram (@realrobertgutierrez). The older academic \"Neurosynth\" (neurosynth.org) is an fMRI meta-analysis database and is unrelated. I did not check the creator's profile or bio link directly.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DcrFYPLJ4cI/",
+  "author": "realrobertgutierrez",
+  "title": "Introducing Neurosynth: real-time brain-response content",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DdktNuQKNQc",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's \"graph\" guide (DM or comment-gated). No vault note covers it. Vault grep hits for \"vardy\" or \"agent graph\" were unrelated notes, such as the LocAgent note.",
+  "keyword": "graph",
+  "focus": false,
+  "url": "https://instagram.com/reel/DdktNuQKNQc/",
+  "author": "vardy.mov",
+  "title": "Agent graphs: building multi-agent workflows with nodes",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Ddl4fGEzDS0",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's \"full deep dive\" is sent only after a comment, and I found no public copy. The post names no specific tool or repo for the geolocation step or the splatting. I did not check bilawal.ai's profile or YouTube directly.",
+  "keyword": "4d",
+  "focus": false,
+  "url": "https://instagram.com/reel/Ddl4fGEzDS0/",
+  "author": "bilawal.ai",
+  "title": "Space and time reconstructed in 4D",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Da1vl5dtj1q",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's actual skill link. It is sent only by DM after commenting \"eyes\", and I found no benkimball.ai repo or page. The web search turned up nothing from the creator, and I did not open any repo.",
+  "keyword": "eyes",
+  "focus": false,
+  "url": "https://instagram.com/reel/Da1vl5dtj1q/",
+  "author": "benkimball.ai",
+  "title": "Giving Claude video vision with two skills",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dax-38bjV8R",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "No public copy of Banana Pro Director or Cinema World Builder turned up. I didn't check Nate Herk's Skool community or his YouTube descriptions, which may host them.",
+  "keyword": "GENERATE",
+  "focus": false,
+  "url": "https://instagram.com/reel/Dax-38bjV8R/",
+  "author": "nateherkai",
+  "title": "Two AI video skills offered via comment",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Daz5rXbz2w3",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The exact website shown in the reel. It may be in the creator's comments or DM keyword flow. Check rj.bernaldo's profile or the reel's pinned comment.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Daz5rXbz2w3/",
+  "author": "rj.bernaldo",
+  "title": "Website with anime reference sheets and palettes",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DczMLDwBozL",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The app's name and link. The post doesn't name it, and my vault and web searches (creator handle, #SubmitTember) found nothing. The \"$21B closing in September\" figure and the 1st/15th/30th deadline pattern are unchecked. The creator's profile wasn't opened.",
+  "keyword": "WIN",
+  "focus": false,
+  "url": "https://instagram.com/reel/DczMLDwBozL/",
+  "author": "queenabergen",
+  "title": "September grant deadlines and a grants app",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DcfRe70MqjF",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The Claude skill link is sent by comment or DM. One web search found no public repo, page or listing for it, and the vault has nothing on it. I did not check the creator's profile or GitHub directly.",
+  "keyword": "library",
+  "focus": false,
+  "url": "https://instagram.com/reel/DcfRe70MqjF/",
+  "author": "djhallaaaa",
+  "title": "Organizing a Rekordbox DJ library with Claude",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DaZh5h7pshK",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The MP3 sound pack is delivered only by comment/DM from louisbuildsbrands. I checked the vault, which has no notes on this post or creator. I did not search the web, since the pack is gated and the sounds are common ones you can find on any free sound-effect library.",
+  "keyword": "MP3",
+  "focus": false,
+  "url": "https://instagram.com/reel/DaZh5h7pshK/",
+  "author": "louisbuildsbrands",
+  "title": "Viral sound effects and when to use them",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbLa8oyOYTR",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The \"culture conferences\" list itself. It is delivered by DM after a \"link\" comment, and no public copy turned up in the search or the vault.",
+  "keyword": "link",
+  "focus": false,
+  "url": "https://instagram.com/reel/DbLa8oyOYTR/",
+  "author": "highvibebyonose",
+  "title": "Culture conferences for the rest of 2026",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dbb241atmuc",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "I couldn't find the Fundamentals page or confirm the creator's site. Searches for \"prettywiredbuilds\" returned nothing relevant. My guess at the domain (prettywiredbuilds.com) failed with a certificate error, so I didn't open it. The link is delivered by comment or DM. Nothing in the vault mentions the post.",
+  "keyword": "learn",
+  "focus": false,
+  "url": "https://instagram.com/reel/Dbb241atmuc/",
+  "author": "prettywiredbuilds",
+  "title": "Electronics \"Fundamentals\" page promo, comment \"learn\"",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DaKAqKWTU4i",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The original YouTube URLs for both visible videos, and the identity of the third video. The creator only shares the links by comment or DM, and I found no public copy.",
+  "keyword": "LOGIC",
+  "focus": false,
+  "url": "https://instagram.com/reel/DaKAqKWTU4i/",
+  "author": "itsgarimamalhotra",
+  "title": "Three logic-building coding videos to watch",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DaqJsC7DZDg",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The prompt and the step-by-step guide. They are gated behind a comment, and I did not search the web for a public copy. I searched the vault for the creator and series name and found nothing.",
+  "keyword": "CLAUDE",
+  "focus": false,
+  "url": "https://instagram.com/reel/DaqJsC7DZDg/",
+  "author": "imjonathanacuna",
+  "title": "Illegal Claude Tips Part 25: Copying Websites",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYUjKs3ot7c",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The exact YouTube video \"How I Tricked My Brain to Be Addicted to Coding (The Dopamine Hack)\" and the creator's \"LOGIC\" video list. The claim that logic matters more than talent is a general opinion, so I didn't verify it.",
+  "keyword": "LOGIC",
+  "focus": false,
+  "url": "https://instagram.com/reel/DYUjKs3ot7c/",
+  "author": "vitthalcodes",
+  "title": "Coding skill is logic, not talent",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DaOHMH3pGt0",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The full grant list, which is sent only after commenting JULY on the reel. The six grant names are not in the post text, so I did not search the web. The vault had no matching notes.",
+  "keyword": "JULY",
+  "focus": false,
+  "url": "https://instagram.com/reel/DaOHMH3pGt0/",
+  "author": "nadirahs_world",
+  "title": "July 2026 grant deadlines and apply reminder",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DZzd7r-OJWz",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The \"Embody\" guide from rewirewithjake. It is delivered only after commenting on the reel. The vault has no note on it, and a web search turned up only unrelated products named Embody.",
+  "keyword": "Embody",
+  "focus": false,
+  "url": "https://instagram.com/reel/DZzd7r-OJWz/",
+  "author": "rewirewithjake",
+  "title": "Five-step embodiment method for becoming who you want",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DaSmy7mNZ7B",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The five grants and amounts shown on screen are not in the transcript or caption. The DM live-session link has no public copy. I did not open aiandbusinesschallenge.com. The caption's claim that most applicants fail because they answer the questions poorly is the creator's opinion, and I found nothing to confirm it. The reel is also a lead-generation funnel for her coaching and community.",
+  "keyword": "HELP",
+  "focus": false,
+  "url": "https://instagram.com/reel/DaSmy7mNZ7B/",
+  "author": "itsscoachk",
+  "title": "July business grants list with application help",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DZL6i5CtuCU",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The episode of THE PROFIT DOOR REVIEW. Searches for it and for Nicole Purvy returned nothing, and the post says it is sent by DM after a \"YOUTUBE\" comment. I did not check Burry's original post or any Apollo or Athene filings. The $2.3 trillion figure is unverified.",
+  "keyword": "YOUTUBE",
+  "focus": false,
+  "url": "https://instagram.com/reel/DZL6i5CtuCU/",
+  "author": "nicolepurvy",
+  "title": "Michael Burry's AI financing diagram podcast episode",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DZ36x_YA2op",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The YouTube video promised for the comment \"skill\" was not found publicly. Nothing in the vault mentions the creator.",
+  "keyword": "skill",
+  "focus": false,
+  "url": "https://instagram.com/reel/DZ36x_YA2op/",
+  "author": "joshterryplays",
+  "title": "Diagram for learning any skill",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DZOSMicAavl",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's \"Haitian Caribbean symbol system\" research, which is sent only after commenting \"RESEARCH\". I found no public copy and no public source for the \"Living Lakou\" and \"Living Art\" designs. The vault has nothing on this post. I did not open the Duke page, so it is unverified.",
+  "keyword": "RESEARCH",
+  "focus": false,
+  "url": "https://instagram.com/reel/DZOSMicAavl/",
+  "author": "dsmithalexander_architecture",
+  "title": "Turning Haitian Culture Into Haitian Architecture",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYfGV9BhCZ9",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's guide (likely sent by DM after a comment) could not be found. The vault has no notes on @writingwithv. A web search returned only generic book-writing articles.",
+  "keyword": "gui",
+  "focus": false,
+  "url": "https://instagram.com/reel/DYfGV9BhCZ9/",
+  "author": "writingwithv",
+  "title": "Writing a book: routine tip (part 2)",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYXX9klBI0c",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The free guide from writingwithv (delivered by DM after commenting \"guide\"). A vault search and a web search turned up nothing for the creator or the guide. I did not check Instagram directly.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DYXX9klBI0c/",
+  "author": "writingwithv",
+  "title": "Starting a Book: The Why Questions",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DY3PHvthsJ8",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The \"narrow\" guide from danielacebak. It is delivered by comment or DM, and one web search turned up nothing public. I did not open the creator's profile or site.",
+  "keyword": "narrow",
+  "focus": false,
+  "url": "https://instagram.com/reel/DY3PHvthsJ8/",
+  "author": "danielacebak",
+  "title": "Feelings chart: want vs. need vs. what to do",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYnsnh2Bnq4",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The exact episode and guest (@automations.bae) are unconfirmed. ITV #231 (May 21, 2026) is the likely match, but I couldn't open it. The vault notes only mention the creator's profile link and have nothing on this episode. Searching the Inside The Vault feed on Spotify, Apple Podcasts or YouTube for #231 should find the full episode without commenting \"INSIDERS\".",
+  "keyword": "INSIDERS",
+  "focus": false,
+  "url": "https://instagram.com/reel/DYnsnh2Bnq4/",
+  "author": "iamashcash",
+  "title": "AI automation and owning a business",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYejISHDQlD",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The guide itself (prompts, schema, scheduler) is gated behind a comment and DM. A web search for the creator and the project found no public repo or page. The vault has no note on this post or creator.",
+  "keyword": "Insta",
+  "focus": false,
+  "url": "https://instagram.com/p/DYejISHDQlD/",
+  "author": "anubhavhingg",
+  "title": "Turning Instagram saves into a content engine",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DWWhQcFkbS8",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The creator's actual tool or prompt isn't named in the post. I didn't check the creator's profile, comments or DMs, and the matching open-design.ai example page returned 404.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DWWhQcFkbS8/",
+  "author": "hustlewithdaniela",
+  "title": "Dark AI web design landing page showcase",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYDYioYS7um",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The \"MJ\" training link and the full video. I found no public copy and no vault note on the creator. One web search for the creator's name returned nothing relevant. I did not check the creator's Instagram profile or bio link.",
+  "keyword": "MJ",
+  "focus": false,
+  "url": "https://instagram.com/reel/DYDYioYS7um/",
+  "author": "janstaichi",
+  "title": "Michael Jackson, Qigong and mastery through sincerity",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DXc8_2FkV4D",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "I found no working product page, pricing, technical details or independent reviews for Artifacial.io. The \"direct link\" is only sent after you comment or DM \"FACE\", and I found no public copy of it.",
+  "keyword": "FACE",
+  "focus": false,
+  "url": "https://instagram.com/reel/DXc8_2FkV4D/",
+  "author": "elijahaifl",
+  "title": "Promo for Artifacial.io AI video software",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DXGA53HjSKu",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The full list of books and authors. It is sent after a comment or DM, and I found no public copy. I did not open the creator's Instagram profile or check for a link in her bio. The carousel covers themselves would show part of the list.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DXGA53HjSKu/",
+  "author": "michellescomputer",
+  "title": "A Builder's Guide to the World: Four-Level Reading List",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DLb_BlbOxeT",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The guide and the exact workflow-analysis prompt are gated behind a comment or DM from koen.agi. The vault search found nothing. One web search found no public copy. The post names \"Claude Opus 4\" and an unnamed \"agent builder\", and I couldn't identify that builder.",
+  "keyword": "AI",
+  "focus": false,
+  "url": "https://instagram.com/reel/DLb_BlbOxeT/",
+  "author": "koen.agi",
+  "title": "Building an n8n agent from a YouTube video",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DWG251TTJpA",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The creator's exact prompt, which is gated behind a comment or DM. I only grepped the vault, which turned up nothing for this creator or post. I ran no web search.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DWG251TTJpA/",
+  "author": "career_unfiltered",
+  "title": "Using Claude to find and score job listings",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DVldBjsE17R",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The exact repos for the Refactoring Guru TypeScript patterns, the system design playbook, awesome engineering management and system design resources slides. The post gives only repo names in screenshots and sends links via comment or DM.",
+  "keyword": "SENIOR",
+  "focus": false,
+  "url": "https://instagram.com/p/DVldBjsE17R/",
+  "author": "coding_cosmos",
+  "title": "GitHub Repos That Build Engineering Thinking",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DVRcoi4DDeH",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The site's name and URL. The creator _solvearn did not name the site in the caption, and the link goes out only by comment or DM. A web search for the creator and the site returned nothing relevant. A Grep of the vault for the creator found nothing. Public cofounder-matching sites do exist (CoFounders Lab, coFoundrr, CoParty), but none of them is confirmed as the one in the reel.",
+  "keyword": "startup",
+  "focus": false,
+  "url": "https://instagram.com/reel/DVRcoi4DDeH/",
+  "author": "_solvearn",
+  "title": "Startup cofounder site promo skit",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DVe-JoniaEz",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The exact 4 hr 8 min funding course link. It is sent only by DM after commenting \"Four\". Checking the Irv.Official YouTube channel's Videos tab, sorted by longest, may find it.",
+  "keyword": "Four",
+  "focus": false,
+  "url": "https://instagram.com/p/DVe-JoniaEz/",
+  "author": "irv.official",
+  "title": "Breaking news: free 4-hour business funding course",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DTXYoXagIRw",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The course itself and any public page from simplydigital.gr. The post says it is delivered by comment or DM after commenting \"CLONE\", and I found no public copy. I did not check the creator's Instagram profile or bio link directly.",
+  "keyword": "CLONE",
+  "focus": false,
+  "url": "https://instagram.com/p/DTXYoXagIRw/",
+  "author": "simplydigital.gr",
+  "title": "AI clone course comment-prompt graphic",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DSnEpiCEYrS",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "There is no public copy of the \"DECEMBER\" grant list. A search for the Galaxy Holiday Grant ($2,025) found nothing matching. I did not search for the Outta Excuses grant. Grants like these are often giveaways or lead-generation hooks, so treat them with caution. The deadlines have also passed (today is 2026-10-23).",
+  "keyword": "DECEMBER",
+  "focus": false,
+  "url": "https://instagram.com/reel/DSnEpiCEYrS/",
+  "author": "mylifeordebt",
+  "title": "Year-end grant deadlines roundup from Life or Debt",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DSez3SLgFqH",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The tool's name, and any public link from simplydigital.gr. The link is probably sent by DM after you comment \"AGENT\". I didn't open any page, and the vault has no note on it. The Opus Agent link is only a guess from a similar feature set.",
+  "keyword": "AGENT",
+  "focus": false,
+  "url": "https://instagram.com/reel/DSez3SLgFqH/",
+  "author": "simplydigital.gr",
+  "title": "Promo for an AI video-creation agent tool",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DSXWGOpESQV",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The playlist and its channel list (sent by DM after a comment). The Mikey No Code video \"How to Build an App with AI in 2026 as a Beginner\" was not found. I did not check YouTube directly, so searching the channel there may still find it.",
+  "keyword": "link",
+  "focus": false,
+  "url": "https://instagram.com/reel/DSXWGOpESQV/",
+  "author": "sai.builds",
+  "title": "Top YouTube channels for vibe coding with AI",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DRvQpD8jP_V",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The \"how\" behind the reel (probably a guide, course or offer shared by comment or DM from diane.maximum.wage). The vault has no notes on it, and a web search for the handle and the on-screen text found nothing. The email screenshots can't be verified as genuine.",
+  "keyword": "There",
+  "focus": false,
+  "url": "https://instagram.com/reel/DRvQpD8jP_V/",
+  "author": "diane.maximum.wage",
+  "title": "Job interview proof reel with on-screen comments",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DPJn0O5jFZ4",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The platform's name and URL. They are not in the caption or the transcript, and the vault has nothing on them. Two web searches on the creator's handle and the description found nothing matching. Similar co-founder matching sites turned up, such as Startives and YC's co-founder matching, but nothing ties them to this reel, so I did not list them.",
+  "keyword": "startup",
+  "focus": false,
+  "url": "https://instagram.com/reel/DPJn0O5jFZ4/",
+  "author": "_solvearn",
+  "title": "Platform for finding startup co-founders",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DQ5ePh_DTiy",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's repo for the EEG mind-control Monopoly game. One web search returned only unrelated EEG projects (e.g. PolyCortex MindPong), which I did not treat as matches. The vault has no notes on it.",
+  "keyword": "GitHub",
+  "focus": false,
+  "url": "https://instagram.com/reel/DQ5ePh_DTiy/",
+  "author": "engineeringwithpalden",
+  "title": "First 24-hour hackathon: mind-control monopoly game",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DQxhS3EDMji",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The Reddit post by u/volodith and any public copy of the 'KERNEL' or 'Voloditha' framework. The post's testing data (1,000 hours, 94% first-try success, half the tokens) has no source I could check. The vault notes listed don't cover this post.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DQxhS3EDMji/",
+  "author": "theaifield",
+  "title": "Six Traits of Effective AI Prompts",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DP2S6SngSsa",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The full distribution guide, which is gated behind a comment on the post. I searched the vault only (the one match was an unrelated plugin file) and did not run any web searches.",
+  "keyword": "info",
+  "focus": false,
+  "url": "https://instagram.com/reel/DP2S6SngSsa/",
+  "author": "mhtua",
+  "title": "Getting first paying app users via influencers",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DM3oYgVxa4-",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The guide itself (sent via comment \"guide\" to vardy.mov). No public link was found or searched for.",
+  "keyword": "guide",
+  "focus": false,
+  "url": "https://instagram.com/reel/DM3oYgVxa4-/",
+  "author": "vardy.mov",
+  "title": "AI stack for building hackathon projects fast",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DPKKSI0D_PR",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's actual workflow or link. The post says to comment \"Al\" or use the link in the bio, and no URL is written in the post. The vault has no note on this creator or post. Its only hit was an unrelated \"Vapium lite\" note.",
+  "keyword": "Al",
+  "focus": false,
+  "url": "https://instagram.com/reel/DPKKSI0D_PR/",
+  "author": "aiwithrone",
+  "title": "AI voice receptionist books appointments via n8n",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DM1Bf5FB8qK",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The durable.ai one-pager, and any public page for @fatboichamoy. The vault has nothing on either. One web search turned up only generic watermelon, chamoy and Tajín recipes.",
+  "keyword": "WATERMELON",
+  "focus": false,
+  "url": "https://instagram.com/reel/DM1Bf5FB8qK/",
+  "author": "durable.ai",
+  "title": "Chamoy watermelon street snack side hustle",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DM_Bq9lNzFD",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The original Reddit thread and any repo or code from u/BlacksmithHot17. Tinder's terms of service likely prohibit this kind of automation. I didn't check them.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DM_Bq9lNzFD/",
+  "author": "theaifield",
+  "title": "Reddit user's Claude-powered Tinder automation claim",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "Deieixky5m2",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The \"Art of Flirting\" guide (30 techniques) by marta_dating is delivered by comment/DM only. A web search found no public copy. The 70/30 \"Seduction Math\" figure is the coach's own heuristic, not backed by a study I could find. I did not check her profile page.",
+  "keyword": "VIBE",
+  "focus": false,
+  "url": "https://instagram.com/reel/Deieixky5m2/",
+  "author": "marta_dating",
+  "title": "Flip first-date questions from facts to feelings",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DemY5mamFE0",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The list is sent only after commenting 'UNETHICAL' on the reel, and no public copy was searched or found. The post names no repos. The tools it describes (video downloaders, subscription bypasses, streaming aggregators) are likely piracy or terms-of-service-breaking tools, so I did not try to identify them. Other saved nateherkai posts (DcgRoqMEpZb, DZ2wiBNF6DU, Dax-38bjV8R, DfLO6vHsmHq) cover dif",
+  "keyword": "UNETHICAL",
+  "focus": false,
+  "url": "https://instagram.com/reel/DemY5mamFE0/",
+  "author": "nateherkai",
+  "title": "Warning about \"unethical\" GitHub projects for free tools",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DezlkbdM62m",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "I couldn't find the actual guide or any ibionic.ai page. The vault has no notes on it, and no other saved post covers it. The $60 vs $1,000 claim is unverified. Public DIY actuators cost about $40–$190, and a Circuit Cellar article cites about $500 for the commercial comparison, not $1,000.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DezlkbdM62m/",
+  "author": "ibionic.ai",
+  "title": "$1,000 actuators? Just make them for $60",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "De1tVRIjr2c",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The full list of 10 prompts (comment \"STYLE\" on the reel to get it by DM). I searched the vault and saved posts but not the web, because the material is gated.",
+  "keyword": "STYLE",
+  "focus": false,
+  "url": "https://instagram.com/reel/De1tVRIjr2c/",
+  "author": "thechriscordero",
+  "title": "10 AI animation styles with prompts",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "DLaq_J4tEB_",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "I found no public source for Emelie / @emelieetr, the 34M-view video, the €9,000 crowdfunding, or the suit's brand. The post doesn't name the suit. The vault notes that mention the creator (theaifield) are unrelated to this post. No other saved post covers this. The Mollii suit is mainly marketed to reduce spasticity, so \"enabling walking\" may be overstated.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DLaq_J4tEB_/",
+  "author": "theaifield",
+  "title": "Viral German wheelchair user walks with suit",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
+  "shortcode": "DFA4mdYxaNW",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's \"50 ChatGPT prompts\" guide (realisticrecruiting) is sent after a comment of PROMPT, and a web search found no public copy. Other free 50-prompt packs exist, but none is tied to this creator.",
+  "keyword": "PROMPT",
+  "focus": false,
+  "url": "https://instagram.com/reel/DFA4mdYxaNW/",
+  "author": "realisticrecruiting",
+  "title": "3 ChatGPT prompts to fix your resume",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   }
+  ]
+ },
+ {
+  "shortcode": "Deeq-JZMlJi",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "No listing found for Burlap Chap or Bone Daddy. I also didn't find the @wickedlyhandmade cardigan and scarf patterns or the @stonesparrowcrochet coat pattern. Next step: check the creator's Instagram bio link, Etsy shop or Ravelry store. The vault has no notes on this post.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Deeq-JZMlJi/",
+  "author": "twistedhatter1981",
+  "title": "Halloween crochet outfits with skull-themed backdrops",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DehLr7nT0sf",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The Invisible History YouTube episode itself. Two searches turned up no channel or episode page, and the vault has no matching notes. To find it, search YouTube for \"Invisible History\" with the host names, or open the @invisiblehistory profile on Instagram and follow its link.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DehLr7nT0sf/",
+  "author": "invisiblehistory",
+  "title": "Transatlantic Slave Trade in Jamaica and Saint-Domingue",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeUlQTQxv5O",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The code from the post, a public write-up of the reverse engineering, and any evidence for the \"tomorrow probability\", Wi-Fi tracking or silent-mode snippets. I did not open any search result. The vault has no related notes.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeUlQTQxv5O/",
+  "author": "ayoships",
+  "title": "Duolingo's churn and notification tracking, per code",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeUegPrBLP8",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The creator's (aprotohype) own files, STL models, calculations or write-up. A vault search for the creator and \"hoverboard\" returned nothing. I didn't check the creator's Instagram profile or links.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeUegPrBLP8/",
+  "author": "aprotohype",
+  "title": "Hoverboard rotor: 12 magnets cut loading 40%",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeR8ZyWxve0",
+  "list": "other",
+  "stage": "research",
+  "type": "in_comments",
+  "status": "open",
+  "reason": "The creator's prompt (in the Instagram comments) and the dashboard behind the 50k to 3k token figures. Check the comments on the reel directly.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeR8ZyWxve0/",
+  "author": "joshuablatch",
+  "title": "Cutting Claude token costs by offloading work to Mac",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: in_comments"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dc1LYenI7ik",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The creator's specific project, lab, code or paper in Zurich. I didn't open the reel or the creator's profile. The vault has no matching notes.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Dc1LYenI7ik/",
+  "author": "__destinylanae",
+  "title": "Coding AI for a robotic guidewire in Zurich",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeJ8u0YCJCE",
+  "list": "other",
+  "stage": "research",
+  "type": "thin_input",
+  "status": "open",
+  "reason": "The tool's download or project page. Two web searches for \"fominyu\" returned nothing relevant, and the vault has no mention. The creator's Instagram profile (@fominyu) bio may link to it, but I couldn't open it. It may be unreleased and only a work-in-progress demo, since the caption asks for support for future updates.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeJ8u0YCJCE/",
+  "author": "fominyu",
+  "title": "Local video mocap tool v0.6 demo",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: thin_input"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeLV__fgBXu",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "No official GroundedSLAM paper, repo or page was found. I did not open the candidates. Checking the post's comments or the creator's (aiproductlabs) other posts might give the real name.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeLV__fgBXu/",
+  "author": "aiproductlabs",
+  "title": "GroundedSLAM for more accurate 3D robot mapping",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dd3rvh8sgln",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "open",
+  "reason": "The emulator or tool the creator used (rosamichael.digital doesn't name it in the caption or the description). I didn't open the creator's profile, so the name may be in comments or a pinned post. I didn't verify any ripping tool. Ninja Ripper and RenderDoc are only guesses at the kind of tool involved. Any ripped Tekken 3, Hercules or Crash assets are copyrighted.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Dd3rvh8sgln/",
+  "author": "rosamichael.digital",
+  "title": "Putting myself inside PS1 games with Blender",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: unnamed"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dd5rZgdjpzJ",
+  "list": "other",
+  "stage": "research",
+  "type": "gone",
+  "status": "open",
+  "reason": "The repo, the owner account, and any mirror or mention. It may have been deleted, renamed or made private, or the handle may be misspelled. Not checked: the Wayback Machine, or a GitHub search for similar names.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Dd5rZgdjpzJ/",
+  "author": "githubsignals",
+  "title": "Awesome Opus 5.5 Games: curated AI-built game repo",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gone"
+   }
+  ]
+ },
+ {
+  "shortcode": "DdWuWKLNzGt",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "No public source, repo or download for the Pokémon AR world. I did not open the creator's Instagram profile, so a link in their bio or a reply to a comment is possible. The tools used, such as the engine, headset or AI model, are not stated.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DdWuWKLNzGt/",
+  "author": "ae.t.he.r",
+  "title": "Pokémon world turned into room-scale AR",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DZkb99HCkGm",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The exact repo. Check the creator's profile (algorithmswithpeter) bio or pinned comments for the link. I did not open any candidate repo.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DZkb99HCkGm/",
+  "author": "algorithmswithpeter",
+  "title": "Coding interview patterns repo and code tips",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DcVpe39oA4Z",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The Kickstarter campaign page. Nothing public confirms it, and the post says the link is on the profile. It's also unconfirmed that the INKR/Penguin manga is the same project as the anime shown in the reel.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DcVpe39oA4Z/",
+  "author": "kay_rwizi",
+  "title": "Mutupo Zimbabwean anime now on Kickstarter",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DcggW7YDHm2",
+  "list": "other",
+  "stage": "research",
+  "type": "link_in_bio",
+  "status": "open",
+  "reason": "The Marmalade Collective guide. marmaladecollective.com failed to load with an SSL error, and search returned no page from that site. I also found nothing on the post's other three titles (the guide lists 7 films, the carousel names 5). The vault has nothing on this.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DcggW7YDHm2/",
+  "author": "marmaladecollective",
+  "title": "African sci-fi films you should know",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:38:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: link_in_bio"
+   }
+  ]
+ },
+ {
+  "shortcode": "DcrlxqNjRaP",
+  "list": "other",
+  "stage": "research",
+  "type": "paywalled",
+  "status": "open",
+  "reason": "The bio link, the Ordinary Man Project and the 14-Day Discipline Game were not found. The search results showed unrelated products (an \"Ordinary Men's Project\" on Skool and a Gumroad 14-day challenge by a different seller), and I didn't open or match them. The YouTube video under @hellocategg was not checked.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DcrlxqNjRaP/",
+  "author": "hellocategg",
+  "title": "Psychology of the Man-Child (Puer Aeternus) Part 4",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: paywalled"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dau8S7xoS6V",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "I couldn't confirm what product 479284, 482287 or 476550 is. The post's #uniqlo tag suggests Uniqlo wide or pleated pants, but that is unconfirmed. The Uniqlo page fetches timed out.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Dau8S7xoS6V/",
+  "author": "whoisoms",
+  "title": "Wide-leg pants in navy, black and brown",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbWigrviiN_",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The restaurant's name was not confirmed. I didn't open any page, and I didn't check whether the 'only vegan St. Lucian' claim is true. To settle it, check the reel's location tag or the author's profile (aleenaseats).",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DbWigrviiN_/",
+  "author": "aleenaseats",
+  "title": "Review of a vegan St. Lucian restaurant in Flatbush",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "Db_p3j0p1kb",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "open",
+  "reason": "The storyverse.store product page and the projector's name, price and specs. The WebFetch of storyverse.store failed with an SSL handshake error. Searches returned only generic children's storybook projectors. It is also unclear how the projector gets a book's pages (an ebook or screen cast, or a camera on a physical book). The caption doesn't say. The Yule Ball illustration suggests an ebook or a",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Db_p3j0p1kb/",
+  "author": "storyverse.store",
+  "title": "Project your book onto the wall",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbXHIDaSrk4",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "I searched the vault for \"wellbycami\" and \"strategy sync\" and found nothing. One web search on the creator and the framework names returned only unrelated strategy workshops. I did not open her Instagram profile or any link-in-bio page. The detailed content may be released later in her series or sent privately.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DbXHIDaSrk4/",
+  "author": "wellbycami",
+  "title": "Three-day life and business strategy sync framework",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "Db-123LR0e0",
+  "list": "other",
+  "stage": "research",
+  "type": "paywalled",
+  "status": "open",
+  "reason": "Two web searches found no page for the comic, its creator or a store listing. A Gumroad \"Serpent Book1\" result is by a different author and is probably unrelated. I did not open the other Instagram post (DY48LieCGCn) or the eplleseed profile, either of which may link to the book.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Db-123LR0e0/",
+  "author": "eplleseed",
+  "title": "Starting with why: Songs of the Sahara",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: paywalled"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dbvvp8uN6p-",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "No official page, streaming playlist or riddim listing for \"Gyal A Bruk Out Riddim\" turned up. The vault had nothing on it. To look further, check @zimifranc on Instagram, YouTube or Spotify, or search Riddims World for Zimi Records.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Dbvvp8uN6p-/",
+  "author": "dj_dennyhus.dancehall",
+  "title": "Gyal A Bruk Out Riddim DJ tracklist",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbfcM45gqkC",
+  "list": "other",
+  "stage": "research",
+  "type": "link_in_bio",
+  "status": "open",
+  "reason": "I ran one web search and found no YouTube or SoundCloud mix from dj_dennyhus.dancehall. The only close hits were unrelated DJs (a DC SoundCloud account called DANNYHOUSE, and DJ Denny Tsettos). I didn't open any of them. The vault had no matching notes. The link is only in the creator's Instagram bio, so check the profile directly.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DbfcM45gqkC/",
+  "author": "dj_dennyhus.dancehall",
+  "title": "Dancehall songs to know this summer",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: link_in_bio"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbCJAr7JkQr",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The creator's written itinerary, the exact glamping property (\"Clear Star Resort\" didn't match anything), and the ATV tour operator. I couldn't check these from public pages. The vault has no related notes.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DbCJAr7JkQr/",
+  "author": "dreemiing",
+  "title": "Utah Day 2 travel itinerary recap",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbhUm2eMgMf",
+  "list": "other",
+  "stage": "research",
+  "type": "thin_input",
+  "status": "open",
+  "reason": "The ticket or event page behind the flyer's QR code, and any public listing of \"The Crowning of Anthony B\". Only an unrelated 2020/21 Anthony B show at the same venue came up. The vault has no matching notes; the two grep hits were unrelated.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DbhUm2eMgMf/",
+  "author": "kongobrainz",
+  "title": "Crowning of Anthony B concert flyer, Queens",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: thin_input"
+   }
+  ]
+ },
+ {
+  "shortcode": "Da-3ccGq7wF",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The specific events listed on screen (markets, movie nights, concerts, Yankees games, US Open events). Only the reel itself has them. No vault notes matched, and I did not search the web.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Da-3ccGq7wF/",
+  "author": "runwayrizos",
+  "title": "Things to Do in NYC, August 2026",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYfGyy-Oh7V",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "open",
+  "reason": "The book's title, author and sale link are not in the post text or caption. A vault search for the shortcode and creator handle found nothing. The link is probably in the creator's bio or comments, which I couldn't see.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DYfGyy-Oh7V/",
+  "author": "phillip.dealrrr.winnrrr",
+  "title": "Book pitch with finance questions and sale note",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   }
+  ]
+ },
+ {
+  "shortcode": "DaVce_zMZNx",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The momjustreby.com site: the domain returned a DNS error (ENOTFOUND), and a web search found nothing on it. Core Memories (corememoriesapp.carrd.co) is a similar service but nothing links it to this post. The vault has no notes on it. The post is also a Cursor promo reel, and the claim that he built the site with Cursor, Composer and cloud agents couldn't be checked.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DaVce_zMZNx/",
+  "author": "trycursor",
+  "title": "Using AI tools to build a family memory site",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DZgDNwdh8Dw",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "No ticket page, venue or organizer listing for \"Skate & Gouyad\" turned up in one web search. The venue was still TBA in the post. The vault had no related notes. Only the creator's Instagram (@djeq_theboss1) might hold more details.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DZgDNwdh8Dw/",
+  "author": "djeq_theboss1",
+  "title": "Skate & Gouyad Haitian Skate Party Flyer",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYuoAY-MVZZ",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The list of 12 YouTube videos. The reel shows only a screenshot of three, with no readable titles or links. One web search for the creator (minaismini) and the post title found nothing. The vault's only mention is a pipeline to-do note, which has no resource.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DYuoAY-MVZZ/",
+  "author": "minaismini",
+  "title": "12 Videos to Master Character Arcs Faster",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DWS-ypWtEaG",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "open",
+  "reason": "The names or URLs of the free streaming/watch-party site and the viral-video analyzer. They appear only on screen or in the audio, and the transcript has no names. I found no vault notes and no matches for the creator. Check the reel's on-screen text or comments.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DWS-ypWtEaG/",
+  "author": "tiz8creates",
+  "title": "Three websites: streaming, viral remix, books",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   }
+  ]
+ },
+ {
+  "shortcode": "DXzyt18y615",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The creator's own repo, site, case design and multi-phone scheduler weren't found. Searches for cjtrowbridge turned up nothing, and the vault has no notes on the creator. The post may only show the idea, with no public resource.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DXzyt18y615/",
+  "author": "cjtrowbridge",
+  "title": "Old Cellphones as Personal AI Servers",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DTsevNzDYLf",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The thebizkore \"2026 Entrepreneur Grant Calendar\" image has no public copy that I could find. The vault has no notes on it. The grant names, amounts and dates exist only in the post image. Because the list is dated January to May 2026, it is now out of date. Check each grant on its official site before relying on it.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DTsevNzDYLf/",
+  "author": "thebizkore",
+  "title": "2026 Entrepreneur Grant Calendar",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DRlmtCpDqa4",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "open",
+  "reason": "The niche job sites the man mentions are not named in the transcript or caption. The caption only points to a TikTok account (Inwmediagroup), and I did not search for it. I found no vault notes on this post.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DRlmtCpDqa4/",
+  "author": "financialalerts",
+  "title": "Look for remote jobs on niche sites",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   }
+  ]
+ },
+ {
+  "shortcode": "DQMG1SKAY3y",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "No public Neuroflix site, repo or demo, and no confirmation of the hackathon win. A search of the vault for Neuroflix and the creator's name found nothing. The creator's profile (aantoinelee) wasn't checked, and the only way to follow the project is through their posts.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DQMG1SKAY3y/",
+  "author": "aantoinelee",
+  "title": "Hackathon-winning corporate learning app demo",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DMx6F-iOd3z",
+  "list": "other",
+  "stage": "research",
+  "type": "link_in_bio",
+  "status": "open",
+  "reason": "The full street festival list from @nybucketlist (link in bio or the Bucket Listers app) was not found publicly. I did not open any page, and the vault had no matching notes. The Intrepid, Charlie Parker and Bronx Night Market dates were not checked.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DMx6F-iOd3z/",
+  "author": "nybucketlist",
+  "title": "NYC summer street festival dates list",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: link_in_bio"
+   }
+  ]
+ },
+ {
+  "shortcode": "DfSPrkdxygK",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "The creator's (ayoships) source material, code or write-up was not found. The rec_skip/rec_finish fields and the claims about 25+ models, emergency batches, live-video insertion and unsent-message collection could not be checked. Nothing was opened with WebFetch.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DfSPrkdxygK/",
+  "author": "ayoships",
+  "title": "Claimed TikTok on-device models and recommendation scores",
+  "covered_by": [],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DIypeSROFcU",
+  "list": "other",
+  "stage": "research",
+  "type": "link_in_bio",
+  "status": "open",
+  "reason": "The full 75+ festival list was not found publicly. It is behind the link in bio and the Bucket Listers app. A search found only other sites' festival schedules (for example Secret NYC), which I did not open or match to this post. I did not check the claim of 75+ festivals or the dates, which were for spring 2025.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DIypeSROFcU/",
+  "author": "nybucketlist",
+  "title": "Summer street festival list in NYC",
+  "covered_by": [
+   {
+    "shortcode": "DKPyt-QO0ab",
+    "relation": "same"
+   },
+   {
+    "shortcode": "DMx6F-iOd3z",
+    "relation": "same"
+   }
+  ],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: link_in_bio"
+   }
+  ]
+ },
+ {
+  "shortcode": "DCC7AljS_kS",
+  "list": "other",
+  "stage": "research",
+  "type": "not_found",
+  "status": "open",
+  "reason": "hire.dev would not load (connection refused, then socket closed). Web search found nothing on the site or on Anthony Sistilli's tool. The \"75% of resumes never reach a human\" claim has no source in the post, and I didn't check it. It is a widely repeated figure with a weak origin. The vault has no notes on this post.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DCC7AljS_kS/",
+  "author": "asistilli",
+  "title": "Demo of hire.dev ATS resume generator",
+  "covered_by": [
+   {
+    "shortcode": "DTTz2HvDNQe",
+    "relation": "similar"
+   }
+  ],
+  "next_retry": "2026-11-13",
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T18:38:32-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: not_found"
+   }
+  ]
+ }
+]

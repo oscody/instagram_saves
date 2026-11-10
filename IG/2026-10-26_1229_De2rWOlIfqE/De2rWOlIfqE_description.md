@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 These Afrobeat songs get me either to dance or float, no in-between.
 
 FOLA & Davido went crazy on this song🔥Which songs are you playing first?
+
+## Research
+
+* Verdict: Nothing to find. The post is a personal list of 15 Afrobeat songs. It has no repo, tool, guide or other resource to verify.
+* Checked: 2026-11-10 by claude-sonnet-5-5

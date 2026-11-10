@@ -20,3 +20,8 @@ Written by claude-haiku-5-5.
 @harlemyouths_bze 
 #HopkinsBlockParty2024
 #HopkinsVillage #Belize #Puntamusic
+
+## Research
+
+* Verdict: Nothing to find. This is a short entertainment clip of a woman dancing at the Hopkins Block Party in Belize. It has no tool, guide or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

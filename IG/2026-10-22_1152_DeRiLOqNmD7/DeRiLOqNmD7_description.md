@@ -26,3 +26,8 @@ Shoes - @dukedexter
 Belt - @zara 
 
 Details in bio for all styling/sourcing enquiries 📲
+
+## Research
+
+* Verdict: Nothing to find. Menswear outfit reel. The caption only tags brands (ASOS, About Blank, Duke + Dexter, Zara). It has no single resource, guide or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

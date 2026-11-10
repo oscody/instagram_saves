@@ -51,3 +51,17 @@ Top Upcoming Events at NJMP:
 Follow for more @purplehighways 
 
 #gokarting #thingstodoinnj #summeractivities #njmp #newjerseymotorsportspark #njevents #race cars #axethrowinginnj #racedayready #explorenj #gokartingrace #bucketlistadventures
+
+## Research
+
+* Verdict: Partly valid. NJMP is a real venue with go-karting at Tempest Raceway, and njmp.com is the official site. I couldn't confirm the axe throwing, the $35 price, the 55 mph figure or the event dates. The 2025 events are also past now.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [New Jersey Motorsports Park (njmp.com) (njmp.com)](https://njmp.com): page, in the post, verified, medium confidence. The official site matches the venue and describes Tempest Raceway as a top outdoor karting complex. It doesn't list axe throwing, prices, 55 mph or specific events on the home page.
+* [NJMP Event Calendar (njmp.com)](https://njmp.com/event-calendar/): page, in the post, not opened, medium confidence. The home page links to it as the events listing. I didn't open it.
+
+### Not found
+
+The home page didn't confirm axe throwing, the $35 price, the 55 mph speed or the 2025 event dates. I didn't open the sub-pages (go-karting, off-track activities, event calendar). Contact: info@njmp.com or (856) 327-8000.

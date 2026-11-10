@@ -73,3 +73,19 @@ If you want it, comment “DIGITAL” 💬 and I’ll send it to you.
 
 #ai #chatgptpromptsforbusiness #chatgpt
 #chatgptprompts
+
+## Research
+
+* Verdict: Partly valid. The nine prompts are fully in the caption and work as generic templates. The "bank your first 5k with digital products" training is a comment-for-DM lead magnet with no public copy, so the post is partly promo.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Copy a template from the caption and replace the bracketed placeholders with your own details.
+2. For prompt 3 (research), use a ChatGPT mode with web browsing, or the sources may be invented. Check any links it gives.
+3. For prompt 7 (contracts/policies), treat the output as a draft and have a lawyer review it before use.
+4. For prompt 8 (data analysis), paste only data you are happy to share, and check the numbers it reports.
+
+### Not found
+
+The "DIGITAL" training is sent only after a comment or DM. I searched for no public copy and found none, so I can't say what it contains. I did not run web searches. The prompts are generic and fully in the caption. No other saved posts matched the creator or the prompts.

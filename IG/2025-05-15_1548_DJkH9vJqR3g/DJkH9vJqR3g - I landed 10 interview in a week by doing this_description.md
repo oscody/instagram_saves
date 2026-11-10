@@ -49,3 +49,32 @@ And I tested it - I sent 7 messages and got 5 interviews scheduled (Usually I ge
 🔥 If you want the link to sign up for free, just comment RESLINK and I’ll send it to you!
 
 #jobapplication #jobseekers #jobsearch #jobhunt #interviewquestions #interviewtips #jobvacancy #cvtips #cvwriting #resumewriting #interviewprep #interviewskills #jobopportunities #networkingtips
+
+## Research
+
+* Verdict: Partly valid. Reslink is a real, free video-resume tool with Pitch AI and a resume badge, as the post shows. The creator's TechTalk founders are on Reslink's team, so the post is partly promotion. The "70% more noticed" and "5 of 7 interviews" figures are self-reported and I found no independent proof.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Reslink (reslink.io)](https://reslink.io/): product, found by search, verified, high confidence. Opened the site. It describes a free video resume builder with Pitch AI (script drafting from job title and description) and a clickable play-button badge embedded in the resume PDF.
+* [Grepbeat: Raleigh's Reslink Reframes Resumes Around Job Seekers' Personalized Videos (grepbeat.com)](https://grepbeat.com/2026/06/02/raleighs-reslink-reframes-resumes-around-job-seekers-personalized-videos/): page, found by search, verified, high confidence. Opened the article. It names Roxanne Taku and Joanna Rocha, the TechTalk founders, as part of the Reslink team, so the creator is affiliated.
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/tips tools/instagram job hunt people .md`: Lists the creator techtalkuk and links to resumeofficial.com and the techtalkuk Linktree. It has no Reslink link.
+
+### Key steps
+
+1. Sign up free at reslink.io with your name and email (no card needed).
+2. Pick a LinkedIn job where you meet about 70% of the requirements and which shows 'Meet the hiring team'.
+3. In Reslink, use Pitch AI: enter the job title and paste the job description to get a roughly 60-second script. Edit the length or tone if needed.
+4. Record the video pitch.
+5. Download your resume from the Reslink dashboard so it carries the clickable badge.
+6. Apply on LinkedIn with the badged resume.
+7. Message the listed recruiter with your Reslink link.
+8. Check Reslink's click tracking to see whether recruiters opened the video.
+
+### Not found
+
+I found no independent evidence for the 70% or 5-of-7 interview claims. The only trial figure I found (6x more interview invitations) is a Reslink press-release claim. I did not see Reslink's pricing page. I did not find the exact signup link sent after commenting RESLINK, but the public site is reslink.io. The 'reslink.com' domain is for sale, so don't use it.

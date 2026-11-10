@@ -38,3 +38,18 @@ Here’s how you can own a piece of Jamaica’s critical infrastructure 💰
 That’s it!
 
 #Jamaica #finance #ipo #investment
+
+## Research
+
+* Verdict: Valid. The offer was real and matches the post's price (J$3.60), dates (March 4–18, 2025) and NCB/JMMB channels. It is now closed: it raised about $12B, and a JIS report dated April 3, 2025 says so.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [NROCC OFS Prospectus – TransJamaican Highway (hosted by JMMB) (jm.jmmb.com)](https://jm.jmmb.com/sites/default/files/Jamaica/Attachments/2025/NROCCs-OFS-Prospectus-Transjamaican-Highway.pdf): page, found by search, not opened, medium confidence. The search result is the offer-for-sale prospectus the post tells viewers to read. I did not open it.
+* [JIS: $12 Billion Raised from TransJamaican Highway Public Offer (jis.gov.jm)](https://jis.gov.jm/12-billion-raised-from-transjamaican-highway-public-offer/): page, found by search, not opened, medium confidence. The search snippet reports the offer closed and raised more than the original $9B target. I did not open it.
+* [Observer: NROCC launches $9 billion TransJamaican Highway share sale (jamaicaobserver.com)](https://www.jamaicaobserver.com/2025/02/26/nrocc-launches-9-billion-transjamaican-highway-share-sale/): page, found by search, not opened, medium confidence. The search snippet shows the offer's launch. I did not open it.
+
+### Not found
+
+I did not open any page. The search snippets did not mention NCB's "GoIPO" platform or JMMB's "Moneyline" by name, so those two details are unconfirmed. The post's own steps cover how to apply.

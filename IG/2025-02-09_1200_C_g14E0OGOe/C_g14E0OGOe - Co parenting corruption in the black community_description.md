@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Co parenting corruption in the black community #charlestonwhite #babymamadrama #coparenting #blackcommunity
+
+## Research
+
+* Verdict: Nothing to find. This is an opinion monologue about co-parenting. It makes sweeping generalizations about Black mothers and offers no resource, tool, or checkable claim.
+* Checked: 2026-11-10 by claude-sonnet-5-5

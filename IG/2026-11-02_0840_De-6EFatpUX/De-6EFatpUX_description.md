@@ -69,3 +69,20 @@ So if you want more options...and you want to learn how everyday people are buil
 ⚠️ Make sure you’re FOLLOWING @incomewithjoe first so I can message you!
 
 🎯Save this for later. Your future self will thank you. ✨
+
+## Research
+
+* Verdict: Promo. The seven prompts are fully in the caption and work as written. The post's real goal is a funnel: commenting "LEARN" gets a "free training" for an online-income program. The "hidden income" claim is generic and depends on what you feed ChatGPT.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Caption prompt list (7 ChatGPT prompts) (instagram.com)](https://instagram.com/reel/De-6EFatpUX/): prompt, in the post, verified, high confidence. The full text of all seven prompts is in the caption and matches the on-screen text.
+
+### Already in IG saves
+
+* Same: Web: [Seven ChatGPT prompts for finding income opportunities (instagram.com)](https://instagram.com/p/DaGBMj_tEgF/) (`DaGBMj_tEgF`). Saved post with the same seven prompts (Hidden Skills, Highest-Leverage Opportunity, 90-Day Plan, etc.), also titled 'Here are the 7 prompts I used'.
+
+### Not found
+
+The "LEARN" free training is sent by DM after a comment and has no public copy. I did not search for it.

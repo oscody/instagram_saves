@@ -27,3 +27,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 10/10 things to talk about with women based on the Art of seduction but they get progressively more niche
+
+## Research
+
+* Verdict: Partly valid. The book is real, but the six questions are the creator's own list. The book is a general study of seducer types and strategies and has no list of conversation questions like these. The caption's "10 things" also doesn't match the six in the reel.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [The Art of Seduction by Robert Greene (Penguin) (penguinrandomhouse.com)](https://www.penguinrandomhouse.com/books/286423/the-art-of-seduction-by-robert-greene/): other, found by search, not opened, medium confidence. The search result is the publisher page for the book the post names. I did not open it, and I found no matching question list in it.
+
+### Not found
+
+I did not open the book or check its text, so I can't confirm that none of the questions appear in it. The reel's list is the creator's own, and the caption's tenth item and the last four items are missing from the six shown.

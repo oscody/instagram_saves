@@ -52,3 +52,20 @@ Use these styles to experiment with different looks for your AI-generated videos
 Stop using the same visual style for everything. 👀
 
 #AIVideo #Animation #MotionGraphics #AITools #CreativeAI
+
+## Research
+
+* Verdict: Unresolved. The full list of 10 prompts is only sent by comment ("STYLE"), and I found no public copy. The post only shows the style names and the shape of one Neo-Expressionism prompt.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Name the style and medium first, e.g. 'Neo-expressionist graffiti painting'.
+2. Describe the subject concretely: shape, colors, face, clothing or parts.
+3. Name materials and brushwork: oil stick, spray paint, scratchy doodles.
+4. Set the background and palette: bright yellow, pale pink, sky blue, paint drips.
+5. End with the aspect ratio, e.g. vertical 3:4.
+
+### Not found
+
+The full list of 10 prompts (comment "STYLE" on the reel to get it by DM). I searched the vault and saved posts but not the web, because the material is gated.

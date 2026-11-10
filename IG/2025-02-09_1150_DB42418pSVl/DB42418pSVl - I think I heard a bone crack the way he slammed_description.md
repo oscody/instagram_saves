@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 I think I heard a bone crack the way he slammed him 🤣😂 #trending #viral #reels #fyp #explore #comedy #mcdonalds #skit #funnymemes #funnyvideos #blowthisup
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy skit with no resource, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

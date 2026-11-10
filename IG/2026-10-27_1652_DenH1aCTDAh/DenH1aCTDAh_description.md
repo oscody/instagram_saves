@@ -28,3 +28,21 @@ Currently on iQIYI by the same crew that gave us the Butchers Blade. This direct
 This is currently on iQIYI
 
 #kungfu #martialarts #action #mma #fyp
+
+## Research
+
+* Verdict: Partly valid. The film exists, and its director and platform match the post. The "best wuxia film this year" line is the poster's opinion, and I found no reviews to check it. The plot and the crew details (Du Xiaohui, the other films) weren't confirmed.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [《杯雪·一战成名》 (A Better Jianghu), Beijing News report (m.bjnews.com.cn)](https://m.bjnews.com.cn/detail/1792151003129210.html): page, found by search, verified, medium confidence. The page confirms the film, director Liu Wenpu, the iQIYI release on 16 Oct 2026, and the cast. It describes the film as an adaptation of the novel 杯雪·夜雨打金荷.
+
+### Key steps
+
+1. Open iQIYI (iq.com or the iQIYI app) and search for 杯雪·一战成名 or A Better Jianghu.
+2. The film is streaming on iQIYI. Availability and subtitles outside China weren't checked.
+
+### Not found
+
+I found no direct iQIYI watch link, no reviews, and no confirmation of the Southern Song/Qin Hui plot or of action director Du Xiaohui. I also did not check the other films named in the caption.

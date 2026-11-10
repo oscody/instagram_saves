@@ -35,3 +35,26 @@ Disclaimer
 Salary figures are based on publicly reported compensation ranges at frontier AI labs and are not guaranteed. Actual pay varies by company, location, level, and experience. This roadmap is an independent learning resource and is not affiliated with or endorsed by any company mentioned. Results depend on individual effort and are not guaranteed.
 
 #ForwardDeployedEngineer #AIJobs #GenAI #TechCareers #SoftwareEngineer
+
+## Research
+
+* Verdict: Promo. The roadmap and interview sheets are only sent by DM after a comment and follow, which is a lead-capture offer. I found no public copy. The $500K to $1M+ pay claim is unverified.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Forward Deployed Engineer Roadmap (FDE Academy) (fde.academy)](https://fde.academy/blog/the-forward-deployed-engineer-roadmap): guide, found by search, not opened, low confidence. A public FDE roadmap that does a similar job. It is a different source, a 12-month plan, and I did not open it.
+* [Forward Deployed Engineer Roadmap 2026 (Scaler) (scaler.com)](https://www.scaler.com/topics/forward-deployed-engineer-roadmap/): guide, found by search, not opened, low confidence. A public step-by-step FDE roadmap from the search results. It is not the creator's sheet, and I did not open it.
+
+### Already in the vault
+
+* Vault: `2. Areas/Career Development/Career Job/ModernFi/Forward Deployed Engineer/Forward Deployed Engineer.md`: Your own job application material for an FDE role. It is not this roadmap.
+
+### Already in IG saves
+
+* Similar: Web: [Ode funding and AI services for local businesses (instagram.com)](https://instagram.com/p/DbbA7wwTIZ8/) (`DbbA7wwTIZ8`). It also uses the "comment FDE" DM gate, but the content is about AI automations to sell, not an FDE roadmap.
+* Similar: Web: [Forward deployed engineer coaching program pitch (instagram.com)](https://instagram.com/p/Dbkee2MsWcl/) (`Dbkee2MsWcl`). Reel pitching a paid FDE coaching program. It covers the same FDE career-prep topic.
+
+### Not found
+
+The creator's roadmap (120-day) and interview series (50-day, about 630 questions) have no public link. They are sent by DM after you follow and comment "FDE". Searching for veedaily19.ai and the sheet title found nothing. I did not verify the salary claim.

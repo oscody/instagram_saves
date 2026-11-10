@@ -35,3 +35,17 @@ What makes this restaurant especially interesting is its signature smoked ramen 
 🥟 MORE TO TRY: They also serve crispy fried gyoza paired with a signature yuzu dipping sauce, along with creative vegan sushi rolls, including their Sweet Chilli Taco Sushi Roll featuring avocado, tomato, spicy mayo, and crunchy tortilla chips!
 
 #nycfoodie #nycfoodguide #veganfoodie #nyceats #veganfoodlovers
+
+## Research
+
+* Verdict: Valid. REDWHITE Boneless Ramen is a real vegan ramen chain with an Allen Street, NYC listing. The post's menu details match other branches' menus, but I couldn't confirm the NYC opening date.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Redwhite Boneless Ramen (The Infatuation) (theinfatuation.com)](https://www.theinfatuation.com/new-york/reviews/redwhite-boneless-ramen): page, found by search, not opened, medium confidence. Lists the restaurant at 201 Allen St, NYC, as a vegan ramen chain that started in Boston in 2019. I saw this only in search results and didn't open it.
+* [VegNews: redwhite boneless ramen vegan opening NYC (vegnews.com)](https://vegnews.com/redwhite-boneless-ramen-vegan-opening-new-york-city): page, found by search, not opened, medium confidence. Reports the NYC location opening. I saw this only in search results and didn't open it.
+
+### Not found
+
+I didn't open any page. I couldn't confirm the NYC opening date or the Allen Street menu. The Aug 2026 Evgrieve post said it was about to open, and the post shows it open by Oct 2026.

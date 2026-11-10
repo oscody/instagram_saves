@@ -52,3 +52,16 @@ RELEASING NOVEMBER 11, 2026.
 A deeper journey into consciousness, the ego, and the mysteries of the human mind awaits.
 
 The next chapter of your awakening is coming. Stay tuned.
+
+## Research
+
+* Verdict: Promo. The carousel is a spiritual-reflection piece that ends by advertising "Book of Wisdom, Volume 3", due 11 Nov 2026. The "three voices" framing is the author's own esoteric and religious interpretation, not a tested method. I found no public copy of the book.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Book of Wisdom Volume 3 (Gumroad listing, unconfirmed match) (thebookofwisdomshop.gumroad.com)](https://thebookofwisdomshop.gumroad.com/l/rzqzc): product, found by search, not opened, low confidence. A search result shows a Gumroad listing with a similar title. I did not open it, and nothing links it to the esotericteachings_ account.
+
+### Not found
+
+I found no official page for the book tied to esotericteachings_. I did not open the Gumroad listing, so I can't say whether it is the same product or what Volume 3 contains.

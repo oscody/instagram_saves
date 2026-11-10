@@ -28,3 +28,25 @@ Written by claude-haiku-5-5.
 ## Caption
 
 What’d you do last night?
+
+## Research
+
+* Verdict: Nothing to find. The reel is a startup diary. It describes a workflow (ChatGPT-written Reddit scraper, then NotebookLM, then a landing page rewrite) but names no repo, tool or file to download. The method is plausible, but the creator's script isn't published.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Scraping Reddit via the .json endpoint trick (instagram.com)](https://instagram.com/p/DW_xAR-j-L5/) (`DW_xAR-j-L5`). Also scrapes Reddit posts and comments with an AI-written script, using the .json endpoint trick, to mine user feedback.
+
+### Key steps
+
+1. Ask ChatGPT to write a scraper that collects subreddit posts matching your keywords, plus all their comments.
+2. Run a cleanup script to make the scraped data readable.
+3. Load the cleaned data into NotebookLM and ask about your ideal customer's key emotional drivers.
+4. Have NotebookLM point to the most relevant posts and comments, then read them yourself.
+5. Rewrite the landing page and ad copy in the users' own words, and check that it works on mobile.
+6. Drive traffic to the page and A/B test the copy.
+
+### Not found
+
+No public copy of the creator's scraper or cleanup script. I did not search the web because the reel names no specific resource.

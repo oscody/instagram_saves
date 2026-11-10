@@ -30,3 +30,20 @@ See more events, tags and links to more details (i.e., address) in my stories an
 ♻️ Tag for free repost🎙️🔊
 
 #nycsalsa #salsanewyork #lasalsavive #socialdance #musicaenvivo
+
+## Research
+
+* Verdict: Nothing to find. This is a dated daily event list for Thursday, July 3, 2025. It has no lasting resource, and the date has passed. The account's profile is the only durable link.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [buscandosalsanyc Instagram profile (instagram.com)](https://www.instagram.com/buscandosalsanyc): page, in the vault, not opened, medium confidence. The vault note Salsa.md lists the profile link. I did not open it. The account posts daily NYC salsa event lists.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/Salsa.md`: Has the buscandosalsanyc profile link plus other salsa links: a Lorenz dance studio schedule, Sahadi's live salsa and a DJ Carlos Santiago organizer page.
+
+### Not found
+
+I did not search the web, because this is an expired one-day event list. Addresses and extra events were in the account's stories, which can't be fetched.

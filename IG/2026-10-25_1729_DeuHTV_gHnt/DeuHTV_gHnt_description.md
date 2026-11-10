@@ -43,3 +43,28 @@ Comment VISOR and I'll send it.
 open source ar glasses, military ar headset, how to make ar glasses, diy augmented reality glasses, homemade ar glasses, eagle eye military headset, diy ar glasses raspberry pi, hololens 2 field of view, ar headset vs vr headset, microsoft ar headset specs
 
 #hololens #anduril #augmentedreality #militarytech #engineering
+
+## Research
+
+* Verdict: Partly valid. The headset is Leap Motion's Project North Star, which is open source and has a public repo with about 1.8k stars. The ">100°" FOV and 1600x1440 at 120 Hz specs match what outlets report. The "$350" cost, the license and the Army comparison were not verified, and the build guide is unfinished.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Project North Star (leapmotion/ProjectNorthStar) (github.com)](https://github.com/leapmotion/ProjectNorthStar): repo, found by search, verified, high confidence. Opened it: Electronics, Mechanical and Software folders, about 1.8k stars, matching the post's 1,823 stars and its list of mechanical files, BOM, schematic and calibration software.
+* [Project North Star mechanical folder (BOM and assembly PDF) (github.com)](https://github.com/leapmotion/ProjectNorthStar/tree/master/Mechanical): guide, found by search, verified, high confidence. Opened it: it holds the BOM TSV files, the assembly drawing PDF and printing notes.
+* [Community build guide (GitBook) (project-north-star.gitbook.io)](https://project-north-star.gitbook.io): guide, in the post, not opened, low confidence. The repo README points to this host. I did not open it.
+
+### Key steps
+
+1. Open the repo's Mechanical folder and pick a version. Update 3.1 optics are recommended for a first build, since they halve print time and need no side supports.
+2. Print the parts on an FDM printer. The author used PLA Pro, 0.25 mm layers, 2 perimeters and 15% infill, and recommends a bed of about 250x200 mm.
+3. Order parts from the BOM TSV files (Release 3, Update 3.1 and the Calibration Stand).
+4. Press heat-set inserts into the display trays (4 each) and the driver board mount (2).
+5. Build each sub-assembly as shown in the assembly PDF. The guide says major sections are missing.
+6. Build the calibration stand from its own BOM and drawing.
+7. Install the software from the Software folder and run its calibration. The Electronics folder holds the schematics and driver board files.
+
+### Not found
+
+I could not confirm the $350 total cost. The BOM page gives no prices, and builds are generally reported to cost more. I did not verify the Army/HoloLens 52° comparison or the "$21.9 billion" figure. I could not confirm the license type from the repo page, and sources disagree between Apache 2.0 and GPL-3.0. The repo is from 2018-2019 and looks unmaintained, so it is not a new release. The post's "comment VISOR" gate is unnecessary because the repo is public.

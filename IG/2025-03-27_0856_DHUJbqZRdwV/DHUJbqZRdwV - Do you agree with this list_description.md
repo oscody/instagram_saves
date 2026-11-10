@@ -29,3 +29,8 @@ Artists;
 --
 (Need promo? Submit your song via dm📩)
 --
+
+## Research
+
+* Verdict: Nothing to find. This is a music playlist list (five Trinidadian songs) with no tool, guide or claim to check. The ranking is opinion, and the creator invites song promo submissions.
+* Checked: 2026-11-10 by claude-sonnet-5-5

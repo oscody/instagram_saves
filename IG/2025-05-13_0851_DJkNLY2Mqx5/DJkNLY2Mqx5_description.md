@@ -21,3 +21,16 @@ Written by claude-haiku-5-5.
 Join hundreds for a one-day, high-intensity group workout unlike anything else. One epic session. One unbeatable vibe. One day only.
 
 🎟️ Tickets are limited—secure yours now.
+
+## Research
+
+* Verdict: Promo. The reel advertises a ticketed City SHRED group workout. The event page matches the post, but the venue wording differs.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [NYC SHRED By CITY SHRED (Race Roster) (raceroster.com)](https://raceroster.com/events/2025/103262/nyc-shred-by-city-shred): page, found by search, verified, medium confidence. A one-day, 90-minute HIIT group workout by City SHRED in NYC with paid tickets, held May 25, 2025 at Asphalt Green. The reel's on-screen text says 'The Turf at NYG', so it may be the turf field there.
+
+### Not found
+
+The official City SHRED page was not opened. Search results also showed a June 21, 2026 edition, which I did not open. This 2025 event is over and online registration is closed.

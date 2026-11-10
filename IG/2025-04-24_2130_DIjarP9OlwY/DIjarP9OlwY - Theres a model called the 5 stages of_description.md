@@ -32,3 +32,16 @@ Stage 1 is the honeymoon. Dopamine’s flying. You’re in love with the idea of
 Stage 3 is adaption and acceptance. You stop trying to change them—and start changing your patterns. Here’s where most people tap out.
 
 Stage 4 is commitment. Love becomes a choice, not a mood. Stage 5 is co-creation, oneness. You build a mission, a family, a legacy and that takes discipline, not dopamine.
+
+## Research
+
+* Verdict: Partly valid. The five-stage model is real (Susan Campbell's The Couple's Journey, stages: romance, power struggle, stability, commitment, co-creation). The "90% never pass stage two" figure has no source I could find. The reel's stage names and wording also differ from Campbell's.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [The 5 stages of a relationship (ParentMap, summarizing Susan Campbell's model) (parentmap.com)](https://www.parentmap.com/article/the-5-stages-of-a-relationship-and-how-to-keep-yours-strong): page, found by search, not opened, medium confidence. Search result describes the same five stages (romance, power struggle, stability, commitment, co-creation). I did not open it, and it is a secondary source, not Campbell's own book.
+
+### Not found
+
+The post never names the model's author. Campbell's book itself wasn't opened. I found no source for the "90% stall at stage two" statistic.

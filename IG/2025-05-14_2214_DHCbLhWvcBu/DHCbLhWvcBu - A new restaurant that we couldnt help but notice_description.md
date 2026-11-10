@@ -28,3 +28,8 @@ Personally, we couldn’t get enough of the Ras and Pasta with lobster. The Curr
  If you’ve been, what’s your favorite dish or what would you like us to try next? 
 
 And we’ll give it up to Shamah for putting love into all the cocktails.
+
+## Research
+
+* Verdict: Nothing to find. This is a restaurant review reel for Mango Bay, a Caribbean fusion restaurant in Fort Greene, Brooklyn. It has no tool, guide or download to find, so I did not search.
+* Checked: 2026-11-10 by claude-sonnet-5-5

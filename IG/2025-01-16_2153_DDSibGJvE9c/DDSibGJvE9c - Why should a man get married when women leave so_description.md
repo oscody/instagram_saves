@@ -26,3 +26,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 #PressPlay: Why should a man get married when women leave so easily? 🧐 (🎥: @its.giving.podcast @mssarahfontenot)
+
+## Research
+
+* Verdict: Nothing to find. This reel is a clip of a woman giving a personal opinion on marriage and partner choice. It names no resource, tool or product, and the speaker says it is her own view.
+* Checked: 2026-11-10 by claude-sonnet-5-5

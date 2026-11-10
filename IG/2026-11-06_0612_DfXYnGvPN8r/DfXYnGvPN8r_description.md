@@ -38,3 +38,12 @@ One man built a complete practice around accelerating exactly that remembering â
 ðŸ’¬ Comment "I REMEMBER" if something in you has always known there was more to this than what you were told.
 
 #SpiritualAwakening #Consciousness #SoulPurpose #Manifestation #Awakening
+
+## Research
+
+* Verdict: Promo. Spiritual engagement-bait reel. The "remembering practice" is only in the creator's profile, probably a funnel to a paid offer or follow. The claim that souls agreed to forget is belief, not something you can check.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The post gives no URL or keyword. The "remembering practice" and the man who supposedly left it as his final wish are not named, so there is nothing public to search for. I did not search, in line with the early-stop rule for posts like this. The vault had no notes on it.

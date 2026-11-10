@@ -30,3 +30,23 @@ Open source: toyxyz/toyxyz_rgbmocap
 Follow for more open source project drops.
 
 #MotionCapture #3DAnimation #CharacterAnimation #IndieGameDev
+
+## Research
+
+* Verdict: Valid. The repo exists and matches the post: a native Windows app that runs video mocap locally, reduces foot sliding, retargets to characters and exports FBX/BVH. The post leaves out the heavy requirements: an NVIDIA GPU and about 78 GB of disk.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [toyxyz/toyxyz_rgbmocap (RGB MoCap) (github.com)](https://github.com/toyxyz/toyxyz_rgbmocap): repo, in the post, verified, high confidence. Opened the repo. It is a native Windows video mocap app with local AI, foot-sliding reduction, retargeting to Mixamo/VRM/PMX, and MIT-licensed code.
+
+### Key steps
+
+1. You need 64-bit Windows, an NVIDIA GPU with a current driver, OpenGL 4.3, and about 78 GB free disk.
+2. Install Git for Windows and clone the repo.
+3. Run install.cmd to set up the base runtimes.
+4. Run RGBMoCap.cmd and keep the console window open.
+5. Open Model Manager and prepare the model files. Some need account registration or a manual download.
+6. Optionally run Setup_MAMMA.cmd, Setup_PromptHMR.cmd, Setup_GEMX.cmd or Setup_SAM31.cmd for extra models.
+7. Use File > Open Video, optionally Find person, then click Reconstruct 3D.
+8. Fix foot and palm sliding, retarget to a Mixamo FBX, VRM or PMX character, then export FBX, BVH or VMD. Run update.cmd to update.

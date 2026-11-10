@@ -27,3 +27,18 @@ Written by claude-haiku-5-5.
 
 questions are meant to gain true understanding of someone else, use these to help do that.
 God Bless
+
+## Research
+
+* Verdict: Nothing to find. The post is a short list of conversation-question swaps, and the video gives all of them. There is no separate resource to look up.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in the vault
+
+* Vault: `ZAIHub/dating/search - dating tips - instagram saves.md`: Lists jordanpowery's Ford Framework reel (DdMZg5NTvMs) under conversation frameworks. It does not list this reel.
+
+### Already in IG saves
+
+* Similar: Web: [Open-ended questions for deeper conversations (instagram.com)](https://instagram.com/p/DZILLSePRHz/) (`DZILLSePRHz`). Open-ended questions for deeper conversations.
+* Similar: Web: [7 Questions That Start Real Connection (instagram.com)](https://instagram.com/p/Das_4C7DkVL/) (`Das_4C7DkVL`). A carousel of seven open-ended questions for moving past small talk.
+* Similar: Web: [Ford Framework: Moving Past Small Talk (instagram.com)](https://instagram.com/p/DdMZg5NTvMs/) (`DdMZg5NTvMs`). Same creator (jordanpowery). A whiteboard framework (Ford) for moving past small talk.

@@ -28,3 +28,16 @@ Written by claude-haiku-5-5.
 ## Caption
 
 Debunking the myth of Scorpio and S*x by explanining some of the history of how that came to be and comparisons with the Islamicate tradition of astrology
+
+## Research
+
+* Verdict: Partly valid. The Zodiac Man point and the 1882 date for "la petite mort" (orgasm sense) hold up. The wider claims are overstated: 1882 is only the first recorded use in the OED, and the Scorpio-sex link is stated without evidence.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [La petite mort (Wikipedia) (en.wikipedia.org)](https://en.wikipedia.org/wiki/La_petite_mort): page, found by search, not opened, medium confidence. Search results say it dates the orgasm sense of the phrase to 1882 per the OED, and that the earlier 1572 English use meant a fainting fit. I did not open the page.
+
+### Not found
+
+The post cites no source or link. I did not find the specific Persian Zodiac Man image. I did not open the OED entry. 1882 is the earliest recorded use of the phrase in that sense, not proof that the idea was invented then. The claim that the Scorpio-sex link comes from European astrology is the speaker's own view, and I found nothing to back it up.

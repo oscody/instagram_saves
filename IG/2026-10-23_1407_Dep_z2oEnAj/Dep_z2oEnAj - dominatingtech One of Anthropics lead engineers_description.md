@@ -37,3 +37,25 @@ You can apply this approach to research, writing, coding, business strategy, pla
 Save this prompt for the next time you want AI to deliver deeper, more professional results.
 
 #claude #anthropic #chatgpt #prompting #ai
+
+## Research
+
+* Verdict: Valid. The prompt is in Felix Rieseberg's public essay and matches the post word for word. The "lead engineer at Anthropic" label is the post's own wording, and I didn't check it.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [How to be more ambitious: a tutorial for humans with models (Felix Rieseberg) (felixrieseberg.com)](https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models): guide, found by search, verified, high confidence. Opened it. It contains the 'deeper version of this task, not a bigger one' prompt and the same four points as the post.
+
+### Already in the vault
+
+* Vault: `3. Resources/0. note idea draft/prompt - Felix Rieseberg’s advice.md`: The full depth prompt, saved verbatim.
+* Vault: `ZAIHub/Vault knowledge library/Deeper version of the information gathering system by claude.md`: A related note that the prompt note links to.
+
+### Already in IG saves
+
+* Same: Web: [Four kinds of ambition for AI prompting (instagram.com)](https://instagram.com/p/Dey0nCDJT8w/) (`Dey0nCDJT8w`). Same link: How to be more ambitious: a tutorial for humans with models (Felix Rieseberg).
+
+### Not found
+
+I did not check Rieseberg's job title at Anthropic. The essay's other sections (speed, altitude, range) were not read in full.

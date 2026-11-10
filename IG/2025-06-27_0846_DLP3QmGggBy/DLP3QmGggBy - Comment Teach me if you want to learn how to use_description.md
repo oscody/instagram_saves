@@ -32,3 +32,12 @@ Can’t make it live? No worries I’ll send you the replay. 🙏🏾
 Learning Ai Creative skills shouldn’t be an option in your business! 🧠⚡️
 
 I’m going to uncomplicate it and walk you through it step by step.
+
+## Research
+
+* Verdict: Partly valid. The post is mainly a promo for a paid live class. The one tip, describing a reference image as a prompt in ChatGPT and regenerating, is a real, ordinary technique. The "6x income" line is marketing, and the class has no public page.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The live class is sign-up by comment ("Teach me"). I did not search for a public page. The vault had no notes on it, and no saved post covered the same resource.

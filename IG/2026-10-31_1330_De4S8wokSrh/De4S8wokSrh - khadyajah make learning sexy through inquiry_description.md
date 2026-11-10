@@ -31,3 +31,20 @@ Written by claude-haiku-5-5.
 khadyajah make learning ✨sexy✨ through inquiry.
 
 #education #love #relationships #literacy
+
+## Research
+
+* Verdict: Promo. The carousel is a short tip set that ends by promoting the creator's paid "Love, Addressed" snail mail club. The question ideas are only in the post. The site confirms the club exists but doesn't mention flirting.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [khadyajah.com (Love, Addressed mail club) (khadyajah.com)](https://khadyajah.com): page, in the post, verified, medium confidence. The site lists the "Love, Addressed" monthly snail mail club and lectures on love and dating, which matches the post's closing pitch. It has no flirting or inquiry guide.
+
+### Already in the vault
+
+* Vault: `ZAIHub/dating/search - Hinge chats and IG saves review.md`: Summarises this post and its three questions, and suggests a softer version for asking what she's looking for. Also lists other dating-question saves.
+
+### Not found
+
+The mail club's pricing and sign-up details weren't checked. No public copy of the club's content exists beyond the site. I only searched the IG folder for the creator's name, and only this post's own note matched.

@@ -21,3 +21,8 @@ Written by claude-haiku-5-5.
 2. Skip "I can't stop thinking about you" and say: "You keep popping up in my thoughts. And honestly, it's getting pretty distracting." It shows she is on your mind without sounding needy and leaves her curious.
 3. Skip "I wish you were here with me" and say: "Imagine the kind of trouble we would get into if you were here with me right now." It sparks her imagination and lets her fill in the gaps.
 4. Skip "I miss you" and say: "You are really making it difficult for me to focus, and I think you know exactly why." It is playful and teasing, and lets her know she has your attention.
+
+## Research
+
+* Verdict: Nothing to find. This is a dating and texting tips reel. It has no repo, tool or document to find. The on-screen "paid sessions" text suggests the creator is promoting a paid service.
+* Checked: 2026-11-10 by claude-sonnet-5-5

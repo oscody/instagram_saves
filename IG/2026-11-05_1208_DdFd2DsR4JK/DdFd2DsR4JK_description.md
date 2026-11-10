@@ -25,3 +25,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 You can honestly talk about anything on a first date, but the key is the delivery. It’s not about what you say, but how you say it.
+
+## Research
+
+* Verdict: Nothing to find. The reel is a general dating tip with no linked resource. The whole framework is in the post: get to know each other, keep it fun and light or deep, pick topics like travel, hobbies and work, and focus on delivery. Nothing is sent by DM or comment.
+* Checked: 2026-11-10 by claude-sonnet-5-5

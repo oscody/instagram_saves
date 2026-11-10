@@ -18,3 +18,8 @@ Written by claude-haiku-5-5.
 ## Caption
 
 You gotta wait till they in their mid 30s #fyp #finefitfitness #tonifine #fitnessmotivationdaily #viral #fyp #motivaton
+
+## Research
+
+* Verdict: Nothing to find. This is a joke video that ranks men by hairline and age. It has no resource, and the claim is humor, not a checkable fact.
+* Checked: 2026-11-10 by claude-sonnet-5-5

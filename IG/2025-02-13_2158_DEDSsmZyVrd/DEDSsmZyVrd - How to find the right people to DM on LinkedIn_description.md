@@ -50,3 +50,16 @@ You’ll get a list of potential hiring managers that you already may know of sh
 💾 SAVE this post if you’re currently looking for your dream job!
 
 🏷️ LinkedIn profile, LinkedIn job search, LinkedIn bio, job search, job search tips, job applications
+
+## Research
+
+* Verdict: Valid. The post is a self-contained how-to using standard LinkedIn features (company People tab, My Network search with filters). There is no outside resource to download.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [Four Claude prompts for resume and job search (instagram.com)](https://instagram.com/p/DYA2Q5FDUZD/) (`DYA2Q5FDUZD`). Also finds recruiters and hiring managers to connect with on LinkedIn, using a Claude prompt instead of manual search, and drafts the outreach message.
+
+### Not found
+
+I did not check the LinkedIn UI, so I can't confirm the tab names and filters are unchanged. The vault's keyword hits were unrelated career-coaching notes, and I did not open them. The on-screen message templates are garbled in the OCR, so the post's own summary is the best version of them.

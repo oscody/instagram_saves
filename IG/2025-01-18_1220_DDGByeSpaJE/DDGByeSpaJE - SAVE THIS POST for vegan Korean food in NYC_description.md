@@ -33,3 +33,16 @@ Highly recommend checking this place out if you’re looking for a dining spot i
 (located on the 3rd floor of the building & can only be accessed by stairs)
 
 #nycvegan #nycveganeats #vegannyc #newyorkcity #nyceats #vegansofig #vegansofinstagram #nycblogger #vegan #plantbased #plantbasednyc #newyorknewyork #newyorklocals #newyork_instagram #newyork_ig #nycfoodie #veganfoodie #koreatown
+
+## Research
+
+* Verdict: Partly valid. Anytime Kitchen is real at 23 W 32nd St, 3rd floor, and has the vegan dishes shown. The "ALL VEGAN menu" claim is wrong: HappyCow says it serves meat and has a vegan section.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Anytime Kitchen (HappyCow listing) (stats.happycow.net)](https://stats.happycow.net/reviews/anytime-kitchen-new-york-city-451060): page, found by search, verified, high confidence. Lists the same address, 3rd floor, and vegan japchae, meat BBQ, edamame and dumplings, but says it also serves meat.
+
+### Not found
+
+The restaurant's own site (anytimenyc.com appeared in search listings) was not opened. Hours differ between listings, so check before going.

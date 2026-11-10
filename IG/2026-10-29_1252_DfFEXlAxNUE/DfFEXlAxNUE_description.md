@@ -22,3 +22,16 @@ On today’s episode of @earnyourleisure we have tech entrepreneur and founder o
 He breaks down how he built TextNow into a billion-dollar business with over 10 million active users, disrupting the telecom industry with free mobile phone service, acquiring his first million users through word of mouth, turning $8,000 into $80,000 through stock investing, the future of AI, and much more! 📲🌟
 
 Premiering today at 12 PM EST on @earnyourleisure YouTube & all podcast outlets.
+
+## Research
+
+* Verdict: Nothing to find. This is a podcast teaser. The full Earn Your Leisure episode with Derek Ting is the only resource, and a search didn't turn up a public link to it. The unlock-law remark is real but incidental, and I didn't check it.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Finding Founders #231: Derek Ting (TextNow) (findingfounders.co)](https://findingfounders.co/episodes/derekting): page, found by search, not opened, low confidence. A different podcast interview with the same founder. It turned up in search results and I didn't open it. It is not the Earn Your Leisure episode.
+
+### Not found
+
+I couldn't find the Earn Your Leisure episode with Derek Ting on YouTube or podcast platforms. Search it on the Earn Your Leisure YouTube channel. I didn't check the claims about phone bills ($44 in 2006 versus $120–140 now) or the phone-unlock law.

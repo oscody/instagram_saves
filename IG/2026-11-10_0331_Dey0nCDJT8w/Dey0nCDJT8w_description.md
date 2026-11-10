@@ -38,3 +38,25 @@ an engineer who works on Claude at Anthropic says most of us ask AI for way too 
 4. range: pull in other fields
 
 #claude #claudeai #anthropic #aitips #aiskills
+
+## Research
+
+* Verdict: Valid. The article is public on Felix Rieseberg's site and matches the post's four types and depth prompt. The comment-for-DM gate is unnecessary, though the creator's own "new prompt" combining all four ideas is only sent by DM. The post's own steps already cover the idea, and the article adds extra techniques.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [How to be more ambitious: a tutorial for humans with models (Felix Rieseberg) (felixrieseberg.com)](https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models): guide, found by search, verified, high confidence. Opened it: it covers speed, altitude, depth and range, and the depth prompt matches the on-screen text ("Then rewrite my prompt to ask for exactly that").
+
+### Key steps
+
+1. Speed: use AI to do the same work in less time (the article treats this as well established).
+2. Altitude: ask for the outcome, not the single task. Example: instead of "fix this crash", ask it to keep the apps crash-free.
+3. Depth prompt: "I want a deeper version of this task, not a bigger one. Before rewriting it: (1) say what a top professional in this field would do here that I'm not asking for; (2) name the rawest material they would start from instead of what has already been digested for me; (3) name the specific methods and tools they would use; (4) say what, other than you or me, would show the result is right. Then rewrite my prompt to ask for exactly that."
+4. Depth techniques: use the same instruments as the best in the field, set ambitious goals and say they are reasonable, challenge what you know using raw data, look for blind spots, and use an outside judge instead of letting the model grade itself.
+5. Range: replace nouns with verbs (reframe the task by what it requires people to do), and ask the model to "assemble the crew" of roles a strong team would have, such as an adversarial reviewer.
+6. Pick one current task and ask whether you could aim higher, go deeper, or bring in another perspective.
+
+### Not found
+
+The creator's own combined four-idea prompt is only sent by DM after commenting \"ambition\", and I found no public copy. The creator's identity is not recorded in the note.

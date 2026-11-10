@@ -22,3 +22,8 @@ In his mind, a little snack is all it takes to win her attention! 😂😂
 🎥: Me and Mi Kru (TV Series, 2010) watch on Pavilion+
 
 Join the Pavilion+ WhatsApp Channel 🩵
+
+## Research
+
+* Verdict: Nothing to find. This is a comedy clip from the TV series "Me and Mi Kru" (2010), posted by Pavilion+ to promote the show. It has no resource or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

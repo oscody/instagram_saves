@@ -92,3 +92,35 @@ Prompt:
 Conduct a technical mock interview for the [Job Role]. I am applying for this position. Ask me 15 questions related to [Specific Field/Technology], one after the other, gauging my expertise.
 
 #ai #chatgpt #aitools #opena
+
+## Research
+
+* Verdict: Valid. The post's caption holds all eight prompts in full, so nothing else is needed to use them. They are ordinary ChatGPT templates. The "land your dream job in 30 days" line is hype.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [8 ChatGPT job-search prompts (caption of the post) (instagram.com)](https://instagram.com/p/DIqyPuhyuLa/): prompt, in the post, verified, high confidence. The caption gives the full text of all eight prompts, matching the slides.
+
+### Already in the vault
+
+* Vault: `4. Archives/AI/Learning - AI Prompt Engineering.md`: Only lists the creator's Instagram profile (artificialzone) as a follow link. It has none of the prompts.
+
+### Already in IG saves
+
+* Similar: Web: [Claude prompts for resume matching and interview prep (instagram.com)](https://instagram.com/p/DF_vQvbg_P7/) (`DF_vQvbg_P7`). Claude prompts to tailor a resume to a job description and prepare for an interview.
+* Similar: Web: [Five LLM prompts for job searching (instagram.com)](https://instagram.com/p/DUyJ4sNGU4s/) (`DUyJ4sNGU4s`). Five ChatGPT-style job-search prompts covering resume, cover letter, LinkedIn and interview prep.
+* Similar: Web: [7 Claude prompts for learning anything free (instagram.com)](https://instagram.com/p/DWwLNehlmoy/) (`DWwLNehlmoy`). Includes an interview-question prompt built from a job description.
+* Similar: Web: [Four Claude prompts for resume and job search (instagram.com)](https://instagram.com/p/DYA2Q5FDUZD/) (`DYA2Q5FDUZD`). Claude prompts for resume review, fit check, LinkedIn networking and a resume plus cover letter.
+* Similar: Web: [Dossier: free open-source AI job search tool (instagram.com)](https://instagram.com/p/DfAYKU-EwIK/) (`DfAYKU-EwIK`). Dossier, an open-source tool for tailored resumes and cover letters.
+
+### Key steps
+
+1. Open ChatGPT and paste the job description into the prompt.
+2. Cover letter: "Write a cover letter for the role of [Title] at [Company], emphasizing my experience in [Field]. Mention how my contributions at [Previous Company] align with the job requirements: <job description>."
+3. LinkedIn: ask for a connection message to a professional at [Company] about the [Title] role and how your background fits.
+4. Fit check: give the job description and your skills, and ask whether they match and for a mismatch percentage.
+5. Update resume: paste the job description and your current resume, and ask it to focus on the relevant skills.
+6. Interview prep: ask for [number] interview questions based on the job description.
+7. Mock interview: "Conduct a technical mock interview for [Job Role]. Ask me 15 questions related to [Field], one after the other."
+8. Check every output for invented facts before you send it. Use only true details about yourself.

@@ -30,3 +30,12 @@ Watch full Season 2 Episode #22 of the Jamal Bryant Podcast "Let's Be Clear". Li
 #podcast #jamalbryantpodcast #explorepage #reels #jamalhbryant #letsbeclear #jamalbryant #jamalbryantpod #drtartt #DrAlduanTartt #psychologist #couples #relationships #marriages #advice #relationshipadvice 
 
 @jamalhbryant @drtartt
+
+## Research
+
+* Verdict: Nothing to find. This is a short advice clip from a podcast, with no tool, repo or guide to find. The caption only points to the full episode through a link in bio.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+I did not look for the full episode (Jamal Bryant Podcast "Let's Be Clear", Season 2 Episode 22). The clip is opinion-based advice and has no checkable claim.

@@ -22,3 +22,8 @@ Tell Dem Come Run UP💥💥💥💥
 Don’t forget to check out the YouTube channel link in bio subscribe like and share.
 
 #kingramseysound #dancehalldaily #kingramseyfoundation #uksoundsystem #soundclash #soundsystem #soundclashculture #dancehallculture #soundclashfraternity #reggae #reggaemusic #jamaica #dancehall #dancehallmusic #dubshowcase #dancehallparty #brooklynbadsound #warsound #soundwar #buildyoursound #killasound #soundkilla #soundkillers #soundman #dubplate #dubplates  #reggaedancehall #dancehallreggae #championsound #datisit
+
+## Research
+
+* Verdict: Nothing to find. This is an entertainment and promo reel from a sound system account. It shows two men playing a board game and has no tool, guide or resource to look up.
+* Checked: 2026-11-10 by claude-sonnet-5-5

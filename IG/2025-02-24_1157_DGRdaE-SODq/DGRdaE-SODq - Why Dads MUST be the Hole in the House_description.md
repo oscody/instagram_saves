@@ -30,3 +30,12 @@ Why Dads MUST be the ***Hole in the House
 @jeff.fargo @dadpodlv 
 
 #dad #dadlife #parenting #parentingtips #dadpodlv
+
+## Research
+
+* Verdict: Nothing to find. This is a personal parenting opinion clip from a podcast (Dad Pod LV with Jeff Fargo). It has no resource, tool or checkable claim.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+No search done. The post is a personal viewpoint clip, so there is nothing to look up.

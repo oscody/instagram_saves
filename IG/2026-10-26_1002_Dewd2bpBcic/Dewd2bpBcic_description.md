@@ -38,3 +38,27 @@ Here’s what’s in the free demo:
 🔔 Follow @PulseLockGaming for daily gaming tech breakdowns, fan game audits, and hidden gems you can play right now!
 
 #Pokemon #PokemonFanGame #PokemonBattleAdvanced #IndieGameDev #GodotEngine HD2D PokemonFireRed GamingReels PulseLock BrowserGame RetroGaming GamingCommunity PokemonCommunity GameDev Itchio
+
+## Research
+
+* Verdict: Valid. The game exists as a free public itch.io page, so the comment-for-link gate is unnecessary. The claims match the page; the "no ROM" line is loose, since it is a FireRed-based fan remake.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Pokemon Battle Advanced (itch.io, v0.3.3) by The Daigan (thedaigan.itch.io)](https://thedaigan.itch.io/pba): product, found by search, verified, high confidence. Opened the page: free HD-2D real-time FireRed remake, Pallet Town to Boulder Badge, with HTML5, Windows, macOS and Linux builds.
+* [Held Games guide: Pokémon Battle Advanced (heldgames.com)](https://heldgames.com/guides/pokemon-battle-advanced): guide, found by search, verified, medium confidence. Opened it: it lists controls, platforms and demo scope that match the itch.io page.
+
+### Key steps
+
+1. Open https://thedaigan.itch.io/pba. The price is name-your-own, so $0 works.
+2. Play in the browser (Chrome or Firefox; Safari has WebGL issues) or download the Windows or macOS build. The native builds run better. A Linux zip is also listed.
+3. Keyboard: arrows to move, Shift to run, E to talk, Esc for the menu.
+4. In battle: W/A/S/D use the four moves and Q jumps. Hold Z plus a move key for quick items.
+5. Keys 1–6 send out or recall party members. Hold one to bring in a second fighter for tag-team.
+6. Gamepad is supported. On touch devices, turn on OPTIONS → TOUCH CONTROLS.
+7. The demo runs from the Pallet Town bedroom to Brock in Pewter City. It is a prototype and performance can be rough.
+
+### Not found
+
+The vault note hits were only generic itch.io mentions and have nothing on this game. No other saved posts cover it.

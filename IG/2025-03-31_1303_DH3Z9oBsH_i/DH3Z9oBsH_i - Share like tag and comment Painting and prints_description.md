@@ -20,3 +20,12 @@ Written by claude-haiku-5-5.
 Share, like, tag and comment. Painting and prints available in the website at the top of the page.
 
 #art #explore #painting #creative
+
+## Research
+
+* Verdict: Nothing to find. The reel is an artist asking for shares and likes, with a generic pointer to their website for paintings and prints. It has no specific resource, claim or how-to.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Not found
+
+The artist's website URL is not in the post text. I did not search, because the post is self-promotion with nothing to look up.

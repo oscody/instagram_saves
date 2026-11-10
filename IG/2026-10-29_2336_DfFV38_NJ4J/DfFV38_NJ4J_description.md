@@ -21,3 +21,8 @@ The perfect shoes for any occasion @stevemaddensa |
 Weekday Vs Weekend ??
 
 #menwithclass #dappermen #casualstyle #stevemaddenshoes #explore
+
+## Research
+
+* Verdict: Nothing to find. This is a men's fashion reel that shows a weekday outfit and a weekend outfit, tagged as Steve Madden shoes. It has no guide, tool or claim to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

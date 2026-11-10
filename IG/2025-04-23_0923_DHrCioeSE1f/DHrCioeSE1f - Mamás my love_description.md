@@ -22,3 +22,8 @@ Mamás>>> my love
 •
 •
 •#latina #reels #explorepage
+
+## Research
+
+* Verdict: Nothing to find. Entertainment/opinion reel about Spanish versus English pet names. It links to no resource, and the claim is a personal preference, not something to check.
+* Checked: 2026-11-10 by claude-sonnet-5-5

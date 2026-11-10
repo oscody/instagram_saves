@@ -54,3 +54,18 @@ Want more secret ChatGPT prompts to unlock its full power?👇
 
 Hashtags:
 #ChatGPTHacks #AIExpert #ProductivityBoost #EntrepreneurMindset #ChatGPTforBusiness #GrowthHacking #SideHustle #ContentCreation #MakeMoneyOnline #AIMastery
+
+## Research
+
+* Verdict: Partly valid. The seven prompts are fully in the caption and work as ordinary role-prompts. There is no hidden "expert mode", and the "Toolkit" prompt pack is only sent after a comment, so it's a lead-gen hook.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Paste a prompt into ChatGPT and replace bracketed parts such as [your niche] with your own details.
+2. Add specifics the prompts lack: your audience, offer, tone and constraints. Without them the output is generic.
+3. The 'exclusive' Toolkit is sent only after commenting 'Toolkit' and no public copy was found.
+
+### Not found
+
+The "Toolkit" prompt pack is delivered by comment or DM and has no public copy. I did not search the web, because the full prompt text is already in the caption.

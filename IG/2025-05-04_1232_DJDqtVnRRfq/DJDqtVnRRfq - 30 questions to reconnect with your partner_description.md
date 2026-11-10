@@ -97,3 +97,8 @@ Save this. Share it with your partner. Reconnect on purpose.
 Follow @iambigkens for more real & honest relationship content.
 
 #vitalmen #relationshipgoals #emotionalintimacy #blacklovematters #ConsciousCouples
+
+## Research
+
+* Verdict: Nothing to find. The post is a list of 30 relationship conversation prompts. The full list is in the caption, so there's no outside resource to find. The claim that the questions deepen connection is a general advice claim and can't be checked.
+* Checked: 2026-11-10 by claude-sonnet-5-5

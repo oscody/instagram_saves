@@ -48,3 +48,20 @@ I’m not vegan, but I’d come back for that roti ALONE! 😍
 📍 Healthy As A Motha | NYC
 
 #HealthyAsAMotha #NYCFoodie #VeganNYC #CaribbeanFood #NYCEats MomentsAfterDark
+
+## Research
+
+* Verdict: Promo. This is a restaurant review that ends with a comment-for-deals offer. The restaurant is real, and the deals link is only sent by DM after a comment.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Healthy As A Motha (HAAM) – Caribbean plant cuisine, Williamsburg, Brooklyn (patch.com)](https://patch.com/new-york/brooklyn/healthy-motha-vegan-caribbean-restaurant-opens-brooklyn): page, found by search, not opened, medium confidence. Search results describe a 100% plant-based Caribbean restaurant at 234 Union Ave, with empanadas and curry chick'n on the menu. I did not open the page.
+
+### Already in IG saves
+
+* Same: Web: [Vegan Caribbean restaurant in Williamsburg, Brooklyn (instagram.com)](https://instagram.com/p/DfDPvJovLkz/) (`DfDPvJovLkz`). Another saved post about a meal at Healthy As A Motha in Williamsburg.
+
+### Not found
+
+The "BITE" deals link is only sent by DM after a comment, and I found no public copy. I did not open any search result, so the restaurant details come from search snippets only. I did not check the claim that every dish is vegan, such as the jerk "salmon" and the "chicken" roti. Search results do describe the restaurant as 100% plant-based.

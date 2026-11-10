@@ -28,3 +28,17 @@ Written by claude-haiku-5-5.
 ## Caption
 
 subconsciousthinkers If you keep asking the Universe for a sign and you still feel stuck as the same old you, comment RESET and I will send you the free 7-Day Subconscious Reset. In 1957, a young scientist named Hugh Everett had a wild idea. Every time something could go two ways, it goes both ways. A new world. A new you. No one has proven it. But here is the part nobody says out loud. You do not need another world to meet the version of you who already made it. That version is one choice away. One small step, today. The hard part is your old mind. It keeps pulling you back to the same fears, the same doubts, the same loop. That is why I built the 7-Day Subconscious Reset on my hardest year. Seven days, one small shift a day, so your mind starts acting like the you who already figured it out. I am quietly proud of this one. It is free and it is yours.
+
+## Research
+
+* Verdict: Promo. The post is a lead magnet. The free 7-Day Subconscious Reset is only sent after you comment RESET, and I found no public copy. The many-worlds link to "other versions of you" is a metaphor, and the post itself says it is unproven.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Key steps
+
+1. Checked the vault and your other saved posts for the creator and the Subconscious Reset: nothing found.
+2. The post's own tips: ask "What would the me who already figured this out do?", say the closing-eyes affirmation, then do one small action that matches that version of you.
+
+### Not found
+
+The 7-Day Subconscious Reset content is delivered only after commenting RESET (likely by DM). I did not search the web for a public copy.

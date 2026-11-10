@@ -56,3 +56,19 @@ Want all these in your DMs? Write “prompts” and I’ll send them over 🤝�
 
 Cheering for your BIG WINS 
 Vardaan and Team UKJI🤍🫂
+
+## Research
+
+* Verdict: Valid. The four prompts are written out in full in the caption, so nothing needs a DM. They are ordinary ChatGPT prompts. They will help, but no ATS pass is guaranteed.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Four ChatGPT CV prompts (post caption) (instagram.com)](https://instagram.com/reel/DK7NCqytMW1/): prompt, in the post, verified, high confidence. The caption contains the full text of the skills section, keyword, professional summary and CV review prompts.
+
+### Key steps
+
+1. Skills: paste the job description into 'Draft a highly optimised skills section… Functional Competencies and Technical tools… don't miss any ATS keyword', then ask for a short list separated by vertical bars.
+2. Keywords: paste the job description and ask for the top 15 keywords in priority order for the CV to pass the ATS scan. Work them into your CV where they make sense.
+3. Summary: ask for a 3-line, achievement-oriented professional summary, with evidence in each line. Paste your work experience.
+4. Review: ask ChatGPT to act as a career coach and recruitment expert with 10+ years in your industry. Have it review the CV line by line for impact and clarity, relevance to the role, ATS optimisation, and grammar and formatting. Ask for better wording and examples, then paste your CV.

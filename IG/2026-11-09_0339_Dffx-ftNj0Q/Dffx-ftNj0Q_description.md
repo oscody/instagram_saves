@@ -43,3 +43,32 @@ Anthropic laid out 4 ways to keep Claude Code working on its own:
 start with one task you’re tired of checking on. give it a clear finish line and a limit on how long to keep trying.
 
 #claudecode #aiagents #aiautomation #claudeai #aitools
+
+## Research
+
+* Verdict: Valid. Anthropic's "Getting started with loops" article describes exactly these four loop types, and the vault already holds a rebuilt step-by-step guide.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Loop engineering: Getting started with loops (Anthropic) (claude.com)](https://claude.com/blog/getting-started-with-loops): guide, in the vault, verified, high confidence. Opened it; it covers turn-based, goal-based (/goal with Lighthouse 90, 5 tries), time-based (/loop) and proactive (/schedule) loops, as in the reel.
+* [anthropics/cwc-long-running-agents (github.com)](https://github.com/anthropics/cwc-long-running-agents): repo, in the vault, not opened, medium confidence. Linked in the vault note as a related harness; not opened.
+
+### Already in the vault
+
+* Vault: `ZAIHub/claude - Four ways to keep Claude Code working 2026-11-10.md`: Full step-by-step setup for all four loop types, rebuilt from Anthropic's article and docs (/goal, /loop, routines).
+* Vault: `3. Resources/0. Daily/2026-11-09.md`: Daily note linking the reel, the article, the cwc-long-running-agents repo and the guide.
+
+### Key steps
+
+1. Turn-based: write a specific prompt. Add a verification skill (SKILL.md) so Claude can check its own work, for example by starting the dev server and checking the browser console.
+2. Goal-based: type `/goal get the homepage Lighthouse score to 90 or above, stop after 5 tries.` Run `/goal` with no arguments to see turns and token use.
+3. Time-based: `/loop 5m check my PR, address review comments, and fix failing CI` re-runs a prompt on an interval on your computer. It stops if you shut the machine off.
+4. Time-based in the cloud: use `/schedule` to move the loop to a cloud routine.
+5. Proactive: use `/schedule` with a prompt that combines a schedule, a `/goal` and a workflow, such as handling bug reports. Dynamic workflows (research preview) can coordinate several agents.
+6. Turn on auto mode so the routine doesn't pause for permission.
+7. Send routine work to smaller, faster models. Keep the most capable model for judgment calls.
+
+### Not found
+
+The comment-only \"autopilot\" guide has no public copy, but Anthropic's article covers the same content. I didn't open the docs pages or the GitHub repo. I did a quick check of other saved posts but didn't confirm any as the same or similar.

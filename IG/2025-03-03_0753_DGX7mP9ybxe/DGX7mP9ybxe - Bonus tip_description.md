@@ -30,3 +30,25 @@ Use an eSIM to make your #android steal-proof.
 There are ways to keep your android phone safe from being stolen and also be able to track it with some possibility of locating it. 
 
 #tipsandtricks #samsung #stolen #oneplus #xiaomi #motorola
+
+## Research
+
+* Verdict: Partly valid. The settings exist and match Google's docs, but "no one can steal your phone" is overstated. Menu names vary by brand and Android version, and Google renamed Find My Device to Find Hub. Offline finding needs a screen lock and works best on supported hardware.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Google: Be ready to find a lost Android device (Find Hub / Find My Device) (support.google.com)](https://support.google.com/android/answer/3265955?hl=en): guide, found by search, verified, high confidence. Official page lists the offline-finding options (including the 'with network' everywhere option) and how to turn on Find Hub. It says nothing about SIM removal.
+
+### Key steps
+
+1. Settings > Security and privacy > More security settings: turn on Require password to power off (menu name varies; Samsung has it on by default).
+2. Settings > Notifications > Quick settings (or lock screen settings): stop quick settings from showing on the lock screen.
+3. Settings > Security (or Google > All services) > Find Hub / Find My Device: turn on Allow device to be located, and keep Location on.
+4. Open Find your offline devices and choose 'With network everywhere' (older label: 'With network in all areas').
+5. Set a screen lock (PIN, pattern or password). Google says the network only helps locate the device if one is set.
+6. Keep Bluetooth and Location on, so the phone can still be located for a few hours after power-off on supported devices such as the Pixel 8.
+
+### Not found
+
+The Google page doesn't say that removing the SIM leaves the phone trackable. It only says the Find Hub network can locate offline devices. The reel's 'Require password to power off' and 'no quick settings on lock screen' options are OEM-specific and I didn't check them against any source.

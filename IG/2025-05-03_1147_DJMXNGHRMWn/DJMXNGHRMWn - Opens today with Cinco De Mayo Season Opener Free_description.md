@@ -22,3 +22,16 @@ Opens today with Cinco De Mayo Season Opener 🏖️ Free limited RSVP + $32 VIP
 🏃‍♀️ Express admission
 🎫 Access to VIP bar
 Who’s ready for ping pong, giant jenga, giant connect 4, music, live DJ’s, and more on the water #NYbucketlist #nyc
+
+## Research
+
+* Verdict: Promo. This is a ticket promo from NY Bucket List for the 2025 season opener at Pier 15 (Watermark Beach). The event was real, and the Bucket Listers $32 cocktail pass matches the post. That event is long past (the 2025 season ended in August).
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Resources
+
+* [Bucket Listers – Pier 15 cocktail pass (bucketlisters.com)](https://bucketlisters.com/experience/pier-15-cocktail-pass): product, found by search, not opened, medium confidence. Search result for a VIP 2-hour open bar cocktail pass from about $32 at Pier 15, which matches the post's $32 VIP offer. I did not open the page.
+
+### Not found
+
+I did not open the ticket page, and I found no 2025-dated listing. The search showed a 2026 opener listing (Ma.to) with the same free RSVP and $32 pass structure. Current availability is unchecked.

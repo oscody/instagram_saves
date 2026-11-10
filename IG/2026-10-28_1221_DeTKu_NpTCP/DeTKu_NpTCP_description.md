@@ -61,3 +61,17 @@ The better you understand how waves break, the easier it becomes to recognise wh
 Save this for your next surf session.
 
 #surfing #surftips #learnsurfing #surfeducation #balisurf
+
+## Research
+
+* Verdict: Valid. This is a general surf-education post with no downloadable resource. The wave terms match standard surfing usage, so the claim holds.
+* Checked: 2026-11-10 by claude-sonnet-5-5
+
+### Already in IG saves
+
+* Similar: Web: [How to duck dive under breaking waves (instagram.com)](https://instagram.com/p/DesgD_1ytdF/) (`DesgD_1ytdF`). Another beginner surf tip reel, about duck diving under whitewater.
+* Similar: Web: [Free live surf training workshop invitation (instagram.com)](https://instagram.com/p/DewyZLCgyCJ/) (`DewyZLCgyCJ`). Surf coaching post from surfwithruben, a different creator giving surfer advice.
+
+### Not found
+
+No external resource exists. I did no web search. I checked the definitions against general surf knowledge only. I saw the two similar saved posts in grep results but did not open them.
