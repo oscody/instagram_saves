@@ -3058,15 +3058,92 @@
   "note": "2026-10-08_0933_DeKzq8Ak7v_/DeKzq8Ak7v_ - dominatingtech Finding every photo of yourself_description.md"
  },
  "DeJ8u0YCJCE": {
-  "verdict": "unresolved",
-  "verdict_reason": "I found no public page, repo or download for fominyu's video mocap tool. The post gives no link, and the claims (local, drag-and-drop, 1–2 cameras, fingers) can't be checked beyond the reel.",
-  "resources": [],
-  "vault_notes": [],
-  "steps": [],
-  "not_found": "The tool's download or project page. Two web searches for \"fominyu\" returned nothing relevant, and the vault has no mention. The creator's Instagram profile (@fominyu) bio may link to it, but I couldn't open it. It may be unreleased and only a work-in-progress demo, since the caption asks for support for future updates.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.045114499999999995,
-  "checked_at": "2026-10-22",
+  "verdict": "valid",
+  "verdict_reason": "The tool is Motivox Capture by Yuriy Fomin (@fominyu). His LinkedIn describes it as a local, markerless video mocap tool inside Maya, and a later post says it is now in Early Access. The post's claims match those descriptions, but I couldn't read the price or version on the Gumroad pages.",
+  "resources": [
+   {
+    "name": "Motivox Capture (Gumroad product page)",
+    "url": "https://motivox.gumroad.com/l/motivox_capture",
+    "kind": "product",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "high",
+    "evidence": "The creator's LinkedIn post announcing Motivox Capture Early Access links here through lnkd.in/eut5QwVZ, which I followed. Only the title 'Motivox Capture' loaded, so I couldn't check the contents."
+   },
+   {
+    "name": "Motivox Capture System Check (free)",
+    "url": "https://motivox.gumroad.com/l/MotivoxCaptureSystemCheck",
+    "kind": "tool",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "The creator's LinkedIn links here through lnkd.in/enFhXpXi as a free check of whether your PC can run the tool. Only the page title loaded."
+   },
+   {
+    "name": "Yuriy Fomin LinkedIn (creator profile)",
+    "url": "https://uk.linkedin.com/in/yufo",
+    "kind": "page",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "I opened it. It lists instagram.com/fominyu as his website and has posts on a local markerless mocap tool working directly in Maya (WHAM/GVHMR solvers) and the Motivox Capture Early Access release."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/Vault knowledge library/IG dead ends - other.md",
+    "covers": "Only this post's dead-end entry from the earlier pass. No link or steps."
+   }
+  ],
+  "ig_posts": [
+   {
+    "shortcode": "DZiMW8cz_Jf",
+    "relation": "similar",
+    "why": "P.I.N.O.C is another tool that turns video into animation, but it is upload-based."
+   },
+   {
+    "shortcode": "Dc8cexPGcVa",
+    "relation": "similar",
+    "why": "GVHMR, one of the models Fomin said he uses, does free 3D mocap from video."
+   },
+   {
+    "shortcode": "DcNOMyTCXmO",
+    "relation": "similar",
+    "why": "mixamo-llm-mocap turns video into Mixamo rig animation with GVHMR, including two-person scenes."
+   },
+   {
+    "shortcode": "DcnIzp_GQ9d",
+    "relation": "similar",
+    "why": "EasyMocap does markerless body, hand and face mocap from RGB video, with one or more cameras."
+   },
+   {
+    "shortcode": "DdyQEqMGb2U",
+    "relation": "similar",
+    "why": "FreeMoCap is an open-source tool that does markerless 3D mocap from webcams on your own machine."
+   },
+   {
+    "shortcode": "DeaOQ2bD9Zl",
+    "relation": "similar",
+    "why": "Motion2MixamoRig animates 3D characters from video."
+   },
+   {
+    "shortcode": "DfBOLz3ClL6",
+    "relation": "similar",
+    "why": "RGB MoCap is a Windows app that turns ordinary video into 3D animation with local AI."
+   }
+  ],
+  "steps": [
+   "Run the free Motivox Capture System Check (motivox.gumroad.com/l/MotivoxCaptureSystemCheck) to see if your PC can run it. It needs an NVIDIA GPU, and RTX 50-series cards are not yet supported.",
+   "Get Motivox Capture (Early Access) from motivox.gumroad.com/l/motivox_capture.",
+   "Record your shot with a phone, using 1 or 2 camera views. Static cameras work best; the creator says a moving camera lowers accuracy.",
+   "In Maya, drag the video files into the tool and press solve. Processing takes a few minutes, depending on clip length.",
+   "The result is a skeleton or body animation in Maya (UE5 Mannequin), with fingers and camera position tracked."
+  ],
+  "not_found": "The Gumroad pages only loaded their titles, so I couldn't confirm the price, version, install steps, or whether the tool is the same v0.6 build shown in the reel. None of the 12 frames shows a tool name.",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.5541503000000001,
+  "deep": true,
+  "checked_at": "2026-11-10",
   "note": "2026-10-08_0933_DeJ8u0YCJCE/DeJ8u0YCJCE_description.md"
  },
  "DeOuSexvQGu": {
@@ -4776,15 +4853,60 @@
   "note": "2026-10-01_1217_DdxhFHTR8cm/DdxhFHTR8cm - Comment GAMES to get all the links so you can_description.md"
  },
  "Dd3rvh8sgln": {
-  "verdict": "unresolved",
-  "verdict_reason": "The post never names the \"special emulator\". My searches found no public guide or tool for ripping whole PS1 levels. The claim is plausible, since people do capture emulator geometry, but I couldn't confirm it.",
-  "resources": [],
-  "vault_notes": [],
-  "steps": [],
-  "not_found": "The emulator or tool the creator used (rosamichael.digital doesn't name it in the caption or the description). I didn't open the creator's profile, so the name may be in comments or a pinned post. I didn't verify any ripping tool. Ninja Ripper and RenderDoc are only guesses at the kind of tool involved. Any ripped Tekken 3, Hercules or Crash assets are copyrighted.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.05270419999999999,
-  "checked_at": "2026-10-22",
+  "verdict": "partly_valid",
+  "verdict_reason": "The 'special emulator' is very likely scurest's DuckStation 3D-screenshot fork, which the same creator named in an earlier reel. The tool exists and does rip PS1 scenes into Blender, but it captures only the geometry in view at that moment, not the whole level file, and this reel never names it.",
+  "resources": [
+   {
+    "name": "scurest/duckstation-3D-Screenshot",
+    "url": "https://github.com/scurest/duckstation-3D-Screenshot",
+    "kind": "repo",
+    "found_via": "vault",
+    "verified": true,
+    "confidence": "medium",
+    "evidence": "The same creator's earlier reel DbqLB-zMoJR names 'duckstation with the 3D screenshot … on github', and this fork ('3D screenshots in DuckStation', topic model-ripper) is listed in the vault. In this reel, frame 5 shows a Blender object named 'shot_2026-09-23_22-22-42-394.001' with hash-named textures, which looks like an imported 3D capture."
+   },
+   {
+    "name": "VG Resource thread on ripping PS1 scenes with the DuckStation 3D screenshot build",
+    "url": "https://www.vg-resource.com/printthread.php?tid=36815",
+    "kind": "guide",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "low",
+    "evidence": "The search summary says it covers saving 3D screenshots to a screenshots_3d folder and cleaning up the capture in Blender. I didn't open it."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/ig repo to review.md",
+    "covers": "Lists the scurest/duckstation-3D-Screenshot GitHub link twice, with no steps."
+   },
+   {
+    "path": "ZAIHub/Vault knowledge library/deadends/IG dead ends - other.md",
+    "covers": "Logs this post (Dd3rvh8sgln) as a dead end, with the emulator not identified."
+   }
+  ],
+  "ig_posts": [
+   {
+    "shortcode": "DbqLB-zMoJR",
+    "relation": "same",
+    "why": "Same link: scurest/duckstation-3D-Screenshot."
+   }
+  ],
+  "steps": [
+   "Open github.com/scurest/duckstation-3D-Screenshot and switch to the feature/3d-screenshot branch.",
+   "Build it from source using upstream DuckStation's build instructions, since the fork has no releases.",
+   "Load the PS1 game with your own disc image and set Texture Mode to Full (as shown in the creator's earlier reel).",
+   "At the spot you want, take a 3D screenshot. It saves an .obj with textures to the screenshots_3D folder under DuckStation's screenshots folder.",
+   "Take several captures from different spots if you want more of the level, since each one only grabs the geometry in view.",
+   "Import the .obj files into Blender, line them up and delete stray geometry.",
+   "Film yourself against a green or yellow screen, key out the background, and put the footage on a plane in the Blender scene.",
+   "Render, then add a CRT/VHS look in compositing if you want."
+  ],
+  "not_found": "This reel never names the tool, and none of the 12 frames shows an emulator name, window title or URL. The link to the DuckStation fork comes from the same creator's earlier reel DbqLB-zMoJR. I didn't check the comments, and his Instagram bio (which links to rosamichael.com) doesn't mention the tool. The fork has no docs, so I couldn't confirm the .obj output or the 'shot_' file naming in the repo.",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.561242,
+  "deep": true,
+  "checked_at": "2026-11-10",
   "note": "2026-10-01_1216_Dd3rvh8sgln/Dd3rvh8sgln - Your favorite ps1 game_description.md"
  },
  "DdtdxtQqlDj": {
@@ -10342,15 +10464,47 @@
   "note": "2026-08-15_0853_DcDvgblqKkC/DcDvgblqKkC - Anime Info_description.md"
  },
  "Db_p3j0p1kb": {
-  "verdict": "unresolved",
-  "verdict_reason": "The reel promotes a projector for reading on a wall, apparently sold by storyverse.store, but I found no product page or model name. The site would not open and searches turned up nothing specific.",
-  "resources": [],
-  "vault_notes": [],
-  "steps": [],
-  "not_found": "The storyverse.store product page and the projector's name, price and specs. The WebFetch of storyverse.store failed with an SSL handshake error. Searches returned only generic children's storybook projectors. It is also unclear how the projector gets a book's pages (an ebook or screen cast, or a camera on a physical book). The caption doesn't say. The Yule Ball illustration suggests an ebook or a screen cast. A search of the vault for the creator and product found nothing.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.0505585,
-  "checked_at": "2026-10-22",
+  "verdict": "promo",
+  "verdict_reason": "This is an ad for a dropship store (@storyverse.store, 74.9K followers, bio \"Turn any wall into your favourite book\", \"30% OFF - Summer Sale\"). Its demo looks AI-generated. The projected pages in frames 8–12 are garbled filler text, and those frames carry a ✦ sparkle mark in the bottom-right corner, so the \"project your book\" result is not shown on real hardware. The device itself is an unbranded mini projector.",
+  "resources": [
+   {
+    "name": "Storyverse (@storyverse.store) Instagram profile",
+    "url": "https://www.instagram.com/storyverse.store/",
+    "kind": "product",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "I opened it with WebFetch. The bio reads \"Turn any wall into your favourite book\", the product is named Storyverse, there is a 30% off summer sale, and the link in bio is storyverse.store, all matching the post author and caption."
+   },
+   {
+    "name": "storyverse.store (shop)",
+    "url": "https://storyverse.store",
+    "kind": "product",
+    "found_via": "post",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "It is the post author's domain and the profile's link in bio. WebFetch returned an empty page, so I could not check the product name, price or specs."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/Vault knowledge library/deadends/IG dead ends - other.md",
+    "covers": "Lists this post under 'Tool never named' with the earlier failed lookup (SSL error on storyverse.store) and a to-do for a second look."
+   }
+  ],
+  "ig_posts": [],
+  "steps": [
+   "You don't need this specific product. Any small home projector that can mirror a phone or tablet screen can show an ebook on a wall.",
+   "Open the book in an e-reader app (Kindle, Apple Books, Google Play Books) on the phone or tablet.",
+   "Mirror the screen to the projector by Chromecast or AirPlay, through a Fire TV or Chromecast stick, or with an HDMI adapter.",
+   "Use a dark room and a light, plain wall, and set the e-reader to sepia or a large font so the text stays readable when blown up.",
+   "Turn pages from the phone in your hand. The A/B/C ON/OFF remote in the reel is a generic RF outlet-switch remote, not a page turner."
+  ],
+  "not_found": "There was no brand, logo, model name or URL on the device in frames 1–4 or the remote in frames 6–7, which is a generic 3-channel RF outlet remote. storyverse.store returned an empty page to WebFetch, so I could not check the product name, price, specs or how pages reach the projector. The ✦ mark in frames 8–12 looks like an AI-video watermark (Gemini-style), but I could not confirm which tool made it.",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.45543120000000004,
+  "deep": true,
+  "checked_at": "2026-11-10",
   "note": "2026-08-15_0852_Db_p3j0p1kb/Db_p3j0p1kb - Some nights you tell yourself just one more_description.md"
  },
  "DZalExDujId": {

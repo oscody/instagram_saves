@@ -11,6 +11,9 @@
    "useful": 17,
    "noise": 0,
    "useful_share": 0.94,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Valid": 12,
     "Partly valid": 5,
@@ -125,6 +128,9 @@
    "useful": 16,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 7,
     "Valid": 9
@@ -226,7 +232,10 @@
    "valid": 4,
    "useful": 10,
    "noise": 5,
-   "useful_share": 0.62,
+   "useful_share": 0.67,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 6,
     "Valid": 4,
@@ -332,6 +341,9 @@
    "useful": 15,
    "noise": 1,
    "useful_share": 0.94,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 10,
     "Valid": 5,
@@ -441,6 +453,9 @@
    "useful": 16,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 8,
     "Partly valid": 8
@@ -551,6 +566,9 @@
    "useful": 13,
    "noise": 0,
    "useful_share": 0.81,
+   "fun": 0,
+   "gated": 3,
+   "not_found": 0,
    "verdicts": {
     "Valid": 3,
     "Partly valid": 10,
@@ -660,6 +678,9 @@
    "useful": 10,
    "noise": 0,
    "useful_share": 0.83,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 6,
     "Unresolved": 2,
@@ -749,6 +770,9 @@
    "useful": 10,
    "noise": 1,
    "useful_share": 0.91,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 4,
     "Partly valid": 6,
@@ -831,7 +855,10 @@
    "valid": 5,
    "useful": 7,
    "noise": 0,
-   "useful_share": 0.78,
+   "useful_share": 1.0,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 5,
     "Partly valid": 2,
@@ -904,6 +931,9 @@
    "useful": 7,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 7
    },
@@ -962,6 +992,9 @@
    "useful": 6,
    "noise": 0,
    "useful_share": 0.86,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Unresolved": 1,
@@ -1022,7 +1055,10 @@
    "valid": 0,
    "useful": 3,
    "noise": 1,
-   "useful_share": 0.5,
+   "useful_share": 0.6,
+   "fun": 1,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3,
     "Unresolved": 1,
@@ -1077,7 +1113,10 @@
    "valid": 2,
    "useful": 4,
    "noise": 0,
-   "useful_share": 0.67,
+   "useful_share": 1.0,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 2,
@@ -1131,6 +1170,9 @@
    "useful": 3,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 2,
    "verdicts": {
     "Partly valid": 3,
     "Unresolved": 2,
@@ -1182,6 +1224,9 @@
    "useful": 6,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 3,
     "Partly valid": 3
@@ -1232,6 +1277,9 @@
    "useful": 6,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 4
@@ -1282,6 +1330,9 @@
    "useful": 4,
    "noise": 1,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 4,
     "Promo": 1,
@@ -1333,6 +1384,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Unresolved": 2,
@@ -1388,6 +1442,9 @@
    "useful": 5,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 3,
     "Partly valid": 2
@@ -1436,7 +1493,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.2,
+   "useful_share": 0.25,
+   "fun": 1,
+   "gated": 3,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Unresolved": 3,
@@ -1487,6 +1547,9 @@
    "useful": 5,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 4,
     "Valid": 1
@@ -1535,6 +1598,9 @@
    "useful": 0,
    "noise": 5,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 5
    },
@@ -1582,6 +1648,9 @@
    "useful": 5,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 5
    },
@@ -1628,6 +1697,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 0.6,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3,
     "Unresolved": 2
@@ -1674,6 +1746,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 3,
+   "gated": 0,
+   "not_found": 2,
    "verdicts": {
     "Nothing to find": 3,
     "Unresolved": 2
@@ -1719,6 +1794,9 @@
    "useful": 5,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 3
@@ -1768,6 +1846,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 4
    },
@@ -1809,6 +1890,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 0.75,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 2,
@@ -1852,6 +1936,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 0.75,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Valid": 2,
     "Unresolved": 1,
@@ -1895,6 +1982,9 @@
    "useful": 3,
    "noise": 1,
    "useful_share": 0.75,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1,
     "Partly valid": 3
@@ -1935,7 +2025,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.25,
+   "useful_share": 1.0,
+   "fun": 3,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 3,
     "Partly valid": 1
@@ -1977,6 +2070,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 2
@@ -2019,6 +2115,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 3
@@ -2060,6 +2159,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 4
    },
@@ -2100,6 +2202,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 2
@@ -2143,6 +2248,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 0.75,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3,
     "Unresolved": 1
@@ -2182,7 +2290,10 @@
    "valid": 0,
    "useful": 2,
    "noise": 1,
-   "useful_share": 0.5,
+   "useful_share": 0.67,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Nothing to find": 1,
@@ -2222,6 +2333,9 @@
    "useful": 4,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 4
    },
@@ -2260,7 +2374,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 4,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 4
    },
@@ -2301,6 +2418,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.33,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 2,
    "verdicts": {
     "Unresolved": 2,
     "Valid": 1
@@ -2336,6 +2456,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 1,
@@ -2373,6 +2496,9 @@
    "useful": 2,
    "noise": 1,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1,
     "Partly valid": 1,
@@ -2410,6 +2536,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 1
@@ -2446,7 +2575,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 3,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 3
    },
@@ -2481,6 +2613,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 1
@@ -2516,7 +2651,10 @@
    "valid": 1,
    "useful": 2,
    "noise": 0,
-   "useful_share": 0.67,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Nothing to find": 1,
@@ -2552,7 +2690,10 @@
    "valid": 1,
    "useful": 2,
    "noise": 0,
-   "useful_share": 0.67,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 1,
@@ -2590,6 +2731,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 1
@@ -2626,6 +2770,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 1
@@ -2663,6 +2810,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -2696,7 +2846,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.33,
+   "useful_share": 1.0,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2,
     "Partly valid": 1
@@ -2733,6 +2886,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2,
     "Partly valid": 1
@@ -2770,6 +2926,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -2804,6 +2963,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 1
@@ -2839,7 +3001,10 @@
    "valid": 1,
    "useful": 2,
    "noise": 0,
-   "useful_share": 0.67,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1,
@@ -2875,7 +3040,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 3,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 3
    },
@@ -2909,7 +3077,10 @@
    "valid": 0,
    "useful": 2,
    "noise": 0,
-   "useful_share": 0.67,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Nothing to find": 1
@@ -2945,6 +3116,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 1
@@ -2980,6 +3154,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.33,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1,
     "Promo": 1,
@@ -3016,6 +3193,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3051,6 +3231,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3087,6 +3270,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3123,6 +3309,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3159,6 +3348,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 2
@@ -3196,6 +3388,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3231,7 +3426,10 @@
    "valid": 0,
    "useful": 2,
    "noise": 0,
-   "useful_share": 0.67,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Nothing to find": 1
@@ -3268,6 +3466,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3304,6 +3505,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1,
     "Partly valid": 2
@@ -3341,6 +3545,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3375,6 +3582,9 @@
    "useful": 2,
    "noise": 1,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Promo": 1
@@ -3411,6 +3621,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 3
    },
@@ -3447,6 +3660,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 1
@@ -3484,6 +3700,9 @@
    "useful": 0,
    "noise": 2,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Promo": 2,
     "Unresolved": 1
@@ -3520,6 +3739,9 @@
    "useful": 2,
    "noise": 1,
    "useful_share": 0.67,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Promo": 1
@@ -3555,6 +3777,9 @@
    "useful": 3,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2,
     "Valid": 1
@@ -3589,7 +3814,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.33,
+   "useful_share": 1.0,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2,
     "Partly valid": 1
@@ -3624,7 +3852,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -3655,6 +3886,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -3685,6 +3919,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Valid": 1,
     "Unresolved": 1
@@ -3716,6 +3953,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1,
     "Partly valid": 1
@@ -3746,7 +3986,10 @@
    "valid": 1,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Valid": 1
@@ -3778,6 +4021,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 1
@@ -3808,6 +4054,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1,
     "Partly valid": 1
@@ -3835,7 +4084,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -3865,6 +4117,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -3895,6 +4150,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -3921,7 +4179,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -3951,6 +4212,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1,
     "Valid": 1
@@ -3980,7 +4244,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Partly valid": 1
@@ -4011,6 +4278,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Promo": 1
@@ -4042,6 +4312,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 1
@@ -4071,7 +4344,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -4099,6 +4375,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Promo": 1
@@ -4129,6 +4408,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -4159,6 +4441,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -4188,6 +4473,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 2
    },
@@ -4214,12 +4502,14 @@
    "first_saved": "2026-09-14",
    "last_saved": "2026-10-01",
    "valid": 0,
-   "useful": 1,
+   "useful": 2,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1,
-    "Partly valid": 1
+    "Partly valid": 2
    },
    "topics": [
     "3D Modeling and World Generation"
@@ -4246,7 +4536,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Partly valid": 1
@@ -4277,6 +4570,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -4306,6 +4602,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -4335,6 +4634,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -4365,6 +4667,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1,
     "Valid": 1
@@ -4395,6 +4700,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Partly valid": 1,
     "Unresolved": 1
@@ -4425,6 +4733,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -4456,6 +4767,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -4484,7 +4798,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -4513,7 +4830,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Partly valid": 1
@@ -4544,6 +4864,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -4574,6 +4897,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1,
     "Partly valid": 1
@@ -4605,6 +4931,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -4634,6 +4963,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 1
@@ -4664,6 +4996,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Promo": 1
@@ -4695,6 +5030,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -4725,6 +5063,9 @@
    "useful": 0,
    "noise": 2,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 2
    },
@@ -4754,6 +5095,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -4783,6 +5127,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -4812,7 +5159,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -4840,6 +5190,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -4871,6 +5224,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1,
     "Partly valid": 1
@@ -4901,6 +5257,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1,
     "Unresolved": 1
@@ -4931,6 +5290,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Nothing to find": 1,
     "Unresolved": 1
@@ -4960,7 +5322,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -4989,7 +5354,10 @@
    "valid": 1,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Valid": 1
@@ -5020,6 +5388,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 2
    },
@@ -5050,6 +5421,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 2
    },
@@ -5079,6 +5453,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Unresolved": 1
@@ -5110,6 +5487,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5139,6 +5519,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -5168,6 +5551,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -5198,6 +5584,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5228,6 +5617,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -5256,7 +5648,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Nothing to find": 1
@@ -5287,6 +5682,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5315,7 +5713,10 @@
    "valid": 1,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Valid": 1
@@ -5346,6 +5747,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5376,6 +5780,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Unresolved": 1
@@ -5405,7 +5812,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Nothing to find": 1
@@ -5436,6 +5846,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1,
     "Valid": 1
@@ -5464,6 +5877,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5493,6 +5909,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -5522,7 +5941,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -5552,6 +5974,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Partly valid": 1
@@ -5583,6 +6008,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Unresolved": 1
@@ -5614,6 +6042,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -5644,6 +6075,9 @@
    "useful": 0,
    "noise": 2,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 2
    },
@@ -5673,6 +6107,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5702,6 +6139,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5732,6 +6172,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1,
     "Promo": 1
@@ -5761,7 +6204,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 2,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 2
    },
@@ -5791,6 +6237,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Unresolved": 1
@@ -5821,6 +6270,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -5849,6 +6301,9 @@
    "useful": 0,
    "noise": 2,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 2
    },
@@ -5878,6 +6333,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -5908,6 +6366,9 @@
    "useful": 0,
    "noise": 2,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 2
    },
@@ -5935,6 +6396,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 1,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Unresolved": 1
@@ -5965,6 +6429,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -5994,6 +6461,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6023,6 +6493,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Unresolved": 1
@@ -6053,6 +6526,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -6081,7 +6557,10 @@
    "valid": 1,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1,
     "Nothing to find": 1
@@ -6112,6 +6591,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6141,6 +6623,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6168,6 +6653,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Valid": 1
@@ -6198,6 +6686,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1,
     "Partly valid": 1
@@ -6228,6 +6719,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Promo": 1
@@ -6258,6 +6752,9 @@
    "useful": 1,
    "noise": 1,
    "useful_share": 0.5,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1,
     "Partly valid": 1
@@ -6289,6 +6786,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6319,6 +6819,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -6349,6 +6852,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6379,6 +6885,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -6408,7 +6917,10 @@
    "valid": 1,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1,
     "Valid": 1
@@ -6438,7 +6950,10 @@
    "valid": 0,
    "useful": 1,
    "noise": 0,
-   "useful_share": 0.5,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1,
     "Nothing to find": 1
@@ -6470,6 +6985,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6500,6 +7018,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6530,6 +7051,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 2
    },
@@ -6560,6 +7084,9 @@
    "useful": 2,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 2
    },
@@ -6589,6 +7116,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 2,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 2
    },
@@ -6618,6 +7148,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -6642,6 +7175,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -6664,6 +7200,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -6688,6 +7227,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -6710,6 +7252,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -6733,7 +7278,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -6757,7 +7305,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -6782,6 +7333,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -6806,6 +7360,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -6827,7 +7384,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -6851,7 +7411,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -6876,6 +7439,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -6899,7 +7465,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -6924,6 +7493,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -6946,6 +7518,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -6969,7 +7544,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -6993,7 +7571,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7018,6 +7599,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7042,6 +7626,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7066,6 +7653,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -7088,6 +7678,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7110,6 +7703,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7132,6 +7728,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -7155,7 +7754,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7178,6 +7780,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -7201,7 +7806,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7226,6 +7834,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7250,6 +7861,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -7274,6 +7888,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -7298,6 +7915,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7321,7 +7941,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7345,7 +7968,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7368,6 +7994,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -7392,6 +8021,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -7416,6 +8048,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7440,6 +8075,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7464,6 +8102,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7488,6 +8129,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7512,6 +8156,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7536,6 +8183,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7560,6 +8210,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7583,7 +8236,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7607,7 +8263,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7630,6 +8289,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7654,6 +8316,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7678,6 +8343,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7701,7 +8369,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7725,7 +8396,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7748,6 +8422,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7772,6 +8449,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7793,7 +8473,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7817,7 +8500,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7842,6 +8528,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -7866,6 +8555,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -7890,6 +8582,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -7914,6 +8609,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -7938,6 +8636,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -7961,7 +8662,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -7986,6 +8690,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8010,6 +8717,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8032,6 +8742,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8055,7 +8768,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8079,7 +8795,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8104,6 +8823,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8126,6 +8848,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8148,6 +8873,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8172,6 +8900,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8196,6 +8927,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8219,7 +8953,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8244,6 +8981,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -8265,7 +9005,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8286,12 +9029,15 @@
    "recent": 1,
    "first_saved": "2026-10-08",
    "last_saved": "2026-10-08",
-   "valid": 0,
-   "useful": 0,
+   "valid": 1,
+   "useful": 1,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1
+    "Valid": 1
    },
    "topics": [
     "Video Reconstruction, Motion Capture and Animation"
@@ -8314,6 +9060,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8336,6 +9085,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8359,7 +9111,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8384,6 +9139,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8406,6 +9164,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8428,6 +9189,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8452,6 +9216,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -8476,6 +9243,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8498,6 +9268,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8522,6 +9295,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -8546,6 +9322,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -8570,6 +9349,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -8593,7 +9375,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8618,6 +9403,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -8640,6 +9428,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8664,6 +9455,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8688,6 +9482,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -8709,7 +9506,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8732,6 +9532,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8756,6 +9559,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8778,6 +9584,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -8802,6 +9611,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8824,6 +9636,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -8848,6 +9663,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -8872,6 +9690,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -8895,7 +9716,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8917,7 +9741,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8939,7 +9766,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8961,7 +9791,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -8983,7 +9816,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9008,6 +9844,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9031,7 +9870,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9055,7 +9897,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9079,7 +9924,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9102,6 +9950,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9126,6 +9977,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -9150,6 +10004,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9174,6 +10031,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9197,7 +10057,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9222,6 +10085,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9245,7 +10111,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9270,6 +10139,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -9293,7 +10165,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9316,6 +10191,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -9340,6 +10218,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9361,7 +10242,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9386,6 +10270,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9410,6 +10297,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9433,7 +10323,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9458,6 +10351,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9481,7 +10377,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9506,6 +10405,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9530,6 +10432,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9554,6 +10459,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -9576,6 +10484,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -9600,6 +10511,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -9623,7 +10537,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9648,6 +10565,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9672,6 +10592,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -9696,6 +10619,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -9720,6 +10646,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9742,6 +10671,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -9766,6 +10698,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9788,6 +10723,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9810,6 +10748,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -9834,6 +10775,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -9855,7 +10799,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9880,6 +10827,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9903,7 +10853,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -9928,6 +10881,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9952,6 +10908,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -9974,6 +10933,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -9998,6 +10960,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10022,6 +10987,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10046,6 +11014,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10069,7 +11040,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10092,6 +11066,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -10114,6 +11091,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10137,7 +11117,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10162,6 +11145,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10185,7 +11171,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10210,6 +11199,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10233,7 +11225,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10256,6 +11251,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10280,6 +11278,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -10304,6 +11305,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10327,7 +11331,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10352,6 +11359,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10375,7 +11385,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10400,6 +11413,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10422,6 +11438,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10444,6 +11463,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -10465,7 +11487,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10490,6 +11515,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -10514,6 +11542,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10535,7 +11566,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10559,7 +11593,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10584,6 +11621,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10608,6 +11648,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10631,7 +11674,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10656,6 +11702,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10677,7 +11726,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10699,7 +11751,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10722,6 +11777,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10744,6 +11802,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -10768,6 +11829,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10791,7 +11855,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -10816,6 +11883,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10840,6 +11910,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10864,6 +11937,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10888,6 +11964,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10912,6 +11991,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -10936,6 +12018,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -10960,6 +12045,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -10983,7 +12071,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11007,7 +12098,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11032,6 +12126,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -11056,6 +12153,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11079,7 +12179,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11101,7 +12204,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11125,7 +12231,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11150,6 +12259,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11172,6 +12284,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11193,7 +12308,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11218,6 +12336,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11240,6 +12361,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11262,6 +12386,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11285,7 +12412,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11310,6 +12440,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11333,7 +12466,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11358,6 +12494,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11382,6 +12521,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11406,6 +12548,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11428,10 +12573,13 @@
    "last_saved": "2026-08-15",
    "valid": 0,
    "useful": 0,
-   "noise": 0,
+   "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1
+    "Promo": 1
    },
    "topics": [
     "Miscellaneous Product and Utility Reference"
@@ -11454,6 +12602,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11478,6 +12629,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11502,6 +12656,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -11526,6 +12683,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11548,6 +12708,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11572,6 +12735,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11594,6 +12760,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11617,7 +12786,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11642,6 +12814,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11663,7 +12838,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11685,7 +12863,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11710,6 +12891,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11734,6 +12918,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11758,6 +12945,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11782,6 +12972,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11806,6 +12999,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11830,6 +13026,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -11852,6 +13051,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -11874,6 +13076,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11898,6 +13103,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11921,7 +13129,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -11946,6 +13157,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -11968,6 +13182,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -11990,6 +13207,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12014,6 +13234,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12038,6 +13261,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12062,6 +13288,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12086,6 +13315,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12110,6 +13342,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -12134,6 +13369,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12158,6 +13396,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12182,6 +13423,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -12204,6 +13448,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12228,6 +13475,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -12252,6 +13502,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12276,6 +13529,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12298,6 +13554,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12322,6 +13581,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12344,6 +13606,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12365,7 +13630,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12389,7 +13657,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12412,6 +13683,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12436,6 +13710,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12460,6 +13737,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12484,6 +13764,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12508,6 +13791,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12530,6 +13816,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -12554,6 +13843,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12576,6 +13868,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -12599,7 +13894,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12624,6 +13922,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -12648,6 +13949,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -12672,6 +13976,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12696,6 +14003,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12719,7 +14029,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12744,6 +14057,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -12765,7 +14081,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12788,6 +14107,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -12811,7 +14133,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12836,6 +14161,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12859,7 +14187,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12883,7 +14214,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12907,7 +14241,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12929,7 +14266,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -12954,6 +14294,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -12978,6 +14321,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -13001,7 +14347,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13026,6 +14375,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13050,6 +14402,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13073,7 +14428,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13098,6 +14456,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13122,6 +14483,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13145,7 +14509,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13168,6 +14535,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13192,6 +14562,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13215,7 +14588,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13238,6 +14614,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13262,6 +14641,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13286,6 +14668,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13310,6 +14695,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13334,6 +14722,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13358,6 +14749,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13382,6 +14776,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13406,6 +14803,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13429,7 +14829,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13453,7 +14856,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13475,7 +14881,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13499,7 +14908,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13524,6 +14936,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -13548,6 +14963,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13572,6 +14990,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -13596,6 +15017,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13620,6 +15044,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -13642,6 +15069,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13666,6 +15096,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -13689,7 +15122,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13713,7 +15149,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13736,6 +15175,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13759,7 +15201,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13784,6 +15229,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -13807,7 +15255,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13832,6 +15283,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -13856,6 +15310,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -13879,7 +15336,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13903,7 +15363,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13925,7 +15388,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13948,6 +15414,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -13971,7 +15440,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -13995,7 +15467,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14017,7 +15492,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14040,6 +15518,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -14063,7 +15544,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14088,6 +15572,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14112,6 +15599,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -14136,6 +15626,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14159,7 +15652,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14181,7 +15677,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14205,7 +15704,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14229,7 +15731,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14254,6 +15759,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14277,7 +15785,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14300,6 +15811,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14324,6 +15838,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -14348,6 +15865,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -14371,7 +15891,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14396,6 +15919,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -14420,6 +15946,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14443,7 +15972,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14467,7 +15999,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14489,7 +16024,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14512,6 +16050,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14535,7 +16076,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14560,6 +16104,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -14584,6 +16131,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14607,7 +16157,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14632,6 +16185,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -14655,7 +16211,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14680,6 +16239,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14704,6 +16266,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -14726,6 +16291,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -14750,6 +16318,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14772,6 +16343,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14795,7 +16369,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14820,6 +16397,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -14844,6 +16424,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14868,6 +16451,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14892,6 +16478,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14916,6 +16505,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14939,7 +16531,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -14964,6 +16559,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -14987,7 +16585,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15010,6 +16611,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15034,6 +16638,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -15056,6 +16663,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15080,6 +16690,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15104,6 +16717,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15128,6 +16744,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15152,6 +16771,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15174,6 +16796,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -15198,6 +16823,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15222,6 +16850,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15246,6 +16877,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15269,7 +16903,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15294,6 +16931,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15317,7 +16957,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15342,6 +16985,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -15366,6 +17012,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -15390,6 +17039,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15414,6 +17066,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15437,7 +17092,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15460,6 +17118,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15484,6 +17145,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15508,6 +17172,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -15532,6 +17199,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15556,6 +17226,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15580,6 +17253,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15603,7 +17279,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15628,6 +17307,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -15652,6 +17334,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15675,7 +17360,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15698,6 +17386,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15719,7 +17410,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15742,6 +17436,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15766,6 +17463,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15790,6 +17490,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -15814,6 +17517,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15838,6 +17544,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15862,6 +17571,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15886,6 +17598,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -15909,7 +17624,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -15934,6 +17652,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -15958,6 +17679,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -15981,7 +17705,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16006,6 +17733,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -16029,7 +17759,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16053,7 +17786,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16078,6 +17814,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16102,6 +17841,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -16125,7 +17867,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16149,7 +17894,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16173,7 +17921,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16198,6 +17949,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16222,6 +17976,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16246,6 +18003,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16270,6 +18030,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -16294,6 +18057,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16317,7 +18083,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16342,6 +18111,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16366,6 +18138,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16389,7 +18164,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16414,6 +18192,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16437,7 +18218,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16461,7 +18245,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16484,6 +18271,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -16508,6 +18298,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -16532,6 +18325,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16555,7 +18351,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16577,7 +18376,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16600,6 +18402,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16624,6 +18429,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -16648,6 +18456,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16671,7 +18482,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16696,6 +18510,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16720,6 +18537,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16743,7 +18563,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16767,7 +18590,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16790,6 +18616,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -16813,7 +18642,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16836,6 +18668,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16859,7 +18694,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16884,6 +18722,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -16907,7 +18748,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16931,7 +18775,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -16956,6 +18803,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -16980,6 +18830,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17003,7 +18856,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17027,7 +18883,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17052,6 +18911,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -17076,6 +18938,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17100,6 +18965,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17124,6 +18992,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17147,7 +19018,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17169,7 +19043,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17194,6 +19071,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17218,6 +19098,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17241,7 +19124,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17264,6 +19150,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -17287,7 +19176,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17312,6 +19204,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17335,7 +19230,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17359,7 +19257,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17384,6 +19285,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -17408,6 +19312,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17431,7 +19338,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17454,6 +19364,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17477,7 +19390,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17502,6 +19418,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17526,6 +19445,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -17549,7 +19471,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17574,6 +19499,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17598,6 +19526,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -17622,6 +19553,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17646,6 +19580,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -17668,6 +19605,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17692,6 +19632,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17715,7 +19658,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17739,7 +19685,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17763,7 +19712,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17788,6 +19740,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -17812,6 +19767,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17834,6 +19792,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17857,7 +19818,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -17880,6 +19844,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -17904,6 +19871,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -17928,6 +19898,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -17952,6 +19925,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -17976,6 +19952,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18000,6 +19979,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18023,7 +20005,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18048,6 +20033,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -18071,7 +20059,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18095,7 +20086,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18120,6 +20114,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18144,6 +20141,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18167,7 +20167,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18190,6 +20193,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18214,6 +20220,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18237,7 +20246,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18259,7 +20271,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18281,7 +20296,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18306,6 +20324,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -18329,7 +20350,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18352,6 +20376,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18376,6 +20403,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18400,6 +20430,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18424,6 +20457,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -18446,6 +20482,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -18468,6 +20507,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18492,6 +20534,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18515,7 +20560,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18540,6 +20588,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18564,6 +20615,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18588,6 +20642,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18610,6 +20667,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18634,6 +20694,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18658,6 +20721,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -18682,6 +20748,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18706,6 +20775,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -18730,6 +20802,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -18753,7 +20828,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18777,7 +20855,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18800,6 +20881,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18824,6 +20908,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18846,6 +20933,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18870,6 +20960,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -18894,6 +20987,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -18918,6 +21014,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -18941,7 +21040,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -18966,6 +21068,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -18989,7 +21094,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19012,6 +21120,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19034,6 +21145,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19055,7 +21169,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19079,7 +21196,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19104,6 +21224,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -19128,6 +21251,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -19152,6 +21278,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19176,6 +21305,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19200,6 +21332,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19222,6 +21357,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19245,7 +21383,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19270,6 +21411,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -19294,6 +21438,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19318,6 +21465,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19340,6 +21490,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19364,6 +21517,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19388,6 +21544,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -19412,6 +21571,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19436,6 +21598,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19460,6 +21625,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19483,7 +21651,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19508,6 +21679,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19532,6 +21706,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19556,6 +21733,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19579,7 +21759,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19601,7 +21784,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19624,6 +21810,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19646,6 +21835,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -19669,7 +21861,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19694,6 +21889,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19718,6 +21916,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19742,6 +21943,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19766,6 +21970,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19790,6 +21997,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -19813,7 +22023,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -19836,6 +22049,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -19860,6 +22076,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19882,6 +22101,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19904,6 +22126,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19928,6 +22153,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -19952,6 +22180,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -19976,6 +22207,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20000,6 +22234,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20024,6 +22261,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20048,6 +22288,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -20071,7 +22314,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20096,6 +22342,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20120,6 +22369,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20143,7 +22395,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20165,7 +22420,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20189,7 +22447,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20214,6 +22475,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -20237,7 +22501,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20262,6 +22529,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -20284,6 +22554,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20308,6 +22581,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20330,6 +22606,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -20354,6 +22633,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20377,7 +22659,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20402,6 +22687,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -20424,6 +22712,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -20446,6 +22737,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20470,6 +22764,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20492,6 +22789,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -20516,6 +22816,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20540,6 +22843,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -20564,6 +22870,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20588,6 +22897,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20611,7 +22923,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20636,6 +22951,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -20660,6 +22978,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -20684,6 +23005,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -20707,7 +23031,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20731,7 +23058,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20756,6 +23086,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20780,6 +23113,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20801,7 +23137,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20824,6 +23163,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20848,6 +23190,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -20871,7 +23216,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20896,6 +23244,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -20920,6 +23271,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -20941,7 +23295,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20963,7 +23320,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -20988,6 +23348,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21012,6 +23375,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -21033,7 +23399,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21058,6 +23427,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21081,7 +23453,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21106,6 +23481,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21130,6 +23508,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -21154,6 +23535,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21177,7 +23561,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21199,7 +23586,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21223,7 +23613,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21248,6 +23641,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -21271,7 +23667,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21295,7 +23694,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21318,6 +23720,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21341,7 +23746,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21366,6 +23774,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21389,7 +23800,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21414,6 +23828,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21438,6 +23855,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21462,6 +23882,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -21486,6 +23909,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21508,6 +23934,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -21532,6 +23961,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21555,7 +23987,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21580,6 +24015,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21601,7 +24039,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21626,6 +24067,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -21650,6 +24094,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -21674,6 +24121,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21698,6 +24148,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21722,6 +24175,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -21745,7 +24201,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21770,6 +24229,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -21793,7 +24255,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21818,6 +24283,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21842,6 +24310,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21866,6 +24337,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21888,6 +24362,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -21912,6 +24389,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -21935,7 +24415,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21959,7 +24442,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -21984,6 +24470,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22008,6 +24497,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22030,6 +24522,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22054,6 +24549,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22076,6 +24574,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22098,6 +24599,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22121,7 +24625,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22146,6 +24653,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22169,7 +24679,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22192,6 +24705,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22214,6 +24730,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22238,6 +24757,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22262,6 +24784,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -22285,7 +24810,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22307,7 +24835,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22332,6 +24863,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -22356,6 +24890,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Not valid": 1
    },
@@ -22379,7 +24916,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22401,7 +24941,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22426,6 +24969,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22450,6 +24996,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22473,7 +25022,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22498,6 +25050,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 1,
    "verdicts": {
     "Unresolved": 1
    },
@@ -22521,7 +25076,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22545,7 +25103,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22569,7 +25130,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22594,6 +25158,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22616,6 +25183,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -22640,6 +25210,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -22661,7 +25234,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22684,6 +25260,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22708,6 +25287,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22732,6 +25314,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22756,6 +25341,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22779,7 +25367,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22803,7 +25394,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -22826,6 +25420,9 @@
    "useful": 0,
    "noise": 0,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 1,
+   "not_found": 0,
    "verdicts": {
     "Unresolved": 1
    },
@@ -22850,6 +25447,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -22874,6 +25474,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22898,6 +25501,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -22922,6 +25528,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22946,6 +25555,9 @@
    "useful": 0,
    "noise": 1,
    "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Promo": 1
    },
@@ -22970,6 +25582,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -22994,6 +25609,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -23017,7 +25635,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23041,7 +25662,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23065,7 +25689,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23090,6 +25717,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -23112,6 +25742,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -23136,6 +25769,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -23159,7 +25795,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23182,6 +25821,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Valid": 1
    },
@@ -23205,7 +25847,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23227,7 +25872,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23251,7 +25899,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23276,6 +25927,9 @@
    "useful": 1,
    "noise": 0,
    "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Partly valid": 1
    },
@@ -23299,7 +25953,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },
@@ -23323,7 +25980,10 @@
    "valid": 0,
    "useful": 0,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
    "verdicts": {
     "Nothing to find": 1
    },

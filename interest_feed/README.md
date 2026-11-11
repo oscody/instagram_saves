@@ -66,7 +66,7 @@ Each source gives at most 30 items a run (`PER_SOURCE_MAX`), and a run sends at 
 3. Drop items seen in earlier live runs (`output/seen.json`).
 4. One Haiku call gets your Valid saves in each Focus topic as examples of your taste and picks what you would have
    saved, up to `per_week` per topic. Releases get one line each.
-5. Write the digest. Each pick is a checkbox: tick it if you would have saved it.
+5. Write the digest. Each pick has a **Would save** checkbox under its title (since 2026-11-10, so ticking does not cross out the title): tick it if you would have saved it. `score.py` also reads older digests, where the checkbox was on the title line.
 6. Log every item looked at, picked or not, to `output/history.jsonl` for scoring.
 
 ## How the score works

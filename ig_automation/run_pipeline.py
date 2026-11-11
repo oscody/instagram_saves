@@ -110,6 +110,13 @@ def parse_args() -> argparse.Namespace:
         "requests, so it also runs on rest days and during a block. 0 turns it off. Default: 5",
     )
     parser.add_argument(
+        "--retry-batch",
+        type=int,
+        default=2,
+        help="Dead ends to research again (dead_ends.py) once per run, after research: due retries and deeper "
+        "second looks. It makes no Instagram requests. 0 turns it off. Default: 2",
+    )
+    parser.add_argument(
         "--foreground", action="store_true", help="Run in this terminal instead of starting in the background."
     )
     return parser.parse_args()
@@ -155,6 +162,22 @@ def research(batch: int, claude_limited: bool) -> None:
     logger.info(f"Research: {left} posts waiting, up to {batch} this run")
     if run_stage("research.py", batch) == RESEARCH_LIMIT_EXIT:
         logger.info("  Research stopped: Claude is at its usage limit")
+
+
+def dead_end_retries(batch: int, claude_limited: bool) -> None:
+    """Research up to batch dead ends again (dead_ends.py: retries and second looks). No Instagram requests."""
+    import dead_ends
+
+    waiting = len(dead_ends.due(dead_ends.load()))
+    if not waiting:
+        return
+    if claude_limited:
+        logger.info(f"  Dead end retries skipped this run: Claude is at its usage limit ({waiting} due)")
+        return
+    logger.info(f"Dead end retries: {waiting} due, up to {batch} this run")
+    os.environ["IG_PIPELINE"] = "1"  # research.py's output is already in the pipeline log
+    counts = dead_ends.retry_due(batch, log=logger.info)
+    logger.info(f"  Dead end retries finished: {counts}")
 
 
 def pi_status() -> str:
@@ -527,6 +550,11 @@ def main() -> int:
         # After the Instagram work, whatever stopped it (rest, block, logout, nothing left).
         if args.research_batch and not PAUSED_FILE.exists() and not STOP_FILE.exists():
             research(args.research_batch, claude_limited)
+        if args.retry_batch and not PAUSED_FILE.exists() and not STOP_FILE.exists():
+            try:
+                dead_end_retries(args.retry_batch, claude_limited)
+            except Exception:
+                logger.exception("Dead end retries failed; the rest of the run continues")
     except Exception as e:
         crash = e
         raise
@@ -551,6 +579,13 @@ def main() -> int:
             logger.info(f"Dead ends list synced ({dead_ends.DEAD_ENDS_FILE.name}): {changes}, open {dead_ends.summary()}")
         except Exception:
             logger.exception("Could not sync the dead ends list")
+        try:
+            # Free (no network, no Claude), so the account index never goes out of date.
+            result = subprocess.run([sys.executable, str(HERE / "accounts.py")], cwd=HERE, capture_output=True,
+                                    text=True, timeout=300)
+            logger.info(f"Account index rebuilt: {(result.stdout or result.stderr).strip()[:200]}")
+        except Exception:
+            logger.exception("Could not rebuild the account index")
         try:
             from status_report import post_daily_status, write_daily_status
 

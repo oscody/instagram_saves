@@ -29,7 +29,8 @@ import feed
 SAVE_TOPICS_FILE = feed.OUTPUT_DIR / "save_topics.json"
 RESEARCH_RE = re.compile(r"^## Research\n(.*?)(?=^## |\Z)", re.M | re.S)
 LINK_RE = re.compile(r"\]\((https?://[^)\s]+)\)")
-TICKED_RE = re.compile(r"^\* \[[xX]\] ")
+TICKED_RE = re.compile(r"^\* \[[xX]\] ")  # old digests: the checkbox was on the pick's own line
+SUB_TICKED_RE = re.compile(r"^\s+\* \[[xX]\] ")  # since 2026-11-10: a "Would save" checkbox under the pick
 SKIP_VAULT_DIRS = ("ZAIHub/Interest digest/", "ZAIHub/Vault knowledge library/", "Media/")
 
 LABEL_SYSTEM = """You sort saved Instagram posts into Focus topics. For each post give the topic slug it belongs to,
@@ -124,12 +125,16 @@ def ticked_urls(vault, run_date: str) -> set:
     note = vault / feed.VAULT_DIGEST_DIR / f"claude - interest digest {run_date}.md"
     if not note.exists():
         return set()
-    urls, ticked = set(), False
-    for line in note.read_text(encoding="utf-8").splitlines():
-        if line.startswith("* ["):
-            ticked = bool(TICKED_RE.match(line))
-        elif ticked:
-            urls.update(LINK_RE.findall(line))
+    urls, block, ticked = set(), set(), False
+    for line in note.read_text(encoding="utf-8").splitlines() + ["* end"]:
+        if line.startswith("* ") or line.startswith("#"):  # a new pick (or section) ends the last one
+            if ticked:
+                urls |= block
+            block, ticked = set(), bool(TICKED_RE.match(line))
+        elif SUB_TICKED_RE.match(line):
+            ticked = True
+        else:
+            block.update(LINK_RE.findall(line))
     return urls
 
 

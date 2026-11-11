@@ -19,8 +19,16 @@ Statuses set by you or by later automation (commented_waiting, received, needs_y
 overwritten. When the stage later works (an error clears, a verdict is no longer Unresolved), the entry
 becomes `resolved`, unless it was closed. Nothing is ever deleted, so the file is also the history.
 
+Retries (`retry_due`, once per pipeline run and with `--retry N`) research a post again:
+
+* `not_found`: again after RETRY_DAYS[0] days, then RETRY_DAYS[1] days after that, then the entry is closed.
+* `unnamed` and `thin_input`: one deeper second look (`research.py --deep`: more frames, a better model), as
+  soon as there is room. If that finds nothing the entry moves to needs_you.
+
     python3 dead_ends.py            # sync, then print the counts
     python3 dead_ends.py --list     # also print each open entry
+    python3 dead_ends.py --due      # print the posts whose retry is due, without running anything
+    python3 dead_ends.py --retry 3  # run up to 3 due retries now (uses Claude), then sync
 """
 
 import argparse
@@ -28,6 +36,8 @@ import fcntl
 import json
 import os
 import re
+import subprocess
+import sys
 import unicodedata
 from contextlib import contextmanager
 from datetime import datetime, timedelta
@@ -45,10 +55,16 @@ PROFILE_FILE = HERE.parent / "interest_feed" / "profile.json"
 # The vault notes for both lists. First folder that exists is the vault; IG_VAULT overrides it.
 VAULT_GUESSES = [Path.home() / "Dev/obsidian/Bogle", Path.home() / "Work/obsidian/Bogle", Path.home() / "obsidian/Bogle",
                  Path.home() / "Work/2025Secondbrain"]
-VAULT_DIR = Path("ZAIHub/Vault knowledge library")
+VAULT_DIR = Path("ZAIHub/Vault knowledge library/deadends")  # moved here 2026-11-10
 VAULT_NOTES = {"comment_to_get": "IG dead ends - comment to get it", "other": "IG dead ends - other"}
 
 RETRY_DAYS = (3, 20)  # days until the first and second research retry (chosen 2026-11-10); retries for posts whose resource may go public later
+RETRY_TYPES = ("not_found",)  # researched again later, in case the resource went public
+DEEP_TYPES = ("unnamed", "thin_input")  # one deeper second look, not tied to a date
+DEEP_MODEL = "opus"
+DEEP_TIMEOUT = 900  # seconds; the second look reads up to 16 images
+MAX_RETRY_ERRORS = 2  # retries that crash or time out this often are tried again before they count
+LIMIT_EXIT = 75  # research.py's exit code when Claude is at its usage limit
 THIN_WORDS = 15  # fewer words of speech plus on screen text than this is thin input
 # Statuses a person or later automation set. sync() and research.py leave them alone.
 KEPT = {"commented_waiting", "received", "needs_you", "closed"}
@@ -205,8 +221,10 @@ def upsert(entries: list, shortcode: str, stage: str, list_name: str, kind: str,
     if entry is None:
         status = ("queued" if keyword else "needs_you") if list_name == "comment_to_get" else "open"
         retry = None
-        if stage == "research" and kind in ("not_found", "unnamed", "thin_input"):
+        if stage == "research" and kind in RETRY_TYPES:
             retry = (datetime.now() + timedelta(days=RETRY_DAYS[0])).date().isoformat()
+        elif stage == "research" and kind in DEEP_TYPES:
+            retry = datetime.now().date().isoformat()  # the second look does not need to wait
         entry = {
             "shortcode": shortcode,
             "list": list_name,
@@ -236,6 +254,12 @@ def upsert(entries: list, shortcode: str, stage: str, list_name: str, kind: str,
         entry["history"].append({"at": stamp, "event": f"failed again: {kind}"})
         changed = True
     if entry["status"] not in KEPT:
+        if entry["list"] != list_name:  # a retry showed it belongs on the other list; statuses differ per list
+            entry["status"] = ("queued" if keyword else "needs_you") if list_name == "comment_to_get" else "open"
+            entry["history"].append({"at": stamp, "event": f"moved to the {list_name} list: {kind}"})
+        if stage == "research" and kind not in RETRY_TYPES + DEEP_TYPES and entry.get("next_retry"):
+            entry["next_retry"] = None  # no longer a type that a retry can help
+            changed = True
         for key, value in (("list", list_name), ("type", kind), ("reason", reason), ("keyword", keyword or entry.get("keyword"))):
             if entry.get(key) != value:
                 entry[key] = value
@@ -332,6 +356,109 @@ def sync() -> dict:
     return counts
 
 
+# ---------------------------------------------------------------- retries
+
+
+def retry_kind(entry: dict) -> str | None:
+    """'deep' or 'retry' when this entry can be researched again, else None."""
+    if entry["stage"] != "research" or entry["list"] != "other" or entry["status"] not in ("open", "retrying"):
+        return None
+    tries = len(entry.get("attempts") or [])
+    if entry["type"] in DEEP_TYPES and tries < 1:
+        return "deep"
+    if entry["type"] in RETRY_TYPES and tries < len(RETRY_DAYS):
+        return "retry"
+    return None
+
+
+def due(entries: list, today: str | None = None) -> list:
+    """Entries whose retry is due: Focus topics first, then the second looks, then the oldest retry date."""
+    today = today or datetime.now().date().isoformat()
+    ready = [e for e in entries if retry_kind(e) and (retry_kind(e) == "deep" or (e.get("next_retry") or "9999") <= today)]
+    return sorted(ready, key=lambda e: (not e.get("focus"), retry_kind(e) != "deep", e.get("next_retry") or "", e.get("added_at", "")))
+
+
+def record_attempt(entry: dict, kind: str, result: dict, failed: bool = False) -> None:
+    """Note one finished retry on the entry and decide what happens next."""
+    stamp = now()
+    if failed and entry.get("retry_errors", 0) < MAX_RETRY_ERRORS:  # a timeout or crash is not a real try
+        entry["retry_errors"] = entry.get("retry_errors", 0) + 1
+        entry["updated_at"] = stamp
+        entry["next_retry"] = (datetime.now() + timedelta(days=1)).date().isoformat()
+        entry["history"].append({"at": stamp, "event": f"{kind} failed to run ({entry['retry_errors']}), trying again"})
+        return
+    verdict = "error" if failed else result.get("verdict")
+    entry.setdefault("attempts", []).append({"at": stamp, "kind": kind, "verdict": verdict,
+                                             "model": result.get("model"), "cost_usd": result.get("cost_usd")})
+    entry["updated_at"] = stamp
+    label = "second look" if kind == "deep" else f"retry {len(entry['attempts'])}"
+    if entry["status"] not in ("open", "retrying"):  # resolved, or moved to the comment list by the new result
+        entry["next_retry"] = None
+        entry["history"].append({"at": stamp, "event": f"{label}: {verdict}"})
+        return
+    again = retry_kind(entry)
+    if again == "retry":
+        days = RETRY_DAYS[len(entry["attempts"])]
+        entry["status"] = "retrying"
+        entry["next_retry"] = (datetime.now() + timedelta(days=days)).date().isoformat()
+        entry["history"].append({"at": stamp, "event": f"{label}: still {verdict}, next retry {entry['next_retry']}"})
+    elif entry["type"] in DEEP_TYPES:
+        entry["status"] = "needs_you"
+        entry["next_retry"] = None
+        entry["history"].append({"at": stamp, "event": f"{label}: still {verdict}, needs you"})
+    elif entry["type"] in RETRY_TYPES:
+        entry["status"] = "closed"
+        entry["next_retry"] = None
+        entry["history"].append({"at": stamp, "event": f"{label}: still {verdict}, closed: not available"})
+    else:  # the new result changed the type to one a retry cannot help (link in bio, paywalled...)
+        entry["status"] = "open"
+        entry["next_retry"] = None
+        entry["history"].append({"at": stamp, "event": f"{label}: still {verdict}, now {entry['type']}"})
+
+
+def read_result(shortcode: str) -> dict:
+    try:
+        return json.loads(RESEARCH_FILE.read_text()).get(shortcode) or {}
+    except (OSError, ValueError):
+        return {}
+
+
+def run_research(shortcode: str, kind: str) -> int:
+    """One research.py run for one post. Its own output goes to the pipeline log."""
+    cmd = [sys.executable, str(HERE / "research.py"), "--shortcode", shortcode, "--redo"]
+    if kind == "deep":
+        cmd += ["--deep", "--model", DEEP_MODEL, "--timeout", str(DEEP_TIMEOUT)]
+    return subprocess.run(cmd, cwd=HERE).returncode
+
+
+def retry_due(limit: int, log=print, run=run_research) -> dict:
+    """Research up to `limit` due posts again. Returns counts; `limited` is set when Claude is at its usage limit."""
+    counts = {"tried": 0, "resolved": 0, "still_stuck": 0, "failed": 0, "limited": False}
+    with locked():
+        queue = [(e["shortcode"], retry_kind(e)) for e in due(load())][:max(limit, 0)]
+    for shortcode, kind in queue:
+        before = read_result(shortcode)
+        log(f"  Dead end {'second look' if kind == 'deep' else 'retry'}: {shortcode}")
+        code = run(shortcode, kind)
+        if code == LIMIT_EXIT:
+            counts["limited"] = True
+            break
+        after = read_result(shortcode)
+        failed = code != 0
+        if not failed and after == before:
+            log("  Research did not run (another research.py holds the lock); retries wait for the next run")
+            break
+        with locked():
+            entries = load()
+            entry = find(entries, shortcode, "research")
+            if entry:
+                record_attempt(entry, kind, after, failed)
+                save(entries)
+        counts["tried"] += 1
+        counts["failed" if failed else "resolved" if entry and entry["status"] == "resolved" else "still_stuck"] += 1
+    return counts
+
+
 # ---------------------------------------------------------------- vault notes
 
 
@@ -410,7 +537,14 @@ def entry_lines(entry: dict) -> list[str]:
     if entry.get("covered_by"):
         codes = ", ".join(f"`{c['shortcode']}` ({c['relation']})" for c in entry["covered_by"])
         lines.append(f"\t* Already saved: {codes}")
-    if entry.get("next_retry") and entry["status"] in OPEN:
+    if entry.get("attempts"):
+        last = entry["attempts"][-1]
+        what = "second look" if last["kind"] == "deep" else f"retry {len(entry['attempts'])}"
+        lines.append(f"\t* Tried again: {last['at'][:10]} ({what}), result: {str(last['verdict']).replace('_', ' ')}")
+    kind = retry_kind(entry)
+    if kind == "deep":
+        lines.append("\t* Next: a deeper second look, on one of the next pipeline runs")
+    elif kind and entry.get("next_retry"):
         lines.append(f"\t* Next automatic retry: {entry['next_retry']}")
     lines.append(f"\t* Link: {entry.get('received_link') or ''}".rstrip())
     return lines
@@ -421,11 +555,14 @@ def note_text(entries: list, list_name: str, created: str) -> str:
     title = VAULT_NOTES[list_name]
     open_count = sum(e["status"] in OPEN for e in mine)
     if list_name == "comment_to_get":
-        intro = ("Posts where the creator only sends the resource after a comment or DM. Automatic comments will "
-                 "work through the queue (not built yet); anything that fails moves to Needs you.")
+        intro = ("Posts where the creator only sends the resource after a comment or DM. comment_gated.py follows the "
+                 "account and comments the keyword, then sends you a Telegram message: open the DM on your phone, tap "
+                 "the button, and paste what you got after `Link:` here. Anything that fails moves to Needs you.")
     else:
         intro = ("Every other post the pipeline or research could not finish: a stage failed, or research found "
-                 "nothing. Posts that may go public later are retried automatically (3 days, then 20 days).")
+                 f"nothing. Not found posts are researched again after {RETRY_DAYS[0]} days, then {RETRY_DAYS[1]} days later, "
+                 "then closed. Posts that never name the tool, or have almost no text, get one deeper second look "
+                 "(more frames, a better model) and then move to Needs you.")
     out = [
         "---", f"name: {title}", f"created: {created}", "---", "",
         "#instaLearning #todo", "",
@@ -448,9 +585,10 @@ def note_text(entries: list, list_name: str, created: str) -> str:
             groups = [(STATUS_LABELS[st], [e for e in part if e["status"] == st]) for st in STATUS_ORDER]
         else:
             done = ("received", "closed")
-            groups = [(f"Needs you: {TYPE_LABELS.get(t, t)}" if any(e["status"] == "needs_you" for e in part if e["type"] == t)
-                       else TYPE_LABELS.get(t, t),
-                       [e for e in part if e["type"] == t and e["status"] not in done]) for t in TYPE_LABELS]
+            groups = [(f"Needs you: {TYPE_LABELS.get(t, t)}", [e for e in part if e["type"] == t and e["status"] == "needs_you"])
+                      for t in TYPE_LABELS]
+            groups += [(TYPE_LABELS.get(t, t), [e for e in part if e["type"] == t and e["status"] not in (*done, "needs_you")])
+                       for t in TYPE_LABELS]
             groups += [(STATUS_LABELS[st], [e for e in part if e["status"] == st]) for st in done]
         for heading, group in groups:
             if not group:
@@ -491,7 +629,16 @@ def summary(entries: list | None = None) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--list", action="store_true", help="Print each open entry after syncing.")
+    parser.add_argument("--due", action="store_true", help="Print the posts whose retry is due. Runs nothing.")
+    parser.add_argument("--retry", type=int, metavar="N", help="Run up to N due retries now (uses Claude), then sync.")
     args = parser.parse_args()
+    if args.due:
+        for e in due(load()):
+            print(f"{e['shortcode']:12} {retry_kind(e):5} {e['type']:11} {'focus ' if e.get('focus') else ''}"
+                  f"due {e.get('next_retry')}  {e.get('title') or ''}")
+        return 0
+    if args.retry:
+        print(f"Retries: {retry_due(args.retry)}")
     counts = sync()
     entries = load()
     print(f"Synced {DEAD_ENDS_FILE}: {counts}")

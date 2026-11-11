@@ -17,6 +17,7 @@ import json
 import logging
 import os
 import re
+import shutil
 import subprocess
 import sys
 from datetime import datetime
@@ -148,6 +149,19 @@ CLAUDE_SCHEMA = json.dumps({
     },
     "required": ["verdict", "verdict_reason", "resources", "vault_notes", "ig_posts", "steps", "not_found"],
 })
+# The deeper second look (--deep), for posts where the first pass could not name the tool or had almost no text.
+DEEP_FRAMES = 12  # frames spread over each video, instead of describe.py's 3
+DEEP_MAX_IMAGES = 16
+DEEP_DIR = OUTPUT_DIR / "deep_frames"
+DEEP_ASK = (
+    "SECOND LOOK: an earlier pass on this post found nothing, because the post never names the tool or has almost "
+    "no text. Before step 1, Read every image listed here and look for anything that identifies the resource: "
+    "app or site names, logos, watermarks, window titles, URLs, usernames, file names, repo names, menu labels.\n"
+    "{images}\n"
+    "Then also open the creator's public pages (their site or link page, GitHub, YouTube, X), since the name may be "
+    "there. If the images show a recognizable interface, name the tool only when the match is clear, and say which "
+    "image showed it. The earlier result was:\n{earlier}\n\n"
+)
 VERDICT_LABELS = {
     "valid": "Valid",
     "partly_valid": "Partly valid",
@@ -174,6 +188,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--limit", type=int, default=None, help="Research at most N posts, newest first.")
     parser.add_argument("--redo", action="store_true", help="Research posts again even if the note already has a Research section.")
     parser.add_argument("--model", default="sonnet", help="Model for `claude -p --model`. Default: sonnet.")
+    parser.add_argument("--deep", action="store_true",
+                        help=f"Second look: also give Claude {DEEP_FRAMES} frames per video and the post's images, and "
+                             "have it check the creator's pages. Use with --shortcode and --redo (dead_ends.py does).")
     parser.add_argument("--timeout", type=int, default=CLAUDE_TIMEOUT, help=f"Seconds per post. Default: {CLAUDE_TIMEOUT}.")
     parser.add_argument("--dry-run", action="store_true", help="List the posts and their vault hints, then stop.")
     return parser.parse_args()
@@ -225,6 +242,29 @@ def extra_text(folder: Path) -> dict:
     def read(pattern: str) -> str:
         return "\n".join(p.read_text(encoding="utf-8", errors="ignore").strip() for p in sorted(folder.glob(pattern)))
     return {"transcript": read("*_transcript.txt"), "on screen text": read("*_ocr.txt")}
+
+
+def deep_images(folder: Path, shortcode: str) -> list:
+    """Images for the second look: the post's own photos, plus DEEP_FRAMES frames spread over each video."""
+    images = [p for p in sorted(folder.iterdir())
+              if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp") and "_frame" not in p.stem]
+    out_dir = DEEP_DIR / shortcode
+    for video in sorted(folder.glob("*.mp4")):
+        try:
+            probe = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                    str(video)], capture_output=True, text=True, timeout=60)
+            duration = float(probe.stdout.strip())
+        except (OSError, ValueError, subprocess.TimeoutExpired):
+            continue
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for n in range(1, DEEP_FRAMES + 1):
+            out = out_dir / f"{video.stem[:40]}_deep_{n:02}.jpg"
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{duration * (2 * n - 1) / (2 * DEEP_FRAMES):.2f}",
+                            "-i", str(video), "-frames:v", "1", "-q:v", "3", "-vf", "scale='min(1280,iw)':-2", str(out)],
+                           capture_output=True, timeout=120)
+            if out.exists():
+                images.append(out)
+    return images[:DEEP_MAX_IMAGES]
 
 
 def topic_shortcodes(slugs: list) -> set:
@@ -307,7 +347,7 @@ def claude_prompt(note_text: str, extra: dict, hints: list, vault, shortcode: st
     return f"{body}\n\n{vault_part}\n\n{ig_part}\n\n{CLAUDE_ASK}"
 
 
-def ask_claude(prompt: str, folder: Path, vault, model: str, timeout: int) -> dict:
+def ask_claude(prompt: str, folder: Path, vault, model: str, timeout: int, extra_dir: "Path | None" = None) -> dict:
     """The research result, the model id and the cost, from one headless `claude -p` run on the subscription login."""
     cmd = [
         "claude", "-p", prompt,
@@ -322,6 +362,8 @@ def ask_claude(prompt: str, folder: Path, vault, model: str, timeout: int) -> di
     if vault:
         cmd += ["--add-dir", str(vault)]
     cmd += ["--add-dir", str(IG_DIR)]  # the other saved posts, for ig_posts
+    if extra_dir:
+        cmd += ["--add-dir", str(extra_dir)]  # the second look's frames
     out = subprocess.run(cmd, cwd=folder, capture_output=True, text=True, timeout=timeout)
     try:
         result = json.loads(out.stdout)
@@ -473,7 +515,7 @@ def main() -> int:
             logger.info("Another research.py run is going; leaving these posts to it")
             return 0
     vault = find_vault(args.vault)
-    logger.info(f"=== research.py (model {args.model}, vault {vault or 'none'}{', limit ' + str(args.limit) if args.limit else ''})")
+    logger.info(f"=== research.py (model {args.model}, vault {vault or 'none'}{', limit ' + str(args.limit) if args.limit else ''}{', second look' if args.deep else ''})")
 
     notes = post_notes(args.ig_dir)
     if args.shortcode:
@@ -503,19 +545,35 @@ def main() -> int:
             continue
         prompt = claude_prompt(RESEARCH_RE.sub("", text), extra_text(note.parent), hints, vault, shortcode,
                                note.parent.name)
+        frames_dir = None
+        if args.deep:
+            images = deep_images(note.parent, shortcode)
+            frames_dir = DEEP_DIR / shortcode if (DEEP_DIR / shortcode).is_dir() else None
+            earlier = results.get(shortcode) or {}
+            prompt = DEEP_ASK.format(
+                images="\n".join(f"* {p}" for p in images) or "* no images or video in the folder",
+                earlier=(earlier.get("not_found") or earlier.get("verdict_reason") or "not recorded")[:1500]) + prompt
         try:
-            answer = ask_claude(prompt, note.parent, vault, args.model, args.timeout)
+            answer = ask_claude(prompt, note.parent, vault, args.model, args.timeout, frames_dir)
         except ClaudeLimit as exc:
+            shutil.rmtree(frames_dir, ignore_errors=True) if frames_dir else None
             logger.warning(f"Claude usage limit reached ({exc}); {len(notes) - done - failed} posts left for the next run")
             save_results(results)
             return CLAUDE_LIMIT_EXIT
         except Exception as exc:  # noqa: BLE001
             failed += 1
+            shutil.rmtree(frames_dir, ignore_errors=True) if frames_dir else None
+            logger.warning(f"  ✗ {shortcode} {str(exc)[:200]}")
+            if results.get(shortcode, {}).get("verdict"):
+                continue  # a redo that failed keeps the earlier result, which still matches the note
             results[shortcode] = {"error": str(exc)[:300], "checked_at": datetime.now().strftime("%Y-%m-%d")}
             save_results(results)
             track_dead_end(shortcode, results[shortcode])
-            logger.warning(f"  ✗ {shortcode} {str(exc)[:200]}")
             continue
+        if frames_dir:
+            shutil.rmtree(frames_dir, ignore_errors=True)
+        if args.deep:
+            answer["deep"] = True
         checked = datetime.now().strftime("%Y-%m-%d")
         answer["ig_posts"] = merge_ig_posts(answer, shortcode, results, posts)
         note.write_text(with_research(note.read_text(encoding="utf-8"), render_section(answer, checked, posts)),

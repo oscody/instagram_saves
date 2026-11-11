@@ -499,10 +499,21 @@ python3 accounts.py           # writes knowledge_library/Account index.md and ac
 python3 accounts.py --print   # top 25 accounts in the terminal, no files written
 ```
 
-The index has four tables: best sources (3 or more saves, ranked by the share of Valid or Partly valid posts),
+The index has six tables: best sources (3 or more saves, ranked by the share of Valid or Partly valid posts),
 saving more lately (2 or more saves in the last 90 days), mostly promo or not valid (candidates to stop saving
-from), and every account with 2 or more saves. Single save accounts are only in `accounts.json`. Both files are
-tracked in git (see `.gitignore`), so the Pi gets them on pull.
+from), mostly comment to get it, saved for fun, and every account with 2 or more saves. Single save accounts are
+only in `accounts.json`. Both files are tracked in git (see `.gitignore`), so the Pi gets them on pull.
+
+Changed 2026-11-10:
+
+* **Useful** leaves out "Nothing to find" posts (music, comedy, personal). They are counted in a **Fun** column
+  instead, so an entertainment account is no longer scored as a bad source. Mostly promo also leaves them out.
+* **Comment to get it** counts an account's posts that are open research dead ends in `output/dead_ends.json`
+  (list `comment_to_get`), read only. **Mostly comment to get it** lists accounts with 2 or more such posts making
+  up half or more of what they promised: saving them rarely gets you the thing. `accounts.json` also has
+  `not_found` (open dead ends in the `other` list).
+* **Saved for fun** lists accounts where most saves had nothing to find.
+* `run_pipeline.py` reruns it at the end of every run, so the index never goes out of date.
 
 ## Dead ends: `dead_ends.py` (added 2026-11-10)
 
@@ -513,7 +524,7 @@ Two lists share the file, told apart by `list`:
 * `comment_to_get`: the creator only sends the resource after a comment or DM. `keyword` holds the word to comment (pulled from the caption, then the transcript and on screen text; fancy bold letters are turned back into plain ones). Statuses: `queued`, `commented_waiting`, `received`, `needs_you` (keyword unclear, or automation failed), `closed`, `resolved`.
 * `other`: a stage failed (`download_failed`, `transcribe_failed`, `describe_failed`, or `gone` for a deleted or private post), research failed (`research_failed`), or research found nothing: `not_found`, `unnamed`, `thin_input`, `paywalled`, `link_in_bio`, `in_comments`. Statuses: `open`, `retrying`, `needs_you`, `closed`, `resolved`.
 
-Each entry is one post and stage, with `reason`, `focus` (in a Focus topic), `covered_by` (saved posts research found with the same or a similar resource), `next_retry` (research types that may go public later: 3 days, then 20), `attempts` and `history`.
+Each entry is one post and stage, with `reason`, `focus` (in a Focus topic), `covered_by` (saved posts research found with the same or a similar resource), `next_retry`, `attempts` (one record per retry: when, kind, verdict, model, cost) and `history`.
 
 How entries get there:
 
@@ -534,9 +545,33 @@ The Telegram status has a `### Dead ends` section (`dead_ends_section()` in `sta
 * Today: 108 added, 0 resolved | Retries: next on 2026-11-13 (30 posts)
 ```
 
-**Vault lists** (added 2026-11-10): every sync rebuilds two vault notes in `ZAIHub/Vault knowledge library/`: `IG dead ends - comment to get it` (grouped by status) and `IG dead ends - other` (grouped by type), Focus topics first, then everything else. Each post has a checkbox and a `Link:` line. Before rebuilding, the sync reads your answers: a link after `Link:` makes the entry `received` (kept in `received_link`), a ticked box with no link makes it `closed`. A note is only rewritten when its content changed. The vault is `IG_VAULT`, else the first of the same folders `research.py` checks.
+**Vault lists** (added 2026-11-10): every sync rebuilds two vault notes in `ZAIHub/Vault knowledge library/deadends/`: `IG dead ends - comment to get it` (grouped by status) and `IG dead ends - other` (grouped by type), Focus topics first, then everything else. Each post has a checkbox and a `Link:` line. Before rebuilding, the sync reads your answers: a link after `Link:` makes the entry `received` (kept in `received_link`), a ticked box with no link makes it `closed`. A note is only rewritten when its content changed. The vault is `IG_VAULT`, else the first of the same folders `research.py` checks.
 
-Not built yet: the automatic comments and the retries.
+**Retries** (added 2026-11-10): `run_pipeline.py` researches up to 2 due dead ends again once per run, after research (`--retry-batch N`, `0` turns it off). No Instagram requests. Skipped while Claude is at its usage limit. Focus topics go first.
+
+* `not_found`: `research.py --redo` again 3 days after the post was added, then 20 days after that retry (`RETRY_DAYS`). Still nothing after the second retry: `closed`.
+* `unnamed` and `thin_input`: one deeper second look, not tied to a date: `research.py --redo --deep --model opus`. `--deep` cuts 12 frames from each video (3 in the normal describe step), adds the post's own images, has Claude read them for names, logos, URLs and window titles, and has it open the creator's pages. The frames go to `output/deep_frames/<shortcode>/` and are deleted after. Still nothing: `needs_you`.
+* A retry that finds the resource resolves the entry. One that shows the post is gated moves it to the comment list.
+* A retry that crashes or times out is tried again (twice) before it counts. A usage limit, or another `research.py` holding the lock, does not count. A redo that fails keeps the earlier result in `research.json`.
+* By hand: `python3 dead_ends.py --due` (what is due, runs nothing) and `python3 dead_ends.py --retry 3` (run up to 3 now).
+* Tests, offline: `python3 -m unittest tests.test_dead_ends`.
+
+**Automatic comments: `comment_gated.py`** (added 2026-11-10, not in the pipeline yet). For `queued` posts on the `comment_to_get` list. A test by hand showed the creator's DM comes with buttons that only show in the phone app, so the machine does the follow and the comment, and a person finishes in the DM.
+
+* One run, at most one post (Focus topics first): opens `instagram.com/p/<shortcode>/` in headless Firefox on a throwaway copy of the profile (`open_firefox` from `export_chat_browser.py`), follows the account if needed, types the keyword and posts it, then checks that a comment by `djboglemusic` (the logged in account) with that text shows.
+* Then the entry becomes `commented_waiting` (`commented_at`), and a Telegram message goes out through Hermes: the account, the keyword, the post link, and "open the DM on your phone and tap the button". You paste the link after `Link:` in the vault list and the sync makes it `received`.
+* If your account already commented the keyword by hand, nothing is posted again; the entry still becomes `commented_waiting` and you get the Telegram message.
+* Follow ups, no Instagram requests: one Telegram reminder after 3 days without a link, `needs_you` after 7.
+* Limits: 2 or 3 comments a day (picked per day), 9:00 to 21:00 only, at least 90 minutes apart, and a run only comments half the time so the times vary. Comments are recorded in `output/comment_state.json`.
+* Safety stop: a login page, a challenge, an Instagram warning, a Follow button that does not change, a missing comment box or a comment that does not show up writes `output/COMMENT_PAUSED` (7 days) and sends a Telegram alert. It also does nothing while `output/BLOCKED`, `LOGGED_OUT` or `PAUSED` exists, and it takes `pipeline.lock` so it never overlaps a pipeline run. A gone post or closed comments only moves that post to `needs_you`.
+* A screenshot of every run is kept in `output/comment_shots/` (newest 40).
+* Commands (venv Python, it needs selenium): `comment_gated.py --status` (no Instagram requests), `--probe CODE` (opens the post, clicks nothing), `--shortcode CODE --now` (comment on this post now), `--resume` (lift the pause).
+* Tests, offline: `python -m unittest tests.test_comment_gated`.
+* **Which account:** Firefox is logged into `@djboglemusic` (`OWN_USERNAME`), not the main account `@iambogle` (`MAIN_USERNAME`). So the follows and comments come from `@djboglemusic`, and the creator's DM lands in that account's inbox. If `@iambogle` already commented the keyword by hand, nothing is posted and the DM to check is in `@iambogle`.
+* Tested 2026-11-10: the probe; the already commented path on `DdWt-Y6x2Y9`; and one real run on `DecEOALjiQc` (`PHYSICAL`, @brochbuilds). The follow and the comment went through, but the check looked for a comment by `iambogle`, did not find it, and paused commenting by mistake. Fixed (it now looks for `djboglemusic`) and the pause was lifted. The fixed check has not yet been through a real comment, so it is not hooked into `run_pipeline.py`.
+* A failed Telegram send is tried once more after 20 seconds.
+
+Not built yet: the adb phone that taps the DM buttons, and using a link you pasted (`received_link`) to finish the post's research.
 
 ## Run everything: `run_pipeline.py`
 

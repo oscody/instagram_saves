@@ -598,14 +598,15 @@ def render_digest(chosen: dict, updates: list, profile: dict, today: str, checke
     else:
         lines += [f"# Interest digest {today}", ""]
     lines += [f"Checked {checked} new items from the sources in `profile.json`. Picked by {model}.",
-              "Tick a pick if you would have saved it. `score.py` reads the ticks.", ""]
+              "Tick **Would save** under a pick if you would have saved it. `score.py` reads the ticks.", ""]
     for topic in profile["topics"]:
         lines += [f"### {topic['name']}", ""]
         picks = chosen.get(topic["slug"]) or []
         if not picks:
             lines += ["Nothing you would have saved this week.", ""]
         for p in picks:
-            lines += [f"* [ ] **{p['name']}**: {p['what']}", f"\t* Why you would care: {p['why']}",
+            # The checkbox is a sub item, so ticking it does not cross out the pick's title in Obsidian.
+            lines += [f"* **{p['name']}**: {p['what']}", "\t* [ ] Would save", f"\t* Why you would care: {p['why']}",
                       f"\t* {web_link(p['title'], p['url'])}", f"\t* Found via {p['source']}", ""]
     if updates:
         lines += ["### Tools you use", ""]

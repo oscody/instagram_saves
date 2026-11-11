@@ -4,7 +4,7 @@
   "list": "comment_to_get",
   "stage": "research",
   "type": "gated",
-  "status": "queued",
+  "status": "commented_waiting",
   "reason": "The two prompts (the audit prompt that builds my_questions.txt with a REPEATS column, and the repeat-finder prompt). They are sent only via a \"time\" comment or DM. I did not check the creator's Instagram profile or any link in bio.",
   "keyword": "time",
   "focus": true,
@@ -15,13 +15,18 @@
   "next_retry": null,
   "attempts": [],
   "added_at": "2026-11-10T18:38:31-05:00",
-  "updated_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T20:09:47-05:00",
   "history": [
    {
     "at": "2026-11-10T18:38:31-05:00",
     "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T20:09:47-05:00",
+    "event": "you already commented 'time' on this post; nothing posted again"
    }
-  ]
+  ],
+  "commented_at": "2026-11-10T20:09:47-05:00"
  },
  {
   "shortcode": "DawXrcisz6U",
@@ -84,7 +89,7 @@
   "list": "comment_to_get",
   "stage": "research",
   "type": "gated",
-  "status": "queued",
+  "status": "received",
   "reason": "A public copy of Sabrina Ramonov's 120+ Claude Code directory. I didn't check whether the 120+ items are free or well organized, since I couldn't see the list.",
   "keyword": "HAMMER",
   "focus": true,
@@ -95,13 +100,22 @@
   "next_retry": null,
   "attempts": [],
   "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T19:22:01-05:00",
   "history": [
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T19:12:42-05:00",
+    "event": "commented by you (HAMMER), test for step 3; the DM has a button that only shows in the phone app"
+   },
+   {
+    "at": "2026-11-10T19:22:01-05:00",
+    "event": "received by you: https://www.ayautomate.com/resources/claude-code-challenge/day-18"
    }
-  ]
+  ],
+  "received_link": "https://www.ayautomate.com/resources/claude-code-challenge/day-18"
  },
  {
   "shortcode": "DeWr8XPjXTJ",
@@ -115,30 +129,6 @@
   "url": "https://instagram.com/p/DeWr8XPjXTJ/",
   "author": "booksopedia_",
   "title": "4 Dangerous Books To Desexualize Your Mind",
-  "covered_by": [],
-  "next_retry": null,
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:31-05:00",
-  "updated_at": "2026-11-10T18:38:31-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:31-05:00",
-    "event": "added: gated"
-   }
-  ]
- },
- {
-  "shortcode": "DecEOALjiQc",
-  "list": "comment_to_get",
-  "stage": "research",
-  "type": "gated",
-  "status": "queued",
-  "reason": "The guide itself. It is delivered by comment/DM (\"PHYSICAL\") on brochbuilds' post. No vault note mentions the creator or the post, and one web search found no public repo or page.",
-  "keyword": "PHYSICAL",
-  "focus": false,
-  "url": "https://instagram.com/reel/DecEOALjiQc/",
-  "author": "brochbuilds",
-  "title": "Raspberry Pi physical AI demos with Claude Code",
   "covered_by": [],
   "next_retry": null,
   "attempts": [],
@@ -1736,6 +1726,40 @@
   ]
  },
  {
+  "shortcode": "DecEOALjiQc",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "received",
+  "reason": "The guide itself. It is delivered by comment/DM (\"PHYSICAL\") on brochbuilds' post. No vault note mentions the creator or the post, and one web search found no public repo or page.",
+  "keyword": "PHYSICAL",
+  "focus": false,
+  "url": "https://instagram.com/reel/DecEOALjiQc/",
+  "author": "brochbuilds",
+  "title": "Raspberry Pi physical AI demos with Claude Code",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T20:29:36-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T20:23:10-05:00",
+    "event": "commented 'PHYSICAL' as @djboglemusic, followed the account first (first real test; the check looked for the wrong account name, fixed)"
+   },
+   {
+    "at": "2026-11-10T20:29:36-05:00",
+    "event": "received by you: https://brochbuilds.com/physical"
+   }
+  ],
+  "commented_at": "2026-11-10T20:20:30-05:00",
+  "received_link": "https://brochbuilds.com/physical"
+ },
+ {
   "shortcode": "Deeq-JZMlJi",
   "list": "other",
   "stage": "research",
@@ -1880,30 +1904,6 @@
   ]
  },
  {
-  "shortcode": "DeJ8u0YCJCE",
-  "list": "other",
-  "stage": "research",
-  "type": "thin_input",
-  "status": "open",
-  "reason": "The tool's download or project page. Two web searches for \"fominyu\" returned nothing relevant, and the vault has no mention. The creator's Instagram profile (@fominyu) bio may link to it, but I couldn't open it. It may be unreleased and only a work-in-progress demo, since the caption asks for support for future updates.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/DeJ8u0YCJCE/",
-  "author": "fominyu",
-  "title": "Local video mocap tool v0.6 demo",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:31-05:00",
-  "updated_at": "2026-11-10T18:38:31-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:31-05:00",
-    "event": "added: thin_input"
-   }
-  ]
- },
- {
   "shortcode": "DeLV__fgBXu",
   "list": "other",
   "stage": "research",
@@ -1924,30 +1924,6 @@
    {
     "at": "2026-11-10T18:38:31-05:00",
     "event": "added: not_found"
-   }
-  ]
- },
- {
-  "shortcode": "Dd3rvh8sgln",
-  "list": "other",
-  "stage": "research",
-  "type": "unnamed",
-  "status": "open",
-  "reason": "The emulator or tool the creator used (rosamichael.digital doesn't name it in the caption or the description). I didn't open the creator's profile, so the name may be in comments or a pinned post. I didn't verify any ripping tool. Ninja Ripper and RenderDoc are only guesses at the kind of tool involved. Any ripped Tekken 3, Hercules or Crash assets are copyrighted.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/Dd3rvh8sgln/",
-  "author": "rosamichael.digital",
-  "title": "Putting myself inside PS1 games with Blender",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:31-05:00",
-  "updated_at": "2026-11-10T18:38:31-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:31-05:00",
-    "event": "added: unnamed"
    }
   ]
  },
@@ -2140,30 +2116,6 @@
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "added: not_found"
-   }
-  ]
- },
- {
-  "shortcode": "Db_p3j0p1kb",
-  "list": "other",
-  "stage": "research",
-  "type": "unnamed",
-  "status": "open",
-  "reason": "The storyverse.store product page and the projector's name, price and specs. The WebFetch of storyverse.store failed with an SSL handshake error. Searches returned only generic children's storybook projectors. It is also unclear how the projector gets a book's pages (an ebook or screen cast, or a camera on a physical book). The caption doesn't say. The Yule Ball illustration suggests an ebook or a",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/Db_p3j0p1kb/",
-  "author": "storyverse.store",
-  "title": "Project your book onto the wall",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "added: unnamed"
    }
   ]
  },
@@ -2658,6 +2610,126 @@
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "Dd3rvh8sgln",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "resolved",
+  "reason": "The emulator or tool the creator used (rosamichael.digital doesn't name it in the caption or the description). I didn't open the creator's profile, so the name may be in comments or a pinned post. I didn't verify any ripping tool. Ninja Ripper and RenderDoc are only guesses at the kind of tool involved. Any ripped Tekken 3, Hercules or Crash assets are copyrighted.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Dd3rvh8sgln/",
+  "author": "rosamichael.digital",
+  "title": "Putting myself inside PS1 games with Blender",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-10T20:16:22-05:00",
+    "kind": "deep",
+    "verdict": "partly_valid",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.561242
+   }
+  ],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T20:16:22-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: unnamed"
+   },
+   {
+    "at": "2026-11-10T20:16:22-05:00",
+    "event": "resolved: verdict partly_valid"
+   },
+   {
+    "at": "2026-11-10T20:16:22-05:00",
+    "event": "second look: partly_valid"
+   }
+  ]
+ },
+ {
+  "shortcode": "DeJ8u0YCJCE",
+  "list": "other",
+  "stage": "research",
+  "type": "thin_input",
+  "status": "resolved",
+  "reason": "The tool's download or project page. Two web searches for \"fominyu\" returned nothing relevant, and the vault has no mention. The creator's Instagram profile (@fominyu) bio may link to it, but I couldn't open it. It may be unreleased and only a work-in-progress demo, since the caption asks for support for future updates.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeJ8u0YCJCE/",
+  "author": "fominyu",
+  "title": "Local video mocap tool v0.6 demo",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-10T18:52:45-05:00",
+    "kind": "deep",
+    "verdict": "valid",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.5541503000000001
+   }
+  ],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-10T18:52:45-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: thin_input"
+   },
+   {
+    "at": "2026-11-10T18:52:45-05:00",
+    "event": "resolved: verdict valid"
+   },
+   {
+    "at": "2026-11-10T18:52:45-05:00",
+    "event": "second look: valid"
+   }
+  ]
+ },
+ {
+  "shortcode": "Db_p3j0p1kb",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "resolved",
+  "reason": "The storyverse.store product page and the projector's name, price and specs. The WebFetch of storyverse.store failed with an SSL handshake error. Searches returned only generic children's storybook projectors. It is also unclear how the projector gets a book's pages (an ebook or screen cast, or a camera on a physical book). The caption doesn't say. The Yule Ball illustration suggests an ebook or a",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/Db_p3j0p1kb/",
+  "author": "storyverse.store",
+  "title": "Project your book onto the wall",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-10T20:17:31-05:00",
+    "kind": "deep",
+    "verdict": "promo",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.45543120000000004
+   }
+  ],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T20:17:31-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   },
+   {
+    "at": "2026-11-10T20:17:31-05:00",
+    "event": "resolved: verdict promo"
+   },
+   {
+    "at": "2026-11-10T20:17:31-05:00",
+    "event": "second look: promo"
    }
   ]
  }
