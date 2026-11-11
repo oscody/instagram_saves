@@ -561,6 +561,8 @@ The Telegram status has a `### Dead ends` section (`dead_ends_section()` in `sta
 * One run, at most one post (Focus topics first): opens `instagram.com/p/<shortcode>/` in headless Firefox on a throwaway copy of the profile (`open_firefox` from `export_chat_browser.py`), follows the account if needed, types the keyword and posts it, then checks that a comment by `djboglemusic` (the logged in account) with that text shows.
 * Then the entry becomes `commented_waiting` (`commented_at`), and a Telegram message goes out through Hermes: the account, the keyword, the post link, and "open the DM on your phone and tap the button". You paste the link after `Link:` in the vault list and the sync makes it `received`.
 * If your account already commented the keyword by hand, nothing is posted again; the entry still becomes `commented_waiting` and you get the Telegram message.
+* **One comment per post, ever.** Only `queued` posts are commented on, and a comment makes the post `commented_waiting`, so it is never commented on again. The daily number counts different posts.
+* **Reading the reply** (`check_dms`, added 2026-11-10): later runs open the inbox once and read what the creator sent since the comment, from the page's data store. Plain text is read without opening the chat. A link card or buttons ("sent an attachment") only load inside the chat, so that chat is opened (at most 3 per look); the buttons are then in the data with their web addresses (`cta_buttons[].action_url`), so a "tap the button" reply is read without tapping. The first outside link (card link, then first button, then links in the text; tracking parts like `fbclid` removed) is saved as `received_link` and the post becomes `received`, with a Telegram message. If the creator asked something first (reply "yes", an email, a button that sends a message), you get one Telegram message with their words and it keeps checking. First look 15 minutes after the comment, then every 2 hours, 6 looks per post. Only for comments made by `@djboglemusic`. `--check-dms` runs just this.
 * Follow ups, no Instagram requests: one Telegram reminder after 3 days without a link, `needs_you` after 7.
 * Limits: 2 or 3 comments a day (picked per day), 9:00 to 21:00 only, at least 90 minutes apart, and a run only comments half the time so the times vary. Comments are recorded in `output/comment_state.json`.
 * Safety stop: a login page, a challenge, an Instagram warning, a Follow button that does not change, a missing comment box or a comment that does not show up writes `output/COMMENT_PAUSED` (7 days) and sends a Telegram alert. It also does nothing while `output/BLOCKED`, `LOGGED_OUT` or `PAUSED` exists, and it takes `pipeline.lock` so it never overlaps a pipeline run. A gone post or closed comments only moves that post to `needs_you`.
@@ -572,6 +574,55 @@ The Telegram status has a `### Dead ends` section (`dead_ends_section()` in `sta
 * A failed Telegram send is tried once more after 20 seconds.
 
 Not built yet: the adb phone that taps the DM buttons, and using a link you pasted (`received_link`) to finish the post's research.
+
+## Read the comments: `check_comments.py` (added 2026-11-11)
+
+Before a dead end is left to you, look where creators usually put the answer. Reads only: it clicks, types, likes and follows nothing. Plan: vault note `Plan - IG dead ends process by claude`, "Proposal: read the comments before Needs you".
+
+* **Which posts:** dead ends with status `needs_you`, and open "link in bio" and "in the comments" posts, Focus topics first. A post is checked once ("comments checked" in its history); `--again` checks again
+* **GitHub (free, no Instagram request):** the creator's handle (and variants like without dots) on GitHub; a repo sharing 2 or more words with the post is a find. This alone finds the @bytesofbree skill (`DawXrcisz6U`)
+* **Instagram (look only):** opens the post in the same headless Firefox profile copy as `comment_gated.py`, reads the creator's own comments (not the caption, which is compared with the saved one) and then the profile's bio links
+* **Result:** a long comment by the creator (a prompt, a list) is saved next to the post as `<code>_creator_comment.txt` and the post becomes Received; a link in the creator's comment, or a strong GitHub match, becomes Received; a comment keyword queues it for `comment_gated.py`; a bio link counts only for "link in bio" posts; weaker finds are kept as hints in the history. One Telegram message lists what was found
+* **Limits:** 3 posts a run, 6 a day, 9 AM to 9 PM; waits while commenting is paused or downloads are stopped. A real Instagram warning (in a pop up or alert, not text in the comments) pauses it and commenting for 7 days
+* **Not in the pipeline yet.** First run 2026-11-11: of 3 posts read, one had the full prompt in the creator's comment, one had the comment word in the caption, one had nothing
+
+```bash
+python check_comments.py --list            # which posts would be checked, no requests
+python check_comments.py --github-only     # GitHub only, every post
+python check_comments.py                   # GitHub, then Instagram for up to 3 posts
+python check_comments.py --shortcode CODE  # one post now
+python check_comments.py --dry-run --debug # save nothing; write what the pages showed to output/check_comments_last.json
+python -m unittest tests.test_check_comments
+```
+
+## Telegram review loop: `ig_review.py` (added 2026-11-11)
+
+Sends one item at a time to Telegram (`hermes send`, no AI) so the playbook, the interest digest, the Focus topics and the dead ends actually get looked at. Plan in the vault: `ZAIHub/Vault knowledge library/Plan - Telegram review loop by claude.md`.
+
+| Time | Item | Id | Comes from |
+| --- | --- | --- | --- |
+| 5 AM, 9 PM | Playbook tip | P | The order of the vault note `IG playbook review sheet by claude` (coding agents first; move or delete lines to change it) |
+| 8 AM, 7 PM | Interest digest pick | D | Every digest note in `ZAIHub/Interest digest`, oldest note first |
+| 10 AM | Focus topics item | F | "Act on first" and "Next after that" in the Focus topics note |
+| 2 PM | Dead end that needs you | X | `output/dead_ends.json`, read only, Focus posts first |
+
+* **Playbook messages in plain words:** before a tip is sent, Haiku (`claude -p`, no tools) rewrites it as a short message: what it is, 3 steps, how much to trust it. Saved in `output/review_summaries.json` so a resend reads the same. If the call fails, a short version without AI is sent (`short_tip`)
+* **Answering:** reply to the message in Telegram with anything and the item is reviewed. `save` also ticks Would save in the digest note, `later` brings it back, and `try`, `doing`, `drop`, `skip` are recorded (and written next to the tip on the review sheet). A message that is not a reply counts only with a word and the id, like `reviewed P14`. Ticking in the vault (Would save, the review sheet) counts too
+* **How replies are read:** `ig_review.py check` (every 15 minutes, and before each send) reads your Telegram messages from `~/.hermes/state.db`, opened read only. Hermes is not changed and still answers your messages on its own. There is no Hermes skill (only if asked)
+* **No reply:** logged as "no reply" in `output/review_log.json`; the item comes back 3 days after it was last sent, and new items fill the days in between
+* **Tracking:** `output/review_queue.json` holds every item, its id, sends and answers. The vault note `IG review queue by claude` shows counts and what is waiting for a reply, rebuilt after every send and check
+
+```bash
+python3 ig_review.py send playbook --dry-run   # show the next message, send nothing
+python3 ig_review.py send digest               # check replies, then send the next digest pick
+python3 ig_review.py check                     # read new replies and vault ticks
+python3 ig_review.py answer "save D3"          # record an answer by hand
+python3 ig_review.py sheet                     # add new playbook tips to the review sheet
+python3 ig_review.py status
+python3 -m unittest tests.test_ig_review       # offline tests
+```
+
+Timers (`~/.config/systemd/user`): `ig-review-playbook.timer`, `ig-review-digest.timer`, `ig-review-focus.timer`, `ig-review-deadend.timer` start `ig-review@<kind>.service`; `ig-review-check.timer` runs the reply check. The scout bot runs from `interest-feed.timer` (Mondays 4 AM, `feed.py --vault`). Pause one with `systemctl --user stop ig-review-digest.timer`.
 
 ## Run everything: `run_pipeline.py`
 

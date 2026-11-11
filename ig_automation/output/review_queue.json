@@ -1,0 +1,168 @@
+{
+ "items": {
+  "playbook:CLAUDE.md: shared project context, layers and size": {
+   "id": "P1",
+   "kind": "playbook",
+   "key": "playbook:CLAUDE.md: shared project context, layers and size",
+   "title": "CLAUDE.md: shared project context, layers and size",
+   "status": "reviewed",
+   "sends": [
+    {
+     "at": "2026-11-11T04:42:46-05:00"
+    },
+    {
+     "at": "2026-11-11T05:08:35-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T05:15:53-05:00",
+     "word": "reviewed",
+     "text": "[Replying to: \"📘 P1 Playbook tip (again, sent 1 times before) (1 of 842) CLAUDE.md: shared project context What it is: A file that gives Claude Code shared project context at the start of every session. * Create CLAUDE.md where you launch Claude, or run /init * Add bash commands, common MCP tools...",
+     "source": "telegram"
+    }
+   ],
+   "added_at": "2026-11-11T04:42:40-05:00",
+   "answered_at": "2026-11-11T05:15:53-05:00"
+  },
+  "playbook:Claude Code first-run setup and shortcut commands": {
+   "id": "P2",
+   "kind": "playbook",
+   "key": "playbook:Claude Code first-run setup and shortcut commands",
+   "title": "Claude Code first-run setup and shortcut commands",
+   "status": "new",
+   "sends": [],
+   "replies": [],
+   "added_at": "2026-11-11T05:00:54-05:00"
+  },
+  "digest:https://mer.vin/2026/11/loop-engineering-build-an-ai-that-checks-itself-in-25-lines/": {
+   "id": "D1",
+   "kind": "digest",
+   "key": "digest:https://mer.vin/2026/11/loop-engineering-build-an-ai-that-checks-itself-in-25-lines/",
+   "title": "Loop engineering in 25 lines",
+   "status": "reviewed",
+   "sends": [
+    {
+     "at": "2026-11-11T05:19:01-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T05:24:35-05:00",
+     "word": "save",
+     "text": "save D1",
+     "source": "manual"
+    },
+    {
+     "at": "2026-11-11T05:30:04-05:00",
+     "word": "save",
+     "text": "[Replying to: \"📰 D1 Interest digest pick Loop engineering in 25 lines (Coding agent configuration and workflows, digest 2026-11-10) A short guide that builds a self-checking AI loop in 25 lines of open-source Python with PraisonAI, where a checker sends hints back until the answer passes or a lim...",
+     "source": "telegram"
+    }
+   ],
+   "added_at": "2026-11-11T05:18:55-05:00",
+   "answered_at": "2026-11-11T05:30:04-05:00"
+  },
+  "focus:Clean up your instruction files with `/doctor`": {
+   "id": "F1",
+   "kind": "focus",
+   "key": "focus:Clean up your instruction files with `/doctor`",
+   "title": "Clean up your instruction files with `/doctor`",
+   "status": "reviewed",
+   "sends": [
+    {
+     "at": "2026-11-11T05:35:51-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T05:39:10-05:00",
+     "word": "done",
+     "text": "done F1",
+     "source": "manual"
+    }
+   ],
+   "added_at": "2026-11-11T05:35:45-05:00",
+   "answered_at": "2026-11-11T05:39:10-05:00"
+  },
+  "deadend:DawXrcisz6U:research": {
+   "id": "X1",
+   "kind": "deadend",
+   "key": "deadend:DawXrcisz6U:research",
+   "title": "A Claude skill that updates your other skills",
+   "status": "reviewed",
+   "sends": [
+    {
+     "at": "2026-11-11T05:44:46-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T09:41:59-05:00",
+     "word": "reviewed",
+     "text": "reviewed X1",
+     "source": "manual"
+    },
+    {
+     "at": "2026-11-11T09:55:39-05:00",
+     "word": "reviewed",
+     "text": "reviewed X1 (found github.com/bytesofbree/skills-lab, note: repo - skills-lab - skill-debrief)",
+     "source": "manual"
+    }
+   ],
+   "added_at": "2026-11-11T05:44:41-05:00",
+   "answered_at": "2026-11-11T09:55:39-05:00"
+  },
+  "digest:https://www.reddit.com/r/ClaudeCode/comments/1xo6dfy/thanks_to_two_lines_in_the_claude_setting_i_was/": {
+   "id": "D2",
+   "kind": "digest",
+   "key": "digest:https://www.reddit.com/r/ClaudeCode/comments/1xo6dfy/thanks_to_two_lines_in_the_claude_setting_i_was/",
+   "title": "Claude Code auto-compact settings",
+   "status": "reviewed",
+   "sends": [
+    {
+     "at": "2026-11-11T08:00:58-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T09:20:26-05:00",
+     "word": "save",
+     "text": "save D2",
+     "source": "manual"
+    }
+   ],
+   "added_at": "2026-11-11T08:00:53-05:00",
+   "answered_at": "2026-11-11T09:20:26-05:00"
+  },
+  "focus:Then run the deeper audit, `/claude-api prompt-audit`": {
+   "id": "F2",
+   "kind": "focus",
+   "key": "focus:Then run the deeper audit, `/claude-api prompt-audit`",
+   "title": "Then run the deeper audit, `/claude-api prompt-audit`",
+   "status": "reviewed",
+   "sends": [
+    {
+     "at": "2026-11-11T10:01:05-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T10:41:13-05:00",
+     "word": "done",
+     "text": "done F2",
+     "source": "manual"
+    }
+   ],
+   "added_at": "2026-11-11T10:00:53-05:00",
+   "answered_at": "2026-11-11T10:41:13-05:00"
+  }
+ },
+ "next_number": {
+  "P": 3,
+  "D": 3,
+  "F": 3,
+  "X": 2
+ },
+ "replies_checked_until": 1794411660.0
+}

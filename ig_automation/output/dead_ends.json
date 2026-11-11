@@ -29,34 +29,6 @@
   "commented_at": "2026-11-10T20:09:47-05:00"
  },
  {
-  "shortcode": "DawXrcisz6U",
-  "list": "comment_to_get",
-  "stage": "research",
-  "type": "gated",
-  "status": "needs_you",
-  "reason": "I found no public copy of the creator's skill file. Searches on bytesofbree and the skill's behavior returned only generic session-end skills. I did not check the creator's Instagram profile, which may offer the file by comment or DM.",
-  "keyword": null,
-  "focus": true,
-  "url": "https://instagram.com/reel/DawXrcisz6U/",
-  "author": "bytesofbree",
-  "title": "A Claude skill that updates your other skills",
-  "covered_by": [],
-  "next_retry": null,
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "added: gated"
-   },
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "needs you: comment keyword unclear"
-   }
-  ]
- },
- {
   "shortcode": "DYMsOCuNr-z",
   "list": "comment_to_get",
   "stage": "research",
@@ -72,7 +44,7 @@
   "next_retry": null,
   "attempts": [],
   "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-11T11:02:42-05:00",
   "history": [
    {
     "at": "2026-11-10T18:38:32-05:00",
@@ -81,8 +53,46 @@
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "needs you: comment keyword unclear"
+   },
+   {
+    "at": "2026-11-11T11:02:42-05:00",
+    "event": "comments checked (GitHub and Instagram): nothing found"
    }
-  ]
+  ],
+  "comments_checked_at": "2026-11-11T11:02:42-05:00"
+ },
+ {
+  "shortcode": "DawXrcisz6U",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "received",
+  "reason": "I found no public copy of the creator's skill file. Searches on bytesofbree and the skill's behavior returned only generic session-end skills. I did not check the creator's Instagram profile, which may offer the file by comment or DM.",
+  "keyword": null,
+  "focus": true,
+  "url": "https://instagram.com/reel/DawXrcisz6U/",
+  "author": "bytesofbree",
+  "title": "A Claude skill that updates your other skills",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-11T10:20:58-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "needs you: comment keyword unclear"
+   },
+   {
+    "at": "2026-11-11T10:20:58-05:00",
+    "event": "received by you: https://github.com/bytesofbree/skills-lab"
+   }
+  ],
+  "received_link": "https://github.com/bytesofbree/skills-lab"
  },
  {
   "shortcode": "DXR9bVXAcce",
@@ -282,34 +292,6 @@
    {
     "at": "2026-11-10T18:38:31-05:00",
     "event": "added: gated"
-   }
-  ]
- },
- {
-  "shortcode": "DeNjir4xlrG",
-  "list": "comment_to_get",
-  "stage": "research",
-  "type": "gated",
-  "status": "needs_you",
-  "reason": "The creator's prompt for analyzing LinkedIn connections, and the name of the sales data tool. Both were probably shared by comment or DM, and I found no public copy.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/DeNjir4xlrG/",
-  "author": "angus.sewell",
-  "title": "Vibe-coding referral outreach by LinkedIn archetype",
-  "covered_by": [],
-  "next_retry": null,
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:31-05:00",
-  "updated_at": "2026-11-10T18:38:31-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:31-05:00",
-    "event": "added: gated"
-   },
-   {
-    "at": "2026-11-10T18:38:31-05:00",
-    "event": "needs you: comment keyword unclear"
    }
   ]
  },
@@ -588,6 +570,43 @@
     "event": "added: gated"
    }
   ]
+ },
+ {
+  "shortcode": "DeNjir4xlrG",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "queued",
+  "reason": "The creator's prompt for analyzing LinkedIn connections, and the name of the sales data tool. Both were probably shared by comment or DM, and I found no public copy.",
+  "keyword": "connect",
+  "focus": false,
+  "url": "https://instagram.com/reel/DeNjir4xlrG/",
+  "author": "angus.sewell",
+  "title": "Vibe-coding referral outreach by LinkedIn archetype",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-11T11:06:33-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "needs you: comment keyword unclear"
+   },
+   {
+    "at": "2026-11-11T11:04:03-05:00",
+    "event": "comments checked (GitHub and Instagram): the creator's comment has it (220 characters), saved in IG/2026-10-07_2040_DeNjir4xlrG/DeNjir4xlrG_creator_comment.txt"
+   },
+   {
+    "at": "2026-11-11T11:06:33-05:00",
+    "event": "check_comments fix: the saved text was the caption, not a comment. The caption says comment \"connect\", so queued for an automatic comment"
+   }
+  ],
+  "comments_checked_at": "2026-11-11T11:04:03-05:00"
  },
  {
   "shortcode": "DcfRe70MqjF",
@@ -1856,30 +1875,6 @@
   ]
  },
  {
-  "shortcode": "DeR8ZyWxve0",
-  "list": "other",
-  "stage": "research",
-  "type": "in_comments",
-  "status": "open",
-  "reason": "The creator's prompt (in the Instagram comments) and the dashboard behind the 50k to 3k token figures. Check the comments on the reel directly.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/DeR8ZyWxve0/",
-  "author": "joshuablatch",
-  "title": "Cutting Claude token costs by offloading work to Mac",
-  "covered_by": [],
-  "next_retry": null,
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:31-05:00",
-  "updated_at": "2026-11-10T18:38:31-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:31-05:00",
-    "event": "added: in_comments"
-   }
-  ]
- },
- {
   "shortcode": "Dc1LYenI7ik",
   "list": "other",
   "stage": "research",
@@ -2240,30 +2235,6 @@
   ]
  },
  {
-  "shortcode": "DbhUm2eMgMf",
-  "list": "other",
-  "stage": "research",
-  "type": "thin_input",
-  "status": "open",
-  "reason": "The ticket or event page behind the flyer's QR code, and any public listing of \"The Crowning of Anthony B\". Only an unrelated 2020/21 Anthony B show at the same venue came up. The vault has no matching notes; the two grep hits were unrelated.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/p/DbhUm2eMgMf/",
-  "author": "kongobrainz",
-  "title": "Crowning of Anthony B concert flyer, Queens",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "added: thin_input"
-   }
-  ]
- },
- {
   "shortcode": "Da-3ccGq7wF",
   "list": "other",
   "stage": "research",
@@ -2284,30 +2255,6 @@
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "added: not_found"
-   }
-  ]
- },
- {
-  "shortcode": "DYfGyy-Oh7V",
-  "list": "other",
-  "stage": "research",
-  "type": "unnamed",
-  "status": "open",
-  "reason": "The book's title, author and sale link are not in the post text or caption. A vault search for the shortcode and creator handle found nothing. The link is probably in the creator's bio or comments, which I couldn't see.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/DYfGyy-Oh7V/",
-  "author": "phillip.dealrrr.winnrrr",
-  "title": "Book pitch with finance questions and sale note",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "added: unnamed"
    }
   ]
  },
@@ -2384,30 +2331,6 @@
   ]
  },
  {
-  "shortcode": "DWS-ypWtEaG",
-  "list": "other",
-  "stage": "research",
-  "type": "unnamed",
-  "status": "open",
-  "reason": "The names or URLs of the free streaming/watch-party site and the viral-video analyzer. They appear only on screen or in the audio, and the transcript has no names. I found no vault notes and no matches for the creator. Check the reel's on-screen text or comments.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/reel/DWS-ypWtEaG/",
-  "author": "tiz8creates",
-  "title": "Three websites: streaming, viral remix, books",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "added: unnamed"
-   }
-  ]
- },
- {
   "shortcode": "DXzyt18y615",
   "list": "other",
   "stage": "research",
@@ -2452,30 +2375,6 @@
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "added: not_found"
-   }
-  ]
- },
- {
-  "shortcode": "DRlmtCpDqa4",
-  "list": "other",
-  "stage": "research",
-  "type": "unnamed",
-  "status": "open",
-  "reason": "The niche job sites the man mentions are not named in the transcript or caption. The caption only points to a TikTok account (Inwmediagroup), and I did not search for it. I found no vault notes on this post.",
-  "keyword": null,
-  "focus": false,
-  "url": "https://instagram.com/p/DRlmtCpDqa4/",
-  "author": "financialalerts",
-  "title": "Look for remote jobs on niche sites",
-  "covered_by": [],
-  "next_retry": "2026-11-13",
-  "attempts": [],
-  "added_at": "2026-11-10T18:38:32-05:00",
-  "updated_at": "2026-11-10T18:38:32-05:00",
-  "history": [
-   {
-    "at": "2026-11-10T18:38:32-05:00",
-    "event": "added: unnamed"
    }
   ]
  },
@@ -2614,6 +2513,37 @@
   ]
  },
  {
+  "shortcode": "DeR8ZyWxve0",
+  "list": "other",
+  "stage": "research",
+  "type": "in_comments",
+  "status": "received",
+  "reason": "The creator's prompt (in the Instagram comments) and the dashboard behind the 50k to 3k token figures. Check the comments on the reel directly.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DeR8ZyWxve0/",
+  "author": "joshuablatch",
+  "title": "Cutting Claude token costs by offloading work to Mac",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-10T18:38:31-05:00",
+  "updated_at": "2026-11-11T11:05:20-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:31-05:00",
+    "event": "added: in_comments"
+   },
+   {
+    "at": "2026-11-11T11:05:20-05:00",
+    "event": "comments checked (GitHub and Instagram): the creator's comment has it (1052 characters), saved in IG/2026-10-11_1008_DeR8ZyWxve0/DeR8ZyWxve0_creator_comment.txt"
+   }
+  ],
+  "received_link": "creator's comment, saved in IG/2026-10-11_1008_DeR8ZyWxve0/DeR8ZyWxve0_creator_comment.txt",
+  "received_from": "the creator's own comment",
+  "comments_checked_at": "2026-11-11T11:05:20-05:00"
+ },
+ {
   "shortcode": "Dd3rvh8sgln",
   "list": "other",
   "stage": "research",
@@ -2690,6 +2620,166 @@
    {
     "at": "2026-11-10T18:52:45-05:00",
     "event": "second look: valid"
+   }
+  ]
+ },
+ {
+  "shortcode": "DRlmtCpDqa4",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "resolved",
+  "reason": "The niche job sites the man mentions are not named in the transcript or caption. The caption only points to a TikTok account (Inwmediagroup), and I did not search for it. I found no vault notes on this post.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DRlmtCpDqa4/",
+  "author": "financialalerts",
+  "title": "Look for remote jobs on niche sites",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-11T08:15:48-05:00",
+    "kind": "deep",
+    "verdict": "partly_valid",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.3266303
+   }
+  ],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-11T08:15:48-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   },
+   {
+    "at": "2026-11-11T08:15:48-05:00",
+    "event": "resolved: verdict partly_valid"
+   },
+   {
+    "at": "2026-11-11T08:15:48-05:00",
+    "event": "second look: partly_valid"
+   }
+  ]
+ },
+ {
+  "shortcode": "DWS-ypWtEaG",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "resolved",
+  "reason": "The names or URLs of the free streaming/watch-party site and the viral-video analyzer. They appear only on screen or in the audio, and the transcript has no names. I found no vault notes and no matches for the creator. Check the reel's on-screen text or comments.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DWS-ypWtEaG/",
+  "author": "tiz8creates",
+  "title": "Three websites: streaming, viral remix, books",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-11T08:14:54-05:00",
+    "kind": "deep",
+    "verdict": "partly_valid",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.5759283
+   }
+  ],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-11T08:14:54-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   },
+   {
+    "at": "2026-11-11T08:14:54-05:00",
+    "event": "resolved: verdict partly_valid"
+   },
+   {
+    "at": "2026-11-11T08:14:54-05:00",
+    "event": "second look: partly_valid"
+   }
+  ]
+ },
+ {
+  "shortcode": "DYfGyy-Oh7V",
+  "list": "other",
+  "stage": "research",
+  "type": "unnamed",
+  "status": "resolved",
+  "reason": "The book's title, author and sale link are not in the post text or caption. A vault search for the shortcode and creator handle found nothing. The link is probably in the creator's bio or comments, which I couldn't see.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DYfGyy-Oh7V/",
+  "author": "phillip.dealrrr.winnrrr",
+  "title": "Book pitch with finance questions and sale note",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-10T22:12:55-05:00",
+    "kind": "deep",
+    "verdict": "valid",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.3529408
+   }
+  ],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T22:12:55-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: unnamed"
+   },
+   {
+    "at": "2026-11-10T22:12:55-05:00",
+    "event": "resolved: verdict valid"
+   },
+   {
+    "at": "2026-11-10T22:12:55-05:00",
+    "event": "second look: valid"
+   }
+  ]
+ },
+ {
+  "shortcode": "DbhUm2eMgMf",
+  "list": "other",
+  "stage": "research",
+  "type": "thin_input",
+  "status": "resolved",
+  "reason": "The ticket or event page behind the flyer's QR code, and any public listing of \"The Crowning of Anthony B\". Only an unrelated 2020/21 Anthony B show at the same venue came up. The vault has no matching notes; the two grep hits were unrelated.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DbhUm2eMgMf/",
+  "author": "kongobrainz",
+  "title": "Crowning of Anthony B concert flyer, Queens",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [
+   {
+    "at": "2026-11-10T22:11:43-05:00",
+    "kind": "deep",
+    "verdict": "promo",
+    "model": "claude-opus-5-5",
+    "cost_usd": 0.15642599999999998
+   }
+  ],
+  "added_at": "2026-11-10T18:38:32-05:00",
+  "updated_at": "2026-11-10T22:11:43-05:00",
+  "history": [
+   {
+    "at": "2026-11-10T18:38:32-05:00",
+    "event": "added: thin_input"
+   },
+   {
+    "at": "2026-11-10T22:11:43-05:00",
+    "event": "resolved: verdict promo"
+   },
+   {
+    "at": "2026-11-10T22:11:43-05:00",
+    "event": "second look: promo"
    }
   ]
  },

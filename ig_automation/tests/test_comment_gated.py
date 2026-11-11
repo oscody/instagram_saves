@@ -68,6 +68,45 @@ class CommentRulesTest(unittest.TestCase):
         cg.follow_ups(self.noon + timedelta(days=4))
         self.assertEqual(de.find(de.load(), "AAAAAAAA", "research")["status"], "needs_you")
 
+    def test_dm_link_is_saved_and_cleaned(self):
+        entries = self.entries()
+        commented = self.noon - timedelta(hours=1)
+        entries[0].update(status="commented_waiting", commented_at=commented.isoformat(), commented_as=cg.OWN_USERNAME,
+                          author="Creator")
+        de.save(entries)
+        ms = int(commented.timestamp() * 1000)
+        ask = [{"timestamp_ms": ms + 5000, "text": 'Want the guide? Follow me and reply "yes"', "url": "", "title": ""},
+               {"timestamp_ms": ms - 9_000_000, "text": "old https://old.example.com/x", "url": "", "title": ""}]
+        cg.check_dms(self.noon, read=lambda names: {"creator": ask})
+        entry = de.find(de.load(), "AAAAAAAA", "research")
+        self.assertEqual((entry["status"], entry["dm_checks"]), ("commented_waiting", 1))
+        self.assertIn("reply", self.sent[-1])
+        self.assertEqual(cg.check_dms(self.noon + timedelta(minutes=30), read=lambda names: self.fail("too soon")), [])
+        link = ask + [{"timestamp_ms": ms + 90_000, "text": "Here you go https://site.example.com/guide?fbclid=abc&x=1.", "url": "", "title": ""}]
+        cg.check_dms(self.noon + timedelta(hours=3), read=lambda names: {"creator": link})
+        entry = de.find(de.load(), "AAAAAAAA", "research")
+        self.assertEqual((entry["status"], entry["received_link"]), ("received", "https://site.example.com/guide?x=1"))
+        self.assertEqual(len(self.sent), 2)  # one question, one "saved"
+
+    def test_buttons_first_web_button_is_the_link(self):
+        card = {"timestamp_ms": 2000, "text": "tap the first button below", "url": "", "loaded": True,
+                "buttons": [{"title": "Claude Code", "url": "https://a.example.com/day-18?fbclid=z"},
+                            {"title": "PLAYBOOKS", "url": "https://promo.example.com"}]}
+        ask = {"timestamp_ms": 1000, "text": "Reply with your email", "url": "", "buttons": [], "loaded": True}
+        verdict = cg.judge_dm([ask, card], 500)
+        self.assertEqual(verdict["link"], "https://a.example.com/day-18")
+        self.assertIn("[buttons: Claude Code, PLAYBOOKS]", verdict["text"])
+        tap = {"timestamp_ms": 3000, "text": "Want it?", "url": "", "loaded": True, "buttons": [{"title": "Send me the link", "url": ""}]}
+        self.assertIsNone(cg.judge_dm([tap], 500)["link"])
+        self.assertEqual(cg.judge_dm([{"timestamp_ms": 9, "text": "", "url": "", "buttons": [], "loaded": False}], 0)["unread_cards"], 1)
+        self.assertIsNone(cg.judge_dm([{"timestamp_ms": 9, "text": "follow https://instagram.com/x", "url": "", "buttons": []}], 0)["link"])
+
+    def test_dm_check_skips_posts_you_commented_on_yourself(self):
+        entries = self.entries()
+        entries[0].update(status="commented_waiting", commented_at=(self.noon - timedelta(hours=1)).isoformat(), author="creator")
+        de.save(entries)
+        self.assertEqual(cg.dm_targets(de.load(), self.noon), [])
+
 
 if __name__ == "__main__":
     unittest.main()

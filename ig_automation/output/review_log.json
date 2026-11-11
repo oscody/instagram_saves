@@ -1,0 +1,137 @@
+[
+ {
+  "at": "2026-11-11T04:42:46-05:00",
+  "event": "sent",
+  "id": "P1",
+  "kind": "playbook",
+  "title": "CLAUDE.md: shared project context, layers and size",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T05:00:58-05:00",
+  "event": "send failed",
+  "id": "P2",
+  "kind": "playbook",
+  "title": "Claude Code first-run setup and shortcut commands",
+  "error": ""
+ },
+ {
+  "at": "2026-11-11T05:08:35-05:00",
+  "event": "resent",
+  "id": "P1",
+  "kind": "playbook",
+  "title": "CLAUDE.md: shared project context, layers and size"
+ },
+ {
+  "at": "2026-11-11T05:15:53-05:00",
+  "event": "answer: reviewed",
+  "id": "P1",
+  "kind": "playbook",
+  "title": "CLAUDE.md: shared project context, layers and size",
+  "source": "telegram",
+  "text": "[Replying to: \"📘 P1 Playbook tip (again, sent 1 times before) (1 of 842) CLAUDE.md: shared project context What it is: A file that gives Claude Code shared project context at the start of every session. * Create CLAUDE.md where you launch Claude, or run /init * Add bash commands, common MCP tools..."
+ },
+ {
+  "at": "2026-11-11T05:19:01-05:00",
+  "event": "sent",
+  "id": "D1",
+  "kind": "digest",
+  "title": "Loop engineering in 25 lines",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T05:24:35-05:00",
+  "event": "answer: save",
+  "id": "D1",
+  "kind": "digest",
+  "title": "Loop engineering in 25 lines",
+  "source": "manual",
+  "text": "save D1"
+ },
+ {
+  "at": "2026-11-11T05:30:04-05:00",
+  "event": "answer: save",
+  "id": "D1",
+  "kind": "digest",
+  "title": "Loop engineering in 25 lines",
+  "source": "telegram",
+  "text": "[Replying to: \"📰 D1 Interest digest pick Loop engineering in 25 lines (Coding agent configuration and workflows, digest 2026-11-10) A short guide that builds a self-checking AI loop in 25 lines of open-source Python with PraisonAI, where a checker sends hints back until the answer passes or a lim..."
+ },
+ {
+  "at": "2026-11-11T05:35:51-05:00",
+  "event": "sent",
+  "id": "F1",
+  "kind": "focus",
+  "title": "Clean up your instruction files with `/doctor`",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T05:39:10-05:00",
+  "event": "answer: done",
+  "id": "F1",
+  "kind": "focus",
+  "title": "Clean up your instruction files with `/doctor`",
+  "source": "manual",
+  "text": "done F1"
+ },
+ {
+  "at": "2026-11-11T05:44:46-05:00",
+  "event": "sent",
+  "id": "X1",
+  "kind": "deadend",
+  "title": "A Claude skill that updates your other skills",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T08:00:58-05:00",
+  "event": "sent",
+  "id": "D2",
+  "kind": "digest",
+  "title": "Claude Code auto-compact settings",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T09:20:26-05:00",
+  "event": "answer: save",
+  "id": "D2",
+  "kind": "digest",
+  "title": "Claude Code auto-compact settings",
+  "source": "manual",
+  "text": "save D2"
+ },
+ {
+  "at": "2026-11-11T09:41:59-05:00",
+  "event": "answer: reviewed",
+  "id": "X1",
+  "kind": "deadend",
+  "title": "A Claude skill that updates your other skills",
+  "source": "manual",
+  "text": "reviewed X1"
+ },
+ {
+  "at": "2026-11-11T09:55:39-05:00",
+  "event": "answer: reviewed",
+  "id": "X1",
+  "kind": "deadend",
+  "title": "A Claude skill that updates your other skills",
+  "source": "manual",
+  "text": "reviewed X1 (found github.com/bytesofbree/skills-lab, note: repo - skills-lab - skill-debrief)"
+ },
+ {
+  "at": "2026-11-11T10:01:05-05:00",
+  "event": "sent",
+  "id": "F2",
+  "kind": "focus",
+  "title": "Then run the deeper audit, `/claude-api prompt-audit`",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T10:41:13-05:00",
+  "event": "answer: done",
+  "id": "F2",
+  "kind": "focus",
+  "title": "Then run the deeper audit, `/claude-api prompt-audit`",
+  "source": "manual",
+  "text": "done F2"
+ }
+]

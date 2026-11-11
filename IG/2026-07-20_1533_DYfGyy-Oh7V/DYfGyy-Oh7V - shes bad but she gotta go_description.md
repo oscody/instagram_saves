@@ -21,9 +21,23 @@ she’s bad but she gotta go
 
 ## Research
 
-* Verdict: Unresolved. The reel promotes an unnamed personal finance book that is "on sale" with a link given elsewhere. The summary has no title or author, so I couldn't identify the book. I didn't search the web, since there were no distinctive names to search for.
-* Checked: 2026-10-22 by claude-sonnet-5-5
+* Verdict: Valid. The book is JL Collins' The Simple Path to Wealth (2025 revised and expanded edition, Authors Equity), identified from the spine in frames 11-12 and the chapter pages in frames 2-4. It is a real, widely sold beginner finance book. 'Millions of copies' is slightly overstated (a listing says over a million), and the post is an affiliate-style pitch whose sale price I couldn't check.
+* Checked: 2026-11-10 by claude-opus-5-5
+
+### Resources
+
+* [The Simple Path to Wealth (Revised & Expanded 2025 Edition) by JL Collins, hardcover ISBN 9798893310474 (angusrobertson.com.au)](https://www.angusrobertson.com.au/books/the-simple-path-to-wealth-revised-and-expanded-edition-jl-collins/p/9798893310474): product, found by search, verified, high confidence. The spine in frames 11-12 reads 'The Simple Path to Wealth' with the Authors Equity 'EA' logo. Frames 3-4 show the chapter 'Can Everyone Really Retire a Millionaire?', VTSAX and 'How to Think About Money', and the listing confirms JL Collins, Authors Equity, hardback, 320 pages.
+* [The Simple Path to Wealth (Revised & Expanded Edition) at Simon & Schuster CA (simonandschuster.ca)](https://simonandschuster.ca/books/The-Simple-Path-to-Wealth-(Revised-Expanded-Edition)/JL-Collins/9798893310474): product, found by search, not opened, high confidence. Distributor page for the same ISBN. It returned 403 when opened.
+
+### Key steps
+
+1. Get the 2025 revised and expanded edition (hardcover ISBN 9798893310474, ebook 9798893310856) from any bookseller.
+2. Debt rule from p. 26 (frame 2): if the interest rate is under 3%, pay it off slowly and invest instead. Between 3% and 5%, do either. Over 5%, pay it off as soon as possible.
+3. Spend less than you earn and invest the surplus. The book's core vehicle is a low-cost total stock market index fund (VTSAX).
+4. Build 'FU money', savings big enough to give you freedom of choice, as the stated goal.
+5. Use stocks for the wealth-building stage, and add bonds when you shift to wealth preservation (the 'Portfolio ideas to build and keep your wealth' chapter).
+6. Use the book's new Punchlist, FAQ and Resources & Tools sections as a checklist.
 
 ### Not found
 
-The book's title, author and sale link are not in the post text or caption. A vault search for the shortcode and creator handle found nothing. The link is probably in the creator's bio or comments, which I couldn't see.
+The creator's own sale or affiliate link (said to be in the bio or comments) and the current sale price could not be seen or checked. The publisher pages at Simon & Schuster and Porchlight could not be opened (403/429).

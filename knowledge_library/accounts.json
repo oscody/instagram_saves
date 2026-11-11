@@ -1,5 +1,5 @@
 {
- "built": "2026-11-10",
+ "built": "2026-11-11",
  "accounts": [
   {
    "account": "githubsignals",
@@ -119,6 +119,119 @@
    ]
   },
   {
+   "account": "(unknown)",
+   "saves": 17,
+   "recent": 13,
+   "first_saved": "2025-04-01",
+   "last_saved": "2026-11-11",
+   "valid": 5,
+   "useful": 11,
+   "noise": 5,
+   "useful_share": 0.69,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Valid": 5,
+    "Partly valid": 6,
+    "Nothing to find": 1,
+    "Promo": 4,
+    "Not valid": 1
+   },
+   "topics": [
+    "Career Direction and Tech Market Commentary",
+    "Game Development and Games Showcase",
+    "AI Services and Business Automation"
+   ],
+   "posts": [
+    {
+     "shortcode": "DdT_OwyFeoj",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_0056_DdT_OwyFeoj/DdT_OwyFeoj_description.md"
+    },
+    {
+     "shortcode": "DfhS6NYsfPS",
+     "saved": "2026-11-10",
+     "note": "2026-11-10_0411_DfhS6NYsfPS/DfhS6NYsfPS_description.md"
+    },
+    {
+     "shortcode": "Dey0nCDJT8w",
+     "saved": "2026-11-10",
+     "note": "2026-11-10_0331_Dey0nCDJT8w/Dey0nCDJT8w_description.md"
+    },
+    {
+     "shortcode": "DfSBfpfN3mm",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0457_DfSBfpfN3mm/DfSBfpfN3mm_description.md"
+    },
+    {
+     "shortcode": "DeIbI7uxP61",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0425_DeIbI7uxP61/DeIbI7uxP61_description.md"
+    },
+    {
+     "shortcode": "Dfe2_koDlAL",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0424_Dfe2_koDlAL/Dfe2_koDlAL_description.md"
+    },
+    {
+     "shortcode": "Dffx-ftNj0Q",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0339_Dffx-ftNj0Q/Dffx-ftNj0Q_description.md"
+    },
+    {
+     "shortcode": "DfdtpQmoFTs",
+     "saved": "2026-11-08",
+     "note": "2026-11-08_1532_DfdtpQmoFTs/DfdtpQmoFTs_description.md"
+    },
+    {
+     "shortcode": "DfWPVu7gcmA",
+     "saved": "2026-11-08",
+     "note": "2026-11-08_0303_DfWPVu7gcmA/DfWPVu7gcmA_description.md"
+    },
+    {
+     "shortcode": "DfaMh4djNc1",
+     "saved": "2026-11-06",
+     "note": "2026-11-06_1408_DfaMh4djNc1/DfaMh4djNc1_description.md"
+    },
+    {
+     "shortcode": "DdWqz25sC5h",
+     "saved": "2026-11-04",
+     "note": "2026-11-04_0851_DdWqz25sC5h/DdWqz25sC5h_description.md"
+    },
+    {
+     "shortcode": "DbvghzspydP",
+     "saved": "2026-11-04",
+     "note": "2026-11-04_0808_DbvghzspydP/DbvghzspydP_description.md"
+    },
+    {
+     "shortcode": "Dbkee2MsWcl",
+     "saved": "2026-09-04",
+     "note": "2026-09-04_1150_Dbkee2MsWcl/Dbkee2MsWcl_description.md"
+    },
+    {
+     "shortcode": "DGLPhAxAaKe",
+     "saved": "2025-09-14",
+     "note": "2025-09-14_2011_DGLPhAxAaKe/DGLPhAxAaKe_description.md"
+    },
+    {
+     "shortcode": "DLVkYkcAwBn",
+     "saved": "2025-08-18",
+     "note": "2025-08-18_0121_DLVkYkcAwBn/DLVkYkcAwBn_description.md"
+    },
+    {
+     "shortcode": "DCdCuZsgKdB",
+     "saved": "2025-04-17",
+     "note": "2025-04-17_1045_DCdCuZsgKdB/DCdCuZsgKdB_description.md"
+    },
+    {
+     "shortcode": "DFf9NKkg5cX",
+     "saved": "2025-04-01",
+     "note": "2025-04-01_1638_DFf9NKkg5cX/DFf9NKkg5cX_description.md"
+    }
+   ]
+  },
+  {
    "account": "simplifyinai",
    "saves": 16,
    "recent": 15,
@@ -220,114 +333,6 @@
      "shortcode": "Dbp9VytG9-A",
      "saved": "2026-08-05",
      "note": "2026-08-05_1155_Dbp9VytG9-A/Dbp9VytG9-A - Comment AI to get the link and the full list of_description.md"
-    }
-   ]
-  },
-  {
-   "account": "(unknown)",
-   "saves": 16,
-   "recent": 12,
-   "first_saved": "2025-04-01",
-   "last_saved": "2026-11-10",
-   "valid": 4,
-   "useful": 10,
-   "noise": 5,
-   "useful_share": 0.67,
-   "fun": 1,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Partly valid": 6,
-    "Valid": 4,
-    "Nothing to find": 1,
-    "Promo": 4,
-    "Not valid": 1
-   },
-   "topics": [
-    "Career Direction and Tech Market Commentary",
-    "Game Development and Games Showcase",
-    "AI Services and Business Automation"
-   ],
-   "posts": [
-    {
-     "shortcode": "DfhS6NYsfPS",
-     "saved": "2026-11-10",
-     "note": "2026-11-10_0411_DfhS6NYsfPS/DfhS6NYsfPS_description.md"
-    },
-    {
-     "shortcode": "Dey0nCDJT8w",
-     "saved": "2026-11-10",
-     "note": "2026-11-10_0331_Dey0nCDJT8w/Dey0nCDJT8w_description.md"
-    },
-    {
-     "shortcode": "DfSBfpfN3mm",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0457_DfSBfpfN3mm/DfSBfpfN3mm_description.md"
-    },
-    {
-     "shortcode": "DeIbI7uxP61",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0425_DeIbI7uxP61/DeIbI7uxP61_description.md"
-    },
-    {
-     "shortcode": "Dfe2_koDlAL",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0424_Dfe2_koDlAL/Dfe2_koDlAL_description.md"
-    },
-    {
-     "shortcode": "Dffx-ftNj0Q",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0339_Dffx-ftNj0Q/Dffx-ftNj0Q_description.md"
-    },
-    {
-     "shortcode": "DfdtpQmoFTs",
-     "saved": "2026-11-08",
-     "note": "2026-11-08_1532_DfdtpQmoFTs/DfdtpQmoFTs_description.md"
-    },
-    {
-     "shortcode": "DfWPVu7gcmA",
-     "saved": "2026-11-08",
-     "note": "2026-11-08_0303_DfWPVu7gcmA/DfWPVu7gcmA_description.md"
-    },
-    {
-     "shortcode": "DfaMh4djNc1",
-     "saved": "2026-11-06",
-     "note": "2026-11-06_1408_DfaMh4djNc1/DfaMh4djNc1_description.md"
-    },
-    {
-     "shortcode": "DdWqz25sC5h",
-     "saved": "2026-11-04",
-     "note": "2026-11-04_0851_DdWqz25sC5h/DdWqz25sC5h_description.md"
-    },
-    {
-     "shortcode": "DbvghzspydP",
-     "saved": "2026-11-04",
-     "note": "2026-11-04_0808_DbvghzspydP/DbvghzspydP_description.md"
-    },
-    {
-     "shortcode": "Dbkee2MsWcl",
-     "saved": "2026-09-04",
-     "note": "2026-09-04_1150_Dbkee2MsWcl/Dbkee2MsWcl_description.md"
-    },
-    {
-     "shortcode": "DGLPhAxAaKe",
-     "saved": "2025-09-14",
-     "note": "2025-09-14_2011_DGLPhAxAaKe/DGLPhAxAaKe_description.md"
-    },
-    {
-     "shortcode": "DLVkYkcAwBn",
-     "saved": "2025-08-18",
-     "note": "2025-08-18_0121_DLVkYkcAwBn/DLVkYkcAwBn_description.md"
-    },
-    {
-     "shortcode": "DCdCuZsgKdB",
-     "saved": "2025-04-17",
-     "note": "2025-04-17_1045_DCdCuZsgKdB/DCdCuZsgKdB_description.md"
-    },
-    {
-     "shortcode": "DFf9NKkg5cX",
-     "saved": "2025-04-01",
-     "note": "2025-04-01_1638_DFf9NKkg5cX/DFf9NKkg5cX_description.md"
     }
    ]
   },
@@ -559,7 +564,7 @@
   {
    "account": "theaifield",
    "saves": 16,
-   "recent": 6,
+   "recent": 5,
    "first_saved": "2025-07-03",
    "last_saved": "2026-11-07",
    "valid": 3,
@@ -1433,58 +1438,6 @@
    ]
   },
   {
-   "account": "activeprogrammer",
-   "saves": 5,
-   "recent": 5,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-10-16",
-   "valid": 3,
-   "useful": 5,
-   "noise": 0,
-   "useful_share": 1.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Valid": 3,
-    "Partly valid": 2
-   },
-   "topics": [
-    "3D Modeling and World Generation",
-    "Game Development and Games Showcase",
-    "Video Reconstruction, Motion Capture and Animation",
-    "Web and App Development Practices",
-    "Software Engineering Learning and Projects"
-   ],
-   "posts": [
-    {
-     "shortcode": "Deg4e9QjnaY",
-     "saved": "2026-10-16",
-     "note": "2026-10-16_1300_Deg4e9QjnaY/Deg4e9QjnaY - activeprogrammer He used AI to build a tool that_description.md"
-    },
-    {
-     "shortcode": "DeR7x_1DsTX",
-     "saved": "2026-10-12",
-     "note": "2026-10-12_1441_DeR7x_1DsTX/DeR7x_1DsTX - activeprogrammer This is happening inside a_description.md"
-    },
-    {
-     "shortcode": "DcbS44-DNJD",
-     "saved": "2026-09-06",
-     "note": "2026-09-06_2017_DcbS44-DNJD/DcbS44-DNJD - Imagine typing a character runs and wavesand_description.md"
-    },
-    {
-     "shortcode": "Dcq0LG5DlXj",
-     "saved": "2026-08-31",
-     "note": "2026-08-31_0737_Dcq0LG5DlXj/Dcq0LG5DlXj - 6 developers 6 completely different ideas One_description.md"
-    },
-    {
-     "shortcode": "Db5t4WOjF4Q",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_0923_Db5t4WOjF4Q/Db5t4WOjF4Q - A developer built an opensource elemental VFX_description.md"
-    }
-   ]
-  },
-  {
    "account": "angus.sewell",
    "saves": 5,
    "recent": 5,
@@ -1733,6 +1686,58 @@
      "shortcode": "Dax-38bjV8R",
      "saved": "2026-09-06",
      "note": "2026-09-06_2240_Dax-38bjV8R/Dax-38bjV8R - Comment GENERATE and Ill send it over_description.md"
+    }
+   ]
+  },
+  {
+   "account": "activeprogrammer",
+   "saves": 5,
+   "recent": 4,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-10-16",
+   "valid": 3,
+   "useful": 5,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Valid": 3,
+    "Partly valid": 2
+   },
+   "topics": [
+    "3D Modeling and World Generation",
+    "Game Development and Games Showcase",
+    "Video Reconstruction, Motion Capture and Animation",
+    "Web and App Development Practices",
+    "Software Engineering Learning and Projects"
+   ],
+   "posts": [
+    {
+     "shortcode": "Deg4e9QjnaY",
+     "saved": "2026-10-16",
+     "note": "2026-10-16_1300_Deg4e9QjnaY/Deg4e9QjnaY - activeprogrammer He used AI to build a tool that_description.md"
+    },
+    {
+     "shortcode": "DeR7x_1DsTX",
+     "saved": "2026-10-12",
+     "note": "2026-10-12_1441_DeR7x_1DsTX/DeR7x_1DsTX - activeprogrammer This is happening inside a_description.md"
+    },
+    {
+     "shortcode": "DcbS44-DNJD",
+     "saved": "2026-09-06",
+     "note": "2026-09-06_2017_DcbS44-DNJD/DcbS44-DNJD - Imagine typing a character runs and wavesand_description.md"
+    },
+    {
+     "shortcode": "Dcq0LG5DlXj",
+     "saved": "2026-08-31",
+     "note": "2026-08-31_0737_Dcq0LG5DlXj/Dcq0LG5DlXj - 6 developers 6 completely different ideas One_description.md"
+    },
+    {
+     "shortcode": "Db5t4WOjF4Q",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_0923_Db5t4WOjF4Q/Db5t4WOjF4Q - A developer built an opensource elemental VFX_description.md"
     }
    ]
   },
@@ -9076,33 +9081,6 @@
    ]
   },
   {
-   "account": "gamalcodner",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-08-12",
-   "valid": 0,
-   "useful": 0,
-   "noise": 1,
-   "useful_share": 0.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Promo": 1
-   },
-   "topics": [
-    "Business Acquisition"
-   ],
-   "posts": [
-    {
-     "shortcode": "DavGGh_gkV1",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_0835_DavGGh_gkV1/DavGGh_gkV1_description.md"
-    }
-   ]
-  },
-  {
    "account": "geebreezy._",
    "saves": 1,
    "recent": 1,
@@ -9941,33 +9919,6 @@
    ]
   },
   {
-   "account": "jose.horatio",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-08-12",
-   "valid": 0,
-   "useful": 1,
-   "noise": 0,
-   "useful_share": 1.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Partly valid": 1
-   },
-   "topics": [
-    "Business Ideas, Startups and Management"
-   ],
-   "posts": [
-    {
-     "shortcode": "Db6j5c9zeP8",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_0834_Db6j5c9zeP8/Db6j5c9zeP8 - Hardest decision of our lives and would do it all_description.md"
-    }
-   ]
-  },
-  {
    "account": "joshuablatch",
    "saves": 1,
    "recent": 1,
@@ -10284,33 +10235,6 @@
      "shortcode": "DdUldWgvctY",
      "saved": "2026-09-17",
      "note": "2026-09-17_1435_DdUldWgvctY/DdUldWgvctY - Due Sept 30 for now a QA addendum may push it_description.md"
-    }
-   ]
-  },
-  {
-   "account": "knowyourcaribbean",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-08-12",
-   "valid": 0,
-   "useful": 1,
-   "noise": 0,
-   "useful_share": 1.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Partly valid": 1
-   },
-   "topics": [
-    "Caribbean and Jamaican Culture and History"
-   ],
-   "posts": [
-    {
-     "shortcode": "Db3goZ6jqQY",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_1734_Db3goZ6jqQY/Db3goZ6jqQY - The Caribbean has heavy involvement in AI from_description.md"
     }
    ]
   },
@@ -11319,33 +11243,6 @@
      "shortcode": "Dc6M56Ay3Ye",
      "saved": "2026-09-06",
      "note": "2026-09-06_2350_Dc6M56Ay3Ye/Dc6M56Ay3Ye - 10 TUTORIALS that helped ME jumpstart my game dev_description.md"
-    }
-   ]
-  },
-  {
-   "account": "notabdiyaps",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-08-12",
-   "valid": 0,
-   "useful": 0,
-   "noise": 0,
-   "useful_share": null,
-   "fun": 1,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Nothing to find": 1
-   },
-   "topics": [
-    "Anime, Manga, Comics and Webnovels"
-   ],
-   "posts": [
-    {
-     "shortcode": "DbviQYgCM-p",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_2105_DbviQYgCM-p/DbviQYgCM-p - From anime binging to just read webnovels only_description.md"
     }
    ]
   },
@@ -12855,33 +12752,6 @@
    ]
   },
   {
-   "account": "teacher",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-08-12",
-   "valid": 0,
-   "useful": 0,
-   "noise": 0,
-   "useful_share": null,
-   "fun": 1,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Nothing to find": 1
-   },
-   "topics": [
-    "Marketing, Sales and Content Growth"
-   ],
-   "posts": [
-    {
-     "shortcode": "DbbVwOGNxBF",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_0953_DbbVwOGNxBF/DbbVwOGNxBF - What Makes You INTERESTING_description.md"
-    }
-   ]
-  },
-  {
    "account": "tech.explain1",
    "saves": 1,
    "recent": 1,
@@ -14017,33 +13887,6 @@
      "shortcode": "DeUJQHRgO0A",
      "saved": "2026-10-11",
      "note": "2026-10-11_1747_DeUJQHRgO0A/DeUJQHRgO0A_description.md"
-    }
-   ]
-  },
-  {
-   "account": "zavi_moss",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-12",
-   "last_saved": "2026-08-12",
-   "valid": 0,
-   "useful": 0,
-   "noise": 0,
-   "useful_share": null,
-   "fun": 1,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Nothing to find": 1
-   },
-   "topics": [
-    "Comedy and Viral Clip Entertainment"
-   ],
-   "posts": [
-    {
-     "shortcode": "Db6L9cxp1Hy",
-     "saved": "2026-08-12",
-     "note": "2026-08-12_0841_Db6L9cxp1Hy/Db6L9cxp1Hy - v stepped into the crowd and stole nba young boys_description.md"
     }
    ]
   },
@@ -15640,6 +15483,31 @@
      "shortcode": "Dal20RAObsn",
      "saved": "2026-07-11",
      "note": "2026-07-11_2223_Dal20RAObsn/Dal20RAObsn - Day 12 reprogramming my subconscious mind_description.md"
+    }
+   ]
+  },
+  {
+   "account": "bonnyandgava",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-16",
+   "last_saved": "2024-12-16",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DBJYJfps3NK",
+     "saved": "2024-12-16",
+     "note": "2024-12-16_1745_DBJYJfps3NK/DBJYJfps3NK - Tag a friend who would jump in too_description.md"
     }
    ]
   },
@@ -17649,14 +17517,14 @@
    "first_saved": "2025-12-04",
    "last_saved": "2025-12-04",
    "valid": 0,
-   "useful": 0,
+   "useful": 1,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": 1.0,
    "fun": 0,
    "gated": 0,
-   "not_found": 1,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1
+    "Partly valid": 1
    },
    "topics": [
     "Job, Training and Opportunity Listings"
@@ -17801,6 +17669,33 @@
      "shortcode": "DXMs6ZmDbix",
      "saved": "2026-05-05",
      "note": "2026-05-05_0820_DXMs6ZmDbix/DXMs6ZmDbix - Once this semester is over my last semester of_description.md"
+    }
+   ]
+  },
+  {
+   "account": "gamalcodner",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-08-12",
+   "valid": 0,
+   "useful": 0,
+   "noise": 1,
+   "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Promo": 1
+   },
+   "topics": [
+    "Business Acquisition"
+   ],
+   "posts": [
+    {
+     "shortcode": "DavGGh_gkV1",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_0835_DavGGh_gkV1/DavGGh_gkV1_description.md"
     }
    ]
   },
@@ -18630,6 +18525,31 @@
      "shortcode": "DaqJsC7DZDg",
      "saved": "2026-07-12",
      "note": "2026-07-12_2311_DaqJsC7DZDg/DaqJsC7DZDg - STOP SCROLLING if you build websites or funnels_description.md"
+    }
+   ]
+  },
+  {
+   "account": "imjustcyrus",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-30",
+   "last_saved": "2024-12-30",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DEOQvPgp0Bw",
+     "saved": "2024-12-30",
+     "note": "2024-12-30_2010_DEOQvPgp0Bw/DEOQvPgp0Bw - If youre not in tech comment your career questions_description.md"
     }
    ]
   },
@@ -19490,6 +19410,33 @@
    ]
   },
   {
+   "account": "jose.horatio",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-08-12",
+   "valid": 0,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 1
+   },
+   "topics": [
+    "Business Ideas, Startups and Management"
+   ],
+   "posts": [
+    {
+     "shortcode": "Db6j5c9zeP8",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_0834_Db6j5c9zeP8/Db6j5c9zeP8 - Hardest decision of our lives and would do it all_description.md"
+    }
+   ]
+  },
+  {
    "account": "josh.otusanya",
    "saves": 1,
    "recent": 0,
@@ -19916,6 +19863,33 @@
    ]
   },
   {
+   "account": "knowyourcaribbean",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-08-12",
+   "valid": 0,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 1
+   },
+   "topics": [
+    "Caribbean and Jamaican Culture and History"
+   ],
+   "posts": [
+    {
+     "shortcode": "Db3goZ6jqQY",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_1734_Db3goZ6jqQY/Db3goZ6jqQY - The Caribbean has heavy involvement in AI from_description.md"
+    }
+   ]
+  },
+  {
    "account": "koen.agi",
    "saves": 1,
    "recent": 0,
@@ -20031,13 +20005,13 @@
    "last_saved": "2026-08-03",
    "valid": 0,
    "useful": 0,
-   "noise": 0,
+   "noise": 1,
    "useful_share": 0.0,
    "fun": 0,
    "gated": 0,
-   "not_found": 1,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1
+    "Promo": 1
    },
    "topics": [
     "NYC and Regional Outings"
@@ -20924,6 +20898,31 @@
    ]
   },
   {
+   "account": "mightypursuit",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-28",
+   "last_saved": "2024-12-28",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DCpBbHFJmEa",
+     "saved": "2024-12-28",
+     "note": "2024-12-28_1147_DCpBbHFJmEa/DCpBbHFJmEa - Episode 28 of the Mighty Pursuit Podcast is now_description.md"
+    }
+   ]
+  },
+  {
    "account": "mikemeansbusiness_ai",
    "saves": 1,
    "recent": 0,
@@ -21001,6 +21000,31 @@
      "shortcode": "DYuoAY-MVZZ",
      "saved": "2026-05-30",
      "note": "2026-05-30_0622_DYuoAY-MVZZ/DYuoAY-MVZZ - Learn how to master character arcs faster than 99_description.md"
+    }
+   ]
+  },
+  {
+   "account": "mindset.therapy",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-26",
+   "last_saved": "2024-12-26",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DD73gIyyAjy",
+     "saved": "2024-12-26",
+     "note": "2024-12-26_0757_DD73gIyyAjy/DD73gIyyAjy - Being in the top 1 isnt about luckits about_description.md"
     }
    ]
   },
@@ -21697,6 +21721,33 @@
    ]
   },
   {
+   "account": "notabdiyaps",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-08-12",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [
+    "Anime, Manga, Comics and Webnovels"
+   ],
+   "posts": [
+    {
+     "shortcode": "DbviQYgCM-p",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_2105_DbviQYgCM-p/DbviQYgCM-p - From anime binging to just read webnovels only_description.md"
+    }
+   ]
+  },
+  {
    "account": "novelupdatesuser",
    "saves": 1,
    "recent": 0,
@@ -21934,6 +21985,31 @@
    ]
   },
   {
+   "account": "olufemiadedokun",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-12",
+   "last_saved": "2024-12-12",
+   "valid": 0,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DDXMZjloo5w",
+     "saved": "2024-12-12",
+     "note": "2024-12-12_1329_DDXMZjloo5w/DDXMZjloo5w_description.md"
+    }
+   ]
+  },
+  {
    "account": "onegirloneworld",
    "saves": 1,
    "recent": 0,
@@ -22045,15 +22121,15 @@
    "recent": 0,
    "first_saved": "2026-07-20",
    "last_saved": "2026-07-20",
-   "valid": 0,
-   "useful": 0,
+   "valid": 1,
+   "useful": 1,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": 1.0,
    "fun": 0,
    "gated": 0,
-   "not_found": 1,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1
+    "Valid": 1
    },
    "topics": [
     "Book and Reading Recommendations"
@@ -24058,6 +24134,33 @@
    ]
   },
   {
+   "account": "teacher",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-08-12",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [
+    "Marketing, Sales and Content Growth"
+   ],
+   "posts": [
+    {
+     "shortcode": "DbbVwOGNxBF",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_0953_DbbVwOGNxBF/DbbVwOGNxBF - What Makes You INTERESTING_description.md"
+    }
+   ]
+  },
+  {
    "account": "technerdpeter",
    "saves": 1,
    "recent": 0,
@@ -24781,14 +24884,14 @@
    "first_saved": "2026-05-19",
    "last_saved": "2026-05-19",
    "valid": 0,
-   "useful": 0,
+   "useful": 1,
    "noise": 0,
-   "useful_share": 0.0,
+   "useful_share": 1.0,
    "fun": 0,
    "gated": 0,
-   "not_found": 1,
+   "not_found": 0,
    "verdicts": {
-    "Unresolved": 1
+    "Partly valid": 1
    },
    "topics": [
     "Film, TV and Streaming"
@@ -24904,6 +25007,31 @@
      "shortcode": "DXUfoHejDoG",
      "saved": "2026-05-08",
      "note": "2026-05-08_1844_DXUfoHejDoG/DXUfoHejDoG - Truth in anime_description.md"
+    }
+   ]
+  },
+  {
+   "account": "trapdragonz",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-16",
+   "last_saved": "2024-12-16",
+   "valid": 1,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Valid": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DDjBimLORIh",
+     "saved": "2024-12-16",
+     "note": "2024-12-16_1750_DDjBimLORIh/DDjBimLORIh - But this manga isnt a dream_description.md"
     }
    ]
   },
@@ -25355,6 +25483,31 @@
      "shortcode": "DPbhgmCgHTB",
      "saved": "2025-10-08",
      "note": "2025-10-08_2254_DPbhgmCgHTB/DPbhgmCgHTB - Comment Howard to get the website now_description.md"
+    }
+   ]
+  },
+  {
+   "account": "vegoutmagazine",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-23",
+   "last_saved": "2024-12-23",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DDxkQncvmTa",
+     "saved": "2024-12-23",
+     "note": "2024-12-23_0837_DDxkQncvmTa/DDxkQncvmTa - Be sure to add these spots to your DC bucket list_description.md"
     }
    ]
   },
@@ -25968,6 +26121,33 @@
      "shortcode": "DZ0ExQPxbv7",
      "saved": "2026-07-02",
      "note": "2026-07-02_1657_DZ0ExQPxbv7/DZ0ExQPxbv7_description.md"
+    }
+   ]
+  },
+  {
+   "account": "zavi_moss",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2026-08-12",
+   "last_saved": "2026-08-12",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [
+    "Comedy and Viral Clip Entertainment"
+   ],
+   "posts": [
+    {
+     "shortcode": "Db6L9cxp1Hy",
+     "saved": "2026-08-12",
+     "note": "2026-08-12_0841_Db6L9cxp1Hy/Db6L9cxp1Hy - v stepped into the crowd and stole nba young boys_description.md"
     }
    ]
   },

@@ -1,11 +1,11 @@
 # Account index
 
-Built 2026-11-10 by `ig_automation/accounts.py` from 1301 posts across 887 accounts.
+Built 2026-11-11 by `ig_automation/accounts.py` from 1309 posts across 894 accounts.
 
 * **Useful** is the share of researched posts with a Valid or Partly valid verdict, out of the posts that had something to find. **Fun** posts (verdict Nothing to find: music, comedy, personal) are not counted against it.
 * **Comment to get it** counts posts that only send the resource after a comment or DM, and that research could not find anywhere else (from `ig_automation/output/dead_ends.json`).
-* **Last 90 days** counts saves since 2026-08-12.
-* 177 accounts have 2 or more saves and are listed below. 710 accounts have a single save (see `accounts.json`).
+* **Last 90 days** counts saves since 2026-08-13.
+* 177 accounts have 2 or more saves and are listed below. 717 accounts have a single save (see `accounts.json`).
 
 ## Best sources
 
@@ -19,7 +19,7 @@ Accounts with 3 or more saves, ranked by how often their posts held up.
 | [index.opensource](https://instagram.com/index.opensource/) | 5 | 5 | 100% | 5 | 0 | 0 | 0 | 2026-10-13 | Video Reconstruction, Motion Capture and Animation, 3D Modeling and World Generation |
 | [gittrend.io](https://instagram.com/gittrend.io/) | 4 | 4 | 100% | 4 | 0 | 0 | 0 | 2026-10-27 | Agent Skills, Memory and Knowledge Libraries, AI Video Generation and Production |
 | [theexcursiondoctor](https://instagram.com/theexcursiondoctor/) | 6 | 1 | 100% | 3 | 0 | 0 | 0 | 2026-10-23 | NYC and Regional Outings |
-| [activeprogrammer](https://instagram.com/activeprogrammer/) | 5 | 5 | 100% | 3 | 0 | 0 | 0 | 2026-10-16 | 3D Modeling and World Generation, Game Development and Games Showcase |
+| [activeprogrammer](https://instagram.com/activeprogrammer/) | 5 | 4 | 100% | 3 | 0 | 0 | 0 | 2026-10-16 | 3D Modeling and World Generation, Game Development and Games Showcase |
 | [justyn.ai](https://instagram.com/justyn.ai/) | 5 | 2 | 100% | 3 | 0 | 0 | 0 | 2026-10-07 | AI Services and Business Automation, Coding Agent Configuration and Workflows |
 | [lostandlucky](https://instagram.com/lostandlucky/) | 6 | 2 | 100% | 2 | 0 | 0 | 2 | 2026-11-01 | Claude Usage, Settings and Claims, Coding Agent Configuration and Workflows |
 | [harlemcareers](https://instagram.com/harlemcareers/) | 6 | 0 | 100% | 2 | 0 | 0 | 0 | 2026-05-11 | Job, Training and Opportunity Listings |
@@ -32,14 +32,14 @@ Accounts with 2 or more saves in the last 90 days.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [githubsignals](https://instagram.com/githubsignals/) | 18 | 18 | 94% | 12 | 0 | 0 | 0 | 2026-10-28 | 3D Modeling and World Generation, Video Reconstruction, Motion Capture and Animation |
 | [simplifyinai](https://instagram.com/simplifyinai/) | 16 | 15 | 100% | 9 | 0 | 0 | 0 | 2026-11-07 | Video Reconstruction, Motion Capture and Animation, 3D Modeling and World Generation |
-| (unknown) | 16 | 12 | 67% | 4 | 5 | 0 | 1 | 2026-11-10 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
+| (unknown) | 17 | 13 | 69% | 5 | 5 | 0 | 1 | 2026-11-11 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [dominatingtech](https://instagram.com/dominatingtech/) | 9 | 9 | 100% | 5 | 0 | 0 | 2 | 2026-10-29 | AI Study, Analysis and Reflection Prompts, Privacy, Security and Pentesting |
 | [godofprompt](https://instagram.com/godofprompt/) | 16 | 8 | 94% | 5 | 1 | 0 | 0 | 2026-11-09 | Prompting and AI Output Evaluation, AI Study, Analysis and Reflection Prompts |
 | [marc.kaz](https://instagram.com/marc.kaz/) | 16 | 6 | 100% | 8 | 0 | 0 | 0 | 2026-11-02 | AI Models, Research and Industry News, Robotics Learning and Research |
-| [theaifield](https://instagram.com/theaifield/) | 16 | 6 | 81% | 3 | 0 | 3 | 0 | 2026-11-07 | AI Models, Research and Industry News, AI Study, Analysis and Reflection Prompts |
-| [activeprogrammer](https://instagram.com/activeprogrammer/) | 5 | 5 | 100% | 3 | 0 | 0 | 0 | 2026-10-16 | 3D Modeling and World Generation, Game Development and Games Showcase |
+| [theaifield](https://instagram.com/theaifield/) | 16 | 5 | 81% | 3 | 0 | 3 | 0 | 2026-11-07 | AI Models, Research and Industry News, AI Study, Analysis and Reflection Prompts |
 | [angus.sewell](https://instagram.com/angus.sewell/) | 5 | 5 | 25% | 0 | 0 | 3 | 1 | 2026-10-15 | Paid Offers and Promotions Review, AI Study, Analysis and Reflection Prompts |
 | [billy.coder](https://instagram.com/billy.coder/) | 5 | 5 | 100% | 1 | 0 | 0 | 0 | 2026-10-25 | DIY Hardware and Sensing Prototypes, Video Reconstruction, Motion Capture and Animation |
+| [graystonetrading](https://instagram.com/graystonetrading/) | 5 | 5 | 0% | 0 | 5 | 0 | 0 | 2026-10-12 | Paid Offers and Promotions Review, Personal Finance and Investing |
 
 ## Mostly promo or not valid
 
@@ -104,11 +104,11 @@ Accounts where most saves were entertainment or personal, with nothing to find. 
 | Account | Saves | Last 90 days | Useful | Valid | Promo or not valid | Comment to get it | Fun | Last saved | Main topics |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [githubsignals](https://instagram.com/githubsignals/) | 18 | 18 | 94% | 12 | 0 | 0 | 0 | 2026-10-28 | 3D Modeling and World Generation, Video Reconstruction, Motion Capture and Animation |
+| (unknown) | 17 | 13 | 69% | 5 | 5 | 0 | 1 | 2026-11-11 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [simplifyinai](https://instagram.com/simplifyinai/) | 16 | 15 | 100% | 9 | 0 | 0 | 0 | 2026-11-07 | Video Reconstruction, Motion Capture and Animation, 3D Modeling and World Generation |
-| (unknown) | 16 | 12 | 67% | 4 | 5 | 0 | 1 | 2026-11-10 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [godofprompt](https://instagram.com/godofprompt/) | 16 | 8 | 94% | 5 | 1 | 0 | 0 | 2026-11-09 | Prompting and AI Output Evaluation, AI Study, Analysis and Reflection Prompts |
 | [marc.kaz](https://instagram.com/marc.kaz/) | 16 | 6 | 100% | 8 | 0 | 0 | 0 | 2026-11-02 | AI Models, Research and Industry News, Robotics Learning and Research |
-| [theaifield](https://instagram.com/theaifield/) | 16 | 6 | 81% | 3 | 0 | 3 | 0 | 2026-11-07 | AI Models, Research and Industry News, AI Study, Analysis and Reflection Prompts |
+| [theaifield](https://instagram.com/theaifield/) | 16 | 5 | 81% | 3 | 0 | 3 | 0 | 2026-11-07 | AI Models, Research and Industry News, AI Study, Analysis and Reflection Prompts |
 | [sabrina_ramonov](https://instagram.com/sabrina_ramonov/) | 12 | 3 | 83% | 4 | 0 | 2 | 0 | 2026-10-15 | Coding Agent Configuration and Workflows, Marketing, Sales and Content Growth |
 | [wassimyounes_](https://instagram.com/wassimyounes_/) | 11 | 0 | 91% | 4 | 1 | 0 | 0 | 2026-08-03 | Agent Frameworks and AI Tool References, AI Services and Business Automation |
 | [dominatingtech](https://instagram.com/dominatingtech/) | 9 | 9 | 100% | 5 | 0 | 0 | 2 | 2026-10-29 | AI Study, Analysis and Reflection Prompts, Privacy, Security and Pentesting |
@@ -121,12 +121,12 @@ Accounts where most saves were entertainment or personal, with nothing to find. 
 | [harlemcareers](https://instagram.com/harlemcareers/) | 6 | 0 | 100% | 2 | 0 | 0 | 0 | 2026-05-11 | Job, Training and Opportunity Listings |
 | [itsscoachk](https://instagram.com/itsscoachk/) | 6 | 0 | 67% | 0 | 1 | 1 | 0 | 2026-07-02 | Grants, Funding and Business Credit |
 | [simplydigital.gr](https://instagram.com/simplydigital.gr/) | 6 | 0 | 67% | 2 | 0 | 2 | 0 | 2026-05-01 | AI Image Generation and Creative Showcases, Business Ideas, Startups and Management |
-| [activeprogrammer](https://instagram.com/activeprogrammer/) | 5 | 5 | 100% | 3 | 0 | 0 | 0 | 2026-10-16 | 3D Modeling and World Generation, Game Development and Games Showcase |
 | [angus.sewell](https://instagram.com/angus.sewell/) | 5 | 5 | 25% | 0 | 0 | 3 | 1 | 2026-10-15 | Paid Offers and Promotions Review, AI Study, Analysis and Reflection Prompts |
 | [billy.coder](https://instagram.com/billy.coder/) | 5 | 5 | 100% | 1 | 0 | 0 | 0 | 2026-10-25 | DIY Hardware and Sensing Prototypes, Video Reconstruction, Motion Capture and Animation |
 | [graystonetrading](https://instagram.com/graystonetrading/) | 5 | 5 | 0% | 0 | 5 | 0 | 0 | 2026-10-12 | Paid Offers and Promotions Review, Personal Finance and Investing |
 | [index.opensource](https://instagram.com/index.opensource/) | 5 | 5 | 100% | 5 | 0 | 0 | 0 | 2026-10-13 | Video Reconstruction, Motion Capture and Animation, 3D Modeling and World Generation |
 | [nateherkai](https://instagram.com/nateherkai/) | 5 | 5 | 60% | 0 | 0 | 2 | 0 | 2026-11-06 | Web and App Development Practices, AI Video Generation and Production |
+| [activeprogrammer](https://instagram.com/activeprogrammer/) | 5 | 4 | 100% | 3 | 0 | 0 | 0 | 2026-10-16 | 3D Modeling and World Generation, Game Development and Games Showcase |
 | [dj_dennyhus.dancehall](https://instagram.com/dj_dennyhus.dancehall/) | 5 | 2 | 0% | 0 | 0 | 0 | 3 | 2026-10-08 | Music, DJ and Dance |
 | [justyn.ai](https://instagram.com/justyn.ai/) | 5 | 2 | 100% | 3 | 0 | 0 | 0 | 2026-10-07 | AI Services and Business Automation, Coding Agent Configuration and Workflows |
 | [gittrend.io](https://instagram.com/gittrend.io/) | 4 | 4 | 100% | 4 | 0 | 0 | 0 | 2026-10-27 | Agent Skills, Memory and Knowledge Libraries, AI Video Generation and Production |

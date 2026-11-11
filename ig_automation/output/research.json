@@ -11918,15 +11918,41 @@
   "note": "2026-08-03_2058_DZFFID0sol5/DZFFID0sol5 - Brown Butter Cinnamon Toast_description.md"
  },
  "DbhUm2eMgMf": {
-  "verdict": "unresolved",
-  "verdict_reason": "The post is an event flyer for a reggae show on Aug 29 at Club Amazura. I found no public listing or ticket page for it. The QR code probably leads to tickets, but I can't read it from the description. The date has also passed (today is Oct 22, 2026).",
-  "resources": [],
-  "vault_notes": [],
+  "verdict": "promo",
+  "verdict_reason": "The post is a flyer for a reggae concert, posted by Kongo Brains, one of the acts on the bill. This time the show turned up in public coverage. DancehallMag reports it happened on Saturday, August 29, 2026, at Club Amazura, with the same lineup, sound systems and $60 advance tickets.",
+  "resources": [
+   {
+    "name": "DancehallMag: Anthony B Headlines 'The Crowning of Anthony B' Concert at Club Amazura in Queens, NYC",
+    "url": "https://www.dancehallmag.com/2026/08/30/news/anthony-b-headlines-the-crowning-of-anthony-b-concert-at-club-amazura-in-queens-nyc.html",
+    "kind": "page",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Opened it. It lists the same title, date (Sat Aug 29, 2026), venue address (91-12 144th Place), performers (Anthony B, I-Wayne, Ginjah, 'Congo Brains', Real Real McKoy, Spirit of Truth) and sound systems (King Addies, Platinum Kids) as the flyer."
+   },
+   {
+    "name": "TEMPO Networks: same event story",
+    "url": "https://www.temponetworks.com/2026/08/30/anthony-b-headlines-the-crowning-of-anthony-b-concert-at-club-amazura-in-queens-nyc/",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "Search result with the same headline as the DancehallMag article; not opened."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/Vault knowledge library/deadends/IG dead ends - other.md",
+    "covers": "Lists this post as a dead end: no ticket page or public listing found. This can now be updated with the DancehallMag link."
+   }
+  ],
+  "ig_posts": [],
   "steps": [],
-  "not_found": "The ticket or event page behind the flyer's QR code, and any public listing of \"The Crowning of Anthony B\". Only an unrelated 2020/21 Anthony B show at the same venue came up. The vault has no matching notes; the two grep hits were unrelated.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.0315988,
-  "checked_at": "2026-10-22",
+  "not_found": "The ticket page behind the flyer's QR code is still missing: the code is cut off in the image and the article gives no ticket link. A Riddimstream post on X reportedly shared a ticket listing, but I didn't open it. The event date has already passed.",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.15642599999999998,
+  "deep": true,
+  "checked_at": "2026-11-10",
   "note": "2026-08-03_2045_DbhUm2eMgMf/DbhUm2eMgMf_description.md"
  },
  "DbebJdSiO3n": {
@@ -13297,15 +13323,43 @@
   "note": "2026-07-20_1540_DZDBoZ2u5xU/DZDBoZ2u5xU - Watch any African Cinema lately Probably not_description.md"
  },
  "DYfGyy-Oh7V": {
-  "verdict": "unresolved",
-  "verdict_reason": "The reel promotes an unnamed personal finance book that is \"on sale\" with a link given elsewhere. The summary has no title or author, so I couldn't identify the book. I didn't search the web, since there were no distinctive names to search for.",
-  "resources": [],
+  "verdict": "valid",
+  "verdict_reason": "The book is JL Collins' The Simple Path to Wealth (2025 revised and expanded edition, Authors Equity), identified from the spine in frames 11-12 and the chapter pages in frames 2-4. It is a real, widely sold beginner finance book. 'Millions of copies' is slightly overstated (a listing says over a million), and the post is an affiliate-style pitch whose sale price I couldn't check.",
+  "resources": [
+   {
+    "name": "The Simple Path to Wealth (Revised & Expanded 2025 Edition) by JL Collins, hardcover ISBN 9798893310474",
+    "url": "https://www.angusrobertson.com.au/books/the-simple-path-to-wealth-revised-and-expanded-edition-jl-collins/p/9798893310474",
+    "kind": "product",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "The spine in frames 11-12 reads 'The Simple Path to Wealth' with the Authors Equity 'EA' logo. Frames 3-4 show the chapter 'Can Everyone Really Retire a Millionaire?', VTSAX and 'How to Think About Money', and the listing confirms JL Collins, Authors Equity, hardback, 320 pages."
+   },
+   {
+    "name": "The Simple Path to Wealth (Revised & Expanded Edition) at Simon & Schuster CA",
+    "url": "https://simonandschuster.ca/books/The-Simple-Path-to-Wealth-(Revised-Expanded-Edition)/JL-Collins/9798893310474",
+    "kind": "product",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "high",
+    "evidence": "Distributor page for the same ISBN. It returned 403 when opened."
+   }
+  ],
   "vault_notes": [],
-  "steps": [],
-  "not_found": "The book's title, author and sale link are not in the post text or caption. A vault search for the shortcode and creator handle found nothing. The link is probably in the creator's bio or comments, which I couldn't see.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.0111248,
-  "checked_at": "2026-10-22",
+  "ig_posts": [],
+  "steps": [
+   "Get the 2025 revised and expanded edition (hardcover ISBN 9798893310474, ebook 9798893310856) from any bookseller.",
+   "Debt rule from p. 26 (frame 2): if the interest rate is under 3%, pay it off slowly and invest instead. Between 3% and 5%, do either. Over 5%, pay it off as soon as possible.",
+   "Spend less than you earn and invest the surplus. The book's core vehicle is a low-cost total stock market index fund (VTSAX).",
+   "Build 'FU money', savings big enough to give you freedom of choice, as the stated goal.",
+   "Use stocks for the wealth-building stage, and add bonds when you shift to wealth preservation (the 'Portfolio ideas to build and keep your wealth' chapter).",
+   "Use the book's new Punchlist, FAQ and Resources & Tools sections as a checklist."
+  ],
+  "not_found": "The creator's own sale or affiliate link (said to be in the bio or comments) and the current sale price could not be seen or checked. The publisher pages at Simon & Schuster and Porchlight could not be opened (403/429).",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.3529408,
+  "deep": true,
+  "checked_at": "2026-11-10",
   "note": "2026-07-20_1533_DYfGyy-Oh7V/DYfGyy-Oh7V - shes bad but she gotta go_description.md"
  },
  "Da-yYUrutzP": {
@@ -19233,15 +19287,49 @@
   "note": "2026-05-23_0956_DYnsnh2Bnq4/DYnsnh2Bnq4 - Most entrepreneurs dont own a business they own a_description.md"
  },
  "DWS-ypWtEaG": {
-  "verdict": "unresolved",
-  "verdict_reason": "The post's description doesn't name the streaming site or the viral-video analysis tool, and I found no public listing of them. ZLibrary is a known book-piracy site, so I left it out as a resource.",
-  "resources": [],
-  "vault_notes": [],
-  "steps": [],
-  "not_found": "The names or URLs of the free streaming/watch-party site and the viral-video analyzer. They appear only on screen or in the audio, and the transcript has no names. I found no vault notes and no matches for the creator. Check the reel's on-screen text or comments.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.029026,
-  "checked_at": "2026-10-22",
+  "verdict": "partly_valid",
+  "verdict_reason": "Two of the three sites are identified: Yorby (the viral-video remixer, matches what the reel shows) and Z-Library. The free streaming/watch-party site is never named on screen. Yorby is paid, with only a 3-day trial, and the creator's own TikToks sit inside his Yorby account, so this part may be paid or affiliate promotion.",
+  "resources": [
+   {
+    "name": "Yorby – AI social media marketing tool (viral video remix / Content Studio)",
+    "url": "https://yorby.ai",
+    "kind": "tool",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Frame 06 shows a browser tab titled 'Yorby - Social Media Marketing Pl…'. Frames 07–10 show its 'Content Studio', 'Remix Content' and 'Get Feedback' screens. yorby.ai describes pasting a TikTok/Instagram link to remix it for your niche, with an AI Content Studio. Pricing on the site: $50/mo Viral Library, $100/mo Posts, 3-day free trial."
+   },
+   {
+    "name": "Z-Library",
+    "url": "https://z-library.sk",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "low",
+    "evidence": "Frames 11–12 show the Z-Library homepage (logo, tagline 'Your gateway to knowledge and culture', title/author/ISBN search). This domain comes only from a Raindrop bookmark in the search results. The official domain is disputed (z-lib.id is also claimed), and I did not open it."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/Vault knowledge library/deadends/IG dead ends - other.md",
+    "covers": "Lists this post under 'Tool never named', from the earlier pass. Has no resource links."
+   }
+  ],
+  "ig_posts": [],
+  "steps": [
+   "Go to yorby.ai and start the 3-day free trial. It's paid after that ($50/mo Viral Library, $100/mo Posts with Content Studio), so cancel before the trial ends if you don't want to pay.",
+   "Copy the URL of a viral TikTok or Instagram video.",
+   "Open 'Your Personal Content', paste the URL to add the video, then click 'Content Studio' on it.",
+   "Wait for 'AI is Analyzing' (about 90–120 seconds) to get the breakdown of why it went viral.",
+   "In the chat, type something like 'remix this content for [your niche]'. In the reel he used 'remix this content for studying niche'.",
+   "Answer the follow-up questions (e.g. 'Studying Angle', 'Your Format'). It then writes a timestamped script with a hook and shot-by-shot lines.",
+   "Optional: save a prompt with your brand context under 'Saved Prompts' so you don't repeat it in each chat. You can also use 'Get Feedback' on your own videos."
+  ],
+  "not_found": "The free streaming site's name or URL. Frames 02–05 show only its interface: a nav bar with Home, API and Browse; a menu with Movies, TV Shows, Anime, Channels, 4K, Watch Party, History, Watchlist and an 'Ads status' toggle; and rows for Netflix, Prime, Max, Disney+, AppleTV and Paramount. No domain or logo is visible, and searching for that menu layout found no clear match. Z-Library's current official domain could not be confirmed. Frame 01 shows only logos: an interlocking-rings logo and a 'PH' tile. I did not open the creator's other public pages.",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.5759283,
+  "deep": true,
+  "checked_at": "2026-11-11",
   "note": "2026-05-19_1656_DWS-ypWtEaG/DWS-ypWtEaG_description.md"
  },
  "DYejISHDQlD": {
@@ -25350,15 +25438,71 @@
   "note": "2025-12-04_1252_DRyb55XDe_a/DRyb55XDe_a - you can do anything_description.md"
  },
  "DRlmtCpDqa4": {
-  "verdict": "unresolved",
-  "verdict_reason": "The post says to use niche remote job sites but never names them, and it has no links. The general advice is reasonable, but there is no specific resource to verify.",
-  "resources": [],
-  "vault_notes": [],
-  "steps": [],
-  "not_found": "The niche job sites the man mentions are not named in the transcript or caption. The caption only points to a TikTok account (Inwmediagroup), and I did not search for it. I found no vault notes on this post.",
-  "model": "claude-sonnet-5-5",
-  "cost_usd": 0.008649,
-  "checked_at": "2026-10-23",
+  "verdict": "partly_valid",
+  "verdict_reason": "The video frames name two of the three sites, Built In and Rat Race Rebellion. Both are real, public remote job boards. The third site never appears in the extracted frames. \"Sites nobody talks about\" is an overstatement, because Built In is a large, well-known tech job board.",
+  "resources": [
+   {
+    "name": "Built In – remote tech jobs",
+    "url": "https://builtin.com/jobs/remote",
+    "kind": "tool",
+    "found_via": "post",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Deep frame 11 shows the overlay 'builtin.com' while he points up. I opened the page and it is Built In's remote tech jobs list, with Remote/Hybrid, category, industry, experience and company-size filters plus job alerts."
+   },
+   {
+    "name": "Rat Race Rebellion",
+    "url": "https://www.ratracerebellion.com/",
+    "kind": "tool",
+    "found_via": "post",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Deep frame 12 shows the overlay 'ratracebellion.com', a typo for Rat Race Rebellion. I opened the site: a vetted work-from-home job board running since 1999, with daily roundups, a newest-jobs page and email updates."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "2. Areas/Career Development/tips tools/remote jobs.md",
+    "covers": "A list of 11 remote job boards (Wellfound, RemoteOK, Remotive, FlexJobs, Working Nomads and others). It does not include Built In or Rat Race Rebellion."
+   },
+   {
+    "path": "ZAIHub/agents/Hidden opportunities by Claude.md",
+    "covers": "Mentions Built In NYC and a builtin.com article on NYC companies, not the remote jobs board."
+   }
+  ],
+  "ig_posts": [
+   {
+    "shortcode": "DSabopxCqaN",
+    "relation": "same",
+    "why": "Same link: Built In – remote tech jobs."
+   },
+   {
+    "shortcode": "DFf9NKkg5cX",
+    "relation": "similar",
+    "why": "Promotes a remote-only job board with AI job-search tools."
+   },
+   {
+    "shortcode": "DOLKfq9AmlA",
+    "relation": "similar",
+    "why": "Names four remote job sites (Himalayas, remotejobs.io and others) as alternatives to the big boards."
+   },
+   {
+    "shortcode": "DTTCvyKEh-N",
+    "relation": "similar",
+    "why": "A carousel of remote job boards beyond LinkedIn and Indeed (Wellfound, RemoteOK, We Work Remotely, FlexJobs)."
+   }
+  ],
+  "steps": [
+   "Built In: go to builtin.com/jobs/remote and set the Remote/Hybrid filter to Remote.",
+   "Built In: narrow results with Job Category, Industry, Experience and Company Size under All Filters, then use 'Save Alert' to get new matches by email.",
+   "Rat Race Rebellion: open ratracerebellion.com and check the 'Newest Jobs & Gigs' page or the dated daily roundups.",
+   "Rat Race Rebellion: subscribe to its free email updates. Listings link to the employer's own page, so apply there, and read each listing's terms, since some note applicant fees or state restrictions."
+  ],
+  "not_found": "The third site he points to ('this one and this one and this one') does not appear in any of the 12 extracted frames, so it is still unknown. I did not look up the original TikTok creator (the caption credits Inwmediagroup, a repost account), so I could not check whether the full video names it.",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.3266303,
+  "deep": true,
+  "checked_at": "2026-11-11",
   "note": "2025-12-04_1252_DRlmtCpDqa4/DRlmtCpDqa4 - This Man Just Unlocked the Remote Job Cheat Code_description.md"
  },
  "DRo9F1UDC4L": {
@@ -35302,5 +35446,226 @@
   "cost_usd": 0.0199997,
   "checked_at": "2026-11-10",
   "note": "2025-01-02_1649_DEBwHbzSwvo/DEBwHbzSwvo - ChatGPT to Super ChatGPT_description.md"
+ },
+ "DdT_OwyFeoj": {
+  "verdict": "valid",
+  "verdict_reason": "All five tools exist as free, public GitHub projects, so the claim holds. The full list is only sent by comment, but the public repos can be found without it. \"Image23JS\" is img2threejs.",
+  "resources": [
+   {
+    "name": "Taste Skill (Leonxlnx/taste-skill)",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "kind": "repo",
+    "found_via": "vault",
+    "verified": true,
+    "confidence": "medium",
+    "evidence": "An earlier saved post's note verified it as an anti-generic-AI-UI frontend skill; search listings agree. I did not open it this time."
+   },
+   {
+    "name": "Impeccable (pbakaus/impeccable)",
+    "url": "https://github.com/pbakaus/impeccable",
+    "kind": "repo",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "An earlier saved post's note verified this free design skill, which has a live-editing mode and design commands; it matches the post's description."
+   },
+   {
+    "name": "Playwright CLI (microsoft/playwright-cli)",
+    "url": "https://github.com/microsoft/playwright-cli",
+    "kind": "repo",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Opened it: a CLI for coding agents with named sessions, screenshots and browser control, as the post describes."
+   },
+   {
+    "name": "Awesome DESIGN.md (VoltAgent)",
+    "url": "https://github.com/VoltAgent/awesome-design-md",
+    "kind": "repo",
+    "found_via": "vault",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "An earlier saved post's note treated it as the likely \"Awesome Design\": design-system files from real brands. I did not open it this time."
+   },
+   {
+    "name": "img2threejs (hoainho/img2threejs)",
+    "url": "https://raw.githubusercontent.com/hoainho/img2threejs/master/SKILL.md",
+    "kind": "repo",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "A search result describes a Claude skill that turns an object image into procedural Three.js code, which fits \"Image23JS\". This is the raw SKILL.md link; I did not open it."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [
+   {
+    "shortcode": "DcWQCQdN28T",
+    "relation": "same",
+    "why": "Same link: Taste Skill (Leonxlnx/taste-skill)."
+   },
+   {
+    "shortcode": "DeNaD7lx15E",
+    "relation": "same",
+    "why": "Same link: Impeccable (pbakaus/impeccable)."
+   }
+  ],
+  "steps": [
+   "Taste: in Claude Code run `/plugin marketplace add Leonxlnx/taste-skill`, then `/plugin install taste-skill@taste-skill`.",
+   "Impeccable: run `npx impeccable install` in your project, then `/impeccable init` and commands like `/impeccable critique <target>`.",
+   "Playwright CLI: run `npm install -g @playwright/cli@latest`, then `playwright-cli install --skills`.",
+   "Playwright CLI use: `playwright-cli open <url>`, `snapshot`, `click`, `screenshot`. Use `-s=name` for separate sessions.",
+   "Awesome DESIGN.md: copy a brand's DESIGN.md from the repo into your project and tell Claude to follow it.",
+   "img2threejs: install the skill from the repo (the SKILL.md can be copied into your skills folder), then run `/img2threejs Rebuild this object as a Three.js model` with an image."
+  ],
+  "not_found": "I didn't open the Taste, Awesome DESIGN.md or img2threejs repos in this session. The exact img2threejs install command is unconfirmed. The creator's own full list is only sent via a \"FRONTEND\" comment.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.1261733,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_0056_DdT_OwyFeoj/DdT_OwyFeoj_description.md"
+ },
+ "DEOQvPgp0Bw": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "The post is general career advice with no specific named resource. Its tips (tailor your resume with ChatGPT, network at conferences, get referrals, pick bootcamps with a good track record) are common, sensible advice, and it names nothing to look up.",
+  "resources": [],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/black  popular  tech creators.md",
+    "covers": "A list of Black tech creators that includes imjustcyrus. It has no resource from this post."
+   }
+  ],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": null,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.033408,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-30_2010_DEOQvPgp0Bw/DEOQvPgp0Bw - If youre not in tech comment your career questions_description.md"
+ },
+ "DCpBbHFJmEa": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "This is a promo clip for a podcast interview with Johnny Chang, a personal testimony. It has no tool, guide or checkable claim. I couldn't find the episode on the show's Podbean listing.",
+  "resources": [
+   {
+    "name": "Mighty Pursuit Podcast (Podbean feed)",
+    "url": "https://mightypursuitpodcast.podbean.com/",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "low",
+    "evidence": "This is the show's feed. Pages 3, 7 and 8 list episodes from Dec 2024 to 2026, and none of them is Johnny Chang or episode 28. The episode may have been renamed or removed."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The Mighty Pursuit episode 28 page with Johnny Chang was not found. The Podbean listing has no entry for Dec 28, 2024. The post says to use the link in the creator's bio to watch on YouTube, Apple Podcasts or Spotify.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.09532790000000001,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-28_1147_DCpBbHFJmEa/DCpBbHFJmEa - Episode 28 of the Mighty Pursuit Podcast is now_description.md"
+ },
+ "DD73gIyyAjy": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "Generic motivational reel with no tool, guide or checkable claim. The 93%/6%/1% graphic is a vague analogy with no source.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": null,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0099648,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-26_0757_DD73gIyyAjy/DD73gIyyAjy - Being in the top 1 isnt about luckits about_description.md"
+ },
+ "DDxkQncvmTa": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "This is a food reel that lists DC vegan restaurants (@dcvegan, @planta, @fruitive, @elizabeths.dc, @eatpowpow, @hipcityveg). It has no downloadable or linkable resource, so I stopped without searching.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": null,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0103268,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-23_0837_DDxkQncvmTa/DDxkQncvmTa - Be sure to add these spots to your DC bucket list_description.md"
+ },
+ "DDjBimLORIh": {
+  "verdict": "valid",
+  "verdict_reason": "Monsters We Make is a real CoryxKenshin release that launched Dec 16, 2024, matching the reel. Some outlets avoid the word \"manga\", but it's a minor point.",
+  "resources": [
+   {
+    "name": "Anime Corner: CoryxKenshin launches Monsters We Make",
+    "url": "https://animecorner.me/coryxkenshin-launches-monsters-we-make-manga/",
+    "kind": "page",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Opened it. It is dated Dec 16, 2024, covers the launch, credits studio The Line for the trailer, and points to monsterswemake.com."
+   },
+   {
+    "name": "Monsters We Make official site",
+    "url": "https://monsterswemake.com",
+    "kind": "product",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "The Anime Corner article names it as the place to buy. I did not open it."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "I did not open the official site. IDW's Oct 28, 2025 retail edition comes from search summaries only.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.042031900000000004,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-16_1750_DDjBimLORIh/DDjBimLORIh - But this manga isnt a dream_description.md"
+ },
+ "DBJYJfps3NK": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "Entertainment reel of underwater wildlife encounters with a bucket-list caption. It points to no tool, guide or product.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": null,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.029434000000000002,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-16_1745_DBJYJfps3NK/DBJYJfps3NK - Tag a friend who would jump in too_description.md"
+ },
+ "DDXMZjloo5w": {
+  "verdict": "partly_valid",
+  "verdict_reason": "Two-phase immersion cooling is real and works as the reel describes. The \"20 times faster than air\" figure is unsourced, and the reel leaves out that the main fluids (3M Novec) are PFAS and have been discontinued.",
+  "resources": [
+   {
+    "name": "Two-phase cooling will be hit by EPA rules and 3M's exit from PFAS (DCD)",
+    "url": "https://www.datacenterdynamics.com/en/news/two-phase-cooling-will-be-hit-by-epa-rules-and-3ms-exit-from-pfas-forever-chemicals",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "Appears in search results. It covers the same boiling and condensing fluorinated-fluid method and the PFAS problem. I did not open it."
+   },
+   {
+    "name": "2-phase immersion cooling halted over health hazard lawsuits (ServeTheHome)",
+    "url": "https://www.servethehome.com/2-phase-immersion-cooling-halted-over-multi-billion-dollar-health-hazard-lawsuits/",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "Appears in search results. It gives context on the fluid supply problem. I did not open it."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The specific trade-show demo, the exhibitor and the brand shown on screen could not be identified. I did not open any search result, and I did not check the \"20x\" cooling claim.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0407493,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-12_1329_DDXMZjloo5w/DDXMZjloo5w_description.md"
  }
 }

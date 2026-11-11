@@ -8,6 +8,8 @@ ig_automation/tests/__pycache__/
 ig_automation/output/*
 !ig_automation/output/research.json
 !ig_automation/output/dead_ends.json
+!ig_automation/output/review_queue.json
+!ig_automation/output/review_log.json
 # Post folders: only the .md notes are tracked; media, transcripts and the rest stay out (since 2026-10-14).
 IG/*
 !IG/*/
