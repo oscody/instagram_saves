@@ -133,5 +133,30 @@
   "title": "Then run the deeper audit, `/claude-api prompt-audit`",
   "source": "manual",
   "text": "done F2"
+ },
+ {
+  "at": "2026-11-11T14:02:23-05:00",
+  "event": "sent",
+  "id": "X2",
+  "kind": "deadend",
+  "title": "Claude, Obsidian et NotebookLM : second cerveau",
+  "times": 1
+ },
+ {
+  "at": "2026-11-11T14:07:51-05:00",
+  "event": "answer: later",
+  "id": "X2",
+  "kind": "deadend",
+  "title": "Claude, Obsidian et NotebookLM : second cerveau",
+  "source": "manual",
+  "text": "later X2"
+ },
+ {
+  "at": "2026-11-11T19:00:59-05:00",
+  "event": "sent",
+  "id": "D3",
+  "kind": "digest",
+  "title": "Worktrunk",
+  "times": 1
  }
 ]

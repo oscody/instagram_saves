@@ -2,6 +2,140 @@
  "built": "2026-11-11",
  "accounts": [
   {
+   "account": "(unknown)",
+   "saves": 21,
+   "recent": 17,
+   "first_saved": "2025-04-01",
+   "last_saved": "2026-11-11",
+   "valid": 6,
+   "useful": 13,
+   "noise": 6,
+   "useful_share": 0.65,
+   "fun": 1,
+   "gated": 1,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 7,
+    "Promo": 5,
+    "Valid": 6,
+    "Unresolved": 1,
+    "Nothing to find": 1,
+    "Not valid": 1
+   },
+   "topics": [
+    "Career Direction and Tech Market Commentary",
+    "Game Development and Games Showcase",
+    "AI Services and Business Automation"
+   ],
+   "posts": [
+    {
+     "shortcode": "DfkgWJRE_FE",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1942_DfkgWJRE_FE/DfkgWJRE_FE_description.md"
+    },
+    {
+     "shortcode": "DdzT-V2NXXY",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1406_DdzT-V2NXXY/DdzT-V2NXXY_description.md"
+    },
+    {
+     "shortcode": "Dfm3zUdHNBs",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1403_Dfm3zUdHNBs/Dfm3zUdHNBs_description.md"
+    },
+    {
+     "shortcode": "DfjpHfTBZIs",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1358_DfjpHfTBZIs/DfjpHfTBZIs_description.md"
+    },
+    {
+     "shortcode": "DdT_OwyFeoj",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_0056_DdT_OwyFeoj/DdT_OwyFeoj_description.md"
+    },
+    {
+     "shortcode": "DfhS6NYsfPS",
+     "saved": "2026-11-10",
+     "note": "2026-11-10_0411_DfhS6NYsfPS/DfhS6NYsfPS_description.md"
+    },
+    {
+     "shortcode": "Dey0nCDJT8w",
+     "saved": "2026-11-10",
+     "note": "2026-11-10_0331_Dey0nCDJT8w/Dey0nCDJT8w_description.md"
+    },
+    {
+     "shortcode": "DfSBfpfN3mm",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0457_DfSBfpfN3mm/DfSBfpfN3mm_description.md"
+    },
+    {
+     "shortcode": "DeIbI7uxP61",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0425_DeIbI7uxP61/DeIbI7uxP61_description.md"
+    },
+    {
+     "shortcode": "Dfe2_koDlAL",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0424_Dfe2_koDlAL/Dfe2_koDlAL_description.md"
+    },
+    {
+     "shortcode": "Dffx-ftNj0Q",
+     "saved": "2026-11-09",
+     "note": "2026-11-09_0339_Dffx-ftNj0Q/Dffx-ftNj0Q_description.md"
+    },
+    {
+     "shortcode": "DfdtpQmoFTs",
+     "saved": "2026-11-08",
+     "note": "2026-11-08_1532_DfdtpQmoFTs/DfdtpQmoFTs_description.md"
+    },
+    {
+     "shortcode": "DfWPVu7gcmA",
+     "saved": "2026-11-08",
+     "note": "2026-11-08_0303_DfWPVu7gcmA/DfWPVu7gcmA_description.md"
+    },
+    {
+     "shortcode": "DfaMh4djNc1",
+     "saved": "2026-11-06",
+     "note": "2026-11-06_1408_DfaMh4djNc1/DfaMh4djNc1_description.md"
+    },
+    {
+     "shortcode": "DdWqz25sC5h",
+     "saved": "2026-11-04",
+     "note": "2026-11-04_0851_DdWqz25sC5h/DdWqz25sC5h_description.md"
+    },
+    {
+     "shortcode": "DbvghzspydP",
+     "saved": "2026-11-04",
+     "note": "2026-11-04_0808_DbvghzspydP/DbvghzspydP_description.md"
+    },
+    {
+     "shortcode": "Dbkee2MsWcl",
+     "saved": "2026-09-04",
+     "note": "2026-09-04_1150_Dbkee2MsWcl/Dbkee2MsWcl_description.md"
+    },
+    {
+     "shortcode": "DGLPhAxAaKe",
+     "saved": "2025-09-14",
+     "note": "2025-09-14_2011_DGLPhAxAaKe/DGLPhAxAaKe_description.md"
+    },
+    {
+     "shortcode": "DLVkYkcAwBn",
+     "saved": "2025-08-18",
+     "note": "2025-08-18_0121_DLVkYkcAwBn/DLVkYkcAwBn_description.md"
+    },
+    {
+     "shortcode": "DCdCuZsgKdB",
+     "saved": "2025-04-17",
+     "note": "2025-04-17_1045_DCdCuZsgKdB/DCdCuZsgKdB_description.md"
+    },
+    {
+     "shortcode": "DFf9NKkg5cX",
+     "saved": "2025-04-01",
+     "note": "2025-04-01_1638_DFf9NKkg5cX/DFf9NKkg5cX_description.md"
+    }
+   ]
+  },
+  {
    "account": "githubsignals",
    "saves": 18,
    "recent": 18,
@@ -115,119 +249,6 @@
      "shortcode": "DcNOMyTCXmO",
      "saved": "2026-08-20",
      "note": "2026-08-20_0948_DcNOMyTCXmO/DcNOMyTCXmO - Turn Any Video Into a 3D Character Animation With_description.md"
-    }
-   ]
-  },
-  {
-   "account": "(unknown)",
-   "saves": 17,
-   "recent": 13,
-   "first_saved": "2025-04-01",
-   "last_saved": "2026-11-11",
-   "valid": 5,
-   "useful": 11,
-   "noise": 5,
-   "useful_share": 0.69,
-   "fun": 1,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Valid": 5,
-    "Partly valid": 6,
-    "Nothing to find": 1,
-    "Promo": 4,
-    "Not valid": 1
-   },
-   "topics": [
-    "Career Direction and Tech Market Commentary",
-    "Game Development and Games Showcase",
-    "AI Services and Business Automation"
-   ],
-   "posts": [
-    {
-     "shortcode": "DdT_OwyFeoj",
-     "saved": "2026-11-11",
-     "note": "2026-11-11_0056_DdT_OwyFeoj/DdT_OwyFeoj_description.md"
-    },
-    {
-     "shortcode": "DfhS6NYsfPS",
-     "saved": "2026-11-10",
-     "note": "2026-11-10_0411_DfhS6NYsfPS/DfhS6NYsfPS_description.md"
-    },
-    {
-     "shortcode": "Dey0nCDJT8w",
-     "saved": "2026-11-10",
-     "note": "2026-11-10_0331_Dey0nCDJT8w/Dey0nCDJT8w_description.md"
-    },
-    {
-     "shortcode": "DfSBfpfN3mm",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0457_DfSBfpfN3mm/DfSBfpfN3mm_description.md"
-    },
-    {
-     "shortcode": "DeIbI7uxP61",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0425_DeIbI7uxP61/DeIbI7uxP61_description.md"
-    },
-    {
-     "shortcode": "Dfe2_koDlAL",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0424_Dfe2_koDlAL/Dfe2_koDlAL_description.md"
-    },
-    {
-     "shortcode": "Dffx-ftNj0Q",
-     "saved": "2026-11-09",
-     "note": "2026-11-09_0339_Dffx-ftNj0Q/Dffx-ftNj0Q_description.md"
-    },
-    {
-     "shortcode": "DfdtpQmoFTs",
-     "saved": "2026-11-08",
-     "note": "2026-11-08_1532_DfdtpQmoFTs/DfdtpQmoFTs_description.md"
-    },
-    {
-     "shortcode": "DfWPVu7gcmA",
-     "saved": "2026-11-08",
-     "note": "2026-11-08_0303_DfWPVu7gcmA/DfWPVu7gcmA_description.md"
-    },
-    {
-     "shortcode": "DfaMh4djNc1",
-     "saved": "2026-11-06",
-     "note": "2026-11-06_1408_DfaMh4djNc1/DfaMh4djNc1_description.md"
-    },
-    {
-     "shortcode": "DdWqz25sC5h",
-     "saved": "2026-11-04",
-     "note": "2026-11-04_0851_DdWqz25sC5h/DdWqz25sC5h_description.md"
-    },
-    {
-     "shortcode": "DbvghzspydP",
-     "saved": "2026-11-04",
-     "note": "2026-11-04_0808_DbvghzspydP/DbvghzspydP_description.md"
-    },
-    {
-     "shortcode": "Dbkee2MsWcl",
-     "saved": "2026-09-04",
-     "note": "2026-09-04_1150_Dbkee2MsWcl/Dbkee2MsWcl_description.md"
-    },
-    {
-     "shortcode": "DGLPhAxAaKe",
-     "saved": "2025-09-14",
-     "note": "2025-09-14_2011_DGLPhAxAaKe/DGLPhAxAaKe_description.md"
-    },
-    {
-     "shortcode": "DLVkYkcAwBn",
-     "saved": "2025-08-18",
-     "note": "2025-08-18_0121_DLVkYkcAwBn/DLVkYkcAwBn_description.md"
-    },
-    {
-     "shortcode": "DCdCuZsgKdB",
-     "saved": "2025-04-17",
-     "note": "2025-04-17_1045_DCdCuZsgKdB/DCdCuZsgKdB_description.md"
-    },
-    {
-     "shortcode": "DFf9NKkg5cX",
-     "saved": "2025-04-01",
-     "note": "2025-04-01_1638_DFf9NKkg5cX/DFf9NKkg5cX_description.md"
     }
    ]
   },
@@ -2727,6 +2748,45 @@
    ]
   },
   {
+   "account": "wellbycami",
+   "saves": 3,
+   "recent": 3,
+   "first_saved": "2026-08-14",
+   "last_saved": "2026-11-11",
+   "valid": 1,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 0.5,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 1,
+   "verdicts": {
+    "Nothing to find": 1,
+    "Valid": 1,
+    "Unresolved": 1
+   },
+   "topics": [
+    "Business Ideas, Startups and Management"
+   ],
+   "posts": [
+    {
+     "shortcode": "DfWCk4RS22s",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1355_DfWCk4RS22s/DfWCk4RS22s_description.md"
+    },
+    {
+     "shortcode": "DeakBGoSyKe",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1355_DeakBGoSyKe/DeakBGoSyKe_description.md"
+    },
+    {
+     "shortcode": "DbXHIDaSrk4",
+     "saved": "2026-08-14",
+     "note": "2026-08-14_0754_DbXHIDaSrk4/DbXHIDaSrk4 - Your 3day life and business strategy sync built_description.md"
+    }
+   ]
+  },
+  {
    "account": "yoiqino",
    "saves": 3,
    "recent": 3,
@@ -4562,6 +4622,36 @@
      "shortcode": "DeE-IIWuC83",
      "saved": "2026-10-04",
      "note": "2026-10-04_2014_DeE-IIWuC83/DeE-IIWuC83 - Smoking before a run Heres the timeline_description.md"
+    }
+   ]
+  },
+  {
+   "account": "sheni_icg",
+   "saves": 2,
+   "recent": 2,
+   "first_saved": "2026-11-02",
+   "last_saved": "2026-11-11",
+   "valid": 0,
+   "useful": 2,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 2
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DfkyVD2MWT4",
+     "saved": "2026-11-11",
+     "note": "2026-11-11_1356_DfkyVD2MWT4/DfkyVD2MWT4_description.md"
+    },
+    {
+     "shortcode": "DejwNU7sKwd",
+     "saved": "2026-11-02",
+     "note": "2026-11-02_0700_DejwNU7sKwd/DejwNU7sKwd_description.md"
     }
    ]
   },
@@ -6947,6 +7037,37 @@
    ]
   },
   {
+   "account": "thekoerneroffice",
+   "saves": 2,
+   "recent": 0,
+   "first_saved": "2024-12-12",
+   "last_saved": "2025-05-31",
+   "valid": 1,
+   "useful": 2,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 1,
+    "Valid": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DJ63MCTS8eh",
+     "saved": "2025-05-31",
+     "note": "2025-05-31_2314_DJ63MCTS8eh/DJ63MCTS8eh - GENIUS IDEA_description.md"
+    },
+    {
+     "shortcode": "DDN2vZOS7x8",
+     "saved": "2024-12-12",
+     "note": "2024-12-12_1129_DDN2vZOS7x8/DDN2vZOS7x8 - GENIUS IDEA_description.md"
+    }
+   ]
+  },
+  {
    "account": "theschoolofhardknockz",
    "saves": 2,
    "recent": 0,
@@ -7043,6 +7164,39 @@
      "shortcode": "DXmWHzIExeq",
      "saved": "2026-05-02",
      "note": "2026-05-02_1836_DXmWHzIExeq/DXmWHzIExeq - Claude Code without the 20200 a month subscription_description.md"
+    }
+   ]
+  },
+  {
+   "account": "trellthetrainer",
+   "saves": 2,
+   "recent": 0,
+   "first_saved": "2024-12-03",
+   "last_saved": "2026-03-21",
+   "valid": 0,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1,
+    "Partly valid": 1
+   },
+   "topics": [
+    "Dating and Relationship Advice"
+   ],
+   "posts": [
+    {
+     "shortcode": "DWHwebRjkrD",
+     "saved": "2026-03-21",
+     "note": "2026-03-21_1221_DWHwebRjkrD/DWHwebRjkrD - Youre not dating for entertainment_description.md"
+    },
+    {
+     "shortcode": "DDF0d8Sx7MN",
+     "saved": "2024-12-03",
+     "note": "2024-12-03_0936_DDF0d8Sx7MN/DDF0d8Sx7MN - these are very basic tips that almost anyone can_description.md"
     }
    ]
   },
@@ -12172,31 +12326,6 @@
    ]
   },
   {
-   "account": "sheni_icg",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-11-02",
-   "last_saved": "2026-11-02",
-   "valid": 0,
-   "useful": 1,
-   "noise": 0,
-   "useful_share": 1.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Partly valid": 1
-   },
-   "topics": [],
-   "posts": [
-    {
-     "shortcode": "DejwNU7sKwd",
-     "saved": "2026-11-02",
-     "note": "2026-11-02_0700_DejwNU7sKwd/DejwNU7sKwd_description.md"
-    }
-   ]
-  },
-  {
    "account": "sherryeatworld",
    "saves": 1,
    "recent": 1,
@@ -13673,33 +13802,6 @@
      "shortcode": "DdkskEHA8N6",
      "saved": "2026-10-27",
      "note": "2026-10-27_1811_DdkskEHA8N6/DdkskEHA8N6 - webcomicsapp Your favorite comics for free_description.md"
-    }
-   ]
-  },
-  {
-   "account": "wellbycami",
-   "saves": 1,
-   "recent": 1,
-   "first_saved": "2026-08-14",
-   "last_saved": "2026-08-14",
-   "valid": 0,
-   "useful": 0,
-   "noise": 0,
-   "useful_share": 0.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 1,
-   "verdicts": {
-    "Unresolved": 1
-   },
-   "topics": [
-    "Business Ideas, Startups and Management"
-   ],
-   "posts": [
-    {
-     "shortcode": "DbXHIDaSrk4",
-     "saved": "2026-08-14",
-     "note": "2026-08-14_0754_DbXHIDaSrk4/DbXHIDaSrk4 - Your 3day life and business strategy sync built_description.md"
     }
    ]
   },
@@ -17345,6 +17447,31 @@
      "shortcode": "DaYNQBsDm_b",
      "saved": "2026-07-20",
      "note": "2026-07-20_1543_DaYNQBsDm_b/DaYNQBsDm_b - Deep in the Sierra Nevada de Santa Marta the_description.md"
+    }
+   ]
+  },
+  {
+   "account": "etf.investments",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-11",
+   "last_saved": "2024-12-11",
+   "valid": 0,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Partly valid": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DA0x3sMylvw",
+     "saved": "2024-12-11",
+     "note": "2024-12-11_0925_DA0x3sMylvw/DA0x3sMylvw - SAVE FOR LATER_description.md"
     }
    ]
   },
@@ -22274,6 +22401,31 @@
    ]
   },
   {
+   "account": "poweredbyironhealth",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-09",
+   "last_saved": "2024-12-09",
+   "valid": 0,
+   "useful": 0,
+   "noise": 1,
+   "useful_share": 0.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Promo": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DCmkVFdsqFE",
+     "saved": "2024-12-09",
+     "note": "2024-12-09_2008_DCmkVFdsqFE/DCmkVFdsqFE_description.md"
+    }
+   ]
+  },
+  {
    "account": "progress.playground",
    "saves": 1,
    "recent": 0,
@@ -22987,6 +23139,31 @@
      "shortcode": "DYNZcOgIcZg",
      "saved": "2026-06-13",
      "note": "2026-06-13_1106_DYNZcOgIcZg/DYNZcOgIcZg - Websites that should not exist Part 13_description.md"
+    }
+   ]
+  },
+  {
+   "account": "sadmoneypodcast",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-06",
+   "last_saved": "2024-12-06",
+   "valid": 0,
+   "useful": 0,
+   "noise": 0,
+   "useful_share": null,
+   "fun": 1,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Nothing to find": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "C_ihRpZNoD2",
+     "saved": "2024-12-06",
+     "note": "2024-12-06_0903_C_ihRpZNoD2/C_ihRpZNoD2 - The economics of dating apps_description.md"
     }
    ]
   },
@@ -24377,6 +24554,31 @@
    ]
   },
   {
+   "account": "theadeolacrown",
+   "saves": 1,
+   "recent": 0,
+   "first_saved": "2024-12-05",
+   "last_saved": "2024-12-05",
+   "valid": 1,
+   "useful": 1,
+   "noise": 0,
+   "useful_share": 1.0,
+   "fun": 0,
+   "gated": 0,
+   "not_found": 0,
+   "verdicts": {
+    "Valid": 1
+   },
+   "topics": [],
+   "posts": [
+    {
+     "shortcode": "DDGdpfBuGnQ",
+     "saved": "2024-12-05",
+     "note": "2024-12-05_1456_DDGdpfBuGnQ/DDGdpfBuGnQ - Looking for your next big opportunity The Jobs NYC_description.md"
+    }
+   ]
+  },
+  {
    "account": "theadnaankhan",
    "saves": 1,
    "recent": 0,
@@ -24639,31 +24841,6 @@
      "shortcode": "DV8p4Pqgodm",
      "saved": "2026-03-18",
      "note": "2026-03-18_1019_DV8p4Pqgodm/DV8p4Pqgodm - I PASTED MY LINKEDIN INTO CLAUDE 3 RECRUITERS_description.md"
-    }
-   ]
-  },
-  {
-   "account": "thekoerneroffice",
-   "saves": 1,
-   "recent": 0,
-   "first_saved": "2025-05-31",
-   "last_saved": "2025-05-31",
-   "valid": 0,
-   "useful": 1,
-   "noise": 0,
-   "useful_share": 1.0,
-   "fun": 0,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Partly valid": 1
-   },
-   "topics": [],
-   "posts": [
-    {
-     "shortcode": "DJ63MCTS8eh",
-     "saved": "2025-05-31",
-     "note": "2025-05-31_2314_DJ63MCTS8eh/DJ63MCTS8eh - GENIUS IDEA_description.md"
     }
    ]
   },
@@ -25057,33 +25234,6 @@
      "shortcode": "DD6m6kSRjOf",
      "saved": "2025-01-03",
      "note": "2025-01-03_0828_DD6m6kSRjOf/DD6m6kSRjOf - You gotta work like you already getting paid stay_description.md"
-    }
-   ]
-  },
-  {
-   "account": "trellthetrainer",
-   "saves": 1,
-   "recent": 0,
-   "first_saved": "2026-03-21",
-   "last_saved": "2026-03-21",
-   "valid": 0,
-   "useful": 0,
-   "noise": 0,
-   "useful_share": null,
-   "fun": 1,
-   "gated": 0,
-   "not_found": 0,
-   "verdicts": {
-    "Nothing to find": 1
-   },
-   "topics": [
-    "Dating and Relationship Advice"
-   ],
-   "posts": [
-    {
-     "shortcode": "DWHwebRjkrD",
-     "saved": "2026-03-21",
-     "note": "2026-03-21_1221_DWHwebRjkrD/DWHwebRjkrD - Youre not dating for entertainment_description.md"
     }
    ]
   },

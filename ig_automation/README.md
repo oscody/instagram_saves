@@ -441,7 +441,7 @@ Each model is loaded once per run, not once per post. Each stage opens the Hailo
 
 ## Research the posts: `research.py` (added 2026-10-22)
 
-`research.py` digs deeper into described posts. For each `_description.md` outside `IG/0_IG_Archive`, headless Claude checks the Obsidian vault first, then searches the web (creator profile and site, GitHub, the web) for the repo, guide, tool or page the post describes. It opens the best match to confirm it, gives the post a verdict, and pulls out the key steps or prompts needed to use the resource. This covers the "Research scope: discover project links from saved videos" plan in the vault note `repo - Instagram saves`, plus the verdict and the steps.
+`research.py` digs deeper into described posts. For each `_description.md` outside `IG/0_IG_Archive`, headless Claude checks the Obsidian vault first, then searches the web (creator profile and site, GitHub, the web) for the repo, guide, tool or page the post describes. For code posts with no public link ("comment for the code") it also searches the GitHub repository search API with a few distinctive words, since the creator's GitHub name often differs from the Instagram handle (added 2026-11-11). It opens the best match to confirm it, gives the post a verdict, and pulls out the key steps or prompts needed to use the resource. This covers the "Research scope: discover project links from saved videos" plan in the vault note `repo - Instagram saves`, plus the verdict and the steps.
 
 It runs on the Mac and on the Pi: only Python 3 and the logged in Claude CLI, no packages. On the Pi it also sends the transcript (`*_transcript.txt`) and the on screen text (`*_ocr.txt`); on the Mac copy, where only the notes are in git, it works from the note alone.
 

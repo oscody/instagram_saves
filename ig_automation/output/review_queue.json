@@ -156,13 +156,49 @@
    ],
    "added_at": "2026-11-11T10:00:53-05:00",
    "answered_at": "2026-11-11T10:41:13-05:00"
+  },
+  "deadend:DYMsOCuNr-z:research": {
+   "id": "X2",
+   "kind": "deadend",
+   "key": "deadend:DYMsOCuNr-z:research",
+   "title": "Claude, Obsidian et NotebookLM : second cerveau",
+   "status": "later",
+   "sends": [
+    {
+     "at": "2026-11-11T14:02:23-05:00"
+    }
+   ],
+   "replies": [
+    {
+     "at": "2026-11-11T14:07:51-05:00",
+     "word": "later",
+     "text": "later X2",
+     "source": "manual"
+    }
+   ],
+   "added_at": "2026-11-11T14:00:54-05:00",
+   "answered_at": "2026-11-11T14:07:51-05:00"
+  },
+  "digest:https://github.com/max-sixty/worktrunk": {
+   "id": "D3",
+   "kind": "digest",
+   "key": "digest:https://github.com/max-sixty/worktrunk",
+   "title": "Worktrunk",
+   "status": "sent",
+   "sends": [
+    {
+     "at": "2026-11-11T19:00:59-05:00"
+    }
+   ],
+   "replies": [],
+   "added_at": "2026-11-11T19:00:53-05:00"
   }
  },
  "next_number": {
   "P": 3,
-  "D": 3,
+  "D": 4,
   "F": 3,
-  "X": 2
+  "X": 3
  },
- "replies_checked_until": 1794411660.0
+ "replies_checked_until": 1794444152.0
 }

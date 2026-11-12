@@ -35667,5 +35667,340 @@
   "cost_usd": 0.0407493,
   "checked_at": "2026-11-11",
   "note": "2024-12-12_1329_DDXMZjloo5w/DDXMZjloo5w_description.md"
+ },
+ "DdzT-V2NXXY": {
+  "verdict": "promo",
+  "verdict_reason": "The creator is selling high-ticket coaching. The interview prompt is only sent by DM after a comment of \"offer\", and no public copy was found. The post gives no creator name. The income math is also off: 0.01% of 30,000 views is 3 people, not 10 sales.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The interview prompt is sent only by DM after the keyword \"offer\", and I found no public copy. The creator is not named in the post, and I did not search the web. I did not open any of the other saved posts that matched my keyword search. I judged them unrelated from their file names alone.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.037192,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1406_DdzT-V2NXXY/DdzT-V2NXXY_description.md"
+ },
+ "Dfm3zUdHNBs": {
+  "verdict": "valid",
+  "verdict_reason": "The skill is Vercel's public \"find-skills\" on skills.sh. It searches the skills directory and installs matches. Install count is now 4.3M, so the 3M claim holds. The \"LIBRARY\" comment gate is unnecessary because the install is public.",
+  "resources": [
+   {
+    "name": "find-skills (skills.sh page)",
+    "url": "https://skills.sh/vercel-labs/skills/find-skills",
+    "kind": "tool",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Page describes finding and installing skills from the directory, matching the post's description, and lists 4.3M installs, above the 3M the post cites."
+   },
+   {
+    "name": "vercel-labs/skills (skills CLI repo)",
+    "url": "https://github.com/vercel-labs/skills",
+    "kind": "repo",
+    "found_via": "vault",
+    "verified": false,
+    "confidence": "high",
+    "evidence": "A vault-adjacent saved-post note (DcgvcNGsEa1) records this repo as the verified home of the skills CLI and find-skills. I did not open it in this run."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [
+   {
+    "shortcode": "DcgvcNGsEa1",
+    "relation": "same",
+    "why": "Same link: vercel-labs/skills (skills CLI repo)."
+   },
+   {
+    "shortcode": "DeNy_grv_AM",
+    "relation": "same",
+    "why": "Same link: vercel-labs/skills (skills CLI repo)."
+   },
+   {
+    "shortcode": "DePtyBoAOPd",
+    "relation": "same",
+    "why": "Same link: vercel-labs/skills (skills CLI repo)."
+   },
+   {
+    "shortcode": "Dc84Z0-iY5s",
+    "relation": "similar",
+    "why": "Shows skills.sh listings for Claude Code skills, but the creator's file is sent by comment and was not identified."
+   }
+  ],
+  "steps": [
+   "Run: npx skills add https://github.com/vercel-labs/skills --skill find-skills",
+   "Restart Claude Code so it loads the skill.",
+   "Tell Claude what you want to do, for example \"find a skill for writing content\".",
+   "The skill checks the skills.sh leaderboard and runs npx skills find <query>.",
+   "It favors skills with 1K+ installs, reputable sources and good GitHub stars.",
+   "Install a match with npx skills add <owner/repo>.",
+   "Later, run npx skills check or npx skills update to keep skills current."
+  ],
+  "not_found": "Nothing in the post's own comment-only setup was seen. The public skill covers what the post describes. The \"engineer at ForSale\" is probably a mishearing of Vercel, since the on-screen text shows Vercel. I did not open the GitHub repo directly.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0547334,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1403_Dfm3zUdHNBs/Dfm3zUdHNBs_description.md"
+ },
+ "DfjpHfTBZIs": {
+  "verdict": "unresolved",
+  "verdict_reason": "The creator's personal curriculum is only sent by comment, so no public copy exists. The Stanford Symbolic Systems core requirements are public and could serve as a partial substitute.",
+  "resources": [
+   {
+    "name": "Stanford Symbolic Systems – Core Requirements",
+    "url": "https://symsys.stanford.edu/undergraduates/major-policies-requirements/core-requirements",
+    "kind": "page",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "medium",
+    "evidence": "Official public curriculum for the program the creator says she used as a base, though it is not her curriculum and does not match the 8-topic on-screen list."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [
+   "Start with SYMSYS 1 (Minds and Machines), the gateway course.",
+   "Cover math: calculus and linear algebra (e.g. MATH 51 or CME 100).",
+   "Philosophy: an intro course, then an advanced one.",
+   "Formal methods: formal logic, theory of computation, probability and statistics.",
+   "Computation: programming I and II (CS 106A and CS 106B), then one further computational methods course.",
+   "Cognitive science: PSYCH 1, a cognition/language/neuroscience course, and linguistic theory.",
+   "Add a cross-area course that combines two of these areas, then finish with a capstone project."
+  ],
+  "not_found": "The creator's own curriculum (comment-gated, and her name isn't in the post). I couldn't confirm the department head's book list or the 700-page math textbook.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.051362,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1358_DfjpHfTBZIs/DfjpHfTBZIs_description.md"
+ },
+ "DfkyVD2MWT4": {
+  "verdict": "partly_valid",
+  "verdict_reason": "The tips are sound general Claude Code practice, and /insights is a real command. The creator's exact prompt is only sent to people who comment \"FABLE\", and I found no public copy. I did not check the \"Fable 5.2\" model or the \"better than 99%\" and speed claims.",
+  "resources": [
+   {
+    "name": "Claude Code /insights: Your Personalized AI Usage Report",
+    "url": "https://blog.vincentqiao.com/en/posts/claude-code-insights/",
+    "kind": "guide",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "The search result describes /insights as a built-in command that generates a usage report with CLAUDE.md suggestions. I did not open the page. Other sources give a 30-day window, not the post's three months."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [
+   "Run /insights in Claude Code to generate the usage report.",
+   "Give the whole report back to Claude and have it apply the recommended CLAUDE.md additions, skills and hooks.",
+   "Do a second pass on the 'horizon' items.",
+   "Split skills and rules into department folders so they load only when needed. Keep only essentials in CLAUDE.md.",
+   "Ask Claude to audit CLAUDE.md, skills and notes for conflicting instructions, then settle on one answer for each.",
+   "Count the hard rules (words like 'always' and 'never'). Where they cluster in skills, look for better tools or a clearer task description. Fix any in CLAUDE.md.",
+   "For big tasks, write user stories describing the end result in detail and leave out how to do the work."
+  ],
+  "not_found": "The creator's \"FABLE\" prompt is only sent after a comment, and I found no public copy. I did not verify the \"Fable 5.2\" model or the claimed speedup (90 seconds down to 30). I did not open the /insights guide. The post names hyperframes as a repo, but I did not look for it.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.069354,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1356_DfkyVD2MWT4/DfkyVD2MWT4_description.md"
+ },
+ "DfWCk4RS22s": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "A meme-style productivity tips reel with no tool, link or downloadable resource. The advice is general and all of it is in the post.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": null,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0119288,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1355_DfWCk4RS22s/DfWCk4RS22s_description.md"
+ },
+ "DeakBGoSyKe": {
+  "verdict": "valid",
+  "verdict_reason": "The post is general productivity advice and names spinthewheel.io, a real free random wheel spinner. The tips are common sense, not a testable claim.",
+  "resources": [
+   {
+    "name": "Spin the Wheel",
+    "url": "https://spinthewheel.io",
+    "kind": "tool",
+    "found_via": "post",
+    "verified": true,
+    "confidence": "medium",
+    "evidence": "The post names spinthewheel.io. I opened it and it is a free online wheel spinner for making custom wheels. I couldn't confirm it is the exact app shown in the reel."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The site page didn't describe how to use the wheel, so I couldn't check it. The 50-minute timer app and the task menu template aren't named in the post.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0218118,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1355_DeakBGoSyKe/DeakBGoSyKe_description.md"
+ },
+ "DDN2vZOS7x8": {
+  "verdict": "valid",
+  "verdict_reason": "fuegopit.com exists and matches the post: a US founder taking pre-orders for Argentine-style BBQ fire pits. The site shows a pre-order signup, not a finished retail product, and I couldn't check the \"ugly website, welder, prototypes\" story.",
+  "resources": [
+   {
+    "name": "Fuego Pit",
+    "url": "https://fuegopit.com",
+    "kind": "product",
+    "found_via": "post",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "The page says 'Authentic Argentine BBQ Fire Pits', run by Carlos Grijalva in Dallas-Ft. Worth. It takes pre-order signups and lists no price."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The founder's story (prototypes from a welder, orders already coming in) was not checked. The site gives no price or specs.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0239635,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-12_1129_DDN2vZOS7x8/DDN2vZOS7x8 - GENIUS IDEA_description.md"
+ },
+ "DA0x3sMylvw": {
+  "verdict": "partly_valid",
+  "verdict_reason": "The post is a self-contained ticker table, so there is nothing else to find. The tickers I recognise are real, but a few cells are loose matches, and I did not check them against live fund pages.",
+  "resources": [],
+  "vault_notes": [
+   {
+    "path": "4. Archives/Evernote/Imp/Money - Investing Study, Investment Research.md",
+    "covers": "Mentions some of the same tickers (VTI, SCHD or similar). It is general investing research, not this cheat sheet."
+   }
+  ],
+  "ig_posts": [],
+  "steps": [
+   "Find your market category in the left column (for example US Stocks or Dividend).",
+   "Read across to the provider you use: Vanguard, iShares, State Street or Schwab.",
+   "Check the fund's expense ratio, index and holdings on the provider's page before buying."
+  ],
+  "not_found": "I did not open any fund pages to check each ticker. From memory, URTH (MSCI World) covers developed markets only, unlike VT or SPGM. SCHF is developed ex-US only, while IXUS and CWI include emerging markets. IJS is the S&P 600 Small-Cap Value fund, so a plain small-cap cell would normally be IJR. These are loose matches, not exact equivalents.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0348233,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-11_0925_DA0x3sMylvw/DA0x3sMylvw - SAVE FOR LATER_description.md"
+ },
+ "DCmkVFdsqFE": {
+  "verdict": "promo",
+  "verdict_reason": "This is a local clinic ad (IronHealth, Stamford area) for a free runner assessment, framed as a $197 value with limited spots. It's a lead-generation offer, not a public resource. I did no searching, per the promo rule.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The \"Learn More\" link wasn't in the post text, and I didn't search for it or check the clinic's offer. The vault had no matching notes, and I didn't search the saved posts.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.03375,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-09_2008_DCmkVFdsqFE/DCmkVFdsqFE_description.md"
+ },
+ "C_ihRpZNoD2": {
+  "verdict": "nothing_to_find",
+  "verdict_reason": "Street interview with one person's opinion on dating app economics. It points to no resource, tool or guide. The claim is a general opinion, and the \"99 men not getting matches\" figure is a rough guess with no data.",
+  "resources": [],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": null,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0115228,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-06_0903_C_ihRpZNoD2/C_ihRpZNoD2 - The economics of dating apps_description.md"
+ },
+ "DDGdpfBuGnQ": {
+  "verdict": "valid",
+  "verdict_reason": "The event was real: an NYC Small Business Services Jobs NYC Hiring Hall on Dec 12, 2024 at Polo Grounds Cornerstone Community Center. It has already passed. Another listing gives 9:30 AM–1:30 PM, not the reel's 10–2.",
+  "resources": [
+   {
+    "name": "Jobs NYC Hiring Hall, Polo Grounds, Dec 12, 2024 (SBS announcement)",
+    "url": "https://africainharlem.nyc/en/department-of-small-business-services-to-host-jobs-nyc-hiring-hall-in-harlem/",
+    "kind": "page",
+    "found_via": "search",
+    "verified": true,
+    "confidence": "high",
+    "evidence": "Opened it. It confirms the date, the venue, the SBS host and on-site interviews. It gives no time and no registration steps."
+   },
+   {
+    "name": "Jobs NYC Hiring Halls 2024",
+    "url": "https://jobs.nyc.gov/es/employers/services/jobs-nyc-hiring-halls-2024",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "medium",
+    "evidence": "Official jobs.nyc.gov page that turned up in search for the 2024 hiring halls. I did not open it. The on-screen jobs.nyc.gov link redirects to nyc.gov/employment."
+   }
+  ],
+  "vault_notes": [
+   {
+    "path": "3. Resources/0. note idea draft/2025 NY CITY JOBS AND CAREERS FAIR.md",
+    "covers": "Link to the cityjobs.nyc.gov job listings. Related to NYC job fairs, not this event."
+   }
+  ],
+  "ig_posts": [],
+  "steps": [],
+  "not_found": "The event is over, so there is nothing to attend. I did not open the official 2024 hiring halls page. I did not see the reel's 10 AM–2 PM time in any source. One listing says 9:30–1:30.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.05865860000000001,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-05_1456_DDGdpfBuGnQ/DDGdpfBuGnQ - Looking for your next big opportunity The Jobs NYC_description.md"
+ },
+ "DDF0d8Sx7MN": {
+  "verdict": "partly_valid",
+  "verdict_reason": "This is general money advice with no downloadable resource. The core idea (invest instead of holding cash) is sound, but the 70-30 rule is unrealistic for most people. The ~10% return is a long-run stock-market average, not a guarantee. Ameritrade no longer exists as a separate broker.",
+  "resources": [],
+  "vault_notes": [
+   {
+    "path": "ZAIHub/dating/search - Hinge chats and IG saves review.md",
+    "covers": "Mentions the creator (trellthetrainer) and his dating-advice reels, not this money reel."
+   },
+   {
+    "path": "ZAIHub/dating/search - dating tips - instagram saves.md",
+    "covers": "Lists another trellthetrainer reel (seven dates to test compatibility), not this money reel."
+   }
+  ],
+  "ig_posts": [
+   {
+    "shortcode": "DA0x3sMylvw",
+    "relation": "similar",
+    "why": "Table of Vanguard, iShares, State Street and Schwab ETF tickers, which helps with the 'open an investment account' tip."
+   }
+  ],
+  "steps": [],
+  "not_found": "No specific resource is named in the post. I did not run web checks on the figures, so the points above come from general knowledge. Savings rates vary by bank, and high-yield accounts pay far more than 0.24%.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0288915,
+  "checked_at": "2026-11-11",
+  "note": "2024-12-03_0936_DDF0d8Sx7MN/DDF0d8Sx7MN - these are very basic tips that almost anyone can_description.md"
+ },
+ "DfkgWJRE_FE": {
+  "verdict": "partly_valid",
+  "verdict_reason": "The prompt is given in full in the post, so it can be used as is. I couldn't find the original X post, and the claim that it fixes UX, DX and AX without breaking anything is the author's, not something I could check.",
+  "resources": [
+   {
+    "name": "Voxyz_ai (Vox) profile on Threadreader",
+    "url": "https://threadreaderapp.com/user/Voxyz_ai",
+    "kind": "page",
+    "found_via": "search",
+    "verified": false,
+    "confidence": "low",
+    "evidence": "Search surfaced the creator's thread archive, but I didn't open it and it didn't show this prompt."
+   }
+  ],
+  "vault_notes": [],
+  "ig_posts": [],
+  "steps": [
+   "Open your messiest project in Claude Code or Codex.",
+   "Paste: \"Find all of the implicit state machines in my app. Make the best decision that will elevate all three: the user experience (UX), developer experience (DX), and agent experience (AX) always, without breaking anything.\"",
+   "Review the proposed changes, and commit or use git so you can roll back before accepting edits."
+  ],
+  "not_found": "The original X post by @Voxyz_ai wasn't found, and I didn't check the prompt's results on a real project. The vault and the other saved posts have nothing on it.",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0584683,
+  "checked_at": "2026-11-11",
+  "note": "2026-11-11_1942_DfkgWJRE_FE/DfkgWJRE_FE_description.md"
  }
 }

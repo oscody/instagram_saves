@@ -1745,6 +1745,34 @@
   ]
  },
  {
+  "shortcode": "DfjpHfTBZIs",
+  "list": "comment_to_get",
+  "stage": "research",
+  "type": "gated",
+  "status": "needs_you",
+  "reason": "The creator's own curriculum (comment-gated, and her name isn't in the post). I couldn't confirm the department head's book list or the 700-page math textbook.",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/reel/DfjpHfTBZIs/",
+  "author": null,
+  "title": "Self-studying Stanford's symbolic systems curriculum",
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-11T14:15:18-05:00",
+  "updated_at": "2026-11-11T14:15:18-05:00",
+  "history": [
+   {
+    "at": "2026-11-11T14:15:18-05:00",
+    "event": "added: gated"
+   },
+   {
+    "at": "2026-11-11T14:15:18-05:00",
+    "event": "needs you: comment keyword unclear"
+   }
+  ]
+ },
+ {
   "shortcode": "DecEOALjiQc",
   "list": "comment_to_get",
   "stage": "research",
@@ -2509,6 +2537,30 @@
    {
     "at": "2026-11-10T18:38:32-05:00",
     "event": "added: not_found"
+   }
+  ]
+ },
+ {
+  "shortcode": "DDPl3Z3xc6Q",
+  "list": "other",
+  "stage": "download",
+  "type": "download_failed",
+  "status": "open",
+  "reason": "max() iterable argument is empty",
+  "keyword": null,
+  "focus": false,
+  "url": "https://instagram.com/p/DDPl3Z3xc6Q/",
+  "author": "audible",
+  "title": null,
+  "covered_by": [],
+  "next_retry": null,
+  "attempts": [],
+  "added_at": "2026-11-11T16:39:53-05:00",
+  "updated_at": "2026-11-11T16:39:53-05:00",
+  "history": [
+   {
+    "at": "2026-11-11T16:39:53-05:00",
+    "event": "added: download_failed"
    }
   ]
  },

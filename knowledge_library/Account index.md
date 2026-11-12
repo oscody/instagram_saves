@@ -1,11 +1,11 @@
 # Account index
 
-Built 2026-11-11 by `ig_automation/accounts.py` from 1309 posts across 894 accounts.
+Built 2026-11-11 by `ig_automation/accounts.py` from 1322 posts across 898 accounts.
 
 * **Useful** is the share of researched posts with a Valid or Partly valid verdict, out of the posts that had something to find. **Fun** posts (verdict Nothing to find: music, comedy, personal) are not counted against it.
 * **Comment to get it** counts posts that only send the resource after a comment or DM, and that research could not find anywhere else (from `ig_automation/output/dead_ends.json`).
 * **Last 90 days** counts saves since 2026-08-13.
-* 177 accounts have 2 or more saves and are listed below. 717 accounts have a single save (see `accounts.json`).
+* 181 accounts have 2 or more saves and are listed below. 717 accounts have a single save (see `accounts.json`).
 
 ## Best sources
 
@@ -31,8 +31,8 @@ Accounts with 2 or more saves in the last 90 days.
 | Account | Saves | Last 90 days | Useful | Valid | Promo or not valid | Comment to get it | Fun | Last saved | Main topics |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [githubsignals](https://instagram.com/githubsignals/) | 18 | 18 | 94% | 12 | 0 | 0 | 0 | 2026-10-28 | 3D Modeling and World Generation, Video Reconstruction, Motion Capture and Animation |
+| (unknown) | 21 | 17 | 65% | 6 | 6 | 1 | 1 | 2026-11-11 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [simplifyinai](https://instagram.com/simplifyinai/) | 16 | 15 | 100% | 9 | 0 | 0 | 0 | 2026-11-07 | Video Reconstruction, Motion Capture and Animation, 3D Modeling and World Generation |
-| (unknown) | 17 | 13 | 69% | 5 | 5 | 0 | 1 | 2026-11-11 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [dominatingtech](https://instagram.com/dominatingtech/) | 9 | 9 | 100% | 5 | 0 | 0 | 2 | 2026-10-29 | AI Study, Analysis and Reflection Prompts, Privacy, Security and Pentesting |
 | [godofprompt](https://instagram.com/godofprompt/) | 16 | 8 | 94% | 5 | 1 | 0 | 0 | 2026-11-09 | Prompting and AI Output Evaluation, AI Study, Analysis and Reflection Prompts |
 | [marc.kaz](https://instagram.com/marc.kaz/) | 16 | 6 | 100% | 8 | 0 | 0 | 0 | 2026-11-02 | AI Models, Research and Industry News, Robotics Learning and Research |
@@ -103,8 +103,8 @@ Accounts where most saves were entertainment or personal, with nothing to find. 
 
 | Account | Saves | Last 90 days | Useful | Valid | Promo or not valid | Comment to get it | Fun | Last saved | Main topics |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| (unknown) | 21 | 17 | 65% | 6 | 6 | 1 | 1 | 2026-11-11 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [githubsignals](https://instagram.com/githubsignals/) | 18 | 18 | 94% | 12 | 0 | 0 | 0 | 2026-10-28 | 3D Modeling and World Generation, Video Reconstruction, Motion Capture and Animation |
-| (unknown) | 17 | 13 | 69% | 5 | 5 | 0 | 1 | 2026-11-11 | Career Direction and Tech Market Commentary, Game Development and Games Showcase |
 | [simplifyinai](https://instagram.com/simplifyinai/) | 16 | 15 | 100% | 9 | 0 | 0 | 0 | 2026-11-07 | Video Reconstruction, Motion Capture and Animation, 3D Modeling and World Generation |
 | [godofprompt](https://instagram.com/godofprompt/) | 16 | 8 | 94% | 5 | 1 | 0 | 0 | 2026-11-09 | Prompting and AI Output Evaluation, AI Study, Analysis and Reflection Prompts |
 | [marc.kaz](https://instagram.com/marc.kaz/) | 16 | 6 | 100% | 8 | 0 | 0 | 0 | 2026-11-02 | AI Models, Research and Industry News, Robotics Learning and Research |
@@ -150,6 +150,7 @@ Accounts where most saves were entertainment or personal, with nothing to find. 
 | [jackroberts___](https://instagram.com/jackroberts___/) | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2026-10-28 | Agent Skills, Memory and Knowledge Libraries, Coding Agent Configuration and Workflows |
 | [pearlymichi](https://instagram.com/pearlymichi/) | 3 | 3 | 100% | 1 | 0 | 0 | 1 | 2026-10-28 | Recipes and Food Reviews |
 | [steel_people_](https://instagram.com/steel_people_/) | 3 | 3 | 100% | 1 | 0 | 0 | 1 | 2026-10-30 | Motivation and Mindset Commentary, Spirituality, Philosophy and Personal Development Claims |
+| [wellbycami](https://instagram.com/wellbycami/) | 3 | 3 | 50% | 1 | 0 | 0 | 1 | 2026-11-11 | Business Ideas, Startups and Management |
 | [yoiqino](https://instagram.com/yoiqino/) | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2026-09-11 | Video Reconstruction, Motion Capture and Animation, DIY Hardware and Sensing Prototypes |
 | [100xengineers](https://instagram.com/100xengineers/) | 3 | 2 | 100% | 2 | 0 | 0 | 0 | 2026-08-31 | Agent Skills, Memory and Knowledge Libraries, Writing and Storytelling |
 | [hey_molombo](https://instagram.com/hey_molombo/) | 3 | 2 | 100% | 0 | 0 | 0 | 0 | 2026-10-27 | Game Development and Games Showcase |
@@ -201,6 +202,7 @@ Accounts where most saves were entertainment or personal, with nothing to find. 
 | [realrobertgutierrez](https://instagram.com/realrobertgutierrez/) | 2 | 2 | 0% | 0 | 0 | 2 | 0 | 2026-10-11 | Paid Offers and Promotions Review |
 | [rosamichael.digital](https://instagram.com/rosamichael.digital/) | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2026-10-01 | 3D Modeling and World Generation |
 | [saintmethod](https://instagram.com/saintmethod/) | 2 | 2 | 100% | 0 | 0 | 0 | 1 | 2026-11-02 | Health and Wellness Claims Review |
+| [sheni_icg](https://instagram.com/sheni_icg/) | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2026-11-11 |  |
 | [spiralcontent.ai](https://instagram.com/spiralcontent.ai/) | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2026-11-09 | AI Career Training, Certifications and Roadmaps |
 | [taori_dev](https://instagram.com/taori_dev/) | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2026-09-08 | Game Development and Games Showcase |
 | [timessqkungfu](https://instagram.com/timessqkungfu/) | 2 | 2 | 100% | 1 | 0 | 0 | 0 | 2026-10-27 | Anime, Manga, Comics and Webnovels |
@@ -274,9 +276,11 @@ Accounts where most saves were entertainment or personal, with nothing to find. 
 | [stics.ai](https://instagram.com/stics.ai/) | 2 | 0 | 100% | 0 | 0 | 0 | 0 | 2026-05-29 | Web and App Development Practices, Job Interview and Offer Negotiation |
 | [swerikcodes](https://instagram.com/swerikcodes/) | 2 | 0 | 100% | 2 | 0 | 0 | 0 | 2025-12-28 | AI and Machine Learning Study Resources, Job, Training and Opportunity Listings |
 | [the_abundant_word](https://instagram.com/the_abundant_word/) | 2 | 0 | 100% | 1 | 0 | 0 | 1 | 2026-05-25 | Book and Reading Recommendations |
+| [thekoerneroffice](https://instagram.com/thekoerneroffice/) | 2 | 0 | 100% | 1 | 0 | 0 | 0 | 2025-05-31 |  |
 | [theschoolofhardknockz](https://instagram.com/theschoolofhardknockz/) | 2 | 0 | 100% | 0 | 0 | 0 | 1 | 2026-07-16 | Business Ideas, Startups and Management, Motivation and Mindset Commentary |
 | [tomiwabankole__](https://instagram.com/tomiwabankole__/) | 2 | 0 | 100% | 0 | 0 | 0 | 0 | 2026-05-11 | Conversation Skills and Icebreakers, Dating and Relationship Advice |
 | [tpadumke](https://instagram.com/tpadumke/) | 2 | 0 | 100% | 0 | 0 | 0 | 0 | 2026-05-06 | AI Services and Business Automation, Coding Agent Configuration and Workflows |
+| [trellthetrainer](https://instagram.com/trellthetrainer/) | 2 | 0 | 100% | 0 | 0 | 0 | 1 | 2026-03-21 | Dating and Relationship Advice |
 | [v.i.s.h.ai](https://instagram.com/v.i.s.h.ai/) | 2 | 0 | 100% | 2 | 0 | 0 | 0 | 2026-03-22 | Coding Agent Configuration and Workflows, Career Direction and Tech Market Commentary |
 | [vyzual.ai](https://instagram.com/vyzual.ai/) | 2 | 0 | 100% | 0 | 0 | 0 | 0 | 2026-06-18 | Agent Frameworks and AI Tool References |
 | [writingwithv](https://instagram.com/writingwithv/) | 2 | 0 | 0% | 0 | 0 | 2 | 0 | 2026-06-05 | Writing and Storytelling |
